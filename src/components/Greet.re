@@ -22,7 +22,7 @@ module Styles = {
 let make = (~name) => {
   <div className=Styles.container>
     <p className=Styles.text>
-      {React.string({j|👋 Welcome $name! You can edit me in |j})}
+      {React.string({j|👋 Welcome $name! \\(e^-\\) You can edit me in |j})}
       <code> {React.string("src/components/Greet.re")} </code>
     </p>
     <a
