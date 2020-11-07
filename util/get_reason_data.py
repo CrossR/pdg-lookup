@@ -18,6 +18,11 @@ def option(val, quote=False):
         return f"Some({val})"
     return "None"
 
+def wrap_minus(num):
+    if num < 0:
+        return f"({num})"
+    return num
+
 
 def write_particle(particle_file, p: Particle):
     pdg = p.pdgid.__int__()
@@ -32,15 +37,15 @@ def write_particle(particle_file, p: Particle):
     anti = "true" if p.anti_flag else "false"
 
     particle_file.write("\n".join([
-        f"{{",
-        f"pdg: {pdg},",
-        f"name: {quoted(name)},",
-        f"mass: {option(mass)},",
-        f"charge: {option(charge)},",
-        f"anti: {anti},",
-        f"latex: {quoted(escape_latex(latex))},",
-        f"eventGenName: {option(event_gen_name, quote=True)},",
-        f"}},",
+        f"  {{",
+        f"    pdg: {wrap_minus(pdg)},",
+        f"    name: {quoted(name)},",
+        f"    mass: {option(mass)},",
+        f"    charge: {option(charge)},",
+        f"    anti: {anti},",
+        f"    latex: {quoted(escape_latex(latex))},",
+        f"    eventGenName: {option(event_gen_name, quote=True)},",
+        f"  }},",
         ""
     ]))
 
