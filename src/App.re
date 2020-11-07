@@ -3,7 +3,7 @@ let make = () => {
   let route = Router.useRouter();
 
   switch (route) {
-  | Some(Home) => <PageHome />
+  | Some(Home(pdg)) => <PageHome pdg />
   | None => <PageNotFound />
   };
 };

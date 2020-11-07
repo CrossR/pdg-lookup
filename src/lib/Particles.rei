@@ -1,0 +1,1 @@
+let particleMap: Belt.Map.Int.t(ParticleInfo.t);

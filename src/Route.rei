@@ -1,5 +1,5 @@
 type t =
-  | Home;
+  | Home(option(int));
 
 let fromUrl: ReasonReactRouter.url => option(t);
 

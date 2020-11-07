@@ -3,8 +3,8 @@ module Styles = {
 
   let container =
     style([
+      alignItems(`center),
       textAlign(`center),
-      marginTop(rem(3.)),
       marginLeft(`percent(10.0)),
       marginRight(`percent(10.0)),
     ]);
@@ -13,14 +13,13 @@ module Styles = {
     style([
       fontSize(rem(1.875)),
       color(hex("1a202c")),
-      marginBottom(rem(1.)),
     ]);
 
-  let latex =
+  let latexText =
     style([
-      fontSize(rem(3.0)),
+      fontSize(rem(6.0)),
       color(hex("1a202c")),
-      marginBottom(rem(1.)),
+      alignItems(`center)
     ]);
 
   let link =
@@ -30,10 +29,13 @@ module Styles = {
       color(hex("4299e1")),
     ]);
 
-  let latexBlock =
-    style([float(`left), width(`percent(30.0)), textAlign(`right)]);
+  let latexContainer =
+    style([Css.float(`left), width(`percent(35.0)), alignItems(`center)]);
 
-  let infoBlock = style([float(`left), width(`percent(70.0))]);
+  let infoBlock = style([Css.float(`left), width(`percent(65.0))]);
+
+  let infoLineName = style([textAlign(`left), fontWeight(`semiBold)]);
+  let infoLineProp = style([textAlign(`left)]);
 
   let gridContainer =
     style([
@@ -46,6 +48,26 @@ module Styles = {
     ]);
 };
 
+let getPropertyLine = pair => {
+  let name = fst(pair);
+  let property = snd(pair);
+
+  MaterialUi.(
+    [|
+    <Grid item=true xs=Grid.Xs._6>
+      <p className=Styles.infoLineName>
+        {React.string(name)}
+      </p>
+    </Grid>,
+    <Grid item=true xs=Grid.Xs._6>
+      <p className=Styles.infoLineProp>
+        {React.string(property)}
+      </p>
+    </Grid>
+    |]
+  )->React.array
+};
+
 [@react.component]
 let make = (~particle) => {
   <MaterialUi_ThemeProvider
@@ -55,26 +77,16 @@ let make = (~particle) => {
          <p className=Styles.name>
            {React.string(ParticleInfo.getName(particle))}
          </p>
-         <div className=Styles.latexBlock>
-           <p className=Styles.latex>
-             {React.string("\\(" ++ ParticleInfo.getLatex(particle) ++ "\\)")}
+         <div className=Styles.latexContainer>
+           <p className=Styles.latexText>
+             {React.string(ParticleInfo.getLatex(particle))}
            </p>
          </div>
          <div className=Styles.infoBlock>
-           <Grid container=true alignItems=`Center spacing=`V1>
-             <Grid item=true xs=Grid.Xs._12>
-               {React.string("Properties")}
-             </Grid>
-             <Grid item=true xs=Grid.Xs._6>
-               {React.string(
-                  "\\("
-                  ++ Js.Float.toString(ParticleInfo.getMass(particle))
-                  ++ "\\)",
-                )}
-             </Grid>
-             <Grid item=true xs=Grid.Xs._6>
-               {React.string(ParticleInfo.getEventGenName(particle))}
-             </Grid>
+           <Grid container=true alignItems=`Center justify=`Flex_Start>
+             {ParticleInfo.getInfoPairs(particle) -> Belt.Array.map(p => 
+              getPropertyLine(p)
+             )->React.array}
            </Grid>
          </div>
        </div>

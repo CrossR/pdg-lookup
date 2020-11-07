@@ -16,17 +16,16 @@ let makeMap = particles => {
 let getPdg = particle => particle.pdg;
 let getName = particle => particle.name;
 let getMass = particle => particle.mass;
-let geCharge = particle => particle.charge;
+let getCharge = particle => particle.charge;
 let isAnti = particle => particle.anti;
-let getLatex = particle => particle.latex;
+let getLatex = particle => "\\(" ++ particle.latex ++ "\\)";
 let getEventGenName = particle => particle.eventGenName;
 
-let electron = {
-  pdg: 11,
-  name: "Electron",
-  mass: 0.5109989461,
-  charge: 1,
-  anti: false,
-  latex: "e^-",
-  eventGenName: "e",
+let getInfoPairs = p => {
+  [|
+    ("PDG Code", p |> getPdg |> Belt.Int.toString),
+    ("Name", getName(p) ++ " (" ++ getEventGenName(p) ++ ")"),
+    ("Mass", p |> getMass |> Belt.Float.toString),
+    ("Charge", p |> getCharge |> Belt.Int.toString),
+  |];
 };

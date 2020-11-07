@@ -1,9 +1,10 @@
 type t =
-  | Home;
+  | Home(option(int));
 
 let fromUrl = (url: ReasonReactRouter.url) =>
   switch (url.path) {
-  | [] => Some(Home)
+  | [] => Some(Home(Some(11)))
+  | [i] => Some(Home(Belt.Int.fromString(i)))
   | _ => None
   };
 
