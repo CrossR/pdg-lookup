@@ -19,14 +19,13 @@ module Styles = {
 };
 
 [@react.component]
-let make = (~name) => {
+let make = (~particle) => {
   <div className=Styles.container>
     <p className=Styles.text>
-      {React.string({j|👋 Welcome $name! \\(e^-\\) You can edit me in |j})}
-      <code> {React.string("src/components/Greet.re")} </code>
+      {React.string(ParticleInfo.getName(particle))}
     </p>
-    <a className=Styles.link href="https://reasonml.github.io/reason-react/">
-      {React.string("Learn Reason React")}
-    </a>
+    <p className=Styles.text>
+      {React.string("\\(" ++ ParticleInfo.getLatex(particle) ++ "\\)")}
+    </p>
   </div>;
 };

@@ -1,4 +1,4 @@
 [@react.component]
 let make = () => {
-  <Greet name="Visitor" />;
+  <Particle particle=ParticleInfo.electron />;
 };
