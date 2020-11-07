@@ -1,6 +1,6 @@
 # PDG Lookup
 
-[![Actions Status](https://github.com//pdg-lookup/workflows/CI/badge.svg)](https://github.com//pdg-lookup/actions)
+[![Actions Status](https://github.com/CrossR/pdg-lookup/workflows/CI/badge.svg)](https://github.com/CrossR/pdg-lookup/actions)
 
 PDG Code Lookup
 
