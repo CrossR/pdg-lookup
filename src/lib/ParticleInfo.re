@@ -21,11 +21,24 @@ let isAnti = particle => particle.anti;
 let getLatex = particle => "\\(" ++ particle.latex ++ "\\)";
 let getEventGenName = particle => particle.eventGenName;
 
+let getFullName = particle => {
+  switch (getEventGenName(particle)) {
+  | Some(e) => getName(particle) ++ " (" ++ e ++ ")"
+  | None => getName(particle)
+  };
+};
+
+let getUnknownQuantity = quantity =>
+  switch (quantity) {
+  | Some(m) => Belt.Float.toString(m)
+  | None => "?"
+  };
+
 let getInfoPairs = p => {
   [|
     ("PDG Code", p |> getPdg |> Belt.Int.toString),
-    ("Name", getName(p) ++ " (" ++ ")"),
-    // ("Mass", p |> getMass |> Belt.Float.toString),
-    // ("Charge", p |> getCharge |> Belt.Int.toString),
+    ("Name", getFullName(p)),
+    ("Mass", getUnknownQuantity(getMass(p)) ++ " MeV"),
+    ("Charge", getUnknownQuantity(getCharge(p))),
   |];
 };
