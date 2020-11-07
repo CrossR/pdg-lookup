@@ -9,17 +9,13 @@ module Styles = {
       marginRight(`percent(10.0)),
     ]);
 
-  let name =
-    style([
-      fontSize(rem(1.875)),
-      color(hex("1a202c")),
-    ]);
+  let name = style([fontSize(rem(1.875)), color(hex("1a202c"))]);
 
   let latexText =
     style([
       fontSize(rem(6.0)),
       color(hex("1a202c")),
-      alignItems(`center)
+      alignItems(`center),
     ]);
 
   let link =
@@ -54,18 +50,15 @@ let getPropertyLine = pair => {
 
   MaterialUi.(
     [|
-    <Grid item=true xs=Grid.Xs._6>
-      <p className=Styles.infoLineName>
-        {React.string(name)}
-      </p>
-    </Grid>,
-    <Grid item=true xs=Grid.Xs._6>
-      <p className=Styles.infoLineProp>
-        {React.string(property)}
-      </p>
-    </Grid>
+      <Grid item=true xs=Grid.Xs._6>
+        <p className=Styles.infoLineName> {React.string(name)} </p>
+      </Grid>,
+      <Grid item=true xs=Grid.Xs._6>
+        <p className=Styles.infoLineProp> {React.string(property)} </p>
+      </Grid>,
     |]
-  )->React.array
+  )
+  ->React.array;
 };
 
 [@react.component]
@@ -84,9 +77,9 @@ let make = (~particle) => {
          </div>
          <div className=Styles.infoBlock>
            <Grid container=true alignItems=`Center justify=`Flex_Start>
-             {ParticleInfo.getInfoPairs(particle) -> Belt.Array.map(p => 
-              getPropertyLine(p)
-             )->React.array}
+             {ParticleInfo.getInfoPairs(particle)
+              ->Belt.Array.map(p => getPropertyLine(p))
+              ->React.array}
            </Grid>
          </div>
        </div>
