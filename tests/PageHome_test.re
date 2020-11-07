@@ -9,9 +9,9 @@ describe("Home component", () => {
     Utils.act(() => ReasonReactRouter.push("/"));
 
     wrapper
-    |> getByText(~matcher=`Str("Learn Reason React"))
+    |> getByText(~matcher=`Str("Electron"))
     |> Webapi.Dom.Element.innerHTML
     |> expect
-    |> toEqual("Learn Reason React");
+    |> toEqual("Electron");
   })
 });
