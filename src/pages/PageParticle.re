@@ -1,10 +1,16 @@
 [@react.component]
 let make = (~pdg) => {
-  switch (Belt.Map.String.get(Particles.particleMap, pdg)) {
-  | Some(p) => <Particle particle=p />
+  switch (pdg) {
+  | Some(pdgCode) => switch (Belt.Map.Int.get(ParticleData.particleMap, pdgCode)) {
+    | Some(p) => <Particle particle=p />
+    | None =>
+      <Particle
+        particle={Belt.Map.Int.getExn(ParticleData.particleMap, 11)}
+      />
+  };
   | None =>
     <Particle
-      particle={Belt.Map.String.getExn(Particles.particleMap, "11")}
+      particle={Belt.Map.Int.getExn(ParticleData.particleMap, 11)}
     />
   };
 };

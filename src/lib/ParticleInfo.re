@@ -1,11 +1,11 @@
 type t = {
   pdg: int,
   name: string,
-  mass: float,
-  charge: int,
+  mass: option(float),
+  charge: option(float),
   anti: bool,
   latex: string,
-  eventGenName: string,
+  eventGenName: option(string),
 };
 
 let makeMap = particles => {
@@ -24,8 +24,8 @@ let getEventGenName = particle => particle.eventGenName;
 let getInfoPairs = p => {
   [|
     ("PDG Code", p |> getPdg |> Belt.Int.toString),
-    ("Name", getName(p) ++ " (" ++ getEventGenName(p) ++ ")"),
-    ("Mass", p |> getMass |> Belt.Float.toString),
-    ("Charge", p |> getCharge |> Belt.Int.toString),
+    ("Name", getName(p) ++ " (" ++ ")"),
+    // ("Mass", p |> getMass |> Belt.Float.toString),
+    // ("Charge", p |> getCharge |> Belt.Int.toString),
   |];
 };
