@@ -1,10 +1,10 @@
 type t =
-  | Home(option(int));
+  | ParticleFound(option(int));
 
 let fromUrl = (url: ReasonReactRouter.url) =>
   switch (url.path) {
-  | [] => Some(Home(Some(11)))
-  | [i] => Some(Home(Belt.Int.fromString(i)))
+  | [] => Some(ParticleFound(Some(11)))
+  | [i] => Some(ParticleFound(Belt.Int.fromString(i)))
   | _ => None
   };
 
