@@ -5,15 +5,15 @@ module Styles = {
     style([
       alignItems(`center),
       textAlign(`center),
-      marginLeft(`percent(10.0)),
-      marginRight(`percent(10.0)),
+      marginLeft(`percent(15.0)),
+      marginRight(`percent(15.0)),
     ]);
 
   let name = style([fontSize(rem(1.875)), color(hex("1a202c"))]);
 
   let latexText =
     style([
-      fontSize(rem(6.0)),
+      fontSize(rem(5.0)),
       color(hex("1a202c")),
       alignItems(`center),
     ]);
@@ -63,6 +63,7 @@ let getPropertyLine = pair => {
 
 [@react.component]
 let make = (~particle) => {
+
   <MaterialUi_ThemeProvider
     theme={MaterialUi_Theme.create(MaterialUi_ThemeOptions.make())}>
     {MaterialUi.(

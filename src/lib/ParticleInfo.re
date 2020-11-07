@@ -19,6 +19,7 @@ let getMass = particle => particle.mass;
 let getCharge = particle => particle.charge;
 let isAnti = particle => particle.anti;
 let getLatex = particle => "\\(" ++ particle.latex ++ "\\)";
+let getRawLatex = particle => particle.latex;
 let getEventGenName = particle => particle.eventGenName;
 
 let getFullName = particle => {
