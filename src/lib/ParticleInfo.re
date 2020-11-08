@@ -1,11 +1,15 @@
 type t = {
   pdg: int,
   name: string,
-  mass: option(float),
-  charge: option(float),
-  anti: bool,
   latex: string,
-  eventGenName: option(string),
+  mass: option(float),
+  width: option(float),
+  charge: option(float),
+  iValue: option(float),
+  gValue: int,
+  cValue: int,
+  pValue: int,
+  anti: bool,
 };
 
 let makeMap = particles => {
@@ -20,13 +24,9 @@ let getCharge = particle => particle.charge;
 let isAnti = particle => particle.anti;
 let getLatex = particle => "\\(" ++ particle.latex ++ "\\)";
 let getRawLatex = particle => particle.latex;
-let getEventGenName = particle => particle.eventGenName;
 
-let getFullName = particle => {
-  switch (getEventGenName(particle)) {
-  | Some(e) => getName(particle) ++ " (" ++ e ++ ")"
-  | None => getName(particle)
-  };
+let getPdgName = particle => {
+  "PDG " ++ Belt.Int.toString(getPdg(particle)) ++ ": " ++ getName(particle)
 };
 
 let getUnknownQuantity = quantity =>
@@ -35,11 +35,11 @@ let getUnknownQuantity = quantity =>
   | None => "?"
   };
 
-let getInfoPairs = p => {
+let getInfoPairsForGrid = p => {
+  MaterialUi_Grid.Xs.(
   [|
-    ("PDG Code", p |> getPdg |> Belt.Int.toString),
-    ("Name", getFullName(p)),
-    ("Mass", getUnknownQuantity(getMass(p)) ++ " MeV"),
-    ("Charge", getUnknownQuantity(getCharge(p))),
-  |];
+    (("Mass", getUnknownQuantity(getMass(p)) ++ " MeV"), (_1, _3)),
+    (("Charge", getUnknownQuantity(getCharge(p))), (_1, _1)),
+  |]
+  )
 };

@@ -27,28 +27,24 @@ def wrap_minus(num):
 
 
 def write_particle(particle_file, p: Particle):
-    pdg = p.pdgid.__int__()
-    name = p.name
-    latex = p.latex_name
-    try:
-        event_gen_name = p.evtgen_name
-    except:
-        event_gen_name = None
-    mass = p.mass
-    charge = p.charge
+
     anti = "true" if p.anti_flag else "false"
 
     particle_file.write(
         "\n".join(
             [
                 f"  {{",
-                f"    pdg: {wrap_minus(pdg)},",
-                f"    name: {quoted(name)},",
-                f"    mass: {option(mass)},",
-                f"    charge: {option(charge)},",
+                f"    pdg: {wrap_minus(int(p.pdgid))},",
+                f"    name: {quoted(p.name)},",
+                f"    mass: {option(p.mass)},",
+                f"    width: {option(p.width)},",
+                f"    charge: {option(p.charge)},",
+                f"    iValue: {option(p.I)},",
+                f"    gValue: {int(p.G)},",
+                f"    cValue: {int(p.C)},",
+                f"    pValue: {int(p.P)},",
                 f"    anti: {anti},",
-                f"    latex: {quoted(escape_latex(latex))},",
-                f"    eventGenName: {option(event_gen_name, quote=True)},",
+                f"    latex: {quoted(escape_latex(p.latex_name))},",
                 f"  }},",
                 "",
             ]

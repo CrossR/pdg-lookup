@@ -44,16 +44,18 @@ module Styles = {
     ]);
 };
 
-let getPropertyLine = pair => {
-  let name = fst(pair);
-  let property = snd(pair);
+let getPropertyLine = (infoSizePair) => {
+  let info = fst(infoSizePair);
+  let size = snd(infoSizePair);
+  let name = fst(info);
+  let property = snd(info);
 
   MaterialUi.(
     [|
-      <Grid item=true xs=Grid.Xs._6>
+      <Grid item=true xs=fst(size)>
         <p className=Styles.infoLineName> {React.string(name)} </p>
       </Grid>,
-      <Grid item=true xs=Grid.Xs._6>
+      <Grid item=true xs=snd(size)>
         <p className=Styles.infoLineProp> {React.string(property)} </p>
       </Grid>,
     |]
@@ -69,7 +71,7 @@ let make = (~particle) => {
     {MaterialUi.(
        <div className=Styles.container>
          <p className=Styles.name>
-           {React.string(ParticleInfo.getName(particle))}
+           {React.string(ParticleInfo.getPdgName(particle))}
          </p>
          <div className=Styles.latexContainer>
            <p className=Styles.latexText>
@@ -77,9 +79,9 @@ let make = (~particle) => {
            </p>
          </div>
          <div className=Styles.infoBlock>
-           <Grid container=true alignItems=`Center justify=`Flex_Start>
-             {ParticleInfo.getInfoPairs(particle)
-              ->Belt.Array.map(p => getPropertyLine(p))
+           <Grid container=true alignItems=`Center>
+             {ParticleInfo.getInfoPairsForGrid(particle)
+              ->Belt.Array.map(pair => getPropertyLine(pair))
               ->React.array}
            </Grid>
          </div>
