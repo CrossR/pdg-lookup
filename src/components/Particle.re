@@ -1,13 +1,7 @@
 module Styles = {
   open Css;
 
-  let container =
-    style([
-      alignItems(`center),
-      textAlign(`center),
-      marginLeft(`percent(15.0)),
-      marginRight(`percent(15.0)),
-    ]);
+  let container = style([alignItems(`center), textAlign(`center)]);
 
   let name = style([fontSize(rem(1.875)), color(hex("1a202c"))]);
 
@@ -16,6 +10,7 @@ module Styles = {
       fontSize(rem(5.0)),
       color(hex("1a202c")),
       alignItems(`center),
+      paddingRight(`px(50)),
     ]);
 
   let link =
@@ -35,7 +30,7 @@ module Styles = {
 
   let gridContainer =
     style([
-      width(`percent(100.0)),
+      width(`percent(50.0)),
       height(`percent(100.0)),
       maxWidth(`px(980)),
       margin(`auto),
@@ -44,7 +39,7 @@ module Styles = {
     ]);
 };
 
-let getPropertyLine = (infoSizePair) => {
+let getPropertyLine = infoSizePair => {
   let info = fst(infoSizePair);
   let size = snd(infoSizePair);
   let name = fst(info);
@@ -52,10 +47,10 @@ let getPropertyLine = (infoSizePair) => {
 
   MaterialUi.(
     [|
-      <Grid item=true xs=fst(size)>
+      <Grid item=true xs={fst(size)}>
         <p className=Styles.infoLineName> {React.string(name)} </p>
       </Grid>,
-      <Grid item=true xs=snd(size)>
+      <Grid item=true xs={snd(size)}>
         <p className=Styles.infoLineProp> {React.string(property)} </p>
       </Grid>,
     |]
@@ -65,26 +60,22 @@ let getPropertyLine = (infoSizePair) => {
 
 [@react.component]
 let make = (~particle) => {
-
   <MaterialUi_ThemeProvider
     theme={MaterialUi_Theme.create(MaterialUi_ThemeOptions.make())}>
     {MaterialUi.(
-       <div className=Styles.container>
-         <p className=Styles.name>
-           {React.string(ParticleInfo.getPdgName(particle))}
-         </p>
-         <div className=Styles.latexContainer>
-           <p className=Styles.latexText>
-             {React.string(ParticleInfo.getLatex(particle))}
-           </p>
-         </div>
-         <div className=Styles.infoBlock>
-           <Grid container=true alignItems=`Center>
+       <div id="gridContainer" className=Styles.container>
+         <Grid container=true spacing=`V0>
+           <Grid item=true>
+             <p className=Styles.latexText>
+               {React.string(ParticleInfo.getLatex(particle))}
+             </p>
+           </Grid>
+           <Grid sm=Grid.Sm._true item=true container=true>
              {ParticleInfo.getInfoPairsForGrid(particle)
               ->Belt.Array.map(pair => getPropertyLine(pair))
               ->React.array}
            </Grid>
-         </div>
+         </Grid>
        </div>
      )}
   </MaterialUi_ThemeProvider>;
