@@ -21,41 +21,28 @@ module Styles = {
     ]);
 
   let latexContainer =
-    style([Css.float(`left), width(`percent(35.0)), alignItems(`center)]);
+    style([Css.float(`left), alignItems(`center)]);
 
-  let infoBlock = style([Css.float(`left), width(`percent(65.0))]);
+  let infoBlock =
+    style([Css.float(`left), maxWidth(`px(250))]);
 
   let infoLineName = style([textAlign(`left), fontWeight(`semiBold)]);
   let infoLineProp = style([textAlign(`left)]);
 
   let gridContainer =
-    style([
-      width(`percent(50.0)),
-      height(`percent(100.0)),
-      maxWidth(`px(980)),
-      margin(`auto),
-      margin(`px(30)),
-      alignContent(`center),
-    ]);
+    style([maxWidth(`px(500)), margin(`auto), alignContent(`center)]);
 };
 
-let getPropertyLine = infoSizePair => {
-  let info = fst(infoSizePair);
-  let size = snd(infoSizePair);
-  let name = fst(info);
-  let property = snd(info);
+let getTableRow = namePropetryPair => {
+  let name = fst(namePropetryPair);
+  let property = snd(namePropetryPair);
 
   MaterialUi.(
-    [|
-      <Grid item=true xs={fst(size)}>
-        <p className=Styles.infoLineName> {React.string(name)} </p>
-      </Grid>,
-      <Grid item=true xs={snd(size)}>
-        <p className=Styles.infoLineProp> {React.string(property)} </p>
-      </Grid>,
-    |]
-  )
-  ->React.array;
+    <TableRow>
+      <TableCell> name </TableCell>
+      <TableCell> property </TableCell>
+    </TableRow>
+  );
 };
 
 [@react.component]
@@ -63,19 +50,27 @@ let make = (~particle) => {
   <MaterialUi_ThemeProvider
     theme={MaterialUi_Theme.create(MaterialUi_ThemeOptions.make())}>
     {MaterialUi.(
-       <div id="gridContainer" className=Styles.container>
-         <Grid container=true spacing=`V0>
-           <Grid item=true>
-             <p className=Styles.latexText>
-               {React.string(ParticleInfo.getLatex(particle))}
-             </p>
-           </Grid>
-           <Grid sm=Grid.Sm._true item=true container=true>
-             {ParticleInfo.getInfoPairsForGrid(particle)
-              ->Belt.Array.map(pair => getPropertyLine(pair))
-              ->React.array}
-           </Grid>
-         </Grid>
+       <div className=Styles.container>
+         <div className=Styles.latexContainer>
+           <p className=Styles.latexText>
+             {React.string(ParticleInfo.getLatex(particle))}
+           </p>
+         </div>
+         <div className=Styles.infoBlock>
+           <Table size=`Small>
+             <TableHead>
+               <TableRow>
+                 <TableCell> "Property" </TableCell>
+                 <TableCell> "Value" </TableCell>
+               </TableRow>
+             </TableHead>
+             <TableBody>
+               {ParticleInfo.getNameValuePair(particle)
+                ->Belt.Array.map(pair => getTableRow(pair))
+                ->React.array}
+             </TableBody>
+           </Table>
+         </div>
        </div>
      )}
   </MaterialUi_ThemeProvider>;

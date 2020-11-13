@@ -39,15 +39,13 @@ let getUnknownQuantity = quantity =>
   | None => " ?"
   };
 
-let getInfoPairsForGrid = p => {
-  MaterialUi_Grid.Xs.(
-    [|
-      (("Mass", getUnknownQuantity(getMass(p)) ++ " MeV"), (_1, _11)),
-      (("Charge", getUnknownQuantity(getCharge(p))), (_1, _11)),
-      (("I", getUnknownQuantity(getI(p))), (_1, _1)),
-      (("G", getUnknownQuantity(getCharge(p))), (_1, _9)),
-      (("C", getUnknownQuantity(getCharge(p))), (_1, _1)),
-      (("P", getUnknownQuantity(getCharge(p))), (_1, _9)),
-    |]
-  );
+let getNameValuePair = p => {
+  [|
+    ("Mass", getUnknownQuantity(getMass(p))),
+    ("Charge", getUnknownQuantity(getCharge(p))),
+    ("I", getUnknownQuantity(getI(p))),
+    ("G", getG(p) |> Belt.Int.toString),
+    ("C", getC(p) |> Belt.Int.toString),
+    ("P", getP(p) |> Belt.Int.toString),
+  |];
 };
