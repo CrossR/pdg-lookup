@@ -20,6 +20,7 @@ let makeMap = particles => {
 let getPdg = particle => particle.pdg;
 let getName = particle => particle.name;
 let getMass = particle => particle.mass;
+let getWidth = particle => particle.width;
 let getCharge = particle => particle.charge;
 let getI = particle => particle.iValue;
 let getG = particle => particle.gValue;
@@ -28,6 +29,9 @@ let getP = particle => particle.pValue;
 let isAnti = particle => particle.anti;
 let getLatex = particle => "\\(" ++ particle.latex ++ "\\)";
 let getRawLatex = particle => particle.latex;
+
+let invert = (particle, particles) =>
+  Belt.Map.Int.get(particles, (-1) * getPdg(particle));
 
 let getPdgName = particle => {
   "PDG " ++ Belt.Int.toString(getPdg(particle)) ++ ": " ++ getName(particle);
@@ -43,8 +47,9 @@ let getNameValuePair = p => {
   [|
     ("Mass", getUnknownQuantity(getMass(p))),
     ("Charge", getUnknownQuantity(getCharge(p))),
-    ("I", getUnknownQuantity(getI(p))),
-    ("G", getG(p) |> Belt.Int.toString),
+    ("Width", getUnknownQuantity(getWidth(p))),
+    // ("I", getUnknownQuantity(getI(p))),
+    // ("G", getG(p) |> Belt.Int.toString),
     ("C", getC(p) |> Belt.Int.toString),
     ("P", getP(p) |> Belt.Int.toString),
   |];

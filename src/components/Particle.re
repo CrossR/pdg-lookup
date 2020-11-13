@@ -20,11 +20,9 @@ module Styles = {
       color(hex("4299e1")),
     ]);
 
-  let latexContainer =
-    style([Css.float(`left), alignItems(`center)]);
+  let latexContainer = style([Css.float(`left), alignItems(`center)]);
 
-  let infoBlock =
-    style([Css.float(`left), maxWidth(`px(250))]);
+  let infoBlock = style([Css.float(`left), maxWidth(`px(250))]);
 
   let infoLineName = style([textAlign(`left), fontWeight(`semiBold)]);
   let infoLineProp = style([textAlign(`left)]);
@@ -39,7 +37,7 @@ let getTableRow = namePropetryPair => {
 
   MaterialUi.(
     <TableRow>
-      <TableCell> name </TableCell>
+      <TableCell variant=`Head> name </TableCell>
       <TableCell> property </TableCell>
     </TableRow>
   );
