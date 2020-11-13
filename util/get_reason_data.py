@@ -12,7 +12,7 @@ def quoted(str):
 
 
 def option(val, quote=False):
-    if val:
+    if val is not None:
         if quote:
             return f"Some({quoted(val)})"
 
