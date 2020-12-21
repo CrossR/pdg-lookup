@@ -50,7 +50,7 @@ let getNameValuePair = p => {
     ("Width", getUnknownQuantity(getWidth(p))),
     // ("I", getUnknownQuantity(getI(p))),
     // ("G", getG(p) |> Belt.Int.toString),
-    ("C", getC(p) |> Belt.Int.toString),
-    ("P", getP(p) |> Belt.Int.toString),
+    // ("C", getC(p) |> Belt.Int.toString),
+    // ("P", getP(p) |> Belt.Int.toString),
   |];
 };
