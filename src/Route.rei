@@ -1,5 +1,5 @@
 type t =
-  | ParticleFound(option(int));
+  | Particle;
 
 let fromUrl: ReasonReactRouter.url => option(t);
 

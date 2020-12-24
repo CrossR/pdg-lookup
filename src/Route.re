@@ -1,12 +1,7 @@
 type t =
-  | ParticleFound(option(int));
+  | Particle;
 
-let fromUrl = (url: ReasonReactRouter.url) =>
-  switch (url.path) {
-  | [] => Some(ParticleFound(Some(11)))
-  | [i] => Some(ParticleFound(Belt.Int.fromString(i)))
-  | _ => None
-  };
+let fromUrl = (_: ReasonReactRouter.url) => Some(Particle);
 
 type t';
 
