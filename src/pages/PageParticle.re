@@ -13,13 +13,13 @@ type state = {
   result: option(PdgLookup.ParticleInfo.t),
 };
 
-let lookupParticle = (state, action) => {
-  switch (Belt.Int.fromString(action)) {
+let lookupParticle = (_, search) => {
+  switch (Belt.Int.fromString(search)) {
   | Some(pdg) => {
-      ...state,
+      search,
       result: Belt.Map.Int.get(ParticleData.particleMap, pdg),
     }
-  | None => {...state, result: None}
+  | None => {search, result: None}
   };
 };
 
