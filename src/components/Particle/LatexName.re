@@ -9,12 +9,12 @@ module Styles = {
     ]);
 };
 
+[@bs.val] external katexRenderToString: string => string = "katex.renderToString";
+
 [@react.component]
 let make = (~particle) => {
   <MaterialUi_ThemeProvider
     theme={MaterialUi_Theme.create(MaterialUi_ThemeOptions.make())}>
-      <p className=Styles.latexText>
-        {React.string(ParticleInfo.getLatex(particle))}
-      </p>
+      <div className=Styles.latexText dangerouslySetInnerHTML={"__html": katexRenderToString(ParticleInfo.getRawLatex(particle))} />
   </MaterialUi_ThemeProvider>;
 };
