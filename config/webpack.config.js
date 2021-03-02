@@ -44,7 +44,7 @@ module.exports = {
     path: isEnvProduction ? paths.appBuild : undefined,
     // Add /* filename */ comments to generated require()s in the output.
     pathinfo: isEnvDevelopment,
-    publicPath: '/',
+    publicPath: '/pdg-lookup/',
   },
   optimization: {
     minimize: isEnvProduction,
