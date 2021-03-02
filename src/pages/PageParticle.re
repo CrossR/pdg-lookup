@@ -17,9 +17,12 @@ let lookupParticle = (_, search) => {
   switch (Belt.Int.fromString(search)) {
   | Some(pdg) => {
       search,
-      result: Belt.Map.Int.get(ParticleData.particleMap, pdg),
+      result: Belt.Map.Int.get(ParticleData.particlePdgMap, pdg),
     }
-  | None => {search, result: None}
+  | None => {
+      search,
+      result: Belt.Map.String.get(ParticleData.particleNameMap, search),
+    }
   };
 };
 

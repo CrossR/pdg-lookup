@@ -1,7 +1,7 @@
 module Styles = {
   open Css;
 
-  let searchText = style([fontSize(rem(5.0))]);
+  let searchField = style([width(`percent(25.)), paddingLeft(`percent(10.)), paddingRight(`percent(10.))]);
 };
 
 [@react.component]
@@ -11,6 +11,7 @@ let make = (~dispatch) => {
     theme={MaterialUi_Theme.create(MaterialUi_ThemeOptions.make())}>
     {MaterialUi.(
        <TextField
+         className=Styles.searchField
          label={React.string("")}
          placeholder="Input PDG"
          _type="search"

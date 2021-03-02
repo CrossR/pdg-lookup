@@ -12,9 +12,14 @@ type t = {
   anti: bool,
 };
 
-let makeMap = particles => {
+let makePdgMap = particles => {
   let pdgCodes = Belt.Array.map(particles, p => p.pdg);
   Belt.Map.Int.fromArray(Belt.Array.zip(pdgCodes, particles));
+};
+
+let makeNameMap = particles => {
+  let names = Belt.Array.map(particles, p => p.name);
+  Belt.Map.String.fromArray(Belt.Array.zip(names, particles));
 };
 
 let getPdg = particle => particle.pdg;

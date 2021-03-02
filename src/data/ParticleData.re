@@ -84286,4 +84286,6 @@ let data = [|
     latex: "\\bar{d}",
   },
 |];
-let particleMap = ParticleInfo.makeMap(data);
+
+let particlePdgMap = ParticleInfo.makePdgMap(data);
+let particleNameMap = ParticleInfo.makeNameMap(data);
