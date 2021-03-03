@@ -4,7 +4,7 @@ module Styles = {
   let latexText =
     style([
       display(`initial),
-      fontSize(rem(5.0)),
+      fontSize(`percent(500.)),
       color(hex("1a202c")),
     ]);
 };

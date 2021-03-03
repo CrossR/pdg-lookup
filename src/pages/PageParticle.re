@@ -1,11 +1,21 @@
 module Styles = {
   open Css;
 
+  let topLevelBlock =
+    style([
+      display(`flex),
+      justifyContent(`center),
+      flexDirection(`column),
+      paddingTop(`percent(25.)),
+      marginLeft(`percent(15.0)),
+      marginRight(`percent(15.0)),
+    ]);
+
   let parentBlock =
-    style([overflow(`hidden), display(`flex), alignItems(`center)]);
+    style([overflow(`hidden), display(`flex), justifyContent(`center)]);
 
   let nameBlock =
-    style([display(`initial), float(`left), paddingRight(`px(25))]);
+    style([display(`initial), float(`left), paddingRight(`px(15)), paddingTop(`px(5))]);
 };
 
 type state = {
@@ -36,13 +46,16 @@ let make = () => {
 
   switch (state.result) {
   | Some(particle) =>
-    <div>
+    <div className=Styles.topLevelBlock>
       <div> <Search dispatch /> </div>
       <div className=Styles.parentBlock>
         <div className=Styles.nameBlock> <LatexName particle /> </div>
         <div> <InfoTable particle /> </div>
       </div>
     </div>
-  | None => <div> <div> <Search dispatch /> </div> </div>
+  | None =>
+    <div className=Styles.topLevelBlock>
+      <div> <Search dispatch /> </div>
+    </div>
   };
 };

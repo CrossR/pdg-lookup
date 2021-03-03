@@ -1,7 +1,7 @@
 module Styles = {
   open Css;
 
-  let searchField = style([width(`percent(25.)), paddingLeft(`percent(10.)), paddingRight(`percent(10.))]);
+  let searchField = style([width(`percent(100.)), paddingLeft(`percent(10.)), paddingRight(`percent(10.))]);
 };
 
 [@react.component]
