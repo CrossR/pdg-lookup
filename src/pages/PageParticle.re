@@ -16,8 +16,9 @@ module Styles = {
 
   let nameBlock =
     style([
-      display(`initial),
-      float(`left),
+      display(`flex),
+      alignItems(`center),
+      Css.float(`left),
       paddingRight(`px(15)),
       paddingTop(`px(5)),
     ]);
