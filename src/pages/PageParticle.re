@@ -15,7 +15,12 @@ module Styles = {
     style([overflow(`hidden), display(`flex), justifyContent(`center)]);
 
   let nameBlock =
-    style([display(`initial), float(`left), paddingRight(`px(15)), paddingTop(`px(5))]);
+    style([
+      display(`initial),
+      float(`left),
+      paddingRight(`px(15)),
+      paddingTop(`px(5)),
+    ]);
 };
 
 type state = {
@@ -25,14 +30,8 @@ type state = {
 
 let lookupParticle = (_, search) => {
   switch (Belt.Int.fromString(search)) {
-  | Some(pdg) => {
-      search,
-      result: Belt.Map.Int.get(ParticleData.particlePdgMap, pdg),
-    }
-  | None => {
-      search,
-      result: Belt.Map.String.get(ParticleData.particleNameMap, search),
-    }
+  | Some(pdg) => {search, result: ParticleData.getWithPDG(pdg)}
+  | None => {search, result: ParticleData.getWithName(search)}
   };
 };
 
