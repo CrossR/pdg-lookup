@@ -50,12 +50,13 @@ let getUnknownQuantity = quantity =>
 
 let getNameValuePair = p => {
   [|
+    ("PDG", getPdg(p) |> Belt.Int.toString),
     ("Mass", getUnknownQuantity(getMass(p))),
     ("Charge", getUnknownQuantity(getCharge(p))),
     ("Width", getUnknownQuantity(getWidth(p))),
-    // ("I", getUnknownQuantity(getI(p))),
-    // ("G", getG(p) |> Belt.Int.toString),
-    // ("C", getC(p) |> Belt.Int.toString),
-    // ("P", getP(p) |> Belt.Int.toString),
+    ("I", getUnknownQuantity(getI(p))),
+    ("G", getG(p) |> Belt.Int.toString),
+    ("C", getC(p) |> Belt.Int.toString),
+    ("P", getP(p) |> Belt.Int.toString),
   |];
 };
