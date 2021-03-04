@@ -6,9 +6,9 @@ module Styles = {
       display(`flex),
       justifyContent(`center),
       flexDirection(`column),
-      paddingTop(`percent(25.)),
-      marginLeft(`percent(15.0)),
-      marginRight(`percent(15.0)),
+      paddingTop(`percent(20.)),
+      marginLeft(`percent(15.)),
+      marginRight(`percent(15.)),
     ]);
 
   let parentBlock =
