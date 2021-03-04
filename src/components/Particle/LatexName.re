@@ -9,12 +9,19 @@ module Styles = {
     ]);
 };
 
-[@bs.val] external katexRenderToString: string => string = "katex.renderToString";
+[@bs.val]
+external katexRenderToString: string => string = "katex.renderToString";
 
 [@react.component]
 let make = (~particle) => {
+  let rawLatex = ParticleInfo.getRawLatex(particle);
+
   <MaterialUi_ThemeProvider
     theme={MaterialUi_Theme.create(MaterialUi_ThemeOptions.make())}>
-      <div className=Styles.latexText dangerouslySetInnerHTML={"__html": katexRenderToString(ParticleInfo.getRawLatex(particle))} />
+    <div
+      className=Styles.latexText
+      title=rawLatex
+      dangerouslySetInnerHTML={"__html": katexRenderToString(rawLatex)}
+    />
   </MaterialUi_ThemeProvider>;
 };
