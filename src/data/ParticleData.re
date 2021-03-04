@@ -84290,4 +84290,5 @@ let data = [|
 let particlePdgMap = ParticleInfo.makePdgMap(data);
 let getWithPDG = pdg => Belt.Map.Int.get(particlePdgMap, pdg);
 let particleNameMap = ParticleInfo.makeNameMap(data);
-let getWithName = name => Belt.Map.String.get(particleNameMap, name);
+let getWithName = name =>
+  Belt.Map.String.get(particleNameMap, String.lowercase_ascii(name));

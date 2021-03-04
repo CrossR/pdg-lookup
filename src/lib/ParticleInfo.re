@@ -18,7 +18,7 @@ let makePdgMap = particles => {
 };
 
 let makeNameMap = particles => {
-  let names = Belt.Array.map(particles, p => p.name);
+  let names = Belt.Array.map(particles, p => String.lowercase_ascii(p.name));
   Belt.Map.String.fromArray(Belt.Array.zip(names, particles));
 };
 
