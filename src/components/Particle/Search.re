@@ -8,7 +8,8 @@ module Styles = {
       borderTopWidth(`zero),
       borderLeftWidth(`zero),
       borderRightWidth(`zero),
-      outlineStyle(`none)
+      outlineStyle(`none),
+      backgroundColor(`transparent),
     ]);
 };
 

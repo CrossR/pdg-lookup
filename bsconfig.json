@@ -26,7 +26,8 @@
     "bs-css",
     "bs-css-emotion",
     "reason-react",
-    "@jsiebern/bs-material-ui"
+    "@jsiebern/bs-material-ui",
+    "bs-webapi"
   ],
   "bs-dev-dependencies": [
     "@glennsl/bs-jest",

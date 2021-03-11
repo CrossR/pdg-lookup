@@ -44,18 +44,18 @@ let make = () => {
       {search: "", result: None},
     );
 
-  switch (state.result) {
-  | Some(particle) =>
-    <div className=Styles.topLevelBlock>
-      <div> <Search dispatch /> </div>
-      <div className=Styles.parentBlock>
-        <div className=Styles.nameBlock> <LatexName particle /> </div>
-        <div> <InfoTable particle /> </div>
-      </div>
-    </div>
-  | None =>
-    <div className=Styles.topLevelBlock>
-      <div> <Search dispatch /> </div>
-    </div>
-  };
+  <>
+  <div className=Styles.topLevelBlock>
+  <div> <Search dispatch /> </div>
+    {switch (state.result) {
+     | Some(particle) =>
+         <div className=Styles.parentBlock>
+           <div className=Styles.nameBlock> <LatexName particle /> </div>
+           <div> <InfoTable particle /> </div>
+         </div>
+     | None => React.null
+     }}
+  </div>
+  <Footer />
+  </>
 };
