@@ -45,17 +45,16 @@ let make = () => {
     );
 
   <>
-  <div className=Styles.topLevelBlock>
-  <div> <Search dispatch /> </div>
-    {switch (state.result) {
-     | Some(particle) =>
+    <div className=Styles.topLevelBlock>
+      <div> <Search dispatch /> </div>
+      {switch (state.result) {
+       | Some(particle) =>
          <div className=Styles.parentBlock>
            <div className=Styles.nameBlock> <LatexName particle /> </div>
            <div> <InfoTable particle /> </div>
          </div>
-     | None => React.null
-     }}
-  </div>
-  <Footer />
-  </>
+       | None => React.null
+       }}
+    </div>
+  </>;
 };
