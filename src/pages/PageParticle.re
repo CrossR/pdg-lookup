@@ -45,6 +45,7 @@ let make = () => {
     );
 
   <>
+    <Header />
     <div className=Styles.topLevelBlock>
       <div> <Search dispatch /> </div>
       {switch (state.result) {
