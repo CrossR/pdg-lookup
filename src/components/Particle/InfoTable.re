@@ -2,21 +2,22 @@ module Styles = {
   open Css;
 
   let infoBlock = style([Css.float(`left)]);
-
   let infoLineName = style([textAlign(`left), fontWeight(`semiBold)]);
   let infoLineProp = style([textAlign(`left)]);
+  let cell = ReactDOMStyle.make(~borderColor="white", ());
 };
 
 let getTableRow = ((p1, p2)) => {
   let getName = p => fst(p);
   let getProp = p => snd(p);
 
+
   MaterialUi.(
     <TableRow>
-      <TableCell variant=`Head> {getName(p1)} </TableCell>
-      <TableCell> {getProp(p1)} </TableCell>
-      <TableCell variant=`Head> {getName(p2)} </TableCell>
-      <TableCell> {getProp(p2)} </TableCell>
+      <TableCell style=Styles.cell variant=`Head> {getName(p1)} </TableCell>
+      <TableCell style=Styles.cell> {getProp(p1)} </TableCell>
+      <TableCell style=Styles.cell variant=`Head> {getName(p2)} </TableCell>
+      <TableCell style=Styles.cell> {getProp(p2)} </TableCell>
     </TableRow>
   );
 };
