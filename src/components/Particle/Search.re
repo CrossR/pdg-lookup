@@ -3,7 +3,7 @@ module Styles = {
 
   let searchField =
     style([
-      fontSize(`rem(3.)),
+      fontSize(`em(3.)),
       width(`percent(100.)),
       borderTopWidth(`zero),
       borderLeftWidth(`zero),

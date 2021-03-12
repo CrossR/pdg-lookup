@@ -11,8 +11,8 @@ module Styles = {
       marginRight(`percent(15.)),
     ]);
 
-  let parentBlock =
-    style([overflow(`hidden), display(`flex), justifyContent(`center)]);
+  let resultBlock =
+    style([overflow(`hidden), display(`flex), flexWrap(`wrap),justifyContent(`center)]);
 
   let nameBlock =
     style([
@@ -50,7 +50,7 @@ let make = () => {
       <div> <Search dispatch /> </div>
       {switch (state.result) {
        | Some(particle) =>
-         <div className=Styles.parentBlock>
+         <div className=Styles.resultBlock>
            <div className=Styles.nameBlock> <LatexName particle /> </div>
            <div> <InfoTable particle /> </div>
          </div>

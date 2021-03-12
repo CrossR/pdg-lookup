@@ -4,7 +4,11 @@ module Styles = {
   let infoBlock = style([Css.float(`left)]);
   let infoLineName = style([textAlign(`left), fontWeight(`semiBold)]);
   let infoLineProp = style([textAlign(`left)]);
-  let cell = ReactDOMStyle.make(~borderColor="white", ());
+  let cell = ReactDOMStyle.make(
+    ~borderColor="white",
+    ~padding="5px",
+    ()
+    );
 };
 
 let getTableRow = ((p1, p2)) => {

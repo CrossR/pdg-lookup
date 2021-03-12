@@ -1,4 +1,3 @@
-[@bs.val] external document: Dom.document = "document";
 [@bs.get] external style: Dom.element => Dom.cssStyleDeclaration = "style";
 [@bs.set]
 external setColour: (Dom.cssStyleDeclaration, string) => unit =
@@ -24,7 +23,8 @@ let make = () => {
   let route = Router.useRouter();
 
   Random.self_init();
-  switch (Webapi.Dom.Document.querySelector("body", document)) {
+
+  switch (ReactDOM.querySelector("body")) {
   | Some(element) => setColour(style(element), getRandomColour())
   | None => ()
   };

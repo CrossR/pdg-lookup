@@ -4,7 +4,7 @@ module Styles = {
   let latexText =
     style([
       display(`initial),
-      fontSize(`percent(500.)),
+      fontSize(`rem(5.)),
       color(hex("1a202c")),
     ]);
 };
@@ -16,12 +16,9 @@ external katexRenderToString: string => string = "katex.renderToString";
 let make = (~particle) => {
   let rawLatex = ParticleInfo.getRawLatex(particle);
 
-  <MaterialUi_ThemeProvider
-    theme={MaterialUi_Theme.create(MaterialUi_ThemeOptions.make())}>
-    <div
-      className=Styles.latexText
-      title=rawLatex
-      dangerouslySetInnerHTML={"__html": katexRenderToString(rawLatex)}
-    />
-  </MaterialUi_ThemeProvider>;
+  <div
+    className=Styles.latexText
+    title=rawLatex
+    dangerouslySetInnerHTML={"__html": katexRenderToString(rawLatex)}
+  />
 };
