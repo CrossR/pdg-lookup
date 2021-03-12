@@ -14,3 +14,6 @@ npm-debug.log
 
 # Esy stuff for LSP setup
 _esy/
+
+# macOS
+.DS_Store
