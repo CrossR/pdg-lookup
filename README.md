@@ -1,6 +1,7 @@
 # PDG Lookup
 
 [![Actions Status](https://github.com/CrossR/pdg-lookup/workflows/CI/badge.svg)](https://github.com/CrossR/pdg-lookup/actions)
+[![Website Status](https://img.shields.io/website?url=https%3A%2F%2Fcrossr.github.io%2Fpdg-lookup%2F)](https://crossr.github.io/pdg-lookup/)
 
 PDG Code Lookup
 
