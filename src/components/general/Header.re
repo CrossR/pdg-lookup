@@ -19,7 +19,7 @@ let make = () => {
   MaterialUi.(
   <ThemeProvider
     theme={Theme.create(ThemeOptions.make())}>
-    <a href="https://github.com/CrossR/pdg_lookup" label="View on GitHub" className="github-corner">
+    <a href="https://github.com/CrossR/pdg-lookup" label="View on GitHub" className="github-corner">
     <div
       className=Styles.header
       dangerouslySetInnerHTML={"__html": rawHtml}
