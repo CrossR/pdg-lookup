@@ -1,25 +1,34 @@
 module Styles = {
   open Css;
 
-  let searchField =
-    style([
+  let baseStyle = [
       fontSize(`em(3.)),
       width(`percent(100.)),
       borderTopWidth(`zero),
       borderLeftWidth(`zero),
       borderRightWidth(`zero),
-      borderBottomColor(`hex("ffffff")),
       outlineStyle(`none),
       backgroundColor(`transparent),
+  ];
+  let searchField =
+    style([
+      borderBottomColor(`hex("ffffff")),
+      ...baseStyle
+    ]);
+
+  let invalidSeachField = 
+    style([
+      borderBottomColor(`hex("ff6961")),
+      ...baseStyle
     ]);
 };
 
 [@react.component]
-let make = (~dispatch) => {
+let make = (~dispatch, ~invalidSearch) => {
   <MaterialUi_ThemeProvider
     theme={MaterialUi_Theme.create(MaterialUi_ThemeOptions.make())}>
     <input
-      className=Styles.searchField
+      className={invalidSearch ? Styles.invalidSeachField : Styles.searchField}
       type_="search"
       autoFocus=true
       placeholder="Input PDG"

@@ -48,24 +48,24 @@ let getUnknownQuantity = quantity =>
   | None => " ?"
   };
 
-
 type propertyValue = {
   name: string,
   value: string,
   units: option(string),
-}
+};
 
-let makeProperty = ((name, value, units)) => {name, value, units}
+let makeProperty = ((name, value, units)) => {name, value, units};
 
 let getProperties = p => {
   [|
     ("PDG", getPdg(p) |> Belt.Int.toString, None),
-    ("Mass", getUnknownQuantity(getMass(p)),  Some("MeV")),
-    ("Charge", getUnknownQuantity(getCharge(p)),  None),
-    ("Width", getUnknownQuantity(getWidth(p)),  None),
-    ("I", getUnknownQuantity(getI(p)),  None),
-    ("G", getG(p) |> Belt.Int.toString,  None),
-    ("C", getC(p) |> Belt.Int.toString,  None),
-    ("P", getP(p) |> Belt.Int.toString,  None),
-  |] -> Array.map(x => makeProperty(x))
+    ("Mass", getUnknownQuantity(getMass(p)), Some("MeV")),
+    ("Charge", getUnknownQuantity(getCharge(p)), None),
+    ("Width", getUnknownQuantity(getWidth(p)), None),
+    ("I", getUnknownQuantity(getI(p)), None),
+    ("G", getG(p) |> Belt.Int.toString, None),
+    ("C", getC(p) |> Belt.Int.toString, None),
+    ("P", getP(p) |> Belt.Int.toString, None),
+  |]
+  ->Array.map(x => makeProperty(x));
 };

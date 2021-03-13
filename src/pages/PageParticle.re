@@ -12,7 +12,12 @@ module Styles = {
     ]);
 
   let resultBlock =
-    style([overflow(`hidden), display(`flex), flexWrap(`wrap),justifyContent(`center)]);
+    style([
+      overflow(`hidden),
+      display(`flex),
+      flexWrap(`wrap),
+      justifyContent(`center),
+    ]);
 
   let nameBlock =
     style([
@@ -44,10 +49,13 @@ let make = () => {
       {search: "", result: None},
     );
 
+  let invalidSearch =
+    Option.isNone(state.result) && String.length(state.search) > 0;
+
   <>
     <Header />
     <div className=Styles.topLevelBlock>
-      <div> <Search dispatch /> </div>
+      <div> <Search dispatch invalidSearch /> </div>
       {switch (state.result) {
        | Some(particle) =>
          <div className=Styles.resultBlock>
