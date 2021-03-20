@@ -12,16 +12,6 @@ type t = {
   anti: bool,
 };
 
-let makePdgMap = particles => {
-  let pdgCodes = Belt.Array.map(particles, p => p.pdg);
-  Belt.Map.Int.fromArray(Belt.Array.zip(pdgCodes, particles));
-};
-
-let makeNameMap = particles => {
-  let names = Belt.Array.map(particles, p => String.lowercase_ascii(p.name));
-  Belt.Map.String.fromArray(Belt.Array.zip(names, particles));
-};
-
 let getPdg = particle => particle.pdg;
 let getName = particle => particle.name;
 let getMass = particle => particle.mass;

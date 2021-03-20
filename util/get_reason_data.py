@@ -74,20 +74,7 @@ def main():
         for i, p in enumerate(Particle.all()):
             write_particle(particle_file, p)
 
-        particle_file.write(
-            "\n".join(
-                [
-                    "|];",
-                    "",
-                    "let particlePdgMap = ParticleInfo.makePdgMap(data);",
-                    "let getWithPDG = pdg => Belt.Map.Int.get(particlePdgMap, pdg);",
-                    "let particleNameMap = ParticleInfo.makeNameMap(data);",
-                    "let getWithName = name =>",
-                    "  Belt.Map.String.get(particleNameMap, String.lowercase_ascii(name));",
-                    ""
-                ]
-            )
-        )
+        particle_file.write("\n".join(["|];", "", ]))
 
 
 if __name__ == "__main__":

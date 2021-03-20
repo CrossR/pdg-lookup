@@ -36,8 +36,8 @@ type state = {
 
 let lookupParticle = (_, search) => {
   switch (Belt.Int.fromString(search)) {
-  | Some(pdg) => {search, result: ParticleData.getWithPDG(pdg)}
-  | None => {search, result: ParticleData.getWithName(search)}
+  | Some(pdg) => {search, result: ParticleDataInterface.getWithPDG(pdg)}
+  | None => {search, result: ParticleDataInterface.getWithName(search)}
   };
 };
 
