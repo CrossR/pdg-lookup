@@ -14,7 +14,7 @@ module Styles = {
 
 let getTableRow = ((p1, p2)) => {
 
-  let getName = (p: ParticleInfo.propertyValue) => p.name;
+  let getName = (p: ParticleInfo.propertyValue) => p.property;
   let getValue = (p: ParticleInfo.propertyValue) => {
     switch (p.units) {
       | Some(u) => p.value ++ " " ++ u

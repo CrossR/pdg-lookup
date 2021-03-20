@@ -39,12 +39,12 @@ let getUnknownQuantity = quantity =>
   };
 
 type propertyValue = {
-  name: string,
+  property: string,
   value: string,
   units: option(string),
 };
 
-let makeProperty = ((name, value, units)) => {name, value, units};
+let makeProperty = ((property, value, units)) => {property, value, units};
 
 let getProperties = p => {
   [|

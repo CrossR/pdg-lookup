@@ -3,12 +3,12 @@
  */
 
 let makePdgMap = particles => {
-  let pdgCodes = Belt.Array.map(particles, p => p.pdg);
+  let pdgCodes = Belt.Array.map(particles, p => p.ParticleInfo.pdg);
   Belt.Map.Int.fromArray(Belt.Array.zip(pdgCodes, particles));
 };
 
 let makeNameMap = particles => {
-  let names = Belt.Array.map(particles, p => String.lowercase_ascii(p.name));
+  let names = Belt.Array.map(particles, p => String.lowercase_ascii(p.ParticleInfo.name));
   Belt.Map.String.fromArray(Belt.Array.zip(names, particles));
 };
 
