@@ -8,7 +8,10 @@ let makePdgMap = particles => {
 };
 
 let makeNameMap = particles => {
-  let names = Belt.Array.map(particles, p => String.lowercase_ascii(p.ParticleInfo.name));
+  let names =
+    Belt.Array.map(particles, p =>
+      String.lowercase_ascii(p.ParticleInfo.name)
+    );
   Belt.Map.String.fromArray(Belt.Array.zip(names, particles));
 };
 
@@ -16,15 +19,14 @@ let particlePdgMap = makePdgMap(ParticleData.data);
 let getWithPDG = pdg => Belt.Map.Int.get(particlePdgMap, pdg);
 let particleNameMap = makeNameMap(ParticleData.data);
 let getWithName = name => {
-
   let lowerName = String.lowercase_ascii(name);
-  
-  switch (Belt.Map.String.get(particleNameMap, lowerName)) {
-    | Some(p) => Some(p)
-    | None => switch (Belt.Map.String.get(ParticleNames.namePDGMap, lowerName)) {
-      | Some(pdg) => getWithPDG(pdg)
-      | None => None
-      }
-  };
 
-}
+  switch (Belt.Map.String.get(particleNameMap, lowerName)) {
+  | Some(p) => Some(p)
+  | None =>
+    switch (Belt.Map.String.get(ParticleNames.namePDGMap, lowerName)) {
+    | Some(pdg) => getWithPDG(pdg)
+    | None => None
+    }
+  };
+};

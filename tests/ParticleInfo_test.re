@@ -17,9 +17,12 @@ describe("Particle Info Test", () => {
   });
 
   test("Can get inverted particle", () => {
-    let electron = Belt.Map.String.getExn(ParticleDataInterface.particleNameMap, "e-");
+    let electron =
+      Belt.Map.String.getExn(ParticleDataInterface.particleNameMap, "e-");
 
-    switch (ParticleInfo.invert(electron, ParticleDataInterface.particlePdgMap)) {
+    switch (
+      ParticleInfo.invert(electron, ParticleDataInterface.particlePdgMap)
+    ) {
     | Some(p) => expect(ParticleInfo.getName(p)) |> toEqual("e+")
     | None => fail("Can't find positron")
     };
