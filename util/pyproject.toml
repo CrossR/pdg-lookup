@@ -6,7 +6,7 @@ authors = ["CrossR <r.cross@lancaster.ac.uk>"]
 
 [tool.poetry.dependencies]
 python = "^3.8"
-particle = "^0.13.0"
+particle = "*"
 
 [tool.poetry.dev-dependencies]
 
