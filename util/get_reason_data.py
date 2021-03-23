@@ -1,4 +1,4 @@
-from particle import Particle
+import particle
 
 OUTPUT_FILE_NAME = "../src/data/ParticleData.re"
 
@@ -26,7 +26,7 @@ def wrap_minus(num):
     return num
 
 
-def write_particle(particle_file, p: Particle):
+def write_particle(particle_file, p: particle.Particle):
 
     anti = "true" if p.anti_flag else "false"
 
@@ -61,6 +61,10 @@ def main():
                     "/*",
                     " * Particle data records, produced from scikit-hep Particle",
                     " * library using script in util/.",
+                    " *",
+                    " * Do not hand edit! This is pre-generated!",
+                    " *",
+                    f" * Generated using particle v{particle.__version__}.",
                     " */",
                     "",
                     "open ParticleInfo;",
@@ -71,10 +75,10 @@ def main():
             )
         )
 
-        for i, p in enumerate(Particle.all()):
+        for i, p in enumerate(particle.Particle.all()):
             write_particle(particle_file, p)
 
-        particle_file.write("\n".join(["|];", "", ]))
+        particle_file.write("\n".join(["|];", "",]))
 
 
 if __name__ == "__main__":

@@ -1,6 +1,10 @@
 /*
  * Particle data records, produced from scikit-hep Particle
  * library using script in util/.
+ *
+ * Do not hand edit! This is pre-generated!
+ *
+ * Generated using particle v0.14.0.
  */
 
 open ParticleInfo;
@@ -66151,6 +66155,19 @@ let data = [|
     latex: "^{138}\\mathrm{I}",
   },
   {
+    pdg: (-203338),
+    name: "Omega(2250)~+",
+    mass: Some(2252.0),
+    width: Some(55.0),
+    charge: Some(1.0),
+    iValue: Some(0.0),
+    gValue: 5,
+    cValue: 5,
+    pValue: 5,
+    anti: true,
+    latex: "\\bar{\\Omega}(2250)^{+}",
+  },
+  {
     pdg: (-1000381000),
     name: "Sr100~",
     mass: Some(93089.1884058),
@@ -66177,6 +66194,19 @@ let data = [|
     latex: "^{139}\\mathrm{I}",
   },
   {
+    pdg: (-203326),
+    name: "Xi(2030)~0",
+    mass: Some(2025.0),
+    width: Some(20.0),
+    charge: Some(0.0),
+    iValue: Some(0.5),
+    gValue: 5,
+    cValue: 5,
+    pValue: 5,
+    anti: true,
+    latex: "\\bar{\\Xi}(2030)^{0}",
+  },
+  {
     pdg: (-1000380990),
     name: "Sr99~",
     mass: Some(92155.8033778),
@@ -66188,6 +66218,19 @@ let data = [|
     pValue: 5,
     anti: true,
     latex: "^{99}\\mathrm{\\overline{Sr}}",
+  },
+  {
+    pdg: (-203322),
+    name: "Xi(1690)~0",
+    mass: Some(1690.0),
+    width: None,
+    charge: Some(0.0),
+    iValue: Some(0.5),
+    gValue: 5,
+    cValue: 5,
+    pValue: 5,
+    anti: true,
+    latex: "\\bar{\\Xi}(1690)^{0}",
   },
   {
     pdg: 1000531400,
@@ -66203,6 +66246,19 @@ let data = [|
     latex: "^{140}\\mathrm{I}",
   },
   {
+    pdg: (-203316),
+    name: "Xi(2030)~+",
+    mass: Some(2025.0),
+    width: Some(20.0),
+    charge: Some(1.0),
+    iValue: Some(0.5),
+    gValue: 5,
+    cValue: 5,
+    pValue: 5,
+    anti: true,
+    latex: "\\bar{\\Xi}(2030)^{+}",
+  },
+  {
     pdg: (-1000380980),
     name: "Sr98~",
     mass: Some(91219.7924679),
@@ -66214,6 +66270,19 @@ let data = [|
     pValue: 5,
     anti: true,
     latex: "^{98}\\mathrm{\\overline{Sr}}",
+  },
+  {
+    pdg: (-203312),
+    name: "Xi(1690)~+",
+    mass: Some(1690.0),
+    width: None,
+    charge: Some(1.0),
+    iValue: Some(0.5),
+    gValue: 5,
+    cValue: 5,
+    pValue: 5,
+    anti: true,
+    latex: "\\bar{\\Xi}(1690)^{+}",
   },
   {
     pdg: 1000531410,
@@ -70571,6 +70640,19 @@ let data = [|
     latex: "^{144}\\mathrm{\\overline{Gd}}",
   },
   {
+    pdg: (-103326),
+    name: "Xi(1950)~0",
+    mass: Some(1950.0),
+    width: Some(60.0),
+    charge: Some(0.0),
+    iValue: Some(0.5),
+    gValue: 5,
+    cValue: 5,
+    pValue: 5,
+    anti: true,
+    latex: "\\bar{\\Xi}(1950)^{0}",
+  },
+  {
     pdg: 1000631400,
     name: "Eu140",
     mass: Some(130342.1802433),
@@ -70595,6 +70677,19 @@ let data = [|
     pValue: 5,
     anti: true,
     latex: "^{143}\\mathrm{\\overline{Gd}}",
+  },
+  {
+    pdg: (-103316),
+    name: "Xi(1950)~+",
+    mass: Some(1950.0),
+    width: Some(60.0),
+    charge: Some(1.0),
+    iValue: Some(0.5),
+    gValue: 5,
+    cValue: 5,
+    pValue: 5,
+    anti: true,
+    latex: "\\bar{\\Xi}(1950)^{+}",
   },
   {
     pdg: 1000631410,
