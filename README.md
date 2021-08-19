@@ -1,10 +1,10 @@
-# PDG Code Lookup
+# PDG Code Lookup - [Link](https://crossr.github.io/pdg-lookup/)
 
 [![Actions Status](https://img.shields.io/github/workflow/status/CrossR/pdg-lookup/CI)](https://github.com/CrossR/pdg-lookup/actions)
 [![Website Status](https://img.shields.io/website?url=https%3A%2F%2Fcrossr.github.io%2Fpdg-lookup%2F)](https://crossr.github.io/pdg-lookup/)
 [![MIT license](https://img.shields.io/badge/License-MIT-blue.svg)](https://lbesson.mit-license.org/)
 
-![Website Preview](https://user-images.githubusercontent.com/10038688/111888833-06812400-89d8-11eb-949e-a34ecf859b16.png)
+[![Website Preview](https://user-images.githubusercontent.com/10038688/111888833-06812400-89d8-11eb-949e-a34ecf859b16.png)](https://crossr.github.io/pdg-lookup/)
 
 A simple website to lookup particle data using Particle Data Group (PDG) codes.
 Also accepts searches via name, and returns back some common particle properties,
