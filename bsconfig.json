@@ -7,11 +7,6 @@
     {
       "dir": "src",
       "subdirs": true
-    },
-    {
-      "dir": "tests",
-      "subdirs": true,
-      "type": "dev"
     }
   ],
   "package-specs": [
@@ -28,20 +23,12 @@
     "reason-react",
     "@jsiebern/bs-material-ui"
   ],
-  "bs-dev-dependencies": [
-    "@glennsl/bs-jest",
-    "bs-react-testing-library",
-    "bs-webapi"
-  ],
+  "bs-dev-dependencies": ["bs-webapi"],
   "ppx-flags": [],
   "refmt": 3,
   "warnings": {
     "number": "+A-48-42",
     "error": "+A-3-44-102"
   },
-  "bsc-flags": [
-    "-bs-super-errors",
-    "-bs-no-version-header",
-    "-open Belt"
-  ]
+  "bsc-flags": ["-bs-super-errors", "-bs-no-version-header", "-open Belt"]
 }

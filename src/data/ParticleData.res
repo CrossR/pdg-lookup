@@ -7,9 +7,9 @@
  * Generated using particle v0.16.1.
  */
 
-open ParticleInfo;
+open ParticleInfo
 
-let data = [|
+let data = [
   {
     pdg: 1,
     name: "d",
@@ -24,7 +24,7 @@ let data = [|
     latex: "d",
   },
   {
-    pdg: (-1),
+    pdg: -1,
     name: "d~",
     mass: Some(4.67),
     width: None,
@@ -50,7 +50,7 @@ let data = [|
     latex: "u",
   },
   {
-    pdg: (-2),
+    pdg: -2,
     name: "u~",
     mass: Some(2.16),
     width: None,
@@ -76,7 +76,7 @@ let data = [|
     latex: "s",
   },
   {
-    pdg: (-3),
+    pdg: -3,
     name: "s~",
     mass: Some(93.0),
     width: None,
@@ -102,7 +102,7 @@ let data = [|
     latex: "c",
   },
   {
-    pdg: (-4),
+    pdg: -4,
     name: "c~",
     mass: Some(1270.0),
     width: None,
@@ -128,7 +128,7 @@ let data = [|
     latex: "b",
   },
   {
-    pdg: (-5),
+    pdg: -5,
     name: "b~",
     mass: Some(4180.0),
     width: None,
@@ -154,7 +154,7 @@ let data = [|
     latex: "t",
   },
   {
-    pdg: (-6),
+    pdg: -6,
     name: "t~",
     mass: Some(172500.0),
     width: Some(1420.0),
@@ -180,7 +180,7 @@ let data = [|
     latex: "e^{-}",
   },
   {
-    pdg: (-11),
+    pdg: -11,
     name: "e+",
     mass: Some(0.5109989461),
     width: Some(0.0),
@@ -206,7 +206,7 @@ let data = [|
     latex: "\\nu_{e}",
   },
   {
-    pdg: (-12),
+    pdg: -12,
     name: "nu(e)~",
     mass: None,
     width: Some(0.0),
@@ -232,7 +232,7 @@ let data = [|
     latex: "\\mu^{-}",
   },
   {
-    pdg: (-13),
+    pdg: -13,
     name: "mu+",
     mass: Some(105.6583745),
     width: Some(2.9959837e-16),
@@ -258,7 +258,7 @@ let data = [|
     latex: "\\nu_{\\mu}",
   },
   {
-    pdg: (-14),
+    pdg: -14,
     name: "nu(mu)~",
     mass: None,
     width: Some(0.0),
@@ -284,7 +284,7 @@ let data = [|
     latex: "\\tau^{-}",
   },
   {
-    pdg: (-15),
+    pdg: -15,
     name: "tau+",
     mass: Some(1776.86),
     width: Some(2.267e-09),
@@ -310,7 +310,7 @@ let data = [|
     latex: "\\nu_{\\tau}",
   },
   {
-    pdg: (-16),
+    pdg: -16,
     name: "nu(tau)~",
     mass: None,
     width: Some(0.0),
@@ -336,7 +336,7 @@ let data = [|
     latex: "\\tau^{\\prime-}",
   },
   {
-    pdg: (-17),
+    pdg: -17,
     name: "tau'+",
     mass: None,
     width: None,
@@ -362,7 +362,7 @@ let data = [|
     latex: "\\nu_{\\tau^{\\prime}}",
   },
   {
-    pdg: (-18),
+    pdg: -18,
     name: "nu(tau')~",
     mass: None,
     width: None,
@@ -383,7 +383,7 @@ let data = [|
     iValue: None,
     gValue: 5,
     cValue: 5,
-    pValue: (-1),
+    pValue: -1,
     anti: false,
     latex: "g",
   },
@@ -395,8 +395,8 @@ let data = [|
     charge: Some(0.0),
     iValue: None,
     gValue: 5,
-    cValue: (-1),
-    pValue: (-1),
+    cValue: -1,
+    pValue: -1,
     anti: false,
     latex: "\\gamma",
   },
@@ -427,7 +427,7 @@ let data = [|
     latex: "W^{+}",
   },
   {
-    pdg: (-24),
+    pdg: -24,
     name: "W-",
     mass: Some(80379.0),
     width: Some(2080.0),
@@ -459,9 +459,9 @@ let data = [|
     width: Some(7.81e-06),
     charge: Some(0.0),
     iValue: Some(1.0),
-    gValue: (-1),
+    gValue: -1,
     cValue: 1,
-    pValue: (-1),
+    pValue: -1,
     anti: false,
     latex: "\\pi^{0}",
   },
@@ -473,8 +473,8 @@ let data = [|
     charge: Some(0.0),
     iValue: Some(1.0),
     gValue: 1,
-    cValue: (-1),
-    pValue: (-1),
+    cValue: -1,
+    pValue: -1,
     anti: false,
     latex: "\\rho(770)^{0}",
   },
@@ -485,7 +485,7 @@ let data = [|
     width: Some(107.0),
     charge: Some(0.0),
     iValue: Some(1.0),
-    gValue: (-1),
+    gValue: -1,
     cValue: 1,
     pValue: 1,
     anti: false,
@@ -499,8 +499,8 @@ let data = [|
     charge: Some(0.0),
     iValue: Some(1.0),
     gValue: 1,
-    cValue: (-1),
-    pValue: (-1),
+    cValue: -1,
+    pValue: -1,
     anti: false,
     latex: "\\rho_{3}(1690)^{0}",
   },
@@ -511,7 +511,7 @@ let data = [|
     width: Some(324.0),
     charge: Some(0.0),
     iValue: Some(1.0),
-    gValue: (-1),
+    gValue: -1,
     cValue: 1,
     pValue: 1,
     anti: false,
@@ -526,7 +526,7 @@ let data = [|
     iValue: Some(0.5),
     gValue: 5,
     cValue: 5,
-    pValue: (-1),
+    pValue: -1,
     anti: false,
     latex: "K_{L}^{0}",
   },
@@ -537,22 +537,22 @@ let data = [|
     width: Some(2.5284e-14),
     charge: Some(1.0),
     iValue: Some(1.0),
-    gValue: (-1),
+    gValue: -1,
     cValue: 5,
-    pValue: (-1),
+    pValue: -1,
     anti: true,
     latex: "\\pi^{+}",
   },
   {
-    pdg: (-211),
+    pdg: -211,
     name: "pi-",
     mass: Some(139.57039),
     width: Some(2.5284e-14),
     charge: Some(-1.0),
     iValue: Some(1.0),
-    gValue: (-1),
+    gValue: -1,
     cValue: 5,
-    pValue: (-1),
+    pValue: -1,
     anti: true,
     latex: "\\pi^{-}",
   },
@@ -565,12 +565,12 @@ let data = [|
     iValue: Some(1.0),
     gValue: 1,
     cValue: 5,
-    pValue: (-1),
+    pValue: -1,
     anti: true,
     latex: "\\rho(770)^{+}",
   },
   {
-    pdg: (-213),
+    pdg: -213,
     name: "rho(770)-",
     mass: Some(775.26),
     width: Some(149.1),
@@ -578,7 +578,7 @@ let data = [|
     iValue: Some(1.0),
     gValue: 1,
     cValue: 5,
-    pValue: (-1),
+    pValue: -1,
     anti: true,
     latex: "\\rho(770)^{-}",
   },
@@ -589,20 +589,20 @@ let data = [|
     width: Some(107.0),
     charge: Some(1.0),
     iValue: Some(1.0),
-    gValue: (-1),
+    gValue: -1,
     cValue: 5,
     pValue: 1,
     anti: true,
     latex: "a_{2}(1320)^{+}",
   },
   {
-    pdg: (-215),
+    pdg: -215,
     name: "a(2)(1320)-",
     mass: Some(1318.2),
     width: Some(107.0),
     charge: Some(-1.0),
     iValue: Some(1.0),
-    gValue: (-1),
+    gValue: -1,
     cValue: 5,
     pValue: 1,
     anti: true,
@@ -617,12 +617,12 @@ let data = [|
     iValue: Some(1.0),
     gValue: 1,
     cValue: 5,
-    pValue: (-1),
+    pValue: -1,
     anti: true,
     latex: "\\rho_{3}(1690)^{+}",
   },
   {
-    pdg: (-217),
+    pdg: -217,
     name: "rho(3)(1690)-",
     mass: Some(1688.8),
     width: Some(161.0),
@@ -630,7 +630,7 @@ let data = [|
     iValue: Some(1.0),
     gValue: 1,
     cValue: 5,
-    pValue: (-1),
+    pValue: -1,
     anti: true,
     latex: "\\rho_{3}(1690)^{-}",
   },
@@ -641,20 +641,20 @@ let data = [|
     width: Some(324.0),
     charge: Some(1.0),
     iValue: Some(1.0),
-    gValue: (-1),
+    gValue: -1,
     cValue: 5,
     pValue: 1,
     anti: true,
     latex: "a_{4}(1970)^{+}",
   },
   {
-    pdg: (-219),
+    pdg: -219,
     name: "a(4)(1970)-",
     mass: Some(1967.0),
     width: Some(324.0),
     charge: Some(-1.0),
     iValue: Some(1.0),
-    gValue: (-1),
+    gValue: -1,
     cValue: 5,
     pValue: 1,
     anti: true,
@@ -669,7 +669,7 @@ let data = [|
     iValue: Some(0.0),
     gValue: 1,
     cValue: 1,
-    pValue: (-1),
+    pValue: -1,
     anti: false,
     latex: "\\eta",
   },
@@ -680,9 +680,9 @@ let data = [|
     width: Some(8.68),
     charge: Some(0.0),
     iValue: Some(0.0),
-    gValue: (-1),
-    cValue: (-1),
-    pValue: (-1),
+    gValue: -1,
+    cValue: -1,
+    pValue: -1,
     anti: false,
     latex: "\\omega(782)",
   },
@@ -706,9 +706,9 @@ let data = [|
     width: Some(168.0),
     charge: Some(0.0),
     iValue: Some(0.0),
-    gValue: (-1),
-    cValue: (-1),
-    pValue: (-1),
+    gValue: -1,
+    cValue: -1,
+    pValue: -1,
     anti: false,
     latex: "\\omega_{3}(1670)",
   },
@@ -734,7 +734,7 @@ let data = [|
     iValue: Some(0.5),
     gValue: 5,
     cValue: 5,
-    pValue: (-1),
+    pValue: -1,
     anti: false,
     latex: "K_{S}^{0}",
   },
@@ -747,12 +747,12 @@ let data = [|
     iValue: Some(0.5),
     gValue: 5,
     cValue: 5,
-    pValue: (-1),
+    pValue: -1,
     anti: true,
     latex: "K^{0}",
   },
   {
-    pdg: (-311),
+    pdg: -311,
     name: "K~0",
     mass: Some(497.611),
     width: None,
@@ -760,7 +760,7 @@ let data = [|
     iValue: Some(0.5),
     gValue: 5,
     cValue: 5,
-    pValue: (-1),
+    pValue: -1,
     anti: true,
     latex: "\\overline{K}^{0}",
   },
@@ -773,12 +773,12 @@ let data = [|
     iValue: Some(0.5),
     gValue: 5,
     cValue: 5,
-    pValue: (-1),
+    pValue: -1,
     anti: true,
     latex: "K^{*}(892)^{0}",
   },
   {
-    pdg: (-313),
+    pdg: -313,
     name: "K*(892)~0",
     mass: Some(895.55),
     width: Some(47.3),
@@ -786,7 +786,7 @@ let data = [|
     iValue: Some(0.5),
     gValue: 5,
     cValue: 5,
-    pValue: (-1),
+    pValue: -1,
     anti: true,
     latex: "\\overline{K}^{*}(892)^{0}",
   },
@@ -804,7 +804,7 @@ let data = [|
     latex: "K_{2}^{*}(1430)^{0}",
   },
   {
-    pdg: (-315),
+    pdg: -315,
     name: "K(2)*(1430)~0",
     mass: Some(1432.4),
     width: Some(109.0),
@@ -825,12 +825,12 @@ let data = [|
     iValue: Some(0.5),
     gValue: 5,
     cValue: 5,
-    pValue: (-1),
+    pValue: -1,
     anti: true,
     latex: "K_{3}^{*}(1780)^{0}",
   },
   {
-    pdg: (-317),
+    pdg: -317,
     name: "K(3)*(1780)~0",
     mass: Some(1779.0),
     width: Some(161.0),
@@ -838,7 +838,7 @@ let data = [|
     iValue: Some(0.5),
     gValue: 5,
     cValue: 5,
-    pValue: (-1),
+    pValue: -1,
     anti: true,
     latex: "\\overline{K}_{3}^{*}(1780)^{0}",
   },
@@ -856,7 +856,7 @@ let data = [|
     latex: "K_{4}^{*}(2045)^{0}",
   },
   {
-    pdg: (-319),
+    pdg: -319,
     name: "K(4)*(2045)~0",
     mass: Some(2048.0),
     width: Some(199.0),
@@ -877,12 +877,12 @@ let data = [|
     iValue: Some(0.5),
     gValue: 5,
     cValue: 5,
-    pValue: (-1),
+    pValue: -1,
     anti: true,
     latex: "K^{+}",
   },
   {
-    pdg: (-321),
+    pdg: -321,
     name: "K-",
     mass: Some(493.677),
     width: Some(5.317e-14),
@@ -890,7 +890,7 @@ let data = [|
     iValue: Some(0.5),
     gValue: 5,
     cValue: 5,
-    pValue: (-1),
+    pValue: -1,
     anti: true,
     latex: "K^{-}",
   },
@@ -903,12 +903,12 @@ let data = [|
     iValue: Some(0.5),
     gValue: 5,
     cValue: 5,
-    pValue: (-1),
+    pValue: -1,
     anti: true,
     latex: "K^{*}(892)^{+}",
   },
   {
-    pdg: (-323),
+    pdg: -323,
     name: "K*(892)-",
     mass: Some(895.5),
     width: Some(46.2),
@@ -916,7 +916,7 @@ let data = [|
     iValue: Some(0.5),
     gValue: 5,
     cValue: 5,
-    pValue: (-1),
+    pValue: -1,
     anti: true,
     latex: "K^{*}(892)^{-}",
   },
@@ -934,7 +934,7 @@ let data = [|
     latex: "K_{2}^{*}(1430)^{+}",
   },
   {
-    pdg: (-325),
+    pdg: -325,
     name: "K(2)*(1430)-",
     mass: Some(1427.3),
     width: Some(100.0),
@@ -955,12 +955,12 @@ let data = [|
     iValue: Some(0.5),
     gValue: 5,
     cValue: 5,
-    pValue: (-1),
+    pValue: -1,
     anti: true,
     latex: "K_{3}^{*}(1780)^{+}",
   },
   {
-    pdg: (-327),
+    pdg: -327,
     name: "K(3)*(1780)-",
     mass: Some(1779.0),
     width: Some(161.0),
@@ -968,7 +968,7 @@ let data = [|
     iValue: Some(0.5),
     gValue: 5,
     cValue: 5,
-    pValue: (-1),
+    pValue: -1,
     anti: true,
     latex: "K_{3}^{*}(1780)^{-}",
   },
@@ -986,7 +986,7 @@ let data = [|
     latex: "K_{4}^{*}(2045)^{+}",
   },
   {
-    pdg: (-329),
+    pdg: -329,
     name: "K(4)*(2045)-",
     mass: Some(2048.0),
     width: Some(199.0),
@@ -1007,7 +1007,7 @@ let data = [|
     iValue: Some(0.0),
     gValue: 1,
     cValue: 1,
-    pValue: (-1),
+    pValue: -1,
     anti: false,
     latex: "\\eta^{\\prime}(958)",
   },
@@ -1018,9 +1018,9 @@ let data = [|
     width: Some(4.249),
     charge: Some(0.0),
     iValue: Some(0.0),
-    gValue: (-1),
-    cValue: (-1),
-    pValue: (-1),
+    gValue: -1,
+    cValue: -1,
+    pValue: -1,
     anti: false,
     latex: "\\phi(1020)",
   },
@@ -1044,9 +1044,9 @@ let data = [|
     width: Some(87.0),
     charge: Some(0.0),
     iValue: Some(0.0),
-    gValue: (-1),
-    cValue: (-1),
-    pValue: (-1),
+    gValue: -1,
+    cValue: -1,
+    pValue: -1,
     anti: false,
     latex: "\\phi_{3}(1850)",
   },
@@ -1059,12 +1059,12 @@ let data = [|
     iValue: Some(0.5),
     gValue: 5,
     cValue: 5,
-    pValue: (-1),
+    pValue: -1,
     anti: true,
     latex: "D^{+}",
   },
   {
-    pdg: (-411),
+    pdg: -411,
     name: "D-",
     mass: Some(1869.66),
     width: Some(6.33e-10),
@@ -1072,7 +1072,7 @@ let data = [|
     iValue: Some(0.5),
     gValue: 5,
     cValue: 5,
-    pValue: (-1),
+    pValue: -1,
     anti: true,
     latex: "D^{-}",
   },
@@ -1085,12 +1085,12 @@ let data = [|
     iValue: Some(0.5),
     gValue: 5,
     cValue: 5,
-    pValue: (-1),
+    pValue: -1,
     anti: true,
     latex: "D^{*}(2010)^{+}",
   },
   {
-    pdg: (-413),
+    pdg: -413,
     name: "D*(2010)-",
     mass: Some(2010.26),
     width: Some(0.0834),
@@ -1098,7 +1098,7 @@ let data = [|
     iValue: Some(0.5),
     gValue: 5,
     cValue: 5,
-    pValue: (-1),
+    pValue: -1,
     anti: true,
     latex: "D^{*}(2010)^{-}",
   },
@@ -1116,7 +1116,7 @@ let data = [|
     latex: "D_{2}^{*}(2460)^{+}",
   },
   {
-    pdg: (-415),
+    pdg: -415,
     name: "D(2)*(2460)-",
     mass: Some(2461.1),
     width: Some(47.3),
@@ -1137,12 +1137,12 @@ let data = [|
     iValue: Some(0.5),
     gValue: 5,
     cValue: 5,
-    pValue: (-1),
+    pValue: -1,
     anti: true,
     latex: "D^{0}",
   },
   {
-    pdg: (-421),
+    pdg: -421,
     name: "D~0",
     mass: Some(1864.84),
     width: Some(1.605e-09),
@@ -1150,7 +1150,7 @@ let data = [|
     iValue: Some(0.5),
     gValue: 5,
     cValue: 5,
-    pValue: (-1),
+    pValue: -1,
     anti: true,
     latex: "\\overline{D}^{0}",
   },
@@ -1163,12 +1163,12 @@ let data = [|
     iValue: Some(0.5),
     gValue: 5,
     cValue: 5,
-    pValue: (-1),
+    pValue: -1,
     anti: true,
     latex: "D^{*}(2007)^{0}",
   },
   {
-    pdg: (-423),
+    pdg: -423,
     name: "D*(2007)~0",
     mass: Some(2006.85),
     width: Some(2.1),
@@ -1176,7 +1176,7 @@ let data = [|
     iValue: Some(0.5),
     gValue: 5,
     cValue: 5,
-    pValue: (-1),
+    pValue: -1,
     anti: true,
     latex: "\\overline{D}^{*}(2007)^{0}",
   },
@@ -1194,7 +1194,7 @@ let data = [|
     latex: "D_{2}^{*}(2460)^{0}",
   },
   {
-    pdg: (-425),
+    pdg: -425,
     name: "D(2)*(2460)~0",
     mass: Some(2461.1),
     width: Some(47.3),
@@ -1215,12 +1215,12 @@ let data = [|
     iValue: Some(0.0),
     gValue: 5,
     cValue: 5,
-    pValue: (-1),
+    pValue: -1,
     anti: true,
     latex: "D_{s}^{+}",
   },
   {
-    pdg: (-431),
+    pdg: -431,
     name: "D(s)-",
     mass: Some(1968.35),
     width: Some(1.305e-09),
@@ -1228,7 +1228,7 @@ let data = [|
     iValue: Some(0.0),
     gValue: 5,
     cValue: 5,
-    pValue: (-1),
+    pValue: -1,
     anti: true,
     latex: "D_{s}^{-}",
   },
@@ -1246,7 +1246,7 @@ let data = [|
     latex: "D_{s}^{*+}",
   },
   {
-    pdg: (-433),
+    pdg: -433,
     name: "D(s)*-",
     mass: Some(2112.2),
     width: None,
@@ -1272,7 +1272,7 @@ let data = [|
     latex: "D_{s2}^{*}(2573)^{+}",
   },
   {
-    pdg: (-435),
+    pdg: -435,
     name: "D(s2)*(2573)-",
     mass: Some(2569.1),
     width: Some(16.9),
@@ -1293,7 +1293,7 @@ let data = [|
     iValue: Some(0.0),
     gValue: 1,
     cValue: 1,
-    pValue: (-1),
+    pValue: -1,
     anti: false,
     latex: "\\eta_{c}(1S)",
   },
@@ -1304,9 +1304,9 @@ let data = [|
     width: Some(0.0926),
     charge: Some(0.0),
     iValue: Some(0.0),
-    gValue: (-1),
-    cValue: (-1),
-    pValue: (-1),
+    gValue: -1,
+    cValue: -1,
+    pValue: -1,
     anti: false,
     latex: "J/\\psi(1S)",
   },
@@ -1332,12 +1332,12 @@ let data = [|
     iValue: Some(0.5),
     gValue: 5,
     cValue: 5,
-    pValue: (-1),
+    pValue: -1,
     anti: true,
     latex: "B^{0}",
   },
   {
-    pdg: (-511),
+    pdg: -511,
     name: "B~0",
     mass: Some(5279.65),
     width: Some(4.333e-10),
@@ -1345,7 +1345,7 @@ let data = [|
     iValue: Some(0.5),
     gValue: 5,
     cValue: 5,
-    pValue: (-1),
+    pValue: -1,
     anti: true,
     latex: "\\overline{B}^{0}",
   },
@@ -1358,12 +1358,12 @@ let data = [|
     iValue: Some(0.5),
     gValue: 5,
     cValue: 5,
-    pValue: (-1),
+    pValue: -1,
     anti: true,
     latex: "B^{*0}",
   },
   {
-    pdg: (-513),
+    pdg: -513,
     name: "B*~0",
     mass: Some(5324.7),
     width: None,
@@ -1371,7 +1371,7 @@ let data = [|
     iValue: Some(0.5),
     gValue: 5,
     cValue: 5,
-    pValue: (-1),
+    pValue: -1,
     anti: true,
     latex: "\\overline{B}^{*0}",
   },
@@ -1389,7 +1389,7 @@ let data = [|
     latex: "B_{2}^{*}(5747)^{0}",
   },
   {
-    pdg: (-515),
+    pdg: -515,
     name: "B(2)*(5747)~0",
     mass: Some(5739.5),
     width: Some(24.2),
@@ -1410,12 +1410,12 @@ let data = [|
     iValue: Some(0.5),
     gValue: 5,
     cValue: 5,
-    pValue: (-1),
+    pValue: -1,
     anti: true,
     latex: "B^{+}",
   },
   {
-    pdg: (-521),
+    pdg: -521,
     name: "B-",
     mass: Some(5279.34),
     width: Some(4.018e-10),
@@ -1423,7 +1423,7 @@ let data = [|
     iValue: Some(0.5),
     gValue: 5,
     cValue: 5,
-    pValue: (-1),
+    pValue: -1,
     anti: true,
     latex: "B^{-}",
   },
@@ -1436,12 +1436,12 @@ let data = [|
     iValue: Some(0.5),
     gValue: 5,
     cValue: 5,
-    pValue: (-1),
+    pValue: -1,
     anti: true,
     latex: "B^{*+}",
   },
   {
-    pdg: (-523),
+    pdg: -523,
     name: "B*-",
     mass: Some(5324.7),
     width: None,
@@ -1449,7 +1449,7 @@ let data = [|
     iValue: Some(0.5),
     gValue: 5,
     cValue: 5,
-    pValue: (-1),
+    pValue: -1,
     anti: true,
     latex: "B^{*-}",
   },
@@ -1467,7 +1467,7 @@ let data = [|
     latex: "B_{2}^{*}(5747)^{+}",
   },
   {
-    pdg: (-525),
+    pdg: -525,
     name: "B(2)*(5747)-",
     mass: Some(5737.2),
     width: Some(20.0),
@@ -1488,12 +1488,12 @@ let data = [|
     iValue: Some(0.0),
     gValue: 5,
     cValue: 5,
-    pValue: (-1),
+    pValue: -1,
     anti: true,
     latex: "B_{s}^{0}",
   },
   {
-    pdg: (-531),
+    pdg: -531,
     name: "B(s)~0",
     mass: Some(5366.88),
     width: Some(4.342e-10),
@@ -1501,7 +1501,7 @@ let data = [|
     iValue: Some(0.0),
     gValue: 5,
     cValue: 5,
-    pValue: (-1),
+    pValue: -1,
     anti: true,
     latex: "\\overline{B}_{s}^{0}",
   },
@@ -1514,12 +1514,12 @@ let data = [|
     iValue: Some(0.0),
     gValue: 5,
     cValue: 5,
-    pValue: (-1),
+    pValue: -1,
     anti: true,
     latex: "B_{s}^{*0}",
   },
   {
-    pdg: (-533),
+    pdg: -533,
     name: "B(s)*~0",
     mass: Some(5415.4),
     width: None,
@@ -1527,7 +1527,7 @@ let data = [|
     iValue: Some(0.0),
     gValue: 5,
     cValue: 5,
-    pValue: (-1),
+    pValue: -1,
     anti: true,
     latex: "\\overline{B}_{s}^{*0}",
   },
@@ -1545,7 +1545,7 @@ let data = [|
     latex: "B_{s2}^{*}(5840)^{0}",
   },
   {
-    pdg: (-535),
+    pdg: -535,
     name: "B(s2)*(5840)~0",
     mass: Some(5839.86),
     width: Some(1.49),
@@ -1566,12 +1566,12 @@ let data = [|
     iValue: Some(0.0),
     gValue: 5,
     cValue: 5,
-    pValue: (-1),
+    pValue: -1,
     anti: true,
     latex: "B_{c}^{+}",
   },
   {
-    pdg: (-541),
+    pdg: -541,
     name: "B(c)-",
     mass: Some(6274.47),
     width: Some(1.291e-09),
@@ -1579,7 +1579,7 @@ let data = [|
     iValue: Some(0.0),
     gValue: 5,
     cValue: 5,
-    pValue: (-1),
+    pValue: -1,
     anti: true,
     latex: "B_{c}^{-}",
   },
@@ -1590,9 +1590,9 @@ let data = [|
     width: Some(0.054),
     charge: Some(0.0),
     iValue: Some(0.0),
-    gValue: (-1),
-    cValue: (-1),
-    pValue: (-1),
+    gValue: -1,
+    cValue: -1,
+    pValue: -1,
     anti: false,
     latex: "\\Upsilon(1S)",
   },
@@ -1623,7 +1623,7 @@ let data = [|
     latex: "(dd)_{1}",
   },
   {
-    pdg: (-1103),
+    pdg: -1103,
     name: "(dd)(1)~",
     mass: None,
     width: None,
@@ -1644,12 +1644,12 @@ let data = [|
     iValue: Some(1.5),
     gValue: 5,
     cValue: 5,
-    pValue: (-1),
+    pValue: -1,
     anti: true,
     latex: "\\Delta(1620)^{-}",
   },
   {
-    pdg: (-1112),
+    pdg: -1112,
     name: "Delta(1620)~+",
     mass: Some(1610.0),
     width: Some(130.0),
@@ -1675,7 +1675,7 @@ let data = [|
     latex: "\\Delta(1232)^{-}",
   },
   {
-    pdg: (-1114),
+    pdg: -1114,
     name: "Delta(1232)~+",
     mass: Some(1232.0),
     width: Some(117.0),
@@ -1683,7 +1683,7 @@ let data = [|
     iValue: Some(1.5),
     gValue: 5,
     cValue: 5,
-    pValue: (-1),
+    pValue: -1,
     anti: true,
     latex: "\\overline{\\Delta}(1232)^{+}",
   },
@@ -1701,7 +1701,7 @@ let data = [|
     latex: "\\Delta(1905)^{-}",
   },
   {
-    pdg: (-1116),
+    pdg: -1116,
     name: "Delta(1905)~+",
     mass: Some(1880.0),
     width: Some(330.0),
@@ -1709,7 +1709,7 @@ let data = [|
     iValue: Some(1.5),
     gValue: 5,
     cValue: 5,
-    pValue: (-1),
+    pValue: -1,
     anti: true,
     latex: "\\overline{\\Delta}(1905)^{+}",
   },
@@ -1727,7 +1727,7 @@ let data = [|
     latex: "\\Delta(1950)^{-}",
   },
   {
-    pdg: (-1118),
+    pdg: -1118,
     name: "Delta(1950)~+",
     mass: Some(1930.0),
     width: Some(280.0),
@@ -1735,7 +1735,7 @@ let data = [|
     iValue: Some(1.5),
     gValue: 5,
     cValue: 5,
-    pValue: (-1),
+    pValue: -1,
     anti: true,
     latex: "\\overline{\\Delta}(1950)^{+}",
   },
@@ -1748,12 +1748,12 @@ let data = [|
     iValue: Some(1.5),
     gValue: 5,
     cValue: 5,
-    pValue: (-1),
+    pValue: -1,
     anti: true,
     latex: "\\Delta(1620)^{0}",
   },
   {
-    pdg: (-1212),
+    pdg: -1212,
     name: "Delta(1620)~0",
     mass: Some(1610.0),
     width: Some(130.0),
@@ -1774,12 +1774,12 @@ let data = [|
     iValue: Some(0.5),
     gValue: 5,
     cValue: 5,
-    pValue: (-1),
+    pValue: -1,
     anti: true,
     latex: "N(1520)^{0}",
   },
   {
-    pdg: (-1214),
+    pdg: -1214,
     name: "N(1520)~0",
     mass: Some(1515.0),
     width: Some(110.0),
@@ -1805,7 +1805,7 @@ let data = [|
     latex: "\\Delta(1905)^{0}",
   },
   {
-    pdg: (-1216),
+    pdg: -1216,
     name: "Delta(1905)~0",
     mass: Some(1880.0),
     width: Some(330.0),
@@ -1813,7 +1813,7 @@ let data = [|
     iValue: Some(1.5),
     gValue: 5,
     cValue: 5,
-    pValue: (-1),
+    pValue: -1,
     anti: true,
     latex: "\\overline{\\Delta}(1905)^{0}",
   },
@@ -1826,12 +1826,12 @@ let data = [|
     iValue: Some(0.5),
     gValue: 5,
     cValue: 5,
-    pValue: (-1),
+    pValue: -1,
     anti: true,
     latex: "N(2190)^{0}",
   },
   {
-    pdg: (-1218),
+    pdg: -1218,
     name: "N(2190)~0",
     mass: Some(2180.0),
     width: Some(400.0),
@@ -1857,7 +1857,7 @@ let data = [|
     latex: "(ud)_{0}",
   },
   {
-    pdg: (-2101),
+    pdg: -2101,
     name: "(ud)(0)~",
     mass: None,
     width: None,
@@ -1883,7 +1883,7 @@ let data = [|
     latex: "(ud)_{1}",
   },
   {
-    pdg: (-2103),
+    pdg: -2103,
     name: "(ud)(1)~",
     mass: None,
     width: None,
@@ -1909,7 +1909,7 @@ let data = [|
     latex: "n",
   },
   {
-    pdg: (-2112),
+    pdg: -2112,
     name: "n~",
     mass: Some(939.565413),
     width: Some(7.485e-25),
@@ -1917,7 +1917,7 @@ let data = [|
     iValue: Some(0.5),
     gValue: 5,
     cValue: 5,
-    pValue: (-1),
+    pValue: -1,
     anti: true,
     latex: "\\overline{n}",
   },
@@ -1935,7 +1935,7 @@ let data = [|
     latex: "\\Delta(1232)^{0}",
   },
   {
-    pdg: (-2114),
+    pdg: -2114,
     name: "Delta(1232)~0",
     mass: Some(1232.0),
     width: Some(117.0),
@@ -1943,7 +1943,7 @@ let data = [|
     iValue: Some(1.5),
     gValue: 5,
     cValue: 5,
-    pValue: (-1),
+    pValue: -1,
     anti: true,
     latex: "\\overline{\\Delta}(1232)^{0}",
   },
@@ -1956,12 +1956,12 @@ let data = [|
     iValue: Some(0.5),
     gValue: 5,
     cValue: 5,
-    pValue: (-1),
+    pValue: -1,
     anti: true,
     latex: "N(1675)^{0}",
   },
   {
-    pdg: (-2116),
+    pdg: -2116,
     name: "N(1675)~0",
     mass: Some(1675.0),
     width: Some(145.0),
@@ -1987,7 +1987,7 @@ let data = [|
     latex: "\\Delta(1950)^{0}",
   },
   {
-    pdg: (-2118),
+    pdg: -2118,
     name: "Delta(1950)~0",
     mass: Some(1930.0),
     width: Some(280.0),
@@ -1995,7 +1995,7 @@ let data = [|
     iValue: Some(1.5),
     gValue: 5,
     cValue: 5,
-    pValue: (-1),
+    pValue: -1,
     anti: true,
     latex: "\\overline{\\Delta}(1950)^{0}",
   },
@@ -2008,12 +2008,12 @@ let data = [|
     iValue: Some(1.5),
     gValue: 5,
     cValue: 5,
-    pValue: (-1),
+    pValue: -1,
     anti: true,
     latex: "\\Delta(1620)^{+}",
   },
   {
-    pdg: (-2122),
+    pdg: -2122,
     name: "Delta(1620)~-",
     mass: Some(1610.0),
     width: Some(130.0),
@@ -2034,12 +2034,12 @@ let data = [|
     iValue: Some(0.5),
     gValue: 5,
     cValue: 5,
-    pValue: (-1),
+    pValue: -1,
     anti: true,
     latex: "N(1520)^{+}",
   },
   {
-    pdg: (-2124),
+    pdg: -2124,
     name: "N(1520)~-",
     mass: Some(1515.0),
     width: Some(110.0),
@@ -2065,7 +2065,7 @@ let data = [|
     latex: "\\Delta(1905)^{+}",
   },
   {
-    pdg: (-2126),
+    pdg: -2126,
     name: "Delta(1905)~-",
     mass: Some(1880.0),
     width: Some(330.0),
@@ -2073,7 +2073,7 @@ let data = [|
     iValue: Some(1.5),
     gValue: 5,
     cValue: 5,
-    pValue: (-1),
+    pValue: -1,
     anti: true,
     latex: "\\overline{\\Delta}(1905)^{-}",
   },
@@ -2086,12 +2086,12 @@ let data = [|
     iValue: Some(0.5),
     gValue: 5,
     cValue: 5,
-    pValue: (-1),
+    pValue: -1,
     anti: true,
     latex: "N(2190)^{+}",
   },
   {
-    pdg: (-2128),
+    pdg: -2128,
     name: "N(2190)~-",
     mass: Some(2180.0),
     width: Some(400.0),
@@ -2117,7 +2117,7 @@ let data = [|
     latex: "(uu)_{1}",
   },
   {
-    pdg: (-2203),
+    pdg: -2203,
     name: "(uu)(1)~",
     mass: None,
     width: None,
@@ -2143,7 +2143,7 @@ let data = [|
     latex: "p",
   },
   {
-    pdg: (-2212),
+    pdg: -2212,
     name: "p~",
     mass: Some(938.272081),
     width: Some(0.0),
@@ -2151,7 +2151,7 @@ let data = [|
     iValue: Some(0.5),
     gValue: 5,
     cValue: 5,
-    pValue: (-1),
+    pValue: -1,
     anti: true,
     latex: "\\overline{p}",
   },
@@ -2169,7 +2169,7 @@ let data = [|
     latex: "\\Delta(1232)^{+}",
   },
   {
-    pdg: (-2214),
+    pdg: -2214,
     name: "Delta(1232)~-",
     mass: Some(1232.0),
     width: Some(117.0),
@@ -2177,7 +2177,7 @@ let data = [|
     iValue: Some(1.5),
     gValue: 5,
     cValue: 5,
-    pValue: (-1),
+    pValue: -1,
     anti: true,
     latex: "\\overline{\\Delta}(1232)^{-}",
   },
@@ -2190,12 +2190,12 @@ let data = [|
     iValue: Some(0.5),
     gValue: 5,
     cValue: 5,
-    pValue: (-1),
+    pValue: -1,
     anti: true,
     latex: "N(1675)^{+}",
   },
   {
-    pdg: (-2216),
+    pdg: -2216,
     name: "N(1675)~-",
     mass: Some(1675.0),
     width: Some(145.0),
@@ -2221,7 +2221,7 @@ let data = [|
     latex: "\\Delta(1950)^{+}",
   },
   {
-    pdg: (-2218),
+    pdg: -2218,
     name: "Delta(1950)~-",
     mass: Some(1930.0),
     width: Some(280.0),
@@ -2229,7 +2229,7 @@ let data = [|
     iValue: Some(1.5),
     gValue: 5,
     cValue: 5,
-    pValue: (-1),
+    pValue: -1,
     anti: true,
     latex: "\\overline{\\Delta}(1950)^{-}",
   },
@@ -2242,12 +2242,12 @@ let data = [|
     iValue: Some(1.5),
     gValue: 5,
     cValue: 5,
-    pValue: (-1),
+    pValue: -1,
     anti: true,
     latex: "\\Delta(1620)^{++}",
   },
   {
-    pdg: (-2222),
+    pdg: -2222,
     name: "Delta(1620)~--",
     mass: Some(1610.0),
     width: Some(130.0),
@@ -2273,7 +2273,7 @@ let data = [|
     latex: "\\Delta(1232)^{++}",
   },
   {
-    pdg: (-2224),
+    pdg: -2224,
     name: "Delta(1232)~--",
     mass: Some(1232.0),
     width: Some(117.0),
@@ -2281,7 +2281,7 @@ let data = [|
     iValue: Some(1.5),
     gValue: 5,
     cValue: 5,
-    pValue: (-1),
+    pValue: -1,
     anti: true,
     latex: "\\overline{\\Delta}(1232)^{--}",
   },
@@ -2299,7 +2299,7 @@ let data = [|
     latex: "\\Delta(1905)^{++}",
   },
   {
-    pdg: (-2226),
+    pdg: -2226,
     name: "Delta(1905)~--",
     mass: Some(1880.0),
     width: Some(330.0),
@@ -2307,7 +2307,7 @@ let data = [|
     iValue: Some(1.5),
     gValue: 5,
     cValue: 5,
-    pValue: (-1),
+    pValue: -1,
     anti: true,
     latex: "\\overline{\\Delta}(1905)^{--}",
   },
@@ -2325,7 +2325,7 @@ let data = [|
     latex: "\\Delta(1950)^{++}",
   },
   {
-    pdg: (-2228),
+    pdg: -2228,
     name: "Delta(1950)~--",
     mass: Some(1930.0),
     width: Some(280.0),
@@ -2333,7 +2333,7 @@ let data = [|
     iValue: Some(1.5),
     gValue: 5,
     cValue: 5,
-    pValue: (-1),
+    pValue: -1,
     anti: true,
     latex: "\\overline{\\Delta}(1950)^{--}",
   },
@@ -2351,7 +2351,7 @@ let data = [|
     latex: "(sd)_{0}",
   },
   {
-    pdg: (-3101),
+    pdg: -3101,
     name: "(sd)(0)~",
     mass: None,
     width: None,
@@ -2377,7 +2377,7 @@ let data = [|
     latex: "(sd)_{1}",
   },
   {
-    pdg: (-3103),
+    pdg: -3103,
     name: "(sd)(1)~",
     mass: None,
     width: None,
@@ -2403,7 +2403,7 @@ let data = [|
     latex: "\\Sigma^{-}",
   },
   {
-    pdg: (-3112),
+    pdg: -3112,
     name: "Sigma~+",
     mass: Some(1197.449),
     width: Some(4.45e-12),
@@ -2411,7 +2411,7 @@ let data = [|
     iValue: Some(1.0),
     gValue: 5,
     cValue: 5,
-    pValue: (-1),
+    pValue: -1,
     anti: true,
     latex: "\\overline{\\Sigma}^{+}",
   },
@@ -2429,7 +2429,7 @@ let data = [|
     latex: "\\Sigma(1385)^{-}",
   },
   {
-    pdg: (-3114),
+    pdg: -3114,
     name: "Sigma(1385)~+",
     mass: Some(1387.2),
     width: Some(39.4),
@@ -2437,7 +2437,7 @@ let data = [|
     iValue: Some(1.0),
     gValue: 5,
     cValue: 5,
-    pValue: (-1),
+    pValue: -1,
     anti: true,
     latex: "\\overline{\\Sigma}(1385)^{+}",
   },
@@ -2450,12 +2450,12 @@ let data = [|
     iValue: Some(1.0),
     gValue: 5,
     cValue: 5,
-    pValue: (-1),
+    pValue: -1,
     anti: true,
     latex: "\\Sigma(1775)^{-}",
   },
   {
-    pdg: (-3116),
+    pdg: -3116,
     name: "Sigma(1775)~+",
     mass: Some(1775.0),
     width: Some(120.0),
@@ -2481,7 +2481,7 @@ let data = [|
     latex: "\\Sigma(2030)^{-}",
   },
   {
-    pdg: (-3118),
+    pdg: -3118,
     name: "Sigma(2030)~+",
     mass: Some(2030.0),
     width: Some(180.0),
@@ -2489,7 +2489,7 @@ let data = [|
     iValue: Some(1.0),
     gValue: 5,
     cValue: 5,
-    pValue: (-1),
+    pValue: -1,
     anti: true,
     latex: "\\overline{\\Sigma}(2030)^{+}",
   },
@@ -2507,7 +2507,7 @@ let data = [|
     latex: "\\Lambda",
   },
   {
-    pdg: (-3122),
+    pdg: -3122,
     name: "Lambda~",
     mass: Some(1115.683),
     width: Some(2.501e-12),
@@ -2515,7 +2515,7 @@ let data = [|
     iValue: Some(0.0),
     gValue: 5,
     cValue: 5,
-    pValue: (-1),
+    pValue: -1,
     anti: true,
     latex: "\\overline{\\Lambda}",
   },
@@ -2528,12 +2528,12 @@ let data = [|
     iValue: Some(0.0),
     gValue: 5,
     cValue: 5,
-    pValue: (-1),
+    pValue: -1,
     anti: true,
     latex: "\\Lambda(1520)",
   },
   {
-    pdg: (-3124),
+    pdg: -3124,
     name: "Lambda(1520)~",
     mass: Some(1519.0),
     width: Some(16.0),
@@ -2559,7 +2559,7 @@ let data = [|
     latex: "\\Lambda(1820)",
   },
   {
-    pdg: (-3126),
+    pdg: -3126,
     name: "Lambda(1820)~",
     mass: Some(1820.0),
     width: Some(80.0),
@@ -2567,7 +2567,7 @@ let data = [|
     iValue: Some(0.0),
     gValue: 5,
     cValue: 5,
-    pValue: (-1),
+    pValue: -1,
     anti: true,
     latex: "\\overline{\\Lambda}(1820)",
   },
@@ -2580,12 +2580,12 @@ let data = [|
     iValue: Some(0.0),
     gValue: 5,
     cValue: 5,
-    pValue: (-1),
+    pValue: -1,
     anti: true,
     latex: "\\Lambda(2100)",
   },
   {
-    pdg: (-3128),
+    pdg: -3128,
     name: "Lambda(2100)~",
     mass: Some(2100.0),
     width: Some(200.0),
@@ -2611,7 +2611,7 @@ let data = [|
     latex: "(su)_{0}",
   },
   {
-    pdg: (-3201),
+    pdg: -3201,
     name: "(su)(0)~",
     mass: None,
     width: None,
@@ -2637,7 +2637,7 @@ let data = [|
     latex: "(su)_{1}",
   },
   {
-    pdg: (-3203),
+    pdg: -3203,
     name: "(su)(1)~",
     mass: None,
     width: None,
@@ -2663,7 +2663,7 @@ let data = [|
     latex: "\\Sigma^{0}",
   },
   {
-    pdg: (-3212),
+    pdg: -3212,
     name: "Sigma~0",
     mass: Some(1192.642),
     width: Some(0.0089),
@@ -2671,7 +2671,7 @@ let data = [|
     iValue: Some(1.0),
     gValue: 5,
     cValue: 5,
-    pValue: (-1),
+    pValue: -1,
     anti: true,
     latex: "\\overline{\\Sigma}^{0}",
   },
@@ -2689,7 +2689,7 @@ let data = [|
     latex: "\\Sigma(1385)^{0}",
   },
   {
-    pdg: (-3214),
+    pdg: -3214,
     name: "Sigma(1385)~0",
     mass: Some(1383.7),
     width: Some(36.0),
@@ -2697,7 +2697,7 @@ let data = [|
     iValue: Some(1.0),
     gValue: 5,
     cValue: 5,
-    pValue: (-1),
+    pValue: -1,
     anti: true,
     latex: "\\overline{\\Sigma}(1385)^{0}",
   },
@@ -2710,12 +2710,12 @@ let data = [|
     iValue: Some(1.0),
     gValue: 5,
     cValue: 5,
-    pValue: (-1),
+    pValue: -1,
     anti: true,
     latex: "\\Sigma(1775)^{0}",
   },
   {
-    pdg: (-3216),
+    pdg: -3216,
     name: "Sigma(1775)~0",
     mass: Some(1775.0),
     width: Some(120.0),
@@ -2741,7 +2741,7 @@ let data = [|
     latex: "\\Sigma(2030)^{0}",
   },
   {
-    pdg: (-3218),
+    pdg: -3218,
     name: "Sigma(2030)~0",
     mass: Some(2030.0),
     width: Some(180.0),
@@ -2749,7 +2749,7 @@ let data = [|
     iValue: Some(1.0),
     gValue: 5,
     cValue: 5,
-    pValue: (-1),
+    pValue: -1,
     anti: true,
     latex: "\\overline{\\Sigma}(2030)^{0}",
   },
@@ -2767,7 +2767,7 @@ let data = [|
     latex: "\\Sigma^{+}",
   },
   {
-    pdg: (-3222),
+    pdg: -3222,
     name: "Sigma~-",
     mass: Some(1189.37),
     width: Some(8.209e-12),
@@ -2775,7 +2775,7 @@ let data = [|
     iValue: Some(1.0),
     gValue: 5,
     cValue: 5,
-    pValue: (-1),
+    pValue: -1,
     anti: true,
     latex: "\\overline{\\Sigma}^{-}",
   },
@@ -2793,7 +2793,7 @@ let data = [|
     latex: "\\Sigma(1385)^{+}",
   },
   {
-    pdg: (-3224),
+    pdg: -3224,
     name: "Sigma(1385)~-",
     mass: Some(1382.8),
     width: Some(36.0),
@@ -2801,7 +2801,7 @@ let data = [|
     iValue: Some(1.0),
     gValue: 5,
     cValue: 5,
-    pValue: (-1),
+    pValue: -1,
     anti: true,
     latex: "\\overline{\\Sigma}(1385)^{-}",
   },
@@ -2814,12 +2814,12 @@ let data = [|
     iValue: Some(1.0),
     gValue: 5,
     cValue: 5,
-    pValue: (-1),
+    pValue: -1,
     anti: true,
     latex: "\\Sigma(1775)^{+}",
   },
   {
-    pdg: (-3226),
+    pdg: -3226,
     name: "Sigma(1775)~-",
     mass: Some(1775.0),
     width: Some(120.0),
@@ -2845,7 +2845,7 @@ let data = [|
     latex: "\\Sigma(2030)^{+}",
   },
   {
-    pdg: (-3228),
+    pdg: -3228,
     name: "Sigma(2030)~-",
     mass: Some(2030.0),
     width: Some(180.0),
@@ -2853,7 +2853,7 @@ let data = [|
     iValue: Some(1.0),
     gValue: 5,
     cValue: 5,
-    pValue: (-1),
+    pValue: -1,
     anti: true,
     latex: "\\overline{\\Sigma}(2030)^{-}",
   },
@@ -2871,7 +2871,7 @@ let data = [|
     latex: "(ss)_{1}",
   },
   {
-    pdg: (-3303),
+    pdg: -3303,
     name: "(ss)(1)~",
     mass: None,
     width: None,
@@ -2897,7 +2897,7 @@ let data = [|
     latex: "\\Xi^{-}",
   },
   {
-    pdg: (-3312),
+    pdg: -3312,
     name: "Xi~+",
     mass: Some(1321.71),
     width: Some(4.02e-12),
@@ -2905,7 +2905,7 @@ let data = [|
     iValue: Some(0.5),
     gValue: 5,
     cValue: 5,
-    pValue: (-1),
+    pValue: -1,
     anti: true,
     latex: "\\overline{\\Xi}^{+}",
   },
@@ -2923,7 +2923,7 @@ let data = [|
     latex: "\\Xi(1530)^{-}",
   },
   {
-    pdg: (-3314),
+    pdg: -3314,
     name: "Xi(1530)~+",
     mass: Some(1535.0),
     width: Some(9.9),
@@ -2931,7 +2931,7 @@ let data = [|
     iValue: Some(0.5),
     gValue: 5,
     cValue: 5,
-    pValue: (-1),
+    pValue: -1,
     anti: true,
     latex: "\\overline{\\Xi}(1530)^{+}",
   },
@@ -2949,7 +2949,7 @@ let data = [|
     latex: "\\Xi^{0}",
   },
   {
-    pdg: (-3322),
+    pdg: -3322,
     name: "Xi~0",
     mass: Some(1314.86),
     width: Some(2.27e-12),
@@ -2957,7 +2957,7 @@ let data = [|
     iValue: Some(0.5),
     gValue: 5,
     cValue: 5,
-    pValue: (-1),
+    pValue: -1,
     anti: true,
     latex: "\\overline{\\Xi}^{0}",
   },
@@ -2975,7 +2975,7 @@ let data = [|
     latex: "\\Xi(1530)^{0}",
   },
   {
-    pdg: (-3324),
+    pdg: -3324,
     name: "Xi(1530)~0",
     mass: Some(1531.8),
     width: Some(9.1),
@@ -2983,7 +2983,7 @@ let data = [|
     iValue: Some(0.5),
     gValue: 5,
     cValue: 5,
-    pValue: (-1),
+    pValue: -1,
     anti: true,
     latex: "\\overline{\\Xi}(1530)^{0}",
   },
@@ -3001,7 +3001,7 @@ let data = [|
     latex: "\\Omega^{-}",
   },
   {
-    pdg: (-3334),
+    pdg: -3334,
     name: "Omega~+",
     mass: Some(1672.45),
     width: Some(8.02e-12),
@@ -3009,7 +3009,7 @@ let data = [|
     iValue: Some(0.0),
     gValue: 5,
     cValue: 5,
-    pValue: (-1),
+    pValue: -1,
     anti: true,
     latex: "\\overline{\\Omega}^{+}",
   },
@@ -3027,7 +3027,7 @@ let data = [|
     latex: "(cd)_{0}",
   },
   {
-    pdg: (-4101),
+    pdg: -4101,
     name: "(cd)(0)~",
     mass: None,
     width: None,
@@ -3053,7 +3053,7 @@ let data = [|
     latex: "(cd)_{1}",
   },
   {
-    pdg: (-4103),
+    pdg: -4103,
     name: "(cd)(1)~",
     mass: None,
     width: None,
@@ -3079,7 +3079,7 @@ let data = [|
     latex: "\\Sigma_{c}^{0}",
   },
   {
-    pdg: (-4112),
+    pdg: -4112,
     name: "Sigma(c)(2455)~0",
     mass: Some(2453.75),
     width: Some(1.83),
@@ -3087,7 +3087,7 @@ let data = [|
     iValue: Some(1.0),
     gValue: 5,
     cValue: 5,
-    pValue: (-1),
+    pValue: -1,
     anti: true,
     latex: "\\overline{\\Sigma}_{c}^{0}",
   },
@@ -3105,7 +3105,7 @@ let data = [|
     latex: "\\Sigma_{c}(2520)^{0}",
   },
   {
-    pdg: (-4114),
+    pdg: -4114,
     name: "Sigma(c)(2520)~0",
     mass: Some(2518.48),
     width: Some(15.3),
@@ -3113,7 +3113,7 @@ let data = [|
     iValue: Some(1.0),
     gValue: 5,
     cValue: 5,
-    pValue: (-1),
+    pValue: -1,
     anti: true,
     latex: "\\overline{\\Sigma}_{c}(2520)^{0}",
   },
@@ -3131,7 +3131,7 @@ let data = [|
     latex: "\\Lambda_{c}^{+}",
   },
   {
-    pdg: (-4122),
+    pdg: -4122,
     name: "Lambda(c)~-",
     mass: Some(2286.46),
     width: Some(3.25e-09),
@@ -3139,7 +3139,7 @@ let data = [|
     iValue: Some(0.0),
     gValue: 5,
     cValue: 5,
-    pValue: (-1),
+    pValue: -1,
     anti: true,
     latex: "\\overline{\\Lambda}_{c}^{-}",
   },
@@ -3157,7 +3157,7 @@ let data = [|
     latex: "\\Xi_{c}^{0}",
   },
   {
-    pdg: (-4132),
+    pdg: -4132,
     name: "Xi(c)~0",
     mass: Some(2470.44),
     width: Some(4.31e-09),
@@ -3165,7 +3165,7 @@ let data = [|
     iValue: Some(0.5),
     gValue: 5,
     cValue: 5,
-    pValue: (-1),
+    pValue: -1,
     anti: true,
     latex: "\\overline{\\Xi}_{c}^{0}",
   },
@@ -3183,7 +3183,7 @@ let data = [|
     latex: "(cu)_{0}",
   },
   {
-    pdg: (-4201),
+    pdg: -4201,
     name: "(cu)(0)~",
     mass: None,
     width: None,
@@ -3209,7 +3209,7 @@ let data = [|
     latex: "(cu)_{1}",
   },
   {
-    pdg: (-4203),
+    pdg: -4203,
     name: "(cu)(1)~",
     mass: None,
     width: None,
@@ -3235,7 +3235,7 @@ let data = [|
     latex: "\\Sigma_{c}(2455)^{+}",
   },
   {
-    pdg: (-4212),
+    pdg: -4212,
     name: "Sigma(c)(2455)~-",
     mass: Some(2452.9),
     width: Some(4.6),
@@ -3243,7 +3243,7 @@ let data = [|
     iValue: Some(1.0),
     gValue: 5,
     cValue: 5,
-    pValue: (-1),
+    pValue: -1,
     anti: true,
     latex: "\\overline{\\Sigma}_{c}(2455)^{-}",
   },
@@ -3261,7 +3261,7 @@ let data = [|
     latex: "\\Sigma_{c}(2520)^{+}",
   },
   {
-    pdg: (-4214),
+    pdg: -4214,
     name: "Sigma(c)(2520)~-",
     mass: Some(2517.5),
     width: Some(17.0),
@@ -3269,7 +3269,7 @@ let data = [|
     iValue: Some(1.0),
     gValue: 5,
     cValue: 5,
-    pValue: (-1),
+    pValue: -1,
     anti: true,
     latex: "\\overline{\\Sigma}_{c}(2520)^{-}",
   },
@@ -3287,7 +3287,7 @@ let data = [|
     latex: "\\Sigma_{c}(2455)^{++}",
   },
   {
-    pdg: (-4222),
+    pdg: -4222,
     name: "Sigma(c)(2455)~--",
     mass: Some(2453.97),
     width: Some(1.89),
@@ -3295,7 +3295,7 @@ let data = [|
     iValue: Some(1.0),
     gValue: 5,
     cValue: 5,
-    pValue: (-1),
+    pValue: -1,
     anti: true,
     latex: "\\overline{\\Sigma}_{c}(2455)^{--}",
   },
@@ -3313,7 +3313,7 @@ let data = [|
     latex: "\\Sigma_{c}(2520)^{++}",
   },
   {
-    pdg: (-4224),
+    pdg: -4224,
     name: "Sigma(c)(2520)~--",
     mass: Some(2518.41),
     width: Some(14.78),
@@ -3321,7 +3321,7 @@ let data = [|
     iValue: Some(1.0),
     gValue: 5,
     cValue: 5,
-    pValue: (-1),
+    pValue: -1,
     anti: true,
     latex: "\\overline{\\Sigma}_{c}(2520)^{--}",
   },
@@ -3339,7 +3339,7 @@ let data = [|
     latex: "\\Xi_{c}^{+}",
   },
   {
-    pdg: (-4232),
+    pdg: -4232,
     name: "Xi(c)~-",
     mass: Some(2467.71),
     width: Some(1.444e-09),
@@ -3347,7 +3347,7 @@ let data = [|
     iValue: Some(0.5),
     gValue: 5,
     cValue: 5,
-    pValue: (-1),
+    pValue: -1,
     anti: true,
     latex: "\\overline{\\Xi}_{c}^{-}",
   },
@@ -3365,7 +3365,7 @@ let data = [|
     latex: "(cs)_{0}",
   },
   {
-    pdg: (-4301),
+    pdg: -4301,
     name: "(cs)(0)~",
     mass: None,
     width: None,
@@ -3391,7 +3391,7 @@ let data = [|
     latex: "(cs)_{1}",
   },
   {
-    pdg: (-4303),
+    pdg: -4303,
     name: "(cs)(1)~",
     mass: None,
     width: None,
@@ -3417,7 +3417,7 @@ let data = [|
     latex: "\\Xi_{c}^{\\prime0}",
   },
   {
-    pdg: (-4312),
+    pdg: -4312,
     name: "Xi(c)'~0",
     mass: Some(2578.7),
     width: None,
@@ -3425,7 +3425,7 @@ let data = [|
     iValue: Some(0.5),
     gValue: 5,
     cValue: 5,
-    pValue: (-1),
+    pValue: -1,
     anti: true,
     latex: "\\overline{\\Xi}_{c}^{\\prime0}",
   },
@@ -3443,7 +3443,7 @@ let data = [|
     latex: "\\Xi_{c}(2645)^{0}",
   },
   {
-    pdg: (-4314),
+    pdg: -4314,
     name: "Xi(c)(2645)~0",
     mass: Some(2646.16),
     width: Some(2.35),
@@ -3451,7 +3451,7 @@ let data = [|
     iValue: Some(0.5),
     gValue: 5,
     cValue: 5,
-    pValue: (-1),
+    pValue: -1,
     anti: true,
     latex: "\\overline{\\Xi}_{c}(2645)^{0}",
   },
@@ -3469,7 +3469,7 @@ let data = [|
     latex: "\\Xi_{c}^{\\prime+}",
   },
   {
-    pdg: (-4322),
+    pdg: -4322,
     name: "Xi(c)'~-",
     mass: Some(2578.2),
     width: None,
@@ -3477,7 +3477,7 @@ let data = [|
     iValue: Some(0.5),
     gValue: 5,
     cValue: 5,
-    pValue: (-1),
+    pValue: -1,
     anti: true,
     latex: "\\overline{\\Xi}_{c}^{\\prime-}",
   },
@@ -3495,7 +3495,7 @@ let data = [|
     latex: "\\Xi_{c}(2645)^{+}",
   },
   {
-    pdg: (-4324),
+    pdg: -4324,
     name: "Xi(c)(2645)~-",
     mass: Some(2645.1),
     width: Some(2.14),
@@ -3503,7 +3503,7 @@ let data = [|
     iValue: Some(0.5),
     gValue: 5,
     cValue: 5,
-    pValue: (-1),
+    pValue: -1,
     anti: true,
     latex: "\\overline{\\Xi}_{c}(2645)^{-}",
   },
@@ -3521,7 +3521,7 @@ let data = [|
     latex: "\\Omega_{c}^{0}",
   },
   {
-    pdg: (-4332),
+    pdg: -4332,
     name: "Omega(c)~0",
     mass: Some(2695.2),
     width: Some(2.46e-09),
@@ -3529,7 +3529,7 @@ let data = [|
     iValue: Some(0.0),
     gValue: 5,
     cValue: 5,
-    pValue: (-1),
+    pValue: -1,
     anti: true,
     latex: "\\overline{\\Omega}_{c}^{0}",
   },
@@ -3547,7 +3547,7 @@ let data = [|
     latex: "\\Omega_{c}(2770)^{0}",
   },
   {
-    pdg: (-4334),
+    pdg: -4334,
     name: "Omega(c)(2770)~0",
     mass: Some(2765.9),
     width: None,
@@ -3555,7 +3555,7 @@ let data = [|
     iValue: Some(0.0),
     gValue: 5,
     cValue: 5,
-    pValue: (-1),
+    pValue: -1,
     anti: true,
     latex: "\\overline{\\Omega}_{c}(2770)^{0}",
   },
@@ -3573,7 +3573,7 @@ let data = [|
     latex: "(cc)_{1}",
   },
   {
-    pdg: (-4403),
+    pdg: -4403,
     name: "(cc)(1)~",
     mass: None,
     width: None,
@@ -3599,7 +3599,7 @@ let data = [|
     latex: "(bd)_{0}",
   },
   {
-    pdg: (-5101),
+    pdg: -5101,
     name: "(bd)(0)~",
     mass: None,
     width: None,
@@ -3625,7 +3625,7 @@ let data = [|
     latex: "(bd)_{1}",
   },
   {
-    pdg: (-5103),
+    pdg: -5103,
     name: "(bd)(1)~",
     mass: None,
     width: None,
@@ -3651,7 +3651,7 @@ let data = [|
     latex: "\\Sigma_{b}^{-}",
   },
   {
-    pdg: (-5112),
+    pdg: -5112,
     name: "Sigma(b)~+",
     mass: Some(5815.64),
     width: Some(5.3),
@@ -3659,7 +3659,7 @@ let data = [|
     iValue: Some(1.0),
     gValue: 5,
     cValue: 5,
-    pValue: (-1),
+    pValue: -1,
     anti: true,
     latex: "\\overline{\\Sigma}_{b}^{+}",
   },
@@ -3677,7 +3677,7 @@ let data = [|
     latex: "\\Sigma_{b}^{*-}",
   },
   {
-    pdg: (-5114),
+    pdg: -5114,
     name: "Sigma(b)*~+",
     mass: Some(5834.74),
     width: Some(10.4),
@@ -3685,7 +3685,7 @@ let data = [|
     iValue: Some(1.0),
     gValue: 5,
     cValue: 5,
-    pValue: (-1),
+    pValue: -1,
     anti: true,
     latex: "\\overline{\\Sigma}_{b}^{*+}",
   },
@@ -3703,7 +3703,7 @@ let data = [|
     latex: "\\Lambda_{b}^{0}",
   },
   {
-    pdg: (-5122),
+    pdg: -5122,
     name: "Lambda(b)~0",
     mass: Some(5619.6),
     width: Some(4.475e-10),
@@ -3711,7 +3711,7 @@ let data = [|
     iValue: Some(0.0),
     gValue: 5,
     cValue: 5,
-    pValue: (-1),
+    pValue: -1,
     anti: true,
     latex: "\\overline{\\Lambda}_{b}^{0}",
   },
@@ -3729,7 +3729,7 @@ let data = [|
     latex: "\\Xi_{b}^{-}",
   },
   {
-    pdg: (-5132),
+    pdg: -5132,
     name: "Xi(b)~+",
     mass: Some(5797.0),
     width: Some(4.19e-10),
@@ -3737,7 +3737,7 @@ let data = [|
     iValue: Some(0.5),
     gValue: 5,
     cValue: 5,
-    pValue: (-1),
+    pValue: -1,
     anti: true,
     latex: "\\overline{\\Xi}_{b}^{+}",
   },
@@ -3755,7 +3755,7 @@ let data = [|
     latex: "(bu)_{0}",
   },
   {
-    pdg: (-5201),
+    pdg: -5201,
     name: "(bu)(0)~",
     mass: None,
     width: None,
@@ -3781,7 +3781,7 @@ let data = [|
     latex: "(bu)_{1}",
   },
   {
-    pdg: (-5203),
+    pdg: -5203,
     name: "(bu)(1)~",
     mass: None,
     width: None,
@@ -3807,7 +3807,7 @@ let data = [|
     latex: "\\Sigma_{b}^{+}",
   },
   {
-    pdg: (-5222),
+    pdg: -5222,
     name: "Sigma(b)~-",
     mass: Some(5810.56),
     width: Some(5.0),
@@ -3815,7 +3815,7 @@ let data = [|
     iValue: Some(1.0),
     gValue: 5,
     cValue: 5,
-    pValue: (-1),
+    pValue: -1,
     anti: true,
     latex: "\\overline{\\Sigma}_{b}^{-}",
   },
@@ -3833,7 +3833,7 @@ let data = [|
     latex: "\\Sigma_{b}^{*+}",
   },
   {
-    pdg: (-5224),
+    pdg: -5224,
     name: "Sigma(b)*~-",
     mass: Some(5830.32),
     width: Some(9.4),
@@ -3841,7 +3841,7 @@ let data = [|
     iValue: Some(1.0),
     gValue: 5,
     cValue: 5,
-    pValue: (-1),
+    pValue: -1,
     anti: true,
     latex: "\\overline{\\Sigma}_{b}^{*-}",
   },
@@ -3859,7 +3859,7 @@ let data = [|
     latex: "\\Xi_{b}^{0}",
   },
   {
-    pdg: (-5232),
+    pdg: -5232,
     name: "Xi(b)~0",
     mass: Some(5791.9),
     width: Some(4.45e-10),
@@ -3867,7 +3867,7 @@ let data = [|
     iValue: Some(0.5),
     gValue: 5,
     cValue: 5,
-    pValue: (-1),
+    pValue: -1,
     anti: true,
     latex: "\\overline{\\Xi}_{b}^{0}",
   },
@@ -3885,7 +3885,7 @@ let data = [|
     latex: "(bs)_{0}",
   },
   {
-    pdg: (-5301),
+    pdg: -5301,
     name: "(bs)(0)~",
     mass: None,
     width: None,
@@ -3911,7 +3911,7 @@ let data = [|
     latex: "(bs)_{1}",
   },
   {
-    pdg: (-5303),
+    pdg: -5303,
     name: "(bs)(1)~",
     mass: None,
     width: None,
@@ -3937,7 +3937,7 @@ let data = [|
     latex: "\\Omega_{b}^{-}",
   },
   {
-    pdg: (-5332),
+    pdg: -5332,
     name: "Omega(b)~+",
     mass: Some(6046.1),
     width: Some(4e-10),
@@ -3945,7 +3945,7 @@ let data = [|
     iValue: Some(0.0),
     gValue: 5,
     cValue: 5,
-    pValue: (-1),
+    pValue: -1,
     anti: true,
     latex: "\\overline{\\Omega}_{b}^{+}",
   },
@@ -3963,7 +3963,7 @@ let data = [|
     latex: "(bc)_{0}",
   },
   {
-    pdg: (-5401),
+    pdg: -5401,
     name: "(bc)(0)~",
     mass: None,
     width: None,
@@ -3989,7 +3989,7 @@ let data = [|
     latex: "(bc)_{1}",
   },
   {
-    pdg: (-5403),
+    pdg: -5403,
     name: "(bc)(1)~",
     mass: None,
     width: None,
@@ -4015,7 +4015,7 @@ let data = [|
     latex: "(bb)_{1}",
   },
   {
-    pdg: (-5503),
+    pdg: -5503,
     name: "(bb)(1)~",
     mass: None,
     width: None,
@@ -4034,7 +4034,7 @@ let data = [|
     width: Some(265.0),
     charge: Some(0.0),
     iValue: Some(1.0),
-    gValue: (-1),
+    gValue: -1,
     cValue: 1,
     pValue: 1,
     anti: false,
@@ -4048,7 +4048,7 @@ let data = [|
     charge: Some(0.0),
     iValue: Some(1.0),
     gValue: 1,
-    cValue: (-1),
+    cValue: -1,
     pValue: 1,
     anti: false,
     latex: "b_{1}(1235)^{0}",
@@ -4060,9 +4060,9 @@ let data = [|
     width: Some(258.0),
     charge: Some(0.0),
     iValue: Some(1.0),
-    gValue: (-1),
+    gValue: -1,
     cValue: 1,
-    pValue: (-1),
+    pValue: -1,
     anti: false,
     latex: "\\pi_{2}(1670)^{0}",
   },
@@ -4073,20 +4073,20 @@ let data = [|
     width: Some(265.0),
     charge: Some(1.0),
     iValue: Some(1.0),
-    gValue: (-1),
+    gValue: -1,
     cValue: 5,
     pValue: 1,
     anti: true,
     latex: "a_{0}(1450)^{+}",
   },
   {
-    pdg: (-10211),
+    pdg: -10211,
     name: "a(0)(1450)-",
     mass: Some(1474.0),
     width: Some(265.0),
     charge: Some(-1.0),
     iValue: Some(1.0),
-    gValue: (-1),
+    gValue: -1,
     cValue: 5,
     pValue: 1,
     anti: true,
@@ -4106,7 +4106,7 @@ let data = [|
     latex: "b_{1}(1235)^{+}",
   },
   {
-    pdg: (-10213),
+    pdg: -10213,
     name: "b(1)(1235)-",
     mass: Some(1229.5),
     width: Some(142.0),
@@ -4125,22 +4125,22 @@ let data = [|
     width: Some(258.0),
     charge: Some(1.0),
     iValue: Some(1.0),
-    gValue: (-1),
+    gValue: -1,
     cValue: 5,
-    pValue: (-1),
+    pValue: -1,
     anti: true,
     latex: "\\pi_{2}(1670)^{+}",
   },
   {
-    pdg: (-10215),
+    pdg: -10215,
     name: "pi(2)(1670)-",
     mass: Some(1670.6),
     width: Some(258.0),
     charge: Some(-1.0),
     iValue: Some(1.0),
-    gValue: (-1),
+    gValue: -1,
     cValue: 5,
-    pValue: (-1),
+    pValue: -1,
     anti: true,
     latex: "\\pi_{2}(1670)^{-}",
   },
@@ -4164,8 +4164,8 @@ let data = [|
     width: Some(375.0),
     charge: Some(0.0),
     iValue: Some(0.0),
-    gValue: (-1),
-    cValue: (-1),
+    gValue: -1,
+    cValue: -1,
     pValue: 1,
     anti: false,
     latex: "h_{1}(1170)",
@@ -4179,7 +4179,7 @@ let data = [|
     iValue: Some(0.0),
     gValue: 1,
     cValue: 1,
-    pValue: (-1),
+    pValue: -1,
     anti: false,
     latex: "\\eta_{2}(1645)",
   },
@@ -4197,7 +4197,7 @@ let data = [|
     latex: "K_{0}^{*}(1430)^{0}",
   },
   {
-    pdg: (-10311),
+    pdg: -10311,
     name: "K(0)*(1430)~0",
     mass: Some(1430.0),
     width: Some(270.0),
@@ -4223,7 +4223,7 @@ let data = [|
     latex: "K_{1}(1270)^{0}",
   },
   {
-    pdg: (-10313),
+    pdg: -10313,
     name: "K(1)(1270)~0",
     mass: Some(1253.0),
     width: Some(90.0),
@@ -4244,12 +4244,12 @@ let data = [|
     iValue: Some(0.5),
     gValue: 5,
     cValue: 5,
-    pValue: (-1),
+    pValue: -1,
     anti: true,
     latex: "K_{2}(1770)^{0}",
   },
   {
-    pdg: (-10315),
+    pdg: -10315,
     name: "K(2)(1770)~0",
     mass: Some(1773.0),
     width: Some(186.0),
@@ -4257,7 +4257,7 @@ let data = [|
     iValue: Some(0.5),
     gValue: 5,
     cValue: 5,
-    pValue: (-1),
+    pValue: -1,
     anti: true,
     latex: "\\overline{K}_{2}(1770)^{0}",
   },
@@ -4275,7 +4275,7 @@ let data = [|
     latex: "K_{0}^{*}(1430)^{+}",
   },
   {
-    pdg: (-10321),
+    pdg: -10321,
     name: "K(0)*(1430)-",
     mass: Some(1430.0),
     width: Some(270.0),
@@ -4301,7 +4301,7 @@ let data = [|
     latex: "K_{1}(1270)^{+}",
   },
   {
-    pdg: (-10323),
+    pdg: -10323,
     name: "K(1)(1270)-",
     mass: Some(1253.0),
     width: Some(90.0),
@@ -4322,12 +4322,12 @@ let data = [|
     iValue: Some(0.5),
     gValue: 5,
     cValue: 5,
-    pValue: (-1),
+    pValue: -1,
     anti: true,
     latex: "K_{2}(1770)^{+}",
   },
   {
-    pdg: (-10325),
+    pdg: -10325,
     name: "K(2)(1770)-",
     mass: Some(1773.0),
     width: Some(186.0),
@@ -4335,7 +4335,7 @@ let data = [|
     iValue: Some(0.5),
     gValue: 5,
     cValue: 5,
-    pValue: (-1),
+    pValue: -1,
     anti: true,
     latex: "K_{2}(1770)^{-}",
   },
@@ -4359,8 +4359,8 @@ let data = [|
     width: Some(90.0),
     charge: Some(0.0),
     iValue: None,
-    gValue: (-1),
-    cValue: (-1),
+    gValue: -1,
+    cValue: -1,
     pValue: 1,
     anti: false,
     latex: "h_{1}(1415)",
@@ -4379,7 +4379,7 @@ let data = [|
     latex: "D_{0}^{*}(2300)^{+}",
   },
   {
-    pdg: (-10411),
+    pdg: -10411,
     name: "D(0)*(2300)-",
     mass: Some(2343.0),
     width: Some(229.0),
@@ -4405,7 +4405,7 @@ let data = [|
     latex: "D_{1}(2420)^{+}",
   },
   {
-    pdg: (-10413),
+    pdg: -10413,
     name: "D(1)(2420)-",
     mass: Some(2422.1),
     width: Some(31.3),
@@ -4431,7 +4431,7 @@ let data = [|
     latex: "D_{0}^{*}(2300)^{0}",
   },
   {
-    pdg: (-10421),
+    pdg: -10421,
     name: "D(0)*(2300)~0",
     mass: Some(2343.0),
     width: Some(229.0),
@@ -4457,7 +4457,7 @@ let data = [|
     latex: "D_{1}(2420)^{0}",
   },
   {
-    pdg: (-10423),
+    pdg: -10423,
     name: "D(1)(2420)~0",
     mass: Some(2422.1),
     width: Some(31.3),
@@ -4483,7 +4483,7 @@ let data = [|
     latex: "D_{s0}^{*}(2317)^{+}",
   },
   {
-    pdg: (-10431),
+    pdg: -10431,
     name: "D(s0)*(2317)-",
     mass: Some(2317.8),
     width: Some(10.0),
@@ -4509,7 +4509,7 @@ let data = [|
     latex: "D_{s1}(2536)^{+}",
   },
   {
-    pdg: (-10433),
+    pdg: -10433,
     name: "D(s1)(2536)-",
     mass: Some(2535.11),
     width: Some(0.92),
@@ -4542,7 +4542,7 @@ let data = [|
     charge: Some(0.0),
     iValue: None,
     gValue: 5,
-    cValue: (-1),
+    cValue: -1,
     pValue: 1,
     anti: false,
     latex: "h_{c}(1P)",
@@ -4568,7 +4568,7 @@ let data = [|
     charge: Some(0.0),
     iValue: Some(0.0),
     gValue: 5,
-    cValue: (-1),
+    cValue: -1,
     pValue: 1,
     anti: false,
     latex: "h_{b}(1P)",
@@ -4582,12 +4582,12 @@ let data = [|
     iValue: Some(1.5),
     gValue: 5,
     cValue: 5,
-    pValue: (-1),
+    pValue: -1,
     anti: true,
     latex: "\\Delta(1900)^{-}",
   },
   {
-    pdg: (-11112),
+    pdg: -11112,
     name: "Delta(1900)~+",
     mass: Some(1860.0),
     width: Some(250.0),
@@ -4608,12 +4608,12 @@ let data = [|
     iValue: Some(1.5),
     gValue: 5,
     cValue: 5,
-    pValue: (-1),
+    pValue: -1,
     anti: true,
     latex: "\\Delta(1700)^{-}",
   },
   {
-    pdg: (-11114),
+    pdg: -11114,
     name: "Delta(1700)~+",
     mass: Some(1710.0),
     width: Some(300.0),
@@ -4634,12 +4634,12 @@ let data = [|
     iValue: Some(1.5),
     gValue: 5,
     cValue: 5,
-    pValue: (-1),
+    pValue: -1,
     anti: true,
     latex: "\\Delta(1930)^{-}",
   },
   {
-    pdg: (-11116),
+    pdg: -11116,
     name: "Delta(1930)~+",
     mass: Some(1950.0),
     width: Some(300.0),
@@ -4660,12 +4660,12 @@ let data = [|
     iValue: Some(1.5),
     gValue: 5,
     cValue: 5,
-    pValue: (-1),
+    pValue: -1,
     anti: true,
     latex: "\\Delta(1900)^{0}",
   },
   {
-    pdg: (-11212),
+    pdg: -11212,
     name: "Delta(1900)~0",
     mass: Some(1860.0),
     width: Some(250.0),
@@ -4686,12 +4686,12 @@ let data = [|
     iValue: Some(1.5),
     gValue: 5,
     cValue: 5,
-    pValue: (-1),
+    pValue: -1,
     anti: true,
     latex: "\\Delta(1930)^{0}",
   },
   {
-    pdg: (-11216),
+    pdg: -11216,
     name: "Delta(1930)~0",
     mass: Some(1950.0),
     width: Some(300.0),
@@ -4717,7 +4717,7 @@ let data = [|
     latex: "N(1440)^{0}",
   },
   {
-    pdg: (-12112),
+    pdg: -12112,
     name: "N(1440)~0",
     mass: Some(1440.0),
     width: Some(350.0),
@@ -4725,7 +4725,7 @@ let data = [|
     iValue: Some(0.5),
     gValue: 5,
     cValue: 5,
-    pValue: (-1),
+    pValue: -1,
     anti: true,
     latex: "\\overline{N}(1440)^{0}",
   },
@@ -4738,12 +4738,12 @@ let data = [|
     iValue: Some(1.5),
     gValue: 5,
     cValue: 5,
-    pValue: (-1),
+    pValue: -1,
     anti: true,
     latex: "\\Delta(1700)^{0}",
   },
   {
-    pdg: (-12114),
+    pdg: -12114,
     name: "Delta(1700)~0",
     mass: Some(1710.0),
     width: Some(300.0),
@@ -4769,7 +4769,7 @@ let data = [|
     latex: "N(1680)^{0}",
   },
   {
-    pdg: (-12116),
+    pdg: -12116,
     name: "N(1680)~0",
     mass: Some(1685.0),
     width: Some(120.0),
@@ -4777,7 +4777,7 @@ let data = [|
     iValue: Some(0.5),
     gValue: 5,
     cValue: 5,
-    pValue: (-1),
+    pValue: -1,
     anti: true,
     latex: "\\overline{N}(1680)^{0}",
   },
@@ -4790,12 +4790,12 @@ let data = [|
     iValue: Some(1.5),
     gValue: 5,
     cValue: 5,
-    pValue: (-1),
+    pValue: -1,
     anti: true,
     latex: "\\Delta(1900)^{+}",
   },
   {
-    pdg: (-12122),
+    pdg: -12122,
     name: "Delta(1900)~-",
     mass: Some(1860.0),
     width: Some(250.0),
@@ -4816,12 +4816,12 @@ let data = [|
     iValue: Some(1.5),
     gValue: 5,
     cValue: 5,
-    pValue: (-1),
+    pValue: -1,
     anti: true,
     latex: "\\Delta(1930)^{+}",
   },
   {
-    pdg: (-12126),
+    pdg: -12126,
     name: "Delta(1930)~-",
     mass: Some(1950.0),
     width: Some(300.0),
@@ -4847,7 +4847,7 @@ let data = [|
     latex: "N(1440)^{+}",
   },
   {
-    pdg: (-12212),
+    pdg: -12212,
     name: "N(1440)~-",
     mass: Some(1440.0),
     width: Some(350.0),
@@ -4855,7 +4855,7 @@ let data = [|
     iValue: Some(0.5),
     gValue: 5,
     cValue: 5,
-    pValue: (-1),
+    pValue: -1,
     anti: true,
     latex: "\\overline{N}(1440)^{-}",
   },
@@ -4868,12 +4868,12 @@ let data = [|
     iValue: Some(1.5),
     gValue: 5,
     cValue: 5,
-    pValue: (-1),
+    pValue: -1,
     anti: true,
     latex: "\\Delta(1700)^{+}",
   },
   {
-    pdg: (-12214),
+    pdg: -12214,
     name: "Delta(1700)~-",
     mass: Some(1710.0),
     width: Some(300.0),
@@ -4899,7 +4899,7 @@ let data = [|
     latex: "N(1680)^{+}",
   },
   {
-    pdg: (-12216),
+    pdg: -12216,
     name: "N(1680)~-",
     mass: Some(1685.0),
     width: Some(120.0),
@@ -4907,7 +4907,7 @@ let data = [|
     iValue: Some(0.5),
     gValue: 5,
     cValue: 5,
-    pValue: (-1),
+    pValue: -1,
     anti: true,
     latex: "\\overline{N}(1680)^{-}",
   },
@@ -4920,12 +4920,12 @@ let data = [|
     iValue: Some(1.5),
     gValue: 5,
     cValue: 5,
-    pValue: (-1),
+    pValue: -1,
     anti: true,
     latex: "\\Delta(1900)^{++}",
   },
   {
-    pdg: (-12222),
+    pdg: -12222,
     name: "Delta(1900)~--",
     mass: Some(1860.0),
     width: Some(250.0),
@@ -4946,12 +4946,12 @@ let data = [|
     iValue: Some(1.5),
     gValue: 5,
     cValue: 5,
-    pValue: (-1),
+    pValue: -1,
     anti: true,
     latex: "\\Delta(1700)^{++}",
   },
   {
-    pdg: (-12224),
+    pdg: -12224,
     name: "Delta(1700)~--",
     mass: Some(1710.0),
     width: Some(300.0),
@@ -4972,12 +4972,12 @@ let data = [|
     iValue: Some(1.5),
     gValue: 5,
     cValue: 5,
-    pValue: (-1),
+    pValue: -1,
     anti: true,
     latex: "\\Delta(1930)^{++}",
   },
   {
-    pdg: (-12226),
+    pdg: -12226,
     name: "Delta(1930)~--",
     mass: Some(1950.0),
     width: Some(300.0),
@@ -5003,7 +5003,7 @@ let data = [|
     latex: "\\Sigma(1660)^{-}",
   },
   {
-    pdg: (-13112),
+    pdg: -13112,
     name: "Sigma(1660)~+",
     mass: Some(1660.0),
     width: Some(200.0),
@@ -5011,7 +5011,7 @@ let data = [|
     iValue: Some(1.0),
     gValue: 5,
     cValue: 5,
-    pValue: (-1),
+    pValue: -1,
     anti: true,
     latex: "\\overline{\\Sigma}(1660)^{+}",
   },
@@ -5024,12 +5024,12 @@ let data = [|
     iValue: Some(1.0),
     gValue: 5,
     cValue: 5,
-    pValue: (-1),
+    pValue: -1,
     anti: true,
     latex: "\\Sigma(1670)^{-}",
   },
   {
-    pdg: (-13114),
+    pdg: -13114,
     name: "Sigma(1670)~+",
     mass: Some(1675.0),
     width: Some(70.0),
@@ -5055,7 +5055,7 @@ let data = [|
     latex: "\\Sigma(1915)^{-}",
   },
   {
-    pdg: (-13116),
+    pdg: -13116,
     name: "Sigma(1915)~+",
     mass: Some(1915.0),
     width: Some(120.0),
@@ -5063,7 +5063,7 @@ let data = [|
     iValue: Some(1.0),
     gValue: 5,
     cValue: 5,
-    pValue: (-1),
+    pValue: -1,
     anti: true,
     latex: "\\overline{\\Sigma}(1915)^{+}",
   },
@@ -5076,12 +5076,12 @@ let data = [|
     iValue: Some(0.0),
     gValue: 5,
     cValue: 5,
-    pValue: (-1),
+    pValue: -1,
     anti: true,
     latex: "\\Lambda(1404)",
   },
   {
-    pdg: (-13122),
+    pdg: -13122,
     name: "Lambda(1405)~",
     mass: Some(1405.1),
     width: Some(50.5),
@@ -5102,12 +5102,12 @@ let data = [|
     iValue: Some(0.0),
     gValue: 5,
     cValue: 5,
-    pValue: (-1),
+    pValue: -1,
     anti: true,
     latex: "\\Lambda(1690)",
   },
   {
-    pdg: (-13124),
+    pdg: -13124,
     name: "Lambda(1690)~",
     mass: Some(1690.0),
     width: Some(70.0),
@@ -5128,12 +5128,12 @@ let data = [|
     iValue: Some(0.0),
     gValue: 5,
     cValue: 5,
-    pValue: (-1),
+    pValue: -1,
     anti: true,
     latex: "\\Lambda(1830)",
   },
   {
-    pdg: (-13126),
+    pdg: -13126,
     name: "Lambda(1830)~",
     mass: Some(1825.0),
     width: Some(90.0),
@@ -5159,7 +5159,7 @@ let data = [|
     latex: "\\Sigma(1660)^{0}",
   },
   {
-    pdg: (-13212),
+    pdg: -13212,
     name: "Sigma(1660)~0",
     mass: Some(1660.0),
     width: Some(200.0),
@@ -5167,7 +5167,7 @@ let data = [|
     iValue: Some(1.0),
     gValue: 5,
     cValue: 5,
-    pValue: (-1),
+    pValue: -1,
     anti: true,
     latex: "\\overline{\\Sigma}(1660)^{0}",
   },
@@ -5180,12 +5180,12 @@ let data = [|
     iValue: Some(1.0),
     gValue: 5,
     cValue: 5,
-    pValue: (-1),
+    pValue: -1,
     anti: true,
     latex: "\\Sigma(1670)^{0}",
   },
   {
-    pdg: (-13214),
+    pdg: -13214,
     name: "Sigma(1670)~0",
     mass: Some(1675.0),
     width: Some(70.0),
@@ -5211,7 +5211,7 @@ let data = [|
     latex: "\\Sigma(1915)^{0}",
   },
   {
-    pdg: (-13216),
+    pdg: -13216,
     name: "Sigma(1915)~0",
     mass: Some(1915.0),
     width: Some(120.0),
@@ -5219,7 +5219,7 @@ let data = [|
     iValue: Some(1.0),
     gValue: 5,
     cValue: 5,
-    pValue: (-1),
+    pValue: -1,
     anti: true,
     latex: "\\overline{\\Sigma}(1915)^{0}",
   },
@@ -5237,7 +5237,7 @@ let data = [|
     latex: "\\Sigma(1660)^{+}",
   },
   {
-    pdg: (-13222),
+    pdg: -13222,
     name: "Sigma(1660)~-",
     mass: Some(1660.0),
     width: Some(200.0),
@@ -5245,7 +5245,7 @@ let data = [|
     iValue: Some(1.0),
     gValue: 5,
     cValue: 5,
-    pValue: (-1),
+    pValue: -1,
     anti: true,
     latex: "\\overline{\\Sigma}(1660)^{-}",
   },
@@ -5258,12 +5258,12 @@ let data = [|
     iValue: Some(1.0),
     gValue: 5,
     cValue: 5,
-    pValue: (-1),
+    pValue: -1,
     anti: true,
     latex: "\\Sigma(1670)^{+}",
   },
   {
-    pdg: (-13224),
+    pdg: -13224,
     name: "Sigma(1670)~-",
     mass: Some(1675.0),
     width: Some(70.0),
@@ -5289,7 +5289,7 @@ let data = [|
     latex: "\\Sigma(1915)^{+}",
   },
   {
-    pdg: (-13226),
+    pdg: -13226,
     name: "Sigma(1915)~-",
     mass: Some(1915.0),
     width: Some(120.0),
@@ -5297,7 +5297,7 @@ let data = [|
     iValue: Some(1.0),
     gValue: 5,
     cValue: 5,
-    pValue: (-1),
+    pValue: -1,
     anti: true,
     latex: "\\overline{\\Sigma}(1915)^{-}",
   },
@@ -5310,12 +5310,12 @@ let data = [|
     iValue: Some(0.5),
     gValue: 5,
     cValue: 5,
-    pValue: (-1),
+    pValue: -1,
     anti: true,
     latex: "\\Xi(1820)^{-}",
   },
   {
-    pdg: (-13314),
+    pdg: -13314,
     name: "Xi(1820)~+",
     mass: Some(1823.0),
     width: Some(24.0),
@@ -5336,12 +5336,12 @@ let data = [|
     iValue: Some(0.5),
     gValue: 5,
     cValue: 5,
-    pValue: (-1),
+    pValue: -1,
     anti: true,
     latex: "\\Xi(1820)^{0}",
   },
   {
-    pdg: (-13324),
+    pdg: -13324,
     name: "Xi(1820)~0",
     mass: Some(1823.0),
     width: Some(24.0),
@@ -5362,12 +5362,12 @@ let data = [|
     iValue: Some(0.0),
     gValue: 5,
     cValue: 5,
-    pValue: (-1),
+    pValue: -1,
     anti: true,
     latex: "\\Lambda_{c}(2593)^{+}",
   },
   {
-    pdg: (-14122),
+    pdg: -14122,
     name: "Lambda(c)(2595)~-",
     mass: Some(2592.25),
     width: Some(2.6),
@@ -5386,7 +5386,7 @@ let data = [|
     width: Some(420.0),
     charge: Some(0.0),
     iValue: Some(1.0),
-    gValue: (-1),
+    gValue: -1,
     cValue: 1,
     pValue: 1,
     anti: false,
@@ -5399,20 +5399,20 @@ let data = [|
     width: Some(420.0),
     charge: Some(1.0),
     iValue: Some(1.0),
-    gValue: (-1),
+    gValue: -1,
     cValue: 5,
     pValue: 1,
     anti: true,
     latex: "a_{1}(1260)^{+}",
   },
   {
-    pdg: (-20213),
+    pdg: -20213,
     name: "a(1)(1260)-",
     mass: Some(1230.0),
     width: Some(420.0),
     charge: Some(-1.0),
     iValue: Some(1.0),
-    gValue: (-1),
+    gValue: -1,
     cValue: 5,
     pValue: 1,
     anti: true,
@@ -5445,7 +5445,7 @@ let data = [|
     latex: "K_{1}(1400)^{0}",
   },
   {
-    pdg: (-20313),
+    pdg: -20313,
     name: "K(1)(1400)~0",
     mass: Some(1403.0),
     width: Some(174.0),
@@ -5466,12 +5466,12 @@ let data = [|
     iValue: Some(0.5),
     gValue: 5,
     cValue: 5,
-    pValue: (-1),
+    pValue: -1,
     anti: true,
     latex: "K_{2}(1820)^{0}",
   },
   {
-    pdg: (-20315),
+    pdg: -20315,
     name: "K(2)(1820)~0",
     mass: Some(1819.0),
     width: Some(264.0),
@@ -5479,7 +5479,7 @@ let data = [|
     iValue: Some(0.5),
     gValue: 5,
     cValue: 5,
-    pValue: (-1),
+    pValue: -1,
     anti: true,
     latex: "\\overline{K}_{2}(1820)^{0}",
   },
@@ -5497,7 +5497,7 @@ let data = [|
     latex: "K_{1}(1400)^{+}",
   },
   {
-    pdg: (-20323),
+    pdg: -20323,
     name: "K(1)(1400)-",
     mass: Some(1403.0),
     width: Some(174.0),
@@ -5518,12 +5518,12 @@ let data = [|
     iValue: Some(0.5),
     gValue: 5,
     cValue: 5,
-    pValue: (-1),
+    pValue: -1,
     anti: true,
     latex: "K_{2}(1820)^{+}",
   },
   {
-    pdg: (-20325),
+    pdg: -20325,
     name: "K(2)(1820)-",
     mass: Some(1819.0),
     width: Some(264.0),
@@ -5531,7 +5531,7 @@ let data = [|
     iValue: Some(0.5),
     gValue: 5,
     cValue: 5,
-    pValue: (-1),
+    pValue: -1,
     anti: true,
     latex: "K_{2}(1820)^{-}",
   },
@@ -5562,7 +5562,7 @@ let data = [|
     latex: "D_{1}(2430)^{0}",
   },
   {
-    pdg: (-20423),
+    pdg: -20423,
     name: "D(1)(2430)~0",
     mass: Some(2412.0),
     width: Some(314.0),
@@ -5588,7 +5588,7 @@ let data = [|
     latex: "D_{s1}(2460)^{+}",
   },
   {
-    pdg: (-20433),
+    pdg: -20433,
     name: "D(s1)(2460)-",
     mass: Some(2459.5),
     width: Some(6.3),
@@ -5633,9 +5633,9 @@ let data = [|
     width: None,
     charge: Some(0.0),
     iValue: Some(0.0),
-    gValue: (-1),
-    cValue: (-1),
-    pValue: (-1),
+    gValue: -1,
+    cValue: -1,
+    pValue: -1,
     anti: false,
     latex: "\\Upsilon_{2}(1D)",
   },
@@ -5653,7 +5653,7 @@ let data = [|
     latex: "\\Delta(1910)^{-}",
   },
   {
-    pdg: (-21112),
+    pdg: -21112,
     name: "Delta(1910)~+",
     mass: Some(1900.0),
     width: Some(300.0),
@@ -5661,7 +5661,7 @@ let data = [|
     iValue: Some(1.5),
     gValue: 5,
     cValue: 5,
-    pValue: (-1),
+    pValue: -1,
     anti: true,
     latex: "\\overline{\\Delta}(1910)^{+}",
   },
@@ -5679,7 +5679,7 @@ let data = [|
     latex: "\\Delta(1920)^{-}",
   },
   {
-    pdg: (-21114),
+    pdg: -21114,
     name: "Delta(1920)~+",
     mass: Some(1920.0),
     width: Some(300.0),
@@ -5687,7 +5687,7 @@ let data = [|
     iValue: Some(1.5),
     gValue: 5,
     cValue: 5,
-    pValue: (-1),
+    pValue: -1,
     anti: true,
     latex: "\\overline{\\Delta}(1920)^{+}",
   },
@@ -5705,7 +5705,7 @@ let data = [|
     latex: "\\Delta(1910)^{0}",
   },
   {
-    pdg: (-21212),
+    pdg: -21212,
     name: "Delta(1910)~0",
     mass: Some(1900.0),
     width: Some(300.0),
@@ -5713,7 +5713,7 @@ let data = [|
     iValue: Some(1.5),
     gValue: 5,
     cValue: 5,
-    pValue: (-1),
+    pValue: -1,
     anti: true,
     latex: "\\overline{\\Delta}(1910)^{0}",
   },
@@ -5726,12 +5726,12 @@ let data = [|
     iValue: Some(0.5),
     gValue: 5,
     cValue: 5,
-    pValue: (-1),
+    pValue: -1,
     anti: true,
     latex: "N(1700)^{0}",
   },
   {
-    pdg: (-21214),
+    pdg: -21214,
     name: "N(1700)~0",
     mass: Some(1720.0),
     width: Some(200.0),
@@ -5752,12 +5752,12 @@ let data = [|
     iValue: Some(0.5),
     gValue: 5,
     cValue: 5,
-    pValue: (-1),
+    pValue: -1,
     anti: true,
     latex: "\\Delta(1910)^{0}",
   },
   {
-    pdg: (-22112),
+    pdg: -22112,
     name: "N(1535)~0",
     mass: Some(1530.0),
     width: Some(150.0),
@@ -5783,7 +5783,7 @@ let data = [|
     latex: "\\Delta(1920)^{0}",
   },
   {
-    pdg: (-22114),
+    pdg: -22114,
     name: "Delta(1920)~0",
     mass: Some(1920.0),
     width: Some(300.0),
@@ -5791,7 +5791,7 @@ let data = [|
     iValue: Some(1.5),
     gValue: 5,
     cValue: 5,
-    pValue: (-1),
+    pValue: -1,
     anti: true,
     latex: "\\overline{\\Delta}(1920)^{0}",
   },
@@ -5809,7 +5809,7 @@ let data = [|
     latex: "\\Delta(1910)^{+}",
   },
   {
-    pdg: (-22122),
+    pdg: -22122,
     name: "Delta(1910)~-",
     mass: Some(1900.0),
     width: Some(300.0),
@@ -5817,7 +5817,7 @@ let data = [|
     iValue: Some(1.5),
     gValue: 5,
     cValue: 5,
-    pValue: (-1),
+    pValue: -1,
     anti: true,
     latex: "\\overline{\\Delta}(1910)^{-}",
   },
@@ -5830,12 +5830,12 @@ let data = [|
     iValue: Some(0.5),
     gValue: 5,
     cValue: 5,
-    pValue: (-1),
+    pValue: -1,
     anti: true,
     latex: "N(1700)^{+}",
   },
   {
-    pdg: (-22124),
+    pdg: -22124,
     name: "N(1700)~-",
     mass: Some(1720.0),
     width: Some(200.0),
@@ -5856,12 +5856,12 @@ let data = [|
     iValue: Some(0.5),
     gValue: 5,
     cValue: 5,
-    pValue: (-1),
+    pValue: -1,
     anti: true,
     latex: "N(1535)^{+}",
   },
   {
-    pdg: (-22212),
+    pdg: -22212,
     name: "N(1535)~-",
     mass: Some(1530.0),
     width: Some(150.0),
@@ -5887,7 +5887,7 @@ let data = [|
     latex: "\\Delta(1920)^{+}",
   },
   {
-    pdg: (-22214),
+    pdg: -22214,
     name: "Delta(1920)~-",
     mass: Some(1920.0),
     width: Some(300.0),
@@ -5895,7 +5895,7 @@ let data = [|
     iValue: Some(1.5),
     gValue: 5,
     cValue: 5,
-    pValue: (-1),
+    pValue: -1,
     anti: true,
     latex: "\\overline{\\Delta}(1920)^{-}",
   },
@@ -5913,7 +5913,7 @@ let data = [|
     latex: "\\Delta(1910)^{++}",
   },
   {
-    pdg: (-22222),
+    pdg: -22222,
     name: "Delta(1910)~--",
     mass: Some(1900.0),
     width: Some(300.0),
@@ -5921,7 +5921,7 @@ let data = [|
     iValue: Some(1.5),
     gValue: 5,
     cValue: 5,
-    pValue: (-1),
+    pValue: -1,
     anti: true,
     latex: "\\overline{\\Delta}(1910)^{--}",
   },
@@ -5939,7 +5939,7 @@ let data = [|
     latex: "\\Delta(1920)^{++}",
   },
   {
-    pdg: (-22224),
+    pdg: -22224,
     name: "Delta(1920)~--",
     mass: Some(1920.0),
     width: Some(300.0),
@@ -5947,7 +5947,7 @@ let data = [|
     iValue: Some(1.5),
     gValue: 5,
     cValue: 5,
-    pValue: (-1),
+    pValue: -1,
     anti: true,
     latex: "\\overline{\\Delta}(1920)^{--}",
   },
@@ -5960,12 +5960,12 @@ let data = [|
     iValue: Some(1.0),
     gValue: 5,
     cValue: 5,
-    pValue: (-1),
+    pValue: -1,
     anti: true,
     latex: "\\Sigma(1750)^{-}",
   },
   {
-    pdg: (-23112),
+    pdg: -23112,
     name: "Sigma(1750)~+",
     mass: Some(1750.0),
     width: Some(150.0),
@@ -5986,12 +5986,12 @@ let data = [|
     iValue: Some(1.0),
     gValue: 5,
     cValue: 5,
-    pValue: (-1),
+    pValue: -1,
     anti: true,
     latex: "\\Sigma(1940)^{-}",
   },
   {
-    pdg: (-23114),
+    pdg: -23114,
     name: "Sigma(1910)~+",
     mass: Some(1910.0),
     width: Some(220.0),
@@ -6017,7 +6017,7 @@ let data = [|
     latex: "\\Lambda(1600)",
   },
   {
-    pdg: (-23122),
+    pdg: -23122,
     name: "Lambda(1600)~",
     mass: Some(1600.0),
     width: Some(200.0),
@@ -6025,7 +6025,7 @@ let data = [|
     iValue: Some(0.0),
     gValue: 5,
     cValue: 5,
-    pValue: (-1),
+    pValue: -1,
     anti: true,
     latex: "\\overline{\\Lambda}(1600)",
   },
@@ -6043,7 +6043,7 @@ let data = [|
     latex: "\\Lambda(1890)",
   },
   {
-    pdg: (-23124),
+    pdg: -23124,
     name: "Lambda(1890)~",
     mass: Some(1890.0),
     width: Some(120.0),
@@ -6051,7 +6051,7 @@ let data = [|
     iValue: Some(0.0),
     gValue: 5,
     cValue: 5,
-    pValue: (-1),
+    pValue: -1,
     anti: true,
     latex: "\\overline{\\Lambda}(1890)",
   },
@@ -6069,7 +6069,7 @@ let data = [|
     latex: "\\Lambda(2110)",
   },
   {
-    pdg: (-23126),
+    pdg: -23126,
     name: "Lambda(2110)~",
     mass: Some(2090.0),
     width: Some(250.0),
@@ -6077,7 +6077,7 @@ let data = [|
     iValue: Some(0.0),
     gValue: 5,
     cValue: 5,
-    pValue: (-1),
+    pValue: -1,
     anti: true,
     latex: "\\overline{\\Lambda}(2110)",
   },
@@ -6090,12 +6090,12 @@ let data = [|
     iValue: Some(1.0),
     gValue: 5,
     cValue: 5,
-    pValue: (-1),
+    pValue: -1,
     anti: true,
     latex: "\\Sigma(1750)^{0}",
   },
   {
-    pdg: (-23212),
+    pdg: -23212,
     name: "Sigma(1750)~0",
     mass: Some(1750.0),
     width: Some(150.0),
@@ -6116,12 +6116,12 @@ let data = [|
     iValue: Some(1.0),
     gValue: 5,
     cValue: 5,
-    pValue: (-1),
+    pValue: -1,
     anti: true,
     latex: "\\Sigma(1940)^{0}",
   },
   {
-    pdg: (-23214),
+    pdg: -23214,
     name: "Sigma(1910)~0",
     mass: Some(1910.0),
     width: Some(220.0),
@@ -6142,12 +6142,12 @@ let data = [|
     iValue: Some(1.0),
     gValue: 5,
     cValue: 5,
-    pValue: (-1),
+    pValue: -1,
     anti: true,
     latex: "\\Sigma(1750)^{+}",
   },
   {
-    pdg: (-23222),
+    pdg: -23222,
     name: "Sigma(1750)~-",
     mass: Some(1750.0),
     width: Some(150.0),
@@ -6168,12 +6168,12 @@ let data = [|
     iValue: Some(1.0),
     gValue: 5,
     cValue: 5,
-    pValue: (-1),
+    pValue: -1,
     anti: true,
     latex: "\\Sigma(1940)^{+}",
   },
   {
-    pdg: (-23224),
+    pdg: -23224,
     name: "Sigma(1910)~-",
     mass: Some(1910.0),
     width: Some(220.0),
@@ -6193,8 +6193,8 @@ let data = [|
     charge: Some(0.0),
     iValue: Some(1.0),
     gValue: 1,
-    cValue: (-1),
-    pValue: (-1),
+    cValue: -1,
+    pValue: -1,
     anti: false,
     latex: "\\rho(1700)^{0}",
   },
@@ -6207,12 +6207,12 @@ let data = [|
     iValue: Some(1.0),
     gValue: 1,
     cValue: 5,
-    pValue: (-1),
+    pValue: -1,
     anti: true,
     latex: "\\rho(1700)^{+}",
   },
   {
-    pdg: (-30213),
+    pdg: -30213,
     name: "rho(1700)-",
     mass: Some(1720.0),
     width: Some(250.0),
@@ -6220,7 +6220,7 @@ let data = [|
     iValue: Some(1.0),
     gValue: 1,
     cValue: 5,
-    pValue: (-1),
+    pValue: -1,
     anti: true,
     latex: "\\rho(1700)^{-}",
   },
@@ -6231,9 +6231,9 @@ let data = [|
     width: Some(315.0),
     charge: Some(0.0),
     iValue: Some(0.0),
-    gValue: (-1),
-    cValue: (-1),
-    pValue: (-1),
+    gValue: -1,
+    cValue: -1,
+    pValue: -1,
     anti: false,
     latex: "\\omega(1650)",
   },
@@ -6246,12 +6246,12 @@ let data = [|
     iValue: Some(0.5),
     gValue: 5,
     cValue: 5,
-    pValue: (-1),
+    pValue: -1,
     anti: true,
     latex: "K^{*}(1680)^{0}",
   },
   {
-    pdg: (-30313),
+    pdg: -30313,
     name: "K*(1680)~0",
     mass: Some(1718.0),
     width: Some(320.0),
@@ -6259,7 +6259,7 @@ let data = [|
     iValue: Some(0.5),
     gValue: 5,
     cValue: 5,
-    pValue: (-1),
+    pValue: -1,
     anti: true,
     latex: "\\overline{K}^{*}(1680)^{0}",
   },
@@ -6272,12 +6272,12 @@ let data = [|
     iValue: Some(0.5),
     gValue: 5,
     cValue: 5,
-    pValue: (-1),
+    pValue: -1,
     anti: true,
     latex: "K^{*}(1680)^{+}",
   },
   {
-    pdg: (-30323),
+    pdg: -30323,
     name: "K*(1680)-",
     mass: Some(1718.0),
     width: Some(320.0),
@@ -6285,7 +6285,7 @@ let data = [|
     iValue: Some(0.5),
     gValue: 5,
     cValue: 5,
-    pValue: (-1),
+    pValue: -1,
     anti: true,
     latex: "K^{*}(1680)^{-}",
   },
@@ -6296,9 +6296,9 @@ let data = [|
     width: Some(27.2),
     charge: Some(0.0),
     iValue: Some(0.0),
-    gValue: (-1),
-    cValue: (-1),
-    pValue: (-1),
+    gValue: -1,
+    cValue: -1,
+    pValue: -1,
     anti: false,
     latex: "\\psi(3770)",
   },
@@ -6316,7 +6316,7 @@ let data = [|
     latex: "\\Delta(1600)^{-}",
   },
   {
-    pdg: (-31114),
+    pdg: -31114,
     name: "Delta(1600)~+",
     mass: Some(1570.0),
     width: Some(250.0),
@@ -6324,7 +6324,7 @@ let data = [|
     iValue: Some(1.5),
     gValue: 5,
     cValue: 5,
-    pValue: (-1),
+    pValue: -1,
     anti: true,
     latex: "\\overline{\\Delta}(1600)^{+}",
   },
@@ -6342,7 +6342,7 @@ let data = [|
     latex: "N(1720)^{0}",
   },
   {
-    pdg: (-31214),
+    pdg: -31214,
     name: "N(1720)~0",
     mass: Some(1720.0),
     width: Some(250.0),
@@ -6350,7 +6350,7 @@ let data = [|
     iValue: Some(0.5),
     gValue: 5,
     cValue: 5,
-    pValue: (-1),
+    pValue: -1,
     anti: true,
     latex: "\\overline{N}(1720)^{0}",
   },
@@ -6363,12 +6363,12 @@ let data = [|
     iValue: Some(0.5),
     gValue: 5,
     cValue: 5,
-    pValue: (-1),
+    pValue: -1,
     anti: true,
     latex: "N(1650)^{0}",
   },
   {
-    pdg: (-32112),
+    pdg: -32112,
     name: "N(1650)~0",
     mass: Some(1650.0),
     width: Some(125.0),
@@ -6394,7 +6394,7 @@ let data = [|
     latex: "\\Delta(1600)^{0}",
   },
   {
-    pdg: (-32114),
+    pdg: -32114,
     name: "Delta(1600)~0",
     mass: Some(1570.0),
     width: Some(250.0),
@@ -6402,7 +6402,7 @@ let data = [|
     iValue: Some(1.5),
     gValue: 5,
     cValue: 5,
-    pValue: (-1),
+    pValue: -1,
     anti: true,
     latex: "\\overline{\\Delta}(1600)^{0}",
   },
@@ -6420,7 +6420,7 @@ let data = [|
     latex: "N(1720)^{+}",
   },
   {
-    pdg: (-32124),
+    pdg: -32124,
     name: "N(1720)~-",
     mass: Some(1720.0),
     width: Some(250.0),
@@ -6428,7 +6428,7 @@ let data = [|
     iValue: Some(0.5),
     gValue: 5,
     cValue: 5,
-    pValue: (-1),
+    pValue: -1,
     anti: true,
     latex: "\\overline{N}(1720)^{-}",
   },
@@ -6441,12 +6441,12 @@ let data = [|
     iValue: Some(0.5),
     gValue: 5,
     cValue: 5,
-    pValue: (-1),
+    pValue: -1,
     anti: true,
     latex: "N(1650)^{+}",
   },
   {
-    pdg: (-32212),
+    pdg: -32212,
     name: "N(1650)~-",
     mass: Some(1650.0),
     width: Some(125.0),
@@ -6472,7 +6472,7 @@ let data = [|
     latex: "\\Delta(1600)^{+}",
   },
   {
-    pdg: (-32214),
+    pdg: -32214,
     name: "Delta(1600)~-",
     mass: Some(1570.0),
     width: Some(250.0),
@@ -6480,7 +6480,7 @@ let data = [|
     iValue: Some(1.5),
     gValue: 5,
     cValue: 5,
-    pValue: (-1),
+    pValue: -1,
     anti: true,
     latex: "\\overline{\\Delta}(1600)^{-}",
   },
@@ -6498,7 +6498,7 @@ let data = [|
     latex: "\\Delta(1600)^{++}",
   },
   {
-    pdg: (-32224),
+    pdg: -32224,
     name: "Delta(1600)~--",
     mass: Some(1570.0),
     width: Some(250.0),
@@ -6506,7 +6506,7 @@ let data = [|
     iValue: Some(1.5),
     gValue: 5,
     cValue: 5,
-    pValue: (-1),
+    pValue: -1,
     anti: true,
     latex: "\\overline{\\Delta}(1600)^{--}",
   },
@@ -6519,12 +6519,12 @@ let data = [|
     iValue: Some(0.0),
     gValue: 5,
     cValue: 5,
-    pValue: (-1),
+    pValue: -1,
     anti: true,
     latex: "\\Lambda(1670)",
   },
   {
-    pdg: (-33122),
+    pdg: -33122,
     name: "Lambda(1670)~",
     mass: Some(1674.0),
     width: Some(30.0),
@@ -6550,7 +6550,7 @@ let data = [|
     latex: "N(1710)^{0}",
   },
   {
-    pdg: (-42112),
+    pdg: -42112,
     name: "N(1710)~0",
     mass: Some(1710.0),
     width: Some(140.0),
@@ -6558,7 +6558,7 @@ let data = [|
     iValue: Some(0.5),
     gValue: 5,
     cValue: 5,
-    pValue: (-1),
+    pValue: -1,
     anti: true,
     latex: "\\overline{N}(1710)^{0}",
   },
@@ -6576,7 +6576,7 @@ let data = [|
     latex: "N(1710)^{+}",
   },
   {
-    pdg: (-42212),
+    pdg: -42212,
     name: "N(1710)~-",
     mass: Some(1710.0),
     width: Some(140.0),
@@ -6584,7 +6584,7 @@ let data = [|
     iValue: Some(0.5),
     gValue: 5,
     cValue: 5,
-    pValue: (-1),
+    pValue: -1,
     anti: true,
     latex: "\\overline{N}(1710)^{-}",
   },
@@ -6597,12 +6597,12 @@ let data = [|
     iValue: Some(0.0),
     gValue: 5,
     cValue: 5,
-    pValue: (-1),
+    pValue: -1,
     anti: true,
     latex: "\\Lambda(1800)",
   },
   {
-    pdg: (-43122),
+    pdg: -43122,
     name: "Lambda(1800)~",
     mass: Some(1800.0),
     width: Some(200.0),
@@ -6628,7 +6628,7 @@ let data = [|
     latex: "\\Lambda(1810)",
   },
   {
-    pdg: (-53122),
+    pdg: -53122,
     name: "Lambda(1810)~",
     mass: Some(1790.0),
     width: Some(110.0),
@@ -6636,7 +6636,7 @@ let data = [|
     iValue: Some(0.0),
     gValue: 5,
     cValue: 5,
-    pValue: (-1),
+    pValue: -1,
     anti: true,
     latex: "\\overline{\\Lambda}(1810)",
   },
@@ -6647,9 +6647,9 @@ let data = [|
     width: Some(400.0),
     charge: Some(0.0),
     iValue: Some(1.0),
-    gValue: (-1),
+    gValue: -1,
     cValue: 1,
-    pValue: (-1),
+    pValue: -1,
     anti: false,
     latex: "\\pi(1300)^{0}",
   },
@@ -6661,8 +6661,8 @@ let data = [|
     charge: Some(0.0),
     iValue: Some(1.0),
     gValue: 1,
-    cValue: (-1),
-    pValue: (-1),
+    cValue: -1,
+    pValue: -1,
     anti: false,
     latex: "\\rho(1450)^{0}",
   },
@@ -6673,22 +6673,22 @@ let data = [|
     width: Some(400.0),
     charge: Some(1.0),
     iValue: Some(1.0),
-    gValue: (-1),
+    gValue: -1,
     cValue: 5,
-    pValue: (-1),
+    pValue: -1,
     anti: true,
     latex: "\\pi(1300)^{+}",
   },
   {
-    pdg: (-100211),
+    pdg: -100211,
     name: "pi(1300)-",
     mass: Some(1300.0),
     width: Some(400.0),
     charge: Some(-1.0),
     iValue: Some(1.0),
-    gValue: (-1),
+    gValue: -1,
     cValue: 5,
-    pValue: (-1),
+    pValue: -1,
     anti: true,
     latex: "\\pi(1300)^{-}",
   },
@@ -6701,12 +6701,12 @@ let data = [|
     iValue: Some(1.0),
     gValue: 1,
     cValue: 5,
-    pValue: (-1),
+    pValue: -1,
     anti: true,
     latex: "\\rho(1450)^{+}",
   },
   {
-    pdg: (-100213),
+    pdg: -100213,
     name: "rho(1450)-",
     mass: Some(1465.0),
     width: Some(400.0),
@@ -6714,7 +6714,7 @@ let data = [|
     iValue: Some(1.0),
     gValue: 1,
     cValue: 5,
-    pValue: (-1),
+    pValue: -1,
     anti: true,
     latex: "\\rho(1450)^{-}",
   },
@@ -6727,7 +6727,7 @@ let data = [|
     iValue: Some(0.0),
     gValue: 1,
     cValue: 1,
-    pValue: (-1),
+    pValue: -1,
     anti: false,
     latex: "\\eta(1295)",
   },
@@ -6740,12 +6740,12 @@ let data = [|
     iValue: Some(0.5),
     gValue: 5,
     cValue: 5,
-    pValue: (-1),
+    pValue: -1,
     anti: true,
     latex: "K^{*}(1410)^{0}",
   },
   {
-    pdg: (-100313),
+    pdg: -100313,
     name: "K*(1410)~0",
     mass: Some(1414.0),
     width: Some(232.0),
@@ -6753,7 +6753,7 @@ let data = [|
     iValue: Some(0.5),
     gValue: 5,
     cValue: 5,
-    pValue: (-1),
+    pValue: -1,
     anti: true,
     latex: "\\overline{K}^{*}(1410)^{0}",
   },
@@ -6771,7 +6771,7 @@ let data = [|
     latex: "K(1460)^{+}",
   },
   {
-    pdg: (-100321),
+    pdg: -100321,
     name: "K(1460)-",
     mass: None,
     width: None,
@@ -6792,12 +6792,12 @@ let data = [|
     iValue: Some(0.5),
     gValue: 5,
     cValue: 5,
-    pValue: (-1),
+    pValue: -1,
     anti: true,
     latex: "K^{*}(1410)^{+}",
   },
   {
-    pdg: (-100323),
+    pdg: -100323,
     name: "K*(1410)-",
     mass: Some(1414.0),
     width: Some(232.0),
@@ -6805,7 +6805,7 @@ let data = [|
     iValue: Some(0.5),
     gValue: 5,
     cValue: 5,
-    pValue: (-1),
+    pValue: -1,
     anti: true,
     latex: "K^{*}(1410)^{-}",
   },
@@ -6818,7 +6818,7 @@ let data = [|
     iValue: Some(0.0),
     gValue: 1,
     cValue: 1,
-    pValue: (-1),
+    pValue: -1,
     anti: false,
     latex: "\\eta(1475)",
   },
@@ -6829,9 +6829,9 @@ let data = [|
     width: Some(150.0),
     charge: Some(0.0),
     iValue: Some(0.0),
-    gValue: (-1),
-    cValue: (-1),
-    pValue: (-1),
+    gValue: -1,
+    cValue: -1,
+    pValue: -1,
     anti: false,
     latex: "\\phi(1680)",
   },
@@ -6844,7 +6844,7 @@ let data = [|
     iValue: Some(0.0),
     gValue: 1,
     cValue: 1,
-    pValue: (-1),
+    pValue: -1,
     anti: false,
     latex: "\\eta_{c}(2S)",
   },
@@ -6855,9 +6855,9 @@ let data = [|
     width: Some(0.294),
     charge: Some(0.0),
     iValue: Some(0.0),
-    gValue: (-1),
-    cValue: (-1),
-    pValue: (-1),
+    gValue: -1,
+    cValue: -1,
+    pValue: -1,
     anti: false,
     latex: "\\psi(2S)",
   },
@@ -6881,9 +6881,9 @@ let data = [|
     width: Some(0.032),
     charge: Some(0.0),
     iValue: Some(0.0),
-    gValue: (-1),
-    cValue: (-1),
-    pValue: (-1),
+    gValue: -1,
+    cValue: -1,
+    pValue: -1,
     anti: false,
     latex: "\\Upsilon(2S)",
   },
@@ -6914,7 +6914,7 @@ let data = [|
     latex: "\\Xi(1950)^{-}",
   },
   {
-    pdg: (-103316),
+    pdg: -103316,
     name: "Xi(1950)~+",
     mass: Some(1950.0),
     width: Some(60.0),
@@ -6940,7 +6940,7 @@ let data = [|
     latex: "\\Xi(1950)^{0}",
   },
   {
-    pdg: (-103326),
+    pdg: -103326,
     name: "Xi(1950)~0",
     mass: Some(1950.0),
     width: Some(60.0),
@@ -6961,12 +6961,12 @@ let data = [|
     iValue: Some(0.0),
     gValue: 5,
     cValue: 5,
-    pValue: (-1),
+    pValue: -1,
     anti: true,
     latex: "\\Lambda_{c}(2625)^{+}",
   },
   {
-    pdg: (-104122),
+    pdg: -104122,
     name: "Lambda(c)(2625)~-",
     mass: Some(2628.11),
     width: None,
@@ -6987,12 +6987,12 @@ let data = [|
     iValue: Some(0.5),
     gValue: 5,
     cValue: 5,
-    pValue: (-1),
+    pValue: -1,
     anti: true,
     latex: "\\Xi_{c}(2815)^{0}",
   },
   {
-    pdg: (-104312),
+    pdg: -104312,
     name: "Xi(c)(2815)~0",
     mass: Some(2819.79),
     width: Some(2.54),
@@ -7013,12 +7013,12 @@ let data = [|
     iValue: Some(0.5),
     gValue: 5,
     cValue: 5,
-    pValue: (-1),
+    pValue: -1,
     anti: true,
     latex: "\\Xi_{c}(2790)^{0}",
   },
   {
-    pdg: (-104314),
+    pdg: -104314,
     name: "Xi(c)(2790)~0",
     mass: Some(2793.9),
     width: Some(10.0),
@@ -7039,12 +7039,12 @@ let data = [|
     iValue: Some(0.5),
     gValue: 5,
     cValue: 5,
-    pValue: (-1),
+    pValue: -1,
     anti: true,
     latex: "\\Xi_{c}(2815)^{+}",
   },
   {
-    pdg: (-104322),
+    pdg: -104322,
     name: "Xi(c)(2815)~-",
     mass: Some(2816.51),
     width: Some(2.43),
@@ -7065,12 +7065,12 @@ let data = [|
     iValue: Some(0.5),
     gValue: 5,
     cValue: 5,
-    pValue: (-1),
+    pValue: -1,
     anti: true,
     latex: "\\Xi_{c}(2790)^{+}",
   },
   {
-    pdg: (-104324),
+    pdg: -104324,
     name: "Xi(c)(2790)~-",
     mass: Some(2791.9),
     width: Some(8.9),
@@ -7115,9 +7115,9 @@ let data = [|
     width: Some(0.0203),
     charge: Some(0.0),
     iValue: Some(0.0),
-    gValue: (-1),
-    cValue: (-1),
-    pValue: (-1),
+    gValue: -1,
+    cValue: -1,
+    pValue: -1,
     anti: false,
     latex: "\\Upsilon(3S)",
   },
@@ -7135,7 +7135,7 @@ let data = [|
     latex: "\\Xi(1690)^{-}",
   },
   {
-    pdg: (-203312),
+    pdg: -203312,
     name: "Xi(1690)~+",
     mass: Some(1690.0),
     width: None,
@@ -7161,7 +7161,7 @@ let data = [|
     latex: "\\Xi(2030)^{-}",
   },
   {
-    pdg: (-203316),
+    pdg: -203316,
     name: "Xi(2030)~+",
     mass: Some(2025.0),
     width: Some(20.0),
@@ -7187,7 +7187,7 @@ let data = [|
     latex: "\\Xi(1690)^{0}",
   },
   {
-    pdg: (-203322),
+    pdg: -203322,
     name: "Xi(1690)~0",
     mass: Some(1690.0),
     width: None,
@@ -7213,7 +7213,7 @@ let data = [|
     latex: "\\Xi(2030)^{0}",
   },
   {
-    pdg: (-203326),
+    pdg: -203326,
     name: "Xi(2030)~0",
     mass: Some(2025.0),
     width: Some(20.0),
@@ -7239,7 +7239,7 @@ let data = [|
     latex: "\\Omega(2250)^{-}",
   },
   {
-    pdg: (-203338),
+    pdg: -203338,
     name: "Omega(2250)~+",
     mass: Some(2252.0),
     width: Some(55.0),
@@ -7265,7 +7265,7 @@ let data = [|
     latex: "\\Lambda_{c}(2880)^{+}",
   },
   {
-    pdg: (-204126),
+    pdg: -204126,
     name: "Lambda(c)(2880)~-",
     mass: Some(2881.63),
     width: Some(5.6),
@@ -7273,7 +7273,7 @@ let data = [|
     iValue: Some(0.0),
     gValue: 5,
     cValue: 5,
-    pValue: (-1),
+    pValue: -1,
     anti: true,
     latex: "\\overline{\\Lambda}_{c}(2880)^{-}",
   },
@@ -7284,9 +7284,9 @@ let data = [|
     width: Some(20.5),
     charge: Some(0.0),
     iValue: Some(0.0),
-    gValue: (-1),
-    cValue: (-1),
-    pValue: (-1),
+    gValue: -1,
+    cValue: -1,
+    pValue: -1,
     anti: false,
     latex: "\\Upsilon(4S)",
   },
@@ -7297,9 +7297,9 @@ let data = [|
     width: Some(290.0),
     charge: Some(0.0),
     iValue: Some(0.0),
-    gValue: (-1),
-    cValue: (-1),
-    pValue: (-1),
+    gValue: -1,
+    cValue: -1,
+    pValue: -1,
     anti: false,
     latex: "\\omega(1420)",
   },
@@ -7310,7 +7310,7 @@ let data = [|
     width: Some(75.0),
     charge: Some(0.0),
     iValue: Some(1.0),
-    gValue: (-1),
+    gValue: -1,
     cValue: 1,
     pValue: 1,
     anti: false,
@@ -7323,9 +7323,9 @@ let data = [|
     width: Some(330.0),
     charge: Some(0.0),
     iValue: Some(1.0),
-    gValue: (-1),
+    gValue: -1,
     cValue: 1,
-    pValue: (-1),
+    pValue: -1,
     anti: false,
     latex: "\\pi_{1}(1400)^{0}",
   },
@@ -7336,7 +7336,7 @@ let data = [|
     width: Some(270.0),
     charge: Some(0.0),
     iValue: Some(1.0),
-    gValue: (-1),
+    gValue: -1,
     cValue: 1,
     pValue: 1,
     anti: false,
@@ -7349,20 +7349,20 @@ let data = [|
     width: Some(75.0),
     charge: Some(1.0),
     iValue: Some(1.0),
-    gValue: (-1),
+    gValue: -1,
     cValue: 5,
     pValue: 1,
     anti: true,
     latex: "a_{0}(980)^{+}",
   },
   {
-    pdg: (-9000211),
+    pdg: -9000211,
     name: "a(0)(980)-",
     mass: Some(980.0),
     width: Some(75.0),
     charge: Some(-1.0),
     iValue: Some(1.0),
-    gValue: (-1),
+    gValue: -1,
     cValue: 5,
     pValue: 1,
     anti: true,
@@ -7375,22 +7375,22 @@ let data = [|
     width: Some(330.0),
     charge: Some(1.0),
     iValue: Some(1.0),
-    gValue: (-1),
+    gValue: -1,
     cValue: 5,
-    pValue: (-1),
+    pValue: -1,
     anti: true,
     latex: "\\pi_{1}(1400)^{+}",
   },
   {
-    pdg: (-9000213),
+    pdg: -9000213,
     name: "pi(1)(1400)-",
     mass: Some(1354.0),
     width: Some(330.0),
     charge: Some(-1.0),
     iValue: Some(1.0),
-    gValue: (-1),
+    gValue: -1,
     cValue: 5,
-    pValue: (-1),
+    pValue: -1,
     anti: true,
     latex: "\\pi_{1}(1400)^{-}",
   },
@@ -7401,22 +7401,22 @@ let data = [|
     width: Some(270.0),
     charge: Some(1.0),
     iValue: Some(1.0),
-    gValue: (-1),
+    gValue: -1,
     cValue: 5,
-    pValue: (-1),
+    pValue: -1,
     anti: true,
     latex: "a_{2}(1700)^{+}",
   },
   {
-    pdg: (-9000215),
+    pdg: -9000215,
     name: "a(2)(1700)-",
     mass: Some(1700.0),
     width: Some(270.0),
     charge: Some(-1.0),
     iValue: Some(1.0),
-    gValue: (-1),
+    gValue: -1,
     cValue: 5,
-    pValue: (-1),
+    pValue: -1,
     anti: true,
     latex: "a_{2}(1700)^{-}",
   },
@@ -7447,7 +7447,7 @@ let data = [|
     latex: "K_{0}^{*}(700)^{0}",
   },
   {
-    pdg: (-9000311),
+    pdg: -9000311,
     name: "K(0)*(700)~0",
     mass: Some(845.0),
     width: Some(468.0),
@@ -7473,7 +7473,7 @@ let data = [|
     latex: "K_{1}(1650)^{0}",
   },
   {
-    pdg: (-9000313),
+    pdg: -9000313,
     name: "K(1)(1650)~0",
     mass: Some(1670.0),
     width: Some(160.0),
@@ -7499,7 +7499,7 @@ let data = [|
     latex: "K_{0}^{*}(700)^{+}",
   },
   {
-    pdg: (-9000321),
+    pdg: -9000321,
     name: "K(0)*(700)-",
     mass: Some(845.0),
     width: Some(468.0),
@@ -7525,7 +7525,7 @@ let data = [|
     latex: "K_{1}(1650)^{+}",
   },
   {
-    pdg: (-9000323),
+    pdg: -9000323,
     name: "K(1)(1650)-",
     mass: Some(1670.0),
     width: Some(160.0),
@@ -7551,7 +7551,7 @@ let data = [|
     latex: "K_{2}(1580)^{+}",
   },
   {
-    pdg: (-9000325),
+    pdg: -9000325,
     name: "K(2)(1580)-",
     mass: None,
     width: None,
@@ -7577,7 +7577,7 @@ let data = [|
     latex: "K_{4}(2500)^{+}",
   },
   {
-    pdg: (-9000329),
+    pdg: -9000329,
     name: "K(4)(2500)-",
     mass: None,
     width: None,
@@ -7596,9 +7596,9 @@ let data = [|
     width: Some(80.0),
     charge: Some(0.0),
     iValue: Some(0.0),
-    gValue: (-1),
-    cValue: (-1),
-    pValue: (-1),
+    gValue: -1,
+    cValue: -1,
+    pValue: -1,
     anti: false,
     latex: "\\psi(4040)",
   },
@@ -7609,9 +7609,9 @@ let data = [|
     width: Some(37.0),
     charge: Some(0.0),
     iValue: Some(0.0),
-    gValue: (-1),
-    cValue: (-1),
-    pValue: (-1),
+    gValue: -1,
+    cValue: -1,
+    pValue: -1,
     anti: false,
     latex: "\\Upsilon(10860)",
   },
@@ -7622,9 +7622,9 @@ let data = [|
     width: Some(215.0),
     charge: Some(0.0),
     iValue: Some(1.0),
-    gValue: (-1),
+    gValue: -1,
     cValue: 1,
-    pValue: (-1),
+    pValue: -1,
     anti: false,
     latex: "\\pi(1800)^{0}",
   },
@@ -7635,9 +7635,9 @@ let data = [|
     width: Some(240.0),
     charge: Some(0.0),
     iValue: Some(1.0),
-    gValue: (-1),
+    gValue: -1,
     cValue: 1,
-    pValue: (-1),
+    pValue: -1,
     anti: false,
     latex: "\\pi_{1}(1600)^{0}",
   },
@@ -7648,22 +7648,22 @@ let data = [|
     width: Some(215.0),
     charge: Some(1.0),
     iValue: Some(1.0),
-    gValue: (-1),
+    gValue: -1,
     cValue: 5,
-    pValue: (-1),
+    pValue: -1,
     anti: true,
     latex: "\\pi(1800)^{+}",
   },
   {
-    pdg: (-9010211),
+    pdg: -9010211,
     name: "pi(1800)-",
     mass: Some(1810.0),
     width: Some(215.0),
     charge: Some(-1.0),
     iValue: Some(1.0),
-    gValue: (-1),
+    gValue: -1,
     cValue: 5,
-    pValue: (-1),
+    pValue: -1,
     anti: true,
     latex: "\\pi(1800)^{-}",
   },
@@ -7674,22 +7674,22 @@ let data = [|
     width: Some(240.0),
     charge: Some(1.0),
     iValue: Some(1.0),
-    gValue: (-1),
+    gValue: -1,
     cValue: 5,
-    pValue: (-1),
+    pValue: -1,
     anti: true,
     latex: "\\pi_{1}(1600)^{+}",
   },
   {
-    pdg: (-9010213),
+    pdg: -9010213,
     name: "pi(1)(1600)-",
     mass: Some(1661.0),
     width: Some(240.0),
     charge: Some(-1.0),
     iValue: Some(1.0),
-    gValue: (-1),
+    gValue: -1,
     cValue: 5,
-    pValue: (-1),
+    pValue: -1,
     anti: true,
     latex: "\\pi_{1}(1600)^{-}",
   },
@@ -7720,7 +7720,7 @@ let data = [|
     latex: "K_{2}^{*}(1980)^{0}",
   },
   {
-    pdg: (-9010315),
+    pdg: -9010315,
     name: "K(2)*(1980)~0",
     mass: Some(1990.0),
     width: Some(349.0),
@@ -7746,7 +7746,7 @@ let data = [|
     latex: "K(1830)^{+}",
   },
   {
-    pdg: (-9010321),
+    pdg: -9010321,
     name: "K(1830)-",
     mass: None,
     width: None,
@@ -7772,7 +7772,7 @@ let data = [|
     latex: "K_{2}^{*}(1980)^{+}",
   },
   {
-    pdg: (-9010325),
+    pdg: -9010325,
     name: "K(2)*(1980)-",
     mass: Some(1990.0),
     width: Some(349.0),
@@ -7798,7 +7798,7 @@ let data = [|
     latex: "K_{3}(2320)^{+}",
   },
   {
-    pdg: (-9010327),
+    pdg: -9010327,
     name: "K(3)(2320)-",
     mass: None,
     width: None,
@@ -7817,9 +7817,9 @@ let data = [|
     width: Some(70.0),
     charge: Some(0.0),
     iValue: Some(0.0),
-    gValue: (-1),
-    cValue: (-1),
-    pValue: (-1),
+    gValue: -1,
+    cValue: -1,
+    pValue: -1,
     anti: false,
     latex: "\\psi(4160)",
   },
@@ -7830,9 +7830,9 @@ let data = [|
     width: Some(24.0),
     charge: Some(0.0),
     iValue: Some(0.0),
-    gValue: (-1),
-    cValue: (-1),
-    pValue: (-1),
+    gValue: -1,
+    cValue: -1,
+    pValue: -1,
     anti: false,
     latex: "\\Upsilon(11020)",
   },
@@ -7843,7 +7843,7 @@ let data = [|
     width: Some(250.0),
     charge: Some(0.0),
     iValue: Some(1.0),
-    gValue: (-1),
+    gValue: -1,
     cValue: 1,
     pValue: 1,
     anti: false,
@@ -7856,20 +7856,20 @@ let data = [|
     width: Some(250.0),
     charge: Some(1.0),
     iValue: Some(1.0),
-    gValue: (-1),
+    gValue: -1,
     cValue: 5,
     pValue: 1,
     anti: true,
     latex: "a_{1}(1640)^{+}",
   },
   {
-    pdg: (-9020213),
+    pdg: -9020213,
     name: "a(1)(1640)-",
     mass: Some(1655.0),
     width: Some(250.0),
     charge: Some(-1.0),
     iValue: Some(1.0),
-    gValue: (-1),
+    gValue: -1,
     cValue: 5,
     pValue: 1,
     anti: true,
@@ -7884,7 +7884,7 @@ let data = [|
     iValue: Some(0.0),
     gValue: 1,
     cValue: 1,
-    pValue: (-1),
+    pValue: -1,
     anti: false,
     latex: "\\eta(1405)",
   },
@@ -7902,7 +7902,7 @@ let data = [|
     latex: "K_{0}^{*}(1950)^{+}",
   },
   {
-    pdg: (-9020321),
+    pdg: -9020321,
     name: "K(0)*(1950)-",
     mass: None,
     width: None,
@@ -7928,7 +7928,7 @@ let data = [|
     latex: "K_{2}(2250)^{+}",
   },
   {
-    pdg: (-9020325),
+    pdg: -9020325,
     name: "K(2)(2250)-",
     mass: None,
     width: None,
@@ -7947,9 +7947,9 @@ let data = [|
     width: Some(62.0),
     charge: Some(0.0),
     iValue: Some(0.0),
-    gValue: (-1),
-    cValue: (-1),
-    pValue: (-1),
+    gValue: -1,
+    cValue: -1,
+    pValue: -1,
     anti: false,
     latex: "\\psi(4415)",
   },
@@ -8032,7 +8032,7 @@ let data = [|
     latex: "n",
   },
   {
-    pdg: (-1000000010),
+    pdg: -1000000010,
     name: "n~",
     mass: Some(939.565413),
     width: Some(7.485e-25),
@@ -8040,7 +8040,7 @@ let data = [|
     iValue: Some(0.5),
     gValue: 5,
     cValue: 5,
-    pValue: (-1),
+    pValue: -1,
     anti: true,
     latex: "\\overline{n}",
   },
@@ -8058,7 +8058,7 @@ let data = [|
     latex: "p",
   },
   {
-    pdg: (-1000010010),
+    pdg: -1000010010,
     name: "p~",
     mass: Some(938.272081),
     width: Some(0.0),
@@ -8066,7 +8066,7 @@ let data = [|
     iValue: Some(0.5),
     gValue: 5,
     cValue: 5,
-    pValue: (-1),
+    pValue: -1,
     anti: true,
     latex: "\\overline{p}",
   },
@@ -8084,7 +8084,7 @@ let data = [|
     latex: "^{2}\\mathrm{D}",
   },
   {
-    pdg: (-1000010020),
+    pdg: -1000010020,
     name: "D2~",
     mass: Some(1876.1239129),
     width: None,
@@ -8110,7 +8110,7 @@ let data = [|
     latex: "^{3}\\mathrm{T}",
   },
   {
-    pdg: (-1000010030),
+    pdg: -1000010030,
     name: "T3~",
     mass: Some(2809.4320829),
     width: None,
@@ -8136,7 +8136,7 @@ let data = [|
     latex: "^{4}\\mathrm{H}",
   },
   {
-    pdg: (-1000010040),
+    pdg: -1000010040,
     name: "H4~",
     mass: Some(3751.8998606),
     width: None,
@@ -8162,7 +8162,7 @@ let data = [|
     latex: "^{5}\\mathrm{H}",
   },
   {
-    pdg: (-1000010050),
+    pdg: -1000010050,
     name: "H5~",
     mass: Some(4694.3017515),
     width: None,
@@ -8188,7 +8188,7 @@ let data = [|
     latex: "^{6}\\mathrm{H}",
   },
   {
-    pdg: (-1000010060),
+    pdg: -1000010060,
     name: "H6~",
     mass: Some(5630.8259146),
     width: None,
@@ -8214,7 +8214,7 @@ let data = [|
     latex: "^{3}\\mathrm{He}",
   },
   {
-    pdg: (-1000020030),
+    pdg: -1000020030,
     name: "He3~",
     mass: Some(2809.4134923),
     width: None,
@@ -8240,7 +8240,7 @@ let data = [|
     latex: "^{4}\\mathrm{He}",
   },
   {
-    pdg: (-1000020040),
+    pdg: -1000020040,
     name: "He4~",
     mass: Some(3728.4012917),
     width: None,
@@ -8266,7 +8266,7 @@ let data = [|
     latex: "^{5}\\mathrm{He}",
   },
   {
-    pdg: (-1000020050),
+    pdg: -1000020050,
     name: "He5~",
     mass: Some(4668.8533328),
     width: None,
@@ -8292,7 +8292,7 @@ let data = [|
     latex: "^{6}\\mathrm{He}",
   },
   {
-    pdg: (-1000020060),
+    pdg: -1000020060,
     name: "He6~",
     mass: Some(5606.5587236),
     width: None,
@@ -8318,7 +8318,7 @@ let data = [|
     latex: "^{7}\\mathrm{He}",
   },
   {
-    pdg: (-1000020070),
+    pdg: -1000020070,
     name: "He7~",
     mass: Some(6546.5684444),
     width: None,
@@ -8344,7 +8344,7 @@ let data = [|
     latex: "^{8}\\mathrm{He}",
   },
   {
-    pdg: (-1000020080),
+    pdg: -1000020080,
     name: "He8~",
     mass: Some(7483.5509026),
     width: None,
@@ -8370,7 +8370,7 @@ let data = [|
     latex: "^{9}\\mathrm{He}",
   },
   {
-    pdg: (-1000020090),
+    pdg: -1000020090,
     name: "He9~",
     mass: Some(8424.2649262),
     width: None,
@@ -8396,7 +8396,7 @@ let data = [|
     latex: "^{10}\\mathrm{He}",
   },
   {
-    pdg: (-1000020100),
+    pdg: -1000020100,
     name: "He10~",
     mass: Some(9363.7512405),
     width: None,
@@ -8422,7 +8422,7 @@ let data = [|
     latex: "^{4}\\mathrm{Li}",
   },
   {
-    pdg: (-1000030040),
+    pdg: -1000030040,
     name: "Li4~",
     mass: Some(3751.2943895),
     width: None,
@@ -8448,7 +8448,7 @@ let data = [|
     latex: "^{5}\\mathrm{Li}",
   },
   {
-    pdg: (-1000030050),
+    pdg: -1000030050,
     name: "Li5~",
     mass: Some(4669.1514109),
     width: None,
@@ -8474,7 +8474,7 @@ let data = [|
     latex: "^{6}\\mathrm{Li}",
   },
   {
-    pdg: (-1000030060),
+    pdg: -1000030060,
     name: "Li6~",
     mass: Some(5603.0509031),
     width: None,
@@ -8500,7 +8500,7 @@ let data = [|
     latex: "^{7}\\mathrm{Li}",
   },
   {
-    pdg: (-1000030070),
+    pdg: -1000030070,
     name: "Li7~",
     mass: Some(6535.3662964),
     width: None,
@@ -8526,7 +8526,7 @@ let data = [|
     latex: "^{8}\\mathrm{Li}",
   },
   {
-    pdg: (-1000030080),
+    pdg: -1000030080,
     name: "Li8~",
     mass: Some(7472.8989882),
     width: None,
@@ -8552,7 +8552,7 @@ let data = [|
     latex: "^{9}\\mathrm{Li}",
   },
   {
-    pdg: (-1000030090),
+    pdg: -1000030090,
     name: "Li9~",
     mass: Some(8408.4007434),
     width: None,
@@ -8578,7 +8578,7 @@ let data = [|
     latex: "^{10}\\mathrm{Li}",
   },
   {
-    pdg: (-1000030100),
+    pdg: -1000030100,
     name: "Li10~",
     mass: Some(9347.9912919),
     width: None,
@@ -8604,7 +8604,7 @@ let data = [|
     latex: "^{11}\\mathrm{Li}",
   },
   {
-    pdg: (-1000030110),
+    pdg: -1000030110,
     name: "Li11~",
     mass: Some(10287.2307603),
     width: None,
@@ -8630,7 +8630,7 @@ let data = [|
     latex: "^{12}\\mathrm{Li}",
   },
   {
-    pdg: (-1000030120),
+    pdg: -1000030120,
     name: "Li12~",
     mass: Some(11228.0248923),
     width: None,
@@ -8656,7 +8656,7 @@ let data = [|
     latex: "^{5}\\mathrm{Be}",
   },
   {
-    pdg: (-1000040050),
+    pdg: -1000040050,
     name: "Be5~",
     mass: Some(4695.4661191),
     width: None,
@@ -8682,7 +8682,7 @@ let data = [|
     latex: "^{6}\\mathrm{Be}",
   },
   {
-    pdg: (-1000040060),
+    pdg: -1000040060,
     name: "Be6~",
     mass: Some(5607.3392225),
     width: None,
@@ -8708,7 +8708,7 @@ let data = [|
     latex: "^{7}\\mathrm{Be}",
   },
   {
-    pdg: (-1000040070),
+    pdg: -1000040070,
     name: "Be7~",
     mass: Some(6536.2281148),
     width: None,
@@ -8734,7 +8734,7 @@ let data = [|
     latex: "^{8}\\mathrm{Be}",
   },
   {
-    pdg: (-1000040080),
+    pdg: -1000040080,
     name: "Be8~",
     mass: Some(7456.8944199),
     width: None,
@@ -8760,7 +8760,7 @@ let data = [|
     latex: "^{9}\\mathrm{Be}",
   },
   {
-    pdg: (-1000040090),
+    pdg: -1000040090,
     name: "Be9~",
     mass: Some(8394.7944091),
     width: None,
@@ -8786,7 +8786,7 @@ let data = [|
     latex: "^{10}\\mathrm{Be}",
   },
   {
-    pdg: (-1000040100),
+    pdg: -1000040100,
     name: "Be10~",
     mass: Some(9327.5475115),
     width: None,
@@ -8812,7 +8812,7 @@ let data = [|
     latex: "^{11}\\mathrm{Be}",
   },
   {
-    pdg: (-1000040110),
+    pdg: -1000040110,
     name: "Be11~",
     mass: Some(10266.609344),
     width: None,
@@ -8838,7 +8838,7 @@ let data = [|
     latex: "^{12}\\mathrm{Be}",
   },
   {
-    pdg: (-1000040120),
+    pdg: -1000040120,
     name: "Be12~",
     mass: Some(11203.0058924),
     width: None,
@@ -8864,7 +8864,7 @@ let data = [|
     latex: "^{13}\\mathrm{Be}",
   },
   {
-    pdg: (-1000040130),
+    pdg: -1000040130,
     name: "Be13~",
     mass: Some(12143.0781165),
     width: None,
@@ -8890,7 +8890,7 @@ let data = [|
     latex: "^{14}\\mathrm{Be}",
   },
   {
-    pdg: (-1000040140),
+    pdg: -1000040140,
     name: "Be14~",
     mass: Some(13080.803907),
     width: None,
@@ -8916,7 +8916,7 @@ let data = [|
     latex: "^{7}\\mathrm{B}",
   },
   {
-    pdg: (-1000050070),
+    pdg: -1000050070,
     name: "B7~",
     mass: Some(6548.3289683),
     width: None,
@@ -8942,7 +8942,7 @@ let data = [|
     latex: "^{8}\\mathrm{B}",
   },
   {
-    pdg: (-1000050080),
+    pdg: -1000050080,
     name: "B8~",
     mass: Some(7474.8737557),
     width: None,
@@ -8968,7 +8968,7 @@ let data = [|
     latex: "^{9}\\mathrm{B}",
   },
   {
-    pdg: (-1000050090),
+    pdg: -1000050090,
     name: "B9~",
     mass: Some(8395.8625534),
     width: None,
@@ -8994,7 +8994,7 @@ let data = [|
     latex: "^{10}\\mathrm{B}",
   },
   {
-    pdg: (-1000050100),
+    pdg: -1000050100,
     name: "B10~",
     mass: Some(9326.991689),
     width: None,
@@ -9020,7 +9020,7 @@ let data = [|
     latex: "^{11}\\mathrm{B}",
   },
   {
-    pdg: (-1000050110),
+    pdg: -1000050110,
     name: "B11~",
     mass: Some(10255.1030632),
     width: None,
@@ -9046,7 +9046,7 @@ let data = [|
     latex: "^{12}\\mathrm{B}",
   },
   {
-    pdg: (-1000050120),
+    pdg: -1000050120,
     name: "B12~",
     mass: Some(11191.2980363),
     width: None,
@@ -9072,7 +9072,7 @@ let data = [|
     latex: "^{13}\\mathrm{B}",
   },
   {
-    pdg: (-1000050130),
+    pdg: -1000050130,
     name: "B13~",
     mass: Some(12125.9854793),
     width: None,
@@ -9098,7 +9098,7 @@ let data = [|
     latex: "^{14}\\mathrm{B}",
   },
   {
-    pdg: (-1000050140),
+    pdg: -1000050140,
     name: "B14~",
     mass: Some(13064.5810059),
     width: None,
@@ -9124,7 +9124,7 @@ let data = [|
     latex: "^{15}\\mathrm{B}",
   },
   {
-    pdg: (-1000050150),
+    pdg: -1000050150,
     name: "B15~",
     mass: Some(14001.3780967),
     width: None,
@@ -9150,7 +9150,7 @@ let data = [|
     latex: "^{16}\\mathrm{B}",
   },
   {
-    pdg: (-1000050160),
+    pdg: -1000050160,
     name: "B16~",
     mass: Some(14940.9882998),
     width: None,
@@ -9176,7 +9176,7 @@ let data = [|
     latex: "^{17}\\mathrm{B}",
   },
   {
-    pdg: (-1000050170),
+    pdg: -1000050170,
     name: "B17~",
     mass: Some(15879.1146327),
     width: None,
@@ -9202,7 +9202,7 @@ let data = [|
     latex: "^{18}\\mathrm{B}",
   },
   {
-    pdg: (-1000050180),
+    pdg: -1000050180,
     name: "B18~",
     mass: Some(16819.2157331),
     width: None,
@@ -9228,7 +9228,7 @@ let data = [|
     latex: "^{19}\\mathrm{B}",
   },
   {
-    pdg: (-1000050190),
+    pdg: -1000050190,
     name: "B19~",
     mass: Some(17757.7519235),
     width: None,
@@ -9254,7 +9254,7 @@ let data = [|
     latex: "^{8}\\mathrm{C}",
   },
   {
-    pdg: (-1000060080),
+    pdg: -1000060080,
     name: "C8~",
     mass: Some(7487.0467999),
     width: None,
@@ -9280,7 +9280,7 @@ let data = [|
     latex: "^{9}\\mathrm{C}",
   },
   {
-    pdg: (-1000060090),
+    pdg: -1000060090,
     name: "C9~",
     mass: Some(8412.3605248),
     width: None,
@@ -9306,7 +9306,7 @@ let data = [|
     latex: "^{10}\\mathrm{C}",
   },
   {
-    pdg: (-1000060100),
+    pdg: -1000060100,
     name: "C10~",
     mass: Some(9330.639513),
     width: None,
@@ -9332,7 +9332,7 @@ let data = [|
     latex: "^{11}\\mathrm{C}",
   },
   {
-    pdg: (-1000060110),
+    pdg: -1000060110,
     name: "C11~",
     mass: Some(10257.0855621),
     width: None,
@@ -9358,7 +9358,7 @@ let data = [|
     latex: "^{12}\\mathrm{C}",
   },
   {
-    pdg: (-1000060120),
+    pdg: -1000060120,
     name: "C12~",
     mass: Some(11177.9291399),
     width: None,
@@ -9384,7 +9384,7 @@ let data = [|
     latex: "^{13}\\mathrm{C}",
   },
   {
-    pdg: (-1000060130),
+    pdg: -1000060130,
     name: "C13~",
     mass: Some(12112.5482465),
     width: None,
@@ -9410,7 +9410,7 @@ let data = [|
     latex: "^{14}\\mathrm{C}",
   },
   {
-    pdg: (-1000060140),
+    pdg: -1000060140,
     name: "C14~",
     mass: Some(13043.9372225),
     width: None,
@@ -9436,7 +9436,7 @@ let data = [|
     latex: "^{15}\\mathrm{C}",
   },
   {
-    pdg: (-1000060150),
+    pdg: -1000060150,
     name: "C15~",
     mass: Some(13982.2846102),
     width: None,
@@ -9462,7 +9462,7 @@ let data = [|
     latex: "^{16}\\mathrm{C}",
   },
   {
-    pdg: (-1000060160),
+    pdg: -1000060160,
     name: "C16~",
     mass: Some(14917.5994145),
     width: None,
@@ -9488,7 +9488,7 @@ let data = [|
     latex: "^{17}\\mathrm{C}",
   },
   {
-    pdg: (-1000060170),
+    pdg: -1000060170,
     name: "C17~",
     mass: Some(15856.4364775),
     width: None,
@@ -9514,7 +9514,7 @@ let data = [|
     latex: "^{18}\\mathrm{C}",
   },
   {
-    pdg: (-1000060180),
+    pdg: -1000060180,
     name: "C18~",
     mass: Some(16791.8204918),
     width: None,
@@ -9540,7 +9540,7 @@ let data = [|
     latex: "^{19}\\mathrm{C}",
   },
   {
-    pdg: (-1000060190),
+    pdg: -1000060190,
     name: "C19~",
     mass: Some(17731.2229717),
     width: None,
@@ -9566,7 +9566,7 @@ let data = [|
     latex: "^{20}\\mathrm{C}",
   },
   {
-    pdg: (-1000060200),
+    pdg: -1000060200,
     name: "C20~",
     mass: Some(18667.4397417),
     width: None,
@@ -9592,7 +9592,7 @@ let data = [|
     latex: "^{21}\\mathrm{C}",
   },
   {
-    pdg: (-1000060210),
+    pdg: -1000060210,
     name: "C21~",
     mass: Some(19607.3359134),
     width: None,
@@ -9618,7 +9618,7 @@ let data = [|
     latex: "^{22}\\mathrm{C}",
   },
   {
-    pdg: (-1000060220),
+    pdg: -1000060220,
     name: "C22~",
     mass: Some(20545.4529314),
     width: None,
@@ -9644,7 +9644,7 @@ let data = [|
     latex: "^{10}\\mathrm{N}",
   },
   {
-    pdg: (-1000070100),
+    pdg: -1000070100,
     name: "N10~",
     mass: Some(9354.6412282),
     width: None,
@@ -9670,7 +9670,7 @@ let data = [|
     latex: "^{11}\\mathrm{N}",
   },
   {
-    pdg: (-1000070110),
+    pdg: -1000070110,
     name: "N11~",
     mass: Some(10271.3990866),
     width: None,
@@ -9696,7 +9696,7 @@ let data = [|
     latex: "^{12}\\mathrm{N}",
   },
   {
-    pdg: (-1000070120),
+    pdg: -1000070120,
     name: "N12~",
     mass: Some(11195.2672258),
     width: None,
@@ -9722,7 +9722,7 @@ let data = [|
     latex: "^{13}\\mathrm{N}",
   },
   {
-    pdg: (-1000070130),
+    pdg: -1000070130,
     name: "N13~",
     mass: Some(12114.7686883),
     width: None,
@@ -9748,7 +9748,7 @@ let data = [|
     latex: "^{14}\\mathrm{N}",
   },
   {
-    pdg: (-1000070140),
+    pdg: -1000070140,
     name: "N14~",
     mass: Some(13043.7807476),
     width: None,
@@ -9774,7 +9774,7 @@ let data = [|
     latex: "^{15}\\mathrm{N}",
   },
   {
-    pdg: (-1000070150),
+    pdg: -1000070150,
     name: "N15~",
     mass: Some(13972.5128631),
     width: None,
@@ -9800,7 +9800,7 @@ let data = [|
     latex: "^{16}\\mathrm{N}",
   },
   {
-    pdg: (-1000070160),
+    pdg: -1000070160,
     name: "N16~",
     mass: Some(14909.5889379),
     width: None,
@@ -9826,7 +9826,7 @@ let data = [|
     latex: "^{17}\\mathrm{N}",
   },
   {
-    pdg: (-1000070170),
+    pdg: -1000070170,
     name: "N17~",
     mass: Some(15843.2707399),
     width: None,
@@ -9852,7 +9852,7 @@ let data = [|
     latex: "^{18}\\mathrm{N}",
   },
   {
-    pdg: (-1000070180),
+    pdg: -1000070180,
     name: "N18~",
     mass: Some(16780.0110097),
     width: None,
@@ -9878,7 +9878,7 @@ let data = [|
     latex: "^{19}\\mathrm{N}",
   },
   {
-    pdg: (-1000070190),
+    pdg: -1000070190,
     name: "N19~",
     mass: Some(17714.2483548),
     width: None,
@@ -9904,7 +9904,7 @@ let data = [|
     latex: "^{20}\\mathrm{N}",
   },
   {
-    pdg: (-1000070200),
+    pdg: -1000070200,
     name: "N20~",
     mass: Some(18651.6509168),
     width: None,
@@ -9930,7 +9930,7 @@ let data = [|
     latex: "^{21}\\mathrm{N}",
   },
   {
-    pdg: (-1000070210),
+    pdg: -1000070210,
     name: "N21~",
     mass: Some(19586.6101698),
     width: None,
@@ -9956,7 +9956,7 @@ let data = [|
     latex: "^{22}\\mathrm{N}",
   },
   {
-    pdg: (-1000070220),
+    pdg: -1000070220,
     name: "N22~",
     mass: Some(20524.9507464),
     width: None,
@@ -9982,7 +9982,7 @@ let data = [|
     latex: "^{23}\\mathrm{N}",
   },
   {
-    pdg: (-1000070230),
+    pdg: -1000070230,
     name: "N23~",
     mass: Some(21462.0990106),
     width: None,
@@ -10008,7 +10008,7 @@ let data = [|
     latex: "^{24}\\mathrm{N}",
   },
   {
-    pdg: (-1000070240),
+    pdg: -1000070240,
     name: "N24~",
     mass: Some(22402.8987316),
     width: None,
@@ -10034,7 +10034,7 @@ let data = [|
     latex: "^{12}\\mathrm{O}",
   },
   {
-    pdg: (-1000080120),
+    pdg: -1000080120,
     name: "O12~",
     mass: Some(11209.9771942),
     width: None,
@@ -10060,7 +10060,7 @@ let data = [|
     latex: "^{13}\\mathrm{O}",
   },
   {
-    pdg: (-1000080130),
+    pdg: -1000080130,
     name: "O13~",
     mass: Some(12132.5336034),
     width: None,
@@ -10086,7 +10086,7 @@ let data = [|
     latex: "^{14}\\mathrm{O}",
   },
   {
-    pdg: (-1000080140),
+    pdg: -1000080140,
     name: "O14~",
     mass: Some(13048.9237917),
     width: None,
@@ -10112,7 +10112,7 @@ let data = [|
     latex: "^{15}\\mathrm{O}",
   },
   {
-    pdg: (-1000080150),
+    pdg: -1000080150,
     name: "O15~",
     mass: Some(13975.2668269),
     width: None,
@@ -10138,7 +10138,7 @@ let data = [|
     latex: "^{16}\\mathrm{O}",
   },
   {
-    pdg: (-1000080160),
+    pdg: -1000080160,
     name: "O16~",
     mass: Some(14899.1685204),
     width: None,
@@ -10164,7 +10164,7 @@ let data = [|
     latex: "^{17}\\mathrm{O}",
   },
   {
-    pdg: (-1000080170),
+    pdg: -1000080170,
     name: "O17~",
     mass: Some(15834.5906122),
     width: None,
@@ -10190,7 +10190,7 @@ let data = [|
     latex: "^{18}\\mathrm{O}",
   },
   {
-    pdg: (-1000080180),
+    pdg: -1000080180,
     name: "O18~",
     mass: Some(16766.1116274),
     width: None,
@@ -10216,7 +10216,7 @@ let data = [|
     latex: "^{19}\\mathrm{O}",
   },
   {
-    pdg: (-1000080190),
+    pdg: -1000080190,
     name: "O19~",
     mass: Some(17701.7216222),
     width: None,
@@ -10242,7 +10242,7 @@ let data = [|
     latex: "^{20}\\mathrm{O}",
   },
   {
-    pdg: (-1000080200),
+    pdg: -1000080200,
     name: "O20~",
     mass: Some(18633.678856),
     width: None,
@@ -10268,7 +10268,7 @@ let data = [|
     latex: "^{21}\\mathrm{O}",
   },
   {
-    pdg: (-1000080210),
+    pdg: -1000080210,
     name: "O21~",
     mass: Some(19569.4380762),
     width: None,
@@ -10294,7 +10294,7 @@ let data = [|
     latex: "^{22}\\mathrm{O}",
   },
   {
-    pdg: (-1000080220),
+    pdg: -1000080220,
     name: "O22~",
     mass: Some(20502.1570859),
     width: None,
@@ -10320,7 +10320,7 @@ let data = [|
     latex: "^{23}\\mathrm{O}",
   },
   {
-    pdg: (-1000080230),
+    pdg: -1000080230,
     name: "O23~",
     mass: Some(21438.9793271),
     width: None,
@@ -10346,7 +10346,7 @@ let data = [|
     latex: "^{24}\\mathrm{O}",
   },
   {
-    pdg: (-1000080240),
+    pdg: -1000080240,
     name: "O24~",
     mass: Some(22374.8328145),
     width: None,
@@ -10372,7 +10372,7 @@ let data = [|
     latex: "^{25}\\mathrm{O}",
   },
   {
-    pdg: (-1000080250),
+    pdg: -1000080250,
     name: "O25~",
     mass: Some(23314.4961127),
     width: None,
@@ -10398,7 +10398,7 @@ let data = [|
     latex: "^{26}\\mathrm{O}",
   },
   {
-    pdg: (-1000080260),
+    pdg: -1000080260,
     name: "O26~",
     mass: Some(24254.0103718),
     width: None,
@@ -10424,7 +10424,7 @@ let data = [|
     latex: "^{14}\\mathrm{F}",
   },
   {
-    pdg: (-1000090140),
+    pdg: -1000090140,
     name: "F14~",
     mass: Some(13074.5256368),
     width: None,
@@ -10450,7 +10450,7 @@ let data = [|
     latex: "^{15}\\mathrm{F}",
   },
   {
-    pdg: (-1000090150),
+    pdg: -1000090150,
     name: "F15~",
     mass: Some(13989.1876335),
     width: None,
@@ -10476,7 +10476,7 @@ let data = [|
     latex: "^{16}\\mathrm{F}",
   },
   {
-    pdg: (-1000090160),
+    pdg: -1000090160,
     name: "F16~",
     mass: Some(14914.5860311),
     width: None,
@@ -10502,7 +10502,7 @@ let data = [|
     latex: "^{17}\\mathrm{F}",
   },
   {
-    pdg: (-1000090170),
+    pdg: -1000090170,
     name: "F17~",
     mass: Some(15837.3513185),
     width: None,
@@ -10528,7 +10528,7 @@ let data = [|
     latex: "^{18}\\mathrm{F}",
   },
   {
-    pdg: (-1000090180),
+    pdg: -1000090180,
     name: "F18~",
     mass: Some(16767.7671718),
     width: None,
@@ -10554,7 +10554,7 @@ let data = [|
     latex: "^{19}\\mathrm{F}",
   },
   {
-    pdg: (-1000090190),
+    pdg: -1000090190,
     name: "F19~",
     mass: Some(17696.900395),
     width: None,
@@ -10580,7 +10580,7 @@ let data = [|
     latex: "^{20}\\mathrm{F}",
   },
   {
-    pdg: (-1000090200),
+    pdg: -1000090200,
     name: "F20~",
     mass: Some(18629.8644995),
     width: None,
@@ -10606,7 +10606,7 @@ let data = [|
     latex: "^{21}\\mathrm{F}",
   },
   {
-    pdg: (-1000090210),
+    pdg: -1000090210,
     name: "F21~",
     mass: Some(19561.3283954),
     width: None,
@@ -10632,7 +10632,7 @@ let data = [|
     latex: "^{22}\\mathrm{F}",
   },
   {
-    pdg: (-1000090220),
+    pdg: -1000090220,
     name: "F22~",
     mass: Some(20495.6636406),
     width: None,
@@ -10658,7 +10658,7 @@ let data = [|
     latex: "^{23}\\mathrm{F}",
   },
   {
-    pdg: (-1000090230),
+    pdg: -1000090230,
     name: "F23~",
     mass: Some(21427.6896187),
     width: None,
@@ -10684,7 +10684,7 @@ let data = [|
     latex: "^{24}\\mathrm{F}",
   },
   {
-    pdg: (-1000090240),
+    pdg: -1000090240,
     name: "F24~",
     mass: Some(22363.4033819),
     width: None,
@@ -10710,7 +10710,7 @@ let data = [|
     latex: "^{25}\\mathrm{F}",
   },
   {
-    pdg: (-1000090250),
+    pdg: -1000090250,
     name: "F25~",
     mass: Some(23298.6141384),
     width: None,
@@ -10736,7 +10736,7 @@ let data = [|
     latex: "^{26}\\mathrm{F}",
   },
   {
-    pdg: (-1000090260),
+    pdg: -1000090260,
     name: "F26~",
     mass: Some(24237.1316988),
     width: None,
@@ -10762,7 +10762,7 @@ let data = [|
     latex: "^{27}\\mathrm{F}",
   },
   {
-    pdg: (-1000090270),
+    pdg: -1000090270,
     name: "F27~",
     mass: Some(25175.3884409),
     width: None,
@@ -10788,7 +10788,7 @@ let data = [|
     latex: "^{28}\\mathrm{F}",
   },
   {
-    pdg: (-1000090280),
+    pdg: -1000090280,
     name: "F28~",
     mass: Some(26115.0610541),
     width: None,
@@ -10814,7 +10814,7 @@ let data = [|
     latex: "^{29}\\mathrm{F}",
   },
   {
-    pdg: (-1000090290),
+    pdg: -1000090290,
     name: "F29~",
     mass: Some(27053.6251893),
     width: None,
@@ -10840,7 +10840,7 @@ let data = [|
     latex: "^{16}\\mathrm{Ne}",
   },
   {
-    pdg: (-1000100160),
+    pdg: -1000100160,
     name: "Ne16~",
     mass: Some(14927.8980132),
     width: None,
@@ -10866,7 +10866,7 @@ let data = [|
     latex: "^{17}\\mathrm{Ne}",
   },
   {
-    pdg: (-1000100170),
+    pdg: -1000100170,
     name: "Ne17~",
     mass: Some(15851.8870603),
     width: None,
@@ -10892,7 +10892,7 @@ let data = [|
     latex: "^{18}\\mathrm{Ne}",
   },
   {
-    pdg: (-1000100180),
+    pdg: -1000100180,
     name: "Ne18~",
     mass: Some(16772.2005248),
     width: None,
@@ -10918,7 +10918,7 @@ let data = [|
     latex: "^{19}\\mathrm{Ne}",
   },
   {
-    pdg: (-1000100190),
+    pdg: -1000100190,
     name: "Ne19~",
     mass: Some(17700.1388274),
     width: None,
@@ -10944,7 +10944,7 @@ let data = [|
     latex: "^{20}\\mathrm{Ne}",
   },
   {
-    pdg: (-1000100200),
+    pdg: -1000100200,
     name: "Ne20~",
     mass: Some(18622.8399683),
     width: None,
@@ -10970,7 +10970,7 @@ let data = [|
     latex: "^{21}\\mathrm{Ne}",
   },
   {
-    pdg: (-1000100210),
+    pdg: -1000100210,
     name: "Ne21~",
     mass: Some(19555.6442694),
     width: None,
@@ -10996,7 +10996,7 @@ let data = [|
     latex: "^{22}\\mathrm{Ne}",
   },
   {
-    pdg: (-1000100220),
+    pdg: -1000100220,
     name: "Ne22~",
     mass: Some(20484.8457432),
     width: None,
@@ -11022,7 +11022,7 @@ let data = [|
     latex: "^{23}\\mathrm{Ne}",
   },
   {
-    pdg: (-1000100230),
+    pdg: -1000100230,
     name: "Ne23~",
     mass: Some(21419.2105447),
     width: None,
@@ -11048,7 +11048,7 @@ let data = [|
     latex: "^{24}\\mathrm{Ne}",
   },
   {
-    pdg: (-1000100240),
+    pdg: -1000100240,
     name: "Ne24~",
     mass: Some(22349.91069),
     width: None,
@@ -11074,7 +11074,7 @@ let data = [|
     latex: "^{25}\\mathrm{Ne}",
   },
   {
-    pdg: (-1000100250),
+    pdg: -1000100250,
     name: "Ne25~",
     mass: Some(23285.2937728),
     width: None,
@@ -11100,7 +11100,7 @@ let data = [|
     latex: "^{26}\\mathrm{Ne}",
   },
   {
-    pdg: (-1000100260),
+    pdg: -1000100260,
     name: "Ne26~",
     mass: Some(24219.274957),
     width: None,
@@ -11126,7 +11126,7 @@ let data = [|
     latex: "^{27}\\mathrm{Ne}",
   },
   {
-    pdg: (-1000100270),
+    pdg: -1000100270,
     name: "Ne27~",
     mass: Some(25157.4385497),
     width: None,
@@ -11152,7 +11152,7 @@ let data = [|
     latex: "^{28}\\mathrm{Ne}",
   },
   {
-    pdg: (-1000100280),
+    pdg: -1000100280,
     name: "Ne28~",
     mass: Some(26093.1150532),
     width: None,
@@ -11178,7 +11178,7 @@ let data = [|
     latex: "^{29}\\mathrm{Ne}",
   },
   {
-    pdg: (-1000100290),
+    pdg: -1000100290,
     name: "Ne29~",
     mass: Some(27031.3531655),
     width: None,
@@ -11204,7 +11204,7 @@ let data = [|
     latex: "^{30}\\mathrm{Ne}",
   },
   {
-    pdg: (-1000100300),
+    pdg: -1000100300,
     name: "Ne30~",
     mass: Some(27967.0576138),
     width: None,
@@ -11230,7 +11230,7 @@ let data = [|
     latex: "^{31}\\mathrm{Ne}",
   },
   {
-    pdg: (-1000100310),
+    pdg: -1000100310,
     name: "Ne31~",
     mass: Some(28907.1587142),
     width: None,
@@ -11256,7 +11256,7 @@ let data = [|
     latex: "^{32}\\mathrm{Ne}",
   },
   {
-    pdg: (-1000100320),
+    pdg: -1000100320,
     name: "Ne32~",
     mass: Some(29844.986969),
     width: None,
@@ -11282,7 +11282,7 @@ let data = [|
     latex: "^{18}\\mathrm{Na}",
   },
   {
-    pdg: (-1000110180),
+    pdg: -1000110180,
     name: "Na18~",
     mass: Some(16792.2117193),
     width: None,
@@ -11308,7 +11308,7 @@ let data = [|
     latex: "^{19}\\mathrm{Na}",
   },
   {
-    pdg: (-1000110190),
+    pdg: -1000110190,
     name: "Na19~",
     mass: Some(17711.3160114),
     width: None,
@@ -11334,7 +11334,7 @@ let data = [|
     latex: "^{20}\\mathrm{Na}",
   },
   {
-    pdg: (-1000110200),
+    pdg: -1000110200,
     name: "Na20~",
     mass: Some(18636.7265184),
     width: None,
@@ -11360,7 +11360,7 @@ let data = [|
     latex: "^{21}\\mathrm{Na}",
   },
   {
-    pdg: (-1000110210),
+    pdg: -1000110210,
     name: "Na21~",
     mass: Some(19559.1917343),
     width: None,
@@ -11386,7 +11386,7 @@ let data = [|
     latex: "^{22}\\mathrm{Na}",
   },
   {
-    pdg: (-1000110220),
+    pdg: -1000110220,
     name: "Na22~",
     mass: Some(20487.6880018),
     width: None,
@@ -11412,7 +11412,7 @@ let data = [|
     latex: "^{23}\\mathrm{Na}",
   },
   {
-    pdg: (-1000110230),
+    pdg: -1000110230,
     name: "Na23~",
     mass: Some(21414.8346928),
     width: None,
@@ -11438,7 +11438,7 @@ let data = [|
     latex: "^{24}\\mathrm{Na}",
   },
   {
-    pdg: (-1000110240),
+    pdg: -1000110240,
     name: "Na24~",
     mass: Some(22347.440675),
     width: None,
@@ -11464,7 +11464,7 @@ let data = [|
     latex: "^{25}\\mathrm{Na}",
   },
   {
-    pdg: (-1000110250),
+    pdg: -1000110250,
     name: "Na25~",
     mass: Some(23277.9949577),
     width: None,
@@ -11490,7 +11490,7 @@ let data = [|
     latex: "^{26}\\mathrm{Na}",
   },
   {
-    pdg: (-1000110260),
+    pdg: -1000110260,
     name: "Na26~",
     mass: Some(24211.9440985),
     width: None,
@@ -11516,7 +11516,7 @@ let data = [|
     latex: "^{27}\\mathrm{Na}",
   },
   {
-    pdg: (-1000110270),
+    pdg: -1000110270,
     name: "Na27~",
     mass: Some(25144.7609151),
     width: None,
@@ -11542,7 +11542,7 @@ let data = [|
     latex: "^{28}\\mathrm{Na}",
   },
   {
-    pdg: (-1000110280),
+    pdg: -1000110280,
     name: "Na28~",
     mass: Some(26080.8007013),
     width: None,
@@ -11568,7 +11568,7 @@ let data = [|
     latex: "^{29}\\mathrm{Na}",
   },
   {
-    pdg: (-1000110290),
+    pdg: -1000110290,
     name: "Na29~",
     mass: Some(27015.9462531),
     width: None,
@@ -11594,7 +11594,7 @@ let data = [|
     latex: "^{30}\\mathrm{Na}",
   },
   {
-    pdg: (-1000110300),
+    pdg: -1000110300,
     name: "Na30~",
     mass: Some(27953.4205402),
     width: None,
@@ -11620,7 +11620,7 @@ let data = [|
     latex: "^{31}\\mathrm{Na}",
   },
   {
-    pdg: (-1000110310),
+    pdg: -1000110310,
     name: "Na31~",
     mass: Some(28888.9852644),
     width: None,
@@ -11646,7 +11646,7 @@ let data = [|
     latex: "^{32}\\mathrm{Na}",
   },
   {
-    pdg: (-1000110320),
+    pdg: -1000110320,
     name: "Na32~",
     mass: Some(29826.1148987),
     width: None,
@@ -11672,7 +11672,7 @@ let data = [|
     latex: "^{33}\\mathrm{Na}",
   },
   {
-    pdg: (-1000110330),
+    pdg: -1000110330,
     name: "Na33~",
     mass: Some(30764.8187579),
     width: None,
@@ -11698,7 +11698,7 @@ let data = [|
     latex: "^{34}\\mathrm{Na}",
   },
   {
-    pdg: (-1000110340),
+    pdg: -1000110340,
     name: "Na34~",
     mass: Some(31703.3083736),
     width: None,
@@ -11724,7 +11724,7 @@ let data = [|
     latex: "^{35}\\mathrm{Na}",
   },
   {
-    pdg: (-1000110350),
+    pdg: -1000110350,
     name: "Na35~",
     mass: Some(32643.4467338),
     width: None,
@@ -11750,7 +11750,7 @@ let data = [|
     latex: "^{20}\\mathrm{Mg}",
   },
   {
-    pdg: (-1000120200),
+    pdg: -1000120200,
     name: "Mg20~",
     mass: Some(18647.4526729),
     width: None,
@@ -11776,7 +11776,7 @@ let data = [|
     latex: "^{21}\\mathrm{Mg}",
   },
   {
-    pdg: (-1000120210),
+    pdg: -1000120210,
     name: "Mg21~",
     mass: Some(19572.2875166),
     width: None,
@@ -11802,7 +11802,7 @@ let data = [|
     latex: "^{22}\\mathrm{Mg}",
   },
   {
-    pdg: (-1000120220),
+    pdg: -1000120220,
     name: "Mg22~",
     mass: Some(20492.4733664),
     width: None,
@@ -11828,7 +11828,7 @@ let data = [|
     latex: "^{23}\\mathrm{Mg}",
   },
   {
-    pdg: (-1000120230),
+    pdg: -1000120230,
     name: "Mg23~",
     mass: Some(21418.8915638),
     width: None,
@@ -11854,7 +11854,7 @@ let data = [|
     latex: "^{24}\\mathrm{Mg}",
   },
   {
-    pdg: (-1000120240),
+    pdg: -1000120240,
     name: "Mg24~",
     mass: Some(22341.9248979),
     width: None,
@@ -11880,7 +11880,7 @@ let data = [|
     latex: "^{25}\\mathrm{Mg}",
   },
   {
-    pdg: (-1000120250),
+    pdg: -1000120250,
     name: "Mg25~",
     mass: Some(23274.1596425),
     width: None,
@@ -11906,7 +11906,7 @@ let data = [|
     latex: "^{26}\\mathrm{Mg}",
   },
   {
-    pdg: (-1000120260),
+    pdg: -1000120260,
     name: "Mg26~",
     mass: Some(24202.6319893),
     width: None,
@@ -11932,7 +11932,7 @@ let data = [|
     latex: "^{27}\\mathrm{Mg}",
   },
   {
-    pdg: (-1000120270),
+    pdg: -1000120270,
     name: "Mg27~",
     mass: Some(25135.7540565),
     width: None,
@@ -11958,7 +11958,7 @@ let data = [|
     latex: "^{28}\\mathrm{Mg}",
   },
   {
-    pdg: (-1000120280),
+    pdg: -1000120280,
     name: "Mg28~",
     mass: Some(26066.815901),
     width: None,
@@ -11984,7 +11984,7 @@ let data = [|
     latex: "^{29}\\mathrm{Mg}",
   },
   {
-    pdg: (-1000120290),
+    pdg: -1000120290,
     name: "Mg29~",
     mass: Some(27002.6631473),
     width: None,
@@ -12010,7 +12010,7 @@ let data = [|
     latex: "^{30}\\mathrm{Mg}",
   },
   {
-    pdg: (-1000120300),
+    pdg: -1000120300,
     name: "Mg30~",
     mass: Some(27935.936396),
     width: None,
@@ -12036,7 +12036,7 @@ let data = [|
     latex: "^{31}\\mathrm{Mg}",
   },
   {
-    pdg: (-1000120310),
+    pdg: -1000120310,
     name: "Mg31~",
     mass: Some(28873.1032901),
     width: None,
@@ -12062,7 +12062,7 @@ let data = [|
     latex: "^{32}\\mathrm{Mg}",
   },
   {
-    pdg: (-1000120320),
+    pdg: -1000120320,
     name: "Mg32~",
     mass: Some(29807.0192697),
     width: None,
@@ -12088,7 +12088,7 @@ let data = [|
     latex: "^{33}\\mathrm{Mg}",
   },
   {
-    pdg: (-1000120330),
+    pdg: -1000120330,
     name: "Mg33~",
     mass: Some(30744.5121867),
     width: None,
@@ -12114,7 +12114,7 @@ let data = [|
     latex: "^{34}\\mathrm{Mg}",
   },
   {
-    pdg: (-1000120340),
+    pdg: -1000120340,
     name: "Mg34~",
     mass: Some(31679.2478811),
     width: None,
@@ -12140,7 +12140,7 @@ let data = [|
     latex: "^{35}\\mathrm{Mg}",
   },
   {
-    pdg: (-1000120350),
+    pdg: -1000120350,
     name: "Mg35~",
     mass: Some(32618.5851564),
     width: None,
@@ -12166,7 +12166,7 @@ let data = [|
     latex: "^{36}\\mathrm{Mg}",
   },
   {
-    pdg: (-1000120360),
+    pdg: -1000120360,
     name: "Mg36~",
     mass: Some(33554.6994621),
     width: None,
@@ -12192,7 +12192,7 @@ let data = [|
     latex: "^{37}\\mathrm{Mg}",
   },
   {
-    pdg: (-1000120370),
+    pdg: -1000120370,
     name: "Mg37~",
     mass: Some(34494.3813902),
     width: None,
@@ -12218,7 +12218,7 @@ let data = [|
     latex: "^{21}\\mathrm{Al}",
   },
   {
-    pdg: (-1000130210),
+    pdg: -1000130210,
     name: "Al21~",
     mass: Some(19587.4950892),
     width: None,
@@ -12244,7 +12244,7 @@ let data = [|
     latex: "^{22}\\mathrm{Al}",
   },
   {
-    pdg: (-1000130220),
+    pdg: -1000130220,
     name: "Al22~",
     mass: Some(20511.0528545),
     width: None,
@@ -12270,7 +12270,7 @@ let data = [|
     latex: "^{23}\\mathrm{Al}",
   },
   {
-    pdg: (-1000130230),
+    pdg: -1000130230,
     name: "Al23~",
     mass: Some(21431.1314894),
     width: None,
@@ -12296,7 +12296,7 @@ let data = [|
     latex: "^{24}\\mathrm{Al}",
   },
   {
-    pdg: (-1000130240),
+    pdg: -1000130240,
     name: "Al24~",
     mass: Some(22355.8033216),
     width: None,
@@ -12322,7 +12322,7 @@ let data = [|
     latex: "^{25}\\mathrm{Al}",
   },
   {
-    pdg: (-1000130250),
+    pdg: -1000130250,
     name: "Al25~",
     mass: Some(23278.4366722),
     width: None,
@@ -12348,7 +12348,7 @@ let data = [|
     latex: "^{26}\\mathrm{Al}",
   },
   {
-    pdg: (-1000130260),
+    pdg: -1000130260,
     name: "Al26~",
     mass: Some(24206.6361284),
     width: None,
@@ -12374,7 +12374,7 @@ let data = [|
     latex: "^{27}\\mathrm{Al}",
   },
   {
-    pdg: (-1000130270),
+    pdg: -1000130270,
     name: "Al27~",
     mass: Some(25133.1437306),
     width: None,
@@ -12400,7 +12400,7 @@ let data = [|
     latex: "^{28}\\mathrm{Al}",
   },
   {
-    pdg: (-1000130280),
+    pdg: -1000130280,
     name: "Al28~",
     mass: Some(26064.9840992),
     width: None,
@@ -12426,7 +12426,7 @@ let data = [|
     latex: "^{29}\\mathrm{Al}",
   },
   {
-    pdg: (-1000130290),
+    pdg: -1000130290,
     name: "Al29~",
     mass: Some(26995.1132014),
     width: None,
@@ -12452,7 +12452,7 @@ let data = [|
     latex: "^{30}\\mathrm{Al}",
   },
   {
-    pdg: (-1000130300),
+    pdg: -1000130300,
     name: "Al30~",
     mass: Some(27928.9501903),
     width: None,
@@ -12478,7 +12478,7 @@ let data = [|
     latex: "^{31}\\mathrm{Al}",
   },
   {
-    pdg: (-1000130310),
+    pdg: -1000130310,
     name: "Al31~",
     mass: Some(28861.3627385),
     width: None,
@@ -12504,7 +12504,7 @@ let data = [|
     latex: "^{32}\\mathrm{Al}",
   },
   {
-    pdg: (-1000130320),
+    pdg: -1000130320,
     name: "Al32~",
     mass: Some(29796.7448898),
     width: None,
@@ -12530,7 +12530,7 @@ let data = [|
     latex: "^{33}\\mathrm{Al}",
   },
   {
-    pdg: (-1000130330),
+    pdg: -1000130330,
     name: "Al33~",
     mass: Some(30730.8005936),
     width: None,
@@ -12556,7 +12556,7 @@ let data = [|
     latex: "^{34}\\mathrm{Al}",
   },
   {
-    pdg: (-1000130340),
+    pdg: -1000130340,
     name: "Al34~",
     mass: Some(31667.9395428),
     width: None,
@@ -12582,7 +12582,7 @@ let data = [|
     latex: "^{35}\\mathrm{Al}",
   },
   {
-    pdg: (-1000130350),
+    pdg: -1000130350,
     name: "Al35~",
     mass: Some(32602.237435),
     width: None,
@@ -12608,7 +12608,7 @@ let data = [|
     latex: "^{36}\\mathrm{Al}",
   },
   {
-    pdg: (-1000130360),
+    pdg: -1000130360,
     name: "Al36~",
     mass: Some(33539.7024071),
     width: None,
@@ -12634,7 +12634,7 @@ let data = [|
     latex: "^{37}\\mathrm{Al}",
   },
   {
-    pdg: (-1000130370),
+    pdg: -1000130370,
     name: "Al37~",
     mass: Some(34474.8852188),
     width: None,
@@ -12660,7 +12660,7 @@ let data = [|
     latex: "^{38}\\mathrm{Al}",
   },
   {
-    pdg: (-1000130380),
+    pdg: -1000130380,
     name: "Al38~",
     mass: Some(35412.5178598),
     width: None,
@@ -12686,7 +12686,7 @@ let data = [|
     latex: "^{39}\\mathrm{Al}",
   },
   {
-    pdg: (-1000130390),
+    pdg: -1000130390,
     name: "Al39~",
     mass: Some(36348.6694253),
     width: None,
@@ -12712,7 +12712,7 @@ let data = [|
     latex: "^{22}\\mathrm{Si}",
   },
   {
-    pdg: (-1000140220),
+    pdg: -1000140220,
     name: "Si22~",
     mass: Some(20525.0345809),
     width: None,
@@ -12738,7 +12738,7 @@ let data = [|
     latex: "^{23}\\mathrm{Si}",
   },
   {
-    pdg: (-1000140230),
+    pdg: -1000140230,
     name: "Si23~",
     mass: Some(21448.1359141),
     width: None,
@@ -12764,7 +12764,7 @@ let data = [|
     latex: "^{24}\\mathrm{Si}",
   },
   {
-    pdg: (-1000140240),
+    pdg: -1000140240,
     name: "Si24~",
     mass: Some(22366.6133106),
     width: None,
@@ -12790,7 +12790,7 @@ let data = [|
     latex: "^{25}\\mathrm{Si}",
   },
   {
-    pdg: (-1000140250),
+    pdg: -1000140250,
     name: "Si25~",
     mass: Some(23291.178021),
     width: None,
@@ -12816,7 +12816,7 @@ let data = [|
     latex: "^{26}\\mathrm{Si}",
   },
   {
-    pdg: (-1000140260),
+    pdg: -1000140260,
     name: "Si26~",
     mass: Some(24211.70191),
     width: None,
@@ -12842,7 +12842,7 @@ let data = [|
     latex: "^{27}\\mathrm{Si}",
   },
   {
-    pdg: (-1000140270),
+    pdg: -1000140270,
     name: "Si27~",
     mass: Some(25137.9561272),
     width: None,
@@ -12868,7 +12868,7 @@ let data = [|
     latex: "^{28}\\mathrm{Si}",
   },
   {
-    pdg: (-1000140280),
+    pdg: -1000140280,
     name: "Si28~",
     mass: Some(26060.3418612),
     width: None,
@@ -12894,7 +12894,7 @@ let data = [|
     latex: "^{29}\\mathrm{Si}",
   },
   {
-    pdg: (-1000140290),
+    pdg: -1000140290,
     name: "Si29~",
     mass: Some(26991.4337252),
     width: None,
@@ -12920,7 +12920,7 @@ let data = [|
     latex: "^{30}\\mathrm{Si}",
   },
   {
-    pdg: (-1000140300),
+    pdg: -1000140300,
     name: "Si30~",
     mass: Some(27920.3899645),
     width: None,
@@ -12946,7 +12946,7 @@ let data = [|
     latex: "^{31}\\mathrm{Si}",
   },
   {
-    pdg: (-1000140310),
+    pdg: -1000140310,
     name: "Si31~",
     mass: Some(28853.3679762),
     width: None,
@@ -12972,7 +12972,7 @@ let data = [|
     latex: "^{32}\\mathrm{Si}",
   },
   {
-    pdg: (-1000140320),
+    pdg: -1000140320,
     name: "Si32~",
     mass: Some(29783.7301475),
     width: None,
@@ -12998,7 +12998,7 @@ let data = [|
     latex: "^{33}\\mathrm{Si}",
   },
   {
-    pdg: (-1000140330),
+    pdg: -1000140330,
     name: "Si33~",
     mass: Some(30718.8131961),
     width: None,
@@ -13024,7 +13024,7 @@ let data = [|
     latex: "^{34}\\mathrm{Si}",
   },
   {
-    pdg: (-1000140340),
+    pdg: -1000140340,
     name: "Si34~",
     mass: Some(31650.8429002),
     width: None,
@@ -13050,7 +13050,7 @@ let data = [|
     latex: "^{35}\\mathrm{Si}",
   },
   {
-    pdg: (-1000140350),
+    pdg: -1000140350,
     name: "Si35~",
     mass: Some(32587.9296857),
     width: None,
@@ -13076,7 +13076,7 @@ let data = [|
     latex: "^{36}\\mathrm{Si}",
   },
   {
-    pdg: (-1000140360),
+    pdg: -1000140360,
     name: "Si36~",
     mass: Some(33521.3892332),
     width: None,
@@ -13102,7 +13102,7 @@ let data = [|
     latex: "^{37}\\mathrm{Si}",
   },
   {
-    pdg: (-1000140370),
+    pdg: -1000140370,
     name: "Si37~",
     mass: Some(34458.761056),
     width: None,
@@ -13128,7 +13128,7 @@ let data = [|
     latex: "^{38}\\mathrm{Si}",
   },
   {
-    pdg: (-1000140380),
+    pdg: -1000140380,
     name: "Si38~",
     mass: Some(35393.0310034),
     width: None,
@@ -13154,7 +13154,7 @@ let data = [|
     latex: "^{39}\\mathrm{Si}",
   },
   {
-    pdg: (-1000140390),
+    pdg: -1000140390,
     name: "Si39~",
     mass: Some(36330.412141),
     width: None,
@@ -13180,7 +13180,7 @@ let data = [|
     latex: "^{40}\\mathrm{Si}",
   },
   {
-    pdg: (-1000140400),
+    pdg: -1000140400,
     name: "Si40~",
     mass: Some(37265.1664654),
     width: None,
@@ -13206,7 +13206,7 @@ let data = [|
     latex: "^{41}\\mathrm{Si}",
   },
   {
-    pdg: (-1000140410),
+    pdg: -1000140410,
     name: "Si41~",
     mass: Some(38203.0878696),
     width: None,
@@ -13232,7 +13232,7 @@ let data = [|
     latex: "^{42}\\mathrm{Si}",
   },
   {
-    pdg: (-1000140420),
+    pdg: -1000140420,
     name: "Si42~",
     mass: Some(39137.7490445),
     width: None,
@@ -13258,7 +13258,7 @@ let data = [|
     latex: "^{24}\\mathrm{P}",
   },
   {
-    pdg: (-1000150240),
+    pdg: -1000150240,
     name: "P24~",
     mass: Some(22387.8551019),
     width: None,
@@ -13284,7 +13284,7 @@ let data = [|
     latex: "^{25}\\mathrm{P}",
   },
   {
-    pdg: (-1000150250),
+    pdg: -1000150250,
     name: "P25~",
     mass: Some(23306.2244451),
     width: None,
@@ -13310,7 +13310,7 @@ let data = [|
     latex: "^{26}\\mathrm{P}",
   },
   {
-    pdg: (-1000150260),
+    pdg: -1000150260,
     name: "P26~",
     mass: Some(24229.8194702),
     width: None,
@@ -13336,7 +13336,7 @@ let data = [|
     latex: "^{27}\\mathrm{P}",
   },
   {
-    pdg: (-1000150270),
+    pdg: -1000150270,
     name: "P27~",
     mass: Some(25149.5860545),
     width: None,
@@ -13362,7 +13362,7 @@ let data = [|
     latex: "^{28}\\mathrm{P}",
   },
   {
-    pdg: (-1000150280),
+    pdg: -1000150280,
     name: "P28~",
     mass: Some(26074.6733331),
     width: None,
@@ -13388,7 +13388,7 @@ let data = [|
     latex: "^{29}\\mathrm{P}",
   },
   {
-    pdg: (-1000150290),
+    pdg: -1000150290,
     name: "P29~",
     mass: Some(26996.3768663),
     width: None,
@@ -13414,7 +13414,7 @@ let data = [|
     latex: "^{30}\\mathrm{P}",
   },
   {
-    pdg: (-1000150300),
+    pdg: -1000150300,
     name: "P30~",
     mass: Some(27924.6222825),
     width: None,
@@ -13440,7 +13440,7 @@ let data = [|
     latex: "^{31}\\mathrm{P}",
   },
   {
-    pdg: (-1000150310),
+    pdg: -1000150310,
     name: "P31~",
     mass: Some(28851.8759462),
     width: None,
@@ -13466,7 +13466,7 @@ let data = [|
     latex: "^{32}\\mathrm{P}",
   },
   {
-    pdg: (-1000150320),
+    pdg: -1000150320,
     name: "P32~",
     mass: Some(29783.5057133),
     width: None,
@@ -13492,7 +13492,7 @@ let data = [|
     latex: "^{33}\\mathrm{P}",
   },
   {
-    pdg: (-1000150330),
+    pdg: -1000150330,
     name: "P33~",
     mass: Some(30712.9674186),
     width: None,
@@ -13518,7 +13518,7 @@ let data = [|
     latex: "^{34}\\mathrm{P}",
   },
   {
-    pdg: (-1000150340),
+    pdg: -1000150340,
     name: "P34~",
     mass: Some(31646.2413193),
     width: None,
@@ -13544,7 +13544,7 @@ let data = [|
     latex: "^{35}\\mathrm{P}",
   },
   {
-    pdg: (-1000150350),
+    pdg: -1000150350,
     name: "P35~",
     mass: Some(32577.4356595),
     width: None,
@@ -13570,7 +13570,7 @@ let data = [|
     latex: "^{36}\\mathrm{P}",
   },
   {
-    pdg: (-1000150360),
+    pdg: -1000150360,
     name: "P36~",
     mass: Some(33513.536738),
     width: None,
@@ -13596,7 +13596,7 @@ let data = [|
     latex: "^{37}\\mathrm{P}",
   },
   {
-    pdg: (-1000150370),
+    pdg: -1000150370,
     name: "P37~",
     mass: Some(34446.28835),
     width: None,
@@ -13622,7 +13622,7 @@ let data = [|
     latex: "^{38}\\mathrm{P}",
   },
   {
-    pdg: (-1000150380),
+    pdg: -1000150380,
     name: "P38~",
     mass: Some(35382.3095063),
     width: None,
@@ -13648,7 +13648,7 @@ let data = [|
     latex: "^{39}\\mathrm{P}",
   },
   {
-    pdg: (-1000150390),
+    pdg: -1000150390,
     name: "P39~",
     mass: Some(36315.6200148),
     width: None,
@@ -13674,7 +13674,7 @@ let data = [|
     latex: "^{40}\\mathrm{P}",
   },
   {
-    pdg: (-1000150400),
+    pdg: -1000150400,
     name: "P40~",
     mass: Some(37251.4269275),
     width: None,
@@ -13700,7 +13700,7 @@ let data = [|
     latex: "^{41}\\mathrm{P}",
   },
   {
-    pdg: (-1000150410),
+    pdg: -1000150410,
     name: "P41~",
     mass: Some(38186.4141253),
     width: None,
@@ -13726,7 +13726,7 @@ let data = [|
     latex: "^{42}\\mathrm{P}",
   },
   {
-    pdg: (-1000150420),
+    pdg: -1000150420,
     name: "P42~",
     mass: Some(39122.8358241),
     width: None,
@@ -13752,7 +13752,7 @@ let data = [|
     latex: "^{43}\\mathrm{P}",
   },
   {
-    pdg: (-1000150430),
+    pdg: -1000150430,
     name: "P43~",
     mass: Some(40057.32933),
     width: None,
@@ -13778,7 +13778,7 @@ let data = [|
     latex: "^{44}\\mathrm{P}",
   },
   {
-    pdg: (-1000150440),
+    pdg: -1000150440,
     name: "P44~",
     mass: Some(40994.9433412),
     width: None,
@@ -13804,7 +13804,7 @@ let data = [|
     latex: "^{45}\\mathrm{P}",
   },
   {
-    pdg: (-1000150450),
+    pdg: -1000150450,
     name: "P45~",
     mass: Some(41931.3370952),
     width: None,
@@ -13830,7 +13830,7 @@ let data = [|
     latex: "^{46}\\mathrm{P}",
   },
   {
-    pdg: (-1000150460),
+    pdg: -1000150460,
     name: "P46~",
     mass: Some(42870.9258738),
     width: None,
@@ -13856,7 +13856,7 @@ let data = [|
     latex: "^{26}\\mathrm{S}",
   },
   {
-    pdg: (-1000160260),
+    pdg: -1000160260,
     name: "S26~",
     mass: Some(24244.8165251),
     width: None,
@@ -13882,7 +13882,7 @@ let data = [|
     latex: "^{27}\\mathrm{S}",
   },
   {
-    pdg: (-1000160270),
+    pdg: -1000160270,
     name: "S27~",
     mass: Some(25167.8526537),
     width: None,
@@ -13908,7 +13908,7 @@ let data = [|
     latex: "^{28}\\mathrm{S}",
   },
   {
-    pdg: (-1000160280),
+    pdg: -1000160280,
     name: "S28~",
     mass: Some(26085.9052889),
     width: None,
@@ -13934,7 +13934,7 @@ let data = [|
     latex: "^{29}\\mathrm{S}",
   },
   {
-    pdg: (-1000160290),
+    pdg: -1000160290,
     name: "S29~",
     mass: Some(27010.1709897),
     width: None,
@@ -13960,7 +13960,7 @@ let data = [|
     latex: "^{30}\\mathrm{S}",
   },
   {
-    pdg: (-1000160300),
+    pdg: -1000160300,
     name: "S30~",
     mass: Some(27930.7600834),
     width: None,
@@ -13986,7 +13986,7 @@ let data = [|
     latex: "^{31}\\mathrm{S}",
   },
   {
-    pdg: (-1000160310),
+    pdg: -1000160310,
     name: "S31~",
     mass: Some(28857.271989),
     width: None,
@@ -14012,7 +14012,7 @@ let data = [|
     latex: "^{32}\\mathrm{S}",
   },
   {
-    pdg: (-1000160320),
+    pdg: -1000160320,
     name: "S32~",
     mass: Some(29781.7950523),
     width: None,
@@ -14038,7 +14038,7 @@ let data = [|
     latex: "^{33}\\mathrm{S}",
   },
   {
-    pdg: (-1000160330),
+    pdg: -1000160330,
     name: "S33~",
     mass: Some(30712.718896),
     width: None,
@@ -14064,7 +14064,7 @@ let data = [|
     latex: "^{34}\\mathrm{S}",
   },
   {
-    pdg: (-1000160340),
+    pdg: -1000160340,
     name: "S34~",
     mass: Some(31640.8673716),
     width: None,
@@ -14090,7 +14090,7 @@ let data = [|
     latex: "^{35}\\mathrm{S}",
   },
   {
-    pdg: (-1000160350),
+    pdg: -1000160350,
     name: "S35~",
     mass: Some(32573.4469459),
     width: None,
@@ -14116,7 +14116,7 @@ let data = [|
     latex: "^{36}\\mathrm{S}",
   },
   {
-    pdg: (-1000160360),
+    pdg: -1000160360,
     name: "S36~",
     mass: Some(33503.1234538),
     width: None,
@@ -14142,7 +14142,7 @@ let data = [|
     latex: "^{37}\\mathrm{S}",
   },
   {
-    pdg: (-1000160370),
+    pdg: -1000160370,
     name: "S37~",
     mass: Some(34438.3852933),
     width: None,
@@ -14168,7 +14168,7 @@ let data = [|
     latex: "^{38}\\mathrm{S}",
   },
   {
-    pdg: (-1000160380),
+    pdg: -1000160380,
     name: "S38~",
     mass: Some(35369.9141144),
     width: None,
@@ -14194,7 +14194,7 @@ let data = [|
     latex: "^{39}\\mathrm{S}",
   },
   {
-    pdg: (-1000160390),
+    pdg: -1000160390,
     name: "S39~",
     mass: Some(36305.1127614),
     width: None,
@@ -14220,7 +14220,7 @@ let data = [|
     latex: "^{40}\\mathrm{S}",
   },
   {
-    pdg: (-1000160400),
+    pdg: -1000160400,
     name: "S40~",
     mass: Some(37236.9142495),
     width: None,
@@ -14246,7 +14246,7 @@ let data = [|
     latex: "^{41}\\mathrm{S}",
   },
   {
-    pdg: (-1000160410),
+    pdg: -1000160410,
     name: "S41~",
     mass: Some(38172.6559575),
     width: None,
@@ -14272,7 +14272,7 @@ let data = [|
     latex: "^{42}\\mathrm{S}",
   },
   {
-    pdg: (-1000160420),
+    pdg: -1000160420,
     name: "S42~",
     mass: Some(39105.5100339),
     width: None,
@@ -14298,7 +14298,7 @@ let data = [|
     latex: "^{43}\\mathrm{S}",
   },
   {
-    pdg: (-1000160430),
+    pdg: -1000160430,
     name: "S43~",
     mass: Some(40041.7640637),
     width: None,
@@ -14324,7 +14324,7 @@ let data = [|
     latex: "^{44}\\mathrm{S}",
   },
   {
-    pdg: (-1000160440),
+    pdg: -1000160440,
     name: "S44~",
     mass: Some(40974.8603285),
     width: None,
@@ -14350,7 +14350,7 @@ let data = [|
     latex: "^{45}\\mathrm{S}",
   },
   {
-    pdg: (-1000160450),
+    pdg: -1000160450,
     name: "S45~",
     mass: Some(41912.4091351),
     width: None,
@@ -14376,7 +14376,7 @@ let data = [|
     latex: "^{46}\\mathrm{S}",
   },
   {
-    pdg: (-1000160460),
+    pdg: -1000160460,
     name: "S46~",
     mass: Some(42848.3278271),
     width: None,
@@ -14402,7 +14402,7 @@ let data = [|
     latex: "^{47}\\mathrm{S}",
   },
   {
-    pdg: (-1000160470),
+    pdg: -1000160470,
     name: "S47~",
     mass: Some(43787.3204495),
     width: None,
@@ -14428,7 +14428,7 @@ let data = [|
     latex: "^{48}\\mathrm{S}",
   },
   {
-    pdg: (-1000160480),
+    pdg: -1000160480,
     name: "S48~",
     mass: Some(44723.8166678),
     width: None,
@@ -14454,7 +14454,7 @@ let data = [|
     latex: "^{49}\\mathrm{S}",
   },
   {
-    pdg: (-1000160490),
+    pdg: -1000160490,
     name: "S49~",
     mass: Some(45663.7128395),
     width: None,
@@ -14480,7 +14480,7 @@ let data = [|
     latex: "^{28}\\mathrm{Cl}",
   },
   {
-    pdg: (-1000170280),
+    pdg: -1000170280,
     name: "Cl28~",
     mass: Some(26108.3915564),
     width: None,
@@ -14506,7 +14506,7 @@ let data = [|
     latex: "^{29}\\mathrm{Cl}",
   },
   {
-    pdg: (-1000170290),
+    pdg: -1000170290,
     name: "Cl29~",
     mass: Some(27026.4721364),
     width: None,
@@ -14532,7 +14532,7 @@ let data = [|
     latex: "^{30}\\mathrm{Cl}",
   },
   {
-    pdg: (-1000170300),
+    pdg: -1000170300,
     name: "Cl30~",
     mass: Some(27949.2660765),
     width: None,
@@ -14558,7 +14558,7 @@ let data = [|
     latex: "^{31}\\mathrm{Cl}",
   },
   {
-    pdg: (-1000170310),
+    pdg: -1000170310,
     name: "Cl31~",
     mass: Some(28869.2562195),
     width: None,
@@ -14584,7 +14584,7 @@ let data = [|
     latex: "^{32}\\mathrm{Cl}",
   },
   {
-    pdg: (-1000170320),
+    pdg: -1000170320,
     name: "Cl32~",
     mass: Some(29794.4804277),
     width: None,
@@ -14610,7 +14610,7 @@ let data = [|
     latex: "^{33}\\mathrm{Cl}",
   },
   {
-    pdg: (-1000170330),
+    pdg: -1000170330,
     name: "Cl33~",
     mass: Some(30718.3016195),
     width: None,
@@ -14636,7 +14636,7 @@ let data = [|
     latex: "^{34}\\mathrm{Cl}",
   },
   {
-    pdg: (-1000170340),
+    pdg: -1000170340,
     name: "Cl34~",
     mass: Some(31646.3586597),
     width: None,
@@ -14662,7 +14662,7 @@ let data = [|
     latex: "^{35}\\mathrm{Cl}",
   },
   {
-    pdg: (-1000170350),
+    pdg: -1000170350,
     name: "Cl35~",
     mass: Some(32573.2798079),
     width: None,
@@ -14688,7 +14688,7 @@ let data = [|
     latex: "^{36}\\mathrm{Cl}",
   },
   {
-    pdg: (-1000170360),
+    pdg: -1000170360,
     name: "Cl36~",
     mass: Some(33504.2655307),
     width: None,
@@ -14714,7 +14714,7 @@ let data = [|
     latex: "^{37}\\mathrm{Cl}",
   },
   {
-    pdg: (-1000170370),
+    pdg: -1000170370,
     name: "Cl37~",
     mass: Some(34433.5199879),
     width: None,
@@ -14740,7 +14740,7 @@ let data = [|
     latex: "^{38}\\mathrm{Cl}",
   },
   {
-    pdg: (-1000170380),
+    pdg: -1000170380,
     name: "Cl38~",
     mass: Some(35366.9776258),
     width: None,
@@ -14766,7 +14766,7 @@ let data = [|
     latex: "^{39}\\mathrm{Cl}",
   },
   {
-    pdg: (-1000170390),
+    pdg: -1000170390,
     name: "Cl39~",
     mass: Some(36298.4690661),
     width: None,
@@ -14792,7 +14792,7 @@ let data = [|
     latex: "^{40}\\mathrm{Cl}",
   },
   {
-    pdg: (-1000170400),
+    pdg: -1000170400,
     name: "Cl40~",
     mass: Some(37232.2102043),
     width: None,
@@ -14818,7 +14818,7 @@ let data = [|
     latex: "^{41}\\mathrm{Cl}",
   },
   {
-    pdg: (-1000170410),
+    pdg: -1000170410,
     name: "Cl41~",
     mass: Some(38163.9185429),
     width: None,
@@ -14844,7 +14844,7 @@ let data = [|
     latex: "^{42}\\mathrm{Cl}",
   },
   {
-    pdg: (-1000170420),
+    pdg: -1000170420,
     name: "Cl42~",
     mass: Some(39097.760003),
     width: None,
@@ -14870,7 +14870,7 @@ let data = [|
     latex: "^{43}\\mathrm{Cl}",
   },
   {
-    pdg: (-1000170430),
+    pdg: -1000170430,
     name: "Cl43~",
     mass: Some(40030.2135369),
     width: None,
@@ -14896,7 +14896,7 @@ let data = [|
     latex: "^{44}\\mathrm{Cl}",
   },
   {
-    pdg: (-1000170440),
+    pdg: -1000170440,
     name: "Cl44~",
     mass: Some(40965.7503163),
     width: None,
@@ -14922,7 +14922,7 @@ let data = [|
     latex: "^{45}\\mathrm{Cl}",
   },
   {
-    pdg: (-1000170450),
+    pdg: -1000170450,
     name: "Cl45~",
     mass: Some(41898.3249444),
     width: None,
@@ -14948,7 +14948,7 @@ let data = [|
     latex: "^{46}\\mathrm{Cl}",
   },
   {
-    pdg: (-1000170460),
+    pdg: -1000170460,
     name: "Cl46~",
     mass: Some(42833.9362433),
     width: None,
@@ -14974,7 +14974,7 @@ let data = [|
     latex: "^{47}\\mathrm{Cl}",
   },
   {
-    pdg: (-1000170470),
+    pdg: -1000170470,
     name: "Cl47~",
     mass: Some(43768.9979607),
     width: None,
@@ -15000,7 +15000,7 @@ let data = [|
     latex: "^{48}\\mathrm{Cl}",
   },
   {
-    pdg: (-1000170480),
+    pdg: -1000170480,
     name: "Cl48~",
     mass: Some(44706.9193649),
     width: None,
@@ -15026,7 +15026,7 @@ let data = [|
     latex: "^{49}\\mathrm{Cl}",
   },
   {
-    pdg: (-1000170490),
+    pdg: -1000170490,
     name: "Cl49~",
     mass: Some(45643.1081902),
     width: None,
@@ -15052,7 +15052,7 @@ let data = [|
     latex: "^{50}\\mathrm{Cl}",
   },
   {
-    pdg: (-1000170500),
+    pdg: -1000170500,
     name: "Cl50~",
     mass: Some(46581.9051989),
     width: None,
@@ -15078,7 +15078,7 @@ let data = [|
     latex: "^{51}\\mathrm{Cl}",
   },
   {
-    pdg: (-1000170510),
+    pdg: -1000170510,
     name: "Cl51~",
     mass: Some(47518.8019596),
     width: None,
@@ -15104,7 +15104,7 @@ let data = [|
     latex: "^{30}\\mathrm{Ar}",
   },
   {
-    pdg: (-1000180300),
+    pdg: -1000180300,
     name: "Ar30~",
     mass: Some(27964.9058624),
     width: None,
@@ -15130,7 +15130,7 @@ let data = [|
     latex: "^{31}\\mathrm{Ar}",
   },
   {
-    pdg: (-1000180310),
+    pdg: -1000180310,
     name: "Ar31~",
     mass: Some(28887.6159681),
     width: None,
@@ -15156,7 +15156,7 @@ let data = [|
     latex: "^{32}\\mathrm{Ar}",
   },
   {
-    pdg: (-1000180320),
+    pdg: -1000180320,
     name: "Ar32~",
     mass: Some(29805.6313435),
     width: None,
@@ -15182,7 +15182,7 @@ let data = [|
     latex: "^{33}\\mathrm{Ar}",
   },
   {
-    pdg: (-1000180330),
+    pdg: -1000180330,
     name: "Ar33~",
     mass: Some(30729.9249891),
     width: None,
@@ -15208,7 +15208,7 @@ let data = [|
     latex: "^{34}\\mathrm{Ar}",
   },
   {
-    pdg: (-1000180340),
+    pdg: -1000180340,
     name: "Ar34~",
     mass: Some(31652.4208512),
     width: None,
@@ -15234,7 +15234,7 @@ let data = [|
     latex: "^{35}\\mathrm{Ar}",
   },
   {
-    pdg: (-1000180350),
+    pdg: -1000180350,
     name: "Ar35~",
     mass: Some(32579.2450868),
     width: None,
@@ -15260,7 +15260,7 @@ let data = [|
     latex: "^{36}\\mathrm{Ar}",
   },
   {
-    pdg: (-1000180360),
+    pdg: -1000180360,
     name: "Ar36~",
     mass: Some(33503.5569711),
     width: None,
@@ -15286,7 +15286,7 @@ let data = [|
     latex: "^{37}\\mathrm{Ar}",
   },
   {
-    pdg: (-1000180370),
+    pdg: -1000180370,
     name: "Ar37~",
     mass: Some(34434.3334617),
     width: None,
@@ -15312,7 +15312,7 @@ let data = [|
     latex: "^{38}\\mathrm{Ar}",
   },
   {
-    pdg: (-1000180380),
+    pdg: -1000180380,
     name: "Ar38~",
     mass: Some(35362.060874),
     width: None,
@@ -15338,7 +15338,7 @@ let data = [|
     latex: "^{39}\\mathrm{Ar}",
   },
   {
-    pdg: (-1000180390),
+    pdg: -1000180390,
     name: "Ar39~",
     mass: Some(36295.0274748),
     width: None,
@@ -15364,7 +15364,7 @@ let data = [|
     latex: "^{40}\\mathrm{Ar}",
   },
   {
-    pdg: (-1000180400),
+    pdg: -1000180400,
     name: "Ar40~",
     mass: Some(37224.7239008),
     width: None,
@@ -15390,7 +15390,7 @@ let data = [|
     latex: "^{41}\\mathrm{Ar}",
   },
   {
-    pdg: (-1000180410),
+    pdg: -1000180410,
     name: "Ar41~",
     mass: Some(38158.1905994),
     width: None,
@@ -15416,7 +15416,7 @@ let data = [|
     latex: "^{42}\\mathrm{Ar}",
   },
   {
-    pdg: (-1000180420),
+    pdg: -1000180420,
     name: "Ar42~",
     mass: Some(39088.3332828),
     width: None,
@@ -15442,7 +15442,7 @@ let data = [|
     latex: "^{43}\\mathrm{Ar}",
   },
   {
-    pdg: (-1000180430),
+    pdg: -1000180430,
     name: "Ar43~",
     mass: Some(40022.2678923),
     width: None,
@@ -15468,7 +15468,7 @@ let data = [|
     latex: "^{44}\\mathrm{Ar}",
   },
   {
-    pdg: (-1000180440),
+    pdg: -1000180440,
     name: "Ar44~",
     mass: Some(40953.4778816),
     width: None,
@@ -15494,7 +15494,7 @@ let data = [|
     latex: "^{45}\\mathrm{Ar}",
   },
   {
-    pdg: (-1000180450),
+    pdg: -1000180450,
     name: "Ar45~",
     mass: Some(41887.510298),
     width: None,
@@ -15520,7 +15520,7 @@ let data = [|
     latex: "^{46}\\mathrm{Ar}",
   },
   {
-    pdg: (-1000180460),
+    pdg: -1000180460,
     name: "Ar46~",
     mass: Some(42819.004393),
     width: None,
@@ -15546,7 +15546,7 @@ let data = [|
     latex: "^{47}\\mathrm{Ar}",
   },
   {
-    pdg: (-1000180470),
+    pdg: -1000180470,
     name: "Ar47~",
     mass: Some(43754.3176138),
     width: None,
@@ -15572,7 +15572,7 @@ let data = [|
     latex: "^{48}\\mathrm{Ar}",
   },
   {
-    pdg: (-1000180480),
+    pdg: -1000180480,
     name: "Ar48~",
     mass: Some(44688.4944117),
     width: None,
@@ -15598,7 +15598,7 @@ let data = [|
     latex: "^{49}\\mathrm{Ar}",
   },
   {
-    pdg: (-1000180490),
+    pdg: -1000180490,
     name: "Ar49~",
     mass: Some(45626.6114297),
     width: None,
@@ -15624,7 +15624,7 @@ let data = [|
     latex: "^{50}\\mathrm{Ar}",
   },
   {
-    pdg: (-1000180500),
+    pdg: -1000180500,
     name: "Ar50~",
     mass: Some(46561.6079425),
     width: None,
@@ -15650,7 +15650,7 @@ let data = [|
     latex: "^{51}\\mathrm{Ar}",
   },
   {
-    pdg: (-1000180510),
+    pdg: -1000180510,
     name: "Ar51~",
     mass: Some(47499.9019444),
     width: None,
@@ -15676,7 +15676,7 @@ let data = [|
     latex: "^{52}\\mathrm{Ar}",
   },
   {
-    pdg: (-1000180520),
+    pdg: -1000180520,
     name: "Ar52~",
     mass: Some(48435.9883053),
     width: None,
@@ -15702,7 +15702,7 @@ let data = [|
     latex: "^{53}\\mathrm{Ar}",
   },
   {
-    pdg: (-1000180530),
+    pdg: -1000180530,
     name: "Ar53~",
     mass: Some(49374.9902427),
     width: None,
@@ -15728,7 +15728,7 @@ let data = [|
     latex: "^{32}\\mathrm{K}",
   },
   {
-    pdg: (-1000190320),
+    pdg: -1000190320,
     name: "K32~",
     mass: Some(29828.2293902),
     width: None,
@@ -15754,7 +15754,7 @@ let data = [|
     latex: "^{33}\\mathrm{K}",
   },
   {
-    pdg: (-1000190330),
+    pdg: -1000190330,
     name: "K33~",
     mass: Some(30746.0677818),
     width: None,
@@ -15780,7 +15780,7 @@ let data = [|
     latex: "^{34}\\mathrm{K}",
   },
   {
-    pdg: (-1000190340),
+    pdg: -1000190340,
     name: "K34~",
     mass: Some(31669.3181541),
     width: None,
@@ -15806,7 +15806,7 @@ let data = [|
     latex: "^{35}\\mathrm{K}",
   },
   {
-    pdg: (-1000190350),
+    pdg: -1000190350,
     name: "K35~",
     mass: Some(32591.1265734),
     width: None,
@@ -15832,7 +15832,7 @@ let data = [|
     latex: "^{36}\\mathrm{K}",
   },
   {
-    pdg: (-1000190360),
+    pdg: -1000190360,
     name: "K36~",
     mass: Some(33516.3619596),
     width: None,
@@ -15858,7 +15858,7 @@ let data = [|
     latex: "^{37}\\mathrm{K}",
   },
   {
-    pdg: (-1000190370),
+    pdg: -1000190370,
     name: "K37~",
     mass: Some(34440.4822635),
     width: None,
@@ -15884,7 +15884,7 @@ let data = [|
     latex: "^{38}\\mathrm{K}",
   },
   {
-    pdg: (-1000190380),
+    pdg: -1000190380,
     name: "K38~",
     mass: Some(35367.9739054),
     width: None,
@@ -15910,7 +15910,7 @@ let data = [|
     latex: "^{39}\\mathrm{K}",
   },
   {
-    pdg: (-1000190390),
+    pdg: -1000190390,
     name: "K39~",
     mass: Some(36294.4628963),
     width: None,
@@ -15936,7 +15936,7 @@ let data = [|
     latex: "^{40}\\mathrm{K}",
   },
   {
-    pdg: (-1000190400),
+    pdg: -1000190400,
     name: "K40~",
     mass: Some(37226.2287733),
     width: None,
@@ -15962,7 +15962,7 @@ let data = [|
     latex: "^{41}\\mathrm{K}",
   },
   {
-    pdg: (-1000190410),
+    pdg: -1000190410,
     name: "K41~",
     mass: Some(38155.6990111),
     width: None,
@@ -15988,7 +15988,7 @@ let data = [|
     latex: "^{42}\\mathrm{K}",
   },
   {
-    pdg: (-1000190420),
+    pdg: -1000190420,
     name: "K42~",
     mass: Some(39087.7306992),
     width: None,
@@ -16014,7 +16014,7 @@ let data = [|
     latex: "^{43}\\mathrm{K}",
   },
   {
-    pdg: (-1000190430),
+    pdg: -1000190430,
     name: "K43~",
     mass: Some(40017.6532705),
     width: None,
@@ -16040,7 +16040,7 @@ let data = [|
     latex: "^{44}\\mathrm{K}",
   },
   {
-    pdg: (-1000190440),
+    pdg: -1000190440,
     name: "K44~",
     mass: Some(40949.9335466),
     width: None,
@@ -16066,7 +16066,7 @@ let data = [|
     latex: "^{45}\\mathrm{K}",
   },
   {
-    pdg: (-1000190450),
+    pdg: -1000190450,
     name: "K45~",
     mass: Some(41880.6265566),
     width: None,
@@ -16092,7 +16092,7 @@ let data = [|
     latex: "^{46}\\mathrm{K}",
   },
   {
-    pdg: (-1000190460),
+    pdg: -1000190460,
     name: "K46~",
     mass: Some(42813.3092381),
     width: None,
@@ -16118,7 +16118,7 @@ let data = [|
     latex: "^{47}\\mathrm{K}",
   },
   {
-    pdg: (-1000190470),
+    pdg: -1000190470,
     name: "K47~",
     mass: Some(43744.5257478),
     width: None,
@@ -16144,7 +16144,7 @@ let data = [|
     latex: "^{48}\\mathrm{K}",
   },
   {
-    pdg: (-1000190480),
+    pdg: -1000190480,
     name: "K48~",
     mass: Some(44679.5921227),
     width: None,
@@ -16170,7 +16170,7 @@ let data = [|
     latex: "^{49}\\mathrm{K}",
   },
   {
-    pdg: (-1000190490),
+    pdg: -1000190490,
     name: "K49~",
     mass: Some(45612.8905217),
     width: None,
@@ -16196,7 +16196,7 @@ let data = [|
     latex: "^{50}\\mathrm{K}",
   },
   {
-    pdg: (-1000190500),
+    pdg: -1000190500,
     name: "K50~",
     mass: Some(46549.3494802),
     width: None,
@@ -16222,7 +16222,7 @@ let data = [|
     latex: "^{51}\\mathrm{K}",
   },
   {
-    pdg: (-1000190510),
+    pdg: -1000190510,
     name: "K51~",
     mass: Some(47484.196954),
     width: None,
@@ -16248,7 +16248,7 @@ let data = [|
     latex: "^{52}\\mathrm{K}",
   },
   {
-    pdg: (-1000190520),
+    pdg: -1000190520,
     name: "K52~",
     mass: Some(48421.4942572),
     width: None,
@@ -16274,7 +16274,7 @@ let data = [|
     latex: "^{53}\\mathrm{K}",
   },
   {
-    pdg: (-1000190530),
+    pdg: -1000190530,
     name: "K53~",
     mass: Some(49357.1893905),
     width: None,
@@ -16300,7 +16300,7 @@ let data = [|
     latex: "^{54}\\mathrm{K}",
   },
   {
-    pdg: (-1000190540),
+    pdg: -1000190540,
     name: "K54~",
     mass: Some(50295.08285),
     width: None,
@@ -16326,7 +16326,7 @@ let data = [|
     latex: "^{55}\\mathrm{K}",
   },
   {
-    pdg: (-1000190550),
+    pdg: -1000190550,
     name: "K55~",
     mass: Some(51231.6070131),
     width: None,
@@ -16352,7 +16352,7 @@ let data = [|
     latex: "^{34}\\mathrm{Ca}",
   },
   {
-    pdg: (-1000200340),
+    pdg: -1000200340,
     name: "Ca34~",
     mass: Some(31683.9519263),
     width: None,
@@ -16378,7 +16378,7 @@ let data = [|
     latex: "^{35}\\mathrm{Ca}",
   },
   {
-    pdg: (-1000200350),
+    pdg: -1000200350,
     name: "Ca35~",
     mass: Some(32606.7365515),
     width: None,
@@ -16404,7 +16404,7 @@ let data = [|
     latex: "^{36}\\mathrm{Ca}",
   },
   {
-    pdg: (-1000200360),
+    pdg: -1000200360,
     name: "Ca36~",
     mass: Some(33527.3507954),
     width: None,
@@ -16430,7 +16430,7 @@ let data = [|
     latex: "^{37}\\mathrm{Ca}",
   },
   {
-    pdg: (-1000200370),
+    pdg: -1000200370,
     name: "Ca37~",
     mass: Some(34452.1213661),
     width: None,
@@ -16456,7 +16456,7 @@ let data = [|
     latex: "^{38}\\mathrm{Ca}",
   },
   {
-    pdg: (-1000200380),
+    pdg: -1000200380,
     name: "Ca38~",
     mass: Some(35374.716898),
     width: None,
@@ -16482,7 +16482,7 @@ let data = [|
     latex: "^{39}\\mathrm{Ca}",
   },
   {
-    pdg: (-1000200390),
+    pdg: -1000200390,
     name: "Ca39~",
     mass: Some(36300.9934151),
     width: None,
@@ -16508,7 +16508,7 @@ let data = [|
     latex: "^{40}\\mathrm{Ca}",
   },
   {
-    pdg: (-1000200400),
+    pdg: -1000200400,
     name: "Ca40~",
     mass: Some(37224.9177233),
     width: None,
@@ -16534,7 +16534,7 @@ let data = [|
     latex: "^{41}\\mathrm{Ca}",
   },
   {
-    pdg: (-1000200410),
+    pdg: -1000200410,
     name: "Ca41~",
     mass: Some(38156.1203538),
     width: None,
@@ -16560,7 +16560,7 @@ let data = [|
     latex: "^{42}\\mathrm{Ca}",
   },
   {
-    pdg: (-1000200420),
+    pdg: -1000200420,
     name: "Ca42~",
     mass: Some(39084.2051804),
     width: None,
@@ -16586,7 +16586,7 @@ let data = [|
     latex: "^{43}\\mathrm{Ca}",
   },
   {
-    pdg: (-1000200430),
+    pdg: -1000200430,
     name: "Ca43~",
     mass: Some(40015.8376023),
     width: None,
@@ -16612,7 +16612,7 @@ let data = [|
     latex: "^{44}\\mathrm{Ca}",
   },
   {
-    pdg: (-1000200440),
+    pdg: -1000200440,
     name: "Ca44~",
     mass: Some(40944.2710871),
     width: None,
@@ -16638,7 +16638,7 @@ let data = [|
     latex: "^{45}\\mathrm{Ca}",
   },
   {
-    pdg: (-1000200450),
+    pdg: -1000200450,
     name: "Ca45~",
     mass: Some(41876.4216991),
     width: None,
@@ -16664,7 +16664,7 @@ let data = [|
     latex: "^{46}\\mathrm{Ca}",
   },
   {
-    pdg: (-1000200460),
+    pdg: -1000200460,
     name: "Ca46~",
     mass: Some(42805.5934862),
     width: None,
@@ -16690,7 +16690,7 @@ let data = [|
     latex: "^{47}\\mathrm{Ca}",
   },
   {
-    pdg: (-1000200470),
+    pdg: -1000200470,
     name: "Ca47~",
     mass: Some(43737.8827977),
     width: None,
@@ -16716,7 +16716,7 @@ let data = [|
     latex: "^{48}\\mathrm{Ca}",
   },
   {
-    pdg: (-1000200480),
+    pdg: -1000200480,
     name: "Ca48~",
     mass: Some(44667.5022608),
     width: None,
@@ -16742,7 +16742,7 @@ let data = [|
     latex: "^{49}\\mathrm{Ca}",
   },
   {
-    pdg: (-1000200490),
+    pdg: -1000200490,
     name: "Ca49~",
     mass: Some(45601.9203158),
     width: None,
@@ -16768,7 +16768,7 @@ let data = [|
     latex: "^{50}\\mathrm{Ca}",
   },
   {
-    pdg: (-1000200500),
+    pdg: -1000200500,
     name: "Ca50~",
     mass: Some(46535.1330174),
     width: None,
@@ -16794,7 +16794,7 @@ let data = [|
     latex: "^{51}\\mathrm{Ca}",
   },
   {
-    pdg: (-1000200510),
+    pdg: -1000200510,
     name: "Ca51~",
     mass: Some(47470.308377),
     width: None,
@@ -16820,7 +16820,7 @@ let data = [|
     latex: "^{52}\\mathrm{Ca}",
   },
   {
-    pdg: (-1000200520),
+    pdg: -1000200520,
     name: "Ca52~",
     mass: Some(48405.1837956),
     width: None,
@@ -16846,7 +16846,7 @@ let data = [|
     latex: "^{53}\\mathrm{Ca}",
   },
   {
-    pdg: (-1000200530),
+    pdg: -1000200530,
     name: "Ca53~",
     mass: Some(49341.2887863),
     width: None,
@@ -16872,7 +16872,7 @@ let data = [|
     latex: "^{54}\\mathrm{Ca}",
   },
   {
-    pdg: (-1000200540),
+    pdg: -1000200540,
     name: "Ca54~",
     mass: Some(50277.095699),
     width: None,
@@ -16898,7 +16898,7 @@ let data = [|
     latex: "^{55}\\mathrm{Ca}",
   },
   {
-    pdg: (-1000200550),
+    pdg: -1000200550,
     name: "Ca55~",
     mass: Some(51214.0576643),
     width: None,
@@ -16924,7 +16924,7 @@ let data = [|
     latex: "^{56}\\mathrm{Ca}",
   },
   {
-    pdg: (-1000200560),
+    pdg: -1000200560,
     name: "Ca56~",
     mass: Some(52150.4327884),
     width: None,
@@ -16950,7 +16950,7 @@ let data = [|
     latex: "^{57}\\mathrm{Ca}",
   },
   {
-    pdg: (-1000200570),
+    pdg: -1000200570,
     name: "Ca57~",
     mass: Some(53088.0467996),
     width: None,
@@ -16976,7 +16976,7 @@ let data = [|
     latex: "^{36}\\mathrm{Sc}",
   },
   {
-    pdg: (-1000210360),
+    pdg: -1000210360,
     name: "Sc36~",
     mass: Some(33547.6853115),
     width: None,
@@ -17002,7 +17002,7 @@ let data = [|
     latex: "^{37}\\mathrm{Sc}",
   },
   {
-    pdg: (-1000210370),
+    pdg: -1000210370,
     name: "Sc37~",
     mass: Some(34468.1225716),
     width: None,
@@ -17028,7 +17028,7 @@ let data = [|
     latex: "^{38}\\mathrm{Sc}",
   },
   {
-    pdg: (-1000210380),
+    pdg: -1000210380,
     name: "Sc38~",
     mass: Some(35391.8386909),
     width: None,
@@ -17054,7 +17054,7 @@ let data = [|
     latex: "^{39}\\mathrm{Sc}",
   },
   {
-    pdg: (-1000210390),
+    pdg: -1000210390,
     name: "Sc39~",
     mass: Some(36314.1016794),
     width: None,
@@ -17080,7 +17080,7 @@ let data = [|
     latex: "^{40}\\mathrm{Sc}",
   },
   {
-    pdg: (-1000210400),
+    pdg: -1000210400,
     name: "Sc40~",
     mass: Some(37239.2373957),
     width: None,
@@ -17106,7 +17106,7 @@ let data = [|
     latex: "^{41}\\mathrm{Sc}",
   },
   {
-    pdg: (-1000210410),
+    pdg: -1000210410,
     name: "Sc41~",
     mass: Some(38162.6156621),
     width: None,
@@ -17132,7 +17132,7 @@ let data = [|
     latex: "^{42}\\mathrm{Sc}",
   },
   {
-    pdg: (-1000210420),
+    pdg: -1000210420,
     name: "Sc42~",
     mass: Some(39090.6310924),
     width: None,
@@ -17158,7 +17158,7 @@ let data = [|
     latex: "^{43}\\mathrm{Sc}",
   },
   {
-    pdg: (-1000210430),
+    pdg: -1000210430,
     name: "Sc43~",
     mass: Some(40018.0584705),
     width: None,
@@ -17184,7 +17184,7 @@ let data = [|
     latex: "^{44}\\mathrm{Sc}",
   },
   {
-    pdg: (-1000210440),
+    pdg: -1000210440,
     name: "Sc44~",
     mass: Some(40947.9243138),
     width: None,
@@ -17210,7 +17210,7 @@ let data = [|
     latex: "^{45}\\mathrm{Sc}",
   },
   {
-    pdg: (-1000210450),
+    pdg: -1000210450,
     name: "Sc45~",
     mass: Some(41876.1648862),
     width: None,
@@ -17236,7 +17236,7 @@ let data = [|
     latex: "^{46}\\mathrm{Sc}",
   },
   {
-    pdg: (-1000210460),
+    pdg: -1000210460,
     name: "Sc46~",
     mass: Some(42806.9697687),
     width: None,
@@ -17262,7 +17262,7 @@ let data = [|
     latex: "^{47}\\mathrm{Sc}",
   },
   {
-    pdg: (-1000210470),
+    pdg: -1000210470,
     name: "Sc47~",
     mass: Some(43735.8907976),
     width: None,
@@ -17288,7 +17288,7 @@ let data = [|
     latex: "^{48}\\mathrm{Sc}",
   },
   {
-    pdg: (-1000210480),
+    pdg: -1000210480,
     name: "Sc48~",
     mass: Some(44667.2237441),
     width: None,
@@ -17314,7 +17314,7 @@ let data = [|
     latex: "^{49}\\mathrm{Sc}",
   },
   {
-    pdg: (-1000210490),
+    pdg: -1000210490,
     name: "Sc49~",
     mass: Some(45596.6583056),
     width: None,
@@ -17340,7 +17340,7 @@ let data = [|
     latex: "^{50}\\mathrm{Sc}",
   },
   {
-    pdg: (-1000210500),
+    pdg: -1000210500,
     name: "Sc50~",
     mass: Some(46530.1672223),
     width: None,
@@ -17366,7 +17366,7 @@ let data = [|
     latex: "^{51}\\mathrm{Sc}",
   },
   {
-    pdg: (-1000210510),
+    pdg: -1000210510,
     name: "Sc51~",
     mass: Some(47462.980313),
     width: None,
@@ -17392,7 +17392,7 @@ let data = [|
     latex: "^{52}\\mathrm{Sc}",
   },
   {
-    pdg: (-1000210520),
+    pdg: -1000210520,
     name: "Sc52~",
     mass: Some(48397.3126705),
     width: None,
@@ -17418,7 +17418,7 @@ let data = [|
     latex: "^{53}\\mathrm{Sc}",
   },
   {
-    pdg: (-1000210530),
+    pdg: -1000210530,
     name: "Sc53~",
     mass: Some(49331.2193352),
     width: None,
@@ -17444,7 +17444,7 @@ let data = [|
     latex: "^{54}\\mathrm{Sc}",
   },
   {
-    pdg: (-1000210540),
+    pdg: -1000210540,
     name: "Sc54~",
     mass: Some(50266.215848),
     width: None,
@@ -17470,7 +17470,7 @@ let data = [|
     latex: "^{55}\\mathrm{Sc}",
   },
   {
-    pdg: (-1000210550),
+    pdg: -1000210550,
     name: "Sc55~",
     mass: Some(51201.8364618),
     width: None,
@@ -17496,7 +17496,7 @@ let data = [|
     latex: "^{56}\\mathrm{Sc}",
   },
   {
-    pdg: (-1000210560),
+    pdg: -1000210560,
     name: "Sc56~",
     mass: Some(52138.2022709),
     width: None,
@@ -17522,7 +17522,7 @@ let data = [|
     latex: "^{57}\\mathrm{Sc}",
   },
   {
-    pdg: (-1000210570),
+    pdg: -1000210570,
     name: "Sc57~",
     mass: Some(53073.77631),
     width: None,
@@ -17548,7 +17548,7 @@ let data = [|
     latex: "^{58}\\mathrm{Sc}",
   },
   {
-    pdg: (-1000210580),
+    pdg: -1000210580,
     name: "Sc58~",
     mass: Some(54010.8873144),
     width: None,
@@ -17574,7 +17574,7 @@ let data = [|
     latex: "^{59}\\mathrm{Sc}",
   },
   {
-    pdg: (-1000210590),
+    pdg: -1000210590,
     name: "Sc59~",
     mass: Some(54947.010935),
     width: None,
@@ -17600,7 +17600,7 @@ let data = [|
     latex: "^{38}\\mathrm{Ti}",
   },
   {
-    pdg: (-1000220380),
+    pdg: -1000220380,
     name: "Ti38~",
     mass: Some(35405.8763069),
     width: None,
@@ -17626,7 +17626,7 @@ let data = [|
     latex: "^{39}\\mathrm{Ti}",
   },
   {
-    pdg: (-1000220390),
+    pdg: -1000220390,
     name: "Ti39~",
     mass: Some(36329.4992768),
     width: None,
@@ -17652,7 +17652,7 @@ let data = [|
     latex: "^{40}\\mathrm{Ti}",
   },
   {
-    pdg: (-1000220400),
+    pdg: -1000220400,
     name: "Ti40~",
     mass: Some(37250.9146057),
     width: None,
@@ -17678,7 +17678,7 @@ let data = [|
     latex: "^{41}\\mathrm{Ti}",
   },
   {
-    pdg: (-1000220410),
+    pdg: -1000220410,
     name: "Ti41~",
     mass: Some(38175.5435892),
     width: None,
@@ -17704,7 +17704,7 @@ let data = [|
     latex: "^{42}\\mathrm{Ti}",
   },
   {
-    pdg: (-1000220420),
+    pdg: -1000220420,
     name: "Ti42~",
     mass: Some(39097.6314568),
     width: None,
@@ -17730,7 +17730,7 @@ let data = [|
     latex: "^{43}\\mathrm{Ti}",
   },
   {
-    pdg: (-1000220430),
+    pdg: -1000220430,
     name: "Ti43~",
     mass: Some(40024.9254449),
     width: None,
@@ -17756,7 +17756,7 @@ let data = [|
     latex: "^{44}\\mathrm{Ti}",
   },
   {
-    pdg: (-1000220440),
+    pdg: -1000220440,
     name: "Ti44~",
     mass: Some(40948.1918389),
     width: None,
@@ -17782,7 +17782,7 @@ let data = [|
     latex: "^{45}\\mathrm{Ti}",
   },
   {
-    pdg: (-1000220450),
+    pdg: -1000220450,
     name: "Ti45~",
     mass: Some(41878.2273073),
     width: None,
@@ -17808,7 +17808,7 @@ let data = [|
     latex: "^{46}\\mathrm{Ti}",
   },
   {
-    pdg: (-1000220460),
+    pdg: -1000220460,
     name: "Ti46~",
     mass: Some(42804.6030285),
     width: None,
@@ -17834,7 +17834,7 @@ let data = [|
     latex: "^{47}\\mathrm{Ti}",
   },
   {
-    pdg: (-1000220470),
+    pdg: -1000220470,
     name: "Ti47~",
     mass: Some(43735.2907291),
     width: None,
@@ -17860,7 +17860,7 @@ let data = [|
     latex: "^{48}\\mathrm{Ti}",
   },
   {
-    pdg: (-1000220480),
+    pdg: -1000220480,
     name: "Ti48~",
     mass: Some(44663.2295905),
     width: None,
@@ -17886,7 +17886,7 @@ let data = [|
     latex: "^{49}\\mathrm{Ti}",
   },
   {
-    pdg: (-1000220490),
+    pdg: -1000220490,
     name: "Ti49~",
     mass: Some(45594.6526125),
     width: None,
@@ -17912,7 +17912,7 @@ let data = [|
     latex: "^{50}\\mathrm{Ti}",
   },
   {
-    pdg: (-1000220500),
+    pdg: -1000220500,
     name: "Ti50~",
     mass: Some(46523.2789167),
     width: None,
@@ -17938,7 +17938,7 @@ let data = [|
     latex: "^{51}\\mathrm{Ti}",
   },
   {
-    pdg: (-1000220510),
+    pdg: -1000220510,
     name: "Ti51~",
     mass: Some(47456.4719637),
     width: None,
@@ -17964,7 +17964,7 @@ let data = [|
     latex: "^{52}\\mathrm{Ti}",
   },
   {
-    pdg: (-1000220520),
+    pdg: -1000220520,
     name: "Ti52~",
     mass: Some(48388.2287401),
     width: None,
@@ -17990,7 +17990,7 @@ let data = [|
     latex: "^{53}\\mathrm{Ti}",
   },
   {
-    pdg: (-1000220530),
+    pdg: -1000220530,
     name: "Ti53~",
     mass: Some(49322.3608263),
     width: None,
@@ -18016,7 +18016,7 @@ let data = [|
     latex: "^{54}\\mathrm{Ti}",
   },
   {
-    pdg: (-1000220540),
+    pdg: -1000220540,
     name: "Ti54~",
     mass: Some(50254.9168246),
     width: None,
@@ -18042,7 +18042,7 @@ let data = [|
     latex: "^{55}\\mathrm{Ti}",
   },
   {
-    pdg: (-1000220550),
+    pdg: -1000220550,
     name: "Ti55~",
     mass: Some(51190.3697695),
     width: None,
@@ -18068,7 +18068,7 @@ let data = [|
     latex: "^{56}\\mathrm{Ti}",
   },
   {
-    pdg: (-1000220560),
+    pdg: -1000220560,
     name: "Ti56~",
     mass: Some(52124.5372525),
     width: None,
@@ -18094,7 +18094,7 @@ let data = [|
     latex: "^{57}\\mathrm{Ti}",
   },
   {
-    pdg: (-1000220570),
+    pdg: -1000220570,
     name: "Ti57~",
     mass: Some(53060.6049835),
     width: None,
@@ -18120,7 +18120,7 @@ let data = [|
     latex: "^{58}\\mathrm{Ti}",
   },
   {
-    pdg: (-1000220580),
+    pdg: -1000220580,
     name: "Ti58~",
     mass: Some(53995.0891745),
     width: None,
@@ -18146,7 +18146,7 @@ let data = [|
     latex: "^{59}\\mathrm{Ti}",
   },
   {
-    pdg: (-1000220590),
+    pdg: -1000220590,
     name: "Ti59~",
     mass: Some(54932.03251),
     width: None,
@@ -18172,7 +18172,7 @@ let data = [|
     latex: "^{60}\\mathrm{Ti}",
   },
   {
-    pdg: (-1000220600),
+    pdg: -1000220600,
     name: "Ti60~",
     mass: Some(55866.9545033),
     width: None,
@@ -18198,7 +18198,7 @@ let data = [|
     latex: "^{61}\\mathrm{Ti}",
   },
   {
-    pdg: (-1000220610),
+    pdg: -1000220610,
     name: "Ti61~",
     mass: Some(56804.3915306),
     width: None,
@@ -18224,7 +18224,7 @@ let data = [|
     latex: "^{40}\\mathrm{V}",
   },
   {
-    pdg: (-1000230400),
+    pdg: -1000230400,
     name: "V40~",
     mass: Some(37270.0940691),
     width: None,
@@ -18250,7 +18250,7 @@ let data = [|
     latex: "^{41}\\mathrm{V}",
   },
   {
-    pdg: (-1000230410),
+    pdg: -1000230410,
     name: "V41~",
     mass: Some(38191.0157061),
     width: None,
@@ -18276,7 +18276,7 @@ let data = [|
     latex: "^{42}\\mathrm{V}",
   },
   {
-    pdg: (-1000230420),
+    pdg: -1000230420,
     name: "V42~",
     mass: Some(39114.5827864),
     width: None,
@@ -18302,7 +18302,7 @@ let data = [|
     latex: "^{43}\\mathrm{V}",
   },
   {
-    pdg: (-1000230430),
+    pdg: -1000230430,
     name: "V43~",
     mass: Some(40036.2216738),
     width: None,
@@ -18328,7 +18328,7 @@ let data = [|
     latex: "^{44}\\mathrm{V}",
   },
   {
-    pdg: (-1000230440),
+    pdg: -1000230440,
     name: "V44~",
     mass: Some(40961.8939307),
     width: None,
@@ -18354,7 +18354,7 @@ let data = [|
     latex: "^{45}\\mathrm{V}",
   },
   {
-    pdg: (-1000230450),
+    pdg: -1000230450,
     name: "V45~",
     mass: Some(41885.3604096),
     width: None,
@@ -18380,7 +18380,7 @@ let data = [|
     latex: "^{46}\\mathrm{V}",
   },
   {
-    pdg: (-1000230460),
+    pdg: -1000230460,
     name: "V46~",
     mass: Some(42811.6544388),
     width: None,
@@ -18406,7 +18406,7 @@ let data = [|
     latex: "^{47}\\mathrm{V}",
   },
   {
-    pdg: (-1000230470),
+    pdg: -1000230470,
     name: "V47~",
     mass: Some(43738.2185082),
     width: None,
@@ -18432,7 +18432,7 @@ let data = [|
     latex: "^{48}\\mathrm{V}",
   },
   {
-    pdg: (-1000230480),
+    pdg: -1000230480,
     name: "V48~",
     mass: Some(44667.2419082),
     width: None,
@@ -18458,7 +18458,7 @@ let data = [|
     latex: "^{49}\\mathrm{V}",
   },
   {
-    pdg: (-1000230490),
+    pdg: -1000230490,
     name: "V49~",
     mass: Some(45595.2544509),
     width: None,
@@ -18484,7 +18484,7 @@ let data = [|
     latex: "^{50}\\mathrm{V}",
   },
   {
-    pdg: (-1000230500),
+    pdg: -1000230500,
     name: "V50~",
     mass: Some(46525.4872097),
     width: None,
@@ -18510,7 +18510,7 @@ let data = [|
     latex: "^{51}\\mathrm{V}",
   },
   {
-    pdg: (-1000230510),
+    pdg: -1000230510,
     name: "V51~",
     mass: Some(47454.0013619),
     width: None,
@@ -18536,7 +18536,7 @@ let data = [|
     latex: "^{52}\\mathrm{V}",
   },
   {
-    pdg: (-1000230520),
+    pdg: -1000230520,
     name: "V52~",
     mass: Some(48386.2555561),
     width: None,
@@ -18562,7 +18562,7 @@ let data = [|
     latex: "^{53}\\mathrm{V}",
   },
   {
-    pdg: (-1000230530),
+    pdg: -1000230530,
     name: "V53~",
     mass: Some(49317.3428676),
     width: None,
@@ -18588,7 +18588,7 @@ let data = [|
     latex: "^{54}\\mathrm{V}",
   },
   {
-    pdg: (-1000230540),
+    pdg: -1000230540,
     name: "V54~",
     mass: Some(50250.7940317),
     width: None,
@@ -18614,7 +18614,7 @@ let data = [|
     latex: "^{55}\\mathrm{V}",
   },
   {
-    pdg: (-1000230550),
+    pdg: -1000230550,
     name: "V55~",
     mass: Some(51183.029596),
     width: None,
@@ -18640,7 +18640,7 @@ let data = [|
     latex: "^{56}\\mathrm{V}",
   },
   {
-    pdg: (-1000230560),
+    pdg: -1000230560,
     name: "V56~",
     mass: Some(52117.4299526),
     width: None,
@@ -18666,7 +18666,7 @@ let data = [|
     latex: "^{57}\\mathrm{V}",
   },
   {
-    pdg: (-1000230570),
+    pdg: -1000230570,
     name: "V57~",
     mass: Some(53050.7870358),
     width: None,
@@ -18692,7 +18692,7 @@ let data = [|
     latex: "^{58}\\mathrm{V}",
   },
   {
-    pdg: (-1000230580),
+    pdg: -1000230580,
     name: "V58~",
     mass: Some(53986.2772404),
     width: None,
@@ -18718,7 +18718,7 @@ let data = [|
     latex: "^{59}\\mathrm{V}",
   },
   {
-    pdg: (-1000230590),
+    pdg: -1000230590,
     name: "V59~",
     mass: Some(54920.2397948),
     width: None,
@@ -18744,7 +18744,7 @@ let data = [|
     latex: "^{60}\\mathrm{V}",
   },
   {
-    pdg: (-1000230600),
+    pdg: -1000230600,
     name: "V60~",
     mass: Some(55856.577659),
     width: None,
@@ -18770,7 +18770,7 @@ let data = [|
     latex: "^{61}\\mathrm{V}",
   },
   {
-    pdg: (-1000230610),
+    pdg: -1000230610,
     name: "V61~",
     mass: Some(56790.7824018),
     width: None,
@@ -18796,7 +18796,7 @@ let data = [|
     latex: "^{62}\\mathrm{V}",
   },
   {
-    pdg: (-1000230620),
+    pdg: -1000230620,
     name: "V62~",
     mass: Some(57727.613958),
     width: None,
@@ -18822,7 +18822,7 @@ let data = [|
     latex: "^{63}\\mathrm{V}",
   },
   {
-    pdg: (-1000230630),
+    pdg: -1000230630,
     name: "V63~",
     mass: Some(58662.4707467),
     width: None,
@@ -18848,7 +18848,7 @@ let data = [|
     latex: "^{42}\\mathrm{Cr}",
   },
   {
-    pdg: (-1000240420),
+    pdg: -1000240420,
     name: "Cr42~",
     mass: Some(39128.7414966),
     width: None,
@@ -18874,7 +18874,7 @@ let data = [|
     latex: "^{43}\\mathrm{Cr}",
   },
   {
-    pdg: (-1000240430),
+    pdg: -1000240430,
     name: "Cr43~",
     mass: Some(40052.1129631),
     width: None,
@@ -18900,7 +18900,7 @@ let data = [|
     latex: "^{44}\\mathrm{Cr}",
   },
   {
-    pdg: (-1000240440),
+    pdg: -1000240440,
     name: "Cr44~",
     mass: Some(40972.2055704),
     width: None,
@@ -18926,7 +18926,7 @@ let data = [|
     latex: "^{45}\\mathrm{Cr}",
   },
   {
-    pdg: (-1000240450),
+    pdg: -1000240450,
     name: "Cr45~",
     mass: Some(41897.8219376),
     width: None,
@@ -18952,7 +18952,7 @@ let data = [|
     latex: "^{46}\\mathrm{Cr}",
   },
   {
-    pdg: (-1000240460),
+    pdg: -1000240460,
     name: "Cr46~",
     mass: Some(42819.2577594),
     width: None,
@@ -18978,7 +18978,7 @@ let data = [|
     latex: "^{47}\\mathrm{Cr}",
   },
   {
-    pdg: (-1000240470),
+    pdg: -1000240470,
     name: "Cr47~",
     mass: Some(43745.6705541),
     width: None,
@@ -19004,7 +19004,7 @@ let data = [|
     latex: "^{48}\\mathrm{Cr}",
   },
   {
-    pdg: (-1000240480),
+    pdg: -1000240480,
     name: "Cr48~",
     mass: Some(44668.9013649),
     width: None,
@@ -19030,7 +19030,7 @@ let data = [|
     latex: "^{49}\\mathrm{Cr}",
   },
   {
-    pdg: (-1000240490),
+    pdg: -1000240490,
     name: "Cr49~",
     mass: Some(45597.8851765),
     width: None,
@@ -19056,7 +19056,7 @@ let data = [|
     latex: "^{50}\\mathrm{Cr}",
   },
   {
-    pdg: (-1000240500),
+    pdg: -1000240500,
     name: "Cr50~",
     mass: Some(46524.4502705),
     width: None,
@@ -19082,7 +19082,7 @@ let data = [|
     latex: "^{51}\\mathrm{Cr}",
   },
   {
-    pdg: (-1000240510),
+    pdg: -1000240510,
     name: "Cr51~",
     mass: Some(47454.7541023),
     width: None,
@@ -19108,7 +19108,7 @@ let data = [|
     latex: "^{52}\\mathrm{Cr}",
   },
   {
-    pdg: (-1000240520),
+    pdg: -1000240520,
     name: "Cr52~",
     mass: Some(48382.2801256),
     width: None,
@@ -19134,7 +19134,7 @@ let data = [|
     latex: "^{53}\\mathrm{Cr}",
   },
   {
-    pdg: (-1000240530),
+    pdg: -1000240530,
     name: "Cr53~",
     mass: Some(49313.9063996),
     width: None,
@@ -19160,7 +19160,7 @@ let data = [|
     latex: "^{54}\\mathrm{Cr}",
   },
   {
-    pdg: (-1000240540),
+    pdg: -1000240540,
     name: "Cr54~",
     mass: Some(50243.7527747),
     width: None,
@@ -19186,7 +19186,7 @@ let data = [|
     latex: "^{55}\\mathrm{Cr}",
   },
   {
-    pdg: (-1000240550),
+    pdg: -1000240550,
     name: "Cr55~",
     mass: Some(51177.0719461),
     width: None,
@@ -19212,7 +19212,7 @@ let data = [|
     latex: "^{56}\\mathrm{Cr}",
   },
   {
-    pdg: (-1000240560),
+    pdg: -1000240560,
     name: "Cr56~",
     mass: Some(52108.3804874),
     width: None,
@@ -19238,7 +19238,7 @@ let data = [|
     latex: "^{57}\\mathrm{Cr}",
   },
   {
-    pdg: (-1000240570),
+    pdg: -1000240570,
     name: "Cr57~",
     mass: Some(53042.7668716),
     width: None,
@@ -19264,7 +19264,7 @@ let data = [|
     latex: "^{58}\\mathrm{Cr}",
   },
   {
-    pdg: (-1000240580),
+    pdg: -1000240580,
     name: "Cr58~",
     mass: Some(53974.7267136),
     width: None,
@@ -19290,7 +19290,7 @@ let data = [|
     latex: "^{59}\\mathrm{Cr}",
   },
   {
-    pdg: (-1000240590),
+    pdg: -1000240590,
     name: "Cr59~",
     mass: Some(54910.3007528),
     width: None,
@@ -19316,7 +19316,7 @@ let data = [|
     latex: "^{60}\\mathrm{Cr}",
   },
   {
-    pdg: (-1000240600),
+    pdg: -1000240600,
     name: "Cr60~",
     mass: Some(55842.8194913),
     width: None,
@@ -19342,7 +19342,7 @@ let data = [|
     latex: "^{61}\\mathrm{Cr}",
   },
   {
-    pdg: (-1000240610),
+    pdg: -1000240610,
     name: "Cr61~",
     mass: Some(56778.3749005),
     width: None,
@@ -19368,7 +19368,7 @@ let data = [|
     latex: "^{62}\\mathrm{Cr}",
   },
   {
-    pdg: (-1000240620),
+    pdg: -1000240620,
     name: "Cr62~",
     mass: Some(57711.4618504),
     width: None,
@@ -19394,7 +19394,7 @@ let data = [|
     latex: "^{63}\\mathrm{Cr}",
   },
   {
-    pdg: (-1000240630),
+    pdg: -1000240630,
     name: "Cr63~",
     mass: Some(58648.6007996),
     width: None,
@@ -19420,7 +19420,7 @@ let data = [|
     latex: "^{64}\\mathrm{Cr}",
   },
   {
-    pdg: (-1000240640),
+    pdg: -1000240640,
     name: "Cr64~",
     mass: Some(59582.2745908),
     width: None,
@@ -19446,7 +19446,7 @@ let data = [|
     latex: "^{65}\\mathrm{Cr}",
   },
   {
-    pdg: (-1000240650),
+    pdg: -1000240650,
     name: "Cr65~",
     mass: Some(60519.5160043),
     width: None,
@@ -19472,7 +19472,7 @@ let data = [|
     latex: "^{44}\\mathrm{Mn}",
   },
   {
-    pdg: (-1000250440),
+    pdg: -1000250440,
     name: "Mn44~",
     mass: Some(40992.139544),
     width: None,
@@ -19498,7 +19498,7 @@ let data = [|
     latex: "^{45}\\mathrm{Mn}",
   },
   {
-    pdg: (-1000250450),
+    pdg: -1000250450,
     name: "Mn45~",
     mass: Some(41912.120372),
     width: None,
@@ -19524,7 +19524,7 @@ let data = [|
     latex: "^{46}\\mathrm{Mn}",
   },
   {
-    pdg: (-1000250460),
+    pdg: -1000250460,
     name: "Mn46~",
     mass: Some(42836.358128),
     width: None,
@@ -19550,7 +19550,7 @@ let data = [|
     latex: "^{47}\\mathrm{Mn}",
   },
   {
-    pdg: (-1000250470),
+    pdg: -1000250470,
     name: "Mn47~",
     mass: Some(43757.9597557),
     width: None,
@@ -19576,7 +19576,7 @@ let data = [|
     latex: "^{48}\\mathrm{Mn}",
   },
   {
-    pdg: (-1000250480),
+    pdg: -1000250480,
     name: "Mn48~",
     mass: Some(44682.7191483),
     width: None,
@@ -19602,7 +19602,7 @@ let data = [|
     latex: "^{49}\\mathrm{Mn}",
   },
   {
-    pdg: (-1000250490),
+    pdg: -1000250490,
     name: "Mn49~",
     mass: Some(45605.5997174),
     width: None,
@@ -19628,7 +19628,7 @@ let data = [|
     latex: "^{50}\\mathrm{Mn}",
   },
   {
-    pdg: (-1000250500),
+    pdg: -1000250500,
     name: "Mn50~",
     mass: Some(46532.0833057),
     width: None,
@@ -19654,7 +19654,7 @@ let data = [|
     latex: "^{51}\\mathrm{Mn}",
   },
   {
-    pdg: (-1000250510),
+    pdg: -1000250510,
     name: "Mn51~",
     mass: Some(47457.9618885),
     width: None,
@@ -19680,7 +19680,7 @@ let data = [|
     latex: "^{52}\\mathrm{Mn}",
   },
   {
-    pdg: (-1000250520),
+    pdg: -1000250520,
     name: "Mn52~",
     mass: Some(48386.991809),
     width: None,
@@ -19706,7 +19706,7 @@ let data = [|
     latex: "^{53}\\mathrm{Mn}",
   },
   {
-    pdg: (-1000250530),
+    pdg: -1000250530,
     name: "Mn53~",
     mass: Some(49314.5033942),
     width: None,
@@ -19732,7 +19732,7 @@ let data = [|
     latex: "^{54}\\mathrm{Mn}",
   },
   {
-    pdg: (-1000250540),
+    pdg: -1000250540,
     name: "Mn54~",
     mass: Some(50245.1298024),
     width: None,
@@ -19758,7 +19758,7 @@ let data = [|
     latex: "^{55}\\mathrm{Mn}",
   },
   {
-    pdg: (-1000250550),
+    pdg: -1000250550,
     name: "Mn55~",
     mass: Some(51174.4687927),
     width: None,
@@ -19784,7 +19784,7 @@ let data = [|
     latex: "^{56}\\mathrm{Mn}",
   },
   {
-    pdg: (-1000250560),
+    pdg: -1000250560,
     name: "Mn56~",
     mass: Some(52106.7637863),
     width: None,
@@ -19810,7 +19810,7 @@ let data = [|
     latex: "^{57}\\mathrm{Mn}",
   },
   {
-    pdg: (-1000250570),
+    pdg: -1000250570,
     name: "Mn57~",
     mass: Some(53037.6781194),
     width: None,
@@ -19836,7 +19836,7 @@ let data = [|
     latex: "^{58}\\mathrm{Mn}",
   },
   {
-    pdg: (-1000250580),
+    pdg: -1000250580,
     name: "Mn58~",
     mass: Some(53970.7585488),
     width: None,
@@ -19862,7 +19862,7 @@ let data = [|
     latex: "^{59}\\mathrm{Mn}",
   },
   {
-    pdg: (-1000250590),
+    pdg: -1000250590,
     name: "Mn59~",
     mass: Some(54902.6811311),
     width: None,
@@ -19888,7 +19888,7 @@ let data = [|
     latex: "^{60}\\mathrm{Mn}",
   },
   {
-    pdg: (-1000250600),
+    pdg: -1000250600,
     name: "Mn60~",
     mass: Some(55836.7275199),
     width: None,
@@ -19914,7 +19914,7 @@ let data = [|
     latex: "^{61}\\mathrm{Mn}",
   },
   {
-    pdg: (-1000250610),
+    pdg: -1000250610,
     name: "Mn61~",
     mass: Some(56769.4046124),
     width: None,
@@ -19940,7 +19940,7 @@ let data = [|
     latex: "^{62}\\mathrm{Mn}",
   },
   {
-    pdg: (-1000250620),
+    pdg: -1000250620,
     name: "Mn62~",
     mass: Some(57704.1682516),
     width: None,
@@ -19966,7 +19966,7 @@ let data = [|
     latex: "^{63}\\mathrm{Mn}",
   },
   {
-    pdg: (-1000250630),
+    pdg: -1000250630,
     name: "Mn63~",
     mass: Some(58637.3762958),
     width: None,
@@ -19992,7 +19992,7 @@ let data = [|
     latex: "^{64}\\mathrm{Mn}",
   },
   {
-    pdg: (-1000250640),
+    pdg: -1000250640,
     name: "Mn64~",
     mass: Some(59572.5218476),
     width: None,
@@ -20018,7 +20018,7 @@ let data = [|
     latex: "^{65}\\mathrm{Mn}",
   },
   {
-    pdg: (-1000250650),
+    pdg: -1000250650,
     name: "Mn65~",
     mass: Some(60506.2235836),
     width: None,
@@ -20044,7 +20044,7 @@ let data = [|
     latex: "^{66}\\mathrm{Mn}",
   },
   {
-    pdg: (-1000250660),
+    pdg: -1000250660,
     name: "Mn66~",
     mass: Some(61442.1143307),
     width: None,
@@ -20070,7 +20070,7 @@ let data = [|
     latex: "^{67}\\mathrm{Mn}",
   },
   {
-    pdg: (-1000250670),
+    pdg: -1000250670,
     name: "Mn67~",
     mass: Some(62376.402908),
     width: None,
@@ -20096,7 +20096,7 @@ let data = [|
     latex: "^{45}\\mathrm{Fe}",
   },
   {
-    pdg: (-1000260450),
+    pdg: -1000260450,
     name: "Fe45~",
     mass: Some(41930.7968286),
     width: None,
@@ -20122,7 +20122,7 @@ let data = [|
     latex: "^{46}\\mathrm{Fe}",
   },
   {
-    pdg: (-1000260460),
+    pdg: -1000260460,
     name: "Fe46~",
     mass: Some(42849.4828798),
     width: None,
@@ -20148,7 +20148,7 @@ let data = [|
     latex: "^{47}\\mathrm{Fe}",
   },
   {
-    pdg: (-1000260470),
+    pdg: -1000260470,
     name: "Fe47~",
     mass: Some(43773.5995415),
     width: None,
@@ -20174,7 +20174,7 @@ let data = [|
     latex: "^{48}\\mathrm{Fe}",
   },
   {
-    pdg: (-1000260480),
+    pdg: -1000260480,
     name: "Fe48~",
     mass: Some(44693.6083143),
     width: None,
@@ -20200,7 +20200,7 @@ let data = [|
     latex: "^{49}\\mathrm{Fe}",
   },
   {
-    pdg: (-1000260490),
+    pdg: -1000260490,
     name: "Fe49~",
     mass: Some(45618.6285254),
     width: None,
@@ -20226,7 +20226,7 @@ let data = [|
     latex: "^{50}\\mathrm{Fe}",
   },
   {
-    pdg: (-1000260500),
+    pdg: -1000260500,
     name: "Fe50~",
     mass: Some(46540.2301531),
     width: None,
@@ -20252,7 +20252,7 @@ let data = [|
     latex: "^{51}\\mathrm{Fe}",
   },
   {
-    pdg: (-1000260510),
+    pdg: -1000260510,
     name: "Fe51~",
     mass: Some(47465.9815869),
     width: None,
@@ -20278,7 +20278,7 @@ let data = [|
     latex: "^{52}\\mathrm{Fe}",
   },
   {
-    pdg: (-1000260520),
+    pdg: -1000260520,
     name: "Fe52~",
     mass: Some(48389.3642314),
     width: None,
@@ -20304,7 +20304,7 @@ let data = [|
     latex: "^{53}\\mathrm{Fe}",
   },
   {
-    pdg: (-1000260530),
+    pdg: -1000260530,
     name: "Fe53~",
     mass: Some(49318.2457649),
     width: None,
@@ -20330,7 +20330,7 @@ let data = [|
     latex: "^{54}\\mathrm{Fe}",
   },
   {
-    pdg: (-1000260540),
+    pdg: -1000260540,
     name: "Fe54~",
     mass: Some(50244.4326722),
     width: None,
@@ -20356,7 +20356,7 @@ let data = [|
     latex: "^{55}\\mathrm{Fe}",
   },
   {
-    pdg: (-1000260550),
+    pdg: -1000260550,
     name: "Fe55~",
     mass: Some(51174.7001758),
     width: None,
@@ -20382,7 +20382,7 @@ let data = [|
     latex: "^{56}\\mathrm{Fe}",
   },
   {
-    pdg: (-1000260560),
+    pdg: -1000260560,
     name: "Fe56~",
     mass: Some(52103.0682698),
     width: None,
@@ -20408,7 +20408,7 @@ let data = [|
     latex: "^{57}\\mathrm{Fe}",
   },
   {
-    pdg: (-1000260570),
+    pdg: -1000260570,
     name: "Fe57~",
     mass: Some(53034.987685),
     width: None,
@@ -20434,7 +20434,7 @@ let data = [|
     latex: "^{58}\\mathrm{Fe}",
   },
   {
-    pdg: (-1000260580),
+    pdg: -1000260580,
     name: "Fe58~",
     mass: Some(53964.5086892),
     width: None,
@@ -20460,7 +20460,7 @@ let data = [|
     latex: "^{59}\\mathrm{Fe}",
   },
   {
-    pdg: (-1000260590),
+    pdg: -1000260590,
     name: "Fe59~",
     mass: Some(54897.4931747),
     width: None,
@@ -20486,7 +20486,7 @@ let data = [|
     latex: "^{60}\\mathrm{Fe}",
   },
   {
-    pdg: (-1000260600),
+    pdg: -1000260600,
     name: "Fe60~",
     mass: Some(55828.2388142),
     width: None,
@@ -20512,7 +20512,7 @@ let data = [|
     latex: "^{61}\\mathrm{Fe}",
   },
   {
-    pdg: (-1000260610),
+    pdg: -1000260610,
     name: "Fe61~",
     mass: Some(56762.2218614),
     width: None,
@@ -20538,7 +20538,7 @@ let data = [|
     latex: "^{62}\\mathrm{Fe}",
   },
   {
-    pdg: (-1000260620),
+    pdg: -1000260620,
     name: "Fe62~",
     mass: Some(57693.7355178),
     width: None,
@@ -20564,7 +20564,7 @@ let data = [|
     latex: "^{63}\\mathrm{Fe}",
   },
   {
-    pdg: (-1000260630),
+    pdg: -1000260630,
     name: "Fe63~",
     mass: Some(58628.350118),
     width: None,
@@ -20590,7 +20590,7 @@ let data = [|
     latex: "^{64}\\mathrm{Fe}",
   },
   {
-    pdg: (-1000260640),
+    pdg: -1000260640,
     name: "Fe64~",
     mass: Some(59560.5428335),
     width: None,
@@ -20616,7 +20616,7 @@ let data = [|
     latex: "^{65}\\mathrm{Fe}",
   },
   {
-    pdg: (-1000260650),
+    pdg: -1000260650,
     name: "Fe65~",
     mass: Some(60495.8281095),
     width: None,
@@ -20642,7 +20642,7 @@ let data = [|
     latex: "^{66}\\mathrm{Fe}",
   },
   {
-    pdg: (-1000260660),
+    pdg: -1000260660,
     name: "Fe66~",
     mass: Some(61428.2909583),
     width: None,
@@ -20668,7 +20668,7 @@ let data = [|
     latex: "^{67}\\mathrm{Fe}",
   },
   {
-    pdg: (-1000260670),
+    pdg: -1000260670,
     name: "Fe67~",
     mass: Some(62363.5296596),
     width: None,
@@ -20694,7 +20694,7 @@ let data = [|
     latex: "^{68}\\mathrm{Fe}",
   },
   {
-    pdg: (-1000260680),
+    pdg: -1000260680,
     name: "Fe68~",
     mass: Some(63297.3618048),
     width: None,
@@ -20720,7 +20720,7 @@ let data = [|
     latex: "^{69}\\mathrm{Fe}",
   },
   {
-    pdg: (-1000260690),
+    pdg: -1000260690,
     name: "Fe69~",
     mass: Some(64233.6903541),
     width: None,
@@ -20746,7 +20746,7 @@ let data = [|
     latex: "^{48}\\mathrm{Co}",
   },
   {
-    pdg: (-1000270480),
+    pdg: -1000270480,
     name: "Co48~",
     mass: Some(44713.3559891),
     width: None,
@@ -20772,7 +20772,7 @@ let data = [|
     latex: "^{49}\\mathrm{Co}",
   },
   {
-    pdg: (-1000270490),
+    pdg: -1000270490,
     name: "Co49~",
     mass: Some(45633.6348952),
     width: None,
@@ -20798,7 +20798,7 @@ let data = [|
     latex: "^{50}\\mathrm{Co}",
   },
   {
-    pdg: (-1000270500),
+    pdg: -1000270500,
     name: "Co50~",
     mass: Some(46557.5093685),
     width: None,
@@ -20824,7 +20824,7 @@ let data = [|
     latex: "^{51}\\mathrm{Co}",
   },
   {
-    pdg: (-1000270510),
+    pdg: -1000270510,
     name: "Co51~",
     mass: Some(47478.9246974),
     width: None,
@@ -20850,7 +20850,7 @@ let data = [|
     latex: "^{52}\\mathrm{Co}",
   },
   {
-    pdg: (-1000270520),
+    pdg: -1000270520,
     name: "Co52~",
     mass: Some(48403.7772395),
     width: None,
@@ -20876,7 +20876,7 @@ let data = [|
     latex: "^{53}\\mathrm{Co}",
   },
   {
-    pdg: (-1000270530),
+    pdg: -1000270530,
     name: "Co53~",
     mass: Some(49326.5478923),
     width: None,
@@ -20902,7 +20902,7 @@ let data = [|
     latex: "^{54}\\mathrm{Co}",
   },
   {
-    pdg: (-1000270540),
+    pdg: -1000270540,
     name: "Co54~",
     mass: Some(50252.6757429),
     width: None,
@@ -20928,7 +20928,7 @@ let data = [|
     latex: "^{55}\\mathrm{Co}",
   },
   {
-    pdg: (-1000270550),
+    pdg: -1000270550,
     name: "Co55~",
     mass: Some(51178.1514546),
     width: None,
@@ -20954,7 +20954,7 @@ let data = [|
     latex: "^{56}\\mathrm{Co}",
   },
   {
-    pdg: (-1000270560),
+    pdg: -1000270560,
     name: "Co56~",
     mass: Some(52107.6342675),
     width: None,
@@ -20980,7 +20980,7 @@ let data = [|
     latex: "^{57}\\mathrm{Co}",
   },
   {
-    pdg: (-1000270570),
+    pdg: -1000270570,
     name: "Co57~",
     mass: Some(53035.8237009),
     width: None,
@@ -21006,7 +21006,7 @@ let data = [|
     latex: "^{58}\\mathrm{Co}",
   },
   {
-    pdg: (-1000270580),
+    pdg: -1000270580,
     name: "Co58~",
     mass: Some(53966.8160932),
     width: None,
@@ -21032,7 +21032,7 @@ let data = [|
     latex: "^{59}\\mathrm{Co}",
   },
   {
-    pdg: (-1000270590),
+    pdg: -1000270590,
     name: "Co59~",
     mass: Some(54895.9279852),
     width: None,
@@ -21058,7 +21058,7 @@ let data = [|
     latex: "^{60}\\mathrm{Co}",
   },
   {
-    pdg: (-1000270600),
+    pdg: -1000270600,
     name: "Co60~",
     mass: Some(55828.0014695),
     width: None,
@@ -21084,7 +21084,7 @@ let data = [|
     latex: "^{61}\\mathrm{Co}",
   },
   {
-    pdg: (-1000270610),
+    pdg: -1000270610,
     name: "Co61~",
     mass: Some(56758.2447542),
     width: None,
@@ -21110,7 +21110,7 @@ let data = [|
     latex: "^{62}\\mathrm{Co}",
   },
   {
-    pdg: (-1000270620),
+    pdg: -1000270620,
     name: "Co62~",
     mass: Some(57691.2055798),
     width: None,
@@ -21136,7 +21136,7 @@ let data = [|
     latex: "^{63}\\mathrm{Co}",
   },
   {
-    pdg: (-1000270630),
+    pdg: -1000270630,
     name: "Co63~",
     mass: Some(58622.2907489),
     width: None,
@@ -21162,7 +21162,7 @@ let data = [|
     latex: "^{64}\\mathrm{Co}",
   },
   {
-    pdg: (-1000270640),
+    pdg: -1000270640,
     name: "Co64~",
     mass: Some(59555.8331994),
     width: None,
@@ -21188,7 +21188,7 @@ let data = [|
     latex: "^{65}\\mathrm{Co}",
   },
   {
-    pdg: (-1000270650),
+    pdg: -1000270650,
     name: "Co65~",
     mass: Some(60487.9523269),
     width: None,
@@ -21214,7 +21214,7 @@ let data = [|
     latex: "^{66}\\mathrm{Co}",
   },
   {
-    pdg: (-1000270660),
+    pdg: -1000270660,
     name: "Co66~",
     mass: Some(61422.5622697),
     width: None,
@@ -21240,7 +21240,7 @@ let data = [|
     latex: "^{67}\\mathrm{Co}",
   },
   {
-    pdg: (-1000270670),
+    pdg: -1000270670,
     name: "Co67~",
     mass: Some(62354.78293),
     width: None,
@@ -21266,7 +21266,7 @@ let data = [|
     latex: "^{68}\\mathrm{Co}",
   },
   {
-    pdg: (-1000270680),
+    pdg: -1000270680,
     name: "Co68~",
     mass: Some(63289.7701279),
     width: None,
@@ -21292,7 +21292,7 @@ let data = [|
     latex: "^{69}\\mathrm{Co}",
   },
   {
-    pdg: (-1000270690),
+    pdg: -1000270690,
     name: "Co69~",
     mass: Some(64222.0466779),
     width: None,
@@ -21318,7 +21318,7 @@ let data = [|
     latex: "^{70}\\mathrm{Co}",
   },
   {
-    pdg: (-1000270700),
+    pdg: -1000270700,
     name: "Co70~",
     mass: Some(65157.8349607),
     width: None,
@@ -21344,7 +21344,7 @@ let data = [|
     latex: "^{71}\\mathrm{Co}",
   },
   {
-    pdg: (-1000270710),
+    pdg: -1000270710,
     name: "Co71~",
     mass: Some(66091.1175243),
     width: None,
@@ -21370,7 +21370,7 @@ let data = [|
     latex: "^{72}\\mathrm{Co}",
   },
   {
-    pdg: (-1000270720),
+    pdg: -1000270720,
     name: "Co72~",
     mass: Some(67026.9710117),
     width: None,
@@ -21396,7 +21396,7 @@ let data = [|
     latex: "^{50}\\mathrm{Ni}",
   },
   {
-    pdg: (-1000280500),
+    pdg: -1000280500,
     name: "Ni50~",
     mass: Some(46570.9135685),
     width: None,
@@ -21422,7 +21422,7 @@ let data = [|
     latex: "^{51}\\mathrm{Ni}",
   },
   {
-    pdg: (-1000280510),
+    pdg: -1000280510,
     name: "Ni51~",
     mass: Some(47494.760097),
     width: None,
@@ -21448,7 +21448,7 @@ let data = [|
     latex: "^{52}\\mathrm{Ni}",
   },
   {
-    pdg: (-1000280520),
+    pdg: -1000280520,
     name: "Ni52~",
     mass: Some(48415.0390031),
     width: None,
@@ -21474,7 +21474,7 @@ let data = [|
     latex: "^{53}\\mathrm{Ni}",
   },
   {
-    pdg: (-1000280530),
+    pdg: -1000280530,
     name: "Ni53~",
     mass: Some(49339.8077107),
     width: None,
@@ -21500,7 +21500,7 @@ let data = [|
     latex: "^{54}\\mathrm{Ni}",
   },
   {
-    pdg: (-1000280540),
+    pdg: -1000280540,
     name: "Ni54~",
     mass: Some(50261.474543),
     width: None,
@@ -21526,7 +21526,7 @@ let data = [|
     latex: "^{55}\\mathrm{Ni}",
   },
   {
-    pdg: (-1000280550),
+    pdg: -1000280550,
     name: "Ni55~",
     mass: Some(51186.8449958),
     width: None,
@@ -21552,7 +21552,7 @@ let data = [|
     latex: "^{56}\\mathrm{Ni}",
   },
   {
-    pdg: (-1000280560),
+    pdg: -1000280560,
     name: "Ni56~",
     mass: Some(52109.7693451),
     width: None,
@@ -21578,7 +21578,7 @@ let data = [|
     latex: "^{57}\\mathrm{Ni}",
   },
   {
-    pdg: (-1000280570),
+    pdg: -1000280570,
     name: "Ni57~",
     mass: Some(53039.0874699),
     width: None,
@@ -21604,7 +21604,7 @@ let data = [|
     latex: "^{58}\\mathrm{Ni}",
   },
   {
-    pdg: (-1000280580),
+    pdg: -1000280580,
     name: "Ni58~",
     mass: Some(53966.43446),
     width: None,
@@ -21630,7 +21630,7 @@ let data = [|
     latex: "^{59}\\mathrm{Ni}",
   },
   {
-    pdg: (-1000280590),
+    pdg: -1000280590,
     name: "Ni59~",
     mass: Some(54897.0005075),
     width: None,
@@ -21656,7 +21656,7 @@ let data = [|
     latex: "^{60}\\mathrm{Ni}",
   },
   {
-    pdg: (-1000280600),
+    pdg: -1000280600,
     name: "Ni60~",
     mass: Some(55825.177552),
     width: None,
@@ -21682,7 +21682,7 @@ let data = [|
     latex: "^{61}\\mathrm{Ni}",
   },
   {
-    pdg: (-1000280610),
+    pdg: -1000280610,
     name: "Ni61~",
     mass: Some(56756.9229641),
     width: None,
@@ -21708,7 +21708,7 @@ let data = [|
     latex: "^{62}\\mathrm{Ni}",
   },
   {
-    pdg: (-1000280620),
+    pdg: -1000280620,
     name: "Ni62~",
     mass: Some(57685.8912197),
     width: None,
@@ -21734,7 +21734,7 @@ let data = [|
     latex: "^{63}\\mathrm{Ni}",
   },
   {
-    pdg: (-1000280630),
+    pdg: -1000280630,
     name: "Ni63~",
     mass: Some(58618.618706),
     width: None,
@@ -21760,7 +21760,7 @@ let data = [|
     latex: "^{64}\\mathrm{Ni}",
   },
   {
-    pdg: (-1000280640),
+    pdg: -1000280640,
     name: "Ni64~",
     mass: Some(59548.5261871),
     width: None,
@@ -21786,7 +21786,7 @@ let data = [|
     latex: "^{65}\\mathrm{Ni}",
   },
   {
-    pdg: (-1000280650),
+    pdg: -1000280650,
     name: "Ni65~",
     mass: Some(60481.9935592),
     width: None,
@@ -21812,7 +21812,7 @@ let data = [|
     latex: "^{66}\\mathrm{Ni}",
   },
   {
-    pdg: (-1000280660),
+    pdg: -1000280660,
     name: "Ni66~",
     mass: Some(61412.5813104),
     width: None,
@@ -21838,7 +21838,7 @@ let data = [|
     latex: "^{67}\\mathrm{Ni}",
   },
   {
-    pdg: (-1000280670),
+    pdg: -1000280670,
     name: "Ni67~",
     mass: Some(62346.3622234),
     width: None,
@@ -21864,7 +21864,7 @@ let data = [|
     latex: "^{68}\\mathrm{Ni}",
   },
   {
-    pdg: (-1000280680),
+    pdg: -1000280680,
     name: "Ni68~",
     mass: Some(63278.1124793),
     width: None,
@@ -21890,7 +21890,7 @@ let data = [|
     latex: "^{69}\\mathrm{Ni}",
   },
   {
-    pdg: (-1000280690),
+    pdg: -1000280690,
     name: "Ni69~",
     mass: Some(64212.7131071),
     width: None,
@@ -21916,7 +21916,7 @@ let data = [|
     latex: "^{70}\\mathrm{Ni}",
   },
   {
-    pdg: (-1000280700),
+    pdg: -1000280700,
     name: "Ni70~",
     mass: Some(65145.1014364),
     width: None,
@@ -21942,7 +21942,7 @@ let data = [|
     latex: "^{71}\\mathrm{Ni}",
   },
   {
-    pdg: (-1000280710),
+    pdg: -1000280710,
     name: "Ni71~",
     mass: Some(66080.1910986),
     width: None,
@@ -21968,7 +21968,7 @@ let data = [|
     latex: "^{72}\\mathrm{Ni}",
   },
   {
-    pdg: (-1000280720),
+    pdg: -1000280720,
     name: "Ni72~",
     mass: Some(67012.8961359),
     width: None,
@@ -21994,7 +21994,7 @@ let data = [|
     latex: "^{73}\\mathrm{Ni}",
   },
   {
-    pdg: (-1000280730),
+    pdg: -1000280730,
     name: "Ni73~",
     mass: Some(67948.8427727),
     width: None,
@@ -22020,7 +22020,7 @@ let data = [|
     latex: "^{74}\\mathrm{Ni}",
   },
   {
-    pdg: (-1000280740),
+    pdg: -1000280740,
     name: "Ni74~",
     mass: Some(68882.0415019),
     width: None,
@@ -22046,7 +22046,7 @@ let data = [|
     latex: "^{75}\\mathrm{Ni}",
   },
   {
-    pdg: (-1000280750),
+    pdg: -1000280750,
     name: "Ni75~",
     mass: Some(69818.248957),
     width: None,
@@ -22072,7 +22072,7 @@ let data = [|
     latex: "^{76}\\mathrm{Ni}",
   },
   {
-    pdg: (-1000280760),
+    pdg: -1000280760,
     name: "Ni76~",
     mass: Some(70751.941378),
     width: None,
@@ -22098,7 +22098,7 @@ let data = [|
     latex: "^{77}\\mathrm{Ni}",
   },
   {
-    pdg: (-1000280770),
+    pdg: -1000280770,
     name: "Ni77~",
     mass: Some(71688.5586905),
     width: None,
@@ -22124,7 +22124,7 @@ let data = [|
     latex: "^{78}\\mathrm{Ni}",
   },
   {
-    pdg: (-1000280780),
+    pdg: -1000280780,
     name: "Ni78~",
     mass: Some(72622.819323),
     width: None,
@@ -22150,7 +22150,7 @@ let data = [|
     latex: "^{52}\\mathrm{Cu}",
   },
   {
-    pdg: (-1000290520),
+    pdg: -1000290520,
     name: "Cu52~",
     mass: Some(48435.0661261),
     width: None,
@@ -22176,7 +22176,7 @@ let data = [|
     latex: "^{53}\\mathrm{Cu}",
   },
   {
-    pdg: (-1000290530),
+    pdg: -1000290530,
     name: "Cu53~",
     mass: Some(49355.7269448),
     width: None,
@@ -22202,7 +22202,7 @@ let data = [|
     latex: "^{54}\\mathrm{Cu}",
   },
   {
-    pdg: (-1000290540),
+    pdg: -1000290540,
     name: "Cu54~",
     mass: Some(50278.986632),
     width: None,
@@ -22228,7 +22228,7 @@ let data = [|
     latex: "^{55}\\mathrm{Cu}",
   },
   {
-    pdg: (-1000290550),
+    pdg: -1000290550,
     name: "Cu55~",
     mass: Some(51200.5509999),
     width: None,
@@ -22254,7 +22254,7 @@ let data = [|
     latex: "^{56}\\mathrm{Cu}",
   },
   {
-    pdg: (-1000290560),
+    pdg: -1000290560,
     name: "Cu56~",
     mass: Some(52125.0682042),
     width: None,
@@ -22280,7 +22280,7 @@ let data = [|
     latex: "^{57}\\mathrm{Cu}",
   },
   {
-    pdg: (-1000290570),
+    pdg: -1000290570,
     name: "Cu57~",
     mass: Some(53047.8584183),
     width: None,
@@ -22306,7 +22306,7 @@ let data = [|
     latex: "^{58}\\mathrm{Cu}",
   },
   {
-    pdg: (-1000290580),
+    pdg: -1000290580,
     name: "Cu58~",
     mass: Some(53974.997499),
     width: None,
@@ -22332,7 +22332,7 @@ let data = [|
     latex: "^{59}\\mathrm{Cu}",
   },
   {
-    pdg: (-1000290590),
+    pdg: -1000290590,
     name: "Cu59~",
     mass: Some(54901.8000308),
     width: None,
@@ -22358,7 +22358,7 @@ let data = [|
     latex: "^{60}\\mathrm{Cu}",
   },
   {
-    pdg: (-1000290600),
+    pdg: -1000290600,
     name: "Cu60~",
     mass: Some(55831.3044544),
     width: None,
@@ -22384,7 +22384,7 @@ let data = [|
     latex: "^{61}\\mathrm{Cu}",
   },
   {
-    pdg: (-1000290610),
+    pdg: -1000290610,
     name: "Cu61~",
     mass: Some(56759.1602266),
     width: None,
@@ -22410,7 +22410,7 @@ let data = [|
     latex: "^{62}\\mathrm{Cu}",
   },
   {
-    pdg: (-1000290620),
+    pdg: -1000290620,
     name: "Cu62~",
     mass: Some(57689.839078),
     width: None,
@@ -22436,7 +22436,7 @@ let data = [|
     latex: "^{63}\\mathrm{Cu}",
   },
   {
-    pdg: (-1000290630),
+    pdg: -1000290630,
     name: "Cu63~",
     mass: Some(58618.5518247),
     width: None,
@@ -22462,7 +22462,7 @@ let data = [|
     latex: "^{64}\\mathrm{Cu}",
   },
   {
-    pdg: (-1000290640),
+    pdg: -1000290640,
     name: "Cu64~",
     mass: Some(59550.2012929),
     width: None,
@@ -22488,7 +22488,7 @@ let data = [|
     latex: "^{65}\\mathrm{Cu}",
   },
   {
-    pdg: (-1000290650),
+    pdg: -1000290650,
     name: "Cu65~",
     mass: Some(60479.8564323),
     width: None,
@@ -22514,7 +22514,7 @@ let data = [|
     latex: "^{66}\\mathrm{Cu}",
   },
   {
-    pdg: (-1000290660),
+    pdg: -1000290660,
     name: "Cu66~",
     mass: Some(61412.3558889),
     width: None,
@@ -22540,7 +22540,7 @@ let data = [|
     latex: "^{67}\\mathrm{Cu}",
   },
   {
-    pdg: (-1000290670),
+    pdg: -1000290670,
     name: "Cu67~",
     mass: Some(62342.803916),
     width: None,
@@ -22566,7 +22566,7 @@ let data = [|
     latex: "^{68}\\mathrm{Cu}",
   },
   {
-    pdg: (-1000290680),
+    pdg: -1000290680,
     name: "Cu68~",
     mass: Some(63276.0585348),
     width: None,
@@ -22592,7 +22592,7 @@ let data = [|
     latex: "^{69}\\mathrm{Cu}",
   },
   {
-    pdg: (-1000290690),
+    pdg: -1000290690,
     name: "Cu69~",
     mass: Some(64207.3523586),
     width: None,
@@ -22618,7 +22618,7 @@ let data = [|
     latex: "^{70}\\mathrm{Cu}",
   },
   {
-    pdg: (-1000290700),
+    pdg: -1000290700,
     name: "Cu70~",
     mass: Some(65141.6260319),
     width: None,
@@ -22644,7 +22644,7 @@ let data = [|
     latex: "^{71}\\mathrm{Cu}",
   },
   {
-    pdg: (-1000290710),
+    pdg: -1000290710,
     name: "Cu71~",
     mass: Some(66073.3166722),
     width: None,
@@ -22670,7 +22670,7 @@ let data = [|
     latex: "^{72}\\mathrm{Cu}",
   },
   {
-    pdg: (-1000290720),
+    pdg: -1000290720,
     name: "Cu72~",
     mass: Some(67007.5121),
     width: None,
@@ -22696,7 +22696,7 @@ let data = [|
     latex: "^{73}\\mathrm{Cu}",
   },
   {
-    pdg: (-1000290730),
+    pdg: -1000290730,
     name: "Cu73~",
     mass: Some(67939.9097443),
     width: None,
@@ -22722,7 +22722,7 @@ let data = [|
     latex: "^{74}\\mathrm{Cu}",
   },
   {
-    pdg: (-1000290740),
+    pdg: -1000290740,
     name: "Cu74~",
     mass: Some(68874.8596824),
     width: None,
@@ -22748,7 +22748,7 @@ let data = [|
     latex: "^{75}\\mathrm{Cu}",
   },
   {
-    pdg: (-1000290750),
+    pdg: -1000290750,
     name: "Cu75~",
     mass: Some(69807.7510185),
     width: None,
@@ -22774,7 +22774,7 @@ let data = [|
     latex: "^{76}\\mathrm{Cu}",
   },
   {
-    pdg: (-1000290760),
+    pdg: -1000290760,
     name: "Cu76~",
     mass: Some(70743.2412232),
     width: None,
@@ -22800,7 +22800,7 @@ let data = [|
     latex: "^{77}\\mathrm{Cu}",
   },
   {
-    pdg: (-1000290770),
+    pdg: -1000290770,
     name: "Cu77~",
     mass: Some(71676.5610466),
     width: None,
@@ -22826,7 +22826,7 @@ let data = [|
     latex: "^{78}\\mathrm{Cu}",
   },
   {
-    pdg: (-1000290780),
+    pdg: -1000290780,
     name: "Cu78~",
     mass: Some(72612.5822029),
     width: None,
@@ -22852,7 +22852,7 @@ let data = [|
     latex: "^{79}\\mathrm{Cu}",
   },
   {
-    pdg: (-1000290790),
+    pdg: -1000290790,
     name: "Cu79~",
     mass: Some(73546.3770883),
     width: None,
@@ -22878,7 +22878,7 @@ let data = [|
     latex: "^{80}\\mathrm{Cu}",
   },
   {
-    pdg: (-1000290800),
+    pdg: -1000290800,
     name: "Cu80~",
     mass: Some(74484.0283593),
     width: None,
@@ -22904,7 +22904,7 @@ let data = [|
     latex: "^{54}\\mathrm{Zn}",
   },
   {
-    pdg: (-1000300540),
+    pdg: -1000300540,
     name: "Zn54~",
     mass: Some(50294.1140961),
     width: None,
@@ -22930,7 +22930,7 @@ let data = [|
     latex: "^{55}\\mathrm{Zn}",
   },
   {
-    pdg: (-1000300550),
+    pdg: -1000300550,
     name: "Zn55~",
     mass: Some(51217.2526891),
     width: None,
@@ -22956,7 +22956,7 @@ let data = [|
     latex: "^{56}\\mathrm{Zn}",
   },
   {
-    pdg: (-1000300560),
+    pdg: -1000300560,
     name: "Zn56~",
     mass: Some(52137.9414525),
     width: None,
@@ -22982,7 +22982,7 @@ let data = [|
     latex: "^{57}\\mathrm{Zn}",
   },
   {
-    pdg: (-1000300570),
+    pdg: -1000300570,
     name: "Zn57~",
     mass: Some(53062.4772866),
     width: None,
@@ -23008,7 +23008,7 @@ let data = [|
     latex: "^{58}\\mathrm{Zn}",
   },
   {
-    pdg: (-1000300580),
+    pdg: -1000300580,
     name: "Zn58~",
     mass: Some(53984.3676775),
     width: None,
@@ -23034,7 +23034,7 @@ let data = [|
     latex: "^{59}\\mathrm{Zn}",
   },
   {
-    pdg: (-1000300590),
+    pdg: -1000300590,
     name: "Zn59~",
     mass: Some(54910.896909),
     width: None,
@@ -23060,7 +23060,7 @@ let data = [|
     latex: "^{60}\\mathrm{Zn}",
   },
   {
-    pdg: (-1000300600),
+    pdg: -1000300600,
     name: "Zn60~",
     mass: Some(55835.4625509),
     width: None,
@@ -23086,7 +23086,7 @@ let data = [|
     latex: "^{61}\\mathrm{Zn}",
   },
   {
-    pdg: (-1000300610),
+    pdg: -1000300610,
     name: "Zn61~",
     mass: Some(56764.7974426),
     width: None,
@@ -23112,7 +23112,7 @@ let data = [|
     latex: "^{62}\\mathrm{Zn}",
   },
   {
-    pdg: (-1000300620),
+    pdg: -1000300620,
     name: "Zn62~",
     mass: Some(57691.4663981),
     width: None,
@@ -23138,7 +23138,7 @@ let data = [|
     latex: "^{63}\\mathrm{Zn}",
   },
   {
-    pdg: (-1000300630),
+    pdg: -1000300630,
     name: "Zn63~",
     mass: Some(58621.9187101),
     width: None,
@@ -23164,7 +23164,7 @@ let data = [|
     latex: "^{64}\\mathrm{Zn}",
   },
   {
-    pdg: (-1000300640),
+    pdg: -1000300640,
     name: "Zn64~",
     mass: Some(59549.6225557),
     width: None,
@@ -23190,7 +23190,7 @@ let data = [|
     latex: "^{65}\\mathrm{Zn}",
   },
   {
-    pdg: (-1000300650),
+    pdg: -1000300650,
     name: "Zn65~",
     mass: Some(60481.2084028),
     width: None,
@@ -23216,7 +23216,7 @@ let data = [|
     latex: "^{66}\\mathrm{Zn}",
   },
   {
-    pdg: (-1000300660),
+    pdg: -1000300660,
     name: "Zn66~",
     mass: Some(61409.7139853),
     width: None,
@@ -23242,7 +23242,7 @@ let data = [|
     latex: "^{67}\\mathrm{Zn}",
   },
   {
-    pdg: (-1000300670),
+    pdg: -1000300670,
     name: "Zn67~",
     mass: Some(62342.227228),
     width: None,
@@ -23268,7 +23268,7 @@ let data = [|
     latex: "^{68}\\mathrm{Zn}",
   },
   {
-    pdg: (-1000300680),
+    pdg: -1000300680,
     name: "Zn68~",
     mass: Some(63271.5944425),
     width: None,
@@ -23294,7 +23294,7 @@ let data = [|
     latex: "^{69}\\mathrm{Zn}",
   },
   {
-    pdg: (-1000300690),
+    pdg: -1000300690,
     name: "Zn69~",
     mass: Some(64204.6775733),
     width: None,
@@ -23320,7 +23320,7 @@ let data = [|
     latex: "^{70}\\mathrm{Zn}",
   },
   {
-    pdg: (-1000300700),
+    pdg: -1000300700,
     name: "Zn70~",
     mass: Some(65135.0273278),
     width: None,
@@ -23346,7 +23346,7 @@ let data = [|
     latex: "^{71}\\mathrm{Zn}",
   },
   {
-    pdg: (-1000300710),
+    pdg: -1000300710,
     name: "Zn71~",
     mass: Some(66068.7588716),
     width: None,
@@ -23372,7 +23372,7 @@ let data = [|
     latex: "^{72}\\mathrm{Zn}",
   },
   {
-    pdg: (-1000300720),
+    pdg: -1000300720,
     name: "Zn72~",
     mass: Some(66999.4462927),
     width: None,
@@ -23398,7 +23398,7 @@ let data = [|
     latex: "^{73}\\mathrm{Zn}",
   },
   {
-    pdg: (-1000300730),
+    pdg: -1000300730,
     name: "Zn73~",
     mass: Some(67933.6594189),
     width: None,
@@ -23424,7 +23424,7 @@ let data = [|
     latex: "^{74}\\mathrm{Zn}",
   },
   {
-    pdg: (-1000300740),
+    pdg: -1000300740,
     name: "Zn74~",
     mass: Some(68864.8554358),
     width: None,
@@ -23450,7 +23450,7 @@ let data = [|
     latex: "^{75}\\mathrm{Zn}",
   },
   {
-    pdg: (-1000300750),
+    pdg: -1000300750,
     name: "Zn75~",
     mass: Some(69799.5911303),
     width: None,
@@ -23476,7 +23476,7 @@ let data = [|
     latex: "^{76}\\mathrm{Zn}",
   },
   {
-    pdg: (-1000300760),
+    pdg: -1000300760,
     name: "Zn76~",
     mass: Some(70731.5043976),
     width: None,
@@ -23502,7 +23502,7 @@ let data = [|
     latex: "^{77}\\mathrm{Zn}",
   },
   {
-    pdg: (-1000300770),
+    pdg: -1000300770,
     name: "Zn77~",
     mass: Some(71666.4450207),
     width: None,
@@ -23528,7 +23528,7 @@ let data = [|
     latex: "^{78}\\mathrm{Zn}",
   },
   {
-    pdg: (-1000300780),
+    pdg: -1000300780,
     name: "Zn78~",
     mass: Some(72599.317727),
     width: None,
@@ -23554,7 +23554,7 @@ let data = [|
     latex: "^{79}\\mathrm{Zn}",
   },
   {
-    pdg: (-1000300790),
+    pdg: -1000300790,
     name: "Zn79~",
     mass: Some(73534.6402627),
     width: None,
@@ -23580,7 +23580,7 @@ let data = [|
     latex: "^{80}\\mathrm{Zn}",
   },
   {
-    pdg: (-1000300800),
+    pdg: -1000300800,
     name: "Zn80~",
     mass: Some(74467.7458425),
     width: None,
@@ -23606,7 +23606,7 @@ let data = [|
     latex: "^{81}\\mathrm{Zn}",
   },
   {
-    pdg: (-1000300810),
+    pdg: -1000300810,
     name: "Zn81~",
     mass: Some(75404.8941066),
     width: None,
@@ -23632,7 +23632,7 @@ let data = [|
     latex: "^{82}\\mathrm{Zn}",
   },
   {
-    pdg: (-1000300820),
+    pdg: -1000300820,
     name: "Zn82~",
     mass: Some(76340.4495159),
     width: None,
@@ -23658,7 +23658,7 @@ let data = [|
     latex: "^{56}\\mathrm{Ga}",
   },
   {
-    pdg: (-1000310560),
+    pdg: -1000310560,
     name: "Ga56~",
     mass: Some(52158.9280145),
     width: None,
@@ -23684,7 +23684,7 @@ let data = [|
     latex: "^{57}\\mathrm{Ga}",
   },
   {
-    pdg: (-1000310570),
+    pdg: -1000310570,
     name: "Ga57~",
     mass: Some(53079.2628102),
     width: None,
@@ -23710,7 +23710,7 @@ let data = [|
     latex: "^{58}\\mathrm{Ga}",
   },
   {
-    pdg: (-1000310580),
+    pdg: -1000310580,
     name: "Ga58~",
     mass: Some(54002.6715365),
     width: None,
@@ -23736,7 +23736,7 @@ let data = [|
     latex: "^{59}\\mathrm{Ga}",
   },
   {
-    pdg: (-1000310590),
+    pdg: -1000310590,
     name: "Ga59~",
     mass: Some(54924.0309757),
     width: None,
@@ -23762,7 +23762,7 @@ let data = [|
     latex: "^{60}\\mathrm{Ga}",
   },
   {
-    pdg: (-1000310600),
+    pdg: -1000310600,
     name: "Ga60~",
     mass: Some(55849.647343),
     width: None,
@@ -23788,7 +23788,7 @@ let data = [|
     latex: "^{61}\\mathrm{Ga}",
   },
   {
-    pdg: (-1000310610),
+    pdg: -1000310610,
     name: "Ga61~",
     mass: Some(56773.7919496),
     width: None,
@@ -23814,7 +23814,7 @@ let data = [|
     latex: "^{62}\\mathrm{Ga}",
   },
   {
-    pdg: (-1000310620),
+    pdg: -1000310620,
     name: "Ga62~",
     mass: Some(57700.637889),
     width: None,
@@ -23840,7 +23840,7 @@ let data = [|
     latex: "^{63}\\mathrm{Ga}",
   },
   {
-    pdg: (-1000310630),
+    pdg: -1000310630,
     name: "Ga63~",
     mass: Some(58627.4372538),
     width: None,
@@ -23866,7 +23866,7 @@ let data = [|
     latex: "^{64}\\mathrm{Ga}",
   },
   {
-    pdg: (-1000310640),
+    pdg: -1000310640,
     name: "Ga64~",
     mass: Some(59556.7870493),
     width: None,
@@ -23892,7 +23892,7 @@ let data = [|
     latex: "^{65}\\mathrm{Ga}",
   },
   {
-    pdg: (-1000310650),
+    pdg: -1000310650,
     name: "Ga65~",
     mass: Some(60484.4632295),
     width: None,
@@ -23918,7 +23918,7 @@ let data = [|
     latex: "^{66}\\mathrm{Ga}",
   },
   {
-    pdg: (-1000310660),
+    pdg: -1000310660,
     name: "Ga66~",
     mass: Some(61414.8886213),
     width: None,
@@ -23944,7 +23944,7 @@ let data = [|
     latex: "^{67}\\mathrm{Ga}",
   },
   {
-    pdg: (-1000310670),
+    pdg: -1000310670,
     name: "Ga67~",
     mass: Some(62343.2276526),
     width: None,
@@ -23970,7 +23970,7 @@ let data = [|
     latex: "^{68}\\mathrm{Ga}",
   },
   {
-    pdg: (-1000310680),
+    pdg: -1000310680,
     name: "Ga68~",
     mass: Some(63274.5155148),
     width: None,
@@ -23996,7 +23996,7 @@ let data = [|
     latex: "^{69}\\mathrm{Ga}",
   },
   {
-    pdg: (-1000310690),
+    pdg: -1000310690,
     name: "Ga69~",
     mass: Some(64203.7716953),
     width: None,
@@ -24022,7 +24022,7 @@ let data = [|
     latex: "^{70}\\mathrm{Ga}",
   },
   {
-    pdg: (-1000310700),
+    pdg: -1000310700,
     name: "Ga70~",
     mass: Some(65135.6821681),
     width: None,
@@ -24048,7 +24048,7 @@ let data = [|
     latex: "^{71}\\mathrm{Ga}",
   },
   {
-    pdg: (-1000310710),
+    pdg: -1000310710,
     name: "Ga71~",
     mass: Some(66065.9438964),
     width: None,
@@ -24074,7 +24074,7 @@ let data = [|
     latex: "^{72}\\mathrm{Ga}",
   },
   {
-    pdg: (-1000310720),
+    pdg: -1000310720,
     name: "Ga72~",
     mass: Some(66998.9883702),
     width: None,
@@ -24100,7 +24100,7 @@ let data = [|
     latex: "^{73}\\mathrm{Ga}",
   },
   {
-    pdg: (-1000310730),
+    pdg: -1000310730,
     name: "Ga73~",
     mass: Some(67929.3652312),
     width: None,
@@ -24126,7 +24126,7 @@ let data = [|
     latex: "^{74}\\mathrm{Ga}",
   },
   {
-    pdg: (-1000310740),
+    pdg: -1000310740,
     name: "Ga74~",
     mass: Some(68862.5080707),
     width: None,
@@ -24152,7 +24152,7 @@ let data = [|
     latex: "^{75}\\mathrm{Ga}",
   },
   {
-    pdg: (-1000310750),
+    pdg: -1000310750,
     name: "Ga75~",
     mass: Some(69793.5932398),
     width: None,
@@ -24178,7 +24178,7 @@ let data = [|
     latex: "^{76}\\mathrm{Ga}",
   },
   {
-    pdg: (-1000310760),
+    pdg: -1000310760,
     name: "Ga76~",
     mass: Some(70727.3499339),
     width: None,
@@ -24204,7 +24204,7 @@ let data = [|
     latex: "^{77}\\mathrm{Ga}",
   },
   {
-    pdg: (-1000310770),
+    pdg: -1000310770,
     name: "Ga77~",
     mass: Some(71659.1700518),
     width: None,
@@ -24230,7 +24230,7 @@ let data = [|
     latex: "^{78}\\mathrm{Ga}",
   },
   {
-    pdg: (-1000310780),
+    pdg: -1000310780,
     name: "Ga78~",
     mass: Some(72592.8811028),
     width: None,
@@ -24256,7 +24256,7 @@ let data = [|
     latex: "^{79}\\mathrm{Ga}",
   },
   {
-    pdg: (-1000310790),
+    pdg: -1000310790,
     name: "Ga79~",
     mass: Some(73525.5488803),
     width: None,
@@ -24282,7 +24282,7 @@ let data = [|
     latex: "^{80}\\mathrm{Ga}",
   },
   {
-    pdg: (-1000310800),
+    pdg: -1000310800,
     name: "Ga80~",
     mass: Some(74460.4615586),
     width: None,
@@ -24308,7 +24308,7 @@ let data = [|
     latex: "^{81}\\mathrm{Ga}",
   },
   {
-    pdg: (-1000310810),
+    pdg: -1000310810,
     name: "Ga81~",
     mass: Some(75393.0361868),
     width: None,
@@ -24334,7 +24334,7 @@ let data = [|
     latex: "^{82}\\mathrm{Ga}",
   },
   {
-    pdg: (-1000310820),
+    pdg: -1000310820,
     name: "Ga82~",
     mass: Some(76329.5696648),
     width: None,
@@ -24360,7 +24360,7 @@ let data = [|
     latex: "^{83}\\mathrm{Ga}",
   },
   {
-    pdg: (-1000310830),
+    pdg: -1000310830,
     name: "Ga83~",
     mass: Some(77264.5196029),
     width: None,
@@ -24386,7 +24386,7 @@ let data = [|
     latex: "^{84}\\mathrm{Ga}",
   },
   {
-    pdg: (-1000310840),
+    pdg: -1000310840,
     name: "Ga84~",
     mass: Some(78201.1089706),
     width: None,
@@ -24412,7 +24412,7 @@ let data = [|
     latex: "^{58}\\mathrm{Ge}",
   },
   {
-    pdg: (-1000320580),
+    pdg: -1000320580,
     name: "Ge58~",
     mass: Some(54018.2833775),
     width: None,
@@ -24438,7 +24438,7 @@ let data = [|
     latex: "^{59}\\mathrm{Ge}",
   },
   {
-    pdg: (-1000320590),
+    pdg: -1000320590,
     name: "Ge59~",
     mass: Some(54941.1518372),
     width: None,
@@ -24464,7 +24464,7 @@ let data = [|
     latex: "^{60}\\mathrm{Ge}",
   },
   {
-    pdg: (-1000320600),
+    pdg: -1000320600,
     name: "Ge60~",
     mass: Some(55861.8778604),
     width: None,
@@ -24490,7 +24490,7 @@ let data = [|
     latex: "^{61}\\mathrm{Ge}",
   },
   {
-    pdg: (-1000320610),
+    pdg: -1000320610,
     name: "Ge61~",
     mass: Some(56787.4103932),
     width: None,
@@ -24516,7 +24516,7 @@ let data = [|
     latex: "^{62}\\mathrm{Ge}",
   },
   {
-    pdg: (-1000320620),
+    pdg: -1000320620,
     name: "Ge62~",
     mass: Some(57710.3906322),
     width: None,
@@ -24542,7 +24542,7 @@ let data = [|
     latex: "^{63}\\mathrm{Ge}",
   },
   {
-    pdg: (-1000320630),
+    pdg: -1000320630,
     name: "Ge63~",
     mass: Some(58637.2179418),
     width: None,
@@ -24568,7 +24568,7 @@ let data = [|
     latex: "^{64}\\mathrm{Ge}",
   },
   {
-    pdg: (-1000320640),
+    pdg: -1000320640,
     name: "Ge64~",
     mass: Some(59561.1948794),
     width: None,
@@ -24594,7 +24594,7 @@ let data = [|
     latex: "^{65}\\mathrm{Ge}",
   },
   {
-    pdg: (-1000320650),
+    pdg: -1000320650,
     name: "Ge65~",
     mass: Some(60490.704892),
     width: None,
@@ -24620,7 +24620,7 @@ let data = [|
     latex: "^{66}\\mathrm{Ge}",
   },
   {
-    pdg: (-1000320660),
+    pdg: -1000320660,
     name: "Ge66~",
     mass: Some(61416.991935),
     width: None,
@@ -24646,7 +24646,7 @@ let data = [|
     latex: "^{67}\\mathrm{Ge}",
   },
   {
-    pdg: (-1000320670),
+    pdg: -1000320670,
     name: "Ge67~",
     mass: Some(62347.4502085),
     width: None,
@@ -24672,7 +24672,7 @@ let data = [|
     latex: "^{68}\\mathrm{Ge}",
   },
   {
-    pdg: (-1000320680),
+    pdg: -1000320680,
     name: "Ge68~",
     mass: Some(63274.6212394),
     width: None,
@@ -24698,7 +24698,7 @@ let data = [|
     latex: "^{69}\\mathrm{Ge}",
   },
   {
-    pdg: (-1000320690),
+    pdg: -1000320690,
     name: "Ge69~",
     mass: Some(64205.9988976),
     width: None,
@@ -24724,7 +24724,7 @@ let data = [|
     latex: "^{70}\\mathrm{Ge}",
   },
   {
-    pdg: (-1000320700),
+    pdg: -1000320700,
     name: "Ge70~",
     mass: Some(65134.0263442),
     width: None,
@@ -24750,7 +24750,7 @@ let data = [|
     latex: "^{71}\\mathrm{Ge}",
   },
   {
-    pdg: (-1000320710),
+    pdg: -1000320710,
     name: "Ge71~",
     mass: Some(66066.1758384),
     width: None,
@@ -24776,7 +24776,7 @@ let data = [|
     latex: "^{72}\\mathrm{Ge}",
   },
   {
-    pdg: (-1000320720),
+    pdg: -1000320720,
     name: "Ge72~",
     mass: Some(66994.9892797),
     width: None,
@@ -24802,7 +24802,7 @@ let data = [|
     latex: "^{73}\\mathrm{Ge}",
   },
   {
-    pdg: (-1000320730),
+    pdg: -1000320730,
     name: "Ge73~",
     mass: Some(67927.7718174),
     width: None,
@@ -24828,7 +24828,7 @@ let data = [|
     latex: "^{74}\\mathrm{Ge}",
   },
   {
-    pdg: (-1000320740),
+    pdg: -1000320740,
     name: "Ge74~",
     mass: Some(68857.140988),
     width: None,
@@ -24854,7 +24854,7 @@ let data = [|
     latex: "^{75}\\mathrm{Ge}",
   },
   {
-    pdg: (-1000320750),
+    pdg: -1000320750,
     name: "Ge75~",
     mass: Some(69790.201204),
     width: None,
@@ -24880,7 +24880,7 @@ let data = [|
     latex: "^{76}\\mathrm{Ge}",
   },
   {
-    pdg: (-1000320760),
+    pdg: -1000320760,
     name: "Ge76~",
     mass: Some(70720.3382984),
     width: None,
@@ -24906,7 +24906,7 @@ let data = [|
     latex: "^{77}\\mathrm{Ge}",
   },
   {
-    pdg: (-1000320770),
+    pdg: -1000320770,
     name: "Ge77~",
     mass: Some(71653.8311934),
     width: None,
@@ -24932,7 +24932,7 @@ let data = [|
     latex: "^{78}\\mathrm{Ge}",
   },
   {
-    pdg: (-1000320780),
+    pdg: -1000320780,
     name: "Ge78~",
     mass: Some(72584.6774343),
     width: None,
@@ -24958,7 +24958,7 @@ let data = [|
     latex: "^{79}\\mathrm{Ge}",
   },
   {
-    pdg: (-1000320790),
+    pdg: -1000320790,
     name: "Ge79~",
     mass: Some(73518.5440447),
     width: None,
@@ -24984,7 +24984,7 @@ let data = [|
     latex: "^{80}\\mathrm{Ge}",
   },
   {
-    pdg: (-1000320800),
+    pdg: -1000320800,
     name: "Ge80~",
     mass: Some(74450.080057),
     width: None,
@@ -25010,7 +25010,7 @@ let data = [|
     latex: "^{81}\\mathrm{Ge}",
   },
   {
-    pdg: (-1000320810),
+    pdg: -1000320810,
     name: "Ge81~",
     mass: Some(75384.7179445),
     width: None,
@@ -25036,7 +25036,7 @@ let data = [|
     latex: "^{82}\\mathrm{Ge}",
   },
   {
-    pdg: (-1000320820),
+    pdg: -1000320820,
     name: "Ge82~",
     mass: Some(76316.8920302),
     width: None,
@@ -25062,7 +25062,7 @@ let data = [|
     latex: "^{83}\\mathrm{Ge}",
   },
   {
-    pdg: (-1000320830),
+    pdg: -1000320830,
     name: "Ge83~",
     mass: Some(77253.0063359),
     width: None,
@@ -25088,7 +25088,7 @@ let data = [|
     latex: "^{84}\\mathrm{Ge}",
   },
   {
-    pdg: (-1000320840),
+    pdg: -1000320840,
     name: "Ge84~",
     mass: Some(78187.1086144),
     width: None,
@@ -25114,7 +25114,7 @@ let data = [|
     latex: "^{85}\\mathrm{Ge}",
   },
   {
-    pdg: (-1000320850),
+    pdg: -1000320850,
     name: "Ge85~",
     mass: Some(79123.6141476),
     width: None,
@@ -25140,7 +25140,7 @@ let data = [|
     latex: "^{86}\\mathrm{Ge}",
   },
   {
-    pdg: (-1000320860),
+    pdg: -1000320860,
     name: "Ge86~",
     mass: Some(80058.4429914),
     width: None,
@@ -25166,7 +25166,7 @@ let data = [|
     latex: "^{60}\\mathrm{As}",
   },
   {
-    pdg: (-1000330600),
+    pdg: -1000330600,
     name: "As60~",
     mass: Some(55883.246335),
     width: None,
@@ -25192,7 +25192,7 @@ let data = [|
     latex: "^{61}\\mathrm{As}",
   },
   {
-    pdg: (-1000330610),
+    pdg: -1000330610,
     name: "As61~",
     mass: Some(56803.0874388),
     width: None,
@@ -25218,7 +25218,7 @@ let data = [|
     latex: "^{62}\\mathrm{As}",
   },
   {
-    pdg: (-1000330620),
+    pdg: -1000330620,
     name: "As62~",
     mass: Some(57727.6698476),
     width: None,
@@ -25244,7 +25244,7 @@ let data = [|
     latex: "^{63}\\mathrm{As}",
   },
   {
-    pdg: (-1000330630),
+    pdg: -1000330630,
     name: "As63~",
     mass: Some(58650.3054338),
     width: None,
@@ -25270,7 +25270,7 @@ let data = [|
     latex: "^{64}\\mathrm{As}",
   },
   {
-    pdg: (-1000330640),
+    pdg: -1000330640,
     name: "As64~",
     mass: Some(59576.0987849),
     width: None,
@@ -25296,7 +25296,7 @@ let data = [|
     latex: "^{65}\\mathrm{As}",
   },
   {
-    pdg: (-1000330650),
+    pdg: -1000330650,
     name: "As65~",
     mass: Some(60500.0570927),
     width: None,
@@ -25322,7 +25322,7 @@ let data = [|
     latex: "^{66}\\mathrm{As}",
   },
   {
-    pdg: (-1000330660),
+    pdg: -1000330660,
     name: "As66~",
     mass: Some(61426.7912528),
     width: None,
@@ -25348,7 +25348,7 @@ let data = [|
     latex: "^{67}\\mathrm{As}",
   },
   {
-    pdg: (-1000330670),
+    pdg: -1000330670,
     name: "As67~",
     mass: Some(62353.4602084),
     width: None,
@@ -25374,7 +25374,7 @@ let data = [|
     latex: "^{68}\\mathrm{As}",
   },
   {
-    pdg: (-1000330680),
+    pdg: -1000330680,
     name: "As68~",
     mass: Some(63282.7187176),
     width: None,
@@ -25400,7 +25400,7 @@ let data = [|
     latex: "^{69}\\mathrm{As}",
   },
   {
-    pdg: (-1000330690),
+    pdg: -1000330690,
     name: "As69~",
     mass: Some(64210.0117742),
     width: None,
@@ -25426,7 +25426,7 @@ let data = [|
     latex: "^{70}\\mathrm{As}",
   },
   {
-    pdg: (-1000330700),
+    pdg: -1000330700,
     name: "As70~",
     mass: Some(65140.2483522),
     width: None,
@@ -25452,7 +25452,7 @@ let data = [|
     latex: "^{71}\\mathrm{As}",
   },
   {
-    pdg: (-1000330710),
+    pdg: -1000330710,
     name: "As71~",
     mass: Some(66068.1887972),
     width: None,
@@ -25478,7 +25478,7 @@ let data = [|
     latex: "^{72}\\mathrm{As}",
   },
   {
-    pdg: (-1000330720),
+    pdg: -1000330720,
     name: "As72~",
     mass: Some(66999.3456913),
     width: None,
@@ -25504,7 +25504,7 @@ let data = [|
     latex: "^{73}\\mathrm{As}",
   },
   {
-    pdg: (-1000330730),
+    pdg: -1000330730,
     name: "As73~",
     mass: Some(67928.1123716),
     width: None,
@@ -25530,7 +25530,7 @@ let data = [|
     latex: "^{74}\\mathrm{As}",
   },
   {
-    pdg: (-1000330740),
+    pdg: -1000330740,
     name: "As74~",
     mass: Some(68859.7034351),
     width: None,
@@ -25556,7 +25556,7 @@ let data = [|
     latex: "^{75}\\mathrm{As}",
   },
   {
-    pdg: (-1000330750),
+    pdg: -1000330750,
     name: "As75~",
     mass: Some(69789.0246338),
     width: None,
@@ -25582,7 +25582,7 @@ let data = [|
     latex: "^{76}\\mathrm{As}",
   },
   {
-    pdg: (-1000330760),
+    pdg: -1000330760,
     name: "As76~",
     mass: Some(70721.2615954),
     width: None,
@@ -25608,7 +25608,7 @@ let data = [|
     latex: "^{77}\\mathrm{As}",
   },
   {
-    pdg: (-1000330770),
+    pdg: -1000330770,
     name: "As77~",
     mass: Some(71651.1291154),
     width: None,
@@ -25634,7 +25634,7 @@ let data = [|
     latex: "^{78}\\mathrm{As}",
   },
   {
-    pdg: (-1000330780),
+    pdg: -1000330780,
     name: "As78~",
     mass: Some(72583.7235843),
     width: None,
@@ -25660,7 +25660,7 @@ let data = [|
     latex: "^{79}\\mathrm{As}",
   },
   {
-    pdg: (-1000330790),
+    pdg: -1000330790,
     name: "As79~",
     mass: Some(73514.397033),
     width: None,
@@ -25686,7 +25686,7 @@ let data = [|
     latex: "^{80}\\mathrm{As}",
   },
   {
-    pdg: (-1000330800),
+    pdg: -1000330800,
     name: "As80~",
     mass: Some(74447.4094634),
     width: None,
@@ -25712,7 +25712,7 @@ let data = [|
     latex: "^{81}\\mathrm{As}",
   },
   {
-    pdg: (-1000330810),
+    pdg: -1000330810,
     name: "As81~",
     mass: Some(75378.4890435),
     width: None,
@@ -25738,7 +25738,7 @@ let data = [|
     latex: "^{82}\\mathrm{As}",
   },
   {
-    pdg: (-1000330820),
+    pdg: -1000330820,
     name: "As82~",
     mass: Some(76312.187985),
     width: None,
@@ -25764,7 +25764,7 @@ let data = [|
     latex: "^{83}\\mathrm{As}",
   },
   {
-    pdg: (-1000330830),
+    pdg: -1000330830,
     name: "As83~",
     mass: Some(77244.1291972),
     width: None,
@@ -25790,7 +25790,7 @@ let data = [|
     latex: "^{84}\\mathrm{As}",
   },
   {
-    pdg: (-1000330840),
+    pdg: -1000330840,
     name: "As84~",
     mass: Some(78179.4237881),
     width: None,
@@ -25816,7 +25816,7 @@ let data = [|
     latex: "^{85}\\mathrm{As}",
   },
   {
-    pdg: (-1000330850),
+    pdg: -1000330850,
     name: "As85~",
     mass: Some(79113.4794918),
     width: None,
@@ -25842,7 +25842,7 @@ let data = [|
     latex: "^{86}\\mathrm{As}",
   },
   {
-    pdg: (-1000330860),
+    pdg: -1000330860,
     name: "As86~",
     mass: Some(80049.0907907),
     width: None,
@@ -25868,7 +25868,7 @@ let data = [|
     latex: "^{87}\\mathrm{As}",
   },
   {
-    pdg: (-1000330870),
+    pdg: -1000330870,
     name: "As87~",
     mass: Some(80983.7053909),
     width: None,
@@ -25894,7 +25894,7 @@ let data = [|
     latex: "^{88}\\mathrm{As}",
   },
   {
-    pdg: (-1000330880),
+    pdg: -1000330880,
     name: "As88~",
     mass: Some(81919.8383265),
     width: None,
@@ -25920,7 +25920,7 @@ let data = [|
     latex: "^{89}\\mathrm{As}",
   },
   {
-    pdg: (-1000330890),
+    pdg: -1000330890,
     name: "As89~",
     mass: Some(82855.6824989),
     width: None,
@@ -25946,7 +25946,7 @@ let data = [|
     latex: "^{65}\\mathrm{Se}",
   },
   {
-    pdg: (-1000340650),
+    pdg: -1000340650,
     name: "Se65~",
     mass: Some(60514.197173),
     width: None,
@@ -25972,7 +25972,7 @@ let data = [|
     latex: "^{66}\\mathrm{Se}",
   },
   {
-    pdg: (-1000340660),
+    pdg: -1000340660,
     name: "Se66~",
     mass: Some(61436.8886488),
     width: None,
@@ -25998,7 +25998,7 @@ let data = [|
     latex: "^{67}\\mathrm{Se}",
   },
   {
-    pdg: (-1000340670),
+    pdg: -1000340670,
     name: "Se67~",
     mass: Some(62363.6134941),
     width: None,
@@ -26024,7 +26024,7 @@ let data = [|
     latex: "^{68}\\mathrm{Se}",
   },
   {
-    pdg: (-1000340680),
+    pdg: -1000340680,
     name: "Se68~",
     mass: Some(63287.4507076),
     width: None,
@@ -26050,7 +26050,7 @@ let data = [|
     latex: "^{69}\\mathrm{Se}",
   },
   {
-    pdg: (-1000340690),
+    pdg: -1000340690,
     name: "Se69~",
     mass: Some(64216.7930512),
     width: None,
@@ -26076,7 +26076,7 @@ let data = [|
     latex: "^{70}\\mathrm{Se}",
   },
   {
-    pdg: (-1000340700),
+    pdg: -1000340700,
     name: "Se70~",
     mass: Some(65142.642292),
     width: None,
@@ -26102,7 +26102,7 @@ let data = [|
     latex: "^{71}\\mathrm{Se}",
   },
   {
-    pdg: (-1000340710),
+    pdg: -1000340710,
     name: "Se71~",
     mass: Some(66072.9906492),
     width: None,
@@ -26128,7 +26128,7 @@ let data = [|
     latex: "^{72}\\mathrm{Se}",
   },
   {
-    pdg: (-1000340720),
+    pdg: -1000340720,
     name: "Se72~",
     mass: Some(66999.6800977),
     width: None,
@@ -26154,7 +26154,7 @@ let data = [|
     latex: "^{73}\\mathrm{Se}",
   },
   {
-    pdg: (-1000340730),
+    pdg: -1000340730,
     name: "Se73~",
     mass: Some(67930.8528272),
     width: None,
@@ -26180,7 +26180,7 @@ let data = [|
     latex: "^{74}\\mathrm{Se}",
   },
   {
-    pdg: (-1000340740),
+    pdg: -1000340740,
     name: "Se74~",
     mass: Some(68858.3504399),
     width: None,
@@ -26206,7 +26206,7 @@ let data = [|
     latex: "^{75}\\mathrm{Se}",
   },
   {
-    pdg: (-1000340750),
+    pdg: -1000340750,
     name: "Se75~",
     mass: Some(69789.8883152),
     width: None,
@@ -26232,7 +26232,7 @@ let data = [|
     latex: "^{76}\\mathrm{Se}",
   },
   {
-    pdg: (-1000340760),
+    pdg: -1000340760,
     name: "Se76~",
     mass: Some(70718.2996304),
     width: None,
@@ -26258,7 +26258,7 @@ let data = [|
     latex: "^{77}\\mathrm{Se}",
   },
   {
-    pdg: (-1000340770),
+    pdg: -1000340770,
     name: "Se77~",
     mass: Some(71650.446237),
     width: None,
@@ -26284,7 +26284,7 @@ let data = [|
     latex: "^{78}\\mathrm{Se}",
   },
   {
-    pdg: (-1000340780),
+    pdg: -1000340780,
     name: "Se78~",
     mass: Some(72579.5136968),
     width: None,
@@ -26310,7 +26310,7 @@ let data = [|
     latex: "^{79}\\mathrm{Se}",
   },
   {
-    pdg: (-1000340790),
+    pdg: -1000340790,
     name: "Se79~",
     mass: Some(73512.1165492),
     width: None,
@@ -26336,7 +26336,7 @@ let data = [|
     latex: "^{80}\\mathrm{Se}",
   },
   {
-    pdg: (-1000340800),
+    pdg: -1000340800,
     name: "Se80~",
     mass: Some(74441.7681489),
     width: None,
@@ -26362,7 +26362,7 @@ let data = [|
     latex: "^{81}\\mathrm{Se}",
   },
   {
-    pdg: (-1000340810),
+    pdg: -1000340810,
     name: "Se81~",
     mass: Some(75374.6325648),
     width: None,
@@ -26388,7 +26388,7 @@ let data = [|
     latex: "^{82}\\mathrm{Se}",
   },
   {
-    pdg: (-1000340820),
+    pdg: -1000340820,
     name: "Se82~",
     mass: Some(76304.9223311),
     width: None,
@@ -26414,7 +26414,7 @@ let data = [|
     latex: "^{83}\\mathrm{Se}",
   },
   {
-    pdg: (-1000340830),
+    pdg: -1000340830,
     name: "Se83~",
     mass: Some(77238.6697103),
     width: None,
@@ -26440,7 +26440,7 @@ let data = [|
     latex: "^{84}\\mathrm{Se}",
   },
   {
-    pdg: (-1000340840),
+    pdg: -1000340840,
     name: "Se84~",
     mass: Some(78169.5546081),
     width: None,
@@ -26466,7 +26466,7 @@ let data = [|
     latex: "^{85}\\mathrm{Se}",
   },
   {
-    pdg: (-1000340850),
+    pdg: -1000340850,
     name: "Se85~",
     mass: Some(79104.5650933),
     width: None,
@@ -26492,7 +26492,7 @@ let data = [|
     latex: "^{86}\\mathrm{Se}",
   },
   {
-    pdg: (-1000340860),
+    pdg: -1000340860,
     name: "Se86~",
     mass: Some(80037.9510528),
     width: None,
@@ -26518,7 +26518,7 @@ let data = [|
     latex: "^{87}\\mathrm{Se}",
   },
   {
-    pdg: (-1000340870),
+    pdg: -1000340870,
     name: "Se87~",
     mass: Some(80973.4030662),
     width: None,
@@ -26544,7 +26544,7 @@ let data = [|
     latex: "^{88}\\mathrm{Se}",
   },
   {
-    pdg: (-1000340880),
+    pdg: -1000340880,
     name: "Se88~",
     mass: Some(81907.5984941),
     width: None,
@@ -26570,7 +26570,7 @@ let data = [|
     latex: "^{89}\\mathrm{Se}",
   },
   {
-    pdg: (-1000340890),
+    pdg: -1000340890,
     name: "Se89~",
     mass: Some(82843.3774619),
     width: None,
@@ -26596,7 +26596,7 @@ let data = [|
     latex: "^{90}\\mathrm{Se}",
   },
   {
-    pdg: (-1000340900),
+    pdg: -1000340900,
     name: "Se90~",
     mass: Some(83778.0386368),
     width: None,
@@ -26622,7 +26622,7 @@ let data = [|
     latex: "^{91}\\mathrm{Se}",
   },
   {
-    pdg: (-1000340910),
+    pdg: -1000340910,
     name: "Se91~",
     mass: Some(84715.0751217),
     width: None,
@@ -26648,7 +26648,7 @@ let data = [|
     latex: "^{92}\\mathrm{Se}",
   },
   {
-    pdg: (-1000340920),
+    pdg: -1000340920,
     name: "Se92~",
     mass: Some(85650.2579333),
     width: None,
@@ -26674,7 +26674,7 @@ let data = [|
     latex: "^{67}\\mathrm{Br}",
   },
   {
-    pdg: (-1000350670),
+    pdg: -1000350670,
     name: "Br67~",
     mass: Some(62377.3064573),
     width: None,
@@ -26700,7 +26700,7 @@ let data = [|
     latex: "^{68}\\mathrm{Br}",
   },
   {
-    pdg: (-1000350680),
+    pdg: -1000350680,
     name: "Br68~",
     mass: Some(63302.7085809),
     width: None,
@@ -26726,7 +26726,7 @@ let data = [|
     latex: "^{69}\\mathrm{Br}",
   },
   {
-    pdg: (-1000350690),
+    pdg: -1000350690,
     name: "Br69~",
     mass: Some(64226.6855185),
     width: None,
@@ -26752,7 +26752,7 @@ let data = [|
     latex: "^{70}\\mathrm{Br}",
   },
   {
-    pdg: (-1000350700),
+    pdg: -1000350700,
     name: "Br70~",
     mass: Some(65153.0005063),
     width: None,
@@ -26778,7 +26778,7 @@ let data = [|
     latex: "^{71}\\mathrm{Br}",
   },
   {
-    pdg: (-1000350710),
+    pdg: -1000350710,
     name: "Br71~",
     mass: Some(66079.492478),
     width: None,
@@ -26804,7 +26804,7 @@ let data = [|
     latex: "^{72}\\mathrm{Br}",
   },
   {
-    pdg: (-1000350720),
+    pdg: -1000350720,
     name: "Br72~",
     mass: Some(67008.4249643),
     width: None,
@@ -26830,7 +26830,7 @@ let data = [|
     latex: "^{73}\\mathrm{Br}",
   },
   {
-    pdg: (-1000350730),
+    pdg: -1000350730,
     name: "Br73~",
     mass: Some(67935.5317221),
     width: None,
@@ -26856,7 +26856,7 @@ let data = [|
     latex: "^{74}\\mathrm{Br}",
   },
   {
-    pdg: (-1000350740),
+    pdg: -1000350740,
     name: "Br74~",
     mass: Some(68865.2569098),
     width: None,
@@ -26882,7 +26882,7 @@ let data = [|
     latex: "^{75}\\mathrm{Br}",
   },
   {
-    pdg: (-1000350750),
+    pdg: -1000350750,
     name: "Br75~",
     mass: Some(69792.9179066),
     width: None,
@@ -26908,7 +26908,7 @@ let data = [|
     latex: "^{76}\\mathrm{Br}",
   },
   {
-    pdg: (-1000350760),
+    pdg: -1000350760,
     name: "Br76~",
     mass: Some(70723.2625378),
     width: None,
@@ -26934,7 +26934,7 @@ let data = [|
     latex: "^{77}\\mathrm{Br}",
   },
   {
-    pdg: (-1000350770),
+    pdg: -1000350770,
     name: "Br77~",
     mass: Some(71651.8112485),
     width: None,
@@ -26960,7 +26960,7 @@ let data = [|
     latex: "^{78}\\mathrm{Br}",
   },
   {
-    pdg: (-1000350780),
+    pdg: -1000350780,
     name: "Br78~",
     mass: Some(72583.0873739),
     width: None,
@@ -26986,7 +26986,7 @@ let data = [|
     latex: "^{79}\\mathrm{Br}",
   },
   {
-    pdg: (-1000350790),
+    pdg: -1000350790,
     name: "Br79~",
     mass: Some(73511.9654608),
     width: None,
@@ -27012,7 +27012,7 @@ let data = [|
     latex: "^{80}\\mathrm{Br}",
   },
   {
-    pdg: (-1000350800),
+    pdg: -1000350800,
     name: "Br80~",
     mass: Some(74443.6387753),
     width: None,
@@ -27038,7 +27038,7 @@ let data = [|
     latex: "^{81}\\mathrm{Br}",
   },
   {
-    pdg: (-1000350810),
+    pdg: -1000350810,
     name: "Br81~",
     mass: Some(75373.047255),
     width: None,
@@ -27064,7 +27064,7 @@ let data = [|
     latex: "^{82}\\mathrm{Br}",
   },
   {
-    pdg: (-1000350820),
+    pdg: -1000350820,
     name: "Br82~",
     mass: Some(76305.020138),
     width: None,
@@ -27090,7 +27090,7 @@ let data = [|
     latex: "^{83}\\mathrm{Br}",
   },
   {
-    pdg: (-1000350830),
+    pdg: -1000350830,
     name: "Br83~",
     mass: Some(77235.000555),
     width: None,
@@ -27116,7 +27116,7 @@ let data = [|
     latex: "^{84}\\mathrm{Br}",
   },
   {
-    pdg: (-1000350840),
+    pdg: -1000350840,
     name: "Br84~",
     mass: Some(78167.7279482),
     width: None,
@@ -27142,7 +27142,7 @@ let data = [|
     latex: "^{85}\\mathrm{Br}",
   },
   {
-    pdg: (-1000350850),
+    pdg: -1000350850,
     name: "Br85~",
     mass: Some(79098.3874245),
     width: None,
@@ -27168,7 +27168,7 @@ let data = [|
     latex: "^{86}\\mathrm{Br}",
   },
   {
-    pdg: (-1000350860),
+    pdg: -1000350860,
     name: "Br86~",
     mass: Some(80032.8520542),
     width: None,
@@ -27194,7 +27194,7 @@ let data = [|
     latex: "^{87}\\mathrm{Br}",
   },
   {
-    pdg: (-1000350870),
+    pdg: -1000350870,
     name: "Br87~",
     mass: Some(80966.1290288),
     width: None,
@@ -27220,7 +27220,7 @@ let data = [|
     latex: "^{88}\\mathrm{Br}",
   },
   {
-    pdg: (-1000350880),
+    pdg: -1000350880,
     name: "Br88~",
     mass: Some(81900.7520125),
     width: None,
@@ -27246,7 +27246,7 @@ let data = [|
     latex: "^{89}\\mathrm{Br}",
   },
   {
-    pdg: (-1000350890),
+    pdg: -1000350890,
     name: "Br89~",
     mass: Some(82834.4071738),
     width: None,
@@ -27272,7 +27272,7 @@ let data = [|
     latex: "^{90}\\mathrm{Br}",
   },
   {
-    pdg: (-1000350900),
+    pdg: -1000350900,
     name: "Br90~",
     mass: Some(83769.8508037),
     width: None,
@@ -27298,7 +27298,7 @@ let data = [|
     latex: "^{91}\\mathrm{Br}",
   },
   {
-    pdg: (-1000350910),
+    pdg: -1000350910,
     name: "Br91~",
     mass: Some(84704.456089),
     width: None,
@@ -27324,7 +27324,7 @@ let data = [|
     latex: "^{92}\\mathrm{Br}",
   },
   {
-    pdg: (-1000350920),
+    pdg: -1000350920,
     name: "Br92~",
     mass: Some(85640.8777878),
     width: None,
@@ -27350,7 +27350,7 @@ let data = [|
     latex: "^{93}\\mathrm{Br}",
   },
   {
-    pdg: (-1000350930),
+    pdg: -1000350930,
     name: "Br93~",
     mass: Some(86575.9488201),
     width: None,
@@ -27376,7 +27376,7 @@ let data = [|
     latex: "^{94}\\mathrm{Br}",
   },
   {
-    pdg: (-1000350940),
+    pdg: -1000350940,
     name: "Br94~",
     mass: Some(87512.6406521),
     width: None,
@@ -27402,7 +27402,7 @@ let data = [|
     latex: "^{69}\\mathrm{Kr}",
   },
   {
-    pdg: (-1000360690),
+    pdg: -1000360690,
     name: "Kr69~",
     mass: Some(64240.7883391),
     width: None,
@@ -27428,7 +27428,7 @@ let data = [|
     latex: "^{70}\\mathrm{Kr}",
   },
   {
-    pdg: (-1000360700),
+    pdg: -1000360700,
     name: "Kr70~",
     mass: Some(65163.6102241),
     width: None,
@@ -27454,7 +27454,7 @@ let data = [|
     latex: "^{71}\\mathrm{Kr}",
   },
   {
-    pdg: (-1000360710),
+    pdg: -1000360710,
     name: "Kr71~",
     mass: Some(66089.9811015),
     width: None,
@@ -27480,7 +27480,7 @@ let data = [|
     latex: "^{72}\\mathrm{Kr}",
   },
   {
-    pdg: (-1000360720),
+    pdg: -1000360720,
     name: "Kr72~",
     mass: Some(67013.4643473),
     width: None,
@@ -27506,7 +27506,7 @@ let data = [|
     latex: "^{73}\\mathrm{Kr}",
   },
   {
-    pdg: (-1000360730),
+    pdg: -1000360730,
     name: "Kr73~",
     mass: Some(67942.1825899),
     width: None,
@@ -27532,7 +27532,7 @@ let data = [|
     latex: "^{74}\\mathrm{Kr}",
   },
   {
-    pdg: (-1000360740),
+    pdg: -1000360740,
     name: "Kr74~",
     mass: Some(68868.3951134),
     width: None,
@@ -27558,7 +27558,7 @@ let data = [|
     latex: "^{75}\\mathrm{Kr}",
   },
   {
-    pdg: (-1000360750),
+    pdg: -1000360750,
     name: "Kr75~",
     mass: Some(69797.8157025),
     width: None,
@@ -27584,7 +27584,7 @@ let data = [|
     latex: "^{76}\\mathrm{Kr}",
   },
   {
-    pdg: (-1000360760),
+    pdg: -1000360760,
     name: "Kr76~",
     mass: Some(70724.5722185),
     width: None,
@@ -27610,7 +27610,7 @@ let data = [|
     latex: "^{77}\\mathrm{Kr}",
   },
   {
-    pdg: (-1000360770),
+    pdg: -1000360770,
     name: "Kr77~",
     mass: Some(71654.8740011),
     width: None,
@@ -27636,7 +27636,7 @@ let data = [|
     latex: "^{78}\\mathrm{Kr}",
   },
   {
-    pdg: (-1000360780),
+    pdg: -1000360780,
     name: "Kr78~",
     mass: Some(72582.3794384),
     width: None,
@@ -27662,7 +27662,7 @@ let data = [|
     latex: "^{79}\\mathrm{Kr}",
   },
   {
-    pdg: (-1000360790),
+    pdg: -1000360790,
     name: "Kr79~",
     mass: Some(73513.5912906),
     width: None,
@@ -27688,7 +27688,7 @@ let data = [|
     latex: "^{80}\\mathrm{Kr}",
   },
   {
-    pdg: (-1000360800),
+    pdg: -1000360800,
     name: "Kr80~",
     mass: Some(74441.6342),
     width: None,
@@ -27714,7 +27714,7 @@ let data = [|
     latex: "^{81}\\mathrm{Kr}",
   },
   {
-    pdg: (-1000360810),
+    pdg: -1000360810,
     name: "Kr81~",
     mass: Some(75373.3276347),
     width: None,
@@ -27740,7 +27740,7 @@ let data = [|
     latex: "^{82}\\mathrm{Kr}",
   },
   {
-    pdg: (-1000360820),
+    pdg: -1000360820,
     name: "Kr82~",
     mass: Some(76301.927205),
     width: None,
@@ -27766,7 +27766,7 @@ let data = [|
     latex: "^{83}\\mathrm{Kr}",
   },
   {
-    pdg: (-1000360830),
+    pdg: -1000360830,
     name: "Kr83~",
     mass: Some(77234.0280752),
     width: None,
@@ -27792,7 +27792,7 @@ let data = [|
     latex: "^{84}\\mathrm{Kr}",
   },
   {
-    pdg: (-1000360840),
+    pdg: -1000360840,
     name: "Kr84~",
     mass: Some(78163.0732722),
     width: None,
@@ -27818,7 +27818,7 @@ let data = [|
     latex: "^{85}\\mathrm{Kr}",
   },
   {
-    pdg: (-1000360850),
+    pdg: -1000360850,
     name: "Kr85~",
     mass: Some(79095.5174912),
     width: None,
@@ -27844,7 +27844,7 @@ let data = [|
     latex: "^{86}\\mathrm{Kr}",
   },
   {
-    pdg: (-1000360860),
+    pdg: -1000360860,
     name: "Kr86~",
     mass: Some(80025.2261914),
     width: None,
@@ -27870,7 +27870,7 @@ let data = [|
     latex: "^{87}\\mathrm{Kr}",
   },
   {
-    pdg: (-1000360870),
+    pdg: -1000360870,
     name: "Kr87~",
     mass: Some(80959.2763062),
     width: None,
@@ -27896,7 +27896,7 @@ let data = [|
     latex: "^{88}\\mathrm{Kr}",
   },
   {
-    pdg: (-1000360880),
+    pdg: -1000360880,
     name: "Kr88~",
     mass: Some(81891.7882448),
     width: None,
@@ -27922,7 +27922,7 @@ let data = [|
     latex: "^{89}\\mathrm{Kr}",
   },
   {
-    pdg: (-1000360890),
+    pdg: -1000360890,
     name: "Kr89~",
     mass: Some(82826.2472855),
     width: None,
@@ -27948,7 +27948,7 @@ let data = [|
     latex: "^{90}\\mathrm{Kr}",
   },
   {
-    pdg: (-1000360900),
+    pdg: -1000360900,
     name: "Kr90~",
     mass: Some(83759.5056303),
     width: None,
@@ -27974,7 +27974,7 @@ let data = [|
     latex: "^{91}\\mathrm{Kr}",
   },
   {
-    pdg: (-1000360910),
+    pdg: -1000360910,
     name: "Kr91~",
     mass: Some(84694.6474562),
     width: None,
@@ -28000,7 +28000,7 @@ let data = [|
     latex: "^{92}\\mathrm{Kr}",
   },
   {
-    pdg: (-1000360920),
+    pdg: -1000360920,
     name: "Kr92~",
     mass: Some(85628.6686947),
     width: None,
@@ -28026,7 +28026,7 @@ let data = [|
     latex: "^{93}\\mathrm{Kr}",
   },
   {
-    pdg: (-1000360930),
+    pdg: -1000360930,
     name: "Kr93~",
     mass: Some(86564.9292449),
     width: None,
@@ -28052,7 +28052,7 @@ let data = [|
     latex: "^{94}\\mathrm{Kr}",
   },
   {
-    pdg: (-1000360940),
+    pdg: -1000360940,
     name: "Kr94~",
     mass: Some(87499.3016567),
     width: None,
@@ -28078,7 +28078,7 @@ let data = [|
     latex: "^{95}\\mathrm{Kr}",
   },
   {
-    pdg: (-1000360950),
+    pdg: -1000360950,
     name: "Kr95~",
     mass: Some(88435.9003393),
     width: None,
@@ -28104,7 +28104,7 @@ let data = [|
     latex: "^{96}\\mathrm{Kr}",
   },
   {
-    pdg: (-1000360960),
+    pdg: -1000360960,
     name: "Kr96~",
     mass: Some(89370.4031602),
     width: None,
@@ -28130,7 +28130,7 @@ let data = [|
     latex: "^{97}\\mathrm{Kr}",
   },
   {
-    pdg: (-1000360970),
+    pdg: -1000360970,
     name: "Kr97~",
     mass: Some(90307.0111578),
     width: None,
@@ -28156,7 +28156,7 @@ let data = [|
     latex: "^{71}\\mathrm{Rb}",
   },
   {
-    pdg: (-1000370710),
+    pdg: -1000370710,
     name: "Rb71~",
     mass: Some(66103.7765291),
     width: None,
@@ -28182,7 +28182,7 @@ let data = [|
     latex: "^{72}\\mathrm{Rb}",
   },
   {
-    pdg: (-1000370720),
+    pdg: -1000370720,
     name: "Rb72~",
     mass: Some(67029.4581009),
     width: None,
@@ -28208,7 +28208,7 @@ let data = [|
     latex: "^{73}\\mathrm{Rb}",
   },
   {
-    pdg: (-1000370730),
+    pdg: -1000370730,
     name: "Rb73~",
     mass: Some(67952.8388823),
     width: None,
@@ -28234,7 +28234,7 @@ let data = [|
     latex: "^{74}\\mathrm{Rb}",
   },
   {
-    pdg: (-1000370740),
+    pdg: -1000370740,
     name: "Rb74~",
     mass: Some(68878.8371622),
     width: None,
@@ -28260,7 +28260,7 @@ let data = [|
     latex: "^{75}\\mathrm{Rb}",
   },
   {
-    pdg: (-1000370750),
+    pdg: -1000370750,
     name: "Rb75~",
     mass: Some(69804.8345105),
     width: None,
@@ -28286,7 +28286,7 @@ let data = [|
     latex: "^{76}\\mathrm{Rb}",
   },
   {
-    pdg: (-1000370760),
+    pdg: -1000370760,
     name: "Rb76~",
     mass: Some(70733.0702392),
     width: None,
@@ -28312,7 +28312,7 @@ let data = [|
     latex: "^{77}\\mathrm{Rb}",
   },
   {
-    pdg: (-1000370770),
+    pdg: -1000370770,
     name: "Rb77~",
     mass: Some(71660.2198457),
     width: None,
@@ -28338,7 +28338,7 @@ let data = [|
     latex: "^{78}\\mathrm{Rb}",
   },
   {
-    pdg: (-1000370780),
+    pdg: -1000370780,
     name: "Rb78~",
     mass: Some(72589.6031751),
     width: None,
@@ -28364,7 +28364,7 @@ let data = [|
     latex: "^{79}\\mathrm{Rb}",
   },
   {
-    pdg: (-1000370790),
+    pdg: -1000370790,
     name: "Rb79~",
     mass: Some(73517.2371585),
     width: None,
@@ -28390,7 +28390,7 @@ let data = [|
     latex: "^{80}\\mathrm{Rb}",
   },
   {
-    pdg: (-1000370800),
+    pdg: -1000370800,
     name: "Rb80~",
     mass: Some(74447.3545052),
     width: None,
@@ -28416,7 +28416,7 @@ let data = [|
     latex: "^{81}\\mathrm{Rb}",
   },
   {
-    pdg: (-1000370810),
+    pdg: -1000370810,
     name: "Rb81~",
     mass: Some(75375.5650835),
     width: None,
@@ -28442,7 +28442,7 @@ let data = [|
     latex: "^{82}\\mathrm{Rb}",
   },
   {
-    pdg: (-1000370820),
+    pdg: -1000370820,
     name: "Rb82~",
     mass: Some(76306.3270242),
     width: None,
@@ -28468,7 +28468,7 @@ let data = [|
     latex: "^{83}\\mathrm{Rb}",
   },
   {
-    pdg: (-1000370830),
+    pdg: -1000370830,
     name: "Rb83~",
     mass: Some(77234.9372134),
     width: None,
@@ -28494,7 +28494,7 @@ let data = [|
     latex: "^{84}\\mathrm{Rb}",
   },
   {
-    pdg: (-1000370840),
+    pdg: -1000370840,
     name: "Rb84~",
     mass: Some(78165.7541122),
     width: None,
@@ -28520,7 +28520,7 @@ let data = [|
     latex: "^{85}\\mathrm{Rb}",
   },
   {
-    pdg: (-1000370850),
+    pdg: -1000370850,
     name: "Rb85~",
     mass: Some(79094.830328),
     width: None,
@@ -28546,7 +28546,7 @@ let data = [|
     latex: "^{86}\\mathrm{Rb}",
   },
   {
-    pdg: (-1000370860),
+    pdg: -1000370860,
     name: "Rb86~",
     mass: Some(80025.7448474),
     width: None,
@@ -28572,7 +28572,7 @@ let data = [|
     latex: "^{87}\\mathrm{Rb}",
   },
   {
-    pdg: (-1000370870),
+    pdg: -1000370870,
     name: "Rb87~",
     mass: Some(80955.3912307),
     width: None,
@@ -28598,7 +28598,7 @@ let data = [|
     latex: "^{88}\\mathrm{Rb}",
   },
   {
-    pdg: (-1000370880),
+    pdg: -1000370880,
     name: "Rb88~",
     mass: Some(81888.8745313),
     width: None,
@@ -28624,7 +28624,7 @@ let data = [|
     latex: "^{89}\\mathrm{Rb}",
   },
   {
-    pdg: (-1000370890),
+    pdg: -1000370890,
     name: "Rb89~",
     mass: Some(82821.2637921),
     width: None,
@@ -28650,7 +28650,7 @@ let data = [|
     latex: "^{90}\\mathrm{Rb}",
   },
   {
-    pdg: (-1000370900),
+    pdg: -1000370900,
     name: "Rb90~",
     mass: Some(83755.1136357),
     width: None,
@@ -28676,7 +28676,7 @@ let data = [|
     latex: "^{91}\\mathrm{Rb}",
   },
   {
-    pdg: (-1000370910),
+    pdg: -1000370910,
     name: "Rb91~",
     mass: Some(84688.214558),
     width: None,
@@ -28702,7 +28702,7 @@ let data = [|
     latex: "^{92}\\mathrm{Rb}",
   },
   {
-    pdg: (-1000370920),
+    pdg: -1000370920,
     name: "Rb92~",
     mass: Some(85622.6810506),
     width: None,
@@ -28728,7 +28728,7 @@ let data = [|
     latex: "^{93}\\mathrm{Rb}",
   },
   {
-    pdg: (-1000370930),
+    pdg: -1000370930,
     name: "Rb93~",
     mass: Some(86556.325034),
     width: None,
@@ -28754,7 +28754,7 @@ let data = [|
     latex: "^{94}\\mathrm{Rb}",
   },
   {
-    pdg: (-1000370940),
+    pdg: -1000370940,
     name: "Rb94~",
     mass: Some(87491.8934841),
     width: None,
@@ -28780,7 +28780,7 @@ let data = [|
     latex: "^{95}\\mathrm{Rb}",
   },
   {
-    pdg: (-1000370950),
+    pdg: -1000370950,
     name: "Rb95~",
     mass: Some(88426.1000899),
     width: None,
@@ -28806,7 +28806,7 @@ let data = [|
     latex: "^{96}\\mathrm{Rb}",
   },
   {
-    pdg: (-1000370960),
+    pdg: -1000370960,
     name: "Rb96~",
     mass: Some(89362.2190531),
     width: None,
@@ -28832,7 +28832,7 @@ let data = [|
     latex: "^{97}\\mathrm{Rb}",
   },
   {
-    pdg: (-1000370970),
+    pdg: -1000370970,
     name: "Rb97~",
     mass: Some(90296.5597941),
     width: None,
@@ -28858,7 +28858,7 @@ let data = [|
     latex: "^{98}\\mathrm{Rb}",
   },
   {
-    pdg: (-1000370980),
+    pdg: -1000370980,
     name: "Rb98~",
     mass: Some(91232.1152033),
     width: None,
@@ -28884,7 +28884,7 @@ let data = [|
     latex: "^{99}\\mathrm{Rb}",
   },
   {
-    pdg: (-1000370990),
+    pdg: -1000370990,
     name: "Rb99~",
     mass: Some(92167.0744563),
     width: None,
@@ -28910,7 +28910,7 @@ let data = [|
     latex: "^{100}\\mathrm{Rb}",
   },
   {
-    pdg: (-1000371000),
+    pdg: -1000371000,
     name: "Rb100~",
     mass: Some(93102.7137),
     width: None,
@@ -28936,7 +28936,7 @@ let data = [|
     latex: "^{101}\\mathrm{Rb}",
   },
   {
-    pdg: (-1000371010),
+    pdg: -1000371010,
     name: "Rb101~",
     mass: Some(94037.3096704),
     width: None,
@@ -28962,7 +28962,7 @@ let data = [|
     latex: "^{102}\\mathrm{Rb}",
   },
   {
-    pdg: (-1000371020),
+    pdg: -1000371020,
     name: "Rb102~",
     mass: Some(94974.4020449),
     width: None,
@@ -28988,7 +28988,7 @@ let data = [|
     latex: "^{73}\\mathrm{Sr}",
   },
   {
-    pdg: (-1000380730),
+    pdg: -1000380730,
     name: "Sr73~",
     mass: Some(67967.3701902),
     width: None,
@@ -29014,7 +29014,7 @@ let data = [|
     latex: "^{74}\\mathrm{Sr}",
   },
   {
-    pdg: (-1000380740),
+    pdg: -1000380740,
     name: "Sr74~",
     mass: Some(68889.8660523),
     width: None,
@@ -29040,7 +29040,7 @@ let data = [|
     latex: "^{75}\\mathrm{Sr}",
   },
   {
-    pdg: (-1000380750),
+    pdg: -1000380750,
     name: "Sr75~",
     mass: Some(69815.4079),
     width: None,
@@ -29066,7 +29066,7 @@ let data = [|
     latex: "^{76}\\mathrm{Sr}",
   },
   {
-    pdg: (-1000380760),
+    pdg: -1000380760,
     name: "Sr76~",
     mass: Some(70739.161279),
     width: None,
@@ -29092,7 +29092,7 @@ let data = [|
     latex: "^{77}\\mathrm{Sr}",
   },
   {
-    pdg: (-1000380770),
+    pdg: -1000380770,
     name: "Sr77~",
     mass: Some(71667.0691218),
     width: None,
@@ -29118,7 +29118,7 @@ let data = [|
     latex: "^{78}\\mathrm{Sr}",
   },
   {
-    pdg: (-1000380780),
+    pdg: -1000380780,
     name: "Sr78~",
     mass: Some(72593.3645482),
     width: None,
@@ -29144,7 +29144,7 @@ let data = [|
     latex: "^{79}\\mathrm{Sr}",
   },
   {
-    pdg: (-1000380790),
+    pdg: -1000380790,
     name: "Sr79~",
     mass: Some(73522.5559898),
     width: None,
@@ -29170,7 +29170,7 @@ let data = [|
     latex: "^{80}\\mathrm{Sr}",
   },
   {
-    pdg: (-1000380800),
+    pdg: -1000380800,
     name: "Sr80~",
     mass: Some(74449.2230824),
     width: None,
@@ -29196,7 +29196,7 @@ let data = [|
     latex: "^{81}\\mathrm{Sr}",
   },
   {
-    pdg: (-1000380810),
+    pdg: -1000380810,
     name: "Sr81~",
     mass: Some(75379.4950571),
     width: None,
@@ -29222,7 +29222,7 @@ let data = [|
     latex: "^{82}\\mathrm{Sr}",
   },
   {
-    pdg: (-1000380820),
+    pdg: -1000380820,
     name: "Sr82~",
     mass: Some(76306.5068025),
     width: None,
@@ -29248,7 +29248,7 @@ let data = [|
     latex: "^{83}\\mathrm{Sr}",
   },
   {
-    pdg: (-1000380830),
+    pdg: -1000380830,
     name: "Sr83~",
     mass: Some(77237.2128535),
     width: None,
@@ -29274,7 +29274,7 @@ let data = [|
     latex: "^{84}\\mathrm{Sr}",
   },
   {
-    pdg: (-1000380840),
+    pdg: -1000380840,
     name: "Sr84~",
     mass: Some(78164.8598779),
     width: None,
@@ -29300,7 +29300,7 @@ let data = [|
     latex: "^{85}\\mathrm{Sr}",
   },
   {
-    pdg: (-1000380850),
+    pdg: -1000380850,
     name: "Sr85~",
     mass: Some(79095.8956778),
     width: None,
@@ -29326,7 +29326,7 @@ let data = [|
     latex: "^{86}\\mathrm{Sr}",
   },
   {
-    pdg: (-1000380860),
+    pdg: -1000380860,
     name: "Sr86~",
     mass: Some(80023.9706306),
     width: None,
@@ -29352,7 +29352,7 @@ let data = [|
     latex: "^{87}\\mathrm{Sr}",
   },
   {
-    pdg: (-1000380870),
+    pdg: -1000380870,
     name: "Sr87~",
     mass: Some(80955.1078702),
     width: None,
@@ -29378,7 +29378,7 @@ let data = [|
     latex: "^{88}\\mathrm{Sr}",
   },
   {
-    pdg: (-1000380880),
+    pdg: -1000380880,
     name: "Sr88~",
     mass: Some(81883.5606369),
     width: None,
@@ -29404,7 +29404,7 @@ let data = [|
     latex: "^{89}\\mathrm{Sr}",
   },
   {
-    pdg: (-1000380890),
+    pdg: -1000380890,
     name: "Sr89~",
     mass: Some(82816.767377),
     width: None,
@@ -29430,7 +29430,7 @@ let data = [|
     latex: "^{90}\\mathrm{Sr}",
   },
   {
-    pdg: (-1000380900),
+    pdg: -1000380900,
     name: "Sr90~",
     mass: Some(83748.5266683),
     width: None,
@@ -29456,7 +29456,7 @@ let data = [|
     latex: "^{91}\\mathrm{Sr}",
   },
   {
-    pdg: (-1000380910),
+    pdg: -1000380910,
     name: "Sr91~",
     mass: Some(84682.3237893),
     width: None,
@@ -29482,7 +29482,7 @@ let data = [|
     latex: "^{92}\\mathrm{Sr}",
   },
   {
-    pdg: (-1000380920),
+    pdg: -1000380920,
     name: "Sr92~",
     mass: Some(85614.5817095),
     width: None,
@@ -29508,7 +29508,7 @@ let data = [|
     latex: "^{93}\\mathrm{Sr}",
   },
   {
-    pdg: (-1000380930),
+    pdg: -1000380930,
     name: "Sr93~",
     mass: Some(86548.8628348),
     width: None,
@@ -29534,7 +29534,7 @@ let data = [|
     latex: "^{94}\\mathrm{Sr}",
   },
   {
-    pdg: (-1000380940),
+    pdg: -1000380940,
     name: "Sr94~",
     mass: Some(87481.6032689),
     width: None,
@@ -29560,7 +29560,7 @@ let data = [|
     latex: "^{95}\\mathrm{Sr}",
   },
   {
-    pdg: (-1000380950),
+    pdg: -1000380950,
     name: "Sr95~",
     mass: Some(88416.8214773),
     width: None,
@@ -29586,7 +29586,7 @@ let data = [|
     latex: "^{96}\\mathrm{Sr}",
   },
   {
-    pdg: (-1000380960),
+    pdg: -1000380960,
     name: "Sr96~",
     mass: Some(89350.4785015),
     width: None,
@@ -29612,7 +29612,7 @@ let data = [|
     latex: "^{97}\\mathrm{Sr}",
   },
   {
-    pdg: (-1000380970),
+    pdg: -1000380970,
     name: "Sr97~",
     mass: Some(90286.1354436),
     width: None,
@@ -29638,7 +29638,7 @@ let data = [|
     latex: "^{98}\\mathrm{Sr}",
   },
   {
-    pdg: (-1000380980),
+    pdg: -1000380980,
     name: "Sr98~",
     mass: Some(91219.7924679),
     width: None,
@@ -29664,7 +29664,7 @@ let data = [|
     latex: "^{99}\\mathrm{Sr}",
   },
   {
-    pdg: (-1000380990),
+    pdg: -1000380990,
     name: "Sr99~",
     mass: Some(92155.8033778),
     width: None,
@@ -29690,7 +29690,7 @@ let data = [|
     latex: "^{100}\\mathrm{Sr}",
   },
   {
-    pdg: (-1000381000),
+    pdg: -1000381000,
     name: "Sr100~",
     mass: Some(93089.1884058),
     width: None,
@@ -29716,7 +29716,7 @@ let data = [|
     latex: "^{101}\\mathrm{Sr}",
   },
   {
-    pdg: (-1000381010),
+    pdg: -1000381010,
     name: "Sr101~",
     mass: Some(94025.4983252),
     width: None,
@@ -29742,7 +29742,7 @@ let data = [|
     latex: "^{102}\\mathrm{Sr}",
   },
   {
-    pdg: (-1000381020),
+    pdg: -1000381020,
     name: "Sr102~",
     mass: Some(94959.3211555),
     width: None,
@@ -29768,7 +29768,7 @@ let data = [|
     latex: "^{103}\\mathrm{Sr}",
   },
   {
-    pdg: (-1000381030),
+    pdg: -1000381030,
     name: "Sr103~",
     mass: Some(95896.3390104),
     width: None,
@@ -29794,7 +29794,7 @@ let data = [|
     latex: "^{104}\\mathrm{Sr}",
   },
   {
-    pdg: (-1000381040),
+    pdg: -1000381040,
     name: "Sr104~",
     mass: Some(96830.9815555),
     width: None,
@@ -29820,7 +29820,7 @@ let data = [|
     latex: "^{77}\\mathrm{Y}",
   },
   {
-    pdg: (-1000390770),
+    pdg: -1000390770,
     name: "Y77~",
     mass: Some(71678.1166417),
     width: None,
@@ -29846,7 +29846,7 @@ let data = [|
     latex: "^{78}\\mathrm{Y}",
   },
   {
-    pdg: (-1000390780),
+    pdg: -1000390780,
     name: "Y78~",
     mass: Some(72603.9099929),
     width: None,
@@ -29872,7 +29872,7 @@ let data = [|
     latex: "^{79}\\mathrm{Y}",
   },
   {
-    pdg: (-1000390790),
+    pdg: -1000390790,
     name: "Y79~",
     mass: Some(73529.6753992),
     width: None,
@@ -29898,7 +29898,7 @@ let data = [|
     latex: "^{80}\\mathrm{Y}",
   },
   {
-    pdg: (-1000390800),
+    pdg: -1000390800,
     name: "Y80~",
     mass: Some(74458.3656969),
     width: None,
@@ -29924,7 +29924,7 @@ let data = [|
     latex: "^{81}\\mathrm{Y}",
   },
   {
-    pdg: (-1000390810),
+    pdg: -1000390810,
     name: "Y81~",
     mass: Some(75385.0067077),
     width: None,
@@ -29950,7 +29950,7 @@ let data = [|
     latex: "^{82}\\mathrm{Y}",
   },
   {
-    pdg: (-1000390820),
+    pdg: -1000390820,
     name: "Y82~",
     mass: Some(76314.3211065),
     width: None,
@@ -29976,7 +29976,7 @@ let data = [|
     latex: "^{83}\\mathrm{Y}",
   },
   {
-    pdg: (-1000390830),
+    pdg: -1000390830,
     name: "Y83~",
     mass: Some(77241.6793677),
     width: None,
@@ -30002,7 +30002,7 @@ let data = [|
     latex: "^{84}\\mathrm{Y}",
   },
   {
-    pdg: (-1000390840),
+    pdg: -1000390840,
     name: "Y84~",
     mass: Some(78171.3477343),
     width: None,
@@ -30028,7 +30028,7 @@ let data = [|
     latex: "^{85}\\mathrm{Y}",
   },
   {
-    pdg: (-1000390850),
+    pdg: -1000390850,
     name: "Y85~",
     mass: Some(79099.1503182),
     width: None,
@@ -30054,7 +30054,7 @@ let data = [|
     latex: "^{86}\\mathrm{Y}",
   },
   {
-    pdg: (-1000390860),
+    pdg: -1000390860,
     name: "Y86~",
     mass: Some(80029.2108437),
     width: None,
@@ -30080,7 +30080,7 @@ let data = [|
     latex: "^{87}\\mathrm{Y}",
   },
   {
-    pdg: (-1000390870),
+    pdg: -1000390870,
     name: "Y87~",
     mass: Some(80956.9694611),
     width: None,
@@ -30106,7 +30106,7 @@ let data = [|
     latex: "^{88}\\mathrm{Y}",
   },
   {
-    pdg: (-1000390880),
+    pdg: -1000390880,
     name: "Y88~",
     mass: Some(81887.1833106),
     width: None,
@@ -30132,7 +30132,7 @@ let data = [|
     latex: "^{89}\\mathrm{Y}",
   },
   {
-    pdg: (-1000390890),
+    pdg: -1000390890,
     name: "Y89~",
     mass: Some(82815.2723289),
     width: None,
@@ -30158,7 +30158,7 @@ let data = [|
     latex: "^{90}\\mathrm{Y}",
   },
   {
-    pdg: (-1000390900),
+    pdg: -1000390900,
     name: "Y90~",
     mass: Some(83747.9806265),
     width: None,
@@ -30184,7 +30184,7 @@ let data = [|
     latex: "^{91}\\mathrm{Y}",
   },
   {
-    pdg: (-1000390910),
+    pdg: -1000390910,
     name: "Y91~",
     mass: Some(84679.615936),
     width: None,
@@ -30210,7 +30210,7 @@ let data = [|
     latex: "^{92}\\mathrm{Y}",
   },
   {
-    pdg: (-1000390920),
+    pdg: -1000390920,
     name: "Y92~",
     mass: Some(85612.6414073),
     width: None,
@@ -30236,7 +30236,7 @@ let data = [|
     latex: "^{93}\\mathrm{Y}",
   },
   {
-    pdg: (-1000390930),
+    pdg: -1000390930,
     name: "Y93~",
     mass: Some(86544.727001),
     width: None,
@@ -30262,7 +30262,7 @@ let data = [|
     latex: "^{94}\\mathrm{Y}",
   },
   {
-    pdg: (-1000390940),
+    pdg: -1000390940,
     name: "Y94~",
     mass: Some(87478.0952621),
     width: None,
@@ -30288,7 +30288,7 @@ let data = [|
     latex: "^{95}\\mathrm{Y}",
   },
   {
-    pdg: (-1000390950),
+    pdg: -1000390950,
     name: "Y95~",
     mass: Some(88410.7350948),
     width: None,
@@ -30314,7 +30314,7 @@ let data = [|
     latex: "^{96}\\mathrm{Y}",
   },
   {
-    pdg: (-1000390960),
+    pdg: -1000390960,
     name: "Y96~",
     mass: Some(89345.0926027),
     width: None,
@@ -30340,7 +30340,7 @@ let data = [|
     latex: "^{97}\\mathrm{Y}",
   },
   {
-    pdg: (-1000390970),
+    pdg: -1000390970,
     name: "Y97~",
     mass: Some(90278.666724),
     width: None,
@@ -30366,7 +30366,7 @@ let data = [|
     latex: "^{98}\\mathrm{Y}",
   },
   {
-    pdg: (-1000390980),
+    pdg: -1000390980,
     name: "Y98~",
     mass: Some(91213.9696983),
     width: None,
@@ -30392,7 +30392,7 @@ let data = [|
     latex: "^{99}\\mathrm{Y}",
   },
   {
-    pdg: (-1000390990),
+    pdg: -1000390990,
     name: "Y99~",
     mass: Some(92147.7133516),
     width: None,
@@ -30418,7 +30418,7 @@ let data = [|
     latex: "^{100}\\mathrm{Y}",
   },
   {
-    pdg: (-1000391000),
+    pdg: -1000391000,
     name: "Y100~",
     mass: Some(93082.1183656),
     width: None,
@@ -30444,7 +30444,7 @@ let data = [|
     latex: "^{101}\\mathrm{Y}",
   },
   {
-    pdg: (-1000391010),
+    pdg: -1000391010,
     name: "Y101~",
     mass: Some(94015.9877705),
     width: None,
@@ -30470,7 +30470,7 @@ let data = [|
     latex: "^{102}\\mathrm{Y}",
   },
   {
-    pdg: (-1000391020),
+    pdg: -1000391020,
     name: "Y102~",
     mass: Some(94950.5092213),
     width: None,
@@ -30496,7 +30496,7 @@ let data = [|
     latex: "^{103}\\mathrm{Y}",
   },
   {
-    pdg: (-1000391030),
+    pdg: -1000391030,
     name: "Y103~",
     mass: Some(95885.1517664),
     width: None,
@@ -30522,7 +30522,7 @@ let data = [|
     latex: "^{104}\\mathrm{Y}",
   },
   {
-    pdg: (-1000391040),
+    pdg: -1000391040,
     name: "Y104~",
     mass: Some(96820.8468997),
     width: None,
@@ -30548,7 +30548,7 @@ let data = [|
     latex: "^{105}\\mathrm{Y}",
   },
   {
-    pdg: (-1000391050),
+    pdg: -1000391050,
     name: "Y105~",
     mass: Some(97755.7316332),
     width: None,
@@ -30574,7 +30574,7 @@ let data = [|
     latex: "^{106}\\mathrm{Y}",
   },
   {
-    pdg: (-1000391060),
+    pdg: -1000391060,
     name: "Y106~",
     mass: Some(98692.0042929),
     width: None,
@@ -30600,7 +30600,7 @@ let data = [|
     latex: "^{79}\\mathrm{Zr}",
   },
   {
-    pdg: (-1000400790),
+    pdg: -1000400790,
     name: "Zr79~",
     mass: Some(73540.6763444),
     width: None,
@@ -30626,7 +30626,7 @@ let data = [|
     latex: "^{80}\\mathrm{Zr}",
   },
   {
-    pdg: (-1000400800),
+    pdg: -1000400800,
     name: "Zr80~",
     mass: Some(74464.1502753),
     width: None,
@@ -30652,7 +30652,7 @@ let data = [|
     latex: "^{81}\\mathrm{Zr}",
   },
   {
-    pdg: (-1000400810),
+    pdg: -1000400810,
     name: "Zr81~",
     mass: Some(75392.1698973),
     width: None,
@@ -30678,7 +30678,7 @@ let data = [|
     latex: "^{82}\\mathrm{Zr}",
   },
   {
-    pdg: (-1000400820),
+    pdg: -1000400820,
     name: "Zr82~",
     mass: Some(76318.3265311),
     width: None,
@@ -30704,7 +30704,7 @@ let data = [|
     latex: "^{83}\\mathrm{Zr}",
   },
   {
-    pdg: (-1000400830),
+    pdg: -1000400830,
     name: "Zr83~",
     mass: Some(77247.5477805),
     width: None,
@@ -30730,7 +30730,7 @@ let data = [|
     latex: "^{84}\\mathrm{Zr}",
   },
   {
-    pdg: (-1000400840),
+    pdg: -1000400840,
     name: "Zr84~",
     mass: Some(78174.0118074),
     width: None,
@@ -30756,7 +30756,7 @@ let data = [|
     latex: "^{85}\\mathrm{Zr}",
   },
   {
-    pdg: (-1000400850),
+    pdg: -1000400850,
     name: "Zr85~",
     mass: Some(79103.8478429),
     width: None,
@@ -30782,7 +30782,7 @@ let data = [|
     latex: "^{86}\\mathrm{Zr}",
   },
   {
-    pdg: (-1000400860),
+    pdg: -1000400860,
     name: "Zr86~",
     mass: Some(80030.6844674),
     width: None,
@@ -30808,7 +30808,7 @@ let data = [|
     latex: "^{87}\\mathrm{Zr}",
   },
   {
-    pdg: (-1000400870),
+    pdg: -1000400870,
     name: "Zr87~",
     mass: Some(80960.6388026),
     width: None,
@@ -30834,7 +30834,7 @@ let data = [|
     latex: "^{88}\\mathrm{Zr}",
   },
   {
-    pdg: (-1000400880),
+    pdg: -1000400880,
     name: "Zr88~",
     mass: Some(81887.8564082),
     width: None,
@@ -30860,7 +30860,7 @@ let data = [|
     latex: "^{89}\\mathrm{Zr}",
   },
   {
-    pdg: (-1000400890),
+    pdg: -1000400890,
     name: "Zr89~",
     mass: Some(82818.1050956),
     width: None,
@@ -30886,7 +30886,7 @@ let data = [|
     latex: "^{90}\\mathrm{Zr}",
   },
   {
-    pdg: (-1000400900),
+    pdg: -1000400900,
     name: "Zr90~",
     mass: Some(83745.7006084),
     width: None,
@@ -30912,7 +30912,7 @@ let data = [|
     latex: "^{91}\\mathrm{Zr}",
   },
   {
-    pdg: (-1000400910),
+    pdg: -1000400910,
     name: "Zr91~",
     mass: Some(84678.0715188),
     width: None,
@@ -30938,7 +30938,7 @@ let data = [|
     latex: "^{92}\\mathrm{Zr}",
   },
   {
-    pdg: (-1000400920),
+    pdg: -1000400920,
     name: "Zr92~",
     mass: Some(85609.002153),
     width: None,
@@ -30964,7 +30964,7 @@ let data = [|
     latex: "^{93}\\mathrm{Zr}",
   },
   {
-    pdg: (-1000400930),
+    pdg: -1000400930,
     name: "Zr93~",
     mass: Some(86541.8334077),
     width: None,
@@ -30990,7 +30990,7 @@ let data = [|
     latex: "^{94}\\mathrm{Zr}",
   },
   {
-    pdg: (-1000400940),
+    pdg: -1000400940,
     name: "Zr94~",
     mass: Some(87473.17865),
     width: None,
@@ -31016,7 +31016,7 @@ let data = [|
     latex: "^{95}\\mathrm{Zr}",
   },
   {
-    pdg: (-1000400950),
+    pdg: -1000400950,
     name: "Zr95~",
     mass: Some(88406.2813421),
     width: None,
@@ -31042,7 +31042,7 @@ let data = [|
     latex: "^{96}\\mathrm{Zr}",
   },
   {
-    pdg: (-1000400960),
+    pdg: -1000400960,
     name: "Zr96~",
     mass: Some(89337.9927547),
     width: None,
@@ -31068,7 +31068,7 @@ let data = [|
     latex: "^{97}\\mathrm{Zr}",
   },
   {
-    pdg: (-1000400970),
+    pdg: -1000400970,
     name: "Zr97~",
     mass: Some(90271.9785964),
     width: None,
@@ -31094,7 +31094,7 @@ let data = [|
     latex: "^{98}\\mathrm{Zr}",
   },
   {
-    pdg: (-1000400980),
+    pdg: -1000400980,
     name: "Zr98~",
     mass: Some(91205.1447233),
     width: None,
@@ -31120,7 +31120,7 @@ let data = [|
     latex: "^{99}\\mathrm{Zr}",
   },
   {
-    pdg: (-1000400990),
+    pdg: -1000400990,
     name: "Zr99~",
     mass: Some(92140.1458935),
     width: None,
@@ -31146,7 +31146,7 @@ let data = [|
     latex: "^{100}\\mathrm{Zr}",
   },
   {
-    pdg: (-1000401000),
+    pdg: -1000401000,
     name: "Zr100~",
     mass: Some(93072.8034246),
     width: None,
@@ -31172,7 +31172,7 @@ let data = [|
     latex: "^{101}\\mathrm{Zr}",
   },
   {
-    pdg: (-1000401010),
+    pdg: -1000401010,
     name: "Zr101~",
     mass: Some(94007.4459697),
     width: None,
@@ -31198,7 +31198,7 @@ let data = [|
     latex: "^{102}\\mathrm{Zr}",
   },
   {
-    pdg: (-1000401020),
+    pdg: -1000401020,
     name: "Zr102~",
     mass: Some(94940.6540138),
     width: None,
@@ -31224,7 +31224,7 @@ let data = [|
     latex: "^{103}\\mathrm{Zr}",
   },
   {
-    pdg: (-1000401030),
+    pdg: -1000401030,
     name: "Zr103~",
     mass: Some(95875.5201174),
     width: None,
@@ -31250,7 +31250,7 @@ let data = [|
     latex: "^{104}\\mathrm{Zr}",
   },
   {
-    pdg: (-1000401040),
+    pdg: -1000401040,
     name: "Zr104~",
     mass: Some(96809.0448695),
     width: None,
@@ -31276,7 +31276,7 @@ let data = [|
     latex: "^{105}\\mathrm{Zr}",
   },
   {
-    pdg: (-1000401050),
+    pdg: -1000401050,
     name: "Zr105~",
     mass: Some(97744.5164443),
     width: None,
@@ -31302,7 +31302,7 @@ let data = [|
     latex: "^{106}\\mathrm{Zr}",
   },
   {
-    pdg: (-1000401060),
+    pdg: -1000401060,
     name: "Zr106~",
     mass: Some(98678.6746124),
     width: None,
@@ -31328,7 +31328,7 @@ let data = [|
     latex: "^{107}\\mathrm{Zr}",
   },
   {
-    pdg: (-1000401070),
+    pdg: -1000401070,
     name: "Zr107~",
     mass: Some(99614.7796032),
     width: None,
@@ -31354,7 +31354,7 @@ let data = [|
     latex: "^{108}\\mathrm{Zr}",
   },
   {
-    pdg: (-1000401080),
+    pdg: -1000401080,
     name: "Zr108~",
     mass: Some(100549.459408),
     width: None,
@@ -31380,7 +31380,7 @@ let data = [|
     latex: "^{81}\\mathrm{Nb}",
   },
   {
-    pdg: (-1000410810),
+    pdg: -1000410810,
     name: "Nb81~",
     mass: Some(75403.5620701),
     width: None,
@@ -31406,7 +31406,7 @@ let data = [|
     latex: "^{82}\\mathrm{Nb}",
   },
   {
-    pdg: (-1000410820),
+    pdg: -1000410820,
     name: "Nb82~",
     mass: Some(76329.54172),
     width: None,
@@ -31432,7 +31432,7 @@ let data = [|
     latex: "^{83}\\mathrm{Nb}",
   },
   {
-    pdg: (-1000410830),
+    pdg: -1000410830,
     name: "Nb83~",
     mass: Some(77255.046308),
     width: None,
@@ -31458,7 +31458,7 @@ let data = [|
     latex: "^{84}\\mathrm{Nb}",
   },
   {
-    pdg: (-1000410840),
+    pdg: -1000410840,
     name: "Nb84~",
     mass: Some(78183.6248264),
     width: None,
@@ -31484,7 +31484,7 @@ let data = [|
     latex: "^{85}\\mathrm{Nb}",
   },
   {
-    pdg: (-1000410850),
+    pdg: -1000410850,
     name: "Nb85~",
     mass: Some(79109.8466649),
     width: None,
@@ -31510,7 +31510,7 @@ let data = [|
     latex: "^{86}\\mathrm{Nb}",
   },
   {
-    pdg: (-1000410860),
+    pdg: -1000410860,
     name: "Nb86~",
     mass: Some(80038.6673718),
     width: None,
@@ -31536,7 +31536,7 @@ let data = [|
     latex: "^{87}\\mathrm{Nb}",
   },
   {
-    pdg: (-1000410870),
+    pdg: -1000410870,
     name: "Nb87~",
     mass: Some(80965.8020744),
     width: None,
@@ -31562,7 +31562,7 @@ let data = [|
     latex: "^{88}\\mathrm{Nb}",
   },
   {
-    pdg: (-1000410880),
+    pdg: -1000410880,
     name: "Nb88~",
     mass: Some(81895.0605836),
     width: None,
@@ -31588,7 +31588,7 @@ let data = [|
     latex: "^{89}\\mathrm{Nb}",
   },
   {
-    pdg: (-1000410890),
+    pdg: -1000410890,
     name: "Nb89~",
     mass: Some(82822.4002149),
     width: None,
@@ -31614,7 +31614,7 @@ let data = [|
     latex: "^{90}\\mathrm{Nb}",
   },
   {
-    pdg: (-1000410900),
+    pdg: -1000410900,
     name: "Nb90~",
     mass: Some(83751.8114891),
     width: None,
@@ -31640,7 +31640,7 @@ let data = [|
     latex: "^{91}\\mathrm{Nb}",
   },
   {
-    pdg: (-1000410910),
+    pdg: -1000410910,
     name: "Nb91~",
     mass: Some(84679.3253098),
     width: None,
@@ -31666,7 +31666,7 @@ let data = [|
     latex: "^{92}\\mathrm{Nb}",
   },
   {
-    pdg: (-1000410920),
+    pdg: -1000410920,
     name: "Nb92~",
     mass: Some(85611.0077529),
     width: None,
@@ -31692,7 +31692,7 @@ let data = [|
     latex: "^{93}\\mathrm{Nb}",
   },
   {
-    pdg: (-1000410930),
+    pdg: -1000410930,
     name: "Nb93~",
     mass: Some(86541.7420282),
     width: None,
@@ -31718,7 +31718,7 @@ let data = [|
     latex: "^{94}\\mathrm{Nb}",
   },
   {
-    pdg: (-1000410940),
+    pdg: -1000410940,
     name: "Nb94~",
     mass: Some(87474.0800568),
     width: None,
@@ -31744,7 +31744,7 @@ let data = [|
     latex: "^{95}\\mathrm{Nb}",
   },
   {
-    pdg: (-1000410950),
+    pdg: -1000410950,
     name: "Nb95~",
     mass: Some(88405.156563),
     width: None,
@@ -31770,7 +31770,7 @@ let data = [|
     latex: "^{96}\\mathrm{Nb}",
   },
   {
-    pdg: (-1000410960),
+    pdg: -1000410960,
     name: "Nb96~",
     mass: Some(89337.8288117),
     width: None,
@@ -31796,7 +31796,7 @@ let data = [|
     latex: "^{97}\\mathrm{Nb}",
   },
   {
-    pdg: (-1000410970),
+    pdg: -1000410970,
     name: "Nb97~",
     mass: Some(90269.3202054),
     width: None,
@@ -31822,7 +31822,7 @@ let data = [|
     latex: "^{98}\\mathrm{Nb}",
   },
   {
-    pdg: (-1000410980),
+    pdg: -1000410980,
     name: "Nb98~",
     mass: Some(91202.895165),
     width: None,
@@ -31848,7 +31848,7 @@ let data = [|
     latex: "^{99}\\mathrm{Nb}",
   },
   {
-    pdg: (-1000410990),
+    pdg: -1000410990,
     name: "Nb99~",
     mass: Some(92135.5880929),
     width: None,
@@ -31874,7 +31874,7 @@ let data = [|
     latex: "^{100}\\mathrm{Nb}",
   },
   {
-    pdg: (-1000411000),
+    pdg: -1000411000,
     name: "Nb100~",
     mass: Some(93069.4696073),
     width: None,
@@ -31900,7 +31900,7 @@ let data = [|
     latex: "^{101}\\mathrm{Nb}",
   },
   {
-    pdg: (-1000411010),
+    pdg: -1000411010,
     name: "Nb101~",
     mass: Some(94001.9613324),
     width: None,
@@ -31926,7 +31926,7 @@ let data = [|
     latex: "^{102}\\mathrm{Nb}",
   },
   {
-    pdg: (-1000411020),
+    pdg: -1000411020,
     name: "Nb102~",
     mass: Some(94936.052433),
     width: None,
@@ -31952,7 +31952,7 @@ let data = [|
     latex: "^{103}\\mathrm{Nb}",
   },
   {
-    pdg: (-1000411030),
+    pdg: -1000411030,
     name: "Nb103~",
     mass: Some(95868.5711715),
     width: None,
@@ -31978,7 +31978,7 @@ let data = [|
     latex: "^{104}\\mathrm{Nb}",
   },
   {
-    pdg: (-1000411040),
+    pdg: -1000411040,
     name: "Nb104~",
     mass: Some(96803.1578268),
     width: None,
@@ -32004,7 +32004,7 @@ let data = [|
     latex: "^{105}\\mathrm{Nb}",
   },
   {
-    pdg: (-1000411050),
+    pdg: -1000411050,
     name: "Nb105~",
     mass: Some(97736.0212182),
     width: None,
@@ -32030,7 +32030,7 @@ let data = [|
     latex: "^{106}\\mathrm{Nb}",
   },
   {
-    pdg: (-1000411060),
+    pdg: -1000411060,
     name: "Nb106~",
     mass: Some(98671.483478),
     width: None,
@@ -32056,7 +32056,7 @@ let data = [|
     latex: "^{107}\\mathrm{Nb}",
   },
   {
-    pdg: (-1000411070),
+    pdg: -1000411070,
     name: "Nb107~",
     mass: Some(99604.9523405),
     width: None,
@@ -32082,7 +32082,7 @@ let data = [|
     latex: "^{108}\\mathrm{Nb}",
   },
   {
-    pdg: (-1000411080),
+    pdg: -1000411080,
     name: "Nb108~",
     mass: Some(100540.8244577),
     width: None,
@@ -32108,7 +32108,7 @@ let data = [|
     latex: "^{109}\\mathrm{Nb}",
   },
   {
-    pdg: (-1000411090),
+    pdg: -1000411090,
     name: "Nb109~",
     mass: Some(101474.7590672),
     width: None,
@@ -32134,7 +32134,7 @@ let data = [|
     latex: "^{110}\\mathrm{Nb}",
   },
   {
-    pdg: (-1000411100),
+    pdg: -1000411100,
     name: "Nb110~",
     mass: Some(102410.9572074),
     width: None,
@@ -32160,7 +32160,7 @@ let data = [|
     latex: "^{83}\\mathrm{Mo}",
   },
   {
-    pdg: (-1000420830),
+    pdg: -1000420830,
     name: "Mo83~",
     mass: Some(77266.2614969),
     width: None,
@@ -32186,7 +32186,7 @@ let data = [|
     latex: "^{84}\\mathrm{Mo}",
   },
   {
-    pdg: (-1000420840),
+    pdg: -1000420840,
     name: "Mo84~",
     mass: Some(78189.6981679),
     width: None,
@@ -32212,7 +32212,7 @@ let data = [|
     latex: "^{85}\\mathrm{Mo}",
   },
   {
-    pdg: (-1000420850),
+    pdg: -1000420850,
     name: "Mo85~",
     mass: Some(79117.9320336),
     width: None,
@@ -32238,7 +32238,7 @@ let data = [|
     latex: "^{86}\\mathrm{Mo}",
   },
   {
-    pdg: (-1000420860),
+    pdg: -1000420860,
     name: "Mo86~",
     mass: Some(80043.9396284),
     width: None,
@@ -32264,7 +32264,7 @@ let data = [|
     latex: "^{87}\\mathrm{Mo}",
   },
   {
-    pdg: (-1000420870),
+    pdg: -1000420870,
     name: "Mo87~",
     mass: Some(80972.2945883),
     width: None,
@@ -32290,7 +32290,7 @@ let data = [|
     latex: "^{88}\\mathrm{Mo}",
   },
   {
-    pdg: (-1000420880),
+    pdg: -1000420880,
     name: "Mo88~",
     mass: Some(81898.7800395),
     width: None,
@@ -32316,7 +32316,7 @@ let data = [|
     latex: "^{89}\\mathrm{Mo}",
   },
   {
-    pdg: (-1000420890),
+    pdg: -1000420890,
     name: "Mo89~",
     mass: Some(82827.9714811),
     width: None,
@@ -32342,7 +32342,7 @@ let data = [|
     latex: "^{90}\\mathrm{Mo}",
   },
   {
-    pdg: (-1000420900),
+    pdg: -1000420900,
     name: "Mo90~",
     mass: Some(83754.3004413),
     width: None,
@@ -32368,7 +32368,7 @@ let data = [|
     latex: "^{91}\\mathrm{Mo}",
   },
   {
-    pdg: (-1000420910),
+    pdg: -1000420910,
     name: "Mo91~",
     mass: Some(84683.7592217),
     width: None,
@@ -32394,7 +32394,7 @@ let data = [|
     latex: "^{92}\\mathrm{Mo}",
   },
   {
-    pdg: (-1000420920),
+    pdg: -1000420920,
     name: "Mo92~",
     mass: Some(85610.6508044),
     width: None,
@@ -32420,7 +32420,7 @@ let data = [|
     latex: "^{93}\\mathrm{Mo}",
   },
   {
-    pdg: (-1000420930),
+    pdg: -1000420930,
     name: "Mo93~",
     mass: Some(86542.1467624),
     width: None,
@@ -32446,7 +32446,7 @@ let data = [|
     latex: "^{94}\\mathrm{Mo}",
   },
   {
-    pdg: (-1000420940),
+    pdg: -1000420940,
     name: "Mo94~",
     mass: Some(87472.0345889),
     width: None,
@@ -32472,7 +32472,7 @@ let data = [|
     latex: "^{95}\\mathrm{Mo}",
   },
   {
-    pdg: (-1000420950),
+    pdg: -1000420950,
     name: "Mo95~",
     mass: Some(88404.2309373),
     width: None,
@@ -32498,7 +32498,7 @@ let data = [|
     latex: "^{96}\\mathrm{Mo}",
   },
   {
-    pdg: (-1000420960),
+    pdg: -1000420960,
     name: "Mo96~",
     mass: Some(89334.6420773),
     width: None,
@@ -32524,7 +32524,7 @@ let data = [|
     latex: "^{97}\\mathrm{Mo}",
   },
   {
-    pdg: (-1000420970),
+    pdg: -1000420970,
     name: "Mo97~",
     mass: Some(90267.3863305),
     width: None,
@@ -32550,7 +32550,7 @@ let data = [|
     latex: "^{98}\\mathrm{Mo}",
   },
   {
-    pdg: (-1000420980),
+    pdg: -1000420980,
     name: "Mo98~",
     mass: Some(91198.3092333),
     width: None,
@@ -32576,7 +32576,7 @@ let data = [|
     latex: "^{99}\\mathrm{Mo}",
   },
   {
-    pdg: (-1000420990),
+    pdg: -1000420990,
     name: "Mo99~",
     mass: Some(92131.9493044),
     width: None,
@@ -32602,7 +32602,7 @@ let data = [|
     latex: "^{100}\\mathrm{Mo}",
   },
   {
-    pdg: (-1000421000),
+    pdg: -1000421000,
     name: "Mo100~",
     mass: Some(93063.2248709),
     width: None,
@@ -32628,7 +32628,7 @@ let data = [|
     latex: "^{101}\\mathrm{Mo}",
   },
   {
-    pdg: (-1000421010),
+    pdg: -1000421010,
     name: "Mo101~",
     mass: Some(93997.3923539),
     width: None,
@@ -32654,7 +32654,7 @@ let data = [|
     latex: "^{102}\\mathrm{Mo}",
   },
   {
-    pdg: (-1000421020),
+    pdg: -1000421020,
     name: "Mo102~",
     mass: Some(94928.8398742),
     width: None,
@@ -32680,7 +32680,7 @@ let data = [|
     latex: "^{103}\\mathrm{Mo}",
   },
   {
-    pdg: (-1000421030),
+    pdg: -1000421030,
     name: "Mo103~",
     mass: Some(95863.0380965),
     width: None,
@@ -32706,7 +32706,7 @@ let data = [|
     latex: "^{104}\\mathrm{Mo}",
   },
   {
-    pdg: (-1000421040),
+    pdg: -1000421040,
     name: "Mo104~",
     mass: Some(96795.0538282),
     width: None,
@@ -32732,7 +32732,7 @@ let data = [|
     latex: "^{105}\\mathrm{Mo}",
   },
   {
-    pdg: (-1000421050),
+    pdg: -1000421050,
     name: "Mo105~",
     mass: Some(97729.5380193),
     width: None,
@@ -32758,7 +32758,7 @@ let data = [|
     latex: "^{106}\\mathrm{Mo}",
   },
   {
-    pdg: (-1000421060),
+    pdg: -1000421060,
     name: "Mo106~",
     mass: Some(98662.1163734),
     width: None,
@@ -32784,7 +32784,7 @@ let data = [|
     latex: "^{107}\\mathrm{Mo}",
   },
   {
-    pdg: (-1000421070),
+    pdg: -1000421070,
     name: "Mo107~",
     mass: Some(99596.9228614),
     width: None,
@@ -32810,7 +32810,7 @@ let data = [|
     latex: "^{108}\\mathrm{Mo}",
   },
   {
-    pdg: (-1000421080),
+    pdg: -1000421080,
     name: "Mo108~",
     mass: Some(100530.1774802),
     width: None,
@@ -32836,7 +32836,7 @@ let data = [|
     latex: "^{109}\\mathrm{Mo}",
   },
   {
-    pdg: (-1000421090),
+    pdg: -1000421090,
     name: "Mo109~",
     mass: Some(101465.6117952),
     width: None,
@@ -32862,7 +32862,7 @@ let data = [|
     latex: "^{110}\\mathrm{Mo}",
   },
   {
-    pdg: (-1000421100),
+    pdg: -1000421100,
     name: "Mo110~",
     mass: Some(102398.8943589),
     width: None,
@@ -32888,7 +32888,7 @@ let data = [|
     latex: "^{111}\\mathrm{Mo}",
   },
   {
-    pdg: (-1000421110),
+    pdg: -1000421110,
     name: "Mo111~",
     mass: Some(103334.8409956),
     width: None,
@@ -32914,7 +32914,7 @@ let data = [|
     latex: "^{112}\\mathrm{Mo}",
   },
   {
-    pdg: (-1000421120),
+    pdg: -1000421120,
     name: "Mo112~",
     mass: Some(104268.5054719),
     width: None,
@@ -32940,7 +32940,7 @@ let data = [|
     latex: "^{113}\\mathrm{Mo}",
   },
   {
-    pdg: (-1000421130),
+    pdg: -1000421130,
     name: "Mo113~",
     mass: Some(105204.8340212),
     width: None,
@@ -32966,7 +32966,7 @@ let data = [|
     latex: "^{85}\\mathrm{Tc}",
   },
   {
-    pdg: (-1000430850),
+    pdg: -1000430850,
     name: "Tc85~",
     mass: Some(79129.4359857),
     width: None,
@@ -32992,7 +32992,7 @@ let data = [|
     latex: "^{86}\\mathrm{Tc}",
   },
   {
-    pdg: (-1000430860),
+    pdg: -1000430860,
     name: "Tc86~",
     mass: Some(80055.2852264),
     width: None,
@@ -33018,7 +33018,7 @@ let data = [|
     latex: "^{87}\\mathrm{Tc}",
   },
   {
-    pdg: (-1000430870),
+    pdg: -1000430870,
     name: "Tc87~",
     mass: Some(80980.8643339),
     width: None,
@@ -33044,7 +33044,7 @@ let data = [|
     latex: "^{88}\\mathrm{Tc}",
   },
   {
-    pdg: (-1000430880),
+    pdg: -1000430880,
     name: "Tc88~",
     mass: Some(81908.9119008),
     width: None,
@@ -33070,7 +33070,7 @@ let data = [|
     latex: "^{89}\\mathrm{Tc}",
   },
   {
-    pdg: (-1000430890),
+    pdg: -1000430890,
     name: "Tc89~",
     mass: Some(82835.478392),
     width: None,
@@ -33096,7 +33096,7 @@ let data = [|
     latex: "^{90}\\mathrm{Tc}",
   },
   {
-    pdg: (-1000430900),
+    pdg: -1000430900,
     name: "Tc90~",
     mass: Some(83763.2651405),
     width: None,
@@ -33122,7 +33122,7 @@ let data = [|
     latex: "^{91}\\mathrm{Tc}",
   },
   {
-    pdg: (-1000430910),
+    pdg: -1000430910,
     name: "Tc91~",
     mass: Some(84689.9806708),
     width: None,
@@ -33148,7 +33148,7 @@ let data = [|
     latex: "^{92}\\mathrm{Tc}",
   },
   {
-    pdg: (-1000430920),
+    pdg: -1000430920,
     name: "Tc92~",
     mass: Some(85618.5219295),
     width: None,
@@ -33174,7 +33174,7 @@ let data = [|
     latex: "^{93}\\mathrm{Tc}",
   },
   {
-    pdg: (-1000430930),
+    pdg: -1000430930,
     name: "Tc93~",
     mass: Some(86545.3473761),
     width: None,
@@ -33200,7 +33200,7 @@ let data = [|
     latex: "^{94}\\mathrm{Tc}",
   },
   {
-    pdg: (-1000430940),
+    pdg: -1000430940,
     name: "Tc94~",
     mass: Some(87476.2900266),
     width: None,
@@ -33226,7 +33226,7 @@ let data = [|
     latex: "^{95}\\mathrm{Tc}",
   },
   {
-    pdg: (-1000430950),
+    pdg: -1000430950,
     name: "Tc95~",
     mass: Some(88405.9211334),
     width: None,
@@ -33252,7 +33252,7 @@ let data = [|
     latex: "^{96}\\mathrm{Tc}",
   },
   {
-    pdg: (-1000430960),
+    pdg: -1000430960,
     name: "Tc96~",
     mass: Some(89337.6154996),
     width: None,
@@ -33278,7 +33278,7 @@ let data = [|
     latex: "^{97}\\mathrm{Tc}",
   },
   {
-    pdg: (-1000430970),
+    pdg: -1000430970,
     name: "Tc97~",
     mass: Some(90267.7067645),
     width: None,
@@ -33304,7 +33304,7 @@ let data = [|
     latex: "^{98}\\mathrm{Tc}",
   },
   {
-    pdg: (-1000430980),
+    pdg: -1000430980,
     name: "Tc98~",
     mass: Some(91199.9935609),
     width: None,
@@ -33330,7 +33330,7 @@ let data = [|
     latex: "^{99}\\mathrm{Tc}",
   },
   {
-    pdg: (-1000430990),
+    pdg: -1000430990,
     name: "Tc99~",
     mass: Some(92130.5921175),
     width: None,
@@ -33356,7 +33356,7 @@ let data = [|
     latex: "^{100}\\mathrm{Tc}",
   },
   {
-    pdg: (-1000431000),
+    pdg: -1000431000,
     name: "Tc100~",
     mass: Some(93063.3930987),
     width: None,
@@ -33382,7 +33382,7 @@ let data = [|
     latex: "^{101}\\mathrm{Tc}",
   },
   {
-    pdg: (-1000431010),
+    pdg: -1000431010,
     name: "Tc101~",
     mass: Some(93994.5671323),
     width: None,
@@ -33408,7 +33408,7 @@ let data = [|
     latex: "^{102}\\mathrm{Tc}",
   },
   {
-    pdg: (-1000431020),
+    pdg: -1000431020,
     name: "Tc102~",
     mass: Some(94927.8301346),
     width: None,
@@ -33434,7 +33434,7 @@ let data = [|
     latex: "^{103}\\mathrm{Tc}",
   },
   {
-    pdg: (-1000431030),
+    pdg: -1000431030,
     name: "Tc103~",
     mass: Some(95859.2925588),
     width: None,
@@ -33460,7 +33460,7 @@ let data = [|
     latex: "^{104}\\mathrm{Tc}",
   },
   {
-    pdg: (-1000431040),
+    pdg: -1000431040,
     name: "Tc104~",
     mass: Some(96792.8927619),
     width: None,
@@ -33486,7 +33486,7 @@ let data = [|
     latex: "^{105}\\mathrm{Tc}",
   },
   {
-    pdg: (-1000431050),
+    pdg: -1000431050,
     name: "Tc105~",
     mass: Some(97724.5917856),
     width: None,
@@ -33512,7 +33512,7 @@ let data = [|
     latex: "^{106}\\mathrm{Tc}",
   },
   {
-    pdg: (-1000431060),
+    pdg: -1000431060,
     name: "Tc106~",
     mass: Some(98658.5962572),
     width: None,
@@ -33538,7 +33538,7 @@ let data = [|
     latex: "^{107}\\mathrm{Tc}",
   },
   {
-    pdg: (-1000431070),
+    pdg: -1000431070,
     name: "Tc107~",
     mass: Some(99590.7656854),
     width: None,
@@ -33564,7 +33564,7 @@ let data = [|
     latex: "^{108}\\mathrm{Tc}",
   },
   {
-    pdg: (-1000431080),
+    pdg: -1000431080,
     name: "Tc108~",
     mass: Some(100525.4268603),
     width: None,
@@ -33590,7 +33590,7 @@ let data = [|
     latex: "^{109}\\mathrm{Tc}",
   },
   {
-    pdg: (-1000431090),
+    pdg: -1000431090,
     name: "Tc109~",
     mass: Some(101457.9921735),
     width: None,
@@ -33616,7 +33616,7 @@ let data = [|
     latex: "^{110}\\mathrm{Tc}",
   },
   {
-    pdg: (-1000431100),
+    pdg: -1000431100,
     name: "Tc110~",
     mass: Some(102392.9886863),
     width: None,
@@ -33642,7 +33642,7 @@ let data = [|
     latex: "^{111}\\mathrm{Tc}",
   },
   {
-    pdg: (-1000431110),
+    pdg: -1000431110,
     name: "Tc111~",
     mass: Some(103326.0290615),
     width: None,
@@ -33668,7 +33668,7 @@ let data = [|
     latex: "^{112}\\mathrm{Tc}",
   },
   {
-    pdg: (-1000431120),
+    pdg: -1000431120,
     name: "Tc112~",
     mass: Some(104261.4261167),
     width: None,
@@ -33694,7 +33694,7 @@ let data = [|
     latex: "^{113}\\mathrm{Tc}",
   },
   {
-    pdg: (-1000431130),
+    pdg: -1000431130,
     name: "Tc113~",
     mass: Some(105194.8670344),
     width: None,
@@ -33720,7 +33720,7 @@ let data = [|
     latex: "^{114}\\mathrm{Tc}",
   },
   {
-    pdg: (-1000431140),
+    pdg: -1000431140,
     name: "Tc114~",
     mass: Some(106130.5994275),
     width: None,
@@ -33746,7 +33746,7 @@ let data = [|
     latex: "^{115}\\mathrm{Tc}",
   },
   {
-    pdg: (-1000431150),
+    pdg: -1000431150,
     name: "Tc115~",
     mass: Some(107064.3291083),
     width: None,
@@ -33772,7 +33772,7 @@ let data = [|
     latex: "^{87}\\mathrm{Ru}",
   },
   {
-    pdg: (-1000440870),
+    pdg: -1000440870,
     name: "Ru87~",
     mass: Some(80992.6477342),
     width: None,
@@ -33798,7 +33798,7 @@ let data = [|
     latex: "^{88}\\mathrm{Ru}",
   },
   {
-    pdg: (-1000440880),
+    pdg: -1000440880,
     name: "Ru88~",
     mass: Some(81915.981941),
     width: None,
@@ -33824,7 +33824,7 @@ let data = [|
     latex: "^{89}\\mathrm{Ru}",
   },
   {
-    pdg: (-1000440890),
+    pdg: -1000440890,
     name: "Ru89~",
     mass: Some(82843.4612964),
     width: None,
@@ -33850,7 +33850,7 @@ let data = [|
     latex: "^{90}\\mathrm{Ru}",
   },
   {
-    pdg: (-1000440900),
+    pdg: -1000440900,
     name: "Ru90~",
     mass: Some(83769.0590338),
     width: None,
@@ -33876,7 +33876,7 @@ let data = [|
     latex: "^{91}\\mathrm{Ru}",
   },
   {
-    pdg: (-1000440910),
+    pdg: -1000440910,
     name: "Ru91~",
     mass: Some(84697.3860488),
     width: None,
@@ -33902,7 +33902,7 @@ let data = [|
     latex: "^{92}\\mathrm{Ru}",
   },
   {
-    pdg: (-1000440920),
+    pdg: -1000440920,
     name: "Ru92~",
     mass: Some(85623.0489908),
     width: None,
@@ -33928,7 +33928,7 @@ let data = [|
     latex: "^{93}\\mathrm{Ru}",
   },
   {
-    pdg: (-1000440930),
+    pdg: -1000440930,
     name: "Ru93~",
     mass: Some(86551.6833989),
     width: None,
@@ -33954,7 +33954,7 @@ let data = [|
     latex: "^{94}\\mathrm{Ru}",
   },
   {
-    pdg: (-1000440940),
+    pdg: -1000440940,
     name: "Ru94~",
     mass: Some(87477.8772925),
     width: None,
@@ -33980,7 +33980,7 @@ let data = [|
     latex: "^{95}\\mathrm{Ru}",
   },
   {
-    pdg: (-1000440950),
+    pdg: -1000440950,
     name: "Ru95~",
     mass: Some(88408.4892626),
     width: None,
@@ -34006,7 +34006,7 @@ let data = [|
     latex: "^{96}\\mathrm{Ru}",
   },
   {
-    pdg: (-1000440960),
+    pdg: -1000440960,
     name: "Ru96~",
     mass: Some(89337.3612017),
     width: None,
@@ -34032,7 +34032,7 @@ let data = [|
     latex: "^{97}\\mathrm{Ru}",
   },
   {
-    pdg: (-1000440970),
+    pdg: -1000440970,
     name: "Ru97~",
     mass: Some(90268.8152424),
     width: None,
@@ -34058,7 +34058,7 @@ let data = [|
     latex: "^{98}\\mathrm{Ru}",
   },
   {
-    pdg: (-1000440980),
+    pdg: -1000440980,
     name: "Ru98~",
     mass: Some(91198.1967088),
     width: None,
@@ -34084,7 +34084,7 @@ let data = [|
     latex: "^{99}\\mathrm{Ru}",
   },
   {
-    pdg: (-1000440990),
+    pdg: -1000440990,
     name: "Ru99~",
     mass: Some(92130.2984174),
     width: None,
@@ -34110,7 +34110,7 @@ let data = [|
     latex: "^{100}\\mathrm{Ru}",
   },
   {
-    pdg: (-1000441000),
+    pdg: -1000441000,
     name: "Ru100~",
     mass: Some(93060.1907151),
     width: None,
@@ -34136,7 +34136,7 @@ let data = [|
     latex: "^{101}\\mathrm{Ru}",
   },
   {
-    pdg: (-1000441010),
+    pdg: -1000441010,
     name: "Ru101~",
     mass: Some(93992.9539708),
     width: None,
@@ -34162,7 +34162,7 @@ let data = [|
     latex: "^{102}\\mathrm{Ru}",
   },
   {
-    pdg: (-1000441020),
+    pdg: -1000441020,
     name: "Ru102~",
     mass: Some(94923.2998131),
     width: None,
@@ -34188,7 +34188,7 @@ let data = [|
     latex: "^{103}\\mathrm{Ru}",
   },
   {
-    pdg: (-1000441030),
+    pdg: -1000441030,
     name: "Ru103~",
     mass: Some(95856.6328637),
     width: None,
@@ -34214,7 +34214,7 @@ let data = [|
     latex: "^{104}\\mathrm{Ru}",
   },
   {
-    pdg: (-1000441040),
+    pdg: -1000441040,
     name: "Ru104~",
     mass: Some(96787.2944824),
     width: None,
@@ -34240,7 +34240,7 @@ let data = [|
     latex: "^{105}\\mathrm{Ru}",
   },
   {
-    pdg: (-1000441050),
+    pdg: -1000441050,
     name: "Ru105~",
     mass: Some(97720.9496437),
     width: None,
@@ -34266,7 +34266,7 @@ let data = [|
     latex: "^{106}\\mathrm{Ru}",
   },
   {
-    pdg: (-1000441060),
+    pdg: -1000441060,
     name: "Ru106~",
     mass: Some(98652.0497167),
     width: None,
@@ -34292,7 +34292,7 @@ let data = [|
     latex: "^{107}\\mathrm{Ru}",
   },
   {
-    pdg: (-1000441070),
+    pdg: -1000441070,
     name: "Ru107~",
     mass: Some(99585.9498609),
     width: None,
@@ -34318,7 +34318,7 @@ let data = [|
     latex: "^{108}\\mathrm{Ru}",
   },
   {
-    pdg: (-1000441080),
+    pdg: -1000441080,
     name: "Ru108~",
     mass: Some(100517.7047743),
     width: None,
@@ -34344,7 +34344,7 @@ let data = [|
     latex: "^{109}\\mathrm{Ru}",
   },
   {
-    pdg: (-1000441090),
+    pdg: -1000441090,
     name: "Ru109~",
     mass: Some(101452.0026665),
     width: None,
@@ -34370,7 +34370,7 @@ let data = [|
     latex: "^{110}\\mathrm{Ru}",
   },
   {
-    pdg: (-1000441100),
+    pdg: -1000441100,
     name: "Ru110~",
     mass: Some(102384.2140119),
     width: None,
@@ -34396,7 +34396,7 @@ let data = [|
     latex: "^{111}\\mathrm{Ru}",
   },
   {
-    pdg: (-1000441110),
+    pdg: -1000441110,
     name: "Ru111~",
     mass: Some(103319.0521707),
     width: None,
@@ -34422,7 +34422,7 @@ let data = [|
     latex: "^{112}\\mathrm{Ru}",
   },
   {
-    pdg: (-1000441120),
+    pdg: -1000441120,
     name: "Ru112~",
     mass: Some(104251.4684449),
     width: None,
@@ -34448,7 +34448,7 @@ let data = [|
     latex: "^{113}\\mathrm{Ru}",
   },
   {
-    pdg: (-1000441130),
+    pdg: -1000441130,
     name: "Ru113~",
     mass: Some(105186.6792013),
     width: None,
@@ -34474,7 +34474,7 @@ let data = [|
     latex: "^{114}\\mathrm{Ru}",
   },
   {
-    pdg: (-1000441140),
+    pdg: -1000441140,
     name: "Ru114~",
     mass: Some(106119.5332777),
     width: None,
@@ -34500,7 +34500,7 @@ let data = [|
     latex: "^{115}\\mathrm{Ru}",
   },
   {
-    pdg: (-1000441150),
+    pdg: -1000441150,
     name: "Ru115~",
     mass: Some(107055.0421122),
     width: None,
@@ -34526,7 +34526,7 @@ let data = [|
     latex: "^{116}\\mathrm{Ru}",
   },
   {
-    pdg: (-1000441160),
+    pdg: -1000441160,
     name: "Ru116~",
     mass: Some(107988.2594713),
     width: None,
@@ -34552,7 +34552,7 @@ let data = [|
     latex: "^{117}\\mathrm{Ru}",
   },
   {
-    pdg: (-1000441170),
+    pdg: -1000441170,
     name: "Ru117~",
     mass: Some(108924.0663839),
     width: None,
@@ -34578,7 +34578,7 @@ let data = [|
     latex: "^{118}\\mathrm{Ru}",
   },
   {
-    pdg: (-1000441180),
+    pdg: -1000441180,
     name: "Ru118~",
     mass: Some(109857.6470257),
     width: None,
@@ -34604,7 +34604,7 @@ let data = [|
     latex: "^{89}\\mathrm{Rh}",
   },
   {
-    pdg: (-1000450890),
+    pdg: -1000450890,
     name: "Rh89~",
     mass: Some(82855.822223),
     width: None,
@@ -34630,7 +34630,7 @@ let data = [|
     latex: "^{90}\\mathrm{Rh}",
   },
   {
-    pdg: (-1000450900),
+    pdg: -1000450900,
     name: "Rh90~",
     mass: Some(83781.2522915),
     width: None,
@@ -34656,7 +34656,7 @@ let data = [|
     latex: "^{91}\\mathrm{Rh}",
   },
   {
-    pdg: (-1000450910),
+    pdg: -1000450910,
     name: "Rh91~",
     mass: Some(84706.8593438),
     width: None,
@@ -34682,7 +34682,7 @@ let data = [|
     latex: "^{92}\\mathrm{Rh}",
   },
   {
-    pdg: (-1000450920),
+    pdg: -1000450920,
     name: "Rh92~",
     mass: Some(85634.0965108),
     width: None,
@@ -34708,7 +34708,7 @@ let data = [|
     latex: "^{93}\\mathrm{Rh}",
   },
   {
-    pdg: (-1000450930),
+    pdg: -1000450930,
     name: "Rh93~",
     mass: Some(86559.7780826),
     width: None,
@@ -34734,7 +34734,7 @@ let data = [|
     latex: "^{94}\\mathrm{Rh}",
   },
   {
-    pdg: (-1000450940),
+    pdg: -1000450940,
     name: "Rh94~",
     mass: Some(87487.5089414),
     width: None,
@@ -34760,7 +34760,7 @@ let data = [|
     latex: "^{95}\\mathrm{Rh}",
   },
   {
-    pdg: (-1000450950),
+    pdg: -1000450950,
     name: "Rh95~",
     mass: Some(88413.6003707),
     width: None,
@@ -34786,7 +34786,7 @@ let data = [|
     latex: "^{96}\\mathrm{Rh}",
   },
   {
-    pdg: (-1000450960),
+    pdg: -1000450960,
     name: "Rh96~",
     mass: Some(89343.8071408),
     width: None,
@@ -34812,7 +34812,7 @@ let data = [|
     latex: "^{97}\\mathrm{Rh}",
   },
   {
-    pdg: (-1000450970),
+    pdg: -1000450970,
     name: "Rh97~",
     mass: Some(90272.3409476),
     width: None,
@@ -34838,7 +34838,7 @@ let data = [|
     latex: "^{98}\\mathrm{Rh}",
   },
   {
-    pdg: (-1000450980),
+    pdg: -1000450980,
     name: "Rh98~",
     mass: Some(91203.2537903),
     width: None,
@@ -34864,7 +34864,7 @@ let data = [|
     latex: "^{99}\\mathrm{Rh}",
   },
   {
-    pdg: (-1000450990),
+    pdg: -1000450990,
     name: "Rh99~",
     mass: Some(92132.3409045),
     width: None,
@@ -34890,7 +34890,7 @@ let data = [|
     latex: "^{100}\\mathrm{Rh}",
   },
   {
-    pdg: (-1000451000),
+    pdg: -1000451000,
     name: "Rh100~",
     mass: Some(93063.8210271),
     width: None,
@@ -34916,7 +34916,7 @@ let data = [|
     latex: "^{101}\\mathrm{Rh}",
   },
   {
-    pdg: (-1000451010),
+    pdg: -1000451010,
     name: "Rh101~",
     mass: Some(93993.4959141),
     width: None,
@@ -34942,7 +34942,7 @@ let data = [|
     latex: "^{102}\\mathrm{Rh}",
   },
   {
-    pdg: (-1000451020),
+    pdg: -1000451020,
     name: "Rh102~",
     mass: Some(94925.6224936),
     width: None,
@@ -34968,7 +34968,7 @@ let data = [|
     latex: "^{103}\\mathrm{Rh}",
   },
   {
-    pdg: (-1000451030),
+    pdg: -1000451030,
     name: "Rh103~",
     mass: Some(95855.869318),
     width: None,
@@ -34994,7 +34994,7 @@ let data = [|
     latex: "^{104}\\mathrm{Rh}",
   },
   {
-    pdg: (-1000451040),
+    pdg: -1000451040,
     name: "Rh104~",
     mass: Some(96788.4355627),
     width: None,
@@ -35020,7 +35020,7 @@ let data = [|
     latex: "^{105}\\mathrm{Rh}",
   },
   {
-    pdg: (-1000451050),
+    pdg: -1000451050,
     name: "Rh105~",
     mass: Some(97719.0326289),
     width: None,
@@ -35046,7 +35046,7 @@ let data = [|
     latex: "^{106}\\mathrm{Rh}",
   },
   {
-    pdg: (-1000451060),
+    pdg: -1000451060,
     name: "Rh106~",
     mass: Some(98652.0105939),
     width: None,
@@ -35072,7 +35072,7 @@ let data = [|
     latex: "^{107}\\mathrm{Rh}",
   },
   {
-    pdg: (-1000451070),
+    pdg: -1000451070,
     name: "Rh107~",
     mass: Some(99583.0072711),
     width: None,
@@ -35098,7 +35098,7 @@ let data = [|
     latex: "^{108}\\mathrm{Rh}",
   },
   {
-    pdg: (-1000451080),
+    pdg: -1000451080,
     name: "Rh108~",
     mass: Some(100516.3447929),
     width: None,
@@ -35124,7 +35124,7 @@ let data = [|
     latex: "^{109}\\mathrm{Rh}",
   },
   {
-    pdg: (-1000451090),
+    pdg: -1000451090,
     name: "Rh109~",
     mass: Some(101447.8444768),
     width: None,
@@ -35150,7 +35150,7 @@ let data = [|
     latex: "^{110}\\mathrm{Rh}",
   },
   {
-    pdg: (-1000451100),
+    pdg: -1000451100,
     name: "Rh110~",
     mass: Some(102381.4008998),
     width: None,
@@ -35176,7 +35176,7 @@ let data = [|
     latex: "^{111}\\mathrm{Rh}",
   },
   {
-    pdg: (-1000451110),
+    pdg: -1000451110,
     name: "Rh111~",
     mass: Some(103313.5563556),
     width: None,
@@ -35202,7 +35202,7 @@ let data = [|
     latex: "^{112}\\mathrm{Rh}",
   },
   {
-    pdg: (-1000451120),
+    pdg: -1000451120,
     name: "Rh112~",
     mass: Some(104247.7983581),
     width: None,
@@ -35228,7 +35228,7 @@ let data = [|
     latex: "^{113}\\mathrm{Rh}",
   },
   {
-    pdg: (-1000451130),
+    pdg: -1000451130,
     name: "Rh113~",
     mass: Some(105180.0469633),
     width: None,
@@ -35254,7 +35254,7 @@ let data = [|
     latex: "^{114}\\mathrm{Rh}",
   },
   {
-    pdg: (-1000451140),
+    pdg: -1000451140,
     name: "Rh114~",
     mass: Some(106114.7360831),
     width: None,
@@ -35280,7 +35280,7 @@ let data = [|
     latex: "^{115}\\mathrm{Rh}",
   },
   {
-    pdg: (-1000451150),
+    pdg: -1000451150,
     name: "Rh115~",
     mass: Some(107047.4131756),
     width: None,
@@ -35306,7 +35306,7 @@ let data = [|
     latex: "^{116}\\mathrm{Rh}",
   },
   {
-    pdg: (-1000451160),
+    pdg: -1000451160,
     name: "Rh116~",
     mass: Some(107982.2513344),
     width: None,
@@ -35332,7 +35332,7 @@ let data = [|
     latex: "^{117}\\mathrm{Rh}",
   },
   {
-    pdg: (-1000451170),
+    pdg: -1000451170,
     name: "Rh117~",
     mass: Some(108915.2730797),
     width: None,
@@ -35358,7 +35358,7 @@ let data = [|
     latex: "^{118}\\mathrm{Rh}",
   },
   {
-    pdg: (-1000451180),
+    pdg: -1000451180,
     name: "Rh118~",
     mass: Some(109850.5676706),
     width: None,
@@ -35384,7 +35384,7 @@ let data = [|
     latex: "^{119}\\mathrm{Rh}",
   },
   {
-    pdg: (-1000451190),
+    pdg: -1000451190,
     name: "Rh119~",
     mass: Some(110783.8595491),
     width: None,
@@ -35410,7 +35410,7 @@ let data = [|
     latex: "^{120}\\mathrm{Rh}",
   },
   {
-    pdg: (-1000451200),
+    pdg: -1000451200,
     name: "Rh120~",
     mass: Some(111719.470848),
     width: None,
@@ -35436,7 +35436,7 @@ let data = [|
     latex: "^{121}\\mathrm{Rh}",
   },
   {
-    pdg: (-1000451210),
+    pdg: -1000451210,
     name: "Rh121~",
     mass: Some(112653.1073794),
     width: None,
@@ -35462,7 +35462,7 @@ let data = [|
     latex: "^{91}\\mathrm{Pd}",
   },
   {
-    pdg: (-1000460910),
+    pdg: -1000460910,
     name: "Pd91~",
     mass: Some(84718.9035624),
     width: None,
@@ -35488,7 +35488,7 @@ let data = [|
     latex: "^{92}\\mathrm{Pd}",
   },
   {
-    pdg: (-1000460920),
+    pdg: -1000460920,
     name: "Pd92~",
     mass: Some(85641.9583209),
     width: None,
@@ -35514,7 +35514,7 @@ let data = [|
     latex: "^{93}\\mathrm{Pd}",
   },
   {
-    pdg: (-1000460930),
+    pdg: -1000460930,
     name: "Pd93~",
     mass: Some(86569.2513775),
     width: None,
@@ -35540,7 +35540,7 @@ let data = [|
     latex: "^{94}\\mathrm{Pd}",
   },
   {
-    pdg: (-1000460940),
+    pdg: -1000460940,
     name: "Pd94~",
     mass: Some(87494.0946047),
     width: None,
@@ -35566,7 +35566,7 @@ let data = [|
     latex: "^{95}\\mathrm{Pd}",
   },
   {
-    pdg: (-1000460950),
+    pdg: -1000460950,
     name: "Pd95~",
     mass: Some(88421.7882038),
     width: None,
@@ -35592,7 +35592,7 @@ let data = [|
     latex: "^{96}\\mathrm{Pd}",
   },
   {
-    pdg: (-1000460960),
+    pdg: -1000460960,
     name: "Pd96~",
     mass: Some(89347.255532),
     width: None,
@@ -35618,7 +35618,7 @@ let data = [|
     latex: "^{97}\\mathrm{Pd}",
   },
   {
-    pdg: (-1000460970),
+    pdg: -1000460970,
     name: "Pd97~",
     mass: Some(90277.1288272),
     width: None,
@@ -35644,7 +35644,7 @@ let data = [|
     latex: "^{98}\\mathrm{Pd}",
   },
   {
-    pdg: (-1000460980),
+    pdg: -1000460980,
     name: "Pd98~",
     mass: Some(91205.1214359),
     width: None,
@@ -35670,7 +35670,7 @@ let data = [|
     latex: "^{99}\\mathrm{Pd}",
   },
   {
-    pdg: (-1000460990),
+    pdg: -1000460990,
     name: "Pd99~",
     mass: Some(92135.727817),
     width: None,
@@ -35696,7 +35696,7 @@ let data = [|
     latex: "^{100}\\mathrm{Pd}",
   },
   {
-    pdg: (-1000461000),
+    pdg: -1000461000,
     name: "Pd100~",
     mass: Some(93064.1824468),
     width: None,
@@ -35722,7 +35722,7 @@ let data = [|
     latex: "^{101}\\mathrm{Pd}",
   },
   {
-    pdg: (-1000461010),
+    pdg: -1000461010,
     name: "Pd101~",
     mass: Some(93995.4753391),
     width: None,
@@ -35748,7 +35748,7 @@ let data = [|
     latex: "^{102}\\mathrm{Pd}",
   },
   {
-    pdg: (-1000461020),
+    pdg: -1000461020,
     name: "Pd102~",
     mass: Some(94924.4720984),
     width: None,
@@ -35774,7 +35774,7 @@ let data = [|
     latex: "^{103}\\mathrm{Pd}",
   },
   {
-    pdg: (-1000461030),
+    pdg: -1000461030,
     name: "Pd103~",
     mass: Some(95856.412379),
     width: None,
@@ -35800,7 +35800,7 @@ let data = [|
     latex: "^{104}\\mathrm{Pd}",
   },
   {
-    pdg: (-1000461040),
+    pdg: -1000461040,
     name: "Pd104~",
     mass: Some(96785.9950481),
     width: None,
@@ -35826,7 +35826,7 @@ let data = [|
     latex: "^{105}\\mathrm{Pd}",
   },
   {
-    pdg: (-1000461050),
+    pdg: -1000461050,
     name: "Pd105~",
     mass: Some(97718.4662804),
     width: None,
@@ -35852,7 +35852,7 @@ let data = [|
     latex: "^{106}\\mathrm{Pd}",
   },
   {
-    pdg: (-1000461060),
+    pdg: -1000461060,
     name: "Pd106~",
     mass: Some(98648.4690534),
     width: None,
@@ -35878,7 +35878,7 @@ let data = [|
     latex: "^{107}\\mathrm{Pd}",
   },
   {
-    pdg: (-1000461070),
+    pdg: -1000461070,
     name: "Pd107~",
     mass: Some(99581.4954562),
     width: None,
@@ -35904,7 +35904,7 @@ let data = [|
     latex: "^{108}\\mathrm{Pd}",
   },
   {
-    pdg: (-1000461080),
+    pdg: -1000461080,
     name: "Pd108~",
     mass: Some(100511.8400874),
     width: None,
@@ -35930,7 +35930,7 @@ let data = [|
     latex: "^{109}\\mathrm{Pd}",
   },
   {
-    pdg: (-1000461090),
+    pdg: -1000461090,
     name: "Pd109~",
     mass: Some(101445.2530603),
     width: None,
@@ -35956,7 +35956,7 @@ let data = [|
     latex: "^{110}\\mathrm{Pd}",
   },
   {
-    pdg: (-1000461100),
+    pdg: -1000461100,
     name: "Pd110~",
     mass: Some(102376.000097),
     width: None,
@@ -35982,7 +35982,7 @@ let data = [|
     latex: "^{111}\\mathrm{Pd}",
   },
   {
-    pdg: (-1000461110),
+    pdg: -1000461110,
     name: "Pd111~",
     mass: Some(103309.8117493),
     width: None,
@@ -36008,7 +36008,7 @@ let data = [|
     latex: "^{112}\\mathrm{Pd}",
   },
   {
-    pdg: (-1000461120),
+    pdg: -1000461120,
     name: "Pd112~",
     mass: Some(104241.0012457),
     width: None,
@@ -36034,7 +36034,7 @@ let data = [|
     latex: "^{113}\\mathrm{Pd}",
   },
   {
-    pdg: (-1000461130),
+    pdg: -1000461130,
     name: "Pd113~",
     mass: Some(105175.1379895),
     width: None,
@@ -36060,7 +36060,7 @@ let data = [|
     latex: "^{114}\\mathrm{Pd}",
   },
   {
-    pdg: (-1000461140),
+    pdg: -1000461140,
     name: "Pd114~",
     mass: Some(106106.8323557),
     width: None,
@@ -36086,7 +36086,7 @@ let data = [|
     latex: "^{115}\\mathrm{Pd}",
   },
   {
-    pdg: (-1000461150),
+    pdg: -1000461150,
     name: "Pd115~",
     mass: Some(107041.4143536),
     width: None,
@@ -36112,7 +36112,7 @@ let data = [|
     latex: "^{116}\\mathrm{Pd}",
   },
   {
-    pdg: (-1000461160),
+    pdg: -1000461160,
     name: "Pd116~",
     mass: Some(107973.3555657),
     width: None,
@@ -36138,7 +36138,7 @@ let data = [|
     latex: "^{117}\\mathrm{Pd}",
   },
   {
-    pdg: (-1000461170),
+    pdg: -1000461170,
     name: "Pd117~",
     mass: Some(108908.277559),
     width: None,
@@ -36164,7 +36164,7 @@ let data = [|
     latex: "^{118}\\mathrm{Pd}",
   },
   {
-    pdg: (-1000461180),
+    pdg: -1000461180,
     name: "Pd118~",
     mass: Some(109840.8335573),
     width: None,
@@ -36190,7 +36190,7 @@ let data = [|
     latex: "^{119}\\mathrm{Pd}",
   },
   {
-    pdg: (-1000461190),
+    pdg: -1000461190,
     name: "Pd119~",
     mass: Some(110775.7741804),
     width: None,
@@ -36216,7 +36216,7 @@ let data = [|
     latex: "^{120}\\mathrm{Pd}",
   },
   {
-    pdg: (-1000461200),
+    pdg: -1000461200,
     name: "Pd120~",
     mass: Some(111708.5257924),
     width: None,
@@ -36242,7 +36242,7 @@ let data = [|
     latex: "^{121}\\mathrm{Pd}",
   },
   {
-    pdg: (-1000461210),
+    pdg: -1000461210,
     name: "Pd121~",
     mass: Some(112643.8855879),
     width: None,
@@ -36268,7 +36268,7 @@ let data = [|
     latex: "^{122}\\mathrm{Pd}",
   },
   {
-    pdg: (-1000461220),
+    pdg: -1000461220,
     name: "Pd122~",
     mass: Some(113576.8887033),
     width: None,
@@ -36294,7 +36294,7 @@ let data = [|
     latex: "^{123}\\mathrm{Pd}",
   },
   {
-    pdg: (-1000461230),
+    pdg: -1000461230,
     name: "Pd123~",
     mass: Some(114512.537262),
     width: None,
@@ -36320,7 +36320,7 @@ let data = [|
     latex: "^{94}\\mathrm{Ag}",
   },
   {
-    pdg: (-1000470940),
+    pdg: -1000470940,
     name: "Ag94~",
     mass: Some(87507.144837),
     width: None,
@@ -36346,7 +36346,7 @@ let data = [|
     latex: "^{95}\\mathrm{Ag}",
   },
   {
-    pdg: (-1000470950),
+    pdg: -1000470950,
     name: "Ag95~",
     mass: Some(88431.8390251),
     width: None,
@@ -36372,7 +36372,7 @@ let data = [|
     latex: "^{96}\\mathrm{Ag}",
   },
   {
-    pdg: (-1000470960),
+    pdg: -1000470960,
     name: "Ag96~",
     mass: Some(89358.8619484),
     width: None,
@@ -36398,7 +36398,7 @@ let data = [|
     latex: "^{97}\\mathrm{Ag}",
   },
   {
-    pdg: (-1000470970),
+    pdg: -1000470970,
     name: "Ag97~",
     mass: Some(90284.1336628),
     width: None,
@@ -36424,7 +36424,7 @@ let data = [|
     latex: "^{98}\\mathrm{Ag}",
   },
   {
-    pdg: (-1000470980),
+    pdg: -1000470980,
     name: "Ag98~",
     mass: Some(91213.541211),
     width: None,
@@ -36450,7 +36450,7 @@ let data = [|
     latex: "^{99}\\mathrm{Ag}",
   },
   {
-    pdg: (-1000470990),
+    pdg: -1000470990,
     name: "Ag99~",
     mass: Some(92141.1602906),
     width: None,
@@ -36476,7 +36476,7 @@ let data = [|
     latex: "^{100}\\mathrm{Ag}",
   },
   {
-    pdg: (-1000471000),
+    pdg: -1000471000,
     name: "Ag100~",
     mass: Some(93071.2291996),
     width: None,
@@ -36502,7 +36502,7 @@ let data = [|
     latex: "^{101}\\mathrm{Ag}",
   },
   {
-    pdg: (-1000471010),
+    pdg: -1000471010,
     name: "Ag101~",
     mass: Some(93999.6773089),
     width: None,
@@ -36528,7 +36528,7 @@ let data = [|
     latex: "^{102}\\mathrm{Ag}",
   },
   {
-    pdg: (-1000471020),
+    pdg: -1000471020,
     name: "Ag102~",
     mass: Some(94930.4262086),
     width: None,
@@ -36554,7 +36554,7 @@ let data = [|
     latex: "^{103}\\mathrm{Ag}",
   },
   {
-    pdg: (-1000471030),
+    pdg: -1000471030,
     name: "Ag103~",
     mass: Some(95859.0997395),
     width: None,
@@ -36580,7 +36580,7 @@ let data = [|
     latex: "^{104}\\mathrm{Ag}",
   },
   {
-    pdg: (-1000471040),
+    pdg: -1000471040,
     name: "Ag104~",
     mass: Some(96790.2734005),
     width: None,
@@ -36606,7 +36606,7 @@ let data = [|
     latex: "^{105}\\mathrm{Ag}",
   },
   {
-    pdg: (-1000471050),
+    pdg: -1000471050,
     name: "Ag105~",
     mass: Some(97719.8113579),
     width: None,
@@ -36632,7 +36632,7 @@ let data = [|
     latex: "^{106}\\mathrm{Ag}",
   },
   {
-    pdg: (-1000471060),
+    pdg: -1000471060,
     name: "Ag106~",
     mass: Some(98651.4339991),
     width: None,
@@ -36658,7 +36658,7 @@ let data = [|
     latex: "^{107}\\mathrm{Ag}",
   },
   {
-    pdg: (-1000471070),
+    pdg: -1000471070,
     name: "Ag107~",
     mass: Some(99581.4628539),
     width: None,
@@ -36684,7 +36684,7 @@ let data = [|
     latex: "^{108}\\mathrm{Ag}",
   },
   {
-    pdg: (-1000471080),
+    pdg: -1000471080,
     name: "Ag108~",
     mass: Some(100513.7589653),
     width: None,
@@ -36710,7 +36710,7 @@ let data = [|
     latex: "^{109}\\mathrm{Ag}",
   },
   {
-    pdg: (-1000471090),
+    pdg: -1000471090,
     name: "Ag109~",
     mass: Some(101444.1371303),
     width: None,
@@ -36736,7 +36736,7 @@ let data = [|
     latex: "^{110}\\mathrm{Ag}",
   },
   {
-    pdg: (-1000471100),
+    pdg: -1000471100,
     name: "Ag110~",
     mass: Some(102376.8924683),
     width: None,
@@ -36762,7 +36762,7 @@ let data = [|
     latex: "^{111}\\mathrm{Ag}",
   },
   {
-    pdg: (-1000471110),
+    pdg: -1000471110,
     name: "Ag111~",
     mass: Some(103307.6273956),
     width: None,
@@ -36788,7 +36788,7 @@ let data = [|
     latex: "^{112}\\mathrm{Ag}",
   },
   {
-    pdg: (-1000471120),
+    pdg: -1000471120,
     name: "Ag112~",
     mass: Some(104240.713414),
     width: None,
@@ -36814,7 +36814,7 @@ let data = [|
     latex: "^{113}\\mathrm{Ag}",
   },
   {
-    pdg: (-1000471130),
+    pdg: -1000471130,
     name: "Ag113~",
     mass: Some(105171.7995146),
     width: None,
@@ -36840,7 +36840,7 @@ let data = [|
     latex: "^{114}\\mathrm{Ag}",
   },
   {
-    pdg: (-1000471140),
+    pdg: -1000471140,
     name: "Ag114~",
     mass: Some(106105.3820194),
     width: None,
@@ -36866,7 +36866,7 @@ let data = [|
     latex: "^{115}\\mathrm{Ag}",
   },
   {
-    pdg: (-1000471150),
+    pdg: -1000471150,
     name: "Ag115~",
     mass: Some(107036.8314026),
     width: None,
@@ -36892,7 +36892,7 @@ let data = [|
     latex: "^{116}\\mathrm{Ag}",
   },
   {
-    pdg: (-1000471160),
+    pdg: -1000471160,
     name: "Ag116~",
     mass: Some(107970.7473823),
     width: None,
@@ -36918,7 +36918,7 @@ let data = [|
     latex: "^{117}\\mathrm{Ag}",
   },
   {
-    pdg: (-1000471170),
+    pdg: -1000471170,
     name: "Ag117~",
     mass: Some(108902.5395554),
     width: None,
@@ -36944,7 +36944,7 @@ let data = [|
     latex: "^{118}\\mathrm{Ag}",
   },
   {
-    pdg: (-1000471180),
+    pdg: -1000471180,
     name: "Ag118~",
     mass: Some(109836.7349832),
     width: None,
@@ -36970,7 +36970,7 @@ let data = [|
     latex: "^{119}\\mathrm{Ag}",
   },
   {
-    pdg: (-1000471190),
+    pdg: -1000471190,
     name: "Ag119~",
     mass: Some(110769.2444068),
     width: None,
@@ -36996,7 +36996,7 @@ let data = [|
     latex: "^{120}\\mathrm{Ag}",
   },
   {
-    pdg: (-1000471200),
+    pdg: -1000471200,
     name: "Ag120~",
     mass: Some(111703.6447634),
     width: None,
@@ -37022,7 +37022,7 @@ let data = [|
     latex: "^{121}\\mathrm{Ag}",
   },
   {
-    pdg: (-1000471210),
+    pdg: -1000471210,
     name: "Ag121~",
     mass: Some(112636.1262421),
     width: None,
@@ -37048,7 +37048,7 @@ let data = [|
     latex: "^{122}\\mathrm{Ag}",
   },
   {
-    pdg: (-1000471220),
+    pdg: -1000471220,
     name: "Ag122~",
     mass: Some(113570.8526216),
     width: None,
@@ -37074,7 +37074,7 @@ let data = [|
     latex: "^{123}\\mathrm{Ag}",
   },
   {
-    pdg: (-1000471230),
+    pdg: -1000471230,
     name: "Ag123~",
     mass: Some(114503.8184773),
     width: None,
@@ -37100,7 +37100,7 @@ let data = [|
     latex: "^{124}\\mathrm{Ag}",
   },
   {
-    pdg: (-1000471240),
+    pdg: -1000471240,
     name: "Ag124~",
     mass: Some(115438.6938958),
     width: None,
@@ -37126,7 +37126,7 @@ let data = [|
     latex: "^{125}\\mathrm{Ag}",
   },
   {
-    pdg: (-1000471250),
+    pdg: -1000471250,
     name: "Ag125~",
     mass: Some(116372.0602939),
     width: None,
@@ -37152,7 +37152,7 @@ let data = [|
     latex: "^{126}\\mathrm{Ag}",
   },
   {
-    pdg: (-1000471260),
+    pdg: -1000471260,
     name: "Ag126~",
     mass: Some(117307.2431055),
     width: None,
@@ -37178,7 +37178,7 @@ let data = [|
     latex: "^{127}\\mathrm{Ag}",
   },
   {
-    pdg: (-1000471270),
+    pdg: -1000471270,
     name: "Ag127~",
     mass: Some(118240.9541565),
     width: None,
@@ -37204,7 +37204,7 @@ let data = [|
     latex: "^{96}\\mathrm{Cd}",
   },
   {
-    pdg: (-1000480960),
+    pdg: -1000480960,
     name: "Cd96~",
     mass: Some(89367.3292297),
     width: None,
@@ -37230,7 +37230,7 @@ let data = [|
     latex: "^{97}\\mathrm{Cd}",
   },
   {
-    pdg: (-1000480970),
+    pdg: -1000480970,
     name: "Cd97~",
     mass: Some(90294.3242082),
     width: None,
@@ -37256,7 +37256,7 @@ let data = [|
     latex: "^{98}\\mathrm{Cd}",
   },
   {
-    pdg: (-1000480980),
+    pdg: -1000480980,
     name: "Cd98~",
     mass: Some(91218.9625067),
     width: None,
@@ -37282,7 +37282,7 @@ let data = [|
     latex: "^{99}\\mathrm{Cd}",
   },
   {
-    pdg: (-1000480990),
+    pdg: -1000480990,
     name: "Cd99~",
     mass: Some(92148.0626618),
     width: None,
@@ -37308,7 +37308,7 @@ let data = [|
     latex: "^{100}\\mathrm{Cd}",
   },
   {
-    pdg: (-1000481000),
+    pdg: -1000481000,
     name: "Cd100~",
     mass: Some(93075.1042151),
     width: None,
@@ -37334,7 +37334,7 @@ let data = [|
     latex: "^{101}\\mathrm{Cd}",
   },
   {
-    pdg: (-1000481010),
+    pdg: -1000481010,
     name: "Cd101~",
     mass: Some(94005.1544942),
     width: None,
@@ -37360,7 +37360,7 @@ let data = [|
     latex: "^{102}\\mathrm{Cd}",
   },
   {
-    pdg: (-1000481020),
+    pdg: -1000481020,
     name: "Cd102~",
     mass: Some(94933.0157622),
     width: None,
@@ -37386,7 +37386,7 @@ let data = [|
     latex: "^{103}\\mathrm{Cd}",
   },
   {
-    pdg: (-1000481030),
+    pdg: -1000481030,
     name: "Cd103~",
     mass: Some(95863.2420937),
     width: None,
@@ -37412,7 +37412,7 @@ let data = [|
     latex: "^{104}\\mathrm{Cd}",
   },
   {
-    pdg: (-1000481040),
+    pdg: -1000481040,
     name: "Cd104~",
     mass: Some(96791.4098233),
     width: None,
@@ -37438,7 +37438,7 @@ let data = [|
     latex: "^{105}\\mathrm{Cd}",
   },
   {
-    pdg: (-1000481050),
+    pdg: -1000481050,
     name: "Cd105~",
     mass: Some(97722.5499506),
     width: None,
@@ -37464,7 +37464,7 @@ let data = [|
     latex: "^{106}\\mathrm{Cd}",
   },
   {
-    pdg: (-1000481060),
+    pdg: -1000481060,
     name: "Cd106~",
     mass: Some(98651.2402483),
     width: None,
@@ -37490,7 +37490,7 @@ let data = [|
     latex: "^{107}\\mathrm{Cd}",
   },
   {
-    pdg: (-1000481070),
+    pdg: -1000481070,
     name: "Cd107~",
     mass: Some(99582.8796564),
     width: None,
@@ -37516,7 +37516,7 @@ let data = [|
     latex: "^{108}\\mathrm{Cd}",
   },
   {
-    pdg: (-1000481080),
+    pdg: -1000481080,
     name: "Cd108~",
     mass: Some(100512.1092892),
     width: None,
@@ -37542,7 +37542,7 @@ let data = [|
     latex: "^{109}\\mathrm{Cd}",
   },
   {
-    pdg: (-1000481090),
+    pdg: -1000481090,
     name: "Cd109~",
     mass: Some(101444.351374),
     width: None,
@@ -37568,7 +37568,7 @@ let data = [|
     latex: "^{110}\\mathrm{Cd}",
   },
   {
-    pdg: (-1000481100),
+    pdg: -1000481100,
     name: "Cd110~",
     mass: Some(102374.0011107),
     width: None,
@@ -37594,7 +37594,7 @@ let data = [|
     latex: "^{111}\\mathrm{Cd}",
   },
   {
-    pdg: (-1000481110),
+    pdg: -1000481110,
     name: "Cd111~",
     mass: Some(103306.5906427),
     width: None,
@@ -37620,7 +37620,7 @@ let data = [|
     latex: "^{112}\\mathrm{Cd}",
   },
   {
-    pdg: (-1000481120),
+    pdg: -1000481120,
     name: "Cd112~",
     mass: Some(104236.7575449),
     width: None,
@@ -37646,7 +37646,7 @@ let data = [|
     latex: "^{113}\\mathrm{Cd}",
   },
   {
-    pdg: (-1000481130),
+    pdg: -1000481130,
     name: "Cd113~",
     mass: Some(105169.7827368),
     width: None,
@@ -37672,7 +37672,7 @@ let data = [|
     latex: "^{114}\\mathrm{Cd}",
   },
   {
-    pdg: (-1000481140),
+    pdg: -1000481140,
     name: "Cd114~",
     mass: Some(106100.3054697),
     width: None,
@@ -37698,7 +37698,7 @@ let data = [|
     latex: "^{115}\\mathrm{Cd}",
   },
   {
-    pdg: (-1000481150),
+    pdg: -1000481150,
     name: "Cd115~",
     mass: Some(107033.7304588),
     width: None,
@@ -37724,7 +37724,7 @@ let data = [|
     latex: "^{116}\\mathrm{Cd}",
   },
   {
-    pdg: (-1000481160),
+    pdg: -1000481160,
     name: "Cd116~",
     mass: Some(107964.5948638),
     width: None,
@@ -37750,7 +37750,7 @@ let data = [|
     latex: "^{117}\\mathrm{Cd}",
   },
   {
-    pdg: (-1000481170),
+    pdg: -1000481170,
     name: "Cd117~",
     mass: Some(108898.3832287),
     width: None,
@@ -37776,7 +37776,7 @@ let data = [|
     latex: "^{118}\\mathrm{Cd}",
   },
   {
-    pdg: (-1000481180),
+    pdg: -1000481180,
     name: "Cd118~",
     mass: Some(109829.5941495),
     width: None,
@@ -37802,7 +37802,7 @@ let data = [|
     latex: "^{119}\\mathrm{Cd}",
   },
   {
-    pdg: (-1000481190),
+    pdg: -1000481190,
     name: "Cd119~",
     mass: Some(110763.8883158),
     width: None,
@@ -37828,7 +37828,7 @@ let data = [|
     latex: "^{120}\\mathrm{Cd}",
   },
   {
-    pdg: (-1000481200),
+    pdg: -1000481200,
     name: "Cd120~",
     mass: Some(111695.3181376),
     width: None,
@@ -37854,7 +37854,7 @@ let data = [|
     latex: "^{121}\\mathrm{Cd}",
   },
   {
-    pdg: (-1000481210),
+    pdg: -1000481210,
     name: "Cd121~",
     mass: Some(112629.7268777),
     width: None,
@@ -37880,7 +37880,7 @@ let data = [|
     latex: "^{122}\\mathrm{Cd}",
   },
   {
-    pdg: (-1000481220),
+    pdg: -1000481220,
     name: "Cd122~",
     mass: Some(113561.7053496),
     width: None,
@@ -37906,7 +37906,7 @@ let data = [|
     latex: "^{123}\\mathrm{Cd}",
   },
   {
-    pdg: (-1000481230),
+    pdg: -1000481230,
     name: "Cd123~",
     mass: Some(114496.4596739),
     width: None,
@@ -37932,7 +37932,7 @@ let data = [|
     latex: "^{124}\\mathrm{Cd}",
   },
   {
-    pdg: (-1000481240),
+    pdg: -1000481240,
     name: "Cd124~",
     mass: Some(115428.5592401),
     width: None,
@@ -37958,7 +37958,7 @@ let data = [|
     latex: "^{125}\\mathrm{Cd}",
   },
   {
-    pdg: (-1000481250),
+    pdg: -1000481250,
     name: "Cd125~",
     mass: Some(116363.4067138),
     width: None,
@@ -37984,7 +37984,7 @@ let data = [|
     latex: "^{126}\\mathrm{Cd}",
   },
   {
-    pdg: (-1000481260),
+    pdg: -1000481260,
     name: "Cd126~",
     mass: Some(117295.9254523),
     width: None,
@@ -38010,7 +38010,7 @@ let data = [|
     latex: "^{127}\\mathrm{Cd}",
   },
   {
-    pdg: (-1000481270),
+    pdg: -1000481270,
     name: "Cd127~",
     mass: Some(118231.2200432),
     width: None,
@@ -38036,7 +38036,7 @@ let data = [|
     latex: "^{128}\\mathrm{Cd}",
   },
   {
-    pdg: (-1000481280),
+    pdg: -1000481280,
     name: "Cd128~",
     mass: Some(119163.9530253),
     width: None,
@@ -38062,7 +38062,7 @@ let data = [|
     latex: "^{129}\\mathrm{Cd}",
   },
   {
-    pdg: (-1000481290),
+    pdg: -1000481290,
     name: "Cd129~",
     mass: Some(120099.6388437),
     width: None,
@@ -38088,7 +38088,7 @@ let data = [|
     latex: "^{130}\\mathrm{Cd}",
   },
   {
-    pdg: (-1000481300),
+    pdg: -1000481300,
     name: "Cd130~",
     mass: Some(121032.7351086),
     width: None,
@@ -38114,7 +38114,7 @@ let data = [|
     latex: "^{98}\\mathrm{In}",
   },
   {
-    pdg: (-1000490980),
+    pdg: -1000490980,
     name: "In98~",
     mass: Some(91232.6182101),
     width: None,
@@ -38140,7 +38140,7 @@ let data = [|
     latex: "^{99}\\mathrm{In}",
   },
   {
-    pdg: (-1000490990),
+    pdg: -1000490990,
     name: "In99~",
     mass: Some(92157.0050052),
     width: None,
@@ -38166,7 +38166,7 @@ let data = [|
     latex: "^{100}\\mathrm{In}",
   },
   {
-    pdg: (-1000491000),
+    pdg: -1000491000,
     name: "In100~",
     mass: Some(93085.2761306),
     width: None,
@@ -38192,7 +38192,7 @@ let data = [|
     latex: "^{101}\\mathrm{In}",
   },
   {
-    pdg: (-1000491010),
+    pdg: -1000491010,
     name: "In101~",
     mass: Some(94012.4946677),
     width: None,
@@ -38218,7 +38218,7 @@ let data = [|
     latex: "^{102}\\mathrm{In}",
   },
   {
-    pdg: (-1000491020),
+    pdg: -1000491020,
     name: "In102~",
     mass: Some(94942.2654986),
     width: None,
@@ -38244,7 +38244,7 @@ let data = [|
     latex: "^{103}\\mathrm{In}",
   },
   {
-    pdg: (-1000491030),
+    pdg: -1000491030,
     name: "In103~",
     mass: Some(95869.2921479),
     width: None,
@@ -38270,7 +38270,7 @@ let data = [|
     latex: "^{104}\\mathrm{In}",
   },
   {
-    pdg: (-1000491040),
+    pdg: -1000491040,
     name: "In104~",
     mass: Some(96799.3200712),
     width: None,
@@ -38296,7 +38296,7 @@ let data = [|
     latex: "^{105}\\mathrm{In}",
   },
   {
-    pdg: (-1000491050),
+    pdg: -1000491050,
     name: "In105~",
     mass: Some(97727.3983773),
     width: None,
@@ -38322,7 +38322,7 @@ let data = [|
     latex: "^{106}\\mathrm{In}",
   },
   {
-    pdg: (-1000491060),
+    pdg: -1000491060,
     name: "In106~",
     mass: Some(98657.7635015),
     width: None,
@@ -38348,7 +38348,7 @@ let data = [|
     latex: "^{107}\\mathrm{In}",
   },
   {
-    pdg: (-1000491070),
+    pdg: -1000491070,
     name: "In107~",
     mass: Some(99586.3056917),
     width: None,
@@ -38374,7 +38374,7 @@ let data = [|
     latex: "^{108}\\mathrm{In}",
   },
   {
-    pdg: (-1000491080),
+    pdg: -1000491080,
     name: "In108~",
     mass: Some(100517.266972),
     width: None,
@@ -38400,7 +38400,7 @@ let data = [|
     latex: "^{109}\\mathrm{In}",
   },
   {
-    pdg: (-1000491090),
+    pdg: -1000491090,
     name: "In109~",
     mass: Some(101446.3708532),
     width: None,
@@ -38426,7 +38426,7 @@ let data = [|
     latex: "^{110}\\mathrm{In}",
   },
   {
-    pdg: (-1000491100),
+    pdg: -1000491100,
     name: "In110~",
     mass: Some(102377.8789206),
     width: None,
@@ -38452,7 +38452,7 @@ let data = [|
     latex: "^{111}\\mathrm{In}",
   },
   {
-    pdg: (-1000491110),
+    pdg: -1000491110,
     name: "In111~",
     mass: Some(103307.4560007),
     width: None,
@@ -38478,7 +38478,7 @@ let data = [|
     latex: "^{112}\\mathrm{In}",
   },
   {
-    pdg: (-1000491120),
+    pdg: -1000491120,
     name: "In112~",
     mass: Some(104239.3431862),
     width: None,
@@ -38504,7 +38504,7 @@ let data = [|
     latex: "^{113}\\mathrm{In}",
   },
   {
-    pdg: (-1000491130),
+    pdg: -1000491130,
     name: "In113~",
     mass: Some(105169.4661219),
     width: None,
@@ -38530,7 +38530,7 @@ let data = [|
     latex: "^{114}\\mathrm{In}",
   },
   {
-    pdg: (-1000491140),
+    pdg: -1000491140,
     name: "In114~",
     mass: Some(106101.7575758),
     width: None,
@@ -38556,7 +38556,7 @@ let data = [|
     latex: "^{115}\\mathrm{In}",
   },
   {
-    pdg: (-1000491150),
+    pdg: -1000491150,
     name: "In115~",
     mass: Some(107032.2838485),
     width: None,
@@ -38582,7 +38582,7 @@ let data = [|
     latex: "^{116}\\mathrm{In}",
   },
   {
-    pdg: (-1000491160),
+    pdg: -1000491160,
     name: "In116~",
     mass: Some(107965.0652683),
     width: None,
@@ -38608,7 +38608,7 @@ let data = [|
     latex: "^{117}\\mathrm{In}",
   },
   {
-    pdg: (-1000491170),
+    pdg: -1000491170,
     name: "In117~",
     mass: Some(108895.8663317),
     width: None,
@@ -38634,7 +38634,7 @@ let data = [|
     latex: "^{118}\\mathrm{In}",
   },
   {
-    pdg: (-1000491180),
+    pdg: -1000491180,
     name: "In118~",
     mass: Some(109829.0734443),
     width: None,
@@ -38660,7 +38660,7 @@ let data = [|
     latex: "^{119}\\mathrm{In}",
   },
   {
-    pdg: (-1000491190),
+    pdg: -1000491190,
     name: "In119~",
     mass: Some(110760.0934088),
     width: None,
@@ -38686,7 +38686,7 @@ let data = [|
     latex: "^{120}\\mathrm{In}",
   },
   {
-    pdg: (-1000491200),
+    pdg: -1000491200,
     name: "In120~",
     mass: Some(111693.5566823),
     width: None,
@@ -38712,7 +38712,7 @@ let data = [|
     latex: "^{121}\\mathrm{In}",
   },
   {
-    pdg: (-1000491210),
+    pdg: -1000491210,
     name: "In121~",
     mass: Some(112624.9473815),
     width: None,
@@ -38738,7 +38738,7 @@ let data = [|
     latex: "^{122}\\mathrm{In}",
   },
   {
-    pdg: (-1000491220),
+    pdg: -1000491220,
     name: "In122~",
     mass: Some(113558.7059386),
     width: None,
@@ -38764,7 +38764,7 @@ let data = [|
     latex: "^{123}\\mathrm{In}",
   },
   {
-    pdg: (-1000491230),
+    pdg: -1000491230,
     name: "In123~",
     mass: Some(114490.3481411),
     width: None,
@@ -38790,7 +38790,7 @@ let data = [|
     latex: "^{124}\\mathrm{In}",
   },
   {
-    pdg: (-1000491240),
+    pdg: -1000491240,
     name: "In124~",
     mass: Some(115424.3954615),
     width: None,
@@ -38816,7 +38816,7 @@ let data = [|
     latex: "^{125}\\mathrm{In}",
   },
   {
-    pdg: (-1000491250),
+    pdg: -1000491250,
     name: "In125~",
     mass: Some(116356.280784),
     width: None,
@@ -38842,7 +38842,7 @@ let data = [|
     latex: "^{126}\\mathrm{In}",
   },
   {
-    pdg: (-1000491260),
+    pdg: -1000491260,
     name: "In126~",
     mass: Some(117290.4389521),
     width: None,
@@ -38868,7 +38868,7 @@ let data = [|
     latex: "^{127}\\mathrm{In}",
   },
   {
-    pdg: (-1000491270),
+    pdg: -1000491270,
     name: "In127~",
     mass: Some(118222.7527619),
     width: None,
@@ -38894,7 +38894,7 @@ let data = [|
     latex: "^{128}\\mathrm{In}",
   },
   {
-    pdg: (-1000491280),
+    pdg: -1000491280,
     name: "In128~",
     mass: Some(119156.8829851),
     width: None,
@@ -38920,7 +38920,7 @@ let data = [|
     latex: "^{129}\\mathrm{In}",
   },
   {
-    pdg: (-1000491290),
+    pdg: -1000491290,
     name: "In129~",
     mass: Some(120089.7650063),
     width: None,
@@ -38946,7 +38946,7 @@ let data = [|
     latex: "^{130}\\mathrm{In}",
   },
   {
-    pdg: (-1000491300),
+    pdg: -1000491300,
     name: "In130~",
     mass: Some(121024.2305675),
     width: None,
@@ -38972,7 +38972,7 @@ let data = [|
     latex: "^{131}\\mathrm{In}",
   },
   {
-    pdg: (-1000491310),
+    pdg: -1000491310,
     name: "In131~",
     mass: Some(121957.5131311),
     width: None,
@@ -38998,7 +38998,7 @@ let data = [|
     latex: "^{132}\\mathrm{In}",
   },
   {
-    pdg: (-1000491320),
+    pdg: -1000491320,
     name: "In132~",
     mass: Some(122894.7359148),
     width: None,
@@ -39024,7 +39024,7 @@ let data = [|
     latex: "^{133}\\mathrm{In}",
   },
   {
-    pdg: (-1000491330),
+    pdg: -1000491330,
     name: "In133~",
     mass: Some(123831.2787078),
     width: None,
@@ -39050,7 +39050,7 @@ let data = [|
     latex: "^{134}\\mathrm{In}",
   },
   {
-    pdg: (-1000491340),
+    pdg: -1000491340,
     name: "In134~",
     mass: Some(124768.6598455),
     width: None,
@@ -39076,7 +39076,7 @@ let data = [|
     latex: "^{100}\\mathrm{Sn}",
   },
   {
-    pdg: (-1000501000),
+    pdg: -1000501000,
     name: "Sn100~",
     mass: Some(93092.5417845),
     width: None,
@@ -39102,7 +39102,7 @@ let data = [|
     latex: "^{101}\\mathrm{Sn}",
   },
   {
-    pdg: (-1000501010),
+    pdg: -1000501010,
     name: "Sn101~",
     mass: Some(94021.3438616),
     width: None,
@@ -39128,7 +39128,7 @@ let data = [|
     latex: "^{102}\\mathrm{Sn}",
   },
   {
-    pdg: (-1000501020),
+    pdg: -1000501020,
     name: "Sn102~",
     mass: Some(94947.6495345),
     width: None,
@@ -39154,7 +39154,7 @@ let data = [|
     latex: "^{103}\\mathrm{Sn}",
   },
   {
-    pdg: (-1000501030),
+    pdg: -1000501030,
     name: "Sn103~",
     mass: Some(95876.9453034),
     width: None,
@@ -39180,7 +39180,7 @@ let data = [|
     latex: "^{104}\\mathrm{Sn}",
   },
   {
-    pdg: (-1000501040),
+    pdg: -1000501040,
     name: "Sn104~",
     mass: Some(96803.8378175),
     width: None,
@@ -39206,7 +39206,7 @@ let data = [|
     latex: "^{105}\\mathrm{Sn}",
   },
   {
-    pdg: (-1000501050),
+    pdg: -1000501050,
     name: "Sn105~",
     mass: Some(97733.6552232),
     width: None,
@@ -39232,7 +39232,7 @@ let data = [|
     latex: "^{106}\\mathrm{Sn}",
   },
   {
-    pdg: (-1000501060),
+    pdg: -1000501060,
     name: "Sn106~",
     mass: Some(98660.9482798),
     width: None,
@@ -39258,7 +39258,7 @@ let data = [|
     latex: "^{107}\\mathrm{Sn}",
   },
   {
-    pdg: (-1000501070),
+    pdg: -1000501070,
     name: "Sn107~",
     mass: Some(99591.3152669),
     width: None,
@@ -39284,7 +39284,7 @@ let data = [|
     latex: "^{108}\\mathrm{Sn}",
   },
   {
-    pdg: (-1000501080),
+    pdg: -1000501080,
     name: "Sn108~",
     mass: Some(100519.3628338),
     width: None,
@@ -39310,7 +39310,7 @@ let data = [|
     latex: "^{109}\\mathrm{Sn}",
   },
   {
-    pdg: (-1000501090),
+    pdg: -1000501090,
     name: "Sn109~",
     mass: Some(101450.2207183),
     width: None,
@@ -39336,7 +39336,7 @@ let data = [|
     latex: "^{110}\\mathrm{Sn}",
   },
   {
-    pdg: (-1000501100),
+    pdg: -1000501100,
     name: "Sn110~",
     mass: Some(102378.5160625),
     width: None,
@@ -39362,7 +39362,7 @@ let data = [|
     latex: "^{111}\\mathrm{Sn}",
   },
   {
-    pdg: (-1000501110),
+    pdg: -1000501110,
     name: "Sn111~",
     mass: Some(103309.9002412),
     width: None,
@@ -39388,7 +39388,7 @@ let data = [|
     latex: "^{112}\\mathrm{Sn}",
   },
   {
-    pdg: (-1000501120),
+    pdg: -1000501120,
     name: "Sn112~",
     mass: Some(104238.6799624),
     width: None,
@@ -39414,7 +39414,7 @@ let data = [|
     latex: "^{113}\\mathrm{Sn}",
   },
   {
-    pdg: (-1000501130),
+    pdg: -1000501130,
     name: "Sn113~",
     mass: Some(105170.5019433),
     width: None,
@@ -39440,7 +39440,7 @@ let data = [|
     latex: "^{114}\\mathrm{Sn}",
   },
   {
-    pdg: (-1000501140),
+    pdg: -1000501140,
     name: "Sn114~",
     mass: Some(106099.7688359),
     width: None,
@@ -39466,7 +39466,7 @@ let data = [|
     latex: "^{115}\\mathrm{Sn}",
   },
   {
-    pdg: (-1000501150),
+    pdg: -1000501150,
     name: "Sn115~",
     mass: Some(107031.7882936),
     width: None,
@@ -39492,7 +39492,7 @@ let data = [|
     latex: "^{116}\\mathrm{Sn}",
   },
   {
-    pdg: (-1000501160),
+    pdg: -1000501160,
     name: "Sn116~",
     mass: Some(107961.7901351),
     width: None,
@@ -39518,7 +39518,7 @@ let data = [|
     latex: "^{117}\\mathrm{Sn}",
   },
   {
-    pdg: (-1000501170),
+    pdg: -1000501170,
     name: "Sn117~",
     mass: Some(108894.4113379),
     width: None,
@@ -39544,7 +39544,7 @@ let data = [|
     latex: "^{118}\\mathrm{Sn}",
   },
   {
-    pdg: (-1000501180),
+    pdg: -1000501180,
     name: "Sn118~",
     mass: Some(109824.6497789),
     width: None,
@@ -39570,7 +39570,7 @@ let data = [|
     latex: "^{119}\\mathrm{Sn}",
   },
   {
-    pdg: (-1000501190),
+    pdg: -1000501190,
     name: "Sn119~",
     mass: Some(110757.7302083),
     width: None,
@@ -39596,7 +39596,7 @@ let data = [|
     latex: "^{120}\\mathrm{Sn}",
   },
   {
-    pdg: (-1000501200),
+    pdg: -1000501200,
     name: "Sn120~",
     mass: Some(111688.1881092),
     width: None,
@@ -39622,7 +39622,7 @@ let data = [|
     latex: "^{121}\\mathrm{Sn}",
   },
   {
-    pdg: (-1000501210),
+    pdg: -1000501210,
     name: "Sn121~",
     mass: Some(112621.5827316),
     width: None,
@@ -39648,7 +39648,7 @@ let data = [|
     latex: "^{122}\\mathrm{Sn}",
   },
   {
-    pdg: (-1000501220),
+    pdg: -1000501220,
     name: "Sn122~",
     mass: Some(113552.3346121),
     width: None,
@@ -39674,7 +39674,7 @@ let data = [|
     latex: "^{123}\\mathrm{Sn}",
   },
   {
-    pdg: (-1000501230),
+    pdg: -1000501230,
     name: "Sn123~",
     mass: Some(114485.9541904),
     width: None,
@@ -39700,7 +39700,7 @@ let data = [|
     latex: "^{124}\\mathrm{Sn}",
   },
   {
-    pdg: (-1000501240),
+    pdg: -1000501240,
     name: "Sn124~",
     mass: Some(115417.031628),
     width: None,
@@ -39726,7 +39726,7 @@ let data = [|
     latex: "^{125}\\mathrm{Sn}",
   },
   {
-    pdg: (-1000501250),
+    pdg: -1000501250,
     name: "Sn125~",
     mass: Some(116350.8640526),
     width: None,
@@ -39752,7 +39752,7 @@ let data = [|
     latex: "^{126}\\mathrm{Sn}",
   },
   {
-    pdg: (-1000501260),
+    pdg: -1000501260,
     name: "Sn126~",
     mass: Some(117282.2362151),
     width: None,
@@ -39778,7 +39778,7 @@ let data = [|
     latex: "^{127}\\mathrm{Sn}",
   },
   {
-    pdg: (-1000501270),
+    pdg: -1000501270,
     name: "Sn127~",
     mass: Some(118216.2425496),
     width: None,
@@ -39804,7 +39804,7 @@ let data = [|
     latex: "^{128}\\mathrm{Sn}",
   },
   {
-    pdg: (-1000501280),
+    pdg: -1000501280,
     name: "Sn128~",
     mass: Some(119147.9080395),
     width: None,
@@ -39830,7 +39830,7 @@ let data = [|
     latex: "^{129}\\mathrm{Sn}",
   },
   {
-    pdg: (-1000501290),
+    pdg: -1000501290,
     name: "Sn129~",
     mass: Some(120082.1081249),
     width: None,
@@ -39856,7 +39856,7 @@ let data = [|
     latex: "^{130}\\mathrm{Sn}",
   },
   {
-    pdg: (-1000501300),
+    pdg: -1000501300,
     name: "Sn130~",
     mass: Some(121013.9841324),
     width: None,
@@ -39882,7 +39882,7 @@ let data = [|
     latex: "^{131}\\mathrm{Sn}",
   },
   {
-    pdg: (-1000501310),
+    pdg: -1000501310,
     name: "Sn131~",
     mass: Some(121948.3379143),
     width: None,
@@ -39908,7 +39908,7 @@ let data = [|
     latex: "^{132}\\mathrm{Sn}",
   },
   {
-    pdg: (-1000501320),
+    pdg: -1000501320,
     name: "Sn132~",
     mass: Some(122880.5995604),
     width: None,
@@ -39934,7 +39934,7 @@ let data = [|
     latex: "^{133}\\mathrm{Sn}",
   },
   {
-    pdg: (-1000501330),
+    pdg: -1000501330,
     name: "Sn133~",
     mass: Some(123817.7440986),
     width: None,
@@ -39960,7 +39960,7 @@ let data = [|
     latex: "^{134}\\mathrm{Sn}",
   },
   {
-    pdg: (-1000501340),
+    pdg: -1000501340,
     name: "Sn134~",
     mass: Some(124753.5696411),
     width: None,
@@ -39986,7 +39986,7 @@ let data = [|
     latex: "^{135}\\mathrm{Sn}",
   },
   {
-    pdg: (-1000501350),
+    pdg: -1000501350,
     name: "Sn135~",
     mass: Some(125690.9042041),
     width: None,
@@ -40012,7 +40012,7 @@ let data = [|
     latex: "^{136}\\mathrm{Sn}",
   },
   {
-    pdg: (-1000501360),
+    pdg: -1000501360,
     name: "Sn136~",
     mass: Some(126626.6924869),
     width: None,
@@ -40038,7 +40038,7 @@ let data = [|
     latex: "^{137}\\mathrm{Sn}",
   },
   {
-    pdg: (-1000501370),
+    pdg: -1000501370,
     name: "Sn137~",
     mass: Some(127564.1947188),
     width: None,
@@ -40064,7 +40064,7 @@ let data = [|
     latex: "^{103}\\mathrm{Sb}",
   },
   {
-    pdg: (-1000511030),
+    pdg: -1000511030,
     name: "Sb103~",
     mass: Some(95888.1139176),
     width: None,
@@ -40090,7 +40090,7 @@ let data = [|
     latex: "^{104}\\mathrm{Sb}",
   },
   {
-    pdg: (-1000511040),
+    pdg: -1000511040,
     name: "Sb104~",
     mass: Some(96816.0403902),
     width: None,
@@ -40116,7 +40116,7 @@ let data = [|
     latex: "^{105}\\mathrm{Sb}",
   },
   {
-    pdg: (-1000511050),
+    pdg: -1000511050,
     name: "Sb105~",
     mass: Some(97743.1005733),
     width: None,
@@ -40142,7 +40142,7 @@ let data = [|
     latex: "^{106}\\mathrm{Sb}",
   },
   {
-    pdg: (-1000511060),
+    pdg: -1000511060,
     name: "Sb106~",
     mass: Some(98672.0144296),
     width: None,
@@ -40168,7 +40168,7 @@ let data = [|
     latex: "^{107}\\mathrm{Sb}",
   },
   {
-    pdg: (-1000511070),
+    pdg: -1000511070,
     name: "Sb107~",
     mass: Some(99599.2143368),
     width: None,
@@ -40194,7 +40194,7 @@ let data = [|
     latex: "^{108}\\mathrm{Sb}",
   },
   {
-    pdg: (-1000511080),
+    pdg: -1000511080,
     name: "Sb108~",
     mass: Some(100528.8547586),
     width: None,
@@ -40220,7 +40220,7 @@ let data = [|
     latex: "^{109}\\mathrm{Sb}",
   },
   {
-    pdg: (-1000511090),
+    pdg: -1000511090,
     name: "Sb109~",
     mass: Some(101456.6005213),
     width: None,
@@ -40246,7 +40246,7 @@ let data = [|
     latex: "^{110}\\mathrm{Sb}",
   },
   {
-    pdg: (-1000511100),
+    pdg: -1000511100,
     name: "Sb110~",
     mass: Some(102386.8128804),
     width: None,
@@ -40272,7 +40272,7 @@ let data = [|
     latex: "^{111}\\mathrm{Sb}",
   },
   {
-    pdg: (-1000511110),
+    pdg: -1000511110,
     name: "Sb111~",
     mass: Some(103315.0001714),
     width: None,
@@ -40298,7 +40298,7 @@ let data = [|
     latex: "^{112}\\mathrm{Sb}",
   },
   {
-    pdg: (-1000511120),
+    pdg: -1000511120,
     name: "Sb112~",
     mass: Some(104245.7350987),
     width: None,
@@ -40324,7 +40324,7 @@ let data = [|
     latex: "^{113}\\mathrm{Sb}",
   },
   {
-    pdg: (-1000511130),
+    pdg: -1000511130,
     name: "Sb113~",
     mass: Some(105174.418876),
     width: None,
@@ -40350,7 +40350,7 @@ let data = [|
     latex: "^{114}\\mathrm{Sb}",
   },
   {
-    pdg: (-1000511140),
+    pdg: -1000511140,
     name: "Sb114~",
     mass: Some(106105.6540156),
     width: None,
@@ -40376,7 +40376,7 @@ let data = [|
     latex: "^{115}\\mathrm{Sb}",
   },
   {
-    pdg: (-1000511150),
+    pdg: -1000511150,
     name: "Sb115~",
     mass: Some(107034.8184439),
     width: None,
@@ -40402,7 +40402,7 @@ let data = [|
     latex: "^{116}\\mathrm{Sb}",
   },
   {
-    pdg: (-1000511160),
+    pdg: -1000511160,
     name: "Sb116~",
     mass: Some(107966.4969747),
     width: None,
@@ -40428,7 +40428,7 @@ let data = [|
     latex: "^{117}\\mathrm{Sb}",
   },
   {
-    pdg: (-1000511170),
+    pdg: -1000511170,
     name: "Sb117~",
     mass: Some(108896.1681358),
     width: None,
@@ -40454,7 +40454,7 @@ let data = [|
     latex: "^{118}\\mathrm{Sb}",
   },
   {
-    pdg: (-1000511180),
+    pdg: -1000511180,
     name: "Sb118~",
     mass: Some(109828.3068247),
     width: None,
@@ -40480,7 +40480,7 @@ let data = [|
     latex: "^{119}\\mathrm{Sb}",
   },
   {
-    pdg: (-1000511190),
+    pdg: -1000511190,
     name: "Sb119~",
     mass: Some(110758.32357),
     width: None,
@@ -40506,7 +40506,7 @@ let data = [|
     latex: "^{120}\\mathrm{Sb}",
   },
   {
-    pdg: (-1000511200),
+    pdg: -1000511200,
     name: "Sb120~",
     mass: Some(111690.8683904),
     width: None,
@@ -40532,7 +40532,7 @@ let data = [|
     latex: "^{121}\\mathrm{Sb}",
   },
   {
-    pdg: (-1000511210),
+    pdg: -1000511210,
     name: "Sb121~",
     mass: Some(112621.1925288),
     width: None,
@@ -40558,7 +40558,7 @@ let data = [|
     latex: "^{122}\\mathrm{Sb}",
   },
   {
-    pdg: (-1000511220),
+    pdg: -1000511220,
     name: "Sb122~",
     mass: Some(113553.9510338),
     width: None,
@@ -40584,7 +40584,7 @@ let data = [|
     latex: "^{123}\\mathrm{Sb}",
   },
   {
-    pdg: (-1000511230),
+    pdg: -1000511230,
     name: "Sb123~",
     mass: Some(114484.5511739),
     width: None,
@@ -40610,7 +40610,7 @@ let data = [|
     latex: "^{124}\\mathrm{Sb}",
   },
   {
-    pdg: (-1000511240),
+    pdg: -1000511240,
     name: "Sb124~",
     mass: Some(115417.6491155),
     width: None,
@@ -40636,7 +40636,7 @@ let data = [|
     latex: "^{125}\\mathrm{Sb}",
   },
   {
-    pdg: (-1000511250),
+    pdg: -1000511250,
     name: "Sb125~",
     mass: Some(116348.5009453),
     width: None,
@@ -40662,7 +40662,7 @@ let data = [|
     latex: "^{126}\\mathrm{Sb}",
   },
   {
-    pdg: (-1000511260),
+    pdg: -1000511260,
     name: "Sb126~",
     mass: Some(117281.8598914),
     width: None,
@@ -40688,7 +40688,7 @@ let data = [|
     latex: "^{127}\\mathrm{Sb}",
   },
   {
-    pdg: (-1000511270),
+    pdg: -1000511270,
     name: "Sb127~",
     mass: Some(118213.0419359),
     width: None,
@@ -40714,7 +40714,7 @@ let data = [|
     latex: "^{128}\\mathrm{Sb}",
   },
   {
-    pdg: (-1000511280),
+    pdg: -1000511280,
     name: "Sb128~",
     mass: Some(119146.6337556),
     width: None,
@@ -40740,7 +40740,7 @@ let data = [|
     latex: "^{129}\\mathrm{Sb}",
   },
   {
-    pdg: (-1000511290),
+    pdg: -1000511290,
     name: "Sb129~",
     mass: Some(120078.1120152),
     width: None,
@@ -40766,7 +40766,7 @@ let data = [|
     latex: "^{130}\\mathrm{Sb}",
   },
   {
-    pdg: (-1000511300),
+    pdg: -1000511300,
     name: "Sb130~",
     mass: Some(121011.83797),
     width: None,
@@ -40792,7 +40792,7 @@ let data = [|
     latex: "^{131}\\mathrm{Sb}",
   },
   {
-    pdg: (-1000511310),
+    pdg: -1000511310,
     name: "Sb131~",
     mass: Some(121943.7083886),
     width: None,
@@ -40818,7 +40818,7 @@ let data = [|
     latex: "^{132}\\mathrm{Sb}",
   },
   {
-    pdg: (-1000511320),
+    pdg: -1000511320,
     name: "Sb132~",
     mass: Some(122877.4967536),
     width: None,
@@ -40844,7 +40844,7 @@ let data = [|
     latex: "^{133}\\mathrm{Sb}",
   },
   {
-    pdg: (-1000511330),
+    pdg: -1000511330,
     name: "Sb133~",
     mass: Some(123809.7611942),
     width: None,
@@ -40870,7 +40870,7 @@ let data = [|
     latex: "^{134}\\mathrm{Sb}",
   },
   {
-    pdg: (-1000511340),
+    pdg: -1000511340,
     name: "Sb134~",
     mass: Some(124746.2015228),
     width: None,
@@ -40896,7 +40896,7 @@ let data = [|
     latex: "^{135}\\mathrm{Sb}",
   },
   {
-    pdg: (-1000511350),
+    pdg: -1000511350,
     name: "Sb135~",
     mass: Some(125681.9991205),
     width: None,
@@ -40922,7 +40922,7 @@ let data = [|
     latex: "^{136}\\mathrm{Sb}",
   },
   {
-    pdg: (-1000511360),
+    pdg: -1000511360,
     name: "Sb136~",
     mass: Some(126618.6071181),
     width: None,
@@ -40948,7 +40948,7 @@ let data = [|
     latex: "^{137}\\mathrm{Sb}",
   },
   {
-    pdg: (-1000511370),
+    pdg: -1000511370,
     name: "Sb137~",
     mass: Some(127554.4326606),
     width: None,
@@ -40974,7 +40974,7 @@ let data = [|
     latex: "^{138}\\mathrm{Sb}",
   },
   {
-    pdg: (-1000511380),
+    pdg: -1000511380,
     name: "Sb138~",
     mass: Some(128491.1896973),
     width: None,
@@ -41000,7 +41000,7 @@ let data = [|
     latex: "^{139}\\mathrm{Sb}",
   },
   {
-    pdg: (-1000511390),
+    pdg: -1000511390,
     name: "Sb139~",
     mass: Some(129427.1083892),
     width: None,
@@ -41026,7 +41026,7 @@ let data = [|
     latex: "^{106}\\mathrm{Te}",
   },
   {
-    pdg: (-1000521060),
+    pdg: -1000521060,
     name: "Te106~",
     mass: Some(98680.3419868),
     width: None,
@@ -41052,7 +41052,7 @@ let data = [|
     latex: "^{107}\\mathrm{Te}",
   },
   {
-    pdg: (-1000521070),
+    pdg: -1000521070,
     name: "Te107~",
     mass: Some(99609.3583075),
     width: None,
@@ -41078,7 +41078,7 @@ let data = [|
     latex: "^{108}\\mathrm{Te}",
   },
   {
-    pdg: (-1000521080),
+    pdg: -1000521080,
     name: "Te108~",
     mass: Some(100535.6826103),
     width: None,
@@ -41104,7 +41104,7 @@ let data = [|
     latex: "^{109}\\mathrm{Te}",
   },
   {
-    pdg: (-1000521090),
+    pdg: -1000521090,
     name: "Te109~",
     mass: Some(101465.2857723),
     width: None,
@@ -41130,7 +41130,7 @@ let data = [|
     latex: "^{110}\\mathrm{Te}",
   },
   {
-    pdg: (-1000521100),
+    pdg: -1000521100,
     name: "Te110~",
     mass: Some(102392.0758221),
     width: None,
@@ -41156,7 +41156,7 @@ let data = [|
     latex: "^{111}\\mathrm{Te}",
   },
   {
-    pdg: (-1000521110),
+    pdg: -1000521110,
     name: "Te111~",
     mass: Some(103322.3682897),
     width: None,
@@ -41182,7 +41182,7 @@ let data = [|
     latex: "^{112}\\mathrm{Te}",
   },
   {
-    pdg: (-1000521120),
+    pdg: -1000521120,
     name: "Te112~",
     mass: Some(104250.0805187),
     width: None,
@@ -41208,7 +41208,7 @@ let data = [|
     latex: "^{113}\\mathrm{Te}",
   },
   {
-    pdg: (-1000521130),
+    pdg: -1000521130,
     name: "Te113~",
     mass: Some(105180.5220253),
     width: None,
@@ -41234,7 +41234,7 @@ let data = [|
     latex: "^{114}\\mathrm{Te}",
   },
   {
-    pdg: (-1000521140),
+    pdg: -1000521140,
     name: "Te114~",
     mass: Some(106108.4112382),
     width: None,
@@ -41260,7 +41260,7 @@ let data = [|
     latex: "^{115}\\mathrm{Te}",
   },
   {
-    pdg: (-1000521150),
+    pdg: -1000521150,
     name: "Te115~",
     mass: Some(107039.458216),
     width: None,
@@ -41286,7 +41286,7 @@ let data = [|
     latex: "^{116}\\mathrm{Te}",
   },
   {
-    pdg: (-1000521160),
+    pdg: -1000521160,
     name: "Te116~",
     mass: Some(107968.0087896),
     width: None,
@@ -41312,7 +41312,7 @@ let data = [|
     latex: "^{117}\\mathrm{Te}",
   },
   {
-    pdg: (-1000521170),
+    pdg: -1000521170,
     name: "Te117~",
     mass: Some(108899.7022244),
     width: None,
@@ -41338,7 +41338,7 @@ let data = [|
     latex: "^{118}\\mathrm{Te}",
   },
   {
-    pdg: (-1000521180),
+    pdg: -1000521180,
     name: "Te118~",
     mass: Some(109828.5797524),
     width: None,
@@ -41364,7 +41364,7 @@ let data = [|
     latex: "^{119}\\mathrm{Te}",
   },
   {
-    pdg: (-1000521190),
+    pdg: -1000521190,
     name: "Te119~",
     mass: Some(110760.6169085),
     width: None,
@@ -41390,7 +41390,7 @@ let data = [|
     latex: "^{120}\\mathrm{Te}",
   },
   {
-    pdg: (-1000521200),
+    pdg: -1000521200,
     name: "Te120~",
     mass: Some(111689.8865956),
     width: None,
@@ -41416,7 +41416,7 @@ let data = [|
     latex: "^{121}\\mathrm{Te}",
   },
   {
-    pdg: (-1000521210),
+    pdg: -1000521210,
     name: "Te121~",
     mass: Some(112622.2283502),
     width: None,
@@ -41442,7 +41442,7 @@ let data = [|
     latex: "^{122}\\mathrm{Te}",
   },
   {
-    pdg: (-1000521220),
+    pdg: -1000521220,
     name: "Te122~",
     mass: Some(113551.968535),
     width: None,
@@ -41468,7 +41468,7 @@ let data = [|
     latex: "^{123}\\mathrm{Te}",
   },
   {
-    pdg: (-1000521230),
+    pdg: -1000521230,
     name: "Te123~",
     mass: Some(114484.6045486),
     width: None,
@@ -41494,7 +41494,7 @@ let data = [|
     latex: "^{124}\\mathrm{Te}",
   },
   {
-    pdg: (-1000521240),
+    pdg: -1000521240,
     name: "Te124~",
     mass: Some(115414.7447169),
     width: None,
@@ -41520,7 +41520,7 @@ let data = [|
     latex: "^{125}\\mathrm{Te}",
   },
   {
-    pdg: (-1000521250),
+    pdg: -1000521250,
     name: "Te125~",
     mass: Some(116347.7340462),
     width: None,
@@ -41546,7 +41546,7 @@ let data = [|
     latex: "^{126}\\mathrm{Te}",
   },
   {
-    pdg: (-1000521260),
+    pdg: -1000521260,
     name: "Te126~",
     mass: Some(117278.185613),
     width: None,
@@ -41572,7 +41572,7 @@ let data = [|
     latex: "^{127}\\mathrm{Te}",
   },
   {
-    pdg: (-1000521270),
+    pdg: -1000521270,
     name: "Te127~",
     mass: Some(118211.4602589),
     width: None,
@@ -41598,7 +41598,7 @@ let data = [|
     latex: "^{128}\\mathrm{Te}",
   },
   {
-    pdg: (-1000521280),
+    pdg: -1000521280,
     name: "Te128~",
     mass: Some(119142.250517),
     width: None,
@@ -41624,7 +41624,7 @@ let data = [|
     latex: "^{129}\\mathrm{Te}",
   },
   {
-    pdg: (-1000521290),
+    pdg: -1000521290,
     name: "Te129~",
     mass: Some(120075.7329793),
     width: None,
@@ -41650,7 +41650,7 @@ let data = [|
     latex: "^{130}\\mathrm{Te}",
   },
   {
-    pdg: (-1000521300),
+    pdg: -1000521300,
     name: "Te130~",
     mass: Some(121006.8794407),
     width: None,
@@ -41676,7 +41676,7 @@ let data = [|
     latex: "^{131}\\mathrm{Te}",
   },
   {
-    pdg: (-1000521310),
+    pdg: -1000521310,
     name: "Te131~",
     mass: Some(121940.5151337),
     width: None,
@@ -41702,7 +41702,7 @@ let data = [|
     latex: "^{132}\\mathrm{Te}",
   },
   {
-    pdg: (-1000521320),
+    pdg: -1000521320,
     name: "Te132~",
     mass: Some(122872.0111849),
     width: None,
@@ -41728,7 +41728,7 @@ let data = [|
     latex: "^{133}\\mathrm{Te}",
   },
   {
-    pdg: (-1000521330),
+    pdg: -1000521330,
     name: "Te133~",
     mass: Some(123805.7557696),
     width: None,
@@ -41754,7 +41754,7 @@ let data = [|
     latex: "^{134}\\mathrm{Te}",
   },
   {
-    pdg: (-1000521340),
+    pdg: -1000521340,
     name: "Te134~",
     mass: Some(124737.808761),
     width: None,
@@ -41780,7 +41780,7 @@ let data = [|
     latex: "^{135}\\mathrm{Te}",
   },
   {
-    pdg: (-1000521350),
+    pdg: -1000521350,
     name: "Te135~",
     mass: Some(125673.876492),
     width: None,
@@ -41806,7 +41806,7 @@ let data = [|
     latex: "^{136}\\mathrm{Te}",
   },
   {
-    pdg: (-1000521360),
+    pdg: -1000521360,
     name: "Te136~",
     mass: Some(126608.7705405),
     width: None,
@@ -41832,7 +41832,7 @@ let data = [|
     latex: "^{137}\\mathrm{Te}",
   },
   {
-    pdg: (-1000521370),
+    pdg: -1000521370,
     name: "Te137~",
     mass: Some(127545.1270346),
     width: None,
@@ -41858,7 +41858,7 @@ let data = [|
     latex: "^{138}\\mathrm{Te}",
   },
   {
-    pdg: (-1000521380),
+    pdg: -1000521380,
     name: "Te138~",
     mass: Some(128480.2539566),
     width: None,
@@ -41884,7 +41884,7 @@ let data = [|
     latex: "^{139}\\mathrm{Te}",
   },
   {
-    pdg: (-1000521390),
+    pdg: -1000521390,
     name: "Te139~",
     mass: Some(129416.8805841),
     width: None,
@@ -41910,7 +41910,7 @@ let data = [|
     latex: "^{140}\\mathrm{Te}",
   },
   {
-    pdg: (-1000521400),
+    pdg: -1000521400,
     name: "Te140~",
     mass: Some(130352.0727106),
     width: None,
@@ -41936,7 +41936,7 @@ let data = [|
     latex: "^{141}\\mathrm{Te}",
   },
   {
-    pdg: (-1000521410),
+    pdg: -1000521410,
     name: "Te141~",
     mass: Some(131288.867007),
     width: None,
@@ -41962,7 +41962,7 @@ let data = [|
     latex: "^{142}\\mathrm{Te}",
   },
   {
-    pdg: (-1000521420),
+    pdg: -1000521420,
     name: "Te142~",
     mass: Some(132224.1895427),
     width: None,
@@ -41988,7 +41988,7 @@ let data = [|
     latex: "^{108}\\mathrm{I}",
   },
   {
-    pdg: (-1000531080),
+    pdg: -1000531080,
     name: "I108~",
     mass: Some(100548.5372288),
     width: None,
@@ -42014,7 +42014,7 @@ let data = [|
     latex: "^{109}\\mathrm{I}",
   },
   {
-    pdg: (-1000531090),
+    pdg: -1000531090,
     name: "I109~",
     mass: Some(101475.2807039),
     width: None,
@@ -42040,7 +42040,7 @@ let data = [|
     latex: "^{110}\\mathrm{I}",
   },
   {
-    pdg: (-1000531100),
+    pdg: -1000531100,
     name: "I110~",
     mass: Some(102403.9989465),
     width: None,
@@ -42066,7 +42066,7 @@ let data = [|
     latex: "^{111}\\mathrm{I}",
   },
   {
-    pdg: (-1000531110),
+    pdg: -1000531110,
     name: "I111~",
     mass: Some(103330.9007756),
     width: None,
@@ -42092,7 +42092,7 @@ let data = [|
     latex: "^{112}\\mathrm{I}",
   },
   {
-    pdg: (-1000531120),
+    pdg: -1000531120,
     name: "I112~",
     mass: Some(104260.2431192),
     width: None,
@@ -42118,7 +42118,7 @@ let data = [|
     latex: "^{113}\\mathrm{I}",
   },
   {
-    pdg: (-1000531130),
+    pdg: -1000531130,
     name: "I113~",
     mass: Some(105187.7038448),
     width: None,
@@ -42144,7 +42144,7 @@ let data = [|
     latex: "^{114}\\mathrm{I}",
   },
   {
-    pdg: (-1000531140),
+    pdg: -1000531140,
     name: "I114~",
     mass: Some(106117.5305654),
     width: None,
@@ -42170,7 +42170,7 @@ let data = [|
     latex: "^{115}\\mathrm{I}",
   },
   {
-    pdg: (-1000531150),
+    pdg: -1000531150,
     name: "I115~",
     mass: Some(107045.3638885),
     width: None,
@@ -42196,7 +42196,7 @@ let data = [|
     latex: "^{116}\\mathrm{I}",
   },
   {
-    pdg: (-1000531160),
+    pdg: -1000531160,
     name: "I116~",
     mass: Some(107975.7588205),
     width: None,
@@ -42222,7 +42222,7 @@ let data = [|
     latex: "^{117}\\mathrm{I}",
   },
   {
-    pdg: (-1000531170),
+    pdg: -1000531170,
     name: "I117~",
     mass: Some(108904.3745987),
     width: None,
@@ -42248,7 +42248,7 @@ let data = [|
     latex: "^{118}\\mathrm{I}",
   },
   {
-    pdg: (-1000531180),
+    pdg: -1000531180,
     name: "I118~",
     mass: Some(109835.6171903),
     width: None,
@@ -42274,7 +42274,7 @@ let data = [|
     latex: "^{119}\\mathrm{I}",
   },
   {
-    pdg: (-1000531190),
+    pdg: -1000531190,
     name: "I119~",
     mass: Some(110764.1305042),
     width: None,
@@ -42300,7 +42300,7 @@ let data = [|
     latex: "^{120}\\mathrm{I}",
   },
   {
-    pdg: (-1000531200),
+    pdg: -1000531200,
     name: "I120~",
     mass: Some(111695.501642),
     width: None,
@@ -42326,7 +42326,7 @@ let data = [|
     latex: "^{121}\\mathrm{I}",
   },
   {
-    pdg: (-1000531210),
+    pdg: -1000531210,
     name: "I121~",
     mass: Some(112624.4974698),
     width: None,
@@ -42352,7 +42352,7 @@ let data = [|
     latex: "^{122}\\mathrm{I}",
   },
   {
-    pdg: (-1000531220),
+    pdg: -1000531220,
     name: "I122~",
     mass: Some(113556.2020825),
     width: None,
@@ -42378,7 +42378,7 @@ let data = [|
     latex: "^{123}\\mathrm{I}",
   },
   {
-    pdg: (-1000531230),
+    pdg: -1000531230,
     name: "I123~",
     mass: Some(114485.8387782),
     width: None,
@@ -42404,7 +42404,7 @@ let data = [|
     latex: "^{124}\\mathrm{I}",
   },
   {
-    pdg: (-1000531240),
+    pdg: -1000531240,
     name: "I124~",
     mass: Some(115417.9042517),
     width: None,
@@ -42430,7 +42430,7 @@ let data = [|
     latex: "^{125}\\mathrm{I}",
   },
   {
-    pdg: (-1000531250),
+    pdg: -1000531250,
     name: "I125~",
     mass: Some(116347.9197861),
     width: None,
@@ -42456,7 +42456,7 @@ let data = [|
     latex: "^{126}\\mathrm{I}",
   },
   {
-    pdg: (-1000531260),
+    pdg: -1000531260,
     name: "I126~",
     mass: Some(117280.3406246),
     width: None,
@@ -42482,7 +42482,7 @@ let data = [|
     latex: "^{127}\\mathrm{I}",
   },
   {
-    pdg: (-1000531270),
+    pdg: -1000531270,
     name: "I127~",
     mass: Some(118210.7625699),
     width: None,
@@ -42508,7 +42508,7 @@ let data = [|
     latex: "^{128}\\mathrm{I}",
   },
   {
-    pdg: (-1000531280),
+    pdg: -1000531280,
     name: "I128~",
     mass: Some(119143.5020725),
     width: None,
@@ -42534,7 +42534,7 @@ let data = [|
     latex: "^{129}\\mathrm{I}",
   },
   {
-    pdg: (-1000531290),
+    pdg: -1000531290,
     name: "I129~",
     mass: Some(120074.2342053),
     width: None,
@@ -42560,7 +42560,7 @@ let data = [|
     latex: "^{130}\\mathrm{I}",
   },
   {
-    pdg: (-1000531300),
+    pdg: -1000531300,
     name: "I130~",
     mass: Some(121007.2997308),
     width: None,
@@ -42586,7 +42586,7 @@ let data = [|
     latex: "^{131}\\mathrm{I}",
   },
   {
-    pdg: (-1000531310),
+    pdg: -1000531310,
     name: "I131~",
     mass: Some(121938.2816903),
     width: None,
@@ -42612,7 +42612,7 @@ let data = [|
     latex: "^{132}\\mathrm{I}",
   },
   {
-    pdg: (-1000531320),
+    pdg: -1000531320,
     name: "I132~",
     mass: Some(122871.5184245),
     width: None,
@@ -42638,7 +42638,7 @@ let data = [|
     latex: "^{133}\\mathrm{I}",
   },
   {
-    pdg: (-1000531330),
+    pdg: -1000531330,
     name: "I133~",
     mass: Some(123802.8364671),
     width: None,
@@ -42664,7 +42664,7 @@ let data = [|
     latex: "^{134}\\mathrm{I}",
   },
   {
-    pdg: (-1000531340),
+    pdg: -1000531340,
     name: "I134~",
     mass: Some(124736.2596864),
     width: None,
@@ -42690,7 +42690,7 @@ let data = [|
     latex: "^{135}\\mathrm{I}",
   },
   {
-    pdg: (-1000531350),
+    pdg: -1000531350,
     name: "I135~",
     mass: Some(125667.9149298),
     width: None,
@@ -42716,7 +42716,7 @@ let data = [|
     latex: "^{136}\\mathrm{I}",
   },
   {
-    pdg: (-1000531360),
+    pdg: -1000531360,
     name: "I136~",
     mass: Some(126603.7032126),
     width: None,
@@ -42742,7 +42742,7 @@ let data = [|
     latex: "^{137}\\mathrm{I}",
   },
   {
-    pdg: (-1000531370),
+    pdg: -1000531370,
     name: "I137~",
     mass: Some(127538.1901981),
     width: None,
@@ -42768,7 +42768,7 @@ let data = [|
     latex: "^{138}\\mathrm{I}",
   },
   {
-    pdg: (-1000531380),
+    pdg: -1000531380,
     name: "I138~",
     mass: Some(128473.882537),
     width: None,
@@ -42794,7 +42794,7 @@ let data = [|
     latex: "^{139}\\mathrm{I}",
   },
   {
-    pdg: (-1000531390),
+    pdg: -1000531390,
     name: "I139~",
     mass: Some(129408.8324751),
     width: None,
@@ -42820,7 +42820,7 @@ let data = [|
     latex: "^{140}\\mathrm{I}",
   },
   {
-    pdg: (-1000531400),
+    pdg: -1000531400,
     name: "I140~",
     mass: Some(130345.0958198),
     width: None,
@@ -42846,7 +42846,7 @@ let data = [|
     latex: "^{141}\\mathrm{I}",
   },
   {
-    pdg: (-1000531410),
+    pdg: -1000531410,
     name: "I141~",
     mass: Some(131279.9619234),
     width: None,
@@ -42872,7 +42872,7 @@ let data = [|
     latex: "^{142}\\mathrm{I}",
   },
   {
-    pdg: (-1000531420),
+    pdg: -1000531420,
     name: "I142~",
     mass: Some(132216.4395118),
     width: None,
@@ -42898,7 +42898,7 @@ let data = [|
     latex: "^{143}\\mathrm{I}",
   },
   {
-    pdg: (-1000531430),
+    pdg: -1000531430,
     name: "I143~",
     mass: Some(133151.5571189),
     width: None,
@@ -42924,7 +42924,7 @@ let data = [|
     latex: "^{144}\\mathrm{I}",
   },
   {
-    pdg: (-1000531440),
+    pdg: -1000531440,
     name: "I144~",
     mass: Some(134088.2116911),
     width: None,
@@ -42950,7 +42950,7 @@ let data = [|
     latex: "^{110}\\mathrm{Xe}",
   },
   {
-    pdg: (-1000541100),
+    pdg: -1000541100,
     name: "Xe110~",
     mass: Some(102412.6338968),
     width: None,
@@ -42976,7 +42976,7 @@ let data = [|
     latex: "^{111}\\mathrm{Xe}",
   },
   {
-    pdg: (-1000541110),
+    pdg: -1000541110,
     name: "Xe111~",
     mass: Some(103341.4732336),
     width: None,
@@ -43002,7 +43002,7 @@ let data = [|
     latex: "^{112}\\mathrm{Xe}",
   },
   {
-    pdg: (-1000541120),
+    pdg: -1000541120,
     name: "Xe112~",
     mass: Some(104267.4156238),
     width: None,
@@ -43028,7 +43028,7 @@ let data = [|
     latex: "^{113}\\mathrm{Xe}",
   },
   {
-    pdg: (-1000541130),
+    pdg: -1000541130,
     name: "Xe113~",
     mass: Some(105196.7765973),
     width: None,
@@ -43054,7 +43054,7 @@ let data = [|
     latex: "^{114}\\mathrm{Xe}",
   },
   {
-    pdg: (-1000541140),
+    pdg: -1000541140,
     name: "Xe114~",
     mass: Some(106123.3989782),
     width: None,
@@ -43080,7 +43080,7 @@ let data = [|
     latex: "^{115}\\mathrm{Xe}",
   },
   {
-    pdg: (-1000541150),
+    pdg: -1000541150,
     name: "Xe115~",
     mass: Some(107053.3933676),
     width: None,
@@ -43106,7 +43106,7 @@ let data = [|
     latex: "^{116}\\mathrm{Xe}",
   },
   {
-    pdg: (-1000541160),
+    pdg: -1000541160,
     name: "Xe116~",
     mass: Some(107980.416291),
     width: None,
@@ -43132,7 +43132,7 @@ let data = [|
     latex: "^{117}\\mathrm{Xe}",
   },
   {
-    pdg: (-1000541170),
+    pdg: -1000541170,
     name: "Xe117~",
     mass: Some(108910.8112229),
     width: None,
@@ -43158,7 +43158,7 @@ let data = [|
     latex: "^{118}\\mathrm{Xe}",
   },
   {
-    pdg: (-1000541180),
+    pdg: -1000541180,
     name: "Xe118~",
     mass: Some(109838.5886565),
     width: None,
@@ -43184,7 +43184,7 @@ let data = [|
     latex: "^{119}\\mathrm{Xe}",
   },
   {
-    pdg: (-1000541190),
+    pdg: -1000541190,
     name: "Xe119~",
     mass: Some(110769.1326275),
     width: None,
@@ -43210,7 +43210,7 @@ let data = [|
     latex: "^{120}\\mathrm{Xe}",
   },
   {
-    pdg: (-1000541200),
+    pdg: -1000541200,
     name: "Xe120~",
     mass: Some(111697.4596426),
     width: None,
@@ -43236,7 +43236,7 @@ let data = [|
     latex: "^{121}\\mathrm{Xe}",
   },
   {
-    pdg: (-1000541210),
+    pdg: -1000541210,
     name: "Xe121~",
     mass: Some(112628.2420761),
     width: None,
@@ -43262,7 +43262,7 @@ let data = [|
     latex: "^{122}\\mathrm{Xe}",
   },
   {
-    pdg: (-1000541220),
+    pdg: -1000541220,
     name: "Xe122~",
     mass: Some(113557.0944538),
     width: None,
@@ -43288,7 +43288,7 @@ let data = [|
     latex: "^{123}\\mathrm{Xe}",
   },
   {
-    pdg: (-1000541230),
+    pdg: -1000541230,
     name: "Xe123~",
     mass: Some(114488.5149608),
     width: None,
@@ -43314,7 +43314,7 @@ let data = [|
     latex: "^{124}\\mathrm{Xe}",
   },
   {
-    pdg: (-1000541240),
+    pdg: -1000541240,
     name: "Xe124~",
     mass: Some(115417.6102722),
     width: None,
@@ -43340,7 +43340,7 @@ let data = [|
     latex: "^{125}\\mathrm{Xe}",
   },
   {
-    pdg: (-1000541250),
+    pdg: -1000541250,
     name: "Xe125~",
     mass: Some(116349.5723498),
     width: None,
@@ -43366,7 +43366,7 @@ let data = [|
     latex: "^{126}\\mathrm{Xe}",
   },
   {
-    pdg: (-1000541260),
+    pdg: -1000541260,
     name: "Xe126~",
     mass: Some(117279.0831076),
     width: None,
@@ -43392,7 +43392,7 @@ let data = [|
     latex: "^{127}\\mathrm{Xe}",
   },
   {
-    pdg: (-1000541270),
+    pdg: -1000541270,
     name: "Xe127~",
     mass: Some(118211.4257937),
     width: None,
@@ -43418,7 +43418,7 @@ let data = [|
     latex: "^{128}\\mathrm{Xe}",
   },
   {
-    pdg: (-1000541280),
+    pdg: -1000541280,
     name: "Xe128~",
     mass: Some(119141.383296),
     width: None,
@@ -43444,7 +43444,7 @@ let data = [|
     latex: "^{129}\\mathrm{Xe}",
   },
   {
-    pdg: (-1000541290),
+    pdg: -1000541290,
     name: "Xe129~",
     mass: Some(120074.0409203),
     width: None,
@@ -43470,7 +43470,7 @@ let data = [|
     latex: "^{130}\\mathrm{Xe}",
   },
   {
-    pdg: (-1000541300),
+    pdg: -1000541300,
     name: "Xe130~",
     mass: Some(121004.3505274),
     width: None,
@@ -43496,7 +43496,7 @@ let data = [|
     latex: "^{131}\\mathrm{Xe}",
   },
   {
-    pdg: (-1000541310),
+    pdg: -1000541310,
     name: "Xe131~",
     mass: Some(121937.3107941),
     width: None,
@@ -43522,7 +43522,7 @@ let data = [|
     latex: "^{132}\\mathrm{Xe}",
   },
   {
-    pdg: (-1000541320),
+    pdg: -1000541320,
     name: "Xe132~",
     mass: Some(122867.9410214),
     width: None,
@@ -43548,7 +43548,7 @@ let data = [|
     latex: "^{133}\\mathrm{Xe}",
   },
   {
-    pdg: (-1000541330),
+    pdg: -1000541330,
     name: "Xe133~",
     mass: Some(123801.0666283),
     width: None,
@@ -43574,7 +43574,7 @@ let data = [|
     latex: "^{134}\\mathrm{Xe}",
   },
   {
-    pdg: (-1000541340),
+    pdg: -1000541340,
     name: "Xe134~",
     mass: Some(124732.0842641),
     width: None,
@@ -43600,7 +43600,7 @@ let data = [|
     latex: "^{135}\\mathrm{Xe}",
   },
   {
-    pdg: (-1000541350),
+    pdg: -1000541350,
     name: "Xe135~",
     mass: Some(125665.2666921),
     width: None,
@@ -43626,7 +43626,7 @@ let data = [|
     latex: "^{136}\\mathrm{Xe}",
   },
   {
-    pdg: (-1000541360),
+    pdg: -1000541360,
     name: "Xe136~",
     mass: Some(126596.7728965),
     width: None,
@@ -43652,7 +43652,7 @@ let data = [|
     latex: "^{137}\\mathrm{Xe}",
   },
   {
-    pdg: (-1000541370),
+    pdg: -1000541370,
     name: "Xe137~",
     mass: Some(127532.3124704),
     width: None,
@@ -43678,7 +43678,7 @@ let data = [|
     latex: "^{138}\\mathrm{Xe}",
   },
   {
-    pdg: (-1000541380),
+    pdg: -1000541380,
     name: "Xe138~",
     mass: Some(128466.0673015),
     width: None,
@@ -43704,7 +43704,7 @@ let data = [|
     latex: "^{139}\\mathrm{Xe}",
   },
   {
-    pdg: (-1000541390),
+    pdg: -1000541390,
     name: "Xe139~",
     mass: Some(129402.0297737),
     width: None,
@@ -43730,7 +43730,7 @@ let data = [|
     latex: "^{140}\\mathrm{Xe}",
   },
   {
-    pdg: (-1000541400),
+    pdg: -1000541400,
     name: "Xe140~",
     mass: Some(130336.1814213),
     width: None,
@@ -43756,7 +43756,7 @@ let data = [|
     latex: "^{141}\\mathrm{Xe}",
   },
   {
-    pdg: (-1000541410),
+    pdg: -1000541410,
     name: "Xe141~",
     mass: Some(131272.3423017),
     width: None,
@@ -43782,7 +43782,7 @@ let data = [|
     latex: "^{142}\\mathrm{Xe}",
   },
   {
-    pdg: (-1000541420),
+    pdg: -1000541420,
     name: "Xe142~",
     mass: Some(132206.6774537),
     width: None,
@@ -43808,7 +43808,7 @@ let data = [|
     latex: "^{143}\\mathrm{Xe}",
   },
   {
-    pdg: (-1000541430),
+    pdg: -1000541430,
     name: "Xe143~",
     mass: Some(133143.0060031),
     width: None,
@@ -43834,7 +43834,7 @@ let data = [|
     latex: "^{144}\\mathrm{Xe}",
   },
   {
-    pdg: (-1000541440),
+    pdg: -1000541440,
     name: "Xe144~",
     mass: Some(134077.6112883),
     width: None,
@@ -43860,7 +43860,7 @@ let data = [|
     latex: "^{145}\\mathrm{Xe}",
   },
   {
-    pdg: (-1000541450),
+    pdg: -1000541450,
     name: "Xe145~",
     mass: Some(135014.1727112),
     width: None,
@@ -43886,7 +43886,7 @@ let data = [|
     latex: "^{146}\\mathrm{Xe}",
   },
   {
-    pdg: (-1000541460),
+    pdg: -1000541460,
     name: "Xe146~",
     mass: Some(135949.0481298),
     width: None,
@@ -43912,7 +43912,7 @@ let data = [|
     latex: "^{147}\\mathrm{Xe}",
   },
   {
-    pdg: (-1000541470),
+    pdg: -1000541470,
     name: "Xe147~",
     mass: Some(136885.861056),
     width: None,
@@ -43938,7 +43938,7 @@ let data = [|
     latex: "^{112}\\mathrm{Cs}",
   },
   {
-    pdg: (-1000551120),
+    pdg: -1000551120,
     name: "Cs112~",
     mass: Some(104281.0713272),
     width: None,
@@ -43964,7 +43964,7 @@ let data = [|
     latex: "^{113}\\mathrm{Cs}",
   },
   {
-    pdg: (-1000551130),
+    pdg: -1000551130,
     name: "Cs113~",
     mass: Some(105207.1720714),
     width: None,
@@ -43990,7 +43990,7 @@ let data = [|
     latex: "^{114}\\mathrm{Cs}",
   },
   {
-    pdg: (-1000551140),
+    pdg: -1000551140,
     name: "Cs114~",
     mass: Some(106135.7599048),
     width: None,
@@ -44016,7 +44016,7 @@ let data = [|
     latex: "^{115}\\mathrm{Cs}",
   },
   {
-    pdg: (-1000551150),
+    pdg: -1000551150,
     name: "Cs115~",
     mass: Some(107062.1494121),
     width: None,
@@ -44042,7 +44042,7 @@ let data = [|
     latex: "^{116}\\mathrm{Cs}",
   },
   {
-    pdg: (-1000551160),
+    pdg: -1000551160,
     name: "Cs116~",
     mass: Some(107990.82108),
     width: None,
@@ -44068,7 +44068,7 @@ let data = [|
     latex: "^{117}\\mathrm{Cs}",
   },
   {
-    pdg: (-1000551170),
+    pdg: -1000551170,
     name: "Cs117~",
     mass: Some(108918.3376952),
     width: None,
@@ -44094,7 +44094,7 @@ let data = [|
     latex: "^{118}\\mathrm{Cs}",
   },
   {
-    pdg: (-1000551180),
+    pdg: -1000551180,
     name: "Cs118~",
     mass: Some(109847.889625),
     width: None,
@@ -44120,7 +44120,7 @@ let data = [|
     latex: "^{119}\\mathrm{Cs}",
   },
   {
-    pdg: (-1000551190),
+    pdg: -1000551190,
     name: "Cs119~",
     mass: Some(110775.4863487),
     width: None,
@@ -44146,7 +44146,7 @@ let data = [|
     latex: "^{120}\\mathrm{Cs}",
   },
   {
-    pdg: (-1000551200),
+    pdg: -1000551200,
     name: "Cs120~",
     mass: Some(111705.4034242),
     width: None,
@@ -44172,7 +44172,7 @@ let data = [|
     latex: "^{121}\\mathrm{Cs}",
   },
   {
-    pdg: (-1000551210),
+    pdg: -1000551210,
     name: "Cs121~",
     mass: Some(112633.6428788),
     width: None,
@@ -44198,7 +44198,7 @@ let data = [|
     latex: "^{122}\\mathrm{Cs}",
   },
   {
-    pdg: (-1000551220),
+    pdg: -1000551220,
     name: "Cs122~",
     mass: Some(113564.1477271),
     width: None,
@@ -44224,7 +44224,7 @@ let data = [|
     latex: "^{123}\\mathrm{Cs}",
   },
   {
-    pdg: (-1000551230),
+    pdg: -1000551230,
     name: "Cs123~",
     mass: Some(114492.7243826),
     width: None,
@@ -44250,7 +44250,7 @@ let data = [|
     latex: "^{124}\\mathrm{Cs}",
   },
   {
-    pdg: (-1000551240),
+    pdg: -1000551240,
     name: "Cs124~",
     mass: Some(115423.525446),
     width: None,
@@ -44276,7 +44276,7 @@ let data = [|
     latex: "^{125}\\mathrm{Cs}",
   },
   {
-    pdg: (-1000551250),
+    pdg: -1000551250,
     name: "Cs125~",
     mass: Some(116352.6712443),
     width: None,
@@ -44302,7 +44302,7 @@ let data = [|
     latex: "^{126}\\mathrm{Cs}",
   },
   {
-    pdg: (-1000551260),
+    pdg: -1000551260,
     name: "Cs126~",
     mass: Some(117283.9073155),
     width: None,
@@ -44328,7 +44328,7 @@ let data = [|
     latex: "^{127}\\mathrm{Cs}",
   },
   {
-    pdg: (-1000551270),
+    pdg: -1000551270,
     name: "Cs127~",
     mass: Some(118213.5104774),
     width: None,
@@ -44354,7 +44354,7 @@ let data = [|
     latex: "^{128}\\mathrm{Cs}",
   },
   {
-    pdg: (-1000551280),
+    pdg: -1000551280,
     name: "Cs128~",
     mass: Some(119145.3119655),
     width: None,
@@ -44380,7 +44380,7 @@ let data = [|
     latex: "^{129}\\mathrm{Cs}",
   },
   {
-    pdg: (-1000551290),
+    pdg: -1000551290,
     name: "Cs129~",
     mass: Some(120075.2364929),
     width: None,
@@ -44406,7 +44406,7 @@ let data = [|
     latex: "^{130}\\mathrm{Cs}",
   },
   {
-    pdg: (-1000551300),
+    pdg: -1000551300,
     name: "Cs130~",
     mass: Some(121007.3295386),
     width: None,
@@ -44432,7 +44432,7 @@ let data = [|
     latex: "^{131}\\mathrm{Cs}",
   },
   {
-    pdg: (-1000551310),
+    pdg: -1000551310,
     name: "Cs131~",
     mass: Some(121937.662992),
     width: None,
@@ -44458,7 +44458,7 @@ let data = [|
     latex: "^{132}\\mathrm{Cs}",
   },
   {
-    pdg: (-1000551320),
+    pdg: -1000551320,
     name: "Cs132~",
     mass: Some(122870.0606362),
     width: None,
@@ -44484,7 +44484,7 @@ let data = [|
     latex: "^{133}\\mathrm{Cs}",
   },
   {
-    pdg: (-1000551330),
+    pdg: -1000551330,
     name: "Cs133~",
     mass: Some(123800.6390725),
     width: None,
@@ -44510,7 +44510,7 @@ let data = [|
     latex: "^{134}\\mathrm{Cs}",
   },
   {
-    pdg: (-1000551340),
+    pdg: -1000551340,
     name: "Cs134~",
     mass: Some(124733.312439),
     width: None,
@@ -44536,7 +44536,7 @@ let data = [|
     latex: "^{135}\\mathrm{Cs}",
   },
   {
-    pdg: (-1000551350),
+    pdg: -1000551350,
     name: "Cs135~",
     mass: Some(125664.1162969),
     width: None,
@@ -44562,7 +44562,7 @@ let data = [|
     latex: "^{136}\\mathrm{Cs}",
   },
   {
-    pdg: (-1000551360),
+    pdg: -1000551360,
     name: "Cs136~",
     mass: Some(126596.853005),
     width: None,
@@ -44588,7 +44588,7 @@ let data = [|
     latex: "^{137}\\mathrm{Cs}",
   },
   {
-    pdg: (-1000551370),
+    pdg: -1000551370,
     name: "Cs137~",
     mass: Some(127528.1403083),
     width: None,
@@ -44614,7 +44614,7 @@ let data = [|
     latex: "^{138}\\mathrm{Cs}",
   },
   {
-    pdg: (-1000551380),
+    pdg: -1000551380,
     name: "Cs138~",
     mass: Some(128463.2923806),
     width: None,
@@ -44640,7 +44640,7 @@ let data = [|
     latex: "^{139}\\mathrm{Cs}",
   },
   {
-    pdg: (-1000551390),
+    pdg: -1000551390,
     name: "Cs139~",
     mass: Some(129396.9726923),
     width: None,
@@ -44666,7 +44666,7 @@ let data = [|
     latex: "^{140}\\mathrm{Cs}",
   },
   {
-    pdg: (-1000551400),
+    pdg: -1000551400,
     name: "Cs140~",
     mass: Some(130332.1173126),
     width: None,
@@ -44692,7 +44692,7 @@ let data = [|
     latex: "^{141}\\mathrm{Cs}",
   },
   {
-    pdg: (-1000551410),
+    pdg: -1000551410,
     name: "Cs141~",
     mass: Some(131266.1888518),
     width: None,
@@ -44718,7 +44718,7 @@ let data = [|
     latex: "^{142}\\mathrm{Cs}",
   },
   {
-    pdg: (-1000551420),
+    pdg: -1000551420,
     name: "Cs142~",
     mass: Some(132201.6399337),
     width: None,
@@ -44744,7 +44744,7 @@ let data = [|
     latex: "^{143}\\mathrm{Cs}",
   },
   {
-    pdg: (-1000551430),
+    pdg: -1000551430,
     name: "Cs143~",
     mass: Some(133135.9639077),
     width: None,
@@ -44770,7 +44770,7 @@ let data = [|
     latex: "^{144}\\mathrm{Cs}",
   },
   {
-    pdg: (-1000551440),
+    pdg: -1000551440,
     name: "Cs144~",
     mass: Some(134071.8360249),
     width: None,
@@ -44796,7 +44796,7 @@ let data = [|
     latex: "^{145}\\mathrm{Cs}",
   },
   {
-    pdg: (-1000551450),
+    pdg: -1000551450,
     name: "Cs145~",
     mass: Some(135006.4599401),
     width: None,
@@ -44822,7 +44822,7 @@ let data = [|
     latex: "^{146}\\mathrm{Cs}",
   },
   {
-    pdg: (-1000551460),
+    pdg: -1000551460,
     name: "Cs146~",
     mass: Some(135942.3972619),
     width: None,
@@ -44848,7 +44848,7 @@ let data = [|
     latex: "^{147}\\mathrm{Cs}",
   },
   {
-    pdg: (-1000551470),
+    pdg: -1000551470,
     name: "Cs147~",
     mass: Some(136877.3378851),
     width: None,
@@ -44874,7 +44874,7 @@ let data = [|
     latex: "^{148}\\mathrm{Cs}",
   },
   {
-    pdg: (-1000551480),
+    pdg: -1000551480,
     name: "Cs148~",
     mass: Some(137813.5267103),
     width: None,
@@ -44900,7 +44900,7 @@ let data = [|
     latex: "^{149}\\mathrm{Cs}",
   },
   {
-    pdg: (-1000551490),
+    pdg: -1000551490,
     name: "Cs149~",
     mass: Some(138748.5791127),
     width: None,
@@ -44926,7 +44926,7 @@ let data = [|
     latex: "^{150}\\mathrm{Cs}",
   },
   {
-    pdg: (-1000551500),
+    pdg: -1000551500,
     name: "Cs150~",
     mass: Some(139684.9635517),
     width: None,
@@ -44952,7 +44952,7 @@ let data = [|
     latex: "^{151}\\mathrm{Cs}",
   },
   {
-    pdg: (-1000551510),
+    pdg: -1000551510,
     name: "Cs151~",
     mass: Some(140620.2115679),
     width: None,
@@ -44978,7 +44978,7 @@ let data = [|
     latex: "^{114}\\mathrm{Ba}",
   },
   {
-    pdg: (-1000561140),
+    pdg: -1000561140,
     name: "Ba114~",
     mass: Some(106144.6277286),
     width: None,
@@ -45004,7 +45004,7 @@ let data = [|
     latex: "^{115}\\mathrm{Ba}",
   },
   {
-    pdg: (-1000561150),
+    pdg: -1000561150,
     name: "Ba115~",
     mass: Some(107073.1130976),
     width: None,
@@ -45030,7 +45030,7 @@ let data = [|
     latex: "^{116}\\mathrm{Ba}",
   },
   {
-    pdg: (-1000561160),
+    pdg: -1000561160,
     name: "Ba116~",
     mass: Some(107998.9902832),
     width: None,
@@ -45056,7 +45056,7 @@ let data = [|
     latex: "^{117}\\mathrm{Ba}",
   },
   {
-    pdg: (-1000561170),
+    pdg: -1000561170,
     name: "Ba117~",
     mass: Some(108927.8575649),
     width: None,
@@ -45082,7 +45082,7 @@ let data = [|
     latex: "^{118}\\mathrm{Ba}",
   },
   {
-    pdg: (-1000561180),
+    pdg: -1000561180,
     name: "Ba118~",
     mass: Some(109854.3029619),
     width: None,
@@ -45108,7 +45108,7 @@ let data = [|
     latex: "^{119}\\mathrm{Ba}",
   },
   {
-    pdg: (-1000561190),
+    pdg: -1000561190,
     name: "Ba119~",
     mass: Some(110783.570786),
     width: None,
@@ -45134,7 +45134,7 @@ let data = [|
     latex: "^{120}\\mathrm{Ba}",
   },
   {
-    pdg: (-1000561200),
+    pdg: -1000561200,
     name: "Ba120~",
     mass: Some(111710.4074105),
     width: None,
@@ -45160,7 +45160,7 @@ let data = [|
     latex: "^{121}\\mathrm{Ba}",
   },
   {
-    pdg: (-1000561210),
+    pdg: -1000561210,
     name: "Ba121~",
     mass: Some(112640.4483747),
     width: None,
@@ -45186,7 +45186,7 @@ let data = [|
     latex: "^{122}\\mathrm{Ba}",
   },
   {
-    pdg: (-1000561220),
+    pdg: -1000561220,
     name: "Ba122~",
     mass: Some(113568.0022497),
     width: None,
@@ -45212,7 +45212,7 @@ let data = [|
     latex: "^{123}\\mathrm{Ba}",
   },
   {
-    pdg: (-1000561230),
+    pdg: -1000561230,
     name: "Ba123~",
     mass: Some(114498.182938),
     width: None,
@@ -45238,7 +45238,7 @@ let data = [|
     latex: "^{124}\\mathrm{Ba}",
   },
   {
-    pdg: (-1000561240),
+    pdg: -1000561240,
     name: "Ba124~",
     mass: Some(115426.1727522),
     width: None,
@@ -45264,7 +45264,7 @@ let data = [|
     latex: "^{125}\\mathrm{Ba}",
   },
   {
-    pdg: (-1000561250),
+    pdg: -1000561250,
     name: "Ba125~",
     mass: Some(116357.2309079),
     width: None,
@@ -45290,7 +45290,7 @@ let data = [|
     latex: "^{126}\\mathrm{Ba}",
   },
   {
-    pdg: (-1000561260),
+    pdg: -1000561260,
     name: "Ba126~",
     mass: Some(117285.5802789),
     width: None,
@@ -45316,7 +45316,7 @@ let data = [|
     latex: "^{127}\\mathrm{Ba}",
   },
   {
-    pdg: (-1000561270),
+    pdg: -1000561270,
     name: "Ba127~",
     mass: Some(118216.9588686),
     width: None,
@@ -45342,7 +45342,7 @@ let data = [|
     latex: "^{128}\\mathrm{Ba}",
   },
   {
-    pdg: (-1000561280),
+    pdg: -1000561280,
     name: "Ba128~",
     mass: Some(119145.8345337),
     width: None,
@@ -45368,7 +45368,7 @@ let data = [|
     latex: "^{129}\\mathrm{Ba}",
   },
   {
-    pdg: (-1000561290),
+    pdg: -1000561290,
     name: "Ba129~",
     mass: Some(120077.668624),
     width: None,
@@ -45394,7 +45394,7 @@ let data = [|
     latex: "^{130}\\mathrm{Ba}",
   },
   {
-    pdg: (-1000561300),
+    pdg: -1000561300,
     name: "Ba130~",
     mass: Some(121006.960667),
     width: None,
@@ -45420,7 +45420,7 @@ let data = [|
     latex: "^{131}\\mathrm{Ba}",
   },
   {
-    pdg: (-1000561310),
+    pdg: -1000561310,
     name: "Ba131~",
     mass: Some(121939.0332198),
     width: None,
@@ -45446,7 +45446,7 @@ let data = [|
     latex: "^{132}\\mathrm{Ba}",
   },
   {
-    pdg: (-1000561320),
+    pdg: -1000561320,
     name: "Ba132~",
     mass: Some(122868.7807633),
     width: None,
@@ -45472,7 +45472,7 @@ let data = [|
     latex: "^{133}\\mathrm{Ba}",
   },
   {
-    pdg: (-1000561330),
+    pdg: -1000561330,
     name: "Ba133~",
     mass: Some(123801.1560517),
     width: None,
@@ -45498,7 +45498,7 @@ let data = [|
     latex: "^{134}\\mathrm{Ba}",
   },
   {
-    pdg: (-1000561340),
+    pdg: -1000561340,
     name: "Ba134~",
     mass: Some(124731.2538371),
     width: None,
@@ -45524,7 +45524,7 @@ let data = [|
     latex: "^{135}\\mathrm{Ba}",
   },
   {
-    pdg: (-1000561350),
+    pdg: -1000561350,
     name: "Ba135~",
     mass: Some(125663.8470951),
     width: None,
@@ -45550,7 +45550,7 @@ let data = [|
     latex: "^{136}\\mathrm{Ba}",
   },
   {
-    pdg: (-1000561360),
+    pdg: -1000561360,
     name: "Ba136~",
     mass: Some(126594.3044372),
     width: None,
@@ -45576,7 +45576,7 @@ let data = [|
     latex: "^{137}\\mathrm{Ba}",
   },
   {
-    pdg: (-1000561370),
+    pdg: -1000561370,
     name: "Ba137~",
     mass: Some(127526.9638313),
     width: None,
@@ -45602,7 +45602,7 @@ let data = [|
     latex: "^{138}\\mathrm{Ba}",
   },
   {
-    pdg: (-1000561380),
+    pdg: -1000561380,
     name: "Ba138~",
     mass: Some(128457.9176597),
     width: None,
@@ -45628,7 +45628,7 @@ let data = [|
     latex: "^{139}\\mathrm{Ba}",
   },
   {
-    pdg: (-1000561390),
+    pdg: -1000561390,
     name: "Ba139~",
     mass: Some(129392.7595445),
     width: None,
@@ -45654,7 +45654,7 @@ let data = [|
     latex: "^{140}\\mathrm{Ba}",
   },
   {
-    pdg: (-1000561400),
+    pdg: -1000561400,
     name: "Ba140~",
     mass: Some(130325.896795),
     width: None,
@@ -45680,7 +45680,7 @@ let data = [|
     latex: "^{141}\\mathrm{Ba}",
   },
   {
-    pdg: (-1000561410),
+    pdg: -1000561410,
     name: "Ba141~",
     mass: Some(131260.937088),
     width: None,
@@ -45706,7 +45706,7 @@ let data = [|
     latex: "^{142}\\mathrm{Ba}",
   },
   {
-    pdg: (-1000561420),
+    pdg: -1000561420,
     name: "Ba142~",
     mass: Some(132194.333294),
     width: None,
@@ -45732,7 +45732,7 @@ let data = [|
     latex: "^{143}\\mathrm{Ba}",
   },
   {
-    pdg: (-1000561430),
+    pdg: -1000561430,
     name: "Ba143~",
     mass: Some(133129.7107878),
     width: None,
@@ -45758,7 +45758,7 @@ let data = [|
     latex: "^{144}\\mathrm{Ba}",
   },
   {
-    pdg: (-1000561440),
+    pdg: -1000561440,
     name: "Ba144~",
     mass: Some(134063.3687436),
     width: None,
@@ -45784,7 +45784,7 @@ let data = [|
     latex: "^{145}\\mathrm{Ba}",
   },
   {
-    pdg: (-1000561450),
+    pdg: -1000561450,
     name: "Ba145~",
     mass: Some(134998.5701851),
     width: None,
@@ -45810,7 +45810,7 @@ let data = [|
     latex: "^{146}\\mathrm{Ba}",
   },
   {
-    pdg: (-1000561460),
+    pdg: -1000561460,
     name: "Ba146~",
     mass: Some(135933.0357463),
     width: None,
@@ -45836,7 +45836,7 @@ let data = [|
     latex: "^{147}\\mathrm{Ba}",
   },
   {
-    pdg: (-1000561470),
+    pdg: -1000561470,
     name: "Ba147~",
     mass: Some(136868.1440383),
     width: None,
@@ -45862,7 +45862,7 @@ let data = [|
     latex: "^{148}\\mathrm{Ba}",
   },
   {
-    pdg: (-1000561480),
+    pdg: -1000561480,
     name: "Ba148~",
     mass: Some(137803.0753465),
     width: None,
@@ -45888,7 +45888,7 @@ let data = [|
     latex: "^{149}\\mathrm{Ba}",
   },
   {
-    pdg: (-1000561490),
+    pdg: -1000561490,
     name: "Ba149~",
     mass: Some(138739.0219833),
     width: None,
@@ -45914,7 +45914,7 @@ let data = [|
     latex: "^{150}\\mathrm{Ba}",
   },
   {
-    pdg: (-1000561500),
+    pdg: -1000561500,
     name: "Ba150~",
     mass: Some(139673.4595996),
     width: None,
@@ -45940,7 +45940,7 @@ let data = [|
     latex: "^{151}\\mathrm{Ba}",
   },
   {
-    pdg: (-1000561510),
+    pdg: -1000561510,
     name: "Ba151~",
     mass: Some(140609.6856846),
     width: None,
@@ -45966,7 +45966,7 @@ let data = [|
     latex: "^{152}\\mathrm{Ba}",
   },
   {
-    pdg: (-1000561520),
+    pdg: -1000561520,
     name: "Ba152~",
     mass: Some(141544.4027492),
     width: None,
@@ -45992,7 +45992,7 @@ let data = [|
     latex: "^{153}\\mathrm{Ba}",
   },
   {
-    pdg: (-1000561530),
+    pdg: -1000561530,
     name: "Ba153~",
     mass: Some(142480.973487),
     width: None,
@@ -46018,7 +46018,7 @@ let data = [|
     latex: "^{117}\\mathrm{La}",
   },
   {
-    pdg: (-1000571170),
+    pdg: -1000571170,
     name: "La117~",
     mass: Some(108938.243724),
     width: None,
@@ -46044,7 +46044,7 @@ let data = [|
     latex: "^{118}\\mathrm{La}",
   },
   {
-    pdg: (-1000571180),
+    pdg: -1000571180,
     name: "La118~",
     mass: Some(109866.5334793),
     width: None,
@@ -46070,7 +46070,7 @@ let data = [|
     latex: "^{119}\\mathrm{La}",
   },
   {
-    pdg: (-1000571190),
+    pdg: -1000571190,
     name: "La119~",
     mass: Some(110792.8298373),
     width: None,
@@ -46096,7 +46096,7 @@ let data = [|
     latex: "^{120}\\mathrm{La}",
   },
   {
-    pdg: (-1000571200),
+    pdg: -1000571200,
     name: "La120~",
     mass: Some(111721.6039695),
     width: None,
@@ -46122,7 +46122,7 @@ let data = [|
     latex: "^{121}\\mathrm{La}",
   },
   {
-    pdg: (-1000571210),
+    pdg: -1000571210,
     name: "La121~",
     mass: Some(112648.3847044),
     width: None,
@@ -46148,7 +46148,7 @@ let data = [|
     latex: "^{122}\\mathrm{La}",
   },
   {
-    pdg: (-1000571220),
+    pdg: -1000571220,
     name: "La122~",
     mass: Some(113577.736363),
     width: None,
@@ -46174,7 +46174,7 @@ let data = [|
     latex: "^{123}\\mathrm{La}",
   },
   {
-    pdg: (-1000571230),
+    pdg: -1000571230,
     name: "La123~",
     mass: Some(114505.0666793),
     width: None,
@@ -46200,7 +46200,7 @@ let data = [|
     latex: "^{124}\\mathrm{La}",
   },
   {
-    pdg: (-1000571240),
+    pdg: -1000571240,
     name: "La124~",
     mass: Some(115434.9679194),
     width: None,
@@ -46226,7 +46226,7 @@ let data = [|
     latex: "^{125}\\mathrm{La}",
   },
   {
-    pdg: (-1000571250),
+    pdg: -1000571250,
     name: "La125~",
     mass: Some(116362.8664472),
     width: None,
@@ -46252,7 +46252,7 @@ let data = [|
     latex: "^{126}\\mathrm{La}",
   },
   {
-    pdg: (-1000571260),
+    pdg: -1000571260,
     name: "La126~",
     mass: Some(117293.1495999),
     width: None,
@@ -46278,7 +46278,7 @@ let data = [|
     latex: "^{127}\\mathrm{La}",
   },
   {
-    pdg: (-1000571270),
+    pdg: -1000571270,
     name: "La127~",
     mass: Some(118221.6535988),
     width: None,
@@ -46304,7 +46304,7 @@ let data = [|
     latex: "^{128}\\mathrm{La}",
   },
   {
-    pdg: (-1000571280),
+    pdg: -1000571280,
     name: "La128~",
     mass: Some(119152.486333),
     width: None,
@@ -46330,7 +46330,7 @@ let data = [|
     latex: "^{129}\\mathrm{La}",
   },
   {
-    pdg: (-1000571290),
+    pdg: -1000571290,
     name: "La129~",
     mass: Some(120081.3908744),
     width: None,
@@ -46356,7 +46356,7 @@ let data = [|
     latex: "^{130}\\mathrm{La}",
   },
   {
-    pdg: (-1000571300),
+    pdg: -1000571300,
     name: "La130~",
     mass: Some(121012.5589465),
     width: None,
@@ -46382,7 +46382,7 @@ let data = [|
     latex: "^{131}\\mathrm{La}",
   },
   {
-    pdg: (-1000571310),
+    pdg: -1000571310,
     name: "La131~",
     mass: Some(121941.9944395),
     width: None,
@@ -46408,7 +46408,7 @@ let data = [|
     latex: "^{132}\\mathrm{La}",
   },
   {
-    pdg: (-1000571320),
+    pdg: -1000571320,
     name: "La132~",
     mass: Some(122873.4885345),
     width: None,
@@ -46434,7 +46434,7 @@ let data = [|
     latex: "^{133}\\mathrm{La}",
   },
   {
-    pdg: (-1000571330),
+    pdg: -1000571330,
     name: "La133~",
     mass: Some(123803.3897746),
     width: None,
@@ -46460,7 +46460,7 @@ let data = [|
     latex: "^{134}\\mathrm{La}",
   },
   {
-    pdg: (-1000571340),
+    pdg: -1000571340,
     name: "La134~",
     mass: Some(124734.967704),
     width: None,
@@ -46486,7 +46486,7 @@ let data = [|
     latex: "^{135}\\mathrm{La}",
   },
   {
-    pdg: (-1000571350),
+    pdg: -1000571350,
     name: "La135~",
     mass: Some(125665.0468595),
     width: None,
@@ -46512,7 +46512,7 @@ let data = [|
     latex: "^{136}\\mathrm{La}",
   },
   {
-    pdg: (-1000571360),
+    pdg: -1000571360,
     name: "La136~",
     mass: Some(126597.173439),
     width: None,
@@ -46538,7 +46538,7 @@ let data = [|
     latex: "^{137}\\mathrm{La}",
   },
   {
-    pdg: (-1000571370),
+    pdg: -1000571370,
     name: "La137~",
     mass: Some(127527.5683709),
     width: None,
@@ -46564,7 +46564,7 @@ let data = [|
     latex: "^{138}\\mathrm{La}",
   },
   {
-    pdg: (-1000571380),
+    pdg: -1000571380,
     name: "La138~",
     mass: Some(128459.6558277),
     width: None,
@@ -46590,7 +46590,7 @@ let data = [|
     latex: "^{139}\\mathrm{La}",
   },
   {
-    pdg: (-1000571390),
+    pdg: -1000571390,
     name: "La139~",
     mass: Some(129390.4429186),
     width: None,
@@ -46616,7 +46616,7 @@ let data = [|
     latex: "^{140}\\mathrm{La}",
   },
   {
-    pdg: (-1000571400),
+    pdg: -1000571400,
     name: "La140~",
     mass: Some(130324.8479327),
     width: None,
@@ -46642,7 +46642,7 @@ let data = [|
     latex: "^{141}\\mathrm{La}",
   },
   {
-    pdg: (-1000571410),
+    pdg: -1000571410,
     name: "La141~",
     mass: Some(131257.7243649),
     width: None,
@@ -46668,7 +46668,7 @@ let data = [|
     latex: "^{142}\\mathrm{La}",
   },
   {
-    pdg: (-1000571420),
+    pdg: -1000571420,
     name: "La142~",
     mass: Some(132192.121927),
     width: None,
@@ -46694,7 +46694,7 @@ let data = [|
     latex: "^{143}\\mathrm{La}",
   },
   {
-    pdg: (-1000571430),
+    pdg: -1000571430,
     name: "La143~",
     mass: Some(133125.4650378),
     width: None,
@@ -46720,7 +46720,7 @@ let data = [|
     latex: "^{144}\\mathrm{La}",
   },
   {
-    pdg: (-1000571440),
+    pdg: -1000571440,
     name: "La144~",
     mass: Some(134060.2482384),
     width: None,
@@ -46746,7 +46746,7 @@ let data = [|
     latex: "^{145}\\mathrm{La}",
   },
   {
-    pdg: (-1000571450),
+    pdg: -1000571450,
     name: "La145~",
     mass: Some(134993.6518963),
     width: None,
@@ -46772,7 +46772,7 @@ let data = [|
     latex: "^{146}\\mathrm{La}",
   },
   {
-    pdg: (-1000571460),
+    pdg: -1000571460,
     name: "La146~",
     mass: Some(135928.9278573),
     width: None,
@@ -46798,7 +46798,7 @@ let data = [|
     latex: "^{147}\\mathrm{La}",
   },
   {
-    pdg: (-1000571470),
+    pdg: -1000571470,
     name: "La147~",
     mass: Some(136862.3967198),
     width: None,
@@ -46824,7 +46824,7 @@ let data = [|
     latex: "^{148}\\mathrm{La}",
   },
   {
-    pdg: (-1000571480),
+    pdg: -1000571480,
     name: "La148~",
     mass: Some(137797.961444),
     width: None,
@@ -46850,7 +46850,7 @@ let data = [|
     latex: "^{149}\\mathrm{La}",
   },
   {
-    pdg: (-1000571490),
+    pdg: -1000571490,
     name: "La149~",
     mass: Some(138731.4861961),
     width: None,
@@ -46876,7 +46876,7 @@ let data = [|
     latex: "^{150}\\mathrm{La}",
   },
   {
-    pdg: (-1000571500),
+    pdg: -1000571500,
     name: "La150~",
     mass: Some(139666.8925663),
     width: None,
@@ -46902,7 +46902,7 @@ let data = [|
     latex: "^{151}\\mathrm{La}",
   },
   {
-    pdg: (-1000571510),
+    pdg: -1000571510,
     name: "La151~",
     mass: Some(140601.1718286),
     width: None,
@@ -46928,7 +46928,7 @@ let data = [|
     latex: "^{152}\\mathrm{La}",
   },
   {
-    pdg: (-1000571520),
+    pdg: -1000571520,
     name: "La152~",
     mass: Some(141536.9042217),
     width: None,
@@ -46954,7 +46954,7 @@ let data = [|
     latex: "^{153}\\mathrm{La}",
   },
   {
-    pdg: (-1000571530),
+    pdg: -1000571530,
     name: "La153~",
     mass: Some(142471.509507),
     width: None,
@@ -46980,7 +46980,7 @@ let data = [|
     latex: "^{154}\\mathrm{La}",
   },
   {
-    pdg: (-1000571540),
+    pdg: -1000571540,
     name: "La154~",
     mass: Some(143407.6144978),
     width: None,
@@ -47006,7 +47006,7 @@ let data = [|
     latex: "^{155}\\mathrm{La}",
   },
   {
-    pdg: (-1000571550),
+    pdg: -1000571550,
     name: "La155~",
     mass: Some(144342.5830657),
     width: None,
@@ -47032,7 +47032,7 @@ let data = [|
     latex: "^{119}\\mathrm{Ce}",
   },
   {
-    pdg: (-1000581190),
+    pdg: -1000581190,
     name: "Ce119~",
     mass: Some(110803.7935228),
     width: None,
@@ -47058,7 +47058,7 @@ let data = [|
     latex: "^{120}\\mathrm{Ce}",
   },
   {
-    pdg: (-1000581200),
+    pdg: -1000581200,
     name: "Ce120~",
     mass: Some(111729.5868739),
     width: None,
@@ -47084,7 +47084,7 @@ let data = [|
     latex: "^{121}\\mathrm{Ce}",
   },
   {
-    pdg: (-1000581210),
+    pdg: -1000581210,
     name: "Ce121~",
     mass: Some(112658.3144314),
     width: None,
@@ -47110,7 +47110,7 @@ let data = [|
     latex: "^{122}\\mathrm{Ce}",
   },
   {
-    pdg: (-1000581220),
+    pdg: -1000581220,
     name: "Ce122~",
     mass: Some(113584.5362698),
     width: None,
@@ -47136,7 +47136,7 @@ let data = [|
     latex: "^{123}\\mathrm{Ce}",
   },
   {
-    pdg: (-1000581230),
+    pdg: -1000581230,
     name: "Ce123~",
     mass: Some(114513.7016296),
     width: None,
@@ -47162,7 +47162,7 @@ let data = [|
     latex: "^{124}\\mathrm{Ce}",
   },
   {
-    pdg: (-1000581240),
+    pdg: -1000581240,
     name: "Ce124~",
     mass: Some(115440.5475691),
     width: None,
@@ -47188,7 +47188,7 @@ let data = [|
     latex: "^{125}\\mathrm{Ce}",
   },
   {
-    pdg: (-1000581250),
+    pdg: -1000581250,
     name: "Ce125~",
     mass: Some(116370.1973057),
     width: None,
@@ -47214,7 +47214,7 @@ let data = [|
     latex: "^{126}\\mathrm{Ce}",
   },
   {
-    pdg: (-1000581260),
+    pdg: -1000581260,
     name: "Ce126~",
     mass: Some(117297.5555669),
     width: None,
@@ -47240,7 +47240,7 @@ let data = [|
     latex: "^{127}\\mathrm{Ce}",
   },
   {
-    pdg: (-1000581270),
+    pdg: -1000581270,
     name: "Ce127~",
     mass: Some(118227.7921449),
     width: None,
@@ -47266,7 +47266,7 @@ let data = [|
     latex: "^{128}\\mathrm{Ce}",
   },
   {
-    pdg: (-1000581280),
+    pdg: -1000581280,
     name: "Ce128~",
     mass: Some(119155.6720428),
     width: None,
@@ -47292,7 +47292,7 @@ let data = [|
     latex: "^{129}\\mathrm{Ce}",
   },
   {
-    pdg: (-1000581290),
+    pdg: -1000581290,
     name: "Ce129~",
     mass: Some(120086.4395724),
     width: None,
@@ -47318,7 +47318,7 @@ let data = [|
     latex: "^{130}\\mathrm{Ce}",
   },
   {
-    pdg: (-1000581300),
+    pdg: -1000581300,
     name: "Ce130~",
     mass: Some(121014.7665875),
     width: None,
@@ -47344,7 +47344,7 @@ let data = [|
     latex: "^{131}\\mathrm{Ce}",
   },
   {
-    pdg: (-1000581310),
+    pdg: -1000581310,
     name: "Ce131~",
     mass: Some(121946.0091791),
     width: None,
@@ -47370,7 +47370,7 @@ let data = [|
     latex: "^{132}\\mathrm{Ce}",
   },
   {
-    pdg: (-1000581320),
+    pdg: -1000581320,
     name: "Ce132~",
     mass: Some(122874.7739964),
     width: None,
@@ -47396,7 +47396,7 @@ let data = [|
     latex: "^{133}\\mathrm{Ce}",
   },
   {
-    pdg: (-1000581330),
+    pdg: -1000581330,
     name: "Ce133~",
     mass: Some(123806.323981),
     width: None,
@@ -47422,7 +47422,7 @@ let data = [|
     latex: "^{134}\\mathrm{Ce}",
   },
   {
-    pdg: (-1000581340),
+    pdg: -1000581340,
     name: "Ce134~",
     mass: Some(124735.4707109),
     width: None,
@@ -47448,7 +47448,7 @@ let data = [|
     latex: "^{135}\\mathrm{Ce}",
   },
   {
-    pdg: (-1000581350),
+    pdg: -1000581350,
     name: "Ce135~",
     mass: Some(125667.0728592),
     width: None,
@@ -47474,7 +47474,7 @@ let data = [|
     latex: "^{136}\\mathrm{Ce}",
   },
   {
-    pdg: (-1000581360),
+    pdg: -1000581360,
     name: "Ce136~",
     mass: Some(126596.698377),
     width: None,
@@ -47500,7 +47500,7 @@ let data = [|
     latex: "^{137}\\mathrm{Ce}",
   },
   {
-    pdg: (-1000581370),
+    pdg: -1000581370,
     name: "Ce137~",
     mass: Some(127528.7886282),
     width: None,
@@ -47526,7 +47526,7 @@ let data = [|
     latex: "^{138}\\mathrm{Ce}",
   },
   {
-    pdg: (-1000581380),
+    pdg: -1000581380,
     name: "Ce138~",
     mass: Some(128458.6116228),
     width: None,
@@ -47552,7 +47552,7 @@ let data = [|
     latex: "^{139}\\mathrm{Ce}",
   },
   {
-    pdg: (-1000581390),
+    pdg: -1000581390,
     name: "Ce139~",
     mass: Some(129390.7214354),
     width: None,
@@ -47578,7 +47578,7 @@ let data = [|
     latex: "^{140}\\mathrm{Ce}",
   },
   {
-    pdg: (-1000581400),
+    pdg: -1000581400,
     name: "Ce140~",
     mass: Some(130321.085628),
     width: None,
@@ -47604,7 +47604,7 @@ let data = [|
     latex: "^{141}\\mathrm{Ce}",
   },
   {
-    pdg: (-1000581410),
+    pdg: -1000581410,
     name: "Ce141~",
     mass: Some(131255.2223718),
     width: None,
@@ -47630,7 +47630,7 @@ let data = [|
     latex: "^{142}\\mathrm{Ce}",
   },
   {
-    pdg: (-1000581420),
+    pdg: -1000581420,
     name: "Ce142~",
     mass: Some(132187.6190845),
     width: None,
@@ -47656,7 +47656,7 @@ let data = [|
     latex: "^{143}\\mathrm{Ce}",
   },
   {
-    pdg: (-1000581430),
+    pdg: -1000581430,
     name: "Ce143~",
     mass: Some(133122.0390025),
     width: None,
@@ -47682,7 +47682,7 @@ let data = [|
     latex: "^{144}\\mathrm{Ce}",
   },
   {
-    pdg: (-1000581440),
+    pdg: -1000581440,
     name: "Ce144~",
     mass: Some(134054.708643),
     width: None,
@@ -47708,7 +47708,7 @@ let data = [|
     latex: "^{145}\\mathrm{Ce}",
   },
   {
-    pdg: (-1000581450),
+    pdg: -1000581450,
     name: "Ce145~",
     mass: Some(134989.5440073),
     width: None,
@@ -47734,7 +47734,7 @@ let data = [|
     latex: "^{146}\\mathrm{Ce}",
   },
   {
-    pdg: (-1000581460),
+    pdg: -1000581460,
     name: "Ce146~",
     mass: Some(135922.3980837),
     width: None,
@@ -47760,7 +47760,7 @@ let data = [|
     latex: "^{147}\\mathrm{Ce}",
   },
   {
-    pdg: (-1000581470),
+    pdg: -1000581470,
     name: "Ce147~",
     mass: Some(136857.4504861),
     width: None,
@@ -47786,7 +47786,7 @@ let data = [|
     latex: "^{148}\\mathrm{Ce}",
   },
   {
-    pdg: (-1000581480),
+    pdg: -1000581480,
     name: "Ce148~",
     mass: Some(137790.69579),
     width: None,
@@ -47812,7 +47812,7 @@ let data = [|
     latex: "^{149}\\mathrm{Ce}",
   },
   {
-    pdg: (-1000581490),
+    pdg: -1000581490,
     name: "Ce149~",
     mass: Some(138725.822712),
     width: None,
@@ -47838,7 +47838,7 @@ let data = [|
     latex: "^{150}\\mathrm{Ce}",
   },
   {
-    pdg: (-1000581500),
+    pdg: -1000581500,
     name: "Ce150~",
     mass: Some(139659.1239055),
     width: None,
@@ -47864,7 +47864,7 @@ let data = [|
     latex: "^{151}\\mathrm{Ce}",
   },
   {
-    pdg: (-1000581510),
+    pdg: -1000581510,
     name: "Ce151~",
     mass: Some(140594.166993),
     width: None,
@@ -47890,7 +47890,7 @@ let data = [|
     latex: "^{152}\\mathrm{Ce}",
   },
   {
-    pdg: (-1000581520),
+    pdg: -1000581520,
     name: "Ce152~",
     mass: Some(141527.8407842),
     width: None,
@@ -47916,7 +47916,7 @@ let data = [|
     latex: "^{153}\\mathrm{Ce}",
   },
   {
-    pdg: (-1000581530),
+    pdg: -1000581530,
     name: "Ce153~",
     mass: Some(142463.2471544),
     width: None,
@@ -47942,7 +47942,7 @@ let data = [|
     latex: "^{154}\\mathrm{Ce}",
   },
   {
-    pdg: (-1000581540),
+    pdg: -1000581540,
     name: "Ce154~",
     mass: Some(143397.2935432),
     width: None,
@@ -47968,7 +47968,7 @@ let data = [|
     latex: "^{155}\\mathrm{Ce}",
   },
   {
-    pdg: (-1000581550),
+    pdg: -1000581550,
     name: "Ce155~",
     mass: Some(144333.1842903),
     width: None,
@@ -47994,7 +47994,7 @@ let data = [|
     latex: "^{156}\\mathrm{Ce}",
   },
   {
-    pdg: (-1000581560),
+    pdg: -1000581560,
     name: "Ce156~",
     mass: Some(145267.6777963),
     width: None,
@@ -48020,7 +48020,7 @@ let data = [|
     latex: "^{157}\\mathrm{Ce}",
   },
   {
-    pdg: (-1000581570),
+    pdg: -1000581570,
     name: "Ce157~",
     mass: Some(146203.9038813),
     width: None,
@@ -48046,7 +48046,7 @@ let data = [|
     latex: "^{121}\\mathrm{Pr}",
   },
   {
-    pdg: (-1000591210),
+    pdg: -1000591210,
     name: "Pr121~",
     mass: Some(112669.2035974),
     width: None,
@@ -48072,7 +48072,7 @@ let data = [|
     latex: "^{122}\\mathrm{Pr}",
   },
   {
-    pdg: (-1000591220),
+    pdg: -1000591220,
     name: "Pr122~",
     mass: Some(113597.2418493),
     width: None,
@@ -48098,7 +48098,7 @@ let data = [|
     latex: "^{123}\\mathrm{Pr}",
   },
   {
-    pdg: (-1000591230),
+    pdg: -1000591230,
     name: "Pr123~",
     mass: Some(114523.4357429),
     width: None,
@@ -48124,7 +48124,7 @@ let data = [|
     latex: "^{124}\\mathrm{Pr}",
   },
   {
-    pdg: (-1000591240),
+    pdg: -1000591240,
     name: "Pr124~",
     mass: Some(115452.1353556),
     width: None,
@@ -48150,7 +48150,7 @@ let data = [|
     latex: "^{125}\\mathrm{Pr}",
   },
   {
-    pdg: (-1000591250),
+    pdg: -1000591250,
     name: "Pr125~",
     mass: Some(116378.8508859),
     width: None,
@@ -48176,7 +48176,7 @@ let data = [|
     latex: "^{126}\\mathrm{Pr}",
   },
   {
-    pdg: (-1000591260),
+    pdg: -1000591260,
     name: "Pr126~",
     mass: Some(117307.9976158),
     width: None,
@@ -48202,7 +48202,7 @@ let data = [|
     latex: "^{127}\\mathrm{Pr}",
   },
   {
-    pdg: (-1000591270),
+    pdg: -1000591270,
     name: "Pr127~",
     mass: Some(118235.3186172),
     width: None,
@@ -48228,7 +48228,7 @@ let data = [|
     latex: "^{128}\\mathrm{Pr}",
   },
   {
-    pdg: (-1000591280),
+    pdg: -1000591280,
     name: "Pr128~",
     mass: Some(119164.9217792),
     width: None,
@@ -48254,7 +48254,7 @@ let data = [|
     latex: "^{129}\\mathrm{Pr}",
   },
   {
-    pdg: (-1000591290),
+    pdg: -1000591290,
     name: "Pr129~",
     mass: Some(120092.7457874),
     width: None,
@@ -48280,7 +48280,7 @@ let data = [|
     latex: "^{130}\\mathrm{Pr}",
   },
   {
-    pdg: (-1000591300),
+    pdg: -1000591300,
     name: "Pr130~",
     mass: Some(121022.8612712),
     width: None,
@@ -48306,7 +48306,7 @@ let data = [|
     latex: "^{131}\\mathrm{Pr}",
   },
   {
-    pdg: (-1000591310),
+    pdg: -1000591310,
     name: "Pr131~",
     mass: Some(121951.2628058),
     width: None,
@@ -48332,7 +48332,7 @@ let data = [|
     latex: "^{132}\\mathrm{Pr}",
   },
   {
-    pdg: (-1000591320),
+    pdg: -1000591320,
     name: "Pr132~",
     mass: Some(122881.8812963),
     width: None,
@@ -48358,7 +48358,7 @@ let data = [|
     latex: "^{133}\\mathrm{Pr}",
   },
   {
-    pdg: (-1000591330),
+    pdg: -1000591330,
     name: "Pr133~",
     mass: Some(123810.6554285),
     width: None,
@@ -48384,7 +48384,7 @@ let data = [|
     latex: "^{134}\\mathrm{Pr}",
   },
   {
-    pdg: (-1000591340),
+    pdg: -1000591340,
     name: "Pr134~",
     mass: Some(124741.6558316),
     width: None,
@@ -48410,7 +48410,7 @@ let data = [|
     latex: "^{135}\\mathrm{Pr}",
   },
   {
-    pdg: (-1000591350),
+    pdg: -1000591350,
     name: "Pr135~",
     mass: Some(125670.7932466),
     width: None,
@@ -48436,7 +48436,7 @@ let data = [|
     latex: "^{136}\\mathrm{Pr}",
   },
   {
-    pdg: (-1000591360),
+    pdg: -1000591360,
     name: "Pr136~",
     mass: Some(126601.8309095),
     width: None,
@@ -48462,7 +48462,7 @@ let data = [|
     latex: "^{137}\\mathrm{Pr}",
   },
   {
-    pdg: (-1000591370),
+    pdg: -1000591370,
     name: "Pr137~",
     mass: Some(127531.4899611),
     width: None,
@@ -48488,7 +48488,7 @@ let data = [|
     latex: "^{138}\\mathrm{Pr}",
   },
   {
-    pdg: (-1000591380),
+    pdg: -1000591380,
     name: "Pr138~",
     mass: Some(128463.0483292),
     width: None,
@@ -48514,7 +48514,7 @@ let data = [|
     latex: "^{139}\\mathrm{Pr}",
   },
   {
-    pdg: (-1000591390),
+    pdg: -1000591390,
     name: "Pr139~",
     mass: Some(129392.8498994),
     width: None,
@@ -48540,7 +48540,7 @@ let data = [|
     latex: "^{140}\\mathrm{Pr}",
   },
   {
-    pdg: (-1000591400),
+    pdg: -1000591400,
     name: "Pr140~",
     mass: Some(130324.4734721),
     width: None,
@@ -48566,7 +48566,7 @@ let data = [|
     latex: "^{141}\\mathrm{Pr}",
   },
   {
-    pdg: (-1000591410),
+    pdg: -1000591410,
     name: "Pr141~",
     mass: Some(131254.6420509),
     width: None,
@@ -48592,7 +48592,7 @@ let data = [|
     latex: "^{142}\\mathrm{Pr}",
   },
   {
-    pdg: (-1000591420),
+    pdg: -1000591420,
     name: "Pr142~",
     mass: Some(132188.3642798),
     width: None,
@@ -48618,7 +48618,7 @@ let data = [|
     latex: "^{143}\\mathrm{Pr}",
   },
   {
-    pdg: (-1000591430),
+    pdg: -1000591430,
     name: "Pr143~",
     mass: Some(133120.5774882),
     width: None,
@@ -48644,7 +48644,7 @@ let data = [|
     latex: "^{144}\\mathrm{Pr}",
   },
   {
-    pdg: (-1000591440),
+    pdg: -1000591440,
     name: "Pr144~",
     mass: Some(134054.390072),
     width: None,
@@ -48670,7 +48670,7 @@ let data = [|
     latex: "^{145}\\mathrm{Pr}",
   },
   {
-    pdg: (-1000591450),
+    pdg: -1000591450,
     name: "Pr145~",
     mass: Some(134987.0075489),
     width: None,
@@ -48696,7 +48696,7 @@ let data = [|
     latex: "^{146}\\mathrm{Pr}",
   },
   {
-    pdg: (-1000591460),
+    pdg: -1000591460,
     name: "Pr146~",
     mass: Some(135921.3734402),
     width: None,
@@ -48722,7 +48722,7 @@ let data = [|
     latex: "^{147}\\mathrm{Pr}",
   },
   {
-    pdg: (-1000591470),
+    pdg: -1000591470,
     name: "Pr147~",
     mass: Some(136854.162312),
     width: None,
@@ -48748,7 +48748,7 @@ let data = [|
     latex: "^{148}\\mathrm{Pr}",
   },
   {
-    pdg: (-1000591480),
+    pdg: -1000591480,
     name: "Pr148~",
     mass: Some(137788.6371881),
     width: None,
@@ -48774,7 +48774,7 @@ let data = [|
     latex: "^{149}\\mathrm{Pr}",
   },
   {
-    pdg: (-1000591490),
+    pdg: -1000591490,
     name: "Pr149~",
     mass: Some(138721.63192),
     width: None,
@@ -48800,7 +48800,7 @@ let data = [|
     latex: "^{150}\\mathrm{Pr}",
   },
   {
-    pdg: (-1000591500),
+    pdg: -1000591500,
     name: "Pr150~",
     mass: Some(139656.1151796),
     width: None,
@@ -48826,7 +48826,7 @@ let data = [|
     latex: "^{151}\\mathrm{Pr}",
   },
   {
-    pdg: (-1000591510),
+    pdg: -1000591510,
     name: "Pr151~",
     mass: Some(140588.7550123),
     width: None,
@@ -48852,7 +48852,7 @@ let data = [|
     latex: "^{152}\\mathrm{Pr}",
   },
   {
-    pdg: (-1000591520),
+    pdg: -1000591520,
     name: "Pr152~",
     mass: Some(141523.3882424),
     width: None,
@@ -48878,7 +48878,7 @@ let data = [|
     latex: "^{153}\\mathrm{Pr}",
   },
   {
-    pdg: (-1000591530),
+    pdg: -1000591530,
     name: "Pr153~",
     mass: Some(142456.7919003),
     width: None,
@@ -48904,7 +48904,7 @@ let data = [|
     latex: "^{154}\\mathrm{Pr}",
   },
   {
-    pdg: (-1000591540),
+    pdg: -1000591540,
     name: "Pr154~",
     mass: Some(143391.7697832),
     width: None,
@@ -48930,7 +48930,7 @@ let data = [|
     latex: "^{155}\\mathrm{Pr}",
   },
   {
-    pdg: (-1000591550),
+    pdg: -1000591550,
     name: "Pr155~",
     mass: Some(144325.6857628),
     width: None,
@@ -48956,7 +48956,7 @@ let data = [|
     latex: "^{156}\\mathrm{Pr}",
   },
   {
-    pdg: (-1000591560),
+    pdg: -1000591560,
     name: "Pr156~",
     mass: Some(145261.0269284),
     width: None,
@@ -48982,7 +48982,7 @@ let data = [|
     latex: "^{157}\\mathrm{Pr}",
   },
   {
-    pdg: (-1000591570),
+    pdg: -1000591570,
     name: "Pr157~",
     mass: Some(146195.3620804),
     width: None,
@@ -49008,7 +49008,7 @@ let data = [|
     latex: "^{158}\\mathrm{Pr}",
   },
   {
-    pdg: (-1000591580),
+    pdg: -1000591580,
     name: "Pr158~",
     mass: Some(147131.1503632),
     width: None,
@@ -49034,7 +49034,7 @@ let data = [|
     latex: "^{159}\\mathrm{Pr}",
   },
   {
-    pdg: (-1000591590),
+    pdg: -1000591590,
     name: "Pr159~",
     mass: Some(148065.8581128),
     width: None,
@@ -49060,7 +49060,7 @@ let data = [|
     latex: "^{126}\\mathrm{Nd}",
   },
   {
-    pdg: (-1000601260),
+    pdg: -1000601260,
     name: "Nd126~",
     mass: Some(117315.2260099),
     width: None,
@@ -49086,7 +49086,7 @@ let data = [|
     latex: "^{127}\\mathrm{Nd}",
   },
   {
-    pdg: (-1000601270),
+    pdg: -1000601270,
     name: "Nd127~",
     mass: Some(118244.3261651),
     width: None,
@@ -49112,7 +49112,7 @@ let data = [|
     latex: "^{128}\\mathrm{Nd}",
   },
   {
-    pdg: (-1000601280),
+    pdg: -1000601280,
     name: "Nd128~",
     mass: Some(119171.0603253),
     width: None,
@@ -49138,7 +49138,7 @@ let data = [|
     latex: "^{129}\\mathrm{Nd}",
   },
   {
-    pdg: (-1000601290),
+    pdg: -1000601290,
     name: "Nd129~",
     mass: Some(120100.5610229),
     width: None,
@@ -49164,7 +49164,7 @@ let data = [|
     latex: "^{130}\\mathrm{Nd}",
   },
   {
-    pdg: (-1000601300),
+    pdg: -1000601300,
     name: "Nd130~",
     mass: Some(121027.8913393),
     width: None,
@@ -49190,7 +49190,7 @@ let data = [|
     latex: "^{131}\\mathrm{Nd}",
   },
   {
-    pdg: (-1000601310),
+    pdg: -1000601310,
     name: "Nd131~",
     mass: Some(121957.8205242),
     width: None,
@@ -49216,7 +49216,7 @@ let data = [|
     latex: "^{132}\\mathrm{Nd}",
   },
   {
-    pdg: (-1000601320),
+    pdg: -1000601320,
     name: "Nd132~",
     mass: Some(122885.6072727),
     width: None,
@@ -49242,7 +49242,7 @@ let data = [|
     latex: "^{133}\\mathrm{Nd}",
   },
   {
-    pdg: (-1000601330),
+    pdg: -1000601330,
     name: "Nd133~",
     mass: Some(123816.253708),
     width: None,
@@ -49268,7 +49268,7 @@ let data = [|
     latex: "^{134}\\mathrm{Nd}",
   },
   {
-    pdg: (-1000601340),
+    pdg: -1000601340,
     name: "Nd134~",
     mass: Some(124744.4316841),
     width: None,
@@ -49294,7 +49294,7 @@ let data = [|
     latex: "^{135}\\mathrm{Nd}",
   },
   {
-    pdg: (-1000601350),
+    pdg: -1000601350,
     name: "Nd135~",
     mass: Some(125675.5438665),
     width: None,
@@ -49320,7 +49320,7 @@ let data = [|
     latex: "^{136}\\mathrm{Nd}",
   },
   {
-    pdg: (-1000601360),
+    pdg: -1000601360,
     name: "Nd136~",
     mass: Some(126604.0385505),
     width: None,
@@ -49346,7 +49346,7 @@ let data = [|
     latex: "^{137}\\mathrm{Nd}",
   },
   {
-    pdg: (-1000601370),
+    pdg: -1000601370,
     name: "Nd137~",
     mass: Some(127535.1786777),
     width: None,
@@ -49372,7 +49372,7 @@ let data = [|
     latex: "^{138}\\mathrm{Nd}",
   },
   {
-    pdg: (-1000601380),
+    pdg: -1000601380,
     name: "Nd138~",
     mass: Some(128464.1484237),
     width: None,
@@ -49398,7 +49398,7 @@ let data = [|
     latex: "^{139}\\mathrm{Nd}",
   },
   {
-    pdg: (-1000601390),
+    pdg: -1000601390,
     name: "Nd139~",
     mass: Some(129395.6332037),
     width: None,
@@ -49424,7 +49424,7 @@ let data = [|
     latex: "^{140}\\mathrm{Nd}",
   },
   {
-    pdg: (-1000601400),
+    pdg: -1000601400,
     name: "Nd140~",
     mass: Some(130324.6960991),
     width: None,
@@ -49450,7 +49450,7 @@ let data = [|
     latex: "^{141}\\mathrm{Nd}",
   },
   {
-    pdg: (-1000601410),
+    pdg: -1000601410,
     name: "Nd141~",
     mass: Some(131256.4649849),
     width: None,
@@ -49476,7 +49476,7 @@ let data = [|
     latex: "^{142}\\mathrm{Nd}",
   },
   {
-    pdg: (-1000601420),
+    pdg: -1000601420,
     name: "Nd142~",
     mass: Some(132186.202282),
     width: None,
@@ -49502,7 +49502,7 @@ let data = [|
     latex: "^{143}\\mathrm{Nd}",
   },
   {
-    pdg: (-1000601430),
+    pdg: -1000601430,
     name: "Nd143~",
     mass: Some(133119.6441312),
     width: None,
@@ -49528,7 +49528,7 @@ let data = [|
     latex: "^{144}\\mathrm{Nd}",
   },
   {
-    pdg: (-1000601440),
+    pdg: -1000601440,
     name: "Nd144~",
     mass: Some(134051.392524),
     width: None,
@@ -49554,7 +49554,7 @@ let data = [|
     latex: "^{145}\\mathrm{Nd}",
   },
   {
-    pdg: (-1000601450),
+    pdg: -1000601450,
     name: "Nd145~",
     mass: Some(134985.2023134),
     width: None,
@@ -49580,7 +49580,7 @@ let data = [|
     latex: "^{146}\\mathrm{Nd}",
   },
   {
-    pdg: (-1000601460),
+    pdg: -1000601460,
     name: "Nd146~",
     mass: Some(135917.2022096),
     width: None,
@@ -49606,7 +49606,7 @@ let data = [|
     latex: "^{147}\\mathrm{Nd}",
   },
   {
-    pdg: (-1000601470),
+    pdg: -1000601470,
     name: "Nd147~",
     mass: Some(136851.475883),
     width: None,
@@ -49632,7 +49632,7 @@ let data = [|
     latex: "^{148}\\mathrm{Nd}",
   },
   {
-    pdg: (-1000601480),
+    pdg: -1000601480,
     name: "Nd148~",
     mass: Some(137783.7086528),
     width: None,
@@ -49658,7 +49658,7 @@ let data = [|
     latex: "^{149}\\mathrm{Nd}",
   },
   {
-    pdg: (-1000601490),
+    pdg: -1000601490,
     name: "Nd149~",
     mass: Some(138718.2347611),
     width: None,
@@ -49684,7 +49684,7 @@ let data = [|
     latex: "^{150}\\mathrm{Nd}",
   },
   {
-    pdg: (-1000601500),
+    pdg: -1000601500,
     name: "Nd150~",
     mass: Some(139650.4209562),
     width: None,
@@ -49710,7 +49710,7 @@ let data = [|
     latex: "^{151}\\mathrm{Nd}",
   },
   {
-    pdg: (-1000601510),
+    pdg: -1000601510,
     name: "Nd151~",
     mass: Some(140584.6517808),
     width: None,
@@ -49736,7 +49736,7 @@ let data = [|
     latex: "^{152}\\mathrm{Nd}",
   },
   {
-    pdg: (-1000601520),
+    pdg: -1000601520,
     name: "Nd152~",
     mass: Some(141516.9423033),
     width: None,
@@ -49762,7 +49762,7 @@ let data = [|
     latex: "^{153}\\mathrm{Nd}",
   },
   {
-    pdg: (-1000601530),
+    pdg: -1000601530,
     name: "Nd153~",
     mass: Some(142451.244853),
     width: None,
@@ -49788,7 +49788,7 @@ let data = [|
     latex: "^{154}\\mathrm{Nd}",
   },
   {
-    pdg: (-1000601540),
+    pdg: -1000601540,
     name: "Nd154~",
     mass: Some(143384.4016649),
     width: None,
@@ -49814,7 +49814,7 @@ let data = [|
     latex: "^{155}\\mathrm{Nd}",
   },
   {
-    pdg: (-1000601550),
+    pdg: -1000601550,
     name: "Nd155~",
     mass: Some(144318.8299663),
     width: None,
@@ -49840,7 +49840,7 @@ let data = [|
     latex: "^{156}\\mathrm{Nd}",
   },
   {
-    pdg: (-1000601560),
+    pdg: -1000601560,
     name: "Nd156~",
     mass: Some(145252.7180011),
     width: None,
@@ -49866,7 +49866,7 @@ let data = [|
     latex: "^{157}\\mathrm{Nd}",
   },
   {
-    pdg: (-1000601570),
+    pdg: -1000601570,
     name: "Nd157~",
     mass: Some(146188.0032771),
     width: None,
@@ -49892,7 +49892,7 @@ let data = [|
     latex: "^{158}\\mathrm{Nd}",
   },
   {
-    pdg: (-1000601580),
+    pdg: -1000601580,
     name: "Nd158~",
     mass: Some(147121.9192567),
     width: None,
@@ -49918,7 +49918,7 @@ let data = [|
     latex: "^{159}\\mathrm{Nd}",
   },
   {
-    pdg: (-1000601590),
+    pdg: -1000601590,
     name: "Nd159~",
     mass: Some(148057.623705),
     width: None,
@@ -49944,7 +49944,7 @@ let data = [|
     latex: "^{160}\\mathrm{Nd}",
   },
   {
-    pdg: (-1000601600),
+    pdg: -1000601600,
     name: "Nd160~",
     mass: Some(148991.9122823),
     width: None,
@@ -49970,7 +49970,7 @@ let data = [|
     latex: "^{161}\\mathrm{Nd}",
   },
   {
-    pdg: (-1000601610),
+    pdg: -1000601610,
     name: "Nd161~",
     mass: Some(149928.0079581),
     width: None,
@@ -49996,7 +49996,7 @@ let data = [|
     latex: "^{128}\\mathrm{Pm}",
   },
   {
-    pdg: (-1000611280),
+    pdg: -1000611280,
     name: "Pm128~",
     mass: Some(119183.0486543),
     width: None,
@@ -50022,7 +50022,7 @@ let data = [|
     latex: "^{129}\\mathrm{Pm}",
   },
   {
-    pdg: (-1000611290),
+    pdg: -1000611290,
     name: "Pm129~",
     mass: Some(120109.7921294),
     width: None,
@@ -50048,7 +50048,7 @@ let data = [|
     latex: "^{130}\\mathrm{Pm}",
   },
   {
-    pdg: (-1000611300),
+    pdg: -1000611300,
     name: "Pm130~",
     mass: Some(121038.7618754),
     width: None,
@@ -50074,7 +50074,7 @@ let data = [|
     latex: "^{131}\\mathrm{Pm}",
   },
   {
-    pdg: (-1000611310),
+    pdg: -1000611310,
     name: "Pm131~",
     mass: Some(121965.9245228),
     width: None,
@@ -50100,7 +50100,7 @@ let data = [|
     latex: "^{132}\\mathrm{Pm}",
   },
   {
-    pdg: (-1000611320),
+    pdg: -1000611320,
     name: "Pm132~",
     mass: Some(122895.5090549),
     width: None,
@@ -50126,7 +50126,7 @@ let data = [|
     latex: "^{133}\\mathrm{Pm}",
   },
   {
-    pdg: (-1000611330),
+    pdg: -1000611330,
     name: "Pm133~",
     mass: Some(123823.2492287),
     width: None,
@@ -50152,7 +50152,7 @@ let data = [|
     latex: "^{134}\\mathrm{Pm}",
   },
   {
-    pdg: (-1000611340),
+    pdg: -1000611340,
     name: "Pm134~",
     mass: Some(124753.5975859),
     width: None,
@@ -50178,7 +50178,7 @@ let data = [|
     latex: "^{135}\\mathrm{Pm}",
   },
   {
-    pdg: (-1000611350),
+    pdg: -1000611350,
     name: "Pm135~",
     mass: Some(125681.4867988),
     width: None,
@@ -50204,7 +50204,7 @@ let data = [|
     latex: "^{136}\\mathrm{Pm}",
   },
   {
-    pdg: (-1000611360),
+    pdg: -1000611360,
     name: "Pm136~",
     mass: Some(126611.8910457),
     width: None,
@@ -50230,7 +50230,7 @@ let data = [|
     latex: "^{137}\\mathrm{Pm}",
   },
   {
-    pdg: (-1000611370),
+    pdg: -1000611370,
     name: "Pm137~",
     mass: Some(127540.8328469),
     width: None,
@@ -50256,7 +50256,7 @@ let data = [|
     latex: "^{138}\\mathrm{Pm}",
   },
   {
-    pdg: (-1000611380),
+    pdg: -1000611380,
     name: "Pm138~",
     mass: Some(128471.1532593),
     width: None,
@@ -50282,7 +50282,7 @@ let data = [|
     latex: "^{139}\\mathrm{Pm}",
   },
   {
-    pdg: (-1000611390),
+    pdg: -1000611390,
     name: "Pm139~",
     mass: Some(129400.1416352),
     width: None,
@@ -50308,7 +50308,7 @@ let data = [|
     latex: "^{140}\\mathrm{Pm}",
   },
   {
-    pdg: (-1000611400),
+    pdg: -1000611400,
     name: "Pm140~",
     mass: Some(130330.7414958),
     width: None,
@@ -50334,7 +50334,7 @@ let data = [|
     latex: "^{141}\\mathrm{Pm}",
   },
   {
-    pdg: (-1000611410),
+    pdg: -1000611410,
     name: "Pm141~",
     mass: Some(131260.1928243),
     width: None,
@@ -50360,7 +50360,7 @@ let data = [|
     latex: "^{142}\\mathrm{Pm}",
   },
   {
-    pdg: (-1000611420),
+    pdg: -1000611420,
     name: "Pm142~",
     mass: Some(132191.0749276),
     width: None,
@@ -50386,7 +50386,7 @@ let data = [|
     latex: "^{143}\\mathrm{Pm}",
   },
   {
-    pdg: (-1000611430),
+    pdg: -1000611430,
     name: "Pm143~",
     mass: Some(133120.6855416),
     width: None,
@@ -50412,7 +50412,7 @@ let data = [|
     latex: "^{144}\\mathrm{Pm}",
   },
   {
-    pdg: (-1000611440),
+    pdg: -1000611440,
     name: "Pm144~",
     mass: Some(134053.7240538),
     width: None,
@@ -50438,7 +50438,7 @@ let data = [|
     latex: "^{145}\\mathrm{Pm}",
   },
   {
-    pdg: (-1000611450),
+    pdg: -1000611450,
     name: "Pm145~",
     mass: Some(134985.3653248),
     width: None,
@@ -50464,7 +50464,7 @@ let data = [|
     latex: "^{146}\\mathrm{Pm}",
   },
   {
-    pdg: (-1000611460),
+    pdg: -1000611460,
     name: "Pm146~",
     mass: Some(135918.6739703),
     width: None,
@@ -50490,7 +50490,7 @@ let data = [|
     latex: "^{147}\\mathrm{Pm}",
   },
   {
-    pdg: (-1000611470),
+    pdg: -1000611470,
     name: "Pm147~",
     mass: Some(136850.5797857),
     width: None,
@@ -50516,7 +50516,7 @@ let data = [|
     latex: "^{148}\\mathrm{Pm}",
   },
   {
-    pdg: (-1000611480),
+    pdg: -1000611480,
     name: "Pm148~",
     mass: Some(137784.2479879),
     width: None,
@@ -50542,7 +50542,7 @@ let data = [|
     latex: "^{149}\\mathrm{Pm}",
   },
   {
-    pdg: (-1000611490),
+    pdg: -1000611490,
     name: "Pm149~",
     mass: Some(138716.5440993),
     width: None,
@@ -50568,7 +50568,7 @@ let data = [|
     latex: "^{150}\\mathrm{Pm}",
   },
   {
-    pdg: (-1000611500),
+    pdg: -1000611500,
     name: "Pm150~",
     mass: Some(139650.5066536),
     width: None,
@@ -50594,7 +50594,7 @@ let data = [|
     latex: "^{151}\\mathrm{Pm}",
   },
   {
-    pdg: (-1000611510),
+    pdg: -1000611510,
     name: "Pm151~",
     mass: Some(140582.2094033),
     width: None,
@@ -50620,7 +50620,7 @@ let data = [|
     latex: "^{152}\\mathrm{Pm}",
   },
   {
-    pdg: (-1000611520),
+    pdg: -1000611520,
     name: "Pm152~",
     mass: Some(141515.8338253),
     width: None,
@@ -50646,7 +50646,7 @@ let data = [|
     latex: "^{153}\\mathrm{Pm}",
   },
   {
-    pdg: (-1000611530),
+    pdg: -1000611530,
     name: "Pm153~",
     mass: Some(142447.9082411),
     width: None,
@@ -50672,7 +50672,7 @@ let data = [|
     latex: "^{154}\\mathrm{Pm}",
   },
   {
-    pdg: (-1000611540),
+    pdg: -1000611540,
     name: "Pm154~",
     mass: Some(143381.6723872),
     width: None,
@@ -50698,7 +50698,7 @@ let data = [|
     latex: "^{155}\\mathrm{Pm}",
   },
   {
-    pdg: (-1000611550),
+    pdg: -1000611550,
     name: "Pm155~",
     mass: Some(144314.610298),
     width: None,
@@ -50724,7 +50724,7 @@ let data = [|
     latex: "^{156}\\mathrm{Pm}",
   },
   {
-    pdg: (-1000611560),
+    pdg: -1000611560,
     name: "Pm156~",
     mass: Some(145248.8616156),
     width: None,
@@ -50750,7 +50750,7 @@ let data = [|
     latex: "^{157}\\mathrm{Pm}",
   },
   {
-    pdg: (-1000611570),
+    pdg: -1000611570,
     name: "Pm157~",
     mass: Some(146182.3491079),
     width: None,
@@ -50776,7 +50776,7 @@ let data = [|
     latex: "^{158}\\mathrm{Pm}",
   },
   {
-    pdg: (-1000611580),
+    pdg: -1000611580,
     name: "Pm158~",
     mass: Some(147117.0941173),
     width: None,
@@ -50802,7 +50802,7 @@ let data = [|
     latex: "^{159}\\mathrm{Pm}",
   },
   {
-    pdg: (-1000611590),
+    pdg: -1000611590,
     name: "Pm159~",
     mass: Some(148050.8610579),
     width: None,
@@ -50828,7 +50828,7 @@ let data = [|
     latex: "^{160}\\mathrm{Pm}",
   },
   {
-    pdg: (-1000611600),
+    pdg: -1000611600,
     name: "Pm160~",
     mass: Some(148985.9507201),
     width: None,
@@ -50854,7 +50854,7 @@ let data = [|
     latex: "^{161}\\mathrm{Pm}",
   },
   {
-    pdg: (-1000611610),
+    pdg: -1000611610,
     name: "Pm161~",
     mass: Some(149920.1182031),
     width: None,
@@ -50880,7 +50880,7 @@ let data = [|
     latex: "^{162}\\mathrm{Pm}",
   },
   {
-    pdg: (-1000611620),
+    pdg: -1000611620,
     name: "Pm162~",
     mass: Some(150855.7388169),
     width: None,
@@ -50906,7 +50906,7 @@ let data = [|
     latex: "^{163}\\mathrm{Pm}",
   },
   {
-    pdg: (-1000611630),
+    pdg: -1000611630,
     name: "Pm163~",
     mass: Some(151790.2416379),
     width: None,
@@ -50932,7 +50932,7 @@ let data = [|
     latex: "^{130}\\mathrm{Sm}",
   },
   {
-    pdg: (-1000621300),
+    pdg: -1000621300,
     name: "Sm130~",
     mass: Some(121046.3814971),
     width: None,
@@ -50958,7 +50958,7 @@ let data = [|
     latex: "^{131}\\mathrm{Sm}",
   },
   {
-    pdg: (-1000621310),
+    pdg: -1000621310,
     name: "Sm131~",
     mass: Some(121975.3232982),
     width: None,
@@ -50984,7 +50984,7 @@ let data = [|
     latex: "^{132}\\mathrm{Sm}",
   },
   {
-    pdg: (-1000621320),
+    pdg: -1000621320,
     name: "Sm132~",
     mass: Some(122902.0947182),
     width: None,
@@ -51010,7 +51010,7 @@ let data = [|
     latex: "^{133}\\mathrm{Sm}",
   },
   {
-    pdg: (-1000621330),
+    pdg: -1000621330,
     name: "Sm133~",
     mass: Some(123831.6419905),
     width: None,
@@ -51036,7 +51036,7 @@ let data = [|
     latex: "^{134}\\mathrm{Sm}",
   },
   {
-    pdg: (-1000621340),
+    pdg: -1000621340,
     name: "Sm134~",
     mass: Some(124758.7487483),
     width: None,
@@ -51062,7 +51062,7 @@ let data = [|
     latex: "^{135}\\mathrm{Sm}",
   },
   {
-    pdg: (-1000621350),
+    pdg: -1000621350,
     name: "Sm135~",
     mass: Some(125688.6872481),
     width: None,
@@ -51088,7 +51088,7 @@ let data = [|
     latex: "^{136}\\mathrm{Sm}",
   },
   {
-    pdg: (-1000621360),
+    pdg: -1000621360,
     name: "Sm136~",
     mass: Some(126616.408792),
     width: None,
@@ -51114,7 +51114,7 @@ let data = [|
     latex: "^{137}\\mathrm{Sm}",
   },
   {
-    pdg: (-1000621370),
+    pdg: -1000621370,
     name: "Sm137~",
     mass: Some(127546.7385194),
     width: None,
@@ -51140,7 +51140,7 @@ let data = [|
     latex: "^{138}\\mathrm{Sm}",
   },
   {
-    pdg: (-1000621380),
+    pdg: -1000621380,
     name: "Sm138~",
     mass: Some(128474.9630701),
     width: None,
@@ -51166,7 +51166,7 @@ let data = [|
     latex: "^{139}\\mathrm{Sm}",
   },
   {
-    pdg: (-1000621390),
+    pdg: -1000621390,
     name: "Sm139~",
     mass: Some(129405.3039754),
     width: None,
@@ -51192,7 +51192,7 @@ let data = [|
     latex: "^{140}\\mathrm{Sm}",
   },
   {
-    pdg: (-1000621400),
+    pdg: -1000621400,
     name: "Sm140~",
     mass: Some(130333.7138935),
     width: None,
@@ -51218,7 +51218,7 @@ let data = [|
     latex: "^{141}\\mathrm{Sm}",
   },
   {
-    pdg: (-1000621410),
+    pdg: -1000621410,
     name: "Sm141~",
     mass: Some(131264.7217486),
     width: None,
@@ -51244,7 +51244,7 @@ let data = [|
     latex: "^{142}\\mathrm{Sm}",
   },
   {
-    pdg: (-1000621420),
+    pdg: -1000621420,
     name: "Sm142~",
     mass: Some(132193.1642689),
     width: None,
@@ -51270,7 +51270,7 @@ let data = [|
     latex: "^{143}\\mathrm{Sm}",
   },
   {
-    pdg: (-1000621430),
+    pdg: -1000621430,
     name: "Sm143~",
     mass: Some(133124.1283437),
     width: None,
@@ -51296,7 +51296,7 @@ let data = [|
     latex: "^{144}\\mathrm{Sm}",
   },
   {
-    pdg: (-1000621440),
+    pdg: -1000621440,
     name: "Sm144~",
     mass: Some(134053.1735408),
     width: None,
@@ -51322,7 +51322,7 @@ let data = [|
     latex: "^{145}\\mathrm{Sm}",
   },
   {
-    pdg: (-1000621450),
+    pdg: -1000621450,
     name: "Sm145~",
     mass: Some(134985.9819739),
     width: None,
@@ -51348,7 +51348,7 @@ let data = [|
     latex: "^{146}\\mathrm{Sm}",
   },
   {
-    pdg: (-1000621460),
+    pdg: -1000621460,
     name: "Sm146~",
     mass: Some(135917.1323476),
     width: None,
@@ -51374,7 +51374,7 @@ let data = [|
     latex: "^{147}\\mathrm{Sm}",
   },
   {
-    pdg: (-1000621470),
+    pdg: -1000621470,
     name: "Sm147~",
     mass: Some(136850.3552956),
     width: None,
@@ -51400,7 +51400,7 @@ let data = [|
     latex: "^{148}\\mathrm{Sm}",
   },
   {
-    pdg: (-1000621480),
+    pdg: -1000621480,
     name: "Sm148~",
     mass: Some(137781.7795285),
     width: None,
@@ -51426,7 +51426,7 @@ let data = [|
     latex: "^{149}\\mathrm{Sm}",
   },
   {
-    pdg: (-1000621490),
+    pdg: -1000621490,
     name: "Sm149~",
     mass: Some(138715.4738126),
     width: None,
@@ -51452,7 +51452,7 @@ let data = [|
     latex: "^{150}\\mathrm{Sm}",
   },
   {
-    pdg: (-1000621500),
+    pdg: -1000621500,
     name: "Sm150~",
     mass: Some(139647.0526735),
     width: None,
@@ -51478,7 +51478,7 @@ let data = [|
     latex: "^{151}\\mathrm{Sm}",
   },
   {
-    pdg: (-1000621510),
+    pdg: -1000621510,
     name: "Sm151~",
     mass: Some(140581.0217483),
     width: None,
@@ -51504,7 +51504,7 @@ let data = [|
     latex: "^{152}\\mathrm{Sm}",
   },
   {
-    pdg: (-1000621520),
+    pdg: -1000621520,
     name: "Sm152~",
     mass: Some(141512.3295445),
     width: None,
@@ -51530,7 +51530,7 @@ let data = [|
     latex: "^{153}\\mathrm{Sm}",
   },
   {
-    pdg: (-1000621530),
+    pdg: -1000621530,
     name: "Sm153~",
     mass: Some(142446.0275545),
     width: None,
@@ -51556,7 +51556,7 @@ let data = [|
     latex: "^{154}\\mathrm{Sm}",
   },
   {
-    pdg: (-1000621540),
+    pdg: -1000621540,
     name: "Sm154~",
     mass: Some(143377.6250454),
     width: None,
@@ -51582,7 +51582,7 @@ let data = [|
     latex: "^{155}\\mathrm{Sm}",
   },
   {
-    pdg: (-1000621550),
+    pdg: -1000621550,
     name: "Sm155~",
     mass: Some(144311.3836025),
     width: None,
@@ -51608,7 +51608,7 @@ let data = [|
     latex: "^{156}\\mathrm{Sm}",
   },
   {
-    pdg: (-1000621560),
+    pdg: -1000621560,
     name: "Sm156~",
     mass: Some(145243.7067272),
     width: None,
@@ -51634,7 +51634,7 @@ let data = [|
     latex: "^{157}\\mathrm{Sm}",
   },
   {
-    pdg: (-1000621570),
+    pdg: -1000621570,
     name: "Sm157~",
     mass: Some(146177.8313615),
     width: None,
@@ -51660,7 +51660,7 @@ let data = [|
     latex: "^{158}\\mathrm{Sm}",
   },
   {
-    pdg: (-1000621580),
+    pdg: -1000621580,
     name: "Sm158~",
     mass: Some(147110.8531069),
     width: None,
@@ -51686,7 +51686,7 @@ let data = [|
     latex: "^{159}\\mathrm{Sm}",
   },
   {
-    pdg: (-1000621590),
+    pdg: -1000621590,
     name: "Sm159~",
     mass: Some(148045.3372979),
     width: None,
@@ -51712,7 +51712,7 @@ let data = [|
     latex: "^{160}\\mathrm{Sm}",
   },
   {
-    pdg: (-1000621600),
+    pdg: -1000621600,
     name: "Sm160~",
     mass: Some(148978.6384914),
     width: None,
@@ -51738,7 +51738,7 @@ let data = [|
     latex: "^{161}\\mathrm{Sm}",
   },
   {
-    pdg: (-1000621610),
+    pdg: -1000621610,
     name: "Sm161~",
     mass: Some(149913.5697996),
     width: None,
@@ -51764,7 +51764,7 @@ let data = [|
     latex: "^{162}\\mathrm{Sm}",
   },
   {
-    pdg: (-1000621620),
+    pdg: -1000621620,
     name: "Sm162~",
     mass: Some(150847.2901655),
     width: None,
@@ -51790,7 +51790,7 @@ let data = [|
     latex: "^{163}\\mathrm{Sm}",
   },
   {
-    pdg: (-1000621630),
+    pdg: -1000621630,
     name: "Sm163~",
     mass: Some(151782.640646),
     width: None,
@@ -51816,7 +51816,7 @@ let data = [|
     latex: "^{164}\\mathrm{Sm}",
   },
   {
-    pdg: (-1000621640),
+    pdg: -1000621640,
     name: "Sm164~",
     mass: Some(152716.8547038),
     width: None,
@@ -51842,7 +51842,7 @@ let data = [|
     latex: "^{165}\\mathrm{Sm}",
   },
   {
-    pdg: (-1000621650),
+    pdg: -1000621650,
     name: "Sm165~",
     mass: Some(153652.726821),
     width: None,
@@ -51868,7 +51868,7 @@ let data = [|
     latex: "^{132}\\mathrm{Eu}",
   },
   {
-    pdg: (-1000631320),
+    pdg: -1000631320,
     name: "Eu132~",
     mass: Some(122914.5208494),
     width: None,
@@ -51894,7 +51894,7 @@ let data = [|
     latex: "^{133}\\mathrm{Eu}",
   },
   {
-    pdg: (-1000631330),
+    pdg: -1000631330,
     name: "Eu133~",
     mass: Some(123841.1152854),
     width: None,
@@ -51920,7 +51920,7 @@ let data = [|
     latex: "^{134}\\mathrm{Eu}",
   },
   {
-    pdg: (-1000631340),
+    pdg: -1000631340,
     name: "Eu134~",
     mass: Some(124770.2061257),
     width: None,
@@ -51946,7 +51946,7 @@ let data = [|
     latex: "^{135}\\mathrm{Eu}",
   },
   {
-    pdg: (-1000631350),
+    pdg: -1000631350,
     name: "Eu135~",
     mass: Some(125697.4153478),
     width: None,
@@ -51972,7 +51972,7 @@ let data = [|
     latex: "^{136}\\mathrm{Eu}",
   },
   {
-    pdg: (-1000631360),
+    pdg: -1000631360,
     name: "Eu136~",
     mass: Some(126626.8415259),
     width: None,
@@ -51998,7 +51998,7 @@ let data = [|
     latex: "^{137}\\mathrm{Eu}",
   },
   {
-    pdg: (-1000631370),
+    pdg: -1000631370,
     name: "Eu137~",
     mass: Some(127554.3395112),
     width: None,
@@ -52024,7 +52024,7 @@ let data = [|
     latex: "^{138}\\mathrm{Eu}",
   },
   {
-    pdg: (-1000631380),
+    pdg: -1000631380,
     name: "Eu138~",
     mass: Some(128484.1941766),
     width: None,
@@ -52050,7 +52050,7 @@ let data = [|
     latex: "^{139}\\mathrm{Eu}",
   },
   {
-    pdg: (-1000631390),
+    pdg: -1000631390,
     name: "Eu139~",
     mass: Some(129412.3255779),
     width: None,
@@ -52076,7 +52076,7 @@ let data = [|
     latex: "^{140}\\mathrm{Eu}",
   },
   {
-    pdg: (-1000631400),
+    pdg: -1000631400,
     name: "Eu140~",
     mass: Some(130342.1802433),
     width: None,
@@ -52102,7 +52102,7 @@ let data = [|
     latex: "^{141}\\mathrm{Eu}",
   },
   {
-    pdg: (-1000631410),
+    pdg: -1000631410,
     name: "Eu141~",
     mass: Some(131270.7028721),
     width: None,
@@ -52128,7 +52128,7 @@ let data = [|
     latex: "^{142}\\mathrm{Eu}",
   },
   {
-    pdg: (-1000631420),
+    pdg: -1000631420,
     name: "Eu142~",
     mass: Some(132200.8090409),
     width: None,
@@ -52154,7 +52154,7 @@ let data = [|
     latex: "^{143}\\mathrm{Eu}",
   },
   {
-    pdg: (-1000631430),
+    pdg: -1000631430,
     name: "Eu143~",
     mass: Some(133129.4033948),
     width: None,
@@ -52180,7 +52180,7 @@ let data = [|
     latex: "^{144}\\mathrm{Eu}",
   },
   {
-    pdg: (-1000631440),
+    pdg: -1000631440,
     name: "Eu144~",
     mass: Some(134059.4881392),
     width: None,
@@ -52206,7 +52206,7 @@ let data = [|
     latex: "^{145}\\mathrm{Eu}",
   },
   {
-    pdg: (-1000631450),
+    pdg: -1000631450,
     name: "Eu145~",
     mass: Some(134988.6413896),
     width: None,
@@ -52232,7 +52232,7 @@ let data = [|
     latex: "^{146}\\mathrm{Eu}",
   },
   {
-    pdg: (-1000631460),
+    pdg: -1000631460,
     name: "Eu146~",
     mass: Some(135921.0101575),
     width: None,
@@ -52258,7 +52258,7 @@ let data = [|
     latex: "^{147}\\mathrm{Eu}",
   },
   {
-    pdg: (-1000631470),
+    pdg: -1000631470,
     name: "Eu147~",
     mass: Some(136852.0766967),
     width: None,
@@ -52284,7 +52284,7 @@ let data = [|
     latex: "^{148}\\mathrm{Eu}",
   },
   {
-    pdg: (-1000631480),
+    pdg: -1000631480,
     name: "Eu148~",
     mass: Some(137784.8869928),
     width: None,
@@ -52310,7 +52310,7 @@ let data = [|
     latex: "^{149}\\mathrm{Eu}",
   },
   {
-    pdg: (-1000631490),
+    pdg: -1000631490,
     name: "Eu149~",
     mass: Some(138716.1687072),
     width: None,
@@ -52336,7 +52336,7 @@ let data = [|
     latex: "^{150}\\mathrm{Eu}",
   },
   {
-    pdg: (-1000631500),
+    pdg: -1000631500,
     name: "Eu150~",
     mass: Some(139649.3134097),
     width: None,
@@ -52362,7 +52362,7 @@ let data = [|
     latex: "^{151}\\mathrm{Eu}",
   },
   {
-    pdg: (-1000631510),
+    pdg: -1000631510,
     name: "Eu151~",
     mass: Some(140580.9453658),
     width: None,
@@ -52388,7 +52388,7 @@ let data = [|
     latex: "^{152}\\mathrm{Eu}",
   },
   {
-    pdg: (-1000631520),
+    pdg: -1000631520,
     name: "Eu152~",
     mass: Some(141514.2037106),
     width: None,
@@ -52414,7 +52414,7 @@ let data = [|
     latex: "^{153}\\mathrm{Eu}",
   },
   {
-    pdg: (-1000631530),
+    pdg: -1000631530,
     name: "Eu153~",
     mass: Some(142445.2190177),
     width: None,
@@ -52440,7 +52440,7 @@ let data = [|
     latex: "^{154}\\mathrm{Eu}",
   },
   {
-    pdg: (-1000631540),
+    pdg: -1000631540,
     name: "Eu154~",
     mass: Some(143378.3422958),
     width: None,
@@ -52466,7 +52466,7 @@ let data = [|
     latex: "^{155}\\mathrm{Eu}",
   },
   {
-    pdg: (-1000631550),
+    pdg: -1000631550,
     name: "Eu155~",
     mass: Some(144309.7562823),
     width: None,
@@ -52492,7 +52492,7 @@ let data = [|
     latex: "^{156}\\mathrm{Eu}",
   },
   {
-    pdg: (-1000631560),
+    pdg: -1000631560,
     name: "Eu156~",
     mass: Some(145242.9848193),
     width: None,
@@ -52518,7 +52518,7 @@ let data = [|
     latex: "^{157}\\mathrm{Eu}",
   },
   {
-    pdg: (-1000631570),
+    pdg: -1000631570,
     name: "Eu157~",
     mass: Some(146175.1011524),
     width: None,
@@ -52544,7 +52544,7 @@ let data = [|
     latex: "^{158}\\mathrm{Eu}",
   },
   {
-    pdg: (-1000631580),
+    pdg: -1000631580,
     name: "Eu158~",
     mass: Some(147108.8503945),
     width: None,
@@ -52570,7 +52570,7 @@ let data = [|
     latex: "^{159}\\mathrm{Eu}",
   },
   {
-    pdg: (-1000631590),
+    pdg: -1000631590,
     name: "Eu159~",
     mass: Some(148041.5032682),
     width: None,
@@ -52596,7 +52596,7 @@ let data = [|
     latex: "^{160}\\mathrm{Eu}",
   },
   {
-    pdg: (-1000631600),
+    pdg: -1000631600,
     name: "Eu160~",
     mass: Some(148975.6856551),
     width: None,
@@ -52622,7 +52622,7 @@ let data = [|
     latex: "^{161}\\mathrm{Eu}",
   },
   {
-    pdg: (-1000631610),
+    pdg: -1000631610,
     name: "Eu161~",
     mass: Some(149908.772605),
     width: None,
@@ -52648,7 +52648,7 @@ let data = [|
     latex: "^{162}\\mathrm{Eu}",
   },
   {
-    pdg: (-1000631620),
+    pdg: -1000631620,
     name: "Eu162~",
     mass: Some(150843.3965202),
     width: None,
@@ -52674,7 +52674,7 @@ let data = [|
     latex: "^{163}\\mathrm{Eu}",
   },
   {
-    pdg: (-1000631630),
+    pdg: -1000631630,
     name: "Eu163~",
     mass: Some(151776.9119574),
     width: None,
@@ -52700,7 +52700,7 @@ let data = [|
     latex: "^{164}\\mathrm{Eu}",
   },
   {
-    pdg: (-1000631640),
+    pdg: -1000631640,
     name: "Eu164~",
     mass: Some(152711.9271),
     width: None,
@@ -52726,7 +52726,7 @@ let data = [|
     latex: "^{165}\\mathrm{Eu}",
   },
   {
-    pdg: (-1000631650),
+    pdg: -1000631650,
     name: "Eu165~",
     mass: Some(153645.9641739),
     width: None,
@@ -52752,7 +52752,7 @@ let data = [|
     latex: "^{166}\\mathrm{Eu}",
   },
   {
-    pdg: (-1000631660),
+    pdg: -1000631660,
     name: "Eu166~",
     mass: Some(154581.4171188),
     width: None,
@@ -52778,7 +52778,7 @@ let data = [|
     latex: "^{167}\\mathrm{Eu}",
   },
   {
-    pdg: (-1000631670),
+    pdg: -1000631670,
     name: "Eu167~",
     mass: Some(155515.7802156),
     width: None,
@@ -52804,7 +52804,7 @@ let data = [|
     latex: "^{136}\\mathrm{Gd}",
   },
   {
-    pdg: (-1000641360),
+    pdg: -1000641360,
     name: "Gd136~",
     mass: Some(126633.8929362),
     width: None,
@@ -52830,7 +52830,7 @@ let data = [|
     latex: "^{137}\\mathrm{Gd}",
   },
   {
-    pdg: (-1000641370),
+    pdg: -1000641370,
     name: "Gd137~",
     mass: Some(127563.1328155),
     width: None,
@@ -52856,7 +52856,7 @@ let data = [|
     latex: "^{138}\\mathrm{Gd}",
   },
   {
-    pdg: (-1000641380),
+    pdg: -1000641380,
     name: "Gd138~",
     mass: Some(128490.2675181),
     width: None,
@@ -52882,7 +52882,7 @@ let data = [|
     latex: "^{139}\\mathrm{Gd}",
   },
   {
-    pdg: (-1000641390),
+    pdg: -1000641390,
     name: "Gd139~",
     mass: Some(129420.0010893),
     width: None,
@@ -52908,7 +52908,7 @@ let data = [|
     latex: "^{140}\\mathrm{Gd}",
   },
   {
-    pdg: (-1000641400),
+    pdg: -1000641400,
     name: "Gd140~",
     mass: Some(130347.6481136),
     width: None,
@@ -52934,7 +52934,7 @@ let data = [|
     latex: "^{141}\\mathrm{Gd}",
   },
   {
-    pdg: (-1000641410),
+    pdg: -1000641410,
     name: "Gd141~",
     mass: Some(131277.5214089),
     width: None,
@@ -52960,7 +52960,7 @@ let data = [|
     latex: "^{142}\\mathrm{Gd}",
   },
   {
-    pdg: (-1000641420),
+    pdg: -1000641420,
     name: "Gd142~",
     mass: Some(132205.3081574),
     width: None,
@@ -52986,7 +52986,7 @@ let data = [|
     latex: "^{143}\\mathrm{Gd}",
   },
   {
-    pdg: (-1000641430),
+    pdg: -1000641430,
     name: "Gd143~",
     mass: Some(133135.4143262),
     width: None,
@@ -53012,7 +53012,7 @@ let data = [|
     latex: "^{144}\\mathrm{Gd}",
   },
   {
-    pdg: (-1000641440),
+    pdg: -1000641440,
     name: "Gd144~",
     mass: Some(134063.2290195),
     width: None,
@@ -53038,7 +53038,7 @@ let data = [|
     latex: "^{145}\\mathrm{Gd}",
   },
   {
-    pdg: (-1000641450),
+    pdg: -1000641450,
     name: "Gd145~",
     mass: Some(134993.698471),
     width: None,
@@ -53064,7 +53064,7 @@ let data = [|
     latex: "^{146}\\mathrm{Gd}",
   },
   {
-    pdg: (-1000641460),
+    pdg: -1000641460,
     name: "Gd146~",
     mass: Some(135922.0394585),
     width: None,
@@ -53090,7 +53090,7 @@ let data = [|
     latex: "^{147}\\mathrm{Gd}",
   },
   {
-    pdg: (-1000641470),
+    pdg: -1000641470,
     name: "Gd147~",
     mass: Some(136854.2638448),
     width: None,
@@ -53116,7 +53116,7 @@ let data = [|
     latex: "^{148}\\mathrm{Gd}",
   },
   {
-    pdg: (-1000641480),
+    pdg: -1000641480,
     name: "Gd148~",
     mass: Some(137784.8460071),
     width: None,
@@ -53142,7 +53142,7 @@ let data = [|
     latex: "^{149}\\mathrm{Gd}",
   },
   {
-    pdg: (-1000641490),
+    pdg: -1000641490,
     name: "Gd149~",
     mass: Some(138717.4821139),
     width: None,
@@ -53168,7 +53168,7 @@ let data = [|
     latex: "^{150}\\mathrm{Gd}",
   },
   {
-    pdg: (-1000641500),
+    pdg: -1000641500,
     name: "Gd150~",
     mass: Some(139648.3418614),
     width: None,
@@ -53194,7 +53194,7 @@ let data = [|
     latex: "^{151}\\mathrm{Gd}",
   },
   {
-    pdg: (-1000641510),
+    pdg: -1000641510,
     name: "Gd151~",
     mass: Some(140581.4092499),
     width: None,
@@ -53220,7 +53220,7 @@ let data = [|
     latex: "^{152}\\mathrm{Gd}",
   },
   {
-    pdg: (-1000641520),
+    pdg: -1000641520,
     name: "Gd152~",
     mass: Some(141512.3854342),
     width: None,
@@ -53246,7 +53246,7 @@ let data = [|
     latex: "^{153}\\mathrm{Gd}",
   },
   {
-    pdg: (-1000641530),
+    pdg: -1000641530,
     name: "Gd153~",
     mass: Some(142445.7033946),
     width: None,
@@ -53272,7 +53272,7 @@ let data = [|
     latex: "^{154}\\mathrm{Gd}",
   },
   {
-    pdg: (-1000641540),
+    pdg: -1000641540,
     name: "Gd154~",
     mass: Some(143376.3740488),
     width: None,
@@ -53298,7 +53298,7 @@ let data = [|
     latex: "^{155}\\mathrm{Gd}",
   },
   {
-    pdg: (-1000641550),
+    pdg: -1000641550,
     name: "Gd155~",
     mass: Some(144309.5047789),
     width: None,
@@ -53324,7 +53324,7 @@ let data = [|
     latex: "^{156}\\mathrm{Gd}",
   },
   {
-    pdg: (-1000641560),
+    pdg: -1000641560,
     name: "Gd156~",
     mass: Some(145240.5340583),
     width: None,
@@ -53350,7 +53350,7 @@ let data = [|
     latex: "^{157}\\mathrm{Gd}",
   },
   {
-    pdg: (-1000641570),
+    pdg: -1000641570,
     name: "Gd157~",
     mass: Some(146173.739308),
     width: None,
@@ -53376,7 +53376,7 @@ let data = [|
     latex: "^{158}\\mathrm{Gd}",
   },
   {
-    pdg: (-1000641580),
+    pdg: -1000641580,
     name: "Gd158~",
     mass: Some(147105.3675381),
     width: None,
@@ -53402,7 +53402,7 @@ let data = [|
     latex: "^{159}\\mathrm{Gd}",
   },
   {
-    pdg: (-1000641590),
+    pdg: -1000641590,
     name: "Gd159~",
     mass: Some(148038.9891656),
     width: None,
@@ -53428,7 +53428,7 @@ let data = [|
     latex: "^{160}\\mathrm{Gd}",
   },
   {
-    pdg: (-1000641600),
+    pdg: -1000641600,
     name: "Gd160~",
     mass: Some(148971.1036357),
     width: None,
@@ -53454,7 +53454,7 @@ let data = [|
     latex: "^{161}\\mathrm{Gd}",
   },
   {
-    pdg: (-1000641610),
+    pdg: -1000641610,
     name: "Gd161~",
     mass: Some(149905.0335877),
     width: None,
@@ -53480,7 +53480,7 @@ let data = [|
     latex: "^{162}\\mathrm{Gd}",
   },
   {
-    pdg: (-1000641620),
+    pdg: -1000641620,
     name: "Gd162~",
     mass: Some(150837.7525975),
     width: None,
@@ -53506,7 +53506,7 @@ let data = [|
     latex: "^{163}\\mathrm{Gd}",
   },
   {
-    pdg: (-1000641630),
+    pdg: -1000641630,
     name: "Gd163~",
     mass: Some(151772.0495582),
     width: None,
@@ -53532,7 +53532,7 @@ let data = [|
     latex: "^{164}\\mathrm{Gd}",
   },
   {
-    pdg: (-1000641640),
+    pdg: -1000641640,
     name: "Gd164~",
     mass: Some(152705.2855471),
     width: None,
@@ -53558,7 +53558,7 @@ let data = [|
     latex: "^{165}\\mathrm{Gd}",
   },
   {
-    pdg: (-1000641650),
+    pdg: -1000641650,
     name: "Gd165~",
     mass: Some(153640.0585013),
     width: None,
@@ -53584,7 +53584,7 @@ let data = [|
     latex: "^{166}\\mathrm{Gd}",
   },
   {
-    pdg: (-1000641660),
+    pdg: -1000641660,
     name: "Gd166~",
     mass: Some(154573.6205132),
     width: None,
@@ -53610,7 +53610,7 @@ let data = [|
     latex: "^{167}\\mathrm{Gd}",
   },
   {
-    pdg: (-1000641670),
+    pdg: -1000641670,
     name: "Gd167~",
     mass: Some(155508.8126398),
     width: None,
@@ -53636,7 +53636,7 @@ let data = [|
     latex: "^{168}\\mathrm{Gd}",
   },
   {
-    pdg: (-1000641680),
+    pdg: -1000641680,
     name: "Gd168~",
     mass: Some(156442.9056033),
     width: None,
@@ -53662,7 +53662,7 @@ let data = [|
     latex: "^{169}\\mathrm{Gd}",
   },
   {
-    pdg: (-1000641690),
+    pdg: -1000641690,
     name: "Gd169~",
     mass: Some(157378.6007366),
     width: None,
@@ -53688,7 +53688,7 @@ let data = [|
     latex: "^{138}\\mathrm{Tb}",
   },
   {
-    pdg: (-1000651380),
+    pdg: -1000651380,
     name: "Tb138~",
     mass: Some(128502.2837919),
     width: None,
@@ -53714,7 +53714,7 @@ let data = [|
     latex: "^{139}\\mathrm{Tb}",
   },
   {
-    pdg: (-1000651390),
+    pdg: -1000651390,
     name: "Tb139~",
     mass: Some(129429.2694555),
     width: None,
@@ -53740,7 +53740,7 @@ let data = [|
     latex: "^{140}\\mathrm{Tb}",
   },
   {
-    pdg: (-1000651400),
+    pdg: -1000651400,
     name: "Tb140~",
     mass: Some(130358.4441302),
     width: None,
@@ -53766,7 +53766,7 @@ let data = [|
     latex: "^{141}\\mathrm{Tb}",
   },
   {
-    pdg: (-1000651410),
+    pdg: -1000651410,
     name: "Tb141~",
     mass: Some(131285.8582811),
     width: None,
@@ -53792,7 +53792,7 @@ let data = [|
     latex: "^{142}\\mathrm{Tb}",
   },
   {
-    pdg: (-1000651420),
+    pdg: -1000651420,
     name: "Tb142~",
     mass: Some(132215.2099396),
     width: None,
@@ -53818,7 +53818,7 @@ let data = [|
     latex: "^{143}\\mathrm{Tb}",
   },
   {
-    pdg: (-1000651430),
+    pdg: -1000651430,
     name: "Tb143~",
     mass: Some(133142.8755939),
     width: None,
@@ -53844,7 +53844,7 @@ let data = [|
     latex: "^{144}\\mathrm{Tb}",
   },
   {
-    pdg: (-1000651440),
+    pdg: -1000651440,
     name: "Tb144~",
     mass: Some(134072.301772),
     width: None,
@@ -53870,7 +53870,7 @@ let data = [|
     latex: "^{145}\\mathrm{Tb}",
   },
   {
-    pdg: (-1000651450),
+    pdg: -1000651450,
     name: "Tb145~",
     mass: Some(135000.3959135),
     width: None,
@@ -53896,7 +53896,7 @@ let data = [|
     latex: "^{146}\\mathrm{Tb}",
   },
   {
-    pdg: (-1000651460),
+    pdg: -1000651460,
     name: "Tb146~",
     mass: Some(135930.3064686),
     width: None,
@@ -53922,7 +53922,7 @@ let data = [|
     latex: "^{147}\\mathrm{Tb}",
   },
   {
-    pdg: (-1000651470),
+    pdg: -1000651470,
     name: "Tb147~",
     mass: Some(136858.8728776),
     width: None,
@@ -53948,7 +53948,7 @@ let data = [|
     latex: "^{148}\\mathrm{Tb}",
   },
   {
-    pdg: (-1000651480),
+    pdg: -1000651480,
     name: "Tb148~",
     mass: Some(137790.6119556),
     width: None,
@@ -53974,7 +53974,7 @@ let data = [|
     latex: "^{149}\\mathrm{Tb}",
   },
   {
-    pdg: (-1000651490),
+    pdg: -1000651490,
     name: "Tb149~",
     mass: Some(138721.1205298),
     width: None,
@@ -54000,7 +54000,7 @@ let data = [|
     latex: "^{150}\\mathrm{Tb}",
   },
   {
-    pdg: (-1000651500),
+    pdg: -1000651500,
     name: "Tb150~",
     mass: Some(139652.9984003),
     width: None,
@@ -54026,7 +54026,7 @@ let data = [|
     latex: "^{151}\\mathrm{Tb}",
   },
   {
-    pdg: (-1000651510),
+    pdg: -1000651510,
     name: "Tb151~",
     mass: Some(140583.9745846),
     width: None,
@@ -54052,7 +54052,7 @@ let data = [|
     latex: "^{152}\\mathrm{Tb}",
   },
   {
-    pdg: (-1000651520),
+    pdg: -1000651520,
     name: "Tb152~",
     mass: Some(141516.3740919),
     width: None,
@@ -54078,7 +54078,7 @@ let data = [|
     latex: "^{153}\\mathrm{Tb}",
   },
   {
-    pdg: (-1000651530),
+    pdg: -1000651530,
     name: "Tb153~",
     mass: Some(142447.2729621),
     width: None,
@@ -54104,7 +54104,7 @@ let data = [|
     latex: "^{154}\\mathrm{Tb}",
   },
   {
-    pdg: (-1000651540),
+    pdg: -1000651540,
     name: "Tb154~",
     mass: Some(143379.9398082),
     width: None,
@@ -54130,7 +54130,7 @@ let data = [|
     latex: "^{155}\\mathrm{Tb}",
   },
   {
-    pdg: (-1000651550),
+    pdg: -1000651550,
     name: "Tb155~",
     mass: Some(144310.3254252),
     width: None,
@@ -54156,7 +54156,7 @@ let data = [|
     latex: "^{156}\\mathrm{Tb}",
   },
   {
-    pdg: (-1000651560),
+    pdg: -1000651560,
     name: "Tb156~",
     mass: Some(145242.9782989),
     width: None,
@@ -54182,7 +54182,7 @@ let data = [|
     latex: "^{157}\\mathrm{Tb}",
   },
   {
-    pdg: (-1000651570),
+    pdg: -1000651570,
     name: "Tb157~",
     mass: Some(146173.7989236),
     width: None,
@@ -54208,7 +54208,7 @@ let data = [|
     latex: "^{158}\\mathrm{Tb}",
   },
   {
-    pdg: (-1000651580),
+    pdg: -1000651580,
     name: "Tb158~",
     mass: Some(147106.5868639),
     width: None,
@@ -54234,7 +54234,7 @@ let data = [|
     latex: "^{159}\\mathrm{Tb}",
   },
   {
-    pdg: (-1000651590),
+    pdg: -1000651590,
     name: "Tb159~",
     mass: Some(148038.0185488),
     width: None,
@@ -54260,7 +54260,7 @@ let data = [|
     latex: "^{160}\\mathrm{Tb}",
   },
   {
-    pdg: (-1000651600),
+    pdg: -1000651600,
     name: "Tb160~",
     mass: Some(148971.2088945),
     width: None,
@@ -54286,7 +54286,7 @@ let data = [|
     latex: "^{161}\\mathrm{Tb}",
   },
   {
-    pdg: (-1000651610),
+    pdg: -1000651610,
     name: "Tb161~",
     mass: Some(149903.0774501),
     width: None,
@@ -54312,7 +54312,7 @@ let data = [|
     latex: "^{162}\\mathrm{Tb}",
   },
   {
-    pdg: (-1000651620),
+    pdg: -1000651620,
     name: "Tb162~",
     mass: Some(150836.3544248),
     width: None,
@@ -54338,7 +54338,7 @@ let data = [|
     latex: "^{163}\\mathrm{Tb}",
   },
   {
-    pdg: (-1000651630),
+    pdg: -1000651630,
     name: "Tb163~",
     mass: Some(151768.9327789),
     width: None,
@@ -54364,7 +54364,7 @@ let data = [|
     latex: "^{164}\\mathrm{Tb}",
   },
   {
-    pdg: (-1000651640),
+    pdg: -1000651640,
     name: "Tb164~",
     mass: Some(152702.947497),
     width: None,
@@ -54390,7 +54390,7 @@ let data = [|
     latex: "^{165}\\mathrm{Tb}",
   },
   {
-    pdg: (-1000651650),
+    pdg: -1000651650,
     name: "Tb165~",
     mass: Some(153635.8667779),
     width: None,
@@ -54416,7 +54416,7 @@ let data = [|
     latex: "^{166}\\mathrm{Tb}",
   },
   {
-    pdg: (-1000651660),
+    pdg: -1000651660,
     name: "Tb166~",
     mass: Some(154570.3137092),
     width: None,
@@ -54442,7 +54442,7 @@ let data = [|
     latex: "^{167}\\mathrm{Tb}",
   },
   {
-    pdg: (-1000651670),
+    pdg: -1000651670,
     name: "Tb167~",
     mass: Some(155503.6707924),
     width: None,
@@ -54468,7 +54468,7 @@ let data = [|
     latex: "^{168}\\mathrm{Tb}",
   },
   {
-    pdg: (-1000651680),
+    pdg: -1000651680,
     name: "Tb168~",
     mass: Some(156438.5089512),
     width: None,
@@ -54494,7 +54494,7 @@ let data = [|
     latex: "^{169}\\mathrm{Tb}",
   },
   {
-    pdg: (-1000651690),
+    pdg: -1000651690,
     name: "Tb169~",
     mass: Some(157372.4063009),
     width: None,
@@ -54520,7 +54520,7 @@ let data = [|
     latex: "^{170}\\mathrm{Tb}",
   },
   {
-    pdg: (-1000651700),
+    pdg: -1000651700,
     name: "Tb170~",
     mass: Some(158307.6543171),
     width: None,
@@ -54546,7 +54546,7 @@ let data = [|
     latex: "^{171}\\mathrm{Tb}",
   },
   {
-    pdg: (-1000651710),
+    pdg: -1000651710,
     name: "Tb171~",
     mass: Some(159241.9894691),
     width: None,
@@ -54572,7 +54572,7 @@ let data = [|
     latex: "^{140}\\mathrm{Dy}",
   },
   {
-    pdg: (-1000661400),
+    pdg: -1000661400,
     name: "Dy140~",
     mass: Some(130366.1289565),
     width: None,
@@ -54598,7 +54598,7 @@ let data = [|
     latex: "^{141}\\mathrm{Dy}",
   },
   {
-    pdg: (-1000661410),
+    pdg: -1000661410,
     name: "Dy141~",
     mass: Some(131295.2011668),
     width: None,
@@ -54624,7 +54624,7 @@ let data = [|
     latex: "^{142}\\mathrm{Dy}",
   },
   {
-    pdg: (-1000661420),
+    pdg: -1000661420,
     name: "Dy142~",
     mass: Some(132222.1123109),
     width: None,
@@ -54650,7 +54650,7 @@ let data = [|
     latex: "^{143}\\mathrm{Dy}",
   },
   {
-    pdg: (-1000661430),
+    pdg: -1000661430,
     name: "Dy143~",
     mass: Some(133151.3335603),
     width: None,
@@ -54676,7 +54676,7 @@ let data = [|
     latex: "^{144}\\mathrm{Dy}",
   },
   {
-    pdg: (-1000661440),
+    pdg: -1000661440,
     name: "Dy144~",
     mass: Some(134078.3937434),
     width: None,
@@ -54702,7 +54702,7 @@ let data = [|
     latex: "^{145}\\mathrm{Dy}",
   },
   {
-    pdg: (-1000661450),
+    pdg: -1000661450,
     name: "Dy145~",
     mass: Some(135007.9130709),
     width: None,
@@ -54728,7 +54728,7 @@ let data = [|
     latex: "^{146}\\mathrm{Dy}",
   },
   {
-    pdg: (-1000661460),
+    pdg: -1000661460,
     name: "Dy146~",
     mass: Some(135935.4669459),
     width: None,
@@ -54754,7 +54754,7 @@ let data = [|
     latex: "^{147}\\mathrm{Dy}",
   },
   {
-    pdg: (-1000661470),
+    pdg: -1000661470,
     name: "Dy147~",
     mass: Some(136865.2470917),
     width: None,
@@ -54780,7 +54780,7 @@ let data = [|
     latex: "^{148}\\mathrm{Dy}",
   },
   {
-    pdg: (-1000661480),
+    pdg: -1000661480,
     name: "Dy148~",
     mass: Some(137793.2946585),
     width: None,
@@ -54806,7 +54806,7 @@ let data = [|
     latex: "^{149}\\mathrm{Dy}",
   },
   {
-    pdg: (-1000661490),
+    pdg: -1000661490,
     name: "Dy149~",
     mass: Some(138724.9322036),
     width: None,
@@ -54832,7 +54832,7 @@ let data = [|
     latex: "^{150}\\mathrm{Dy}",
   },
   {
-    pdg: (-1000661500),
+    pdg: -1000661500,
     name: "Dy150~",
     mass: Some(139654.792458),
     width: None,
@@ -54858,7 +54858,7 @@ let data = [|
     latex: "^{151}\\mathrm{Dy}",
   },
   {
-    pdg: (-1000661510),
+    pdg: -1000661510,
     name: "Dy151~",
     mass: Some(140586.8454494),
     width: None,
@@ -54884,7 +54884,7 @@ let data = [|
     latex: "^{152}\\mathrm{Dy}",
   },
   {
-    pdg: (-1000661520),
+    pdg: -1000661520,
     name: "Dy152~",
     mass: Some(141516.9739741),
     width: None,
@@ -54910,7 +54910,7 @@ let data = [|
     latex: "^{153}\\mathrm{Dy}",
   },
   {
-    pdg: (-1000661530),
+    pdg: -1000661530,
     name: "Dy153~",
     mass: Some(142449.4433434),
     width: None,
@@ -54936,7 +54936,7 @@ let data = [|
     latex: "^{154}\\mathrm{Dy}",
   },
   {
-    pdg: (-1000661540),
+    pdg: -1000661540,
     name: "Dy154~",
     mass: Some(143379.6901678),
     width: None,
@@ -54962,7 +54962,7 @@ let data = [|
     latex: "^{155}\\mathrm{Dy}",
   },
   {
-    pdg: (-1000661550),
+    pdg: -1000661550,
     name: "Dy155~",
     mass: Some(144312.4203554),
     width: None,
@@ -54988,7 +54988,7 @@ let data = [|
     latex: "^{156}\\mathrm{Dy}",
   },
   {
-    pdg: (-1000661560),
+    pdg: -1000661560,
     name: "Dy156~",
     mass: Some(145242.5442226),
     width: None,
@@ -55014,7 +55014,7 @@ let data = [|
     latex: "^{157}\\mathrm{Dy}",
   },
   {
-    pdg: (-1000661570),
+    pdg: -1000661570,
     name: "Dy157~",
     mass: Some(146175.1402751),
     width: None,
@@ -55040,7 +55040,7 @@ let data = [|
     latex: "^{158}\\mathrm{Dy}",
   },
   {
-    pdg: (-1000661580),
+    pdg: -1000661580,
     name: "Dy158~",
     mass: Some(147105.6507123),
     width: None,
@@ -55066,7 +55066,7 @@ let data = [|
     latex: "^{159}\\mathrm{Dy}",
   },
   {
-    pdg: (-1000661590),
+    pdg: -1000661590,
     name: "Dy159~",
     mass: Some(148038.384626),
     width: None,
@@ -55092,7 +55092,7 @@ let data = [|
     latex: "^{160}\\mathrm{Dy}",
   },
   {
-    pdg: (-1000661600),
+    pdg: -1000661600,
     name: "Dy160~",
     mass: Some(148969.3738512),
     width: None,
@@ -55118,7 +55118,7 @@ let data = [|
     latex: "^{161}\\mathrm{Dy}",
   },
   {
-    pdg: (-1000661610),
+    pdg: -1000661610,
     name: "Dy161~",
     mass: Some(149902.4850199),
     width: None,
@@ -55144,7 +55144,7 @@ let data = [|
     latex: "^{162}\\mathrm{Dy}",
   },
   {
-    pdg: (-1000661620),
+    pdg: -1000661620,
     name: "Dy162~",
     mass: Some(150833.8533632),
     width: None,
@@ -55170,7 +55170,7 @@ let data = [|
     latex: "^{163}\\mathrm{Dy}",
   },
   {
-    pdg: (-1000661630),
+    pdg: -1000661630,
     name: "Dy163~",
     mass: Some(151767.1480363),
     width: None,
@@ -55196,7 +55196,7 @@ let data = [|
     latex: "^{164}\\mathrm{Dy}",
   },
   {
-    pdg: (-1000661640),
+    pdg: -1000661640,
     name: "Dy164~",
     mass: Some(152699.0547831),
     width: None,
@@ -55222,7 +55222,7 @@ let data = [|
     latex: "^{165}\\mathrm{Dy}",
   },
   {
-    pdg: (-1000661650),
+    pdg: -1000661650,
     name: "Dy165~",
     mass: Some(153632.9046267),
     width: None,
@@ -55248,7 +55248,7 @@ let data = [|
     latex: "^{166}\\mathrm{Dy}",
   },
   {
-    pdg: (-1000661660),
+    pdg: -1000661660,
     name: "Dy166~",
     mass: Some(154565.4261597),
     width: None,
@@ -55274,7 +55274,7 @@ let data = [|
     latex: "^{167}\\mathrm{Dy}",
   },
   {
-    pdg: (-1000661670),
+    pdg: -1000661670,
     name: "Dy167~",
     mass: Some(155499.5722183),
     width: None,
@@ -55300,7 +55300,7 @@ let data = [|
     latex: "^{168}\\mathrm{Dy}",
   },
   {
-    pdg: (-1000661680),
+    pdg: -1000661680,
     name: "Dy168~",
     mass: Some(156432.538074),
     width: None,
@@ -55326,7 +55326,7 @@ let data = [|
     latex: "^{169}\\mathrm{Dy}",
   },
   {
-    pdg: (-1000661690),
+    pdg: -1000661690,
     name: "Dy169~",
     mass: Some(157366.8918559),
     width: None,
@@ -55352,7 +55352,7 @@ let data = [|
     latex: "^{170}\\mathrm{Dy}",
   },
   {
-    pdg: (-1000661700),
+    pdg: -1000661700,
     name: "Dy170~",
     mass: Some(158300.5935919),
     width: None,
@@ -55378,7 +55378,7 @@ let data = [|
     latex: "^{171}\\mathrm{Dy}",
   },
   {
-    pdg: (-1000661710),
+    pdg: -1000661710,
     name: "Dy171~",
     mass: Some(159235.6366794),
     width: None,
@@ -55404,7 +55404,7 @@ let data = [|
     latex: "^{172}\\mathrm{Dy}",
   },
   {
-    pdg: (-1000661720),
+    pdg: -1000661720,
     name: "Dy172~",
     mass: Some(160169.5806038),
     width: None,
@@ -55430,7 +55430,7 @@ let data = [|
     latex: "^{173}\\mathrm{Dy}",
   },
   {
-    pdg: (-1000661730),
+    pdg: -1000661730,
     name: "Dy173~",
     mass: Some(161105.1080682),
     width: None,
@@ -55456,7 +55456,7 @@ let data = [|
     latex: "^{142}\\mathrm{Ho}",
   },
   {
-    pdg: (-1000671420),
+    pdg: -1000671420,
     name: "Ho142~",
     mass: Some(132234.7713156),
     width: None,
@@ -55482,7 +55482,7 @@ let data = [|
     latex: "^{143}\\mathrm{Ho}",
   },
   {
-    pdg: (-1000671430),
+    pdg: -1000671430,
     name: "Ho143~",
     mass: Some(133161.4495861),
     width: None,
@@ -55508,7 +55508,7 @@ let data = [|
     latex: "^{144}\\mathrm{Ho}",
   },
   {
-    pdg: (-1000671440),
+    pdg: -1000671440,
     name: "Ho144~",
     mass: Some(134090.1026241),
     width: None,
@@ -55534,7 +55534,7 @@ let data = [|
     latex: "^{145}\\mathrm{Ho}",
   },
   {
-    pdg: (-1000671450),
+    pdg: -1000671450,
     name: "Ho145~",
     mass: Some(135017.1628072),
     width: None,
@@ -55560,7 +55560,7 @@ let data = [|
     latex: "^{146}\\mathrm{Ho}",
   },
   {
-    pdg: (-1000671460),
+    pdg: -1000671460,
     name: "Ho146~",
     mass: Some(135946.0673487),
     width: None,
@@ -55586,7 +55586,7 @@ let data = [|
     latex: "^{147}\\mathrm{Ho}",
   },
   {
-    pdg: (-1000671470),
+    pdg: -1000671470,
     name: "Ho147~",
     mass: Some(136873.5932788),
     width: None,
@@ -55612,7 +55612,7 @@ let data = [|
     latex: "^{148}\\mathrm{Ho}",
   },
   {
-    pdg: (-1000671480),
+    pdg: -1000671480,
     name: "Ho148~",
     mass: Some(137802.693434),
     width: None,
@@ -55638,7 +55638,7 @@ let data = [|
     latex: "^{149}\\mathrm{Ho}",
   },
   {
-    pdg: (-1000671490),
+    pdg: -1000671490,
     name: "Ho149~",
     mass: Some(138730.9459295),
     width: None,
@@ -55664,7 +55664,7 @@ let data = [|
     latex: "^{150}\\mathrm{Ho}",
   },
   {
-    pdg: (-1000671500),
+    pdg: -1000671500,
     name: "Ho150~",
     mass: Some(139662.0301671),
     width: None,
@@ -55690,7 +55690,7 @@ let data = [|
     latex: "^{151}\\mathrm{Ho}",
   },
   {
-    pdg: (-1000671510),
+    pdg: -1000671510,
     name: "Ho151~",
     mass: Some(140591.9695984),
     width: None,
@@ -55716,7 +55716,7 @@ let data = [|
     latex: "^{152}\\mathrm{Ho}",
   },
   {
-    pdg: (-1000671520),
+    pdg: -1000671520,
     name: "Ho152~",
     mass: Some(141523.5186516),
     width: None,
@@ -55742,7 +55742,7 @@ let data = [|
     latex: "^{153}\\mathrm{Ho}",
   },
   {
-    pdg: (-1000671530),
+    pdg: -1000671530,
     name: "Ho153~",
     mass: Some(142453.5735882),
     width: None,
@@ -55768,7 +55768,7 @@ let data = [|
     latex: "^{154}\\mathrm{Ho}",
   },
   {
-    pdg: (-1000671540),
+    pdg: -1000671540,
     name: "Ho154~",
     mass: Some(143385.4412123),
     width: None,
@@ -55794,7 +55794,7 @@ let data = [|
     latex: "^{155}\\mathrm{Ho}",
   },
   {
-    pdg: (-1000671550),
+    pdg: -1000671550,
     name: "Ho155~",
     mass: Some(144315.5222308),
     width: None,
@@ -55820,7 +55820,7 @@ let data = [|
     latex: "^{156}\\mathrm{Ho}",
   },
   {
-    pdg: (-1000671560),
+    pdg: -1000671560,
     name: "Ho156~",
     mass: Some(145247.6040985),
     width: None,
@@ -55846,7 +55846,7 @@ let data = [|
     latex: "^{157}\\mathrm{Ho}",
   },
   {
-    pdg: (-1000671570),
+    pdg: -1000671570,
     name: "Ho157~",
     mass: Some(146177.6823225),
     width: None,
@@ -55872,7 +55872,7 @@ let data = [|
     latex: "^{158}\\mathrm{Ho}",
   },
   {
-    pdg: (-1000671580),
+    pdg: -1000671580,
     name: "Ho158~",
     mass: Some(147109.884353),
     width: None,
@@ -55898,7 +55898,7 @@ let data = [|
     latex: "^{159}\\mathrm{Ho}",
   },
   {
-    pdg: (-1000671590),
+    pdg: -1000671590,
     name: "Ho159~",
     mass: Some(148040.2224638),
     width: None,
@@ -55924,7 +55924,7 @@ let data = [|
     latex: "^{160}\\mathrm{Ho}",
   },
   {
-    pdg: (-1000671600),
+    pdg: -1000671600,
     name: "Ho160~",
     mass: Some(148972.6638883),
     width: None,
@@ -55950,7 +55950,7 @@ let data = [|
     latex: "^{161}\\mathrm{Ho}",
   },
   {
-    pdg: (-1000671610),
+    pdg: -1000671610,
     name: "Ho161~",
     mass: Some(149903.3438574),
     width: None,
@@ -55976,7 +55976,7 @@ let data = [|
     latex: "^{162}\\mathrm{Ho}",
   },
   {
-    pdg: (-1000671620),
+    pdg: -1000671620,
     name: "Ho162~",
     mass: Some(150835.9930051),
     width: None,
@@ -56002,7 +56002,7 @@ let data = [|
     latex: "^{163}\\mathrm{Ho}",
   },
   {
-    pdg: (-1000671630),
+    pdg: -1000671630,
     name: "Ho163~",
     mass: Some(151767.1498992),
     width: None,
@@ -56028,7 +56028,7 @@ let data = [|
     latex: "^{164}\\mathrm{Ho}",
   },
   {
-    pdg: (-1000671640),
+    pdg: -1000671640,
     name: "Ho164~",
     mass: Some(152700.0421669),
     width: None,
@@ -56054,7 +56054,7 @@ let data = [|
     latex: "^{165}\\mathrm{Ho}",
   },
   {
-    pdg: (-1000671650),
+    pdg: -1000671650,
     name: "Ho165~",
     mass: Some(153631.6182333),
     width: None,
@@ -56080,7 +56080,7 @@ let data = [|
     latex: "^{166}\\mathrm{Ho}",
   },
   {
-    pdg: (-1000671660),
+    pdg: -1000671660,
     name: "Ho166~",
     mass: Some(154564.9399197),
     width: None,
@@ -56106,7 +56106,7 @@ let data = [|
     latex: "^{167}\\mathrm{Ho}",
   },
   {
-    pdg: (-1000671670),
+    pdg: -1000671670,
     name: "Ho167~",
     mass: Some(155497.2211272),
     width: None,
@@ -56132,7 +56132,7 @@ let data = [|
     latex: "^{168}\\mathrm{Ho}",
   },
   {
-    pdg: (-1000671680),
+    pdg: -1000671680,
     name: "Ho168~",
     mass: Some(156430.9265892),
     width: None,
@@ -56158,7 +56158,7 @@ let data = [|
     latex: "^{169}\\mathrm{Ho}",
   },
   {
-    pdg: (-1000671690),
+    pdg: -1000671690,
     name: "Ho169~",
     mass: Some(157363.6949681),
     width: None,
@@ -56184,7 +56184,7 @@ let data = [|
     latex: "^{170}\\mathrm{Ho}",
   },
   {
-    pdg: (-1000671700),
+    pdg: -1000671700,
     name: "Ho170~",
     mass: Some(158297.7432199),
     width: None,
@@ -56210,7 +56210,7 @@ let data = [|
     latex: "^{171}\\mathrm{Ho}",
   },
   {
-    pdg: (-1000671710),
+    pdg: -1000671710,
     name: "Ho171~",
     mass: Some(159230.960579),
     width: None,
@@ -56236,7 +56236,7 @@ let data = [|
     latex: "^{172}\\mathrm{Ho}",
   },
   {
-    pdg: (-1000671720),
+    pdg: -1000671720,
     name: "Ho172~",
     mass: Some(160165.5844941),
     width: None,
@@ -56262,7 +56262,7 @@ let data = [|
     latex: "^{173}\\mathrm{Ho}",
   },
   {
-    pdg: (-1000671730),
+    pdg: -1000671730,
     name: "Ho173~",
     mass: Some(161099.3793795),
     width: None,
@@ -56288,7 +56288,7 @@ let data = [|
     latex: "^{174}\\mathrm{Ho}",
   },
   {
-    pdg: (-1000671740),
+    pdg: -1000671740,
     name: "Ho174~",
     mass: Some(162034.4690417),
     width: None,
@@ -56314,7 +56314,7 @@ let data = [|
     latex: "^{175}\\mathrm{Ho}",
   },
   {
-    pdg: (-1000671750),
+    pdg: -1000671750,
     name: "Ho175~",
     mass: Some(162968.6644696),
     width: None,
@@ -56340,7 +56340,7 @@ let data = [|
     latex: "^{144}\\mathrm{Er}",
   },
   {
-    pdg: (-1000681440),
+    pdg: -1000681440,
     name: "Er144~",
     mass: Some(134098.4394963),
     width: None,
@@ -56366,7 +56366,7 @@ let data = [|
     latex: "^{145}\\mathrm{Er}",
   },
   {
-    pdg: (-1000681450),
+    pdg: -1000681450,
     name: "Er145~",
     mass: Some(135027.0180148),
     width: None,
@@ -56392,7 +56392,7 @@ let data = [|
     latex: "^{146}\\mathrm{Er}",
   },
   {
-    pdg: (-1000681460),
+    pdg: -1000681460,
     name: "Er146~",
     mass: Some(135953.5379313),
     width: None,
@@ -56418,7 +56418,7 @@ let data = [|
     latex: "^{147}\\mathrm{Er}",
   },
   {
-    pdg: (-1000681470),
+    pdg: -1000681470,
     name: "Er147~",
     mass: Some(136882.4145279),
     width: None,
@@ -56444,7 +56444,7 @@ let data = [|
     latex: "^{148}\\mathrm{Er}",
   },
   {
-    pdg: (-1000681480),
+    pdg: -1000681480,
     name: "Er148~",
     mass: Some(137809.3722466),
     width: None,
@@ -56470,7 +56470,7 @@ let data = [|
     latex: "^{149}\\mathrm{Er}",
   },
   {
-    pdg: (-1000681490),
+    pdg: -1000681490,
     name: "Er149~",
     mass: Some(138738.75185),
     width: None,
@@ -56496,7 +56496,7 @@ let data = [|
     latex: "^{150}\\mathrm{Er}",
   },
   {
-    pdg: (-1000681500),
+    pdg: -1000681500,
     name: "Er150~",
     mass: Some(139666.138056),
     width: None,
@@ -56522,7 +56522,7 @@ let data = [|
     latex: "^{151}\\mathrm{Er}",
   },
   {
-    pdg: (-1000681510),
+    pdg: -1000681510,
     name: "Er151~",
     mass: Some(140597.3527028),
     width: None,
@@ -56548,7 +56548,7 @@ let data = [|
     latex: "^{152}\\mathrm{Er}",
   },
   {
-    pdg: (-1000681520),
+    pdg: -1000681520,
     name: "Er152~",
     mass: Some(141526.6298419),
     width: None,
@@ -56574,7 +56574,7 @@ let data = [|
     latex: "^{153}\\mathrm{Er}",
   },
   {
-    pdg: (-1000681530),
+    pdg: -1000681530,
     name: "Er153~",
     mass: Some(142458.1360463),
     width: None,
@@ -56600,7 +56600,7 @@ let data = [|
     latex: "^{154}\\mathrm{Er}",
   },
   {
-    pdg: (-1000681540),
+    pdg: -1000681540,
     name: "Er154~",
     mass: Some(143387.4728009),
     width: None,
@@ -56626,7 +56626,7 @@ let data = [|
     latex: "^{155}\\mathrm{Er}",
   },
   {
-    pdg: (-1000681550),
+    pdg: -1000681550,
     name: "Er155~",
     mass: Some(144319.3609179),
     width: None,
@@ -56652,7 +56652,7 @@ let data = [|
     latex: "^{156}\\mathrm{Er}",
   },
   {
-    pdg: (-1000681560),
+    pdg: -1000681560,
     name: "Er156~",
     mass: Some(145248.8243558),
     width: None,
@@ -56678,7 +56678,7 @@ let data = [|
     latex: "^{157}\\mathrm{Er}",
   },
   {
-    pdg: (-1000681570),
+    pdg: -1000681570,
     name: "Er157~",
     mass: Some(146181.1847403),
     width: None,
@@ -56704,7 +56704,7 @@ let data = [|
     latex: "^{158}\\mathrm{Er}",
   },
   {
-    pdg: (-1000681580),
+    pdg: -1000681580,
     name: "Er158~",
     mass: Some(147110.7785873),
     width: None,
@@ -56730,7 +56730,7 @@ let data = [|
     latex: "^{159}\\mathrm{Er}",
   },
   {
-    pdg: (-1000681590),
+    pdg: -1000681590,
     name: "Er159~",
     mass: Some(148042.9908643),
     width: None,
@@ -56756,7 +56756,7 @@ let data = [|
     latex: "^{160}\\mathrm{Er}",
   },
   {
-    pdg: (-1000681600),
+    pdg: -1000681600,
     name: "Er160~",
     mass: Some(148972.9936372),
     width: None,
@@ -56782,7 +56782,7 @@ let data = [|
     latex: "^{161}\\mathrm{Er}",
   },
   {
-    pdg: (-1000681610),
+    pdg: -1000681610,
     name: "Er161~",
     mass: Some(149905.3456383),
     width: None,
@@ -56808,7 +56808,7 @@ let data = [|
     latex: "^{162}\\mathrm{Er}",
   },
   {
-    pdg: (-1000681620),
+    pdg: -1000681620,
     name: "Er162~",
     mass: Some(150835.6977215),
     width: None,
@@ -56834,7 +56834,7 @@ let data = [|
     latex: "^{163}\\mathrm{Er}",
   },
   {
-    pdg: (-1000681630),
+    pdg: -1000681630,
     name: "Er163~",
     mass: Some(151768.3599101),
     width: None,
@@ -56860,7 +56860,7 @@ let data = [|
     latex: "^{164}\\mathrm{Er}",
   },
   {
-    pdg: (-1000681640),
+    pdg: -1000681640,
     name: "Er164~",
     mass: Some(152699.079002),
     width: None,
@@ -56886,7 +56886,7 @@ let data = [|
     latex: "^{165}\\mathrm{Er}",
   },
   {
-    pdg: (-1000681650),
+    pdg: -1000681650,
     name: "Er165~",
     mass: Some(153631.994557),
     width: None,
@@ -56912,7 +56912,7 @@ let data = [|
     latex: "^{166}\\mathrm{Er}",
   },
   {
-    pdg: (-1000681660),
+    pdg: -1000681660,
     name: "Er166~",
     mass: Some(154563.085315),
     width: None,
@@ -56938,7 +56938,7 @@ let data = [|
     latex: "^{167}\\mathrm{Er}",
   },
   {
-    pdg: (-1000681670),
+    pdg: -1000681670,
     name: "Er167~",
     mass: Some(155496.2141821),
     width: None,
@@ -56964,7 +56964,7 @@ let data = [|
     latex: "^{168}\\mathrm{Er}",
   },
   {
-    pdg: (-1000681680),
+    pdg: -1000681680,
     name: "Er168~",
     mass: Some(156428.0091497),
     width: None,
@@ -56990,7 +56990,7 @@ let data = [|
     latex: "^{169}\\mathrm{Er}",
   },
   {
-    pdg: (-1000681690),
+    pdg: -1000681690,
     name: "Er169~",
     mass: Some(157361.5711616),
     width: None,
@@ -57016,7 +57016,7 @@ let data = [|
     latex: "^{170}\\mathrm{Er}",
   },
   {
-    pdg: (-1000681700),
+    pdg: -1000681700,
     name: "Er170~",
     mass: Some(158293.8775194),
     width: None,
@@ -57042,7 +57042,7 @@ let data = [|
     latex: "^{171}\\mathrm{Er}",
   },
   {
-    pdg: (-1000681710),
+    pdg: -1000681710,
     name: "Er171~",
     mass: Some(159227.7618283),
     width: None,
@@ -57068,7 +57068,7 @@ let data = [|
     latex: "^{172}\\mathrm{Er}",
   },
   {
-    pdg: (-1000681720),
+    pdg: -1000681720,
     name: "Er172~",
     mass: Some(160160.4910844),
     width: None,
@@ -57094,7 +57094,7 @@ let data = [|
     latex: "^{173}\\mathrm{Er}",
   },
   {
-    pdg: (-1000681730),
+    pdg: -1000681730,
     name: "Er173~",
     mass: Some(161094.8243734),
     width: None,
@@ -57120,7 +57120,7 @@ let data = [|
     latex: "^{174}\\mathrm{Er}",
   },
   {
-    pdg: (-1000681740),
+    pdg: -1000681740,
     name: "Er174~",
     mass: Some(162028.125567),
     width: None,
@@ -57146,7 +57146,7 @@ let data = [|
     latex: "^{175}\\mathrm{Er}",
   },
   {
-    pdg: (-1000681750),
+    pdg: -1000681750,
     name: "Er175~",
     mass: Some(162962.9637257),
     width: None,
@@ -57172,7 +57172,7 @@ let data = [|
     latex: "^{176}\\mathrm{Er}",
   },
   {
-    pdg: (-1000681760),
+    pdg: -1000681760,
     name: "Er176~",
     mass: Some(163896.6561468),
     width: None,
@@ -57198,7 +57198,7 @@ let data = [|
     latex: "^{177}\\mathrm{Er}",
   },
   {
-    pdg: (-1000681770),
+    pdg: -1000681770,
     name: "Er177~",
     mass: Some(164831.9507377),
     width: None,
@@ -57224,7 +57224,7 @@ let data = [|
     latex: "^{146}\\mathrm{Tm}",
   },
   {
-    pdg: (-1000691460),
+    pdg: -1000691460,
     name: "Tm146~",
     mass: Some(135966.9328164),
     width: None,
@@ -57250,7 +57250,7 @@ let data = [|
     latex: "^{147}\\mathrm{Tm}",
   },
   {
-    pdg: (-1000691470),
+    pdg: -1000691470,
     name: "Tm147~",
     mass: Some(136893.3782134),
     width: None,
@@ -57276,7 +57276,7 @@ let data = [|
     latex: "^{148}\\mathrm{Tm}",
   },
   {
-    pdg: (-1000691480),
+    pdg: -1000691480,
     name: "Tm148~",
     mass: Some(137821.5841342),
     width: None,
@@ -57302,7 +57302,7 @@ let data = [|
     latex: "^{149}\\mathrm{Tm}",
   },
   {
-    pdg: (-1000691490),
+    pdg: -1000691490,
     name: "Tm149~",
     mass: Some(138748.5139081),
     width: None,
@@ -57328,7 +57328,7 @@ let data = [|
     latex: "^{150}\\mathrm{Tm}",
   },
   {
-    pdg: (-1000691500),
+    pdg: -1000691500,
     name: "Tm150~",
     mass: Some(139677.2321507),
     width: None,
@@ -57354,7 +57354,7 @@ let data = [|
     latex: "^{151}\\mathrm{Tm}",
   },
   {
-    pdg: (-1000691510),
+    pdg: -1000691510,
     name: "Tm151~",
     mass: Some(140604.7767107),
     width: None,
@@ -57380,7 +57380,7 @@ let data = [|
     latex: "^{152}\\mathrm{Tm}",
   },
   {
-    pdg: (-1000691520),
+    pdg: -1000691520,
     name: "Tm152~",
     mass: Some(141535.2182174),
     width: None,
@@ -57406,7 +57406,7 @@ let data = [|
     latex: "^{153}\\mathrm{Tm}",
   },
   {
-    pdg: (-1000691530),
+    pdg: -1000691530,
     name: "Tm153~",
     mass: Some(142464.5959578),
     width: None,
@@ -57432,7 +57432,7 @@ let data = [|
     latex: "^{154}\\mathrm{Tm}",
   },
   {
-    pdg: (-1000691540),
+    pdg: -1000691540,
     name: "Tm154~",
     mass: Some(143395.5237044),
     width: None,
@@ -57458,7 +57458,7 @@ let data = [|
     latex: "^{155}\\mathrm{Tm}",
   },
   {
-    pdg: (-1000691550),
+    pdg: -1000691550,
     name: "Tm155~",
     mass: Some(144324.9424305),
     width: None,
@@ -57484,7 +57484,7 @@ let data = [|
     latex: "^{156}\\mathrm{Tm}",
   },
   {
-    pdg: (-1000691560),
+    pdg: -1000691560,
     name: "Tm156~",
     mass: Some(145256.2669936),
     width: None,
@@ -57510,7 +57510,7 @@ let data = [|
     latex: "^{157}\\mathrm{Tm}",
   },
   {
-    pdg: (-1000691570),
+    pdg: -1000691570,
     name: "Tm157~",
     mass: Some(146185.6652269),
     width: None,
@@ -57536,7 +57536,7 @@ let data = [|
     latex: "^{158}\\mathrm{Tm}",
   },
   {
-    pdg: (-1000691580),
+    pdg: -1000691580,
     name: "Tm158~",
     mass: Some(147117.3828805),
     width: None,
@@ -57562,7 +57562,7 @@ let data = [|
     latex: "^{159}\\mathrm{Tm}",
   },
   {
-    pdg: (-1000691590),
+    pdg: -1000691590,
     name: "Tm159~",
     mass: Some(148046.8370034),
     width: None,
@@ -57588,7 +57588,7 @@ let data = [|
     latex: "^{160}\\mathrm{Tm}",
   },
   {
-    pdg: (-1000691600),
+    pdg: -1000691600,
     name: "Tm160~",
     mass: Some(148978.5919167),
     width: None,
@@ -57614,7 +57614,7 @@ let data = [|
     latex: "^{161}\\mathrm{Tm}",
   },
   {
-    pdg: (-1000691610),
+    pdg: -1000691610,
     name: "Tm161~",
     mass: Some(149908.5117867),
     width: None,
@@ -57640,7 +57640,7 @@ let data = [|
     latex: "^{162}\\mathrm{Tm}",
   },
   {
-    pdg: (-1000691620),
+    pdg: -1000691620,
     name: "Tm162~",
     mass: Some(150840.5368333),
     width: None,
@@ -57666,7 +57666,7 @@ let data = [|
     latex: "^{163}\\mathrm{Tm}",
   },
   {
-    pdg: (-1000691630),
+    pdg: -1000691630,
     name: "Tm163~",
     mass: Some(151770.7994931),
     width: None,
@@ -57692,7 +57692,7 @@ let data = [|
     latex: "^{164}\\mathrm{Tm}",
   },
   {
-    pdg: (-1000691640),
+    pdg: -1000691640,
     name: "Tm164~",
     mass: Some(152703.0415779),
     width: None,
@@ -57718,7 +57718,7 @@ let data = [|
     latex: "^{165}\\mathrm{Tm}",
   },
   {
-    pdg: (-1000691650),
+    pdg: -1000691650,
     name: "Tm165~",
     mass: Some(153633.5864804),
     width: None,
@@ -57744,7 +57744,7 @@ let data = [|
     latex: "^{166}\\mathrm{Tm}",
   },
   {
-    pdg: (-1000691660),
+    pdg: -1000691660,
     name: "Tm166~",
     mass: Some(154566.1247802),
     width: None,
@@ -57770,7 +57770,7 @@ let data = [|
     latex: "^{167}\\mathrm{Tm}",
   },
   {
-    pdg: (-1000691670),
+    pdg: -1000691670,
     name: "Tm167~",
     mass: Some(155496.9631034),
     width: None,
@@ -57796,7 +57796,7 @@ let data = [|
     latex: "^{168}\\mathrm{Tm}",
   },
   {
-    pdg: (-1000691680),
+    pdg: -1000691680,
     name: "Tm168~",
     mass: Some(156429.6877021),
     width: None,
@@ -57822,7 +57822,7 @@ let data = [|
     latex: "^{169}\\mathrm{Tm}",
   },
   {
-    pdg: (-1000691690),
+    pdg: -1000691690,
     name: "Tm169~",
     mass: Some(157361.2199883),
     width: None,
@@ -57848,7 +57848,7 @@ let data = [|
     latex: "^{170}\\mathrm{Tm}",
   },
   {
-    pdg: (-1000691700),
+    pdg: -1000691700,
     name: "Tm170~",
     mass: Some(158294.1923644),
     width: None,
@@ -57874,7 +57874,7 @@ let data = [|
     latex: "^{171}\\mathrm{Tm}",
   },
   {
-    pdg: (-1000691710),
+    pdg: -1000691710,
     name: "Tm171~",
     mass: Some(159226.2714377),
     width: None,
@@ -57900,7 +57900,7 @@ let data = [|
     latex: "^{172}\\mathrm{Tm}",
   },
   {
-    pdg: (-1000691720),
+    pdg: -1000691720,
     name: "Tm172~",
     mass: Some(160159.6005761),
     width: None,
@@ -57926,7 +57926,7 @@ let data = [|
     latex: "^{173}\\mathrm{Tm}",
   },
   {
-    pdg: (-1000691730),
+    pdg: -1000691730,
     name: "Tm173~",
     mass: Some(161092.21619),
     width: None,
@@ -57952,7 +57952,7 @@ let data = [|
     latex: "^{174}\\mathrm{Tm}",
   },
   {
-    pdg: (-1000691740),
+    pdg: -1000691740,
     name: "Tm174~",
     mass: Some(162026.0949098),
     width: None,
@@ -57978,7 +57978,7 @@ let data = [|
     latex: "^{175}\\mathrm{Tm}",
   },
   {
-    pdg: (-1000691750),
+    pdg: -1000691750,
     name: "Tm175~",
     mass: Some(162959.1446),
     width: None,
@@ -58004,7 +58004,7 @@ let data = [|
     latex: "^{176}\\mathrm{Tm}",
   },
   {
-    pdg: (-1000691760),
+    pdg: -1000691760,
     name: "Tm176~",
     mass: Some(163893.5822163),
     width: None,
@@ -58030,7 +58030,7 @@ let data = [|
     latex: "^{177}\\mathrm{Tm}",
   },
   {
-    pdg: (-1000691770),
+    pdg: -1000691770,
     name: "Tm177~",
     mass: Some(164826.9858742),
     width: None,
@@ -58056,7 +58056,7 @@ let data = [|
     latex: "^{178}\\mathrm{Tm}",
   },
   {
-    pdg: (-1000691780),
+    pdg: -1000691780,
     name: "Tm178~",
     mass: Some(165761.8333479),
     width: None,
@@ -58082,7 +58082,7 @@ let data = [|
     latex: "^{179}\\mathrm{Tm}",
   },
   {
-    pdg: (-1000691790),
+    pdg: -1000691790,
     name: "Tm179~",
     mass: Some(166695.842477),
     width: None,
@@ -58108,7 +58108,7 @@ let data = [|
     latex: "^{148}\\mathrm{Yb}",
   },
   {
-    pdg: (-1000701480),
+    pdg: -1000701480,
     name: "Yb148~",
     mass: Some(137830.1631948),
     width: None,
@@ -58134,7 +58134,7 @@ let data = [|
     latex: "^{149}\\mathrm{Yb}",
   },
   {
-    pdg: (-1000701490),
+    pdg: -1000701490,
     name: "Yb149~",
     mass: Some(138758.6019892),
     width: None,
@@ -58160,7 +58160,7 @@ let data = [|
     latex: "^{150}\\mathrm{Yb}",
   },
   {
-    pdg: (-1000701500),
+    pdg: -1000701500,
     name: "Yb150~",
     mass: Some(139684.9821816),
     width: None,
@@ -58186,7 +58186,7 @@ let data = [|
     latex: "^{151}\\mathrm{Yb}",
   },
   {
-    pdg: (-1000701510),
+    pdg: -1000701510,
     name: "Yb151~",
     mass: Some(140613.9239828),
     width: None,
@@ -58212,7 +58212,7 @@ let data = [|
     latex: "^{152}\\mathrm{Yb}",
   },
   {
-    pdg: (-1000701520),
+    pdg: -1000701520,
     name: "Yb152~",
     mass: Some(141540.6860877),
     width: None,
@@ -58238,7 +58238,7 @@ let data = [|
     latex: "^{153}\\mathrm{Yb}",
   },
   {
-    pdg: (-1000701530),
+    pdg: -1000701530,
     name: "Yb153~",
     mass: Some(142471.2859484),
     width: None,
@@ -58264,7 +58264,7 @@ let data = [|
     latex: "^{154}\\mathrm{Yb}",
   },
   {
-    pdg: (-1000701540),
+    pdg: -1000701540,
     name: "Yb154~",
     mass: Some(143400.0135059),
     width: None,
@@ -58290,7 +58290,7 @@ let data = [|
     latex: "^{155}\\mathrm{Yb}",
   },
   {
-    pdg: (-1000701550),
+    pdg: -1000701550,
     name: "Yb155~",
     mass: Some(144331.0884286),
     width: None,
@@ -58316,7 +58316,7 @@ let data = [|
     latex: "^{156}\\mathrm{Yb}",
   },
   {
-    pdg: (-1000701560),
+    pdg: -1000701560,
     name: "Yb156~",
     mass: Some(145259.8439309),
     width: None,
@@ -58342,7 +58342,7 @@ let data = [|
     latex: "^{157}\\mathrm{Yb}",
   },
   {
-    pdg: (-1000701570),
+    pdg: -1000701570,
     name: "Yb157~",
     mass: Some(146191.161042),
     width: None,
@@ -58368,7 +58368,7 @@ let data = [|
     latex: "^{158}\\mathrm{Yb}",
   },
   {
-    pdg: (-1000701580),
+    pdg: -1000701580,
     name: "Yb158~",
     mass: Some(147120.0450906),
     width: None,
@@ -58394,7 +58394,7 @@ let data = [|
     latex: "^{159}\\mathrm{Yb}",
   },
   {
-    pdg: (-1000701590),
+    pdg: -1000701590,
     name: "Yb159~",
     mass: Some(148051.8111818),
     width: None,
@@ -58420,7 +58420,7 @@ let data = [|
     latex: "^{160}\\mathrm{Yb}",
   },
   {
-    pdg: (-1000701600),
+    pdg: -1000701600,
     name: "Yb160~",
     mass: Some(148980.8927071),
     width: None,
@@ -58446,7 +58446,7 @@ let data = [|
     latex: "^{161}\\mathrm{Yb}",
   },
   {
-    pdg: (-1000701610),
+    pdg: -1000701610,
     name: "Yb161~",
     mass: Some(149912.6569354),
     width: None,
@@ -58472,7 +58472,7 @@ let data = [|
     latex: "^{162}\\mathrm{Yb}",
   },
   {
-    pdg: (-1000701620),
+    pdg: -1000701620,
     name: "Yb162~",
     mass: Some(150842.1948928),
     width: None,
@@ -58498,7 +58498,7 @@ let data = [|
     latex: "^{163}\\mathrm{Yb}",
   },
   {
-    pdg: (-1000701630),
+    pdg: -1000701630,
     name: "Yb163~",
     mass: Some(151774.1733647),
     width: None,
@@ -58524,7 +58524,7 @@ let data = [|
     latex: "^{164}\\mathrm{Yb}",
   },
   {
-    pdg: (-1000701640),
+    pdg: -1000701640,
     name: "Yb164~",
     mass: Some(152704.037345),
     width: None,
@@ -58550,7 +58550,7 @@ let data = [|
     latex: "^{165}\\mathrm{Yb}",
   },
   {
-    pdg: (-1000701650),
+    pdg: -1000701650,
     name: "Yb165~",
     mass: Some(153636.3492918),
     width: None,
@@ -58576,7 +58576,7 @@ let data = [|
     latex: "^{166}\\mathrm{Yb}",
   },
   {
-    pdg: (-1000701660),
+    pdg: -1000701660,
     name: "Yb166~",
     mass: Some(154566.4293788),
     width: None,
@@ -58602,7 +58602,7 @@ let data = [|
     latex: "^{167}\\mathrm{Yb}",
   },
   {
-    pdg: (-1000701670),
+    pdg: -1000701670,
     name: "Yb167~",
     mass: Some(155498.917378),
     width: None,
@@ -58628,7 +58628,7 @@ let data = [|
     latex: "^{168}\\mathrm{Yb}",
   },
   {
-    pdg: (-1000701680),
+    pdg: -1000701680,
     name: "Yb168~",
     mass: Some(156429.4306097),
     width: None,
@@ -58654,7 +58654,7 @@ let data = [|
     latex: "^{169}\\mathrm{Yb}",
   },
   {
-    pdg: (-1000701690),
+    pdg: -1000701690,
     name: "Yb169~",
     mass: Some(157362.1291266),
     width: None,
@@ -58680,7 +58680,7 @@ let data = [|
     latex: "^{170}\\mathrm{Yb}",
   },
   {
-    pdg: (-1000701700),
+    pdg: -1000701700,
     name: "Yb170~",
     mass: Some(158293.2245421),
     width: None,
@@ -58706,7 +58706,7 @@ let data = [|
     latex: "^{171}\\mathrm{Yb}",
   },
   {
-    pdg: (-1000701710),
+    pdg: -1000701710,
     name: "Yb171~",
     mass: Some(159226.1745623),
     width: None,
@@ -58732,7 +58732,7 @@ let data = [|
     latex: "^{172}\\mathrm{Yb}",
   },
   {
-    pdg: (-1000701720),
+    pdg: -1000701720,
     name: "Yb172~",
     mass: Some(160157.7205415),
     width: None,
@@ -58758,7 +58758,7 @@ let data = [|
     latex: "^{173}\\mathrm{Yb}",
   },
   {
-    pdg: (-1000701730),
+    pdg: -1000701730,
     name: "Yb173~",
     mass: Some(161090.9184324),
     width: None,
@@ -58784,7 +58784,7 @@ let data = [|
     latex: "^{174}\\mathrm{Yb}",
   },
   {
-    pdg: (-1000701740),
+    pdg: -1000701740,
     name: "Yb174~",
     mass: Some(162023.0192095),
     width: None,
@@ -58810,7 +58810,7 @@ let data = [|
     latex: "^{175}\\mathrm{Yb}",
   },
   {
-    pdg: (-1000701750),
+    pdg: -1000701750,
     name: "Yb175~",
     mass: Some(162956.7623038),
     width: None,
@@ -58836,7 +58836,7 @@ let data = [|
     latex: "^{176}\\mathrm{Yb}",
   },
   {
-    pdg: (-1000701760),
+    pdg: -1000701760,
     name: "Yb176~",
     mass: Some(163889.4631494),
     width: None,
@@ -58862,7 +58862,7 @@ let data = [|
     latex: "^{177}\\mathrm{Yb}",
   },
   {
-    pdg: (-1000701770),
+    pdg: -1000701770,
     name: "Yb177~",
     mass: Some(164823.462032),
     width: None,
@@ -58888,7 +58888,7 @@ let data = [|
     latex: "^{178}\\mathrm{Yb}",
   },
   {
-    pdg: (-1000701780),
+    pdg: -1000701780,
     name: "Yb178~",
     mass: Some(165756.2471778),
     width: None,
@@ -58914,7 +58914,7 @@ let data = [|
     latex: "^{179}\\mathrm{Yb}",
   },
   {
-    pdg: (-1000701790),
+    pdg: -1000701790,
     name: "Yb179~",
     mass: Some(166691.0266525),
     width: None,
@@ -58940,7 +58940,7 @@ let data = [|
     latex: "^{180}\\mathrm{Yb}",
   },
   {
-    pdg: (-1000701800),
+    pdg: -1000701800,
     name: "Yb180~",
     mass: Some(167624.5327747),
     width: None,
@@ -58966,7 +58966,7 @@ let data = [|
     latex: "^{181}\\mathrm{Yb}",
   },
   {
-    pdg: (-1000701810),
+    pdg: -1000701810,
     name: "Yb181~",
     mass: Some(168559.5851772),
     width: None,
@@ -58992,7 +58992,7 @@ let data = [|
     latex: "^{150}\\mathrm{Lu}",
   },
   {
-    pdg: (-1000711500),
+    pdg: -1000711500,
     name: "Lu150~",
     mass: Some(139698.6565149),
     width: None,
@@ -59018,7 +59018,7 @@ let data = [|
     latex: "^{151}\\mathrm{Lu}",
   },
   {
-    pdg: (-1000711510),
+    pdg: -1000711510,
     name: "Lu151~",
     mass: Some(140625.0087625),
     width: None,
@@ -59044,7 +59044,7 @@ let data = [|
     latex: "^{152}\\mathrm{Lu}",
   },
   {
-    pdg: (-1000711520),
+    pdg: -1000711520,
     name: "Lu152~",
     mass: Some(141553.2053684),
     width: None,
@@ -59070,7 +59070,7 @@ let data = [|
     latex: "^{153}\\mathrm{Lu}",
   },
   {
-    pdg: (-1000711530),
+    pdg: -1000711530,
     name: "Lu153~",
     mass: Some(142480.1165124),
     width: None,
@@ -59096,7 +59096,7 @@ let data = [|
     latex: "^{154}\\mathrm{Lu}",
   },
   {
-    pdg: (-1000711540),
+    pdg: -1000711540,
     name: "Lu154~",
     mass: Some(143410.1295318),
     width: None,
@@ -59122,7 +59122,7 @@ let data = [|
     latex: "^{155}\\mathrm{Lu}",
   },
   {
-    pdg: (-1000711550),
+    pdg: -1000711550,
     name: "Lu155~",
     mass: Some(144338.9502387),
     width: None,
@@ -59148,7 +59148,7 @@ let data = [|
     latex: "^{156}\\mathrm{Lu}",
   },
   {
-    pdg: (-1000711560),
+    pdg: -1000711560,
     name: "Lu156~",
     mass: Some(145269.2147615),
     width: None,
@@ -59174,7 +59174,7 @@ let data = [|
     latex: "^{157}\\mathrm{Lu}",
   },
   {
-    pdg: (-1000711570),
+    pdg: -1000711570,
     name: "Lu157~",
     mass: Some(146198.0932211),
     width: None,
@@ -59200,7 +59200,7 @@ let data = [|
     latex: "^{158}\\mathrm{Lu}",
   },
   {
-    pdg: (-1000711580),
+    pdg: -1000711580,
     name: "Lu158~",
     mass: Some(147128.7191636),
     width: None,
@@ -59226,7 +59226,7 @@ let data = [|
     latex: "^{159}\\mathrm{Lu}",
   },
   {
-    pdg: (-1000711590),
+    pdg: -1000711590,
     name: "Lu159~",
     mass: Some(148057.8379486),
     width: None,
@@ -59252,7 +59252,7 @@ let data = [|
     latex: "^{160}\\mathrm{Lu}",
   },
   {
-    pdg: (-1000711600),
+    pdg: -1000711600,
     name: "Lu160~",
     mass: Some(148988.7731472),
     width: None,
@@ -59278,7 +59278,7 @@ let data = [|
     latex: "^{161}\\mathrm{Lu}",
   },
   {
-    pdg: (-1000711610),
+    pdg: -1000711610,
     name: "Lu161~",
     mass: Some(149917.9571368),
     width: None,
@@ -59304,7 +59304,7 @@ let data = [|
     latex: "^{162}\\mathrm{Lu}",
   },
   {
-    pdg: (-1000711620),
+    pdg: -1000711620,
     name: "Lu162~",
     mass: Some(150849.1531537),
     width: None,
@@ -59330,7 +59330,7 @@ let data = [|
     latex: "^{163}\\mathrm{Lu}",
   },
   {
-    pdg: (-1000711630),
+    pdg: -1000711630,
     name: "Lu163~",
     mass: Some(151778.7656306),
     width: None,
@@ -59356,7 +59356,7 @@ let data = [|
     latex: "^{164}\\mathrm{Lu}",
   },
   {
-    pdg: (-1000711640),
+    pdg: -1000711640,
     name: "Lu164~",
     mass: Some(152710.2783555),
     width: None,
@@ -59382,7 +59382,7 @@ let data = [|
     latex: "^{165}\\mathrm{Lu}",
   },
   {
-    pdg: (-1000711650),
+    pdg: -1000711650,
     name: "Lu165~",
     mass: Some(153640.272745),
     width: None,
@@ -59408,7 +59408,7 @@ let data = [|
     latex: "^{166}\\mathrm{Lu}",
   },
   {
-    pdg: (-1000711660),
+    pdg: -1000711660,
     name: "Lu166~",
     mass: Some(154571.9065641),
     width: None,
@@ -59434,7 +59434,7 @@ let data = [|
     latex: "^{167}\\mathrm{Lu}",
   },
   {
-    pdg: (-1000711670),
+    pdg: -1000711670,
     name: "Lu167~",
     mass: Some(155502.0499926),
     width: None,
@@ -59460,7 +59460,7 @@ let data = [|
     latex: "^{168}\\mathrm{Lu}",
   },
   {
-    pdg: (-1000711680),
+    pdg: -1000711680,
     name: "Lu168~",
     mass: Some(156433.9073703),
     width: None,
@@ -59486,7 +59486,7 @@ let data = [|
     latex: "^{169}\\mathrm{Lu}",
   },
   {
-    pdg: (-1000711690),
+    pdg: -1000711690,
     name: "Lu169~",
     mass: Some(157364.422465),
     width: None,
@@ -59512,7 +59512,7 @@ let data = [|
     latex: "^{170}\\mathrm{Lu}",
   },
   {
-    pdg: (-1000711700),
+    pdg: -1000711700,
     name: "Lu170~",
     mass: Some(158296.6831796),
     width: None,
@@ -59538,7 +59538,7 @@ let data = [|
     latex: "^{171}\\mathrm{Lu}",
   },
   {
-    pdg: (-1000711710),
+    pdg: -1000711710,
     name: "Lu171~",
     mass: Some(159227.653775),
     width: None,
@@ -59564,7 +59564,7 @@ let data = [|
     latex: "^{172}\\mathrm{Lu}",
   },
   {
-    pdg: (-1000711720),
+    pdg: -1000711720,
     name: "Lu172~",
     mass: Some(160160.239581),
     width: None,
@@ -59590,7 +59590,7 @@ let data = [|
     latex: "^{173}\\mathrm{Lu}",
   },
   {
-    pdg: (-1000711730),
+    pdg: -1000711730,
     name: "Lu173~",
     mass: Some(161091.5892944),
     width: None,
@@ -59616,7 +59616,7 @@ let data = [|
     latex: "^{174}\\mathrm{Lu}",
   },
   {
-    pdg: (-1000711740),
+    pdg: -1000711740,
     name: "Lu174~",
     mass: Some(162024.3935359),
     width: None,
@@ -59642,7 +59642,7 @@ let data = [|
     latex: "^{175}\\mathrm{Lu}",
   },
   {
-    pdg: (-1000711750),
+    pdg: -1000711750,
     name: "Lu175~",
     mass: Some(162956.2922719),
     width: None,
@@ -59668,7 +59668,7 @@ let data = [|
     latex: "^{176}\\mathrm{Lu}",
   },
   {
-    pdg: (-1000711760),
+    pdg: -1000711760,
     name: "Lu176~",
     mass: Some(163889.5697123),
     width: None,
@@ -59694,7 +59694,7 @@ let data = [|
     latex: "^{177}\\mathrm{Lu}",
   },
   {
-    pdg: (-1000711770),
+    pdg: -1000711770,
     name: "Lu177~",
     mass: Some(164822.0629279),
     width: None,
@@ -59720,7 +59720,7 @@ let data = [|
     latex: "^{178}\\mathrm{Lu}",
   },
   {
-    pdg: (-1000711780),
+    pdg: -1000711780,
     name: "Lu178~",
     mass: Some(165755.6025839),
     width: None,
@@ -59746,7 +59746,7 @@ let data = [|
     latex: "^{179}\\mathrm{Lu}",
   },
   {
-    pdg: (-1000711790),
+    pdg: -1000711790,
     name: "Lu179~",
     mass: Some(166688.3756203),
     width: None,
@@ -59772,7 +59772,7 @@ let data = [|
     latex: "^{180}\\mathrm{Lu}",
   },
   {
-    pdg: (-1000711800),
+    pdg: -1000711800,
     name: "Lu180~",
     mass: Some(167622.2506142),
     width: None,
@@ -59798,7 +59798,7 @@ let data = [|
     latex: "^{181}\\mathrm{Lu}",
   },
   {
-    pdg: (-1000711810),
+    pdg: -1000711810,
     name: "Lu181~",
     mass: Some(168555.6915318),
     width: None,
@@ -59824,7 +59824,7 @@ let data = [|
     latex: "^{182}\\mathrm{Lu}",
   },
   {
-    pdg: (-1000711820),
+    pdg: -1000711820,
     name: "Lu182~",
     mass: Some(169490.2036677),
     width: None,
@@ -59850,7 +59850,7 @@ let data = [|
     latex: "^{183}\\mathrm{Lu}",
   },
   {
-    pdg: (-1000711830),
+    pdg: -1000711830,
     name: "Lu183~",
     mass: Some(170423.8960887),
     width: None,
@@ -59876,7 +59876,7 @@ let data = [|
     latex: "^{184}\\mathrm{Lu}",
   },
   {
-    pdg: (-1000711840),
+    pdg: -1000711840,
     name: "Lu184~",
     mass: Some(171358.7435625),
     width: None,
@@ -59902,7 +59902,7 @@ let data = [|
     latex: "^{154}\\mathrm{Hf}",
   },
   {
-    pdg: (-1000721540),
+    pdg: -1000721540,
     name: "Hf154~",
     mass: Some(143416.7897146),
     width: None,
@@ -59928,7 +59928,7 @@ let data = [|
     latex: "^{155}\\mathrm{Hf}",
   },
   {
-    pdg: (-1000721550),
+    pdg: -1000721550,
     name: "Hf155~",
     mass: Some(144346.8958834),
     width: None,
@@ -59954,7 +59954,7 @@ let data = [|
     latex: "^{156}\\mathrm{Hf}",
   },
   {
-    pdg: (-1000721560),
+    pdg: -1000721560,
     name: "Hf156~",
     mass: Some(145275.1204341),
     width: None,
@@ -59980,7 +59980,7 @@ let data = [|
     latex: "^{157}\\mathrm{Hf}",
   },
   {
-    pdg: (-1000721570),
+    pdg: -1000721570,
     name: "Hf157~",
     mass: Some(146205.5712557),
     width: None,
@@ -60006,7 +60006,7 @@ let data = [|
     latex: "^{158}\\mathrm{Hf}",
   },
   {
-    pdg: (-1000721580),
+    pdg: -1000721580,
     name: "Hf158~",
     mass: Some(147133.8237512),
     width: None,
@@ -60032,7 +60032,7 @@ let data = [|
     latex: "^{159}\\mathrm{Hf}",
   },
   {
-    pdg: (-1000721590),
+    pdg: -1000721590,
     name: "Hf159~",
     mass: Some(148064.7123751),
     width: None,
@@ -60058,7 +60058,7 @@ let data = [|
     latex: "^{160}\\mathrm{Hf}",
   },
   {
-    pdg: (-1000721600),
+    pdg: -1000721600,
     name: "Hf160~",
     mass: Some(148993.1418545),
     width: None,
@@ -60084,7 +60084,7 @@ let data = [|
     latex: "^{161}\\mathrm{Hf}",
   },
   {
-    pdg: (-1000721610),
+    pdg: -1000721610,
     name: "Hf161~",
     mass: Some(149924.2819817),
     width: None,
@@ -60110,7 +60110,7 @@ let data = [|
     latex: "^{162}\\mathrm{Hf}",
   },
   {
-    pdg: (-1000721620),
+    pdg: -1000721620,
     name: "Hf162~",
     mass: Some(150852.8632947),
     width: None,
@@ -60136,7 +60136,7 @@ let data = [|
     latex: "^{163}\\mathrm{Hf}",
   },
   {
-    pdg: (-1000721630),
+    pdg: -1000721630,
     name: "Hf163~",
     mass: Some(151784.224186),
     width: None,
@@ -60162,7 +60162,7 @@ let data = [|
     latex: "^{164}\\mathrm{Hf}",
   },
   {
-    pdg: (-1000721640),
+    pdg: -1000721640,
     name: "Hf164~",
     mass: Some(152713.2591366),
     width: None,
@@ -60188,7 +60188,7 @@ let data = [|
     latex: "^{165}\\mathrm{Hf}",
   },
   {
-    pdg: (-1000721650),
+    pdg: -1000721650,
     name: "Hf165~",
     mass: Some(153644.8650109),
     width: None,
@@ -60214,7 +60214,7 @@ let data = [|
     latex: "^{166}\\mathrm{Hf}",
   },
   {
-    pdg: (-1000721660),
+    pdg: -1000721660,
     name: "Hf166~",
     mass: Some(154574.2259844),
     width: None,
@@ -60240,7 +60240,7 @@ let data = [|
     latex: "^{167}\\mathrm{Hf}",
   },
   {
-    pdg: (-1000721670),
+    pdg: -1000721670,
     name: "Hf167~",
     mass: Some(155506.0461023),
     width: None,
@@ -60266,7 +60266,7 @@ let data = [|
     latex: "^{168}\\mathrm{Hf}",
   },
   {
-    pdg: (-1000721680),
+    pdg: -1000721680,
     name: "Hf168~",
     mass: Some(156435.7051539),
     width: None,
@@ -60292,7 +60292,7 @@ let data = [|
     latex: "^{169}\\mathrm{Hf}",
   },
   {
-    pdg: (-1000721690),
+    pdg: -1000721690,
     name: "Hf169~",
     mass: Some(157367.6929408),
     width: None,
@@ -60318,7 +60318,7 @@ let data = [|
     latex: "^{170}\\mathrm{Hf}",
   },
   {
-    pdg: (-1000721700),
+    pdg: -1000721700,
     name: "Hf170~",
     mass: Some(158297.7804797),
     width: None,
@@ -60344,7 +60344,7 @@ let data = [|
     latex: "^{171}\\mathrm{Hf}",
   },
   {
-    pdg: (-1000721710),
+    pdg: -1000721710,
     name: "Hf171~",
     mass: Some(159230.0570297),
     width: None,
@@ -60370,7 +60370,7 @@ let data = [|
     latex: "^{172}\\mathrm{Hf}",
   },
   {
-    pdg: (-1000721720),
+    pdg: -1000721720,
     name: "Hf172~",
     mass: Some(160160.5916858),
     width: None,
@@ -60396,7 +60396,7 @@ let data = [|
     latex: "^{173}\\mathrm{Hf}",
   },
   {
-    pdg: (-1000721730),
+    pdg: -1000721730,
     name: "Hf173~",
     mass: Some(161093.1942588),
     width: None,
@@ -60422,7 +60422,7 @@ let data = [|
     latex: "^{174}\\mathrm{Hf}",
   },
   {
-    pdg: (-1000721740),
+    pdg: -1000721740,
     name: "Hf174~",
     mass: Some(162024.1201423),
     width: None,
@@ -60448,7 +60448,7 @@ let data = [|
     latex: "^{175}\\mathrm{Hf}",
   },
   {
-    pdg: (-1000721750),
+    pdg: -1000721750,
     name: "Hf175~",
     mass: Some(162956.9770132),
     width: None,
@@ -60474,7 +60474,7 @@ let data = [|
     latex: "^{176}\\mathrm{Hf}",
   },
   {
-    pdg: (-1000721760),
+    pdg: -1000721760,
     name: "Hf176~",
     mass: Some(163888.376841),
     width: None,
@@ -60500,7 +60500,7 @@ let data = [|
     latex: "^{177}\\mathrm{Hf}",
   },
   {
-    pdg: (-1000721770),
+    pdg: -1000721770,
     name: "Hf177~",
     mass: Some(164821.5645785),
     width: None,
@@ -60526,7 +60526,7 @@ let data = [|
     latex: "^{178}\\mathrm{Hf}",
   },
   {
-    pdg: (-1000721780),
+    pdg: -1000721780,
     name: "Hf178~",
     mass: Some(165753.5036483),
     width: None,
@@ -60552,7 +60552,7 @@ let data = [|
     latex: "^{179}\\mathrm{Hf}",
   },
   {
-    pdg: (-1000721790),
+    pdg: -1000721790,
     name: "Hf179~",
     mass: Some(166686.9700888),
     width: None,
@@ -60578,7 +60578,7 @@ let data = [|
     latex: "^{180}\\mathrm{Hf}",
   },
   {
-    pdg: (-1000721800),
+    pdg: -1000721800,
     name: "Hf180~",
     mass: Some(167619.1476211),
     width: None,
@@ -60604,7 +60604,7 @@ let data = [|
     latex: "^{181}\\mathrm{Hf}",
   },
   {
-    pdg: (-1000721810),
+    pdg: -1000721810,
     name: "Hf181~",
     mass: Some(168553.0173054),
     width: None,
@@ -60630,7 +60630,7 @@ let data = [|
     latex: "^{182}\\mathrm{Hf}",
   },
   {
-    pdg: (-1000721820),
+    pdg: -1000721820,
     name: "Hf182~",
     mass: Some(169485.8656997),
     width: None,
@@ -60656,7 +60656,7 @@ let data = [|
     latex: "^{183}\\mathrm{Hf}",
   },
   {
-    pdg: (-1000721830),
+    pdg: -1000721830,
     name: "Hf183~",
     mass: Some(170420.1328526),
     width: None,
@@ -60682,7 +60682,7 @@ let data = [|
     latex: "^{184}\\mathrm{Hf}",
   },
   {
-    pdg: (-1000721840),
+    pdg: -1000721840,
     name: "Hf184~",
     mass: Some(171353.4154163),
     width: None,
@@ -60708,7 +60708,7 @@ let data = [|
     latex: "^{185}\\mathrm{Hf}",
   },
   {
-    pdg: (-1000721850),
+    pdg: -1000721850,
     name: "Hf185~",
     mass: Some(172288.0113866),
     width: None,
@@ -60734,7 +60734,7 @@ let data = [|
     latex: "^{186}\\mathrm{Hf}",
   },
   {
-    pdg: (-1000721860),
+    pdg: -1000721860,
     name: "Hf186~",
     mass: Some(173221.4988789),
     width: None,
@@ -60760,7 +60760,7 @@ let data = [|
     latex: "^{156}\\mathrm{Ta}",
   },
   {
-    pdg: (-1000731560),
+    pdg: -1000731560,
     name: "Ta156~",
     mass: Some(145286.7082206),
     width: None,
@@ -60786,7 +60786,7 @@ let data = [|
     latex: "^{157}\\mathrm{Ta}",
   },
   {
-    pdg: (-1000731570),
+    pdg: -1000731570,
     name: "Ta157~",
     mass: Some(146214.9048265),
     width: None,
@@ -60812,7 +60812,7 @@ let data = [|
     latex: "^{158}\\mathrm{Ta}",
   },
   {
-    pdg: (-1000731580),
+    pdg: -1000731580,
     name: "Ta158~",
     mass: Some(147144.740862),
     width: None,
@@ -60838,7 +60838,7 @@ let data = [|
     latex: "^{159}\\mathrm{Ta}",
   },
   {
-    pdg: (-1000731590),
+    pdg: -1000731590,
     name: "Ta159~",
     mass: Some(148073.0119874),
     width: None,
@@ -60864,7 +60864,7 @@ let data = [|
     latex: "^{160}\\mathrm{Ta}",
   },
   {
-    pdg: (-1000731600),
+    pdg: -1000731600,
     name: "Ta160~",
     mass: Some(149003.0622666),
     width: None,
@@ -60890,7 +60890,7 @@ let data = [|
     latex: "^{161}\\mathrm{Ta}",
   },
   {
-    pdg: (-1000731610),
+    pdg: -1000731610,
     name: "Ta161~",
     mass: Some(149931.7711942),
     width: None,
@@ -60916,7 +60916,7 @@ let data = [|
     latex: "^{162}\\mathrm{Ta}",
   },
   {
-    pdg: (-1000731620),
+    pdg: -1000731620,
     name: "Ta162~",
     mass: Some(150862.1288664),
     width: None,
@@ -60942,7 +60942,7 @@ let data = [|
     latex: "^{163}\\mathrm{Ta}",
   },
   {
-    pdg: (-1000731630),
+    pdg: -1000731630,
     name: "Ta163~",
     mass: Some(151790.9868331),
     width: None,
@@ -60968,7 +60968,7 @@ let data = [|
     latex: "^{164}\\mathrm{Ta}",
   },
   {
-    pdg: (-1000731640),
+    pdg: -1000731640,
     name: "Ta164~",
     mass: Some(152721.7823076),
     width: None,
@@ -60994,7 +60994,7 @@ let data = [|
     latex: "^{165}\\mathrm{Ta}",
   },
   {
-    pdg: (-1000731650),
+    pdg: -1000731650,
     name: "Ta165~",
     mass: Some(153650.7147938),
     width: None,
@@ -61020,7 +61020,7 @@ let data = [|
     latex: "^{166}\\mathrm{Ta}",
   },
   {
-    pdg: (-1000731660),
+    pdg: -1000731660,
     name: "Ta166~",
     mass: Some(154581.8828658),
     width: None,
@@ -61046,7 +61046,7 @@ let data = [|
     latex: "^{167}\\mathrm{Ta}",
   },
   {
-    pdg: (-1000731670),
+    pdg: -1000731670,
     name: "Ta167~",
     mass: Some(155511.0482256),
     width: None,
@@ -61072,7 +61072,7 @@ let data = [|
     latex: "^{168}\\mathrm{Ta}",
   },
   {
-    pdg: (-1000731680),
+    pdg: -1000731680,
     name: "Ta168~",
     mass: Some(156442.3746516),
     width: None,
@@ -61098,7 +61098,7 @@ let data = [|
     latex: "^{169}\\mathrm{Ta}",
   },
   {
-    pdg: (-1000731690),
+    pdg: -1000731690,
     name: "Ta169~",
     mass: Some(157372.1268527),
     width: None,
@@ -61124,7 +61124,7 @@ let data = [|
     latex: "^{170}\\mathrm{Ta}",
   },
   {
-    pdg: (-1000731700),
+    pdg: -1000731700,
     name: "Ta170~",
     mass: Some(158303.7793017),
     width: None,
@@ -61150,7 +61150,7 @@ let data = [|
     latex: "^{171}\\mathrm{Ta}",
   },
   {
-    pdg: (-1000731710),
+    pdg: -1000731710,
     name: "Ta171~",
     mass: Some(159233.7550613),
     width: None,
@@ -61176,7 +61176,7 @@ let data = [|
     latex: "^{172}\\mathrm{Ta}",
   },
   {
-    pdg: (-1000731720),
+    pdg: -1000731720,
     name: "Ta172~",
     mass: Some(160165.5099746),
     width: None,
@@ -61202,7 +61202,7 @@ let data = [|
     latex: "^{173}\\mathrm{Ta}",
   },
   {
-    pdg: (-1000731730),
+    pdg: -1000731730,
     name: "Ta173~",
     mass: Some(161095.8862767),
     width: None,
@@ -61228,7 +61228,7 @@ let data = [|
     latex: "^{174}\\mathrm{Ta}",
   },
   {
-    pdg: (-1000731740),
+    pdg: -1000731740,
     name: "Ta174~",
     mass: Some(162027.967213),
     width: None,
@@ -61254,7 +61254,7 @@ let data = [|
     latex: "^{175}\\mathrm{Ta}",
   },
   {
-    pdg: (-1000731750),
+    pdg: -1000731750,
     name: "Ta175~",
     mass: Some(162958.976931),
     width: None,
@@ -61280,7 +61280,7 @@ let data = [|
     latex: "^{176}\\mathrm{Ta}",
   },
   {
-    pdg: (-1000731760),
+    pdg: -1000731760,
     name: "Ta176~",
     mass: Some(163891.4863546),
     width: None,
@@ -61306,7 +61306,7 @@ let data = [|
     latex: "^{177}\\mathrm{Ta}",
   },
   {
-    pdg: (-1000731770),
+    pdg: -1000731770,
     name: "Ta177~",
     mass: Some(164822.7308091),
     width: None,
@@ -61332,7 +61332,7 @@ let data = [|
     latex: "^{178}\\mathrm{Ta}",
   },
   {
-    pdg: (-1000731780),
+    pdg: -1000731780,
     name: "Ta178~",
     mass: Some(165755.4153536),
     width: None,
@@ -61358,7 +61358,7 @@ let data = [|
     latex: "^{179}\\mathrm{Ta}",
   },
   {
-    pdg: (-1000731790),
+    pdg: -1000731790,
     name: "Ta179~",
     mass: Some(166687.0808435),
     width: None,
@@ -61384,7 +61384,7 @@ let data = [|
     latex: "^{180}\\mathrm{Ta}",
   },
   {
-    pdg: (-1000731800),
+    pdg: -1000731800,
     name: "Ta180~",
     mass: Some(167620.0019874),
     width: None,
@@ -61410,7 +61410,7 @@ let data = [|
     latex: "^{181}\\mathrm{Ta}",
   },
   {
-    pdg: (-1000731810),
+    pdg: -1000731810,
     name: "Ta181~",
     mass: Some(168551.9897743),
     width: None,
@@ -61436,7 +61436,7 @@ let data = [|
     latex: "^{182}\\mathrm{Ta}",
   },
   {
-    pdg: (-1000731820),
+    pdg: -1000731820,
     name: "Ta182~",
     mass: Some(169485.4921706),
     width: None,
@@ -61462,7 +61462,7 @@ let data = [|
     latex: "^{183}\\mathrm{Ta}",
   },
   {
-    pdg: (-1000731830),
+    pdg: -1000731830,
     name: "Ta183~",
     mass: Some(170418.1236198),
     width: None,
@@ -61488,7 +61488,7 @@ let data = [|
     latex: "^{184}\\mathrm{Ta}",
   },
   {
-    pdg: (-1000731840),
+    pdg: -1000731840,
     name: "Ta184~",
     mass: Some(171352.0731333),
     width: None,
@@ -61514,7 +61514,7 @@ let data = [|
     latex: "^{185}\\mathrm{Ta}",
   },
   {
-    pdg: (-1000731850),
+    pdg: -1000731850,
     name: "Ta185~",
     mass: Some(172285.0110441),
     width: None,
@@ -61540,7 +61540,7 @@ let data = [|
     latex: "^{186}\\mathrm{Ta}",
   },
   {
-    pdg: (-1000731860),
+    pdg: -1000731860,
     name: "Ta186~",
     mass: Some(173219.2912379),
     width: None,
@@ -61566,7 +61566,7 @@ let data = [|
     latex: "^{187}\\mathrm{Ta}",
   },
   {
-    pdg: (-1000731870),
+    pdg: -1000731870,
     name: "Ta187~",
     mass: Some(174152.5179119),
     width: None,
@@ -61592,7 +61592,7 @@ let data = [|
     latex: "^{188}\\mathrm{Ta}",
   },
   {
-    pdg: (-1000731880),
+    pdg: -1000731880,
     name: "Ta188~",
     mass: Some(175087.0859374),
     width: None,
@@ -61618,7 +61618,7 @@ let data = [|
     latex: "^{158}\\mathrm{W}",
   },
   {
-    pdg: (-1000741580),
+    pdg: -1000741580,
     name: "W158~",
     mass: Some(147151.7922723),
     width: None,
@@ -61644,7 +61644,7 @@ let data = [|
     latex: "^{159}\\mathrm{W}",
   },
   {
-    pdg: (-1000741590),
+    pdg: -1000741590,
     name: "W159~",
     mass: Some(148081.7400871),
     width: None,
@@ -61670,7 +61670,7 @@ let data = [|
     latex: "^{160}\\mathrm{W}",
   },
   {
-    pdg: (-1000741600),
+    pdg: -1000741600,
     name: "W160~",
     mass: Some(149009.5920402),
     width: None,
@@ -61696,7 +61696,7 @@ let data = [|
     latex: "^{161}\\mathrm{W}",
   },
   {
-    pdg: (-1000741610),
+    pdg: -1000741610,
     name: "W161~",
     mass: Some(149939.8938227),
     width: None,
@@ -61722,7 +61722,7 @@ let data = [|
     latex: "^{162}\\mathrm{W}",
   },
   {
-    pdg: (-1000741620),
+    pdg: -1000741620,
     name: "W162~",
     mass: Some(150867.8948149),
     width: None,
@@ -61748,7 +61748,7 @@ let data = [|
     latex: "^{163}\\mathrm{W}",
   },
   {
-    pdg: (-1000741630),
+    pdg: -1000741630,
     name: "W163~",
     mass: Some(151798.6343997),
     width: None,
@@ -61774,7 +61774,7 @@ let data = [|
     latex: "^{164}\\mathrm{W}",
   },
   {
-    pdg: (-1000741640),
+    pdg: -1000741640,
     name: "W164~",
     mass: Some(152726.8216906),
     width: None,
@@ -61800,7 +61800,7 @@ let data = [|
     latex: "^{165}\\mathrm{W}",
   },
   {
-    pdg: (-1000741650),
+    pdg: -1000741650,
     name: "W165~",
     mass: Some(153657.7196294),
     width: None,
@@ -61826,7 +61826,7 @@ let data = [|
     latex: "^{166}\\mathrm{W}",
   },
   {
-    pdg: (-1000741660),
+    pdg: -1000741660,
     name: "W166~",
     mass: Some(154586.121164),
     width: None,
@@ -61852,7 +61852,7 @@ let data = [|
     latex: "^{167}\\mathrm{W}",
   },
   {
-    pdg: (-1000741670),
+    pdg: -1000741670,
     name: "W167~",
     mass: Some(155517.289236),
     width: None,
@@ -61878,7 +61878,7 @@ let data = [|
     latex: "^{168}\\mathrm{W}",
   },
   {
-    pdg: (-1000741680),
+    pdg: -1000741680,
     name: "W168~",
     mass: Some(156446.1658326),
     width: None,
@@ -61904,7 +61904,7 @@ let data = [|
     latex: "^{169}\\mathrm{W}",
   },
   {
-    pdg: (-1000741690),
+    pdg: -1000741690,
     name: "W169~",
     mass: Some(157377.5667782),
     width: None,
@@ -61930,7 +61930,7 @@ let data = [|
     latex: "^{170}\\mathrm{W}",
   },
   {
-    pdg: (-1000741700),
+    pdg: -1000741700,
     name: "W170~",
     mass: Some(158306.7600828),
     width: None,
@@ -61956,7 +61956,7 @@ let data = [|
     latex: "^{171}\\mathrm{W}",
   },
   {
-    pdg: (-1000741710),
+    pdg: -1000741710,
     name: "W171~",
     mass: Some(159238.4125318),
     width: None,
@@ -61982,7 +61982,7 @@ let data = [|
     latex: "^{172}\\mathrm{W}",
   },
   {
-    pdg: (-1000741720),
+    pdg: -1000741720,
     name: "W172~",
     mass: Some(160168.0063788),
     width: None,
@@ -62008,7 +62008,7 @@ let data = [|
     latex: "^{173}\\mathrm{W}",
   },
   {
-    pdg: (-1000741730),
+    pdg: -1000741730,
     name: "W173~",
     mass: Some(161099.8823864),
     width: None,
@@ -62034,7 +62034,7 @@ let data = [|
     latex: "^{174}\\mathrm{W}",
   },
   {
-    pdg: (-1000741740),
+    pdg: -1000741740,
     name: "W174~",
     mass: Some(162029.8208862),
     width: None,
@@ -62060,7 +62060,7 @@ let data = [|
     latex: "^{175}\\mathrm{W}",
   },
   {
-    pdg: (-1000741750),
+    pdg: -1000741750,
     name: "W175~",
     mass: Some(162961.8831926),
     width: None,
@@ -62086,7 +62086,7 @@ let data = [|
     latex: "^{176}\\mathrm{W}",
   },
   {
-    pdg: (-1000741760),
+    pdg: -1000741760,
     name: "W176~",
     mass: Some(163892.2781246),
     width: None,
@@ -62112,7 +62112,7 @@ let data = [|
     latex: "^{177}\\mathrm{W}",
   },
   {
-    pdg: (-1000741770),
+    pdg: -1000741770,
     name: "W177~",
     mass: Some(164824.7316585),
     width: None,
@@ -62138,7 +62138,7 @@ let data = [|
     latex: "^{178}\\mathrm{W}",
   },
   {
-    pdg: (-1000741780),
+    pdg: -1000741780,
     name: "W178~",
     mass: Some(165755.508503),
     width: None,
@@ -62164,7 +62164,7 @@ let data = [|
     latex: "^{179}\\mathrm{W}",
   },
   {
-    pdg: (-1000741790),
+    pdg: -1000741790,
     name: "W179~",
     mass: Some(166688.1408838),
     width: None,
@@ -62190,7 +62190,7 @@ let data = [|
     latex: "^{180}\\mathrm{W}",
   },
   {
-    pdg: (-1000741800),
+    pdg: -1000741800,
     name: "W180~",
     mass: Some(167619.2940519),
     width: None,
@@ -62216,7 +62216,7 @@ let data = [|
     latex: "^{181}\\mathrm{W}",
   },
   {
-    pdg: (-1000741810),
+    pdg: -1000741810,
     name: "W181~",
     mass: Some(168552.1779361),
     width: None,
@@ -62242,7 +62242,7 @@ let data = [|
     latex: "^{182}\\mathrm{W}",
   },
   {
-    pdg: (-1000741820),
+    pdg: -1000741820,
     name: "W182~",
     mass: Some(169483.6794831),
     width: None,
@@ -62268,7 +62268,7 @@ let data = [|
     latex: "^{183}\\mathrm{W}",
   },
   {
-    pdg: (-1000741830),
+    pdg: -1000741830,
     name: "W183~",
     mass: Some(170417.0537989),
     width: None,
@@ -62294,7 +62294,7 @@ let data = [|
     latex: "^{184}\\mathrm{W}",
   },
   {
-    pdg: (-1000741840),
+    pdg: -1000741840,
     name: "W184~",
     mass: Some(171349.2074848),
     width: None,
@@ -62320,7 +62320,7 @@ let data = [|
     latex: "^{185}\\mathrm{W}",
   },
   {
-    pdg: (-1000741850),
+    pdg: -1000741850,
     name: "W185~",
     mass: Some(172283.0191371),
     width: None,
@@ -62346,7 +62346,7 @@ let data = [|
     latex: "^{186}\\mathrm{W}",
   },
   {
-    pdg: (-1000741860),
+    pdg: -1000741860,
     name: "W186~",
     mass: Some(173215.3901407),
     width: None,
@@ -62372,7 +62372,7 @@ let data = [|
     latex: "^{187}\\mathrm{W}",
   },
   {
-    pdg: (-1000741870),
+    pdg: -1000741870,
     name: "W187~",
     mass: Some(174149.4886931),
     width: None,
@@ -62398,7 +62398,7 @@ let data = [|
     latex: "^{188}\\mathrm{W}",
   },
   {
-    pdg: (-1000741880),
+    pdg: -1000741880,
     name: "W188~",
     mass: Some(175082.2207438),
     width: None,
@@ -62424,7 +62424,7 @@ let data = [|
     latex: "^{189}\\mathrm{W}",
   },
   {
-    pdg: (-1000741890),
+    pdg: -1000741890,
     name: "W189~",
     mass: Some(176016.9033431),
     width: None,
@@ -62450,7 +62450,7 @@ let data = [|
     latex: "^{190}\\mathrm{W}",
   },
   {
-    pdg: (-1000741900),
+    pdg: -1000741900,
     name: "W190~",
     mass: Some(176949.5804356),
     width: None,
@@ -62476,7 +62476,7 @@ let data = [|
     latex: "^{160}\\mathrm{Re}",
   },
   {
-    pdg: (-1000751600),
+    pdg: -1000751600,
     name: "Re160~",
     mass: Some(149021.8132427),
     width: None,
@@ -62502,7 +62502,7 @@ let data = [|
     latex: "^{161}\\mathrm{Re}",
   },
   {
-    pdg: (-1000751610),
+    pdg: -1000751610,
     name: "Re161~",
     mass: Some(149949.7397153),
     width: None,
@@ -62528,7 +62528,7 @@ let data = [|
     latex: "^{162}\\mathrm{Re}",
   },
   {
-    pdg: (-1000751620),
+    pdg: -1000751620,
     name: "Re162~",
     mass: Some(150879.4173968),
     width: None,
@@ -62554,7 +62554,7 @@ let data = [|
     latex: "^{163}\\mathrm{Re}",
   },
   {
-    pdg: (-1000751630),
+    pdg: -1000751630,
     name: "Re163~",
     mass: Some(151807.4277039),
     width: None,
@@ -62580,7 +62580,7 @@ let data = [|
     latex: "^{164}\\mathrm{Re}",
   },
   {
-    pdg: (-1000751640),
+    pdg: -1000751640,
     name: "Re164~",
     mass: Some(152737.3848336),
     width: None,
@@ -62606,7 +62606,7 @@ let data = [|
     latex: "^{165}\\mathrm{Re}",
   },
   {
-    pdg: (-1000751650),
+    pdg: -1000751650,
     name: "Re165~",
     mass: Some(153665.8329429),
     width: None,
@@ -62632,7 +62632,7 @@ let data = [|
     latex: "^{166}\\mathrm{Re}",
   },
   {
-    pdg: (-1000751660),
+    pdg: -1000751660,
     name: "Re166~",
     mass: Some(154596.1626703),
     width: None,
@@ -62658,7 +62658,7 @@ let data = [|
     latex: "^{167}\\mathrm{Re}",
   },
   {
-    pdg: (-1000751670),
+    pdg: -1000751670,
     name: "Re167~",
     mass: Some(155524.6387244),
     width: None,
@@ -62684,7 +62684,7 @@ let data = [|
     latex: "^{168}\\mathrm{Re}",
   },
   {
-    pdg: (-1000751680),
+    pdg: -1000751680,
     name: "Re168~",
     mass: Some(156455.2479),
     width: None,
@@ -62710,7 +62710,7 @@ let data = [|
     latex: "^{169}\\mathrm{Re}",
   },
   {
-    pdg: (-1000751690),
+    pdg: -1000751690,
     name: "Re169~",
     mass: Some(157384.1524414),
     width: None,
@@ -62736,7 +62736,7 @@ let data = [|
     latex: "^{170}\\mathrm{Re}",
   },
   {
-    pdg: (-1000751700),
+    pdg: -1000751700,
     name: "Re170~",
     mass: Some(158315.0224354),
     width: None,
@@ -62762,7 +62762,7 @@ let data = [|
     latex: "^{171}\\mathrm{Re}",
   },
   {
-    pdg: (-1000751710),
+    pdg: -1000751710,
     name: "Re171~",
     mass: Some(159244.0853308),
     width: None,
@@ -62788,7 +62788,7 @@ let data = [|
     latex: "^{172}\\mathrm{Re}",
   },
   {
-    pdg: (-1000751720),
+    pdg: -1000751720,
     name: "Re172~",
     mass: Some(160175.3372373),
     width: None,
@@ -62814,7 +62814,7 @@ let data = [|
     latex: "^{173}\\mathrm{Re}",
   },
   {
-    pdg: (-1000751730),
+    pdg: -1000751730,
     name: "Re173~",
     mass: Some(161104.7541005),
     width: None,
@@ -62840,7 +62840,7 @@ let data = [|
     latex: "^{174}\\mathrm{Re}",
   },
   {
-    pdg: (-1000751740),
+    pdg: -1000751740,
     name: "Re174~",
     mass: Some(162036.2947702),
     width: None,
@@ -62866,7 +62866,7 @@ let data = [|
     latex: "^{175}\\mathrm{Re}",
   },
   {
-    pdg: (-1000751750),
+    pdg: -1000751750,
     name: "Re175~",
     mass: Some(162966.1866953),
     width: None,
@@ -62892,7 +62892,7 @@ let data = [|
     latex: "^{176}\\mathrm{Re}",
   },
   {
-    pdg: (-1000751760),
+    pdg: -1000751760,
     name: "Re176~",
     mass: Some(163897.8484592),
     width: None,
@@ -62918,7 +62918,7 @@ let data = [|
     latex: "^{177}\\mathrm{Re}",
   },
   {
-    pdg: (-1000751770),
+    pdg: -1000751770,
     name: "Re177~",
     mass: Some(164828.1316119),
     width: None,
@@ -62944,7 +62944,7 @@ let data = [|
     latex: "^{178}\\mathrm{Re}",
   },
   {
-    pdg: (-1000751780),
+    pdg: -1000751780,
     name: "Re178~",
     mass: Some(165760.1659735),
     width: None,
@@ -62970,7 +62970,7 @@ let data = [|
     latex: "^{179}\\mathrm{Re}",
   },
   {
-    pdg: (-1000751790),
+    pdg: -1000751790,
     name: "Re179~",
     mass: Some(166690.8496686),
     width: None,
@@ -62996,7 +62996,7 @@ let data = [|
     latex: "^{180}\\mathrm{Re}",
   },
   {
-    pdg: (-1000751800),
+    pdg: -1000751800,
     name: "Re180~",
     mass: Some(167623.0982738),
     width: None,
@@ -63022,7 +63022,7 @@ let data = [|
     latex: "^{181}\\mathrm{Re}",
   },
   {
-    pdg: (-1000751810),
+    pdg: -1000751810,
     name: "Re181~",
     mass: Some(168553.9170356),
     width: None,
@@ -63048,7 +63048,7 @@ let data = [|
     latex: "^{182}\\mathrm{Re}",
   },
   {
-    pdg: (-1000751820),
+    pdg: -1000751820,
     name: "Re182~",
     mass: Some(169486.4776913),
     width: None,
@@ -63074,7 +63074,7 @@ let data = [|
     latex: "^{183}\\mathrm{Re}",
   },
   {
-    pdg: (-1000751830),
+    pdg: -1000751830,
     name: "Re183~",
     mass: Some(170417.6094351),
     width: None,
@@ -63100,7 +63100,7 @@ let data = [|
     latex: "^{184}\\mathrm{Re}",
   },
   {
-    pdg: (-1000751840),
+    pdg: -1000751840,
     name: "Re184~",
     mass: Some(171350.6898645),
     width: None,
@@ -63126,7 +63126,7 @@ let data = [|
     latex: "^{185}\\mathrm{Re}",
   },
   {
-    pdg: (-1000751850),
+    pdg: -1000751850,
     name: "Re185~",
     mass: Some(172282.5860855),
     width: None,
@@ -63152,7 +63152,7 @@ let data = [|
     latex: "^{186}\\mathrm{Re}",
   },
   {
-    pdg: (-1000751860),
+    pdg: -1000751860,
     name: "Re186~",
     mass: Some(173215.9723245),
     width: None,
@@ -63178,7 +63178,7 @@ let data = [|
     latex: "^{187}\\mathrm{Re}",
   },
   {
-    pdg: (-1000751870),
+    pdg: -1000751870,
     name: "Re187~",
     mass: Some(174148.1778946),
     width: None,
@@ -63204,7 +63204,7 @@ let data = [|
     latex: "^{188}\\mathrm{Re}",
   },
   {
-    pdg: (-1000751880),
+    pdg: -1000751880,
     name: "Re188~",
     mass: Some(175081.8717129),
     width: None,
@@ -63230,7 +63230,7 @@ let data = [|
     latex: "^{189}\\mathrm{Re}",
   },
   {
-    pdg: (-1000751890),
+    pdg: -1000751890,
     name: "Re189~",
     mass: Some(176014.4050759),
     width: None,
@@ -63256,7 +63256,7 @@ let data = [|
     latex: "^{190}\\mathrm{Re}",
   },
   {
-    pdg: (-1000751900),
+    pdg: -1000751900,
     name: "Re190~",
     mass: Some(176948.3136036),
     width: None,
@@ -63282,7 +63282,7 @@ let data = [|
     latex: "^{191}\\mathrm{Re}",
   },
   {
-    pdg: (-1000751910),
+    pdg: -1000751910,
     name: "Re191~",
     mass: Some(177881.0223669),
     width: None,
@@ -63308,7 +63308,7 @@ let data = [|
     latex: "^{192}\\mathrm{Re}",
   },
   {
-    pdg: (-1000751920),
+    pdg: -1000751920,
     name: "Re192~",
     mass: Some(178815.1581791),
     width: None,
@@ -63334,7 +63334,7 @@ let data = [|
     latex: "^{162}\\mathrm{Os}",
   },
   {
-    pdg: (-1000761620),
+    pdg: -1000761620,
     name: "Os162~",
     mass: Some(150886.9718139),
     width: None,
@@ -63360,7 +63360,7 @@ let data = [|
     latex: "^{163}\\mathrm{Os}",
   },
   {
-    pdg: (-1000761630),
+    pdg: -1000761630,
     name: "Os163~",
     mass: Some(151816.8171644),
     width: None,
@@ -63386,7 +63386,7 @@ let data = [|
     latex: "^{164}\\mathrm{Os}",
   },
   {
-    pdg: (-1000761640),
+    pdg: -1000761640,
     name: "Os164~",
     mass: Some(152744.4735037),
     width: None,
@@ -63412,7 +63412,7 @@ let data = [|
     latex: "^{165}\\mathrm{Os}",
   },
   {
-    pdg: (-1000761650),
+    pdg: -1000761650,
     name: "Os165~",
     mass: Some(153674.6169323),
     width: None,
@@ -63438,7 +63438,7 @@ let data = [|
     latex: "^{166}\\mathrm{Os}",
   },
   {
-    pdg: (-1000761660),
+    pdg: -1000761660,
     name: "Os166~",
     mass: Some(154602.4316256),
     width: None,
@@ -63464,7 +63464,7 @@ let data = [|
     latex: "^{167}\\mathrm{Os}",
   },
   {
-    pdg: (-1000761670),
+    pdg: -1000761670,
     name: "Os167~",
     mass: Some(155533.0128564),
     width: None,
@@ -63490,7 +63490,7 @@ let data = [|
     latex: "^{168}\\mathrm{Os}",
   },
   {
-    pdg: (-1000761680),
+    pdg: -1000761680,
     name: "Os168~",
     mass: Some(156461.0417933),
     width: None,
@@ -63516,7 +63516,7 @@ let data = [|
     latex: "^{169}\\mathrm{Os}",
   },
   {
-    pdg: (-1000761690),
+    pdg: -1000761690,
     name: "Os169~",
     mass: Some(157391.8372677),
     width: None,
@@ -63542,7 +63542,7 @@ let data = [|
     latex: "^{170}\\mathrm{Os}",
   },
   {
-    pdg: (-1000761700),
+    pdg: -1000761700,
     name: "Os170~",
     mass: Some(158320.0618184),
     width: None,
@@ -63568,7 +63568,7 @@ let data = [|
     latex: "^{171}\\mathrm{Os}",
   },
   {
-    pdg: (-1000761710),
+    pdg: -1000761710,
     name: "Os171~",
     mass: Some(159251.0622216),
     width: None,
@@ -63594,7 +63594,7 @@ let data = [|
     latex: "^{172}\\mathrm{Os}",
   },
   {
-    pdg: (-1000761720),
+    pdg: -1000761720,
     name: "Os172~",
     mass: Some(160179.799094),
     width: None,
@@ -63620,7 +63620,7 @@ let data = [|
     latex: "^{173}\\mathrm{Os}",
   },
   {
-    pdg: (-1000761730),
+    pdg: -1000761730,
     name: "Os173~",
     mass: Some(161111.0230557),
     width: None,
@@ -63646,7 +63646,7 @@ let data = [|
     latex: "^{174}\\mathrm{Os}",
   },
   {
-    pdg: (-1000761740),
+    pdg: -1000761740,
     name: "Os174~",
     mass: Some(162040.0300615),
     width: None,
@@ -63672,7 +63672,7 @@ let data = [|
     latex: "^{175}\\mathrm{Os}",
   },
   {
-    pdg: (-1000761750),
+    pdg: -1000761750,
     name: "Os175~",
     mass: Some(162971.4868967),
     width: None,
@@ -63698,7 +63698,7 @@ let data = [|
     latex: "^{176}\\mathrm{Os}",
   },
   {
-    pdg: (-1000761760),
+    pdg: -1000761760,
     name: "Os176~",
     mass: Some(163900.9969093),
     width: None,
@@ -63724,7 +63724,7 @@ let data = [|
     latex: "^{177}\\mathrm{Os}",
   },
   {
-    pdg: (-1000761770),
+    pdg: -1000761770,
     name: "Os177~",
     mass: Some(164832.5841537),
     width: None,
@@ -63750,7 +63750,7 @@ let data = [|
     latex: "^{178}\\mathrm{Os}",
   },
   {
-    pdg: (-1000761780),
+    pdg: -1000761780,
     name: "Os178~",
     mass: Some(165762.4947087),
     width: None,
@@ -63776,7 +63776,7 @@ let data = [|
     latex: "^{179}\\mathrm{Os}",
   },
   {
-    pdg: (-1000761790),
+    pdg: -1000761790,
     name: "Os179~",
     mass: Some(166694.5477002),
     width: None,
@@ -63802,7 +63802,7 @@ let data = [|
     latex: "^{180}\\mathrm{Os}",
   },
   {
-    pdg: (-1000761800),
+    pdg: -1000761800,
     name: "Os180~",
     mass: Some(167624.5514046),
     width: None,
@@ -63828,7 +63828,7 @@ let data = [|
     latex: "^{181}\\mathrm{Os}",
   },
   {
-    pdg: (-1000761810),
+    pdg: -1000761810,
     name: "Os181~",
     mass: Some(168556.9024742),
     width: None,
@@ -63854,7 +63854,7 @@ let data = [|
     latex: "^{182}\\mathrm{Os}",
   },
   {
-    pdg: (-1000761820),
+    pdg: -1000761820,
     name: "Os182~",
     mass: Some(169487.3868295),
     width: None,
@@ -63880,7 +63880,7 @@ let data = [|
     latex: "^{183}\\mathrm{Os}",
   },
   {
-    pdg: (-1000761830),
+    pdg: -1000761830,
     name: "Os183~",
     mass: Some(170419.7416251),
     width: None,
@@ -63906,7 +63906,7 @@ let data = [|
     latex: "^{184}\\mathrm{Os}",
   },
   {
-    pdg: (-1000761840),
+    pdg: -1000761840,
     name: "Os184~",
     mass: Some(171350.6591252),
     width: None,
@@ -63932,7 +63932,7 @@ let data = [|
     latex: "^{185}\\mathrm{Os}",
   },
   {
-    pdg: (-1000761850),
+    pdg: -1000761850,
     name: "Os185~",
     mass: Some(172283.5988991),
     width: None,
@@ -63958,7 +63958,7 @@ let data = [|
     latex: "^{186}\\mathrm{Os}",
   },
   {
-    pdg: (-1000761860),
+    pdg: -1000761860,
     name: "Os186~",
     mass: Some(173214.9020378),
     width: None,
@@ -63984,7 +63984,7 @@ let data = [|
     latex: "^{187}\\mathrm{Os}",
   },
   {
-    pdg: (-1000761870),
+    pdg: -1000761870,
     name: "Os187~",
     mass: Some(174148.1751933),
     width: None,
@@ -64010,7 +64010,7 @@ let data = [|
     latex: "^{188}\\mathrm{Os}",
   },
   {
-    pdg: (-1000761880),
+    pdg: -1000761880,
     name: "Os188~",
     mass: Some(175079.7513529),
     width: None,
@@ -64036,7 +64036,7 @@ let data = [|
     latex: "^{189}\\mathrm{Os}",
   },
   {
-    pdg: (-1000761890),
+    pdg: -1000761890,
     name: "Os189~",
     mass: Some(176013.3961746),
     width: None,
@@ -64062,7 +64062,7 @@ let data = [|
     latex: "^{190}\\mathrm{Os}",
   },
   {
-    pdg: (-1000761900),
+    pdg: -1000761900,
     name: "Os190~",
     mass: Some(176945.169811),
     width: None,
@@ -64088,7 +64088,7 @@ let data = [|
     latex: "^{191}\\mathrm{Os}",
   },
   {
-    pdg: (-1000761910),
+    pdg: -1000761910,
     name: "Os191~",
     mass: Some(177878.9768058),
     width: None,
@@ -64114,7 +64114,7 @@ let data = [|
     latex: "^{192}\\mathrm{Os}",
   },
   {
-    pdg: (-1000761920),
+    pdg: -1000761920,
     name: "Os192~",
     mass: Some(178810.9841541),
     width: None,
@@ -64140,7 +64140,7 @@ let data = [|
     latex: "^{193}\\mathrm{Os}",
   },
   {
-    pdg: (-1000761930),
+    pdg: -1000761930,
     name: "Os193~",
     mass: Some(179744.9644068),
     width: None,
@@ -64166,7 +64166,7 @@ let data = [|
     latex: "^{194}\\mathrm{Os}",
   },
   {
-    pdg: (-1000761940),
+    pdg: -1000761940,
     name: "Os194~",
     mass: Some(180677.4188722),
     width: None,
@@ -64192,7 +64192,7 @@ let data = [|
     latex: "^{195}\\mathrm{Os}",
   },
   {
-    pdg: (-1000761950),
+    pdg: -1000761950,
     name: "Os195~",
     mass: Some(181611.6524913),
     width: None,
@@ -64218,7 +64218,7 @@ let data = [|
     latex: "^{196}\\mathrm{Os}",
   },
   {
-    pdg: (-1000761960),
+    pdg: -1000761960,
     name: "Os196~",
     mass: Some(182544.5438275),
     width: None,
@@ -64244,7 +64244,7 @@ let data = [|
     latex: "^{165}\\mathrm{Ir}",
   },
   {
-    pdg: (-1000771650),
+    pdg: -1000771650,
     name: "Ir165~",
     mass: Some(153684.9565167),
     width: None,
@@ -64270,7 +64270,7 @@ let data = [|
     latex: "^{166}\\mathrm{Ir}",
   },
   {
-    pdg: (-1000771660),
+    pdg: -1000771660,
     name: "Ir166~",
     mass: Some(154614.5224189),
     width: None,
@@ -64296,7 +64296,7 @@ let data = [|
     latex: "^{167}\\mathrm{Ir}",
   },
   {
-    pdg: (-1000771670),
+    pdg: -1000771670,
     name: "Ir167~",
     mass: Some(155542.3184824),
     width: None,
@@ -64322,7 +64322,7 @@ let data = [|
     latex: "^{168}\\mathrm{Ir}",
   },
   {
-    pdg: (-1000771680),
+    pdg: -1000771680,
     name: "Ir168~",
     mass: Some(156472.3501316),
     width: None,
@@ -64348,7 +64348,7 @@ let data = [|
     latex: "^{169}\\mathrm{Ir}",
   },
   {
-    pdg: (-1000771690),
+    pdg: -1000771690,
     name: "Ir169~",
     mass: Some(157400.5094778),
     width: None,
@@ -64374,7 +64374,7 @@ let data = [|
     latex: "^{170}\\mathrm{Ir}",
   },
   {
-    pdg: (-1000771700),
+    pdg: -1000771700,
     name: "Ir170~",
     mass: Some(158330.7367408),
     width: None,
@@ -64400,7 +64400,7 @@ let data = [|
     latex: "^{171}\\mathrm{Ir}",
   },
   {
-    pdg: (-1000771710),
+    pdg: -1000771710,
     name: "Ir171~",
     mass: Some(159259.20348),
     width: None,
@@ -64426,7 +64426,7 @@ let data = [|
     latex: "^{172}\\mathrm{Ir}",
   },
   {
-    pdg: (-1000771720),
+    pdg: -1000771720,
     name: "Ir172~",
     mass: Some(160189.6356717),
     width: None,
@@ -64452,7 +64452,7 @@ let data = [|
     latex: "^{173}\\mathrm{Ir}",
   },
   {
-    pdg: (-1000771730),
+    pdg: -1000771730,
     name: "Ir173~",
     mass: Some(161118.400489),
     width: None,
@@ -64478,7 +64478,7 @@ let data = [|
     latex: "^{174}\\mathrm{Ir}",
   },
   {
-    pdg: (-1000771740),
+    pdg: -1000771740,
     name: "Ir174~",
     mass: Some(162049.0469243),
     width: None,
@@ -64504,7 +64504,7 @@ let data = [|
     latex: "^{175}\\mathrm{Ir}",
   },
   {
-    pdg: (-1000771750),
+    pdg: -1000771750,
     name: "Ir175~",
     mass: Some(162978.1936542),
     width: None,
@@ -64530,7 +64530,7 @@ let data = [|
     latex: "^{176}\\mathrm{Ir}",
   },
   {
-    pdg: (-1000771760),
+    pdg: -1000771760,
     name: "Ir176~",
     mass: Some(163908.9704987),
     width: None,
@@ -64556,7 +64556,7 @@ let data = [|
     latex: "^{177}\\mathrm{Ir}",
   },
   {
-    pdg: (-1000771770),
+    pdg: -1000771770,
     name: "Ir177~",
     mass: Some(164838.2848975),
     width: None,
@@ -64582,7 +64582,7 @@ let data = [|
     latex: "^{178}\\mathrm{Ir}",
   },
   {
-    pdg: (-1000771780),
+    pdg: -1000771780,
     name: "Ir178~",
     mass: Some(165769.6951581),
     width: None,
@@ -64608,7 +64608,7 @@ let data = [|
     latex: "^{179}\\mathrm{Ir}",
   },
   {
-    pdg: (-1000771790),
+    pdg: -1000771790,
     name: "Ir179~",
     mass: Some(166699.3914695),
     width: None,
@@ -64634,7 +64634,7 @@ let data = [|
     latex: "^{180}\\mathrm{Ir}",
   },
   {
-    pdg: (-1000771800),
+    pdg: -1000771800,
     name: "Ir180~",
     mass: Some(167630.9787139),
     width: None,
@@ -64660,7 +64660,7 @@ let data = [|
     latex: "^{181}\\mathrm{Ir}",
   },
   {
-    pdg: (-1000771810),
+    pdg: -1000771810,
     name: "Ir181~",
     mass: Some(168560.9731034),
     width: None,
@@ -64686,7 +64686,7 @@ let data = [|
     latex: "^{182}\\mathrm{Ir}",
   },
   {
-    pdg: (-1000771820),
+    pdg: -1000771820,
     name: "Ir182~",
     mass: Some(169492.9236304),
     width: None,
@@ -64712,7 +64712,7 @@ let data = [|
     latex: "^{183}\\mathrm{Ir}",
   },
   {
-    pdg: (-1000771830),
+    pdg: -1000771830,
     name: "Ir183~",
     mass: Some(170423.1881532),
     width: None,
@@ -64738,7 +64738,7 @@ let data = [|
     latex: "^{184}\\mathrm{Ir}",
   },
   {
-    pdg: (-1000771840),
+    pdg: -1000771840,
     name: "Ir184~",
     mass: Some(171355.2225148),
     width: None,
@@ -64764,7 +64764,7 @@ let data = [|
     latex: "^{185}\\mathrm{Ir}",
   },
   {
-    pdg: (-1000771850),
+    pdg: -1000771850,
     name: "Ir185~",
     mass: Some(172285.9714145),
     width: None,
@@ -64790,7 +64790,7 @@ let data = [|
     latex: "^{186}\\mathrm{Ir}",
   },
   {
-    pdg: (-1000771860),
+    pdg: -1000771860,
     name: "Ir186~",
     mass: Some(173218.733273),
     width: None,
@@ -64816,7 +64816,7 @@ let data = [|
     latex: "^{187}\\mathrm{Ir}",
   },
   {
-    pdg: (-1000771870),
+    pdg: -1000771870,
     name: "Ir187~",
     mass: Some(174149.6777864),
     width: None,
@@ -64842,7 +64842,7 @@ let data = [|
     latex: "^{188}\\mathrm{Ir}",
   },
   {
-    pdg: (-1000771880),
+    pdg: -1000771880,
     name: "Ir188~",
     mass: Some(175082.5607391),
     width: None,
@@ -64868,7 +64868,7 @@ let data = [|
     latex: "^{189}\\mathrm{Ir}",
   },
   {
-    pdg: (-1000771890),
+    pdg: -1000771890,
     name: "Ir189~",
     mass: Some(176013.9281509),
     width: None,
@@ -64894,7 +64894,7 @@ let data = [|
     latex: "^{190}\\mathrm{Ir}",
   },
   {
-    pdg: (-1000771900),
+    pdg: -1000771900,
     name: "Ir190~",
     mass: Some(176947.1678658),
     width: None,
@@ -64920,7 +64920,7 @@ let data = [|
     latex: "^{191}\\mathrm{Ir}",
   },
   {
-    pdg: (-1000771910),
+    pdg: -1000771910,
     name: "Ir191~",
     mass: Some(177878.6628923),
     width: None,
@@ -64946,7 +64946,7 @@ let data = [|
     latex: "^{192}\\mathrm{Ir}",
   },
   {
-    pdg: (-1000771920),
+    pdg: -1000771920,
     name: "Ir192~",
     mass: Some(178812.0302219),
     width: None,
@@ -64972,7 +64972,7 @@ let data = [|
     latex: "^{193}\\mathrm{Ir}",
   },
   {
-    pdg: (-1000771930),
+    pdg: -1000771930,
     name: "Ir193~",
     mass: Some(179743.824258),
     width: None,
@@ -64998,7 +64998,7 @@ let data = [|
     latex: "^{194}\\mathrm{Ir}",
   },
   {
-    pdg: (-1000771940),
+    pdg: -1000771940,
     name: "Ir194~",
     mass: Some(180677.3229283),
     width: None,
@@ -65024,7 +65024,7 @@ let data = [|
     latex: "^{195}\\mathrm{Ir}",
   },
   {
-    pdg: (-1000771950),
+    pdg: -1000771950,
     name: "Ir195~",
     mass: Some(181609.6562995),
     width: None,
@@ -65050,7 +65050,7 @@ let data = [|
     latex: "^{196}\\mathrm{Ir}",
   },
   {
-    pdg: (-1000771960),
+    pdg: -1000771960,
     name: "Ir196~",
     mass: Some(182543.3887748),
     width: None,
@@ -65076,7 +65076,7 @@ let data = [|
     latex: "^{197}\\mathrm{Ir}",
   },
   {
-    pdg: (-1000771970),
+    pdg: -1000771970,
     name: "Ir197~",
     mass: Some(183476.0528264),
     width: None,
@@ -65102,7 +65102,7 @@ let data = [|
     latex: "^{198}\\mathrm{Ir}",
   },
   {
-    pdg: (-1000771980),
+    pdg: -1000771980,
     name: "Ir198~",
     mass: Some(184410.0097917),
     width: None,
@@ -65128,7 +65128,7 @@ let data = [|
     latex: "^{199}\\mathrm{Ir}",
   },
   {
-    pdg: (-1000771990),
+    pdg: -1000771990,
     name: "Ir199~",
     mass: Some(185342.9104428),
     width: None,
@@ -65154,7 +65154,7 @@ let data = [|
     latex: "^{168}\\mathrm{Pt}",
   },
   {
-    pdg: (-1000781680),
+    pdg: -1000781680,
     name: "Pt168~",
     mass: Some(156479.867289),
     width: None,
@@ -65180,7 +65180,7 @@ let data = [|
     latex: "^{169}\\mathrm{Pt}",
   },
   {
-    pdg: (-1000781690),
+    pdg: -1000781690,
     name: "Pt169~",
     mass: Some(157409.8523635),
     width: None,
@@ -65206,7 +65206,7 @@ let data = [|
     latex: "^{170}\\mathrm{Pt}",
   },
   {
-    pdg: (-1000781700),
+    pdg: -1000781700,
     name: "Pt170~",
     mass: Some(158337.5366477),
     width: None,
@@ -65232,7 +65232,7 @@ let data = [|
     latex: "^{171}\\mathrm{Pt}",
   },
   {
-    pdg: (-1000781710),
+    pdg: -1000781710,
     name: "Pt171~",
     mass: Some(159268.024729),
     width: None,
@@ -65258,7 +65258,7 @@ let data = [|
     latex: "^{172}\\mathrm{Pt}",
   },
   {
-    pdg: (-1000781720),
+    pdg: -1000781720,
     name: "Pt172~",
     mass: Some(160195.9139419),
     width: None,
@@ -65284,7 +65284,7 @@ let data = [|
     latex: "^{173}\\mathrm{Pt}",
   },
   {
-    pdg: (-1000781730),
+    pdg: -1000781730,
     name: "Pt173~",
     mass: Some(161126.5883221),
     width: None,
@@ -65310,7 +65310,7 @@ let data = [|
     latex: "^{174}\\mathrm{Pt}",
   },
   {
-    pdg: (-1000781740),
+    pdg: -1000781740,
     name: "Pt174~",
     mass: Some(162054.6461353),
     width: None,
@@ -65336,7 +65336,7 @@ let data = [|
     latex: "^{175}\\mathrm{Pt}",
   },
   {
-    pdg: (-1000781750),
+    pdg: -1000781750,
     name: "Pt175~",
     mass: Some(162985.645607),
     width: None,
@@ -65362,7 +65362,7 @@ let data = [|
     latex: "^{176}\\mathrm{Pt}",
   },
   {
-    pdg: (-1000781760),
+    pdg: -1000781760,
     name: "Pt176~",
     mass: Some(163914.0844013),
     width: None,
@@ -65388,7 +65388,7 @@ let data = [|
     latex: "^{177}\\mathrm{Pt}",
   },
   {
-    pdg: (-1000781770),
+    pdg: -1000781770,
     name: "Pt177~",
     mass: Some(164845.0661746),
     width: None,
@@ -65414,7 +65414,7 @@ let data = [|
     latex: "^{178}\\mathrm{Pt}",
   },
   {
-    pdg: (-1000781780),
+    pdg: -1000781780,
     name: "Pt178~",
     mass: Some(165774.0079757),
     width: None,
@@ -65440,7 +65440,7 @@ let data = [|
     latex: "^{179}\\mathrm{Pt}",
   },
   {
-    pdg: (-1000781790),
+    pdg: -1000781790,
     name: "Pt179~",
     mass: Some(166705.2878271),
     width: None,
@@ -65466,7 +65466,7 @@ let data = [|
     latex: "^{180}\\mathrm{Pt}",
   },
   {
-    pdg: (-1000781800),
+    pdg: -1000781800,
     name: "Pt180~",
     mass: Some(167634.6767454),
     width: None,
@@ -65492,7 +65492,7 @@ let data = [|
     latex: "^{181}\\mathrm{Pt}",
   },
   {
-    pdg: (-1000781810),
+    pdg: -1000781810,
     name: "Pt181~",
     mass: Some(168566.1335806),
     width: None,
@@ -65518,7 +65518,7 @@ let data = [|
     latex: "^{182}\\mathrm{Pt}",
   },
   {
-    pdg: (-1000781820),
+    pdg: -1000781820,
     name: "Pt182~",
     mass: Some(169495.8485219),
     width: None,
@@ -65544,7 +65544,7 @@ let data = [|
     latex: "^{183}\\mathrm{Pt}",
   },
   {
-    pdg: (-1000781830),
+    pdg: -1000781830,
     name: "Pt183~",
     mass: Some(170427.7711042),
     width: None,
@@ -65570,7 +65570,7 @@ let data = [|
     latex: "^{184}\\mathrm{Pt}",
   },
   {
-    pdg: (-1000781840),
+    pdg: -1000781840,
     name: "Pt184~",
     mass: Some(171357.560565),
     width: None,
@@ -65596,7 +65596,7 @@ let data = [|
     latex: "^{185}\\mathrm{Pt}",
   },
   {
-    pdg: (-1000781850),
+    pdg: -1000781850,
     name: "Pt185~",
     mass: Some(172289.8464299),
     width: None,
@@ -65622,7 +65622,7 @@ let data = [|
     latex: "^{186}\\mathrm{Pt}",
   },
   {
-    pdg: (-1000781860),
+    pdg: -1000781860,
     name: "Pt186~",
     mass: Some(173220.1109527),
     width: None,
@@ -65648,7 +65648,7 @@ let data = [|
     latex: "^{187}\\mathrm{Pt}",
   },
   {
-    pdg: (-1000781870),
+    pdg: -1000781870,
     name: "Pt187~",
     mass: Some(174152.6576361),
     width: None,
@@ -65674,7 +65674,7 @@ let data = [|
     latex: "^{188}\\mathrm{Pt}",
   },
   {
-    pdg: (-1000781880),
+    pdg: -1000781880,
     name: "Pt188~",
     mass: Some(175083.0674719),
     width: None,
@@ -65700,7 +65700,7 @@ let data = [|
     latex: "^{189}\\mathrm{Pt}",
   },
   {
-    pdg: (-1000781890),
+    pdg: -1000781890,
     name: "Pt189~",
     mass: Some(176015.8991924),
     width: None,
@@ -65726,7 +65726,7 @@ let data = [|
     latex: "^{190}\\mathrm{Pt}",
   },
   {
-    pdg: (-1000781900),
+    pdg: -1000781900,
     name: "Pt190~",
     mass: Some(176946.5530797),
     width: None,
@@ -65752,7 +65752,7 @@ let data = [|
     latex: "^{191}\\mathrm{Pt}",
   },
   {
-    pdg: (-1000781910),
+    pdg: -1000781910,
     name: "Pt191~",
     mass: Some(177879.6819469),
     width: None,
@@ -65778,7 +65778,7 @@ let data = [|
     latex: "^{192}\\mathrm{Pt}",
   },
   {
-    pdg: (-1000781920),
+    pdg: -1000781920,
     name: "Pt192~",
     mass: Some(178810.5705707),
     width: None,
@@ -65804,7 +65804,7 @@ let data = [|
     latex: "^{193}\\mathrm{Pt}",
   },
   {
-    pdg: (-1000781930),
+    pdg: -1000781930,
     name: "Pt193~",
     mass: Some(179743.8810792),
     width: None,
@@ -65830,7 +65830,7 @@ let data = [|
     latex: "^{194}\\mathrm{Pt}",
   },
   {
-    pdg: (-1000781940),
+    pdg: -1000781940,
     name: "Pt194~",
     mass: Some(180675.0761646),
     width: None,
@@ -65856,7 +65856,7 @@ let data = [|
     latex: "^{195}\\mathrm{Pt}",
   },
   {
-    pdg: (-1000781950),
+    pdg: -1000781950,
     name: "Pt195~",
     mass: Some(181608.5357121),
     width: None,
@@ -65882,7 +65882,7 @@ let data = [|
     latex: "^{196}\\mathrm{Pt}",
   },
   {
-    pdg: (-1000781960),
+    pdg: -1000781960,
     name: "Pt196~",
     mass: Some(182540.1797776),
     width: None,
@@ -65908,7 +65908,7 @@ let data = [|
     latex: "^{197}\\mathrm{Pt}",
   },
   {
-    pdg: (-1000781970),
+    pdg: -1000781970,
     name: "Pt197~",
     mass: Some(183473.8982805),
     width: None,
@@ -65934,7 +65934,7 @@ let data = [|
     latex: "^{198}\\mathrm{Pt}",
   },
   {
-    pdg: (-1000781980),
+    pdg: -1000781980,
     name: "Pt198~",
     mass: Some(184405.9074917),
     width: None,
@@ -65960,7 +65960,7 @@ let data = [|
     latex: "^{199}\\mathrm{Pt}",
   },
   {
-    pdg: (-1000781990),
+    pdg: -1000781990,
     name: "Pt199~",
     mass: Some(185339.9166208),
     width: None,
@@ -65986,7 +65986,7 @@ let data = [|
     latex: "^{200}\\mathrm{Pt}",
   },
   {
-    pdg: (-1000782000),
+    pdg: -1000782000,
     name: "Pt200~",
     mass: Some(186272.2006228),
     width: None,
@@ -66012,7 +66012,7 @@ let data = [|
     latex: "^{201}\\mathrm{Pt}",
   },
   {
-    pdg: (-1000782010),
+    pdg: -1000782010,
     name: "Pt201~",
     mass: Some(187206.5599936),
     width: None,
@@ -66038,7 +66038,7 @@ let data = [|
     latex: "^{202}\\mathrm{Pt}",
   },
   {
-    pdg: (-1000782020),
+    pdg: -1000782020,
     name: "Pt202~",
     mass: Some(188139.2091413),
     width: None,
@@ -66064,7 +66064,7 @@ let data = [|
     latex: "^{171}\\mathrm{Au}",
   },
   {
-    pdg: (-1000791710),
+    pdg: -1000791710,
     name: "Au171~",
     mass: Some(159277.8240469),
     width: None,
@@ -66090,7 +66090,7 @@ let data = [|
     latex: "^{172}\\mathrm{Au}",
   },
   {
-    pdg: (-1000791720),
+    pdg: -1000791720,
     name: "Au172~",
     mass: Some(160207.7718617),
     width: None,
@@ -66116,7 +66116,7 @@ let data = [|
     latex: "^{173}\\mathrm{Au}",
   },
   {
-    pdg: (-1000791730),
+    pdg: -1000791730,
     name: "Au173~",
     mass: Some(161135.8101136),
     width: None,
@@ -66142,7 +66142,7 @@ let data = [|
     latex: "^{174}\\mathrm{Au}",
   },
   {
-    pdg: (-1000791740),
+    pdg: -1000791740,
     name: "Au174~",
     mass: Some(162065.9255973),
     width: None,
@@ -66168,7 +66168,7 @@ let data = [|
     latex: "^{175}\\mathrm{Au}",
   },
   {
-    pdg: (-1000791750),
+    pdg: -1000791750,
     name: "Au175~",
     mass: Some(162994.2805572),
     width: None,
@@ -66194,7 +66194,7 @@ let data = [|
     latex: "^{176}\\mathrm{Au}",
   },
   {
-    pdg: (-1000791760),
+    pdg: -1000791760,
     name: "Au176~",
     mass: Some(163924.5823398),
     width: None,
@@ -66220,7 +66220,7 @@ let data = [|
     latex: "^{177}\\mathrm{Au}",
   },
   {
-    pdg: (-1000791770),
+    pdg: -1000791770,
     name: "Au177~",
     mass: Some(164853.2353778),
     width: None,
@@ -66246,7 +66246,7 @@ let data = [|
     latex: "^{178}\\mathrm{Au}",
   },
   {
-    pdg: (-1000791780),
+    pdg: -1000791780,
     name: "Au178~",
     mass: Some(165783.5744201),
     width: None,
@@ -66272,7 +66272,7 @@ let data = [|
     latex: "^{179}\\mathrm{Au}",
   },
   {
-    pdg: (-1000791790),
+    pdg: -1000791790,
     name: "Au179~",
     mass: Some(166712.6745753),
     width: None,
@@ -66298,7 +66298,7 @@ let data = [|
     latex: "^{180}\\mathrm{Au}",
   },
   {
-    pdg: (-1000791800),
+    pdg: -1000791800,
     name: "Au180~",
     mass: Some(167643.2278612),
     width: None,
@@ -66324,7 +66324,7 @@ let data = [|
     latex: "^{181}\\mathrm{Au}",
   },
   {
-    pdg: (-1000791810),
+    pdg: -1000791810,
     name: "Au181~",
     mass: Some(168572.4397957),
     width: None,
@@ -66350,7 +66350,7 @@ let data = [|
     latex: "^{182}\\mathrm{Au}",
   },
   {
-    pdg: (-1000791820),
+    pdg: -1000791820,
     name: "Au182~",
     mass: Some(169503.6264976),
     width: None,
@@ -66376,7 +66376,7 @@ let data = [|
     latex: "^{183}\\mathrm{Au}",
   },
   {
-    pdg: (-1000791830),
+    pdg: -1000791830,
     name: "Au183~",
     mass: Some(170433.2576044),
     width: None,
@@ -66402,7 +66402,7 @@ let data = [|
     latex: "^{184}\\mathrm{Au}",
   },
   {
-    pdg: (-1000791840),
+    pdg: -1000791840,
     name: "Au184~",
     mass: Some(171364.6119753),
     width: None,
@@ -66428,7 +66428,7 @@ let data = [|
     latex: "^{185}\\mathrm{Au}",
   },
   {
-    pdg: (-1000791850),
+    pdg: -1000791850,
     name: "Au185~",
     mass: Some(172294.5597901),
     width: None,
@@ -66454,7 +66454,7 @@ let data = [|
     latex: "^{186}\\mathrm{Au}",
   },
   {
-    pdg: (-1000791860),
+    pdg: -1000791860,
     name: "Au186~",
     mass: Some(173226.2308689),
     width: None,
@@ -66480,7 +66480,7 @@ let data = [|
     latex: "^{187}\\mathrm{Au}",
   },
   {
-    pdg: (-1000791870),
+    pdg: -1000791870,
     name: "Au187~",
     mass: Some(174156.3836124),
     width: None,
@@ -66506,7 +66506,7 @@ let data = [|
     latex: "^{188}\\mathrm{Au}",
   },
   {
-    pdg: (-1000791880),
+    pdg: -1000791880,
     name: "Au188~",
     mass: Some(175088.3713993),
     width: None,
@@ -66532,7 +66532,7 @@ let data = [|
     latex: "^{189}\\mathrm{Au}",
   },
   {
-    pdg: (-1000791890),
+    pdg: -1000791890,
     name: "Au189~",
     mass: Some(176018.7477014),
     width: None,
@@ -66558,7 +66558,7 @@ let data = [|
     latex: "^{190}\\mathrm{Au}",
   },
   {
-    pdg: (-1000791900),
+    pdg: -1000791900,
     name: "Au190~",
     mass: Some(176950.9953751),
     width: None,
@@ -66584,7 +66584,7 @@ let data = [|
     latex: "^{191}\\mathrm{Au}",
   },
   {
-    pdg: (-1000791910),
+    pdg: -1000791910,
     name: "Au191~",
     mass: Some(177881.5123328),
     width: None,
@@ -66610,7 +66610,7 @@ let data = [|
     latex: "^{192}\\mathrm{Au}",
   },
   {
-    pdg: (-1000791920),
+    pdg: -1000791920,
     name: "Au192~",
     mass: Some(178814.0869609),
     width: None,
@@ -66636,7 +66636,7 @@ let data = [|
     latex: "^{193}\\mathrm{Au}",
   },
   {
-    pdg: (-1000791930),
+    pdg: -1000791930,
     name: "Au193~",
     mass: Some(179744.9495029),
     width: None,
@@ -66662,7 +66662,7 @@ let data = [|
     latex: "^{194}\\mathrm{Au}",
   },
   {
-    pdg: (-1000791940),
+    pdg: -1000791940,
     name: "Au194~",
     mass: Some(180677.5679113),
     width: None,
@@ -66688,7 +66688,7 @@ let data = [|
     latex: "^{195}\\mathrm{Au}",
   },
   {
-    pdg: (-1000791950),
+    pdg: -1000791950,
     name: "Au195~",
     mass: Some(181608.7629966),
     width: None,
@@ -66714,7 +66714,7 @@ let data = [|
     latex: "^{196}\\mathrm{Au}",
   },
   {
-    pdg: (-1000791960),
+    pdg: -1000791960,
     name: "Au196~",
     mass: Some(182541.6850721),
     width: None,
@@ -66740,7 +66740,7 @@ let data = [|
     latex: "^{197}\\mathrm{Au}",
   },
   {
-    pdg: (-1000791970),
+    pdg: -1000791970,
     name: "Au197~",
     mass: Some(183473.1800986),
     width: None,
@@ -66766,7 +66766,7 @@ let data = [|
     latex: "^{198}\\mathrm{Au}",
   },
   {
-    pdg: (-1000791980),
+    pdg: -1000791980,
     name: "Au198~",
     mass: Some(184406.2325832),
     width: None,
@@ -66792,7 +66792,7 @@ let data = [|
     latex: "^{199}\\mathrm{Au}",
   },
   {
-    pdg: (-1000791990),
+    pdg: -1000791990,
     name: "Au199~",
     mass: Some(185338.2138496),
     width: None,
@@ -66818,7 +66818,7 @@ let data = [|
     latex: "^{200}\\mathrm{Au}",
   },
   {
-    pdg: (-1000792000),
+    pdg: -1000792000,
     name: "Au200~",
     mass: Some(186271.5448509),
     width: None,
@@ -66844,7 +66844,7 @@ let data = [|
     latex: "^{201}\\mathrm{Au}",
   },
   {
-    pdg: (-1000792010),
+    pdg: -1000792010,
     name: "Au201~",
     mass: Some(187203.896852),
     width: None,
@@ -66870,7 +66870,7 @@ let data = [|
     latex: "^{202}\\mathrm{Au}",
   },
   {
-    pdg: (-1000792020),
+    pdg: -1000792020,
     name: "Au202~",
     mass: Some(188137.3927278),
     width: None,
@@ -66896,7 +66896,7 @@ let data = [|
     latex: "^{203}\\mathrm{Au}",
   },
   {
-    pdg: (-1000792030),
+    pdg: -1000792030,
     name: "Au203~",
     mass: Some(189070.1415453),
     width: None,
@@ -66922,7 +66922,7 @@ let data = [|
     latex: "^{204}\\mathrm{Au}",
   },
   {
-    pdg: (-1000792040),
+    pdg: -1000792040,
     name: "Au204~",
     mass: Some(190004.0323746),
     width: None,
@@ -66948,7 +66948,7 @@ let data = [|
     latex: "^{205}\\mathrm{Au}",
   },
   {
-    pdg: (-1000792050),
+    pdg: -1000792050,
     name: "Au205~",
     mass: Some(190937.2963084),
     width: None,
@@ -66974,7 +66974,7 @@ let data = [|
     latex: "^{175}\\mathrm{Hg}",
   },
   {
-    pdg: (-1000801750),
+    pdg: -1000801750,
     name: "Hg175~",
     mass: Some(163003.465089),
     width: None,
@@ -67000,7 +67000,7 @@ let data = [|
     latex: "^{176}\\mathrm{Hg}",
   },
   {
-    pdg: (-1000801760),
+    pdg: -1000801760,
     name: "Hg176~",
     mass: Some(163931.2332076),
     width: None,
@@ -67026,7 +67026,7 @@ let data = [|
     latex: "^{177}\\mathrm{Hg}",
   },
   {
-    pdg: (-1000801770),
+    pdg: -1000801770,
     name: "Hg177~",
     mass: Some(164861.7306039),
     width: None,
@@ -67052,7 +67052,7 @@ let data = [|
     latex: "^{178}\\mathrm{Hg}",
   },
   {
-    pdg: (-1000801780),
+    pdg: -1000801780,
     name: "Hg178~",
     mass: Some(165789.6254057),
     width: None,
@@ -67078,7 +67078,7 @@ let data = [|
     latex: "^{179}\\mathrm{Hg}",
   },
   {
-    pdg: (-1000801790),
+    pdg: -1000801790,
     name: "Hg179~",
     mass: Some(166720.4711808),
     width: None,
@@ -67104,7 +67104,7 @@ let data = [|
     latex: "^{180}\\mathrm{Hg}",
   },
   {
-    pdg: (-1000801800),
+    pdg: -1000801800,
     name: "Hg180~",
     mass: Some(167648.7423062),
     width: None,
@@ -67130,7 +67130,7 @@ let data = [|
     latex: "^{181}\\mathrm{Hg}",
   },
   {
-    pdg: (-1000801810),
+    pdg: -1000801810,
     name: "Hg181~",
     mass: Some(168579.7613392),
     width: None,
@@ -67156,7 +67156,7 @@ let data = [|
     latex: "^{182}\\mathrm{Hg}",
   },
   {
-    pdg: (-1000801820),
+    pdg: -1000801820,
     name: "Hg182~",
     mass: Some(169508.4050623),
     width: None,
@@ -67182,7 +67182,7 @@ let data = [|
     latex: "^{183}\\mathrm{Hg}",
   },
   {
-    pdg: (-1000801830),
+    pdg: -1000801830,
     name: "Hg183~",
     mass: Some(170439.7221734),
     width: None,
@@ -67208,7 +67208,7 @@ let data = [|
     latex: "^{184}\\mathrm{Hg}",
   },
   {
-    pdg: (-1000801840),
+    pdg: -1000801840,
     name: "Hg184~",
     mass: Some(171368.7384941),
     width: None,
@@ -67234,7 +67234,7 @@ let data = [|
     latex: "^{185}\\mathrm{Hg}",
   },
   {
-    pdg: (-1000801850),
+    pdg: -1000801850,
     name: "Hg185~",
     mass: Some(172300.3071086),
     width: None,
@@ -67260,7 +67260,7 @@ let data = [|
     latex: "^{186}\\mathrm{Hg}",
   },
   {
-    pdg: (-1000801860),
+    pdg: -1000801860,
     name: "Hg186~",
     mass: Some(173229.4538385),
     width: None,
@@ -67286,7 +67286,7 @@ let data = [|
     latex: "^{187}\\mathrm{Hg}",
   },
   {
-    pdg: (-1000801870),
+    pdg: -1000801870,
     name: "Hg187~",
     mass: Some(174161.2553265),
     width: None,
@@ -67312,7 +67312,7 @@ let data = [|
     latex: "^{188}\\mathrm{Hg}",
   },
   {
-    pdg: (-1000801880),
+    pdg: -1000801880,
     name: "Hg188~",
     mass: Some(175090.6721897),
     width: None,
@@ -67338,7 +67338,7 @@ let data = [|
     latex: "^{189}\\mathrm{Hg}",
   },
   {
-    pdg: (-1000801890),
+    pdg: -1000801890,
     name: "Hg189~",
     mass: Some(176022.6972363),
     width: None,
@@ -67364,7 +67364,7 @@ let data = [|
     latex: "^{190}\\mathrm{Hg}",
   },
   {
-    pdg: (-1000801900),
+    pdg: -1000801900,
     name: "Hg190~",
     mass: Some(176952.4680672),
     width: None,
@@ -67390,7 +67390,7 @@ let data = [|
     latex: "^{191}\\mathrm{Hg}",
   },
   {
-    pdg: (-1000801910),
+    pdg: -1000801910,
     name: "Hg191~",
     mass: Some(177884.6887276),
     width: None,
@@ -67416,7 +67416,7 @@ let data = [|
     latex: "^{192}\\mathrm{Hg}",
   },
   {
-    pdg: (-1000801920),
+    pdg: -1000801920,
     name: "Hg192~",
     mass: Some(178814.7948964),
     width: None,
@@ -67442,7 +67442,7 @@ let data = [|
     latex: "^{193}\\mathrm{Hg}",
   },
   {
-    pdg: (-1000801930),
+    pdg: -1000801930,
     name: "Hg193~",
     mass: Some(179747.2894161),
     width: None,
@@ -67468,7 +67468,7 @@ let data = [|
     latex: "^{194}\\mathrm{Hg}",
   },
   {
-    pdg: (-1000801940),
+    pdg: -1000801940,
     name: "Hg194~",
     mass: Some(180677.6079655),
     width: None,
@@ -67494,7 +67494,7 @@ let data = [|
     latex: "^{195}\\mathrm{Hg}",
   },
   {
-    pdg: (-1000801950),
+    pdg: -1000801950,
     name: "Hg195~",
     mass: Some(181610.2738801),
     width: None,
@@ -67520,7 +67520,7 @@ let data = [|
     latex: "^{196}\\mathrm{Hg}",
   },
   {
-    pdg: (-1000801960),
+    pdg: -1000801960,
     name: "Hg196~",
     mass: Some(182540.9994924),
     width: None,
@@ -67546,7 +67546,7 @@ let data = [|
     latex: "^{197}\\mathrm{Hg}",
   },
   {
-    pdg: (-1000801970),
+    pdg: -1000801970,
     name: "Hg197~",
     mass: Some(183473.7790493),
     width: None,
@@ -67572,7 +67572,7 @@ let data = [|
     latex: "^{198}\\mathrm{Hg}",
   },
   {
-    pdg: (-1000801980),
+    pdg: -1000801980,
     name: "Hg198~",
     mass: Some(184404.8604924),
     width: None,
@@ -67598,7 +67598,7 @@ let data = [|
     latex: "^{199}\\mathrm{Hg}",
   },
   {
-    pdg: (-1000801990),
+    pdg: -1000801990,
     name: "Hg199~",
     mass: Some(185337.7611435),
     width: None,
@@ -67624,7 +67624,7 @@ let data = [|
     latex: "^{200}\\mathrm{Hg}",
   },
   {
-    pdg: (-1000802000),
+    pdg: -1000802000,
     name: "Hg200~",
     mass: Some(186269.2990187),
     width: None,
@@ -67650,7 +67650,7 @@ let data = [|
     latex: "^{201}\\mathrm{Hg}",
   },
   {
-    pdg: (-1000802010),
+    pdg: -1000802010,
     name: "Hg201~",
     mass: Some(187202.633746),
     width: None,
@@ -67676,7 +67676,7 @@ let data = [|
     latex: "^{202}\\mathrm{Hg}",
   },
   {
-    pdg: (-1000802020),
+    pdg: -1000802020,
     name: "Hg202~",
     mass: Some(188134.4454805),
     width: None,
@@ -67702,7 +67702,7 @@ let data = [|
     latex: "^{203}\\mathrm{Hg}",
   },
   {
-    pdg: (-1000802030),
+    pdg: -1000802030,
     name: "Hg203~",
     mass: Some(189068.0177388),
     width: None,
@@ -67728,7 +67728,7 @@ let data = [|
     latex: "^{204}\\mathrm{Hg}",
   },
   {
-    pdg: (-1000802040),
+    pdg: -1000802040,
     name: "Hg204~",
     mass: Some(190000.0884286),
     width: None,
@@ -67754,7 +67754,7 @@ let data = [|
     latex: "^{205}\\mathrm{Hg}",
   },
   {
-    pdg: (-1000802050),
+    pdg: -1000802050,
     name: "Hg205~",
     mass: Some(190933.9857784),
     width: None,
@@ -67780,7 +67780,7 @@ let data = [|
     latex: "^{206}\\mathrm{Hg}",
   },
   {
-    pdg: (-1000802060),
+    pdg: -1000802060,
     name: "Hg206~",
     mass: Some(191866.8240193),
     width: None,
@@ -67806,7 +67806,7 @@ let data = [|
     latex: "^{207}\\mathrm{Hg}",
   },
   {
-    pdg: (-1000802070),
+    pdg: -1000802070,
     name: "Hg207~",
     mass: Some(192803.0510358),
     width: None,
@@ -67832,7 +67832,7 @@ let data = [|
     latex: "^{208}\\mathrm{Hg}",
   },
   {
-    pdg: (-1000802080),
+    pdg: -1000802080,
     name: "Hg208~",
     mass: Some(193737.674951),
     width: None,
@@ -67858,7 +67858,7 @@ let data = [|
     latex: "^{177}\\mathrm{Tl}",
   },
   {
-    pdg: (-1000811770),
+    pdg: -1000811770,
     name: "Tl177~",
     mass: Some(164871.5485517),
     width: None,
@@ -67884,7 +67884,7 @@ let data = [|
     latex: "^{178}\\mathrm{Tl}",
   },
   {
-    pdg: (-1000811780),
+    pdg: -1000811780,
     name: "Tl178~",
     mass: Some(165801.5056814),
     width: None,
@@ -67910,7 +67910,7 @@ let data = [|
     latex: "^{179}\\mathrm{Tl}",
   },
   {
-    pdg: (-1000811790),
+    pdg: -1000811790,
     name: "Tl179~",
     mass: Some(166729.4973586),
     width: None,
@@ -67936,7 +67936,7 @@ let data = [|
     latex: "^{180}\\mathrm{Tl}",
   },
   {
-    pdg: (-1000811800),
+    pdg: -1000811800,
     name: "Tl180~",
     mass: Some(167659.7991412),
     width: None,
@@ -67962,7 +67962,7 @@ let data = [|
     latex: "^{181}\\mathrm{Tl}",
   },
   {
-    pdg: (-1000811810),
+    pdg: -1000811810,
     name: "Tl181~",
     mass: Some(168588.2286206),
     width: None,
@@ -67988,7 +67988,7 @@ let data = [|
     latex: "^{182}\\mathrm{Tl}",
   },
   {
-    pdg: (-1000811820),
+    pdg: -1000811820,
     name: "Tl182~",
     mass: Some(169518.5210882),
     width: None,
@@ -68014,7 +68014,7 @@ let data = [|
     latex: "^{183}\\mathrm{Tl}",
   },
   {
-    pdg: (-1000811830),
+    pdg: -1000811830,
     name: "Tl183~",
     mass: Some(170447.3045354),
     width: None,
@@ -68040,7 +68040,7 @@ let data = [|
     latex: "^{184}\\mathrm{Tl}",
   },
   {
-    pdg: (-1000811840),
+    pdg: -1000811840,
     name: "Tl184~",
     mass: Some(171377.9230259),
     width: None,
@@ -68066,7 +68066,7 @@ let data = [|
     latex: "^{185}\\mathrm{Tl}",
   },
   {
-    pdg: (-1000811850),
+    pdg: -1000811850,
     name: "Tl185~",
     mass: Some(172306.9393466),
     width: None,
@@ -68092,7 +68092,7 @@ let data = [|
     latex: "^{186}\\mathrm{Tl}",
   },
   {
-    pdg: (-1000811860),
+    pdg: -1000811860,
     name: "Tl186~",
     mass: Some(173237.9211198),
     width: None,
@@ -68118,7 +68118,7 @@ let data = [|
     latex: "^{187}\\mathrm{Tl}",
   },
   {
-    pdg: (-1000811870),
+    pdg: -1000811870,
     name: "Tl187~",
     mass: Some(174167.1982589),
     width: None,
@@ -68144,7 +68144,7 @@ let data = [|
     latex: "^{188}\\mathrm{Tl}",
   },
   {
-    pdg: (-1000811880),
+    pdg: -1000811880,
     name: "Tl188~",
     mass: Some(175098.4594803),
     width: None,
@@ -68170,7 +68170,7 @@ let data = [|
     latex: "^{189}\\mathrm{Tl}",
   },
   {
-    pdg: (-1000811890),
+    pdg: -1000811890,
     name: "Tl189~",
     mass: Some(176027.8763435),
     width: None,
@@ -68196,7 +68196,7 @@ let data = [|
     latex: "^{190}\\mathrm{Tl}",
   },
   {
-    pdg: (-1000811900),
+    pdg: -1000811900,
     name: "Tl190~",
     mass: Some(176959.4635879),
     width: None,
@@ -68222,7 +68222,7 @@ let data = [|
     latex: "^{191}\\mathrm{Tl}",
   },
   {
-    pdg: (-1000811910),
+    pdg: -1000811910,
     name: "Tl191~",
     mass: Some(177889.1878441),
     width: None,
@@ -68248,7 +68248,7 @@ let data = [|
     latex: "^{192}\\mathrm{Tl}",
   },
   {
-    pdg: (-1000811920),
+    pdg: -1000811920,
     name: "Tl192~",
     mass: Some(178820.9148126),
     width: None,
@@ -68274,7 +68274,7 @@ let data = [|
     latex: "^{193}\\mathrm{Tl}",
   },
   {
-    pdg: (-1000811930),
+    pdg: -1000811930,
     name: "Tl193~",
     mass: Some(179750.927832),
     width: None,
@@ -68300,7 +68300,7 @@ let data = [|
     latex: "^{194}\\mathrm{Tl}",
   },
   {
-    pdg: (-1000811940),
+    pdg: -1000811940,
     name: "Tl194~",
     mass: Some(180682.887674),
     width: None,
@@ -68326,7 +68326,7 @@ let data = [|
     latex: "^{195}\\mathrm{Tl}",
   },
   {
-    pdg: (-1000811950),
+    pdg: -1000811950,
     name: "Tl195~",
     mass: Some(181613.0776773),
     width: None,
@@ -68352,7 +68352,7 @@ let data = [|
     latex: "^{196}\\mathrm{Tl}",
   },
   {
-    pdg: (-1000811960),
+    pdg: -1000811960,
     name: "Tl196~",
     mass: Some(182545.3821721),
     width: None,
@@ -68378,7 +68378,7 @@ let data = [|
     latex: "^{197}\\mathrm{Tl}",
   },
   {
-    pdg: (-1000811970),
+    pdg: -1000811970,
     name: "Tl197~",
     mass: Some(183475.9634029),
     width: None,
@@ -68404,7 +68404,7 @@ let data = [|
     latex: "^{198}\\mathrm{Tl}",
   },
   {
-    pdg: (-1000811980),
+    pdg: -1000811980,
     name: "Tl198~",
     mass: Some(184408.3237874),
     width: None,
@@ -68430,7 +68430,7 @@ let data = [|
     latex: "^{199}\\mathrm{Tl}",
   },
   {
-    pdg: (-1000811990),
+    pdg: -1000811990,
     name: "Tl199~",
     mass: Some(185339.2030963),
     width: None,
@@ -68456,7 +68456,7 @@ let data = [|
     latex: "^{200}\\mathrm{Tl}",
   },
   {
-    pdg: (-1000812000),
+    pdg: -1000812000,
     name: "Tl200~",
     mass: Some(186271.7544371),
     width: None,
@@ -68482,7 +68482,7 @@ let data = [|
     latex: "^{201}\\mathrm{Tl}",
   },
   {
-    pdg: (-1000812010),
+    pdg: -1000812010,
     name: "Tl201~",
     mass: Some(187203.1171914),
     width: None,
@@ -68508,7 +68508,7 @@ let data = [|
     latex: "^{202}\\mathrm{Tl}",
   },
   {
-    pdg: (-1000812020),
+    pdg: -1000812020,
     name: "Tl202~",
     mass: Some(188135.8101193),
     width: None,
@@ -68534,7 +68534,7 @@ let data = [|
     latex: "^{203}\\mathrm{Tl}",
   },
   {
-    pdg: (-1000812030),
+    pdg: -1000812030,
     name: "Tl203~",
     mass: Some(189067.5259099),
     width: None,
@@ -68560,7 +68560,7 @@ let data = [|
     latex: "^{204}\\mathrm{Tl}",
   },
   {
-    pdg: (-1000812040),
+    pdg: -1000812040,
     name: "Tl204~",
     mass: Some(190000.4358759),
     width: None,
@@ -68586,7 +68586,7 @@ let data = [|
     latex: "^{205}\\mathrm{Tl}",
   },
   {
-    pdg: (-1000812050),
+    pdg: -1000812050,
     name: "Tl205~",
     mass: Some(190932.4544021),
     width: None,
@@ -68612,7 +68612,7 @@ let data = [|
     latex: "^{206}\\mathrm{Tl}",
   },
   {
-    pdg: (-1000812060),
+    pdg: -1000812060,
     name: "Tl206~",
     mass: Some(191865.5162016),
     width: None,
@@ -68638,7 +68638,7 @@ let data = [|
     latex: "^{207}\\mathrm{Tl}",
   },
   {
-    pdg: (-1000812070),
+    pdg: -1000812070,
     name: "Tl207~",
     mass: Some(192798.2333484),
     width: None,
@@ -68664,7 +68664,7 @@ let data = [|
     latex: "^{208}\\mathrm{Tl}",
   },
   {
-    pdg: (-1000812080),
+    pdg: -1000812080,
     name: "Tl208~",
     mass: Some(193734.0095217),
     width: None,
@@ -68690,7 +68690,7 @@ let data = [|
     latex: "^{209}\\mathrm{Tl}",
   },
   {
-    pdg: (-1000812090),
+    pdg: -1000812090,
     name: "Tl209~",
     mass: Some(194668.618533),
     width: None,
@@ -68716,7 +68716,7 @@ let data = [|
     latex: "^{210}\\mathrm{Tl}",
   },
   {
-    pdg: (-1000812100),
+    pdg: -1000812100,
     name: "Tl210~",
     mass: Some(195604.5064856),
     width: None,
@@ -68742,7 +68742,7 @@ let data = [|
     latex: "^{181}\\mathrm{Pb}",
   },
   {
-    pdg: (-1000821810),
+    pdg: -1000821810,
     name: "Pb181~",
     mass: Some(168597.3665776),
     width: None,
@@ -68768,7 +68768,7 @@ let data = [|
     latex: "^{182}\\mathrm{Pb}",
   },
   {
-    pdg: (-1000821820),
+    pdg: -1000821820,
     name: "Pb182~",
     mass: Some(169525.1030255),
     width: None,
@@ -68794,7 +68794,7 @@ let data = [|
     latex: "^{183}\\mathrm{Pb}",
   },
   {
-    pdg: (-1000821830),
+    pdg: -1000821830,
     name: "Pb183~",
     mass: Some(170455.9022259),
     width: None,
@@ -68820,7 +68820,7 @@ let data = [|
     latex: "^{184}\\mathrm{Pb}",
   },
   {
-    pdg: (-1000821840),
+    pdg: -1000821840,
     name: "Pb184~",
     mass: Some(171383.9218479),
     width: None,
@@ -68846,7 +68846,7 @@ let data = [|
     latex: "^{185}\\mathrm{Pb}",
   },
   {
-    pdg: (-1000821850),
+    pdg: -1000821850,
     name: "Pb185~",
     mass: Some(172314.8384165),
     width: None,
@@ -68872,7 +68872,7 @@ let data = [|
     latex: "^{186}\\mathrm{Pb}",
   },
   {
-    pdg: (-1000821860),
+    pdg: -1000821860,
     name: "Pb186~",
     mass: Some(173243.2772109),
     width: None,
@@ -68898,7 +68898,7 @@ let data = [|
     latex: "^{187}\\mathrm{Pb}",
   },
   {
-    pdg: (-1000821870),
+    pdg: -1000821870,
     name: "Pb187~",
     mass: Some(174174.5198025),
     width: None,
@@ -68924,7 +68924,7 @@ let data = [|
     latex: "^{188}\\mathrm{Pb}",
   },
   {
-    pdg: (-1000821880),
+    pdg: -1000821880,
     name: "Pb188~",
     mass: Some(175103.24736),
     width: None,
@@ -68950,7 +68950,7 @@ let data = [|
     latex: "^{189}\\mathrm{Pb}",
   },
   {
-    pdg: (-1000821890),
+    pdg: -1000821890,
     name: "Pb189~",
     mass: Some(176034.573786),
     width: None,
@@ -68976,7 +68976,7 @@ let data = [|
     latex: "^{190}\\mathrm{Pb}",
   },
   {
-    pdg: (-1000821900),
+    pdg: -1000821900,
     name: "Pb190~",
     mass: Some(176963.552847),
     width: None,
@@ -69002,7 +69002,7 @@ let data = [|
     latex: "^{191}\\mathrm{Pb}",
   },
   {
-    pdg: (-1000821910),
+    pdg: -1000821910,
     name: "Pb191~",
     mass: Some(177895.0655718),
     width: None,
@@ -69028,7 +69028,7 @@ let data = [|
     latex: "^{192}\\mathrm{Pb}",
   },
   {
-    pdg: (-1000821920),
+    pdg: -1000821920,
     name: "Pb192~",
     mass: Some(178824.2868212),
     width: None,
@@ -69054,7 +69054,7 @@ let data = [|
     latex: "^{193}\\mathrm{Pb}",
   },
   {
-    pdg: (-1000821930),
+    pdg: -1000821930,
     name: "Pb193~",
     mass: Some(179756.0789943),
     width: None,
@@ -69080,7 +69080,7 @@ let data = [|
     latex: "^{194}\\mathrm{Pb}",
   },
   {
-    pdg: (-1000821940),
+    pdg: -1000821940,
     name: "Pb194~",
     mass: Some(180685.6076368),
     width: None,
@@ -69106,7 +69106,7 @@ let data = [|
     latex: "^{195}\\mathrm{Pb}",
   },
   {
-    pdg: (-1000821950),
+    pdg: -1000821950,
     name: "Pb195~",
     mass: Some(181617.5674788),
     width: None,
@@ -69132,7 +69132,7 @@ let data = [|
     latex: "^{196}\\mathrm{Pb}",
   },
   {
-    pdg: (-1000821960),
+    pdg: -1000821960,
     name: "Pb196~",
     mass: Some(182547.4221442),
     width: None,
@@ -69158,7 +69158,7 @@ let data = [|
     latex: "^{197}\\mathrm{Pb}",
   },
   {
-    pdg: (-1000821970),
+    pdg: -1000821970,
     name: "Pb197~",
     mass: Some(183479.5403402),
     width: None,
@@ -69184,7 +69184,7 @@ let data = [|
     latex: "^{198}\\mathrm{Pb}",
   },
   {
-    pdg: (-1000821980),
+    pdg: -1000821980,
     name: "Pb198~",
     mass: Some(184409.7303435),
     width: None,
@@ -69210,7 +69210,7 @@ let data = [|
     latex: "^{199}\\mathrm{Pb}",
   },
   {
-    pdg: (-1000821990),
+    pdg: -1000821990,
     name: "Pb199~",
     mass: Some(185342.090728),
     width: None,
@@ -69236,7 +69236,7 @@ let data = [|
     latex: "^{200}\\mathrm{Pb}",
   },
   {
-    pdg: (-1000822000),
+    pdg: -1000822000,
     name: "Pb200~",
     mass: Some(186272.5657685),
     width: None,
@@ -69262,7 +69262,7 @@ let data = [|
     latex: "^{201}\\mathrm{Pb}",
   },
   {
-    pdg: (-1000822010),
+    pdg: -1000822010,
     name: "Pb201~",
     mass: Some(187205.0230283),
     width: None,
@@ -69288,7 +69288,7 @@ let data = [|
     latex: "^{202}\\mathrm{Pb}",
   },
   {
-    pdg: (-1000822020),
+    pdg: -1000822020,
     name: "Pb202~",
     mass: Some(188135.8594885),
     width: None,
@@ -69314,7 +69314,7 @@ let data = [|
     latex: "^{203}\\mathrm{Pb}",
   },
   {
-    pdg: (-1000822030),
+    pdg: -1000822030,
     name: "Pb203~",
     mass: Some(189068.5002527),
     width: None,
@@ -69340,7 +69340,7 @@ let data = [|
     latex: "^{204}\\mathrm{Pb}",
   },
   {
-    pdg: (-1000822040),
+    pdg: -1000822040,
     name: "Pb204~",
     mass: Some(189999.6720508),
     width: None,
@@ -69366,7 +69366,7 @@ let data = [|
     latex: "^{205}\\mathrm{Pb}",
   },
   {
-    pdg: (-1000822050),
+    pdg: -1000822050,
     name: "Pb205~",
     mass: Some(190932.5056343),
     width: None,
@@ -69392,7 +69392,7 @@ let data = [|
     latex: "^{206}\\mathrm{Pb}",
   },
   {
-    pdg: (-1000822060),
+    pdg: -1000822060,
     name: "Pb206~",
     mass: Some(191863.9829623),
     width: None,
@@ -69418,7 +69418,7 @@ let data = [|
     latex: "^{207}\\mathrm{Pb}",
   },
   {
-    pdg: (-1000822070),
+    pdg: -1000822070,
     name: "Pb207~",
     mass: Some(192796.8109569),
     width: None,
@@ -69444,7 +69444,7 @@ let data = [|
     latex: "^{208}\\mathrm{Pb}",
   },
   {
-    pdg: (-1000822080),
+    pdg: -1000822080,
     name: "Pb208~",
     mass: Some(193729.0083299),
     width: None,
@@ -69470,7 +69470,7 @@ let data = [|
     latex: "^{209}\\mathrm{Pb}",
   },
   {
-    pdg: (-1000822090),
+    pdg: -1000822090,
     name: "Pb209~",
     mass: Some(194664.6373272),
     width: None,
@@ -69496,7 +69496,7 @@ let data = [|
     latex: "^{210}\\mathrm{Pb}",
   },
   {
-    pdg: (-1000822100),
+    pdg: -1000822100,
     name: "Pb210~",
     mass: Some(195599.0171909),
     width: None,
@@ -69522,7 +69522,7 @@ let data = [|
     latex: "^{211}\\mathrm{Pb}",
   },
   {
-    pdg: (-1000822110),
+    pdg: -1000822110,
     name: "Pb211~",
     mass: Some(196534.757036),
     width: None,
@@ -69548,7 +69548,7 @@ let data = [|
     latex: "^{212}\\mathrm{Pb}",
   },
   {
-    pdg: (-1000822120),
+    pdg: -1000822120,
     name: "Pb212~",
     mass: Some(197469.1913921),
     width: None,
@@ -69574,7 +69574,7 @@ let data = [|
     latex: "^{213}\\mathrm{Pb}",
   },
   {
-    pdg: (-1000822130),
+    pdg: -1000822130,
     name: "Pb213~",
     mass: Some(198404.9820036),
     width: None,
@@ -69600,7 +69600,7 @@ let data = [|
     latex: "^{214}\\mathrm{Pb}",
   },
   {
-    pdg: (-1000822140),
+    pdg: -1000822140,
     name: "Pb214~",
     mass: Some(199339.5482592),
     width: None,
@@ -69626,7 +69626,7 @@ let data = [|
     latex: "^{185}\\mathrm{Bi}",
   },
   {
-    pdg: (-1000831850),
+    pdg: -1000831850,
     name: "Bi185~",
     mass: Some(172324.2744517),
     width: None,
@@ -69652,7 +69652,7 @@ let data = [|
     latex: "^{186}\\mathrm{Bi}",
   },
   {
-    pdg: (-1000831860),
+    pdg: -1000831860,
     name: "Bi186~",
     mass: Some(173254.622809),
     width: None,
@@ -69678,7 +69678,7 @@ let data = [|
     latex: "^{187}\\mathrm{Bi}",
   },
   {
-    pdg: (-1000831870),
+    pdg: -1000831870,
     name: "Bi187~",
     mass: Some(174183.3037918),
     width: None,
@@ -69704,7 +69704,7 @@ let data = [|
     latex: "^{188}\\mathrm{Bi}",
   },
   {
-    pdg: (-1000831880),
+    pdg: -1000831880,
     name: "Bi188~",
     mass: Some(175113.5962594),
     width: None,
@@ -69730,7 +69730,7 @@ let data = [|
     latex: "^{189}\\mathrm{Bi}",
   },
   {
-    pdg: (-1000831890),
+    pdg: -1000831890,
     name: "Bi189~",
     mass: Some(176042.6125801),
     width: None,
@@ -69756,7 +69756,7 @@ let data = [|
     latex: "^{190}\\mathrm{Bi}",
   },
   {
-    pdg: (-1000831900),
+    pdg: -1000831900,
     name: "Bi190~",
     mass: Some(176973.1844959),
     width: None,
@@ -69782,7 +69782,7 @@ let data = [|
     latex: "^{191}\\mathrm{Bi}",
   },
   {
-    pdg: (-1000831910),
+    pdg: -1000831910,
     name: "Bi191~",
     mass: Some(177902.3778005),
     width: None,
@@ -69808,7 +69808,7 @@ let data = [|
     latex: "^{192}\\mathrm{Bi}",
   },
   {
-    pdg: (-1000831920),
+    pdg: -1000831920,
     name: "Bi192~",
     mass: Some(178833.2384795),
     width: None,
@@ -69834,7 +69834,7 @@ let data = [|
     latex: "^{193}\\mathrm{Bi}",
   },
   {
-    pdg: (-1000831930),
+    pdg: -1000831930,
     name: "Bi193~",
     mass: Some(179762.5808231),
     width: None,
@@ -69860,7 +69860,7 @@ let data = [|
     latex: "^{194}\\mathrm{Bi}",
   },
   {
-    pdg: (-1000831940),
+    pdg: -1000831940,
     name: "Bi194~",
     mass: Some(180693.7861549),
     width: None,
@@ -69886,7 +69886,7 @@ let data = [|
     latex: "^{195}\\mathrm{Bi}",
   },
   {
-    pdg: (-1000831950),
+    pdg: -1000831950,
     name: "Bi195~",
     mass: Some(181623.4172617),
     width: None,
@@ -69912,7 +69912,7 @@ let data = [|
     latex: "^{196}\\mathrm{Bi}",
   },
   {
-    pdg: (-1000831960),
+    pdg: -1000831960,
     name: "Bi196~",
     mass: Some(182554.7809476),
     width: None,
@@ -69938,7 +69938,7 @@ let data = [|
     latex: "^{197}\\mathrm{Bi}",
   },
   {
-    pdg: (-1000831970),
+    pdg: -1000831970,
     name: "Bi197~",
     mass: Some(183484.7101325),
     width: None,
@@ -69964,7 +69964,7 @@ let data = [|
     latex: "^{198}\\mathrm{Bi}",
   },
   {
-    pdg: (-1000831980),
+    pdg: -1000831980,
     name: "Bi198~",
     mass: Some(184416.2880619),
     width: None,
@@ -69990,7 +69990,7 @@ let data = [|
     latex: "^{199}\\mathrm{Bi}",
   },
   {
-    pdg: (-1000831990),
+    pdg: -1000831990,
     name: "Bi199~",
     mass: Some(185346.4408054),
     width: None,
@@ -70016,7 +70016,7 @@ let data = [|
     latex: "^{200}\\mathrm{Bi}",
   },
   {
-    pdg: (-1000832000),
+    pdg: -1000832000,
     name: "Bi200~",
     mass: Some(186278.4565371),
     width: None,
@@ -70042,7 +70042,7 @@ let data = [|
     latex: "^{201}\\mathrm{Bi}",
   },
   {
-    pdg: (-1000832010),
+    pdg: -1000832010,
     name: "Bi201~",
     mass: Some(187208.860784),
     width: None,
@@ -70068,7 +70068,7 @@ let data = [|
     latex: "^{202}\\mathrm{Bi}",
   },
   {
-    pdg: (-1000832020),
+    pdg: -1000832020,
     name: "Bi202~",
     mass: Some(188141.0069249),
     width: None,
@@ -70094,7 +70094,7 @@ let data = [|
     latex: "^{203}\\mathrm{Bi}",
   },
   {
-    pdg: (-1000832030),
+    pdg: -1000832030,
     name: "Bi203~",
     mass: Some(189071.7539616),
     width: None,
@@ -70120,7 +70120,7 @@ let data = [|
     latex: "^{204}\\mathrm{Bi}",
   },
   {
-    pdg: (-1000832040),
+    pdg: -1000832040,
     name: "Bi204~",
     mass: Some(190004.1208666),
     width: None,
@@ -70146,7 +70146,7 @@ let data = [|
     latex: "^{205}\\mathrm{Bi}",
   },
   {
-    pdg: (-1000832050),
+    pdg: -1000832050,
     name: "Bi205~",
     mass: Some(190935.2144191),
     width: None,
@@ -70172,7 +70172,7 @@ let data = [|
     latex: "^{206}\\mathrm{Bi}",
   },
   {
-    pdg: (-1000832060),
+    pdg: -1000832060,
     name: "Bi206~",
     mass: Some(191867.7406095),
     width: None,
@@ -70198,7 +70198,7 @@ let data = [|
     latex: "^{207}\\mathrm{Bi}",
   },
   {
-    pdg: (-1000832070),
+    pdg: -1000832070,
     name: "Bi207~",
     mass: Some(192799.2086227),
     width: None,
@@ -70224,7 +70224,7 @@ let data = [|
     latex: "^{208}\\mathrm{Bi}",
   },
   {
-    pdg: (-1000832080),
+    pdg: -1000832080,
     name: "Bi208~",
     mass: Some(193731.8875782),
     width: None,
@@ -70250,7 +70250,7 @@ let data = [|
     latex: "^{209}\\mathrm{Bi}",
   },
   {
-    pdg: (-1000832090),
+    pdg: -1000832090,
     name: "Bi209~",
     mass: Some(194663.9927333),
     width: None,
@@ -70276,7 +70276,7 @@ let data = [|
     latex: "^{210}\\mathrm{Bi}",
   },
   {
-    pdg: (-1000832100),
+    pdg: -1000832100,
     name: "Bi210~",
     mass: Some(195598.9538493),
     width: None,
@@ -70302,7 +70302,7 @@ let data = [|
     latex: "^{211}\\mathrm{Bi}",
   },
   {
-    pdg: (-1000832110),
+    pdg: -1000832110,
     name: "Bi211~",
     mass: Some(196533.3849452),
     width: None,
@@ -70328,7 +70328,7 @@ let data = [|
     latex: "^{212}\\mathrm{Bi}",
   },
   {
-    pdg: (-1000832120),
+    pdg: -1000832120,
     name: "Bi212~",
     mass: Some(197468.6180574),
     width: None,
@@ -70354,7 +70354,7 @@ let data = [|
     latex: "^{213}\\mathrm{Bi}",
   },
   {
-    pdg: (-1000832130),
+    pdg: -1000832130,
     name: "Bi213~",
     mass: Some(198403.0025786),
     width: None,
@@ -70380,7 +70380,7 @@ let data = [|
     latex: "^{214}\\mathrm{Bi}",
   },
   {
-    pdg: (-1000832140),
+    pdg: -1000832140,
     name: "Bi214~",
     mass: Some(199338.5244541),
     width: None,
@@ -70406,7 +70406,7 @@ let data = [|
     latex: "^{215}\\mathrm{Bi}",
   },
   {
-    pdg: (-1000832150),
+    pdg: -1000832150,
     name: "Bi215~",
     mass: Some(200272.9350571),
     width: None,
@@ -70432,7 +70432,7 @@ let data = [|
     latex: "^{216}\\mathrm{Bi}",
   },
   {
-    pdg: (-1000832160),
+    pdg: -1000832160,
     name: "Bi216~",
     mass: Some(201208.4997813),
     width: None,
@@ -70458,7 +70458,7 @@ let data = [|
     latex: "^{190}\\mathrm{Po}",
   },
   {
-    pdg: (-1000841900),
+    pdg: -1000841900,
     name: "Po190~",
     mass: Some(176979.323042),
     width: None,
@@ -70484,7 +70484,7 @@ let data = [|
     latex: "^{191}\\mathrm{Po}",
   },
   {
-    pdg: (-1000841910),
+    pdg: -1000841910,
     name: "Po191~",
     mass: Some(177910.3886497),
     width: None,
@@ -70510,7 +70510,7 @@ let data = [|
     latex: "^{192}\\mathrm{Po}",
   },
   {
-    pdg: (-1000841920),
+    pdg: -1000841920,
     name: "Po192~",
     mass: Some(178838.9671682),
     width: None,
@@ -70536,7 +70536,7 @@ let data = [|
     latex: "^{193}\\mathrm{Po}",
   },
   {
-    pdg: (-1000841930),
+    pdg: -1000841930,
     name: "Po193~",
     mass: Some(179770.0700357),
     width: None,
@@ -70562,7 +70562,7 @@ let data = [|
     latex: "^{194}\\mathrm{Po}",
   },
   {
-    pdg: (-1000841940),
+    pdg: -1000841940,
     name: "Po194~",
     mass: Some(180698.9373173),
     width: None,
@@ -70588,7 +70588,7 @@ let data = [|
     latex: "^{195}\\mathrm{Po}",
   },
   {
-    pdg: (-1000841950),
+    pdg: -1000841950,
     name: "Po195~",
     mass: Some(181630.2171686),
     width: None,
@@ -70614,7 +70614,7 @@ let data = [|
     latex: "^{196}\\mathrm{Po}",
   },
   {
-    pdg: (-1000841960),
+    pdg: -1000841960,
     name: "Po196~",
     mass: Some(182559.3452686),
     width: None,
@@ -70640,7 +70640,7 @@ let data = [|
     latex: "^{197}\\mathrm{Po}",
   },
   {
-    pdg: (-1000841970),
+    pdg: -1000841970,
     name: "Po197~",
     mass: Some(183490.8952533),
     width: None,
@@ -70666,7 +70666,7 @@ let data = [|
     latex: "^{198}\\mathrm{Po}",
   },
   {
-    pdg: (-1000841980),
+    pdg: -1000841980,
     name: "Po198~",
     mass: Some(184420.3121164),
     width: None,
@@ -70692,7 +70692,7 @@ let data = [|
     latex: "^{199}\\mathrm{Po}",
   },
   {
-    pdg: (-1000841990),
+    pdg: -1000841990,
     name: "Po199~",
     mass: Some(185352.0483999),
     width: None,
@@ -70718,7 +70718,7 @@ let data = [|
     latex: "^{200}\\mathrm{Po}",
   },
   {
-    pdg: (-1000842000),
+    pdg: -1000842000,
     name: "Po200~",
     mass: Some(186281.8099159),
     width: None,
@@ -70744,7 +70744,7 @@ let data = [|
     latex: "^{201}\\mathrm{Po}",
   },
   {
-    pdg: (-1000842010),
+    pdg: -1000842010,
     name: "Po201~",
     mass: Some(187213.7418131),
     width: None,
@@ -70770,7 +70770,7 @@ let data = [|
     latex: "^{202}\\mathrm{Po}",
   },
   {
-    pdg: (-1000842020),
+    pdg: -1000842020,
     name: "Po202~",
     mass: Some(188143.829352),
     width: None,
@@ -70796,7 +70796,7 @@ let data = [|
     latex: "^{203}\\mathrm{Po}",
   },
   {
-    pdg: (-1000842030),
+    pdg: -1000842030,
     name: "Po203~",
     mass: Some(189075.9848078),
     width: None,
@@ -70822,7 +70822,7 @@ let data = [|
     latex: "^{204}\\mathrm{Po}",
   },
   {
-    pdg: (-1000842040),
+    pdg: -1000842040,
     name: "Po204~",
     mass: Some(190006.4514648),
     width: None,
@@ -70848,7 +70848,7 @@ let data = [|
     latex: "^{205}\\mathrm{Po}",
   },
   {
-    pdg: (-1000842050),
+    pdg: -1000842050,
     name: "Po205~",
     mass: Some(190938.7494392),
     width: None,
@@ -70874,7 +70874,7 @@ let data = [|
     latex: "^{206}\\mathrm{Po}",
   },
   {
-    pdg: (-1000842060),
+    pdg: -1000842060,
     name: "Po206~",
     mass: Some(191869.5868308),
     width: None,
@@ -70900,7 +70900,7 @@ let data = [|
     latex: "^{207}\\mathrm{Po}",
   },
   {
-    pdg: (-1000842070),
+    pdg: -1000842070,
     name: "Po207~",
     mass: Some(192802.1176787),
     width: None,
@@ -70926,7 +70926,7 @@ let data = [|
     latex: "^{208}\\mathrm{Po}",
   },
   {
-    pdg: (-1000842080),
+    pdg: -1000842080,
     name: "Po208~",
     mass: Some(193733.2885453),
     width: None,
@@ -70952,7 +70952,7 @@ let data = [|
     latex: "^{209}\\mathrm{Po}",
   },
   {
-    pdg: (-1000842090),
+    pdg: -1000842090,
     name: "Po209~",
     mass: Some(194665.8864608),
     width: None,
@@ -70978,7 +70978,7 @@ let data = [|
     latex: "^{210}\\mathrm{Po}",
   },
   {
-    pdg: (-1000842100),
+    pdg: -1000842100,
     name: "Po210~",
     mass: Some(195597.7913447),
     width: None,
@@ -71004,7 +71004,7 @@ let data = [|
     latex: "^{211}\\mathrm{Po}",
   },
   {
-    pdg: (-1000842110),
+    pdg: -1000842110,
     name: "Po211~",
     mass: Some(196532.8064873),
     width: None,
@@ -71030,7 +71030,7 @@ let data = [|
     latex: "^{212}\\mathrm{Po}",
   },
   {
-    pdg: (-1000842120),
+    pdg: -1000842120,
     name: "Po212~",
     mass: Some(197466.3638417),
     width: None,
@@ -71056,7 +71056,7 @@ let data = [|
     latex: "^{213}\\mathrm{Po}",
   },
   {
-    pdg: (-1000842130),
+    pdg: -1000842130,
     name: "Po213~",
     mass: Some(198401.5755297),
     width: None,
@@ -71082,7 +71082,7 @@ let data = [|
     latex: "^{214}\\mathrm{Po}",
   },
   {
-    pdg: (-1000842140),
+    pdg: -1000842140,
     name: "Po214~",
     mass: Some(199335.2521153),
     width: None,
@@ -71108,7 +71108,7 @@ let data = [|
     latex: "^{215}\\mathrm{Po}",
   },
   {
-    pdg: (-1000842150),
+    pdg: -1000842150,
     name: "Po215~",
     mass: Some(200270.6854988),
     width: None,
@@ -71134,7 +71134,7 @@ let data = [|
     latex: "^{216}\\mathrm{Po}",
   },
   {
-    pdg: (-1000842160),
+    pdg: -1000842160,
     name: "Po216~",
     mass: Some(201204.4992004),
     width: None,
@@ -71160,7 +71160,7 @@ let data = [|
     latex: "^{217}\\mathrm{Po}",
   },
   {
-    pdg: (-1000842170),
+    pdg: -1000842170,
     name: "Po217~",
     mass: Some(202140.040451),
     width: None,
@@ -71186,7 +71186,7 @@ let data = [|
     latex: "^{218}\\mathrm{Po}",
   },
   {
-    pdg: (-1000842180),
+    pdg: -1000842180,
     name: "Po218~",
     mass: Some(203074.0642976),
     width: None,
@@ -71212,7 +71212,7 @@ let data = [|
     latex: "^{193}\\mathrm{At}",
   },
   {
-    pdg: (-1000851930),
+    pdg: -1000851930,
     name: "At193~",
     mass: Some(179778.537317),
     width: None,
@@ -71238,7 +71238,7 @@ let data = [|
     latex: "^{194}\\mathrm{At}",
   },
   {
-    pdg: (-1000851940),
+    pdg: -1000851940,
     name: "At194~",
     mass: Some(180708.8949892),
     width: None,
@@ -71264,7 +71264,7 @@ let data = [|
     latex: "^{195}\\mathrm{At}",
   },
   {
-    pdg: (-1000851950),
+    pdg: -1000851950,
     name: "At195~",
     mass: Some(181638.1348685),
     width: None,
@@ -71290,7 +71290,7 @@ let data = [|
     latex: "^{196}\\mathrm{At}",
   },
   {
-    pdg: (-1000851960),
+    pdg: -1000851960,
     name: "At196~",
     mass: Some(182568.8371935),
     width: None,
@@ -71316,7 +71316,7 @@ let data = [|
     latex: "^{197}\\mathrm{At}",
   },
   {
-    pdg: (-1000851970),
+    pdg: -1000851970,
     name: "At197~",
     mass: Some(183498.0863877),
     width: None,
@@ -71342,7 +71342,7 @@ let data = [|
     latex: "^{198}\\mathrm{At}",
   },
   {
-    pdg: (-1000851980),
+    pdg: -1000851980,
     name: "At198~",
     mass: Some(184429.0774759),
     width: None,
@@ -71368,7 +71368,7 @@ let data = [|
     latex: "^{199}\\mathrm{At}",
   },
   {
-    pdg: (-1000851990),
+    pdg: -1000851990,
     name: "At199~",
     mass: Some(185358.5968034),
     width: None,
@@ -71394,7 +71394,7 @@ let data = [|
     latex: "^{200}\\mathrm{At}",
   },
   {
-    pdg: (-1000852000),
+    pdg: -1000852000,
     name: "At200~",
     mass: Some(186289.7741904),
     width: None,
@@ -71420,7 +71420,7 @@ let data = [|
     latex: "^{201}\\mathrm{At}",
   },
   {
-    pdg: (-1000852010),
+    pdg: -1000852010,
     name: "At201~",
     mass: Some(187219.591596),
     width: None,
@@ -71446,7 +71446,7 @@ let data = [|
     latex: "^{202}\\mathrm{At}",
   },
   {
-    pdg: (-1000852020),
+    pdg: -1000852020,
     name: "At202~",
     mass: Some(188151.0484312),
     width: None,
@@ -71472,7 +71472,7 @@ let data = [|
     latex: "^{203}\\mathrm{At}",
   },
   {
-    pdg: (-1000852030),
+    pdg: -1000852030,
     name: "At203~",
     mass: Some(189081.0521357),
     width: None,
@@ -71498,7 +71498,7 @@ let data = [|
     latex: "^{204}\\mathrm{At}",
   },
   {
-    pdg: (-1000852040),
+    pdg: -1000852040,
     name: "At204~",
     mass: Some(190012.9281432),
     width: None,
@@ -71524,7 +71524,7 @@ let data = [|
     latex: "^{205}\\mathrm{At}",
   },
   {
-    pdg: (-1000852050),
+    pdg: -1000852050,
     name: "At205~",
     mass: Some(190943.2858154),
     width: None,
@@ -71550,7 +71550,7 @@ let data = [|
     latex: "^{206}\\mathrm{At}",
   },
   {
-    pdg: (-1000852060),
+    pdg: -1000852060,
     name: "At206~",
     mass: Some(191875.3015471),
     width: None,
@@ -71576,7 +71576,7 @@ let data = [|
     latex: "^{207}\\mathrm{At}",
   },
   {
-    pdg: (-1000852070),
+    pdg: -1000852070,
     name: "At207~",
     mass: Some(192806.028091),
     width: None,
@@ -71602,7 +71602,7 @@ let data = [|
     latex: "^{208}\\mathrm{At}",
   },
   {
-    pdg: (-1000852080),
+    pdg: -1000852080,
     name: "At208~",
     mass: Some(193738.2739017),
     width: None,
@@ -71628,7 +71628,7 @@ let data = [|
     latex: "^{209}\\mathrm{At}",
   },
   {
-    pdg: (-1000852090),
+    pdg: -1000852090,
     name: "At209~",
     mass: Some(194669.3730432),
     width: None,
@@ -71654,7 +71654,7 @@ let data = [|
     latex: "^{210}\\mathrm{At}",
   },
   {
-    pdg: (-1000852100),
+    pdg: -1000852100,
     name: "At210~",
     mass: Some(195601.7725504),
     width: None,
@@ -71680,7 +71680,7 @@ let data = [|
     latex: "^{211}\\mathrm{At}",
   },
   {
-    pdg: (-1000852110),
+    pdg: -1000852110,
     name: "At211~",
     mass: Some(196533.5926683),
     width: None,
@@ -71706,7 +71706,7 @@ let data = [|
     latex: "^{212}\\mathrm{At}",
   },
   {
-    pdg: (-1000852120),
+    pdg: -1000852120,
     name: "At212~",
     mass: Some(197468.1178451),
     width: None,
@@ -71732,7 +71732,7 @@ let data = [|
     latex: "^{213}\\mathrm{At}",
   },
   {
-    pdg: (-1000852130),
+    pdg: -1000852130,
     name: "At213~",
     mass: Some(198401.6481862),
     width: None,
@@ -71758,7 +71758,7 @@ let data = [|
     latex: "^{214}\\mathrm{At}",
   },
   {
-    pdg: (-1000852140),
+    pdg: -1000852140,
     name: "At214~",
     mass: Some(199336.3419634),
     width: None,
@@ -71784,7 +71784,7 @@ let data = [|
     latex: "^{215}\\mathrm{At}",
   },
   {
-    pdg: (-1000852150),
+    pdg: -1000852150,
     name: "At215~",
     mass: Some(200269.9645224),
     width: None,
@@ -71810,7 +71810,7 @@ let data = [|
     latex: "^{216}\\mathrm{At}",
   },
   {
-    pdg: (-1000852160),
+    pdg: -1000852160,
     name: "At216~",
     mass: Some(201204.9684871),
     width: None,
@@ -71836,7 +71836,7 @@ let data = [|
     latex: "^{217}\\mathrm{At}",
   },
   {
-    pdg: (-1000852170),
+    pdg: -1000852170,
     name: "At217~",
     mass: Some(202138.60595),
     width: None,
@@ -71862,7 +71862,7 @@ let data = [|
     latex: "^{218}\\mathrm{At}",
   },
   {
-    pdg: (-1000852180),
+    pdg: -1000852180,
     name: "At218~",
     mass: Some(203073.7990081),
     width: None,
@@ -71888,7 +71888,7 @@ let data = [|
     latex: "^{219}\\mathrm{At}",
   },
   {
-    pdg: (-1000852190),
+    pdg: -1000852190,
     name: "At219~",
     mass: Some(204007.7326861),
     width: None,
@@ -71914,7 +71914,7 @@ let data = [|
     latex: "^{220}\\mathrm{At}",
   },
   {
-    pdg: (-1000852200),
+    pdg: -1000852200,
     name: "At220~",
     mass: Some(204942.9527575),
     width: None,
@@ -71940,7 +71940,7 @@ let data = [|
     latex: "^{221}\\mathrm{At}",
   },
   {
-    pdg: (-1000852210),
+    pdg: -1000852210,
     name: "At221~",
     mass: Some(205877.0922957),
     width: None,
@@ -71966,7 +71966,7 @@ let data = [|
     latex: "^{222}\\mathrm{At}",
   },
   {
-    pdg: (-1000852220),
+    pdg: -1000852220,
     name: "At222~",
     mass: Some(206812.489351),
     width: None,
@@ -71992,7 +71992,7 @@ let data = [|
     latex: "^{223}\\mathrm{At}",
   },
   {
-    pdg: (-1000852230),
+    pdg: -1000852230,
     name: "At223~",
     mass: Some(207746.7872432),
     width: None,
@@ -72018,7 +72018,7 @@ let data = [|
     latex: "^{196}\\mathrm{Rn}",
   },
   {
-    pdg: (-1000861960),
+    pdg: -1000861960,
     name: "Rn196~",
     mass: Some(182574.9943694),
     width: None,
@@ -72044,7 +72044,7 @@ let data = [|
     latex: "^{197}\\mathrm{Rn}",
   },
   {
-    pdg: (-1000861970),
+    pdg: -1000861970,
     name: "Rn197~",
     mass: Some(183505.8829933),
     width: None,
@@ -72070,7 +72070,7 @@ let data = [|
     latex: "^{198}\\mathrm{Rn}",
   },
   {
-    pdg: (-1000861980),
+    pdg: -1000861980,
     name: "Rn198~",
     mass: Some(184434.6943853),
     width: None,
@@ -72096,7 +72096,7 @@ let data = [|
     latex: "^{199}\\mathrm{Rn}",
   },
   {
-    pdg: (-1000861990),
+    pdg: -1000861990,
     name: "Rn199~",
     mass: Some(185365.750678),
     width: None,
@@ -72122,7 +72122,7 @@ let data = [|
     latex: "^{200}\\mathrm{Rn}",
   },
   {
-    pdg: (-1000862000),
+    pdg: -1000862000,
     name: "Rn200~",
     mass: Some(186294.7949435),
     width: None,
@@ -72148,7 +72148,7 @@ let data = [|
     latex: "^{201}\\mathrm{Rn}",
   },
   {
-    pdg: (-1000862010),
+    pdg: -1000862010,
     name: "Rn201~",
     mass: Some(187226.1586294),
     width: None,
@@ -72174,7 +72174,7 @@ let data = [|
     latex: "^{202}\\mathrm{Rn}",
   },
   {
-    pdg: (-1000862020),
+    pdg: -1000862020,
     name: "Rn202~",
     mass: Some(188155.491658),
     width: None,
@@ -72200,7 +72200,7 @@ let data = [|
     latex: "^{203}\\mathrm{Rn}",
   },
   {
-    pdg: (-1000862030),
+    pdg: -1000862030,
     name: "Rn203~",
     mass: Some(189087.0789024),
     width: None,
@@ -72226,7 +72226,7 @@ let data = [|
     latex: "^{204}\\mathrm{Rn}",
   },
   {
-    pdg: (-1000862040),
+    pdg: -1000862040,
     name: "Rn204~",
     mass: Some(190016.7565839),
     width: None,
@@ -72252,7 +72252,7 @@ let data = [|
     latex: "^{205}\\mathrm{Rn}",
   },
   {
-    pdg: (-1000862050),
+    pdg: -1000862050,
     name: "Rn205~",
     mass: Some(190948.5301272),
     width: None,
@@ -72278,7 +72278,7 @@ let data = [|
     latex: "^{206}\\mathrm{Rn}",
   },
   {
-    pdg: (-1000862060),
+    pdg: -1000862060,
     name: "Rn206~",
     mass: Some(191878.6176661),
     width: None,
@@ -72304,7 +72304,7 @@ let data = [|
     latex: "^{207}\\mathrm{Rn}",
   },
   {
-    pdg: (-1000862070),
+    pdg: -1000862070,
     name: "Rn207~",
     mass: Some(192810.6427127),
     width: None,
@@ -72330,7 +72330,7 @@ let data = [|
     latex: "^{208}\\mathrm{Rn}",
   },
   {
-    pdg: (-1000862080),
+    pdg: -1000862080,
     name: "Rn208~",
     mass: Some(193741.1130957),
     width: None,
@@ -72356,7 +72356,7 @@ let data = [|
     latex: "^{209}\\mathrm{Rn}",
   },
   {
-    pdg: (-1000862090),
+    pdg: -1000862090,
     name: "Rn209~",
     mass: Some(194673.3048797),
     width: None,
@@ -72382,7 +72382,7 @@ let data = [|
     latex: "^{210}\\mathrm{Rn}",
   },
   {
-    pdg: (-1000862100),
+    pdg: -1000862100,
     name: "Rn210~",
     mass: Some(195604.1469289),
     width: None,
@@ -72408,7 +72408,7 @@ let data = [|
     latex: "^{211}\\mathrm{Rn}",
   },
   {
-    pdg: (-1000862110),
+    pdg: -1000862110,
     name: "Rn211~",
     mass: Some(196536.484026),
     width: None,
@@ -72434,7 +72434,7 @@ let data = [|
     latex: "^{212}\\mathrm{Rn}",
   },
   {
-    pdg: (-1000862120),
+    pdg: -1000862120,
     name: "Rn212~",
     mass: Some(197468.0749964),
     width: None,
@@ -72460,7 +72460,7 @@ let data = [|
     latex: "^{213}\\mathrm{Rn}",
   },
   {
-    pdg: (-1000862130),
+    pdg: -1000862130,
     name: "Rn213~",
     mass: Some(198402.5303111),
     width: None,
@@ -72486,7 +72486,7 @@ let data = [|
     latex: "^{214}\\mathrm{Rn}",
   },
   {
-    pdg: (-1000862140),
+    pdg: -1000862140,
     name: "Rn214~",
     mass: Some(199335.4011544),
     width: None,
@@ -72512,7 +72512,7 @@ let data = [|
     latex: "^{215}\\mathrm{Rn}",
   },
   {
-    pdg: (-1000862150),
+    pdg: -1000862150,
     name: "Rn215~",
     mass: Some(200270.0464939),
     width: None,
@@ -72538,7 +72538,7 @@ let data = [|
     latex: "^{216}\\mathrm{Rn}",
   },
   {
-    pdg: (-1000862160),
+    pdg: -1000862160,
     name: "Rn216~",
     mass: Some(201202.9648433),
     width: None,
@@ -72564,7 +72564,7 @@ let data = [|
     latex: "^{217}\\mathrm{Rn}",
   },
   {
-    pdg: (-1000862170),
+    pdg: -1000862170,
     name: "Rn217~",
     mass: Some(202137.8654122),
     width: None,
@@ -72590,7 +72590,7 @@ let data = [|
     latex: "^{218}\\mathrm{Rn}",
   },
   {
-    pdg: (-1000862180),
+    pdg: -1000862180,
     name: "Rn218~",
     mass: Some(203070.9160339),
     width: None,
@@ -72616,7 +72616,7 @@ let data = [|
     latex: "^{219}\\mathrm{Rn}",
   },
   {
-    pdg: (-1000862190),
+    pdg: -1000862190,
     name: "Rn219~",
     mass: Some(204006.0327094),
     width: None,
@@ -72642,7 +72642,7 @@ let data = [|
     latex: "^{220}\\mathrm{Rn}",
   },
   {
-    pdg: (-1000862200),
+    pdg: -1000862200,
     name: "Rn220~",
     mass: Some(204939.3051198),
     width: None,
@@ -72668,7 +72668,7 @@ let data = [|
     latex: "^{221}\\mathrm{Rn}",
   },
   {
-    pdg: (-1000862210),
+    pdg: -1000862210,
     name: "Rn221~",
     mass: Some(205874.5958915),
     width: None,
@@ -72694,7 +72694,7 @@ let data = [|
     latex: "^{222}\\mathrm{Rn}",
   },
   {
-    pdg: (-1000862220),
+    pdg: -1000862220,
     name: "Rn222~",
     mass: Some(206808.0559048),
     width: None,
@@ -72720,7 +72720,7 @@ let data = [|
     latex: "^{223}\\mathrm{Rn}",
   },
   {
-    pdg: (-1000862230),
+    pdg: -1000862230,
     name: "Rn223~",
     mass: Some(207743.4804391),
     width: None,
@@ -72746,7 +72746,7 @@ let data = [|
     latex: "^{224}\\mathrm{Rn}",
   },
   {
-    pdg: (-1000862240),
+    pdg: -1000862240,
     name: "Rn224~",
     mass: Some(208677.1169705),
     width: None,
@@ -72772,7 +72772,7 @@ let data = [|
     latex: "^{225}\\mathrm{Rn}",
   },
   {
-    pdg: (-1000862250),
+    pdg: -1000862250,
     name: "Rn225~",
     mass: Some(209612.6630648),
     width: None,
@@ -72798,7 +72798,7 @@ let data = [|
     latex: "^{226}\\mathrm{Rn}",
   },
   {
-    pdg: (-1000862260),
+    pdg: -1000862260,
     name: "Rn226~",
     mass: Some(210546.4393204),
     width: None,
@@ -72824,7 +72824,7 @@ let data = [|
     latex: "^{227}\\mathrm{Rn}",
   },
   {
-    pdg: (-1000862270),
+    pdg: -1000862270,
     name: "Rn227~",
     mass: Some(211482.1437687),
     width: None,
@@ -72850,7 +72850,7 @@ let data = [|
     latex: "^{228}\\mathrm{Rn}",
   },
   {
-    pdg: (-1000862280),
+    pdg: -1000862280,
     name: "Rn228~",
     mass: Some(212416.1249529),
     width: None,
@@ -72876,7 +72876,7 @@ let data = [|
     latex: "^{200}\\mathrm{Fr}",
   },
   {
-    pdg: (-1000872000),
+    pdg: -1000872000,
     name: "Fr200~",
     mass: Some(186304.8737096),
     width: None,
@@ -72902,7 +72902,7 @@ let data = [|
     latex: "^{201}\\mathrm{Fr}",
   },
   {
-    pdg: (-1000872010),
+    pdg: -1000872010,
     name: "Fr201~",
     mass: Some(187234.0297545),
     width: None,
@@ -72928,7 +72928,7 @@ let data = [|
     latex: "^{202}\\mathrm{Fr}",
   },
   {
-    pdg: (-1000872020),
+    pdg: -1000872020,
     name: "Fr202~",
     mass: Some(188164.8718036),
     width: None,
@@ -72954,7 +72954,7 @@ let data = [|
     latex: "^{203}\\mathrm{Fr}",
   },
   {
-    pdg: (-1000872030),
+    pdg: -1000872030,
     name: "Fr203~",
     mass: Some(189094.2793518),
     width: None,
@@ -72980,7 +72980,7 @@ let data = [|
     latex: "^{204}\\mathrm{Fr}",
   },
   {
-    pdg: (-1000872040),
+    pdg: -1000872040,
     name: "Fr204~",
     mass: Some(190025.3449595),
     width: None,
@@ -73006,7 +73006,7 @@ let data = [|
     latex: "^{205}\\mathrm{Fr}",
   },
   {
-    pdg: (-1000872050),
+    pdg: -1000872050,
     name: "Fr205~",
     mass: Some(190955.0412709),
     width: None,
@@ -73032,7 +73032,7 @@ let data = [|
     latex: "^{206}\\mathrm{Fr}",
   },
   {
-    pdg: (-1000872060),
+    pdg: -1000872060,
     name: "Fr206~",
     mass: Some(191886.3770119),
     width: None,
@@ -73058,7 +73058,7 @@ let data = [|
     latex: "^{207}\\mathrm{Fr}",
   },
   {
-    pdg: (-1000872070),
+    pdg: -1000872070,
     name: "Fr207~",
     mass: Some(192816.3527715),
     width: None,
@@ -73084,7 +73084,7 @@ let data = [|
     latex: "^{208}\\mathrm{Fr}",
   },
   {
-    pdg: (-1000872080),
+    pdg: -1000872080,
     name: "Fr208~",
     mass: Some(193748.0983699),
     width: None,
@@ -73110,7 +73110,7 @@ let data = [|
     latex: "^{209}\\mathrm{Fr}",
   },
   {
-    pdg: (-1000872090),
+    pdg: -1000872090,
     name: "Fr209~",
     mass: Some(194678.465357),
     width: None,
@@ -73136,7 +73136,7 @@ let data = [|
     latex: "^{210}\\mathrm{Fr}",
   },
   {
-    pdg: (-1000872100),
+    pdg: -1000872100,
     name: "Fr210~",
     mass: Some(195610.4047062),
     width: None,
@@ -73162,7 +73162,7 @@ let data = [|
     latex: "^{211}\\mathrm{Fr}",
   },
   {
-    pdg: (-1000872110),
+    pdg: -1000872110,
     name: "Fr211~",
     mass: Some(196541.0893328),
     width: None,
@@ -73188,7 +73188,7 @@ let data = [|
     latex: "^{212}\\mathrm{Fr}",
   },
   {
-    pdg: (-1000872120),
+    pdg: -1000872120,
     name: "Fr212~",
     mass: Some(197473.2038029),
     width: None,
@@ -73214,7 +73214,7 @@ let data = [|
     latex: "^{213}\\mathrm{Fr}",
   },
   {
-    pdg: (-1000872130),
+    pdg: -1000872130,
     name: "Fr213~",
     mass: Some(198404.679268),
     width: None,
@@ -73240,7 +73240,7 @@ let data = [|
     latex: "^{214}\\mathrm{Fr}",
   },
   {
-    pdg: (-1000872140),
+    pdg: -1000872140,
     name: "Fr214~",
     mass: Some(199338.7629166),
     width: None,
@@ -73266,7 +73266,7 @@ let data = [|
     latex: "^{215}\\mathrm{Fr}",
   },
   {
-    pdg: (-1000872150),
+    pdg: -1000872150,
     name: "Fr215~",
     mass: Some(200271.53409),
     width: None,
@@ -73292,7 +73292,7 @@ let data = [|
     latex: "^{216}\\mathrm{Fr}",
   },
   {
-    pdg: (-1000872160),
+    pdg: -1000872160,
     name: "Fr216~",
     mass: Some(201205.694121),
     width: None,
@@ -73318,7 +73318,7 @@ let data = [|
     latex: "^{217}\\mathrm{Fr}",
   },
   {
-    pdg: (-1000872170),
+    pdg: -1000872170,
     name: "Fr217~",
     mass: Some(202138.5183896),
     width: None,
@@ -73344,7 +73344,7 @@ let data = [|
     latex: "^{218}\\mathrm{Fr}",
   },
   {
-    pdg: (-1000872180),
+    pdg: -1000872180,
     name: "Fr218~",
     mass: Some(203072.7575977),
     width: None,
@@ -73370,7 +73370,7 @@ let data = [|
     latex: "^{219}\\mathrm{Fr}",
   },
   {
-    pdg: (-1000872190),
+    pdg: -1000872190,
     name: "Fr219~",
     mass: Some(204005.8147398),
     width: None,
@@ -73396,7 +73396,7 @@ let data = [|
     latex: "^{220}\\mathrm{Fr}",
   },
   {
-    pdg: (-1000872200),
+    pdg: -1000872200,
     name: "Fr220~",
     mass: Some(204940.1703846),
     width: None,
@@ -73422,7 +73422,7 @@ let data = [|
     latex: "^{221}\\mathrm{Fr}",
   },
   {
-    pdg: (-1000872210),
+    pdg: -1000872210,
     name: "Fr221~",
     mass: Some(205873.4650577),
     width: None,
@@ -73448,7 +73448,7 @@ let data = [|
     latex: "^{222}\\mathrm{Fr}",
   },
   {
-    pdg: (-1000872220),
+    pdg: -1000872220,
     name: "Fr222~",
     mass: Some(206808.0312202),
     width: None,
@@ -73474,7 +73474,7 @@ let data = [|
     latex: "^{223}\\mathrm{Fr}",
   },
   {
-    pdg: (-1000872230),
+    pdg: -1000872230,
     name: "Fr223~",
     mass: Some(207741.5622133),
     width: None,
@@ -73500,7 +73500,7 @@ let data = [|
     latex: "^{224}\\mathrm{Fr}",
   },
   {
-    pdg: (-1000872240),
+    pdg: -1000872240,
     name: "Fr224~",
     mass: Some(208676.3252006),
     width: None,
@@ -73526,7 +73526,7 @@ let data = [|
     latex: "^{225}\\mathrm{Fr}",
   },
   {
-    pdg: (-1000872250),
+    pdg: -1000872250,
     name: "Fr225~",
     mass: Some(209610.0241421),
     width: None,
@@ -73552,7 +73552,7 @@ let data = [|
     latex: "^{226}\\mathrm{Fr}",
   },
   {
-    pdg: (-1000872260),
+    pdg: -1000872260,
     name: "Fr226~",
     mass: Some(210544.9955045),
     width: None,
@@ -73578,7 +73578,7 @@ let data = [|
     latex: "^{227}\\mathrm{Fr}",
   },
   {
-    pdg: (-1000872270),
+    pdg: -1000872270,
     name: "Fr227~",
     mass: Some(211478.8090198),
     width: None,
@@ -73604,7 +73604,7 @@ let data = [|
     latex: "^{228}\\mathrm{Fr}",
   },
   {
-    pdg: (-1000872280),
+    pdg: -1000872280,
     name: "Fr228~",
     mass: Some(212413.9266268),
     width: None,
@@ -73630,7 +73630,7 @@ let data = [|
     latex: "^{229}\\mathrm{Fr}",
   },
   {
-    pdg: (-1000872290),
+    pdg: -1000872290,
     name: "Fr229~",
     mass: Some(213347.9450708),
     width: None,
@@ -73656,7 +73656,7 @@ let data = [|
     latex: "^{230}\\mathrm{Fr}",
   },
   {
-    pdg: (-1000872300),
+    pdg: -1000872300,
     name: "Fr230~",
     mass: Some(214283.2396617),
     width: None,
@@ -73682,7 +73682,7 @@ let data = [|
     latex: "^{231}\\mathrm{Fr}",
   },
   {
-    pdg: (-1000872310),
+    pdg: -1000872310,
     name: "Fr231~",
     mass: Some(215217.4350896),
     width: None,
@@ -73708,7 +73708,7 @@ let data = [|
     latex: "^{232}\\mathrm{Fr}",
   },
   {
-    pdg: (-1000872320),
+    pdg: -1000872320,
     name: "Fr232~",
     mass: Some(216152.8787195),
     width: None,
@@ -73734,7 +73734,7 @@ let data = [|
     latex: "^{203}\\mathrm{Ra}",
   },
   {
-    pdg: (-1000882030),
+    pdg: -1000882030,
     name: "Ra203~",
     mass: Some(189101.8803436),
     width: None,
@@ -73760,7 +73760,7 @@ let data = [|
     latex: "^{204}\\mathrm{Ra}",
   },
   {
-    pdg: (-1000882040),
+    pdg: -1000882040,
     name: "Ra204~",
     mass: Some(190030.8314597),
     width: None,
@@ -73786,7 +73786,7 @@ let data = [|
     latex: "^{205}\\mathrm{Ra}",
   },
   {
-    pdg: (-1000882050),
+    pdg: -1000882050,
     name: "Ra205~",
     mass: Some(190962.0554214),
     width: None,
@@ -73812,7 +73812,7 @@ let data = [|
     latex: "^{206}\\mathrm{Ra}",
   },
   {
-    pdg: (-1000882060),
+    pdg: -1000882060,
     name: "Ra206~",
     mass: Some(191891.3046156),
     width: None,
@@ -73838,7 +73838,7 @@ let data = [|
     latex: "^{207}\\mathrm{Ra}",
   },
   {
-    pdg: (-1000882070),
+    pdg: -1000882070,
     name: "Ra207~",
     mass: Some(192822.7521359),
     width: None,
@@ -73864,7 +73864,7 @@ let data = [|
     latex: "^{208}\\mathrm{Ra}",
   },
   {
-    pdg: (-1000882080),
+    pdg: -1000882080,
     name: "Ra208~",
     mass: Some(193752.4298174),
     width: None,
@@ -73890,7 +73890,7 @@ let data = [|
     latex: "^{209}\\mathrm{Ra}",
   },
   {
-    pdg: (-1000882090),
+    pdg: -1000882090,
     name: "Ra209~",
     mass: Some(194684.0729515),
     width: None,
@@ -73916,7 +73916,7 @@ let data = [|
     latex: "^{210}\\mathrm{Ra}",
   },
   {
-    pdg: (-1000882100),
+    pdg: -1000882100,
     name: "Ra210~",
     mass: Some(195614.1791203),
     width: None,
@@ -73942,7 +73942,7 @@ let data = [|
     latex: "^{211}\\mathrm{Ra}",
   },
   {
-    pdg: (-1000882110),
+    pdg: -1000882110,
     name: "Ra211~",
     mass: Some(196546.0830727),
     width: None,
@@ -73968,7 +73968,7 @@ let data = [|
     latex: "^{212}\\mathrm{Ra}",
   },
   {
-    pdg: (-1000882120),
+    pdg: -1000882120,
     name: "Ra212~",
     mass: Some(197476.5460037),
     width: None,
@@ -73994,7 +73994,7 @@ let data = [|
     latex: "^{213}\\mathrm{Ra}",
   },
   {
-    pdg: (-1000882130),
+    pdg: -1000882130,
     name: "Ra213~",
     mass: Some(198408.5682558),
     width: None,
@@ -74020,7 +74020,7 @@ let data = [|
     latex: "^{214}\\mathrm{Ra}",
   },
   {
-    pdg: (-1000882140),
+    pdg: -1000882140,
     name: "Ra214~",
     mass: Some(199339.8210939),
     width: None,
@@ -74046,7 +74046,7 @@ let data = [|
     latex: "^{215}\\mathrm{Ra}",
   },
   {
-    pdg: (-1000882150),
+    pdg: -1000882150,
     name: "Ra215~",
     mass: Some(200273.7491829),
     width: None,
@@ -74072,7 +74072,7 @@ let data = [|
     latex: "^{216}\\mathrm{Ra}",
   },
   {
-    pdg: (-1000882160),
+    pdg: -1000882160,
     name: "Ra216~",
     mass: Some(201206.0015141),
     width: None,
@@ -74098,7 +74098,7 @@ let data = [|
     latex: "^{217}\\mathrm{Ra}",
   },
   {
-    pdg: (-1000882170),
+    pdg: -1000882170,
     name: "Ra217~",
     mass: Some(202140.0926146),
     width: None,
@@ -74124,7 +74124,7 @@ let data = [|
     latex: "^{218}\\mathrm{Ra}",
   },
   {
-    pdg: (-1000882180),
+    pdg: -1000882180,
     name: "Ra218~",
     mass: Some(203072.3486718),
     width: None,
@@ -74150,7 +74150,7 @@ let data = [|
     latex: "^{219}\\mathrm{Ra}",
   },
   {
-    pdg: (-1000882190),
+    pdg: -1000882190,
     name: "Ra219~",
     mass: Some(204006.5860169),
     width: None,
@@ -74176,7 +74176,7 @@ let data = [|
     latex: "^{220}\\mathrm{Ra}",
   },
   {
-    pdg: (-1000882200),
+    pdg: -1000882200,
     name: "Ra220~",
     mass: Some(204938.9613053),
     width: None,
@@ -74202,7 +74202,7 @@ let data = [|
     latex: "^{221}\\mathrm{Ra}",
   },
   {
-    pdg: (-1000882210),
+    pdg: -1000882210,
     name: "Ra221~",
     mass: Some(205873.1502127),
     width: None,
@@ -74228,7 +74228,7 @@ let data = [|
     latex: "^{222}\\mathrm{Ra}",
   },
   {
-    pdg: (-1000882220),
+    pdg: -1000882220,
     name: "Ra222~",
     mass: Some(206805.9987001),
     width: None,
@@ -74254,7 +74254,7 @@ let data = [|
     latex: "^{223}\\mathrm{Ra}",
   },
   {
-    pdg: (-1000882230),
+    pdg: -1000882230,
     name: "Ra223~",
     mass: Some(207740.4130291),
     width: None,
@@ -74280,7 +74280,7 @@ let data = [|
     latex: "^{224}\\mathrm{Ra}",
   },
   {
-    pdg: (-1000882240),
+    pdg: -1000882240,
     name: "Ra224~",
     mass: Some(208673.4953215),
     width: None,
@@ -74306,7 +74306,7 @@ let data = [|
     latex: "^{225}\\mathrm{Ra}",
   },
   {
-    pdg: (-1000882250),
+    pdg: -1000882250,
     name: "Ra225~",
     mass: Some(209608.1583594),
     width: None,
@@ -74332,7 +74332,7 @@ let data = [|
     latex: "^{226}\\mathrm{Ra}",
   },
   {
-    pdg: (-1000882260),
+    pdg: -1000882260,
     name: "Ra226~",
     mass: Some(210541.3278397),
     width: None,
@@ -74358,7 +74358,7 @@ let data = [|
     latex: "^{227}\\mathrm{Ra}",
   },
   {
-    pdg: (-1000882270),
+    pdg: -1000882270,
     name: "Ra227~",
     mass: Some(211476.3318976),
     width: None,
@@ -74384,7 +74384,7 @@ let data = [|
     latex: "^{228}\\mathrm{Ra}",
   },
   {
-    pdg: (-1000882280),
+    pdg: -1000882280,
     name: "Ra228~",
     mass: Some(212409.5896835),
     width: None,
@@ -74410,7 +74410,7 @@ let data = [|
     latex: "^{229}\\mathrm{Ra}",
   },
   {
-    pdg: (-1000882290),
+    pdg: -1000882290,
     name: "Ra229~",
     mass: Some(213344.5823771),
     width: None,
@@ -74436,7 +74436,7 @@ let data = [|
     latex: "^{230}\\mathrm{Ra}",
   },
   {
-    pdg: (-1000882300),
+    pdg: -1000882300,
     name: "Ra230~",
     mass: Some(214278.1816488),
     width: None,
@@ -74462,7 +74462,7 @@ let data = [|
     latex: "^{231}\\mathrm{Ra}",
   },
   {
-    pdg: (-1000882310),
+    pdg: -1000882310,
     name: "Ra231~",
     mass: Some(215213.5321293),
     width: None,
@@ -74488,7 +74488,7 @@ let data = [|
     latex: "^{232}\\mathrm{Ra}",
   },
   {
-    pdg: (-1000882320),
+    pdg: -1000882320,
     name: "Ra232~",
     mass: Some(216147.3270147),
     width: None,
@@ -74514,7 +74514,7 @@ let data = [|
     latex: "^{233}\\mathrm{Ra}",
   },
   {
-    pdg: (-1000882330),
+    pdg: -1000882330,
     name: "Ra233~",
     mass: Some(217082.8358493),
     width: None,
@@ -74540,7 +74540,7 @@ let data = [|
     latex: "^{234}\\mathrm{Ra}",
   },
   {
-    pdg: (-1000882340),
+    pdg: -1000882340,
     name: "Ra234~",
     mass: Some(218016.7052542),
     width: None,
@@ -74566,7 +74566,7 @@ let data = [|
     latex: "^{207}\\mathrm{Ac}",
   },
   {
-    pdg: (-1000892070),
+    pdg: -1000892070,
     name: "Ac207~",
     mass: Some(192830.5394266),
     width: None,
@@ -74592,7 +74592,7 @@ let data = [|
     latex: "^{208}\\mathrm{Ac}",
   },
   {
-    pdg: (-1000892080),
+    pdg: -1000892080,
     name: "Ac208~",
     mass: Some(193761.4746251),
     width: None,
@@ -74618,7 +74618,7 @@ let data = [|
     latex: "^{209}\\mathrm{Ac}",
   },
   {
-    pdg: (-1000892090),
+    pdg: -1000892090,
     name: "Ac209~",
     mass: Some(194691.1802514),
     width: None,
@@ -74644,7 +74644,7 @@ let data = [|
     latex: "^{210}\\mathrm{Ac}",
   },
   {
-    pdg: (-1000892100),
+    pdg: -1000892100,
     name: "Ac210~",
     mass: Some(195622.3855833),
     width: None,
@@ -74670,7 +74670,7 @@ let data = [|
     latex: "^{211}\\mathrm{Ac}",
   },
   {
-    pdg: (-1000892110),
+    pdg: -1000892110,
     name: "Ac211~",
     mass: Some(196552.3799727),
     width: None,
@@ -74696,7 +74696,7 @@ let data = [|
     latex: "^{212}\\mathrm{Ac}",
   },
   {
-    pdg: (-1000892120),
+    pdg: -1000892120,
     name: "Ac212~",
     mass: Some(197484.0231068),
     width: None,
@@ -74722,7 +74722,7 @@ let data = [|
     latex: "^{213}\\mathrm{Ac}",
   },
   {
-    pdg: (-1000892130),
+    pdg: -1000892130,
     name: "Ac213~",
     mass: Some(198414.3621491),
     width: None,
@@ -74748,7 +74748,7 @@ let data = [|
     latex: "^{214}\\mathrm{Ac}",
   },
   {
-    pdg: (-1000892140),
+    pdg: -1000892140,
     name: "Ac214~",
     mass: Some(199346.1543222),
     width: None,
@@ -74774,7 +74774,7 @@ let data = [|
     latex: "^{215}\\mathrm{Ac}",
   },
   {
-    pdg: (-1000892150),
+    pdg: -1000892150,
     name: "Ac215~",
     mass: Some(200277.2385598),
     width: None,
@@ -74800,7 +74800,7 @@ let data = [|
     latex: "^{216}\\mathrm{Ac}",
   },
   {
-    pdg: (-1000892160),
+    pdg: -1000892160,
     name: "Ac216~",
     mass: Some(201210.8480779),
     width: None,
@@ -74826,7 +74826,7 @@ let data = [|
     latex: "^{217}\\mathrm{Ac}",
   },
   {
-    pdg: (-1000892170),
+    pdg: -1000892170,
     name: "Ac217~",
     mass: Some(202142.9122473),
     width: None,
@@ -74852,7 +74852,7 @@ let data = [|
     latex: "^{218}\\mathrm{Ac}",
   },
   {
-    pdg: (-1000892180),
+    pdg: -1000892180,
     name: "Ac218~",
     mass: Some(203076.5459842),
     width: None,
@@ -74878,7 +74878,7 @@ let data = [|
     latex: "^{219}\\mathrm{Ac}",
   },
   {
-    pdg: (-1000892190),
+    pdg: -1000892190,
     name: "Ac219~",
     mass: Some(204008.7573296),
     width: None,
@@ -74904,7 +74904,7 @@ let data = [|
     latex: "^{220}\\mathrm{Ac}",
   },
   {
-    pdg: (-1000892200),
+    pdg: -1000892200,
     name: "Ac220~",
     mass: Some(204942.4404357),
     width: None,
@@ -74930,7 +74930,7 @@ let data = [|
     latex: "^{221}\\mathrm{Ac}",
   },
   {
-    pdg: (-1000892210),
+    pdg: -1000892210,
     name: "Ac221~",
     mass: Some(205874.7076708),
     width: None,
@@ -74956,7 +74956,7 @@ let data = [|
     latex: "^{222}\\mathrm{Ac}",
   },
   {
-    pdg: (-1000892220),
+    pdg: -1000892220,
     name: "Ac222~",
     mass: Some(206808.296696),
     width: None,
@@ -74982,7 +74982,7 @@ let data = [|
     latex: "^{223}\\mathrm{Ac}",
   },
   {
-    pdg: (-1000892230),
+    pdg: -1000892230,
     name: "Ac223~",
     mass: Some(207740.9989389),
     width: None,
@@ -75008,7 +75008,7 @@ let data = [|
     latex: "^{224}\\mathrm{Ac}",
   },
   {
-    pdg: (-1000892240),
+    pdg: -1000892240,
     name: "Ac224~",
     mass: Some(208674.8981516),
     width: None,
@@ -75034,7 +75034,7 @@ let data = [|
     latex: "^{225}\\mathrm{Ac}",
   },
   {
-    pdg: (-1000892250),
+    pdg: -1000892250,
     name: "Ac225~",
     mass: Some(209607.8015972),
     width: None,
@@ -75060,7 +75060,7 @@ let data = [|
     latex: "^{226}\\mathrm{Ac}",
   },
   {
-    pdg: (-1000892260),
+    pdg: -1000892260,
     name: "Ac226~",
     mass: Some(210541.9681487),
     width: None,
@@ -75086,7 +75086,7 @@ let data = [|
     latex: "^{227}\\mathrm{Ac}",
   },
   {
-    pdg: (-1000892270),
+    pdg: -1000892270,
     name: "Ac227~",
     mass: Some(211475.0057294),
     width: None,
@@ -75112,7 +75112,7 @@ let data = [|
     latex: "^{228}\\mathrm{Ac}",
   },
   {
-    pdg: (-1000892280),
+    pdg: -1000892280,
     name: "Ac228~",
     mass: Some(212409.5437608),
     width: None,
@@ -75138,7 +75138,7 @@ let data = [|
     latex: "^{229}\\mathrm{Ac}",
   },
   {
-    pdg: (-1000892290),
+    pdg: -1000892290,
     name: "Ac229~",
     mass: Some(213342.8218533),
     width: None,
@@ -75164,7 +75164,7 @@ let data = [|
     latex: "^{230}\\mathrm{Ac}",
   },
   {
-    pdg: (-1000892300),
+    pdg: -1000892300,
     name: "Ac230~",
     mass: Some(214277.20358),
     width: None,
@@ -75190,7 +75190,7 @@ let data = [|
     latex: "^{231}\\mathrm{Ac}",
   },
   {
-    pdg: (-1000892310),
+    pdg: -1000892310,
     name: "Ac231~",
     mass: Some(215211.0450401),
     width: None,
@@ -75216,7 +75216,7 @@ let data = [|
     latex: "^{232}\\mathrm{Ac}",
   },
   {
-    pdg: (-1000892320),
+    pdg: -1000892320,
     name: "Ac232~",
     mass: Some(216145.7714196),
     width: None,
@@ -75242,7 +75242,7 @@ let data = [|
     latex: "^{233}\\mathrm{Ac}",
   },
   {
-    pdg: (-1000892330),
+    pdg: -1000892330,
     name: "Ac233~",
     mass: Some(217079.6221946),
     width: None,
@@ -75268,7 +75268,7 @@ let data = [|
     latex: "^{234}\\mathrm{Ac}",
   },
   {
-    pdg: (-1000892340),
+    pdg: -1000892340,
     name: "Ac234~",
     mass: Some(218014.7211718),
     width: None,
@@ -75294,7 +75294,7 @@ let data = [|
     latex: "^{235}\\mathrm{Ac}",
   },
   {
-    pdg: (-1000892350),
+    pdg: -1000892350,
     name: "Ac235~",
     mass: Some(218948.7116709),
     width: None,
@@ -75320,7 +75320,7 @@ let data = [|
     latex: "^{236}\\mathrm{Ac}",
   },
   {
-    pdg: (-1000892360),
+    pdg: -1000892360,
     name: "Ac236~",
     mass: Some(219884.0062618),
     width: None,
@@ -75346,7 +75346,7 @@ let data = [|
     latex: "^{210}\\mathrm{Th}",
   },
   {
-    pdg: (-1000902100),
+    pdg: -1000902100,
     name: "Th210~",
     mass: Some(195627.7603042),
     width: None,
@@ -75372,7 +75372,7 @@ let data = [|
     latex: "^{211}\\mathrm{Th}",
   },
   {
-    pdg: (-1000902110),
+    pdg: -1000902110,
     name: "Th211~",
     mass: Some(196559.0960452),
     width: None,
@@ -75398,7 +75398,7 @@ let data = [|
     latex: "^{212}\\mathrm{Th}",
   },
   {
-    pdg: (-1000902120),
+    pdg: -1000902120,
     name: "Th212~",
     mass: Some(197488.7830416),
     width: None,
@@ -75424,7 +75424,7 @@ let data = [|
     latex: "^{213}\\mathrm{Th}",
   },
   {
-    pdg: (-1000902130),
+    pdg: -1000902130,
     name: "Th213~",
     mass: Some(198420.3143964),
     width: None,
@@ -75450,7 +75450,7 @@ let data = [|
     latex: "^{214}\\mathrm{Th}",
   },
   {
-    pdg: (-1000902140),
+    pdg: -1000902140,
     name: "Th214~",
     mass: Some(199350.4019353),
     width: None,
@@ -75476,7 +75476,7 @@ let data = [|
     latex: "^{215}\\mathrm{Th}",
   },
   {
-    pdg: (-1000902150),
+    pdg: -1000902150,
     name: "Th215~",
     mass: Some(200282.1568486),
     width: None,
@@ -75502,7 +75502,7 @@ let data = [|
     latex: "^{216}\\mathrm{Th}",
   },
   {
-    pdg: (-1000902160),
+    pdg: -1000902160,
     name: "Th216~",
     mass: Some(201213.0184591),
     width: None,
@@ -75528,7 +75528,7 @@ let data = [|
     latex: "^{217}\\mathrm{Th}",
   },
   {
-    pdg: (-1000902170),
+    pdg: -1000902170,
     name: "Th217~",
     mass: Some(202146.3932407),
     width: None,
@@ -75554,7 +75554,7 @@ let data = [|
     latex: "^{218}\\mathrm{Th}",
   },
   {
-    pdg: (-1000902180),
+    pdg: -1000902180,
     name: "Th218~",
     mass: Some(203078.0717715),
     width: None,
@@ -75580,7 +75580,7 @@ let data = [|
     latex: "^{219}\\mathrm{Th}",
   },
   {
-    pdg: (-1000902190),
+    pdg: -1000902190,
     name: "Th219~",
     mass: Some(204011.6635912),
     width: None,
@@ -75606,7 +75606,7 @@ let data = [|
     latex: "^{220}\\mathrm{Th}",
   },
   {
-    pdg: (-1000902200),
+    pdg: -1000902200,
     name: "Th220~",
     mass: Some(204943.3560944),
     width: None,
@@ -75632,7 +75632,7 @@ let data = [|
     latex: "^{221}\\mathrm{Th}",
   },
   {
-    pdg: (-1000902210),
+    pdg: -1000902210,
     name: "Th221~",
     mass: Some(205877.121172),
     width: None,
@@ -75658,7 +75658,7 @@ let data = [|
     latex: "^{222}\\mathrm{Th}",
   },
   {
-    pdg: (-1000902220),
+    pdg: -1000902220,
     name: "Th222~",
     mass: Some(206808.8788798),
     width: None,
@@ -75684,7 +75684,7 @@ let data = [|
     latex: "^{223}\\mathrm{Th}",
   },
   {
-    pdg: (-1000902230),
+    pdg: -1000902230,
     name: "Th223~",
     mass: Some(207742.5536025),
     width: None,
@@ -75710,7 +75710,7 @@ let data = [|
     latex: "^{224}\\mathrm{Th}",
   },
   {
-    pdg: (-1000902240),
+    pdg: -1000902240,
     name: "Th224~",
     mass: Some(208674.6662096),
     width: None,
@@ -75736,7 +75736,7 @@ let data = [|
     latex: "^{225}\\mathrm{Th}",
   },
   {
-    pdg: (-1000902250),
+    pdg: -1000902250,
     name: "Th225~",
     mass: Some(209608.4722729),
     width: None,
@@ -75762,7 +75762,7 @@ let data = [|
     latex: "^{226}\\mathrm{Th}",
   },
   {
-    pdg: (-1000902260),
+    pdg: -1000902260,
     name: "Th226~",
     mass: Some(210540.8512873),
     width: None,
@@ -75788,7 +75788,7 @@ let data = [|
     latex: "^{227}\\mathrm{Th}",
   },
   {
-    pdg: (-1000902270),
+    pdg: -1000902270,
     name: "Th227~",
     mass: Some(211474.9610177),
     width: None,
@@ -75814,7 +75814,7 @@ let data = [|
     latex: "^{228}\\mathrm{Th}",
   },
   {
-    pdg: (-1000902280),
+    pdg: -1000902280,
     name: "Th228~",
     mass: Some(212407.416694),
     width: None,
@@ -75840,7 +75840,7 @@ let data = [|
     latex: "^{229}\\mathrm{Th}",
   },
   {
-    pdg: (-1000902290),
+    pdg: -1000902290,
     name: "Th229~",
     mass: Some(213341.7273477),
     width: None,
@@ -75866,7 +75866,7 @@ let data = [|
     latex: "^{230}\\mathrm{Th}",
   },
   {
-    pdg: (-1000902300),
+    pdg: -1000902300,
     name: "Th230~",
     mass: Some(214274.49908),
     width: None,
@@ -75892,7 +75892,7 @@ let data = [|
     latex: "^{231}\\mathrm{Th}",
   },
   {
-    pdg: (-1000902310),
+    pdg: -1000902310,
     name: "Th231~",
     mass: Some(215208.946477),
     width: None,
@@ -75918,7 +75918,7 @@ let data = [|
     latex: "^{232}\\mathrm{Th}",
   },
   {
-    pdg: (-1000902320),
+    pdg: -1000902320,
     name: "Th232~",
     mass: Some(216142.0737606),
     width: None,
@@ -75944,7 +75944,7 @@ let data = [|
     latex: "^{233}\\mathrm{Th}",
   },
   {
-    pdg: (-1000902330),
+    pdg: -1000902330,
     name: "Th233~",
     mass: Some(217076.8527695),
     width: None,
@@ -75970,7 +75970,7 @@ let data = [|
     latex: "^{234}\\mathrm{Th}",
   },
   {
-    pdg: (-1000902340),
+    pdg: -1000902340,
     name: "Th234~",
     mass: Some(218010.2267128),
     width: None,
@@ -75996,7 +75996,7 @@ let data = [|
     latex: "^{235}\\mathrm{Th}",
   },
   {
-    pdg: (-1000902350),
+    pdg: -1000902350,
     name: "Th235~",
     mass: Some(218945.3582922),
     width: None,
@@ -76022,7 +76022,7 @@ let data = [|
     latex: "^{236}\\mathrm{Th}",
   },
   {
-    pdg: (-1000902360),
+    pdg: -1000902360,
     name: "Th236~",
     mass: Some(219878.9109891),
     width: None,
@@ -76048,7 +76048,7 @@ let data = [|
     latex: "^{237}\\mathrm{Th}",
   },
   {
-    pdg: (-1000902370),
+    pdg: -1000902370,
     name: "Th237~",
     mass: Some(220814.2987294),
     width: None,
@@ -76074,7 +76074,7 @@ let data = [|
     latex: "^{238}\\mathrm{Th}",
   },
   {
-    pdg: (-1000902380),
+    pdg: -1000902380,
     name: "Th238~",
     mass: Some(221747.9818356),
     width: None,
@@ -76100,7 +76100,7 @@ let data = [|
     latex: "^{213}\\mathrm{Pa}",
   },
   {
-    pdg: (-1000912130),
+    pdg: -1000912130,
     name: "Pa213~",
     mass: Some(198427.9712778),
     width: None,
@@ -76126,7 +76126,7 @@ let data = [|
     latex: "^{214}\\mathrm{Pa}",
   },
   {
-    pdg: (-1000912140),
+    pdg: -1000912140,
     name: "Pa214~",
     mass: Some(199359.0555154),
     width: None,
@@ -76152,7 +76152,7 @@ let data = [|
     latex: "^{215}\\mathrm{Pa}",
   },
   {
-    pdg: (-1000912150),
+    pdg: -1000912150,
     name: "Pa215~",
     mass: Some(200289.0219601),
     width: None,
@@ -76178,7 +76178,7 @@ let data = [|
     latex: "^{216}\\mathrm{Pa}",
   },
   {
-    pdg: (-1000912160),
+    pdg: -1000912160,
     name: "Pa216~",
     mass: Some(201220.52537),
     width: None,
@@ -76204,7 +76204,7 @@ let data = [|
     latex: "^{217}\\mathrm{Pa}",
   },
   {
-    pdg: (-1000912170),
+    pdg: -1000912170,
     name: "Pa217~",
     mass: Some(202151.2556399),
     width: None,
@@ -76230,7 +76230,7 @@ let data = [|
     latex: "^{218}\\mathrm{Pa}",
   },
   {
-    pdg: (-1000912180),
+    pdg: -1000912180,
     name: "Pa218~",
     mass: Some(203084.3519047),
     width: None,
@@ -76256,7 +76256,7 @@ let data = [|
     latex: "^{219}\\mathrm{Pa}",
   },
   {
-    pdg: (-1000912190),
+    pdg: -1000912190,
     name: "Pa219~",
     mass: Some(204015.7249055),
     width: None,
@@ -76282,7 +76282,7 @@ let data = [|
     latex: "^{220}\\mathrm{Pa}",
   },
   {
-    pdg: (-1000912200),
+    pdg: -1000912200,
     name: "Pa220~",
     mass: Some(204949.0819886),
     width: None,
@@ -76308,7 +76308,7 @@ let data = [|
     latex: "^{221}\\mathrm{Pa}",
   },
   {
-    pdg: (-1000912210),
+    pdg: -1000912210,
     name: "Pa221~",
     mass: Some(205880.5574537),
     width: None,
@@ -76334,7 +76334,7 @@ let data = [|
     latex: "^{222}\\mathrm{Pa}",
   },
   {
-    pdg: (-1000912220),
+    pdg: -1000912220,
     name: "Pa222~",
     mass: Some(206813.7934427),
     width: None,
@@ -76360,7 +76360,7 @@ let data = [|
     latex: "^{223}\\mathrm{Pa}",
   },
   {
-    pdg: (-1000912230),
+    pdg: -1000912230,
     name: "Pa223~",
     mass: Some(207745.5017813),
     width: None,
@@ -76386,7 +76386,7 @@ let data = [|
     latex: "^{224}\\mathrm{Pa}",
   },
   {
-    pdg: (-1000912240),
+    pdg: -1000912240,
     name: "Pa224~",
     mass: Some(208678.5328416),
     width: None,
@@ -76412,7 +76412,7 @@ let data = [|
     latex: "^{225}\\mathrm{Pa}",
   },
   {
-    pdg: (-1000912250),
+    pdg: -1000912250,
     name: "Pa225~",
     mass: Some(209610.5019985),
     width: None,
@@ -76438,7 +76438,7 @@ let data = [|
     latex: "^{226}\\mathrm{Pa}",
   },
   {
-    pdg: (-1000912260),
+    pdg: -1000912260,
     name: "Pa226~",
     mass: Some(210543.6848923),
     width: None,
@@ -76464,7 +76464,7 @@ let data = [|
     latex: "^{227}\\mathrm{Pa}",
   },
   {
-    pdg: (-1000912270),
+    pdg: -1000912270,
     name: "Pa227~",
     mass: Some(211475.9800722),
     width: None,
@@ -76490,7 +76490,7 @@ let data = [|
     latex: "^{228}\\mathrm{Pa}",
   },
   {
-    pdg: (-1000912280),
+    pdg: -1000912280,
     name: "Pa228~",
     mass: Some(212409.56444),
     width: None,
@@ -76516,7 +76516,7 @@ let data = [|
     latex: "^{229}\\mathrm{Pa}",
   },
   {
-    pdg: (-1000912290),
+    pdg: -1000912290,
     name: "Pa229~",
     mass: Some(213342.0384668),
     width: None,
@@ -76542,7 +76542,7 @@ let data = [|
     latex: "^{230}\\mathrm{Pa}",
   },
   {
-    pdg: (-1000912300),
+    pdg: -1000912300,
     name: "Pa230~",
     mass: Some(214275.8091333),
     width: None,
@@ -76568,7 +76568,7 @@ let data = [|
     latex: "^{231}\\mathrm{Pa}",
   },
   {
-    pdg: (-1000912310),
+    pdg: -1000912310,
     name: "Pa231~",
     mass: Some(215208.5569262),
     width: None,
@@ -76594,7 +76594,7 @@ let data = [|
     latex: "^{232}\\mathrm{Pa}",
   },
   {
-    pdg: (-1000912320),
+    pdg: -1000912320,
     name: "Pa232~",
     mass: Some(216142.5689429),
     width: None,
@@ -76620,7 +76620,7 @@ let data = [|
     latex: "^{233}\\mathrm{Pa}",
   },
   {
-    pdg: (-1000912330),
+    pdg: -1000912330,
     name: "Pa233~",
     mass: Some(217075.6076414),
     width: None,
@@ -76646,7 +76646,7 @@ let data = [|
     latex: "^{234}\\mathrm{Pa}",
   },
   {
-    pdg: (-1000912340),
+    pdg: -1000912340,
     name: "Pa234~",
     mass: Some(218009.953785),
     width: None,
@@ -76672,7 +76672,7 @@ let data = [|
     latex: "^{235}\\mathrm{Pa}",
   },
   {
-    pdg: (-1000912350),
+    pdg: -1000912350,
     name: "Pa235~",
     mass: Some(218943.4394144),
     width: None,
@@ -76698,7 +76698,7 @@ let data = [|
     latex: "^{236}\\mathrm{Pa}",
   },
   {
-    pdg: (-1000912360),
+    pdg: -1000912360,
     name: "Pa236~",
     mass: Some(219877.9515502),
     width: None,
@@ -76724,7 +76724,7 @@ let data = [|
     latex: "^{237}\\mathrm{Pa}",
   },
   {
-    pdg: (-1000912370),
+    pdg: -1000912370,
     name: "Pa237~",
     mass: Some(220811.7371207),
     width: None,
@@ -76750,7 +76750,7 @@ let data = [|
     latex: "^{238}\\mathrm{Pa}",
   },
   {
-    pdg: (-1000912380),
+    pdg: -1000912380,
     name: "Pa238~",
     mass: Some(221746.3610358),
     width: None,
@@ -76776,7 +76776,7 @@ let data = [|
     latex: "^{239}\\mathrm{Pa}",
   },
   {
-    pdg: (-1000912390),
+    pdg: -1000912390,
     name: "Pa239~",
     mass: Some(222680.3049603),
     width: None,
@@ -76802,7 +76802,7 @@ let data = [|
     latex: "^{240}\\mathrm{Pa}",
   },
   {
-    pdg: (-1000912400),
+    pdg: -1000912400,
     name: "Pa240~",
     mass: Some(223615.3853075),
     width: None,
@@ -76828,7 +76828,7 @@ let data = [|
     latex: "^{218}\\mathrm{U}",
   },
   {
-    pdg: (-1000922180),
+    pdg: -1000922180,
     name: "U218~",
     mass: Some(203087.5935041),
     width: None,
@@ -76854,7 +76854,7 @@ let data = [|
     latex: "^{219}\\mathrm{U}",
   },
   {
-    pdg: (-1000922190),
+    pdg: -1000922190,
     name: "U219~",
     mass: Some(204020.4196357),
     width: None,
@@ -76880,7 +76880,7 @@ let data = [|
     latex: "^{220}\\mathrm{U}",
   },
   {
-    pdg: (-1000922200),
+    pdg: -1000922200,
     name: "U220~",
     mass: Some(204951.7181169),
     width: None,
@@ -76906,7 +76906,7 @@ let data = [|
     latex: "^{221}\\mathrm{U}",
   },
   {
-    pdg: (-1000922210),
+    pdg: -1000922210,
     name: "U221~",
     mass: Some(205884.7398622),
     width: None,
@@ -76932,7 +76932,7 @@ let data = [|
     latex: "^{222}\\mathrm{U}",
   },
   {
-    pdg: (-1000922220),
+    pdg: -1000922220,
     name: "U222~",
     mass: Some(206815.9731389),
     width: None,
@@ -76958,7 +76958,7 @@ let data = [|
     latex: "^{223}\\mathrm{U}",
   },
   {
-    pdg: (-1000922230),
+    pdg: -1000922230,
     name: "U223~",
     mass: Some(207749.0041991),
     width: None,
@@ -76984,7 +76984,7 @@ let data = [|
     latex: "^{224}\\mathrm{U}",
   },
   {
-    pdg: (-1000922240),
+    pdg: -1000922240,
     name: "U224~",
     mass: Some(208680.3771999),
     width: None,
@@ -77010,7 +77010,7 @@ let data = [|
     latex: "^{225}\\mathrm{U}",
   },
   {
-    pdg: (-1000922250),
+    pdg: -1000922250,
     name: "U225~",
     mass: Some(209613.5386693),
     width: None,
@@ -77036,7 +77036,7 @@ let data = [|
     latex: "^{226}\\mathrm{U}",
   },
   {
-    pdg: (-1000922260),
+    pdg: -1000922260,
     name: "U226~",
     mass: Some(210544.9955045),
     width: None,
@@ -77062,7 +77062,7 @@ let data = [|
     latex: "^{227}\\mathrm{U}",
   },
   {
-    pdg: (-1000922270),
+    pdg: -1000922270,
     name: "U227~",
     mass: Some(211478.1662889),
     width: None,
@@ -77088,7 +77088,7 @@ let data = [|
     latex: "^{228}\\mathrm{U}",
   },
   {
-    pdg: (-1000922280),
+    pdg: -1000922280,
     name: "U228~",
     mass: Some(212409.8709015),
     width: None,
@@ -77114,7 +77114,7 @@ let data = [|
     latex: "^{229}\\mathrm{U}",
   },
   {
-    pdg: (-1000922290),
+    pdg: -1000922290,
     name: "U229~",
     mass: Some(213343.3490789),
     width: None,
@@ -77140,7 +77140,7 @@ let data = [|
     latex: "^{230}\\mathrm{U}",
   },
   {
-    pdg: (-1000922300),
+    pdg: -1000922300,
     name: "U230~",
     mass: Some(214275.2446479),
     width: None,
@@ -77166,7 +77166,7 @@ let data = [|
     latex: "^{231}\\mathrm{U}",
   },
   {
-    pdg: (-1000922310),
+    pdg: -1000922310,
     name: "U231~",
     mass: Some(215208.9389319),
     width: None,
@@ -77192,7 +77192,7 @@ let data = [|
     latex: "^{232}\\mathrm{U}",
   },
   {
-    pdg: (-1000922320),
+    pdg: -1000922320,
     name: "U232~",
     mass: Some(216141.2315968),
     width: None,
@@ -77218,7 +77218,7 @@ let data = [|
     latex: "^{233}\\mathrm{U}",
   },
   {
-    pdg: (-1000922330),
+    pdg: -1000922330,
     name: "U233~",
     mass: Some(217075.0373807),
     width: None,
@@ -77244,7 +77244,7 @@ let data = [|
     latex: "^{234}\\mathrm{U}",
   },
   {
-    pdg: (-1000922340),
+    pdg: -1000922340,
     name: "U234~",
     mass: Some(218007.7588123),
     width: None,
@@ -77270,7 +77270,7 @@ let data = [|
     latex: "^{235}\\mathrm{U}",
   },
   {
-    pdg: (-1000922350),
+    pdg: -1000922350,
     name: "U235~",
     mass: Some(218942.026431),
     width: None,
@@ -77296,7 +77296,7 @@ let data = [|
     latex: "^{236}\\mathrm{U}",
   },
   {
-    pdg: (-1000922360),
+    pdg: -1000922360,
     name: "U236~",
     mass: Some(219875.0470585),
     width: None,
@@ -77322,7 +77322,7 @@ let data = [|
     latex: "^{237}\\mathrm{U}",
   },
   {
-    pdg: (-1000922370),
+    pdg: -1000922370,
     name: "U237~",
     mass: Some(220809.4866309),
     width: None,
@@ -77348,7 +77348,7 @@ let data = [|
     latex: "^{238}\\mathrm{U}",
   },
   {
-    pdg: (-1000922380),
+    pdg: -1000922380,
     name: "U238~",
     mass: Some(221742.8982997),
     width: None,
@@ -77374,7 +77374,7 @@ let data = [|
     latex: "^{239}\\mathrm{U}",
   },
   {
-    pdg: (-1000922390),
+    pdg: -1000922390,
     name: "U239~",
     mass: Some(222677.6574678),
     width: None,
@@ -77400,7 +77400,7 @@ let data = [|
     latex: "^{240}\\mathrm{U}",
   },
   {
-    pdg: (-1000922400),
+    pdg: -1000922400,
     name: "U240~",
     mass: Some(223611.2923225),
     width: None,
@@ -77426,7 +77426,7 @@ let data = [|
     latex: "^{241}\\mathrm{U}",
   },
   {
-    pdg: (-1000922410),
+    pdg: -1000922410,
     name: "U241~",
     mass: Some(224546.2739314),
     width: None,
@@ -77452,7 +77452,7 @@ let data = [|
     latex: "^{242}\\mathrm{U}",
   },
   {
-    pdg: (-1000922420),
+    pdg: -1000922420,
     name: "U242~",
     mass: Some(225480.189911),
     width: None,
@@ -77478,7 +77478,7 @@ let data = [|
     latex: "^{225}\\mathrm{Np}",
   },
   {
-    pdg: (-1000932250),
+    pdg: -1000932250,
     name: "Np225~",
     mass: Some(209617.7490226),
     width: None,
@@ -77504,7 +77504,7 @@ let data = [|
     latex: "^{226}\\mathrm{Np}",
   },
   {
-    pdg: (-1000932260),
+    pdg: -1000932260,
     name: "Np226~",
     mass: Some(210550.3888553),
     width: None,
@@ -77530,7 +77530,7 @@ let data = [|
     latex: "^{227}\\mathrm{Np}",
   },
   {
-    pdg: (-1000932270),
+    pdg: -1000932270,
     name: "Np227~",
     mass: Some(211481.7245963),
     width: None,
@@ -77556,7 +77556,7 @@ let data = [|
     latex: "^{228}\\mathrm{Np}",
   },
   {
-    pdg: (-1000932280),
+    pdg: -1000932280,
     name: "Np228~",
     mass: Some(212414.3551141),
     width: None,
@@ -77582,7 +77582,7 @@ let data = [|
     latex: "^{229}\\mathrm{Np}",
   },
   {
-    pdg: (-1000932290),
+    pdg: -1000932290,
     name: "Np229~",
     mass: Some(213345.9144137),
     width: None,
@@ -77608,7 +77608,7 @@ let data = [|
     latex: "^{230}\\mathrm{Np}",
   },
   {
-    pdg: (-1000932300),
+    pdg: -1000932300,
     name: "Np230~",
     mass: Some(214278.8616395),
     width: None,
@@ -77634,7 +77634,7 @@ let data = [|
     latex: "^{231}\\mathrm{Np}",
   },
   {
-    pdg: (-1000932310),
+    pdg: -1000932310,
     name: "Np231~",
     mass: Some(215210.746962),
     width: None,
@@ -77660,7 +77660,7 @@ let data = [|
     latex: "^{232}\\mathrm{Np}",
   },
   {
-    pdg: (-1000932320),
+    pdg: -1000932320,
     name: "Np232~",
     mass: Some(216143.9829509),
     width: None,
@@ -77686,7 +77686,7 @@ let data = [|
     latex: "^{233}\\mathrm{Np}",
   },
   {
-    pdg: (-1000932330),
+    pdg: -1000932330,
     name: "Np233~",
     mass: Some(217076.0638872),
     width: None,
@@ -77712,7 +77712,7 @@ let data = [|
     latex: "^{234}\\mathrm{Np}",
   },
   {
-    pdg: (-1000932340),
+    pdg: -1000932340,
     name: "Np234~",
     mass: Some(218009.5690779),
     width: None,
@@ -77738,7 +77738,7 @@ let data = [|
     latex: "^{235}\\mathrm{Np}",
   },
   {
-    pdg: (-1000932350),
+    pdg: -1000932350,
     name: "Np235~",
     mass: Some(218942.1501334),
     width: None,
@@ -77764,7 +77764,7 @@ let data = [|
     latex: "^{236}\\mathrm{Np}",
   },
   {
-    pdg: (-1000932360),
+    pdg: -1000932360,
     name: "Np236~",
     mass: Some(219875.9767827),
     width: None,
@@ -77790,7 +77790,7 @@ let data = [|
     latex: "^{237}\\mathrm{Np}",
   },
   {
-    pdg: (-1000932370),
+    pdg: -1000932370,
     name: "Np237~",
     mass: Some(220808.9680682),
     width: None,
@@ -77816,7 +77816,7 @@ let data = [|
     latex: "^{238}\\mathrm{Np}",
   },
   {
-    pdg: (-1000932380),
+    pdg: -1000932380,
     name: "Np238~",
     mass: Some(221743.0453826),
     width: None,
@@ -77842,7 +77842,7 @@ let data = [|
     latex: "^{239}\\mathrm{Np}",
   },
   {
-    pdg: (-1000932390),
+    pdg: -1000932390,
     name: "Np239~",
     mass: Some(222676.3939892),
     width: None,
@@ -77868,7 +77868,7 @@ let data = [|
     latex: "^{240}\\mathrm{Np}",
   },
   {
-    pdg: (-1000932400),
+    pdg: -1000932400,
     name: "Np240~",
     mass: Some(223610.9038895),
     width: None,
@@ -77894,7 +77894,7 @@ let data = [|
     latex: "^{241}\\mathrm{Np}",
   },
   {
-    pdg: (-1000932410),
+    pdg: -1000932410,
     name: "Np241~",
     mass: Some(224544.3364237),
     width: None,
@@ -77920,7 +77920,7 @@ let data = [|
     latex: "^{242}\\mathrm{Np}",
   },
   {
-    pdg: (-1000932420),
+    pdg: -1000932420,
     name: "Np242~",
     mass: Some(225478.9882836),
     width: None,
@@ -77946,7 +77946,7 @@ let data = [|
     latex: "^{243}\\mathrm{Np}",
   },
   {
-    pdg: (-1000932430),
+    pdg: -1000932430,
     name: "Np243~",
     mass: Some(226412.9322081),
     width: None,
@@ -77972,7 +77972,7 @@ let data = [|
     latex: "^{244}\\mathrm{Np}",
   },
   {
-    pdg: (-1000932440),
+    pdg: -1000932440,
     name: "Np244~",
     mass: Some(227347.7610519),
     width: None,
@@ -77998,7 +77998,7 @@ let data = [|
     latex: "^{228}\\mathrm{Pu}",
   },
   {
-    pdg: (-1000942280),
+    pdg: -1000942280,
     name: "Pu228~",
     mass: Some(212416.7304241),
     width: None,
@@ -78024,7 +78024,7 @@ let data = [|
     latex: "^{229}\\mathrm{Pu}",
   },
   {
-    pdg: (-1000942290),
+    pdg: -1000942290,
     name: "Pu229~",
     mass: Some(213349.5379257),
     width: None,
@@ -78050,7 +78050,7 @@ let data = [|
     latex: "^{230}\\mathrm{Pu}",
   },
   {
-    pdg: (-1000942300),
+    pdg: -1000942300,
     name: "Pu230~",
     mass: Some(214280.5718626),
     width: None,
@@ -78076,7 +78076,7 @@ let data = [|
     latex: "^{231}\\mathrm{Pu}",
   },
   {
-    pdg: (-1000942310),
+    pdg: -1000942310,
     name: "Pu231~",
     mass: Some(215213.5693891),
     width: None,
@@ -78102,7 +78102,7 @@ let data = [|
     latex: "^{232}\\mathrm{Pu}",
   },
   {
-    pdg: (-1000942320),
+    pdg: -1000942320,
     name: "Pu232~",
     mass: Some(216144.9880331),
     width: None,
@@ -78128,7 +78128,7 @@ let data = [|
     latex: "^{233}\\mathrm{Pu}",
   },
   {
-    pdg: (-1000942330),
+    pdg: -1000942330,
     name: "Pu233~",
     mass: Some(217078.1690638),
     width: None,
@@ -78154,7 +78154,7 @@ let data = [|
     latex: "^{234}\\mathrm{Pu}",
   },
   {
-    pdg: (-1000942340),
+    pdg: -1000942340,
     name: "Pu234~",
     mass: Some(218009.9565795),
     width: None,
@@ -78180,7 +78180,7 @@ let data = [|
     latex: "^{235}\\mathrm{Pu}",
   },
   {
-    pdg: (-1000942350),
+    pdg: -1000942350,
     name: "Pu235~",
     mass: Some(218943.2922383),
     width: None,
@@ -78206,7 +78206,7 @@ let data = [|
     latex: "^{236}\\mathrm{Pu}",
   },
   {
-    pdg: (-1000942360),
+    pdg: -1000942360,
     name: "Pu236~",
     mass: Some(219875.4999509),
     width: None,
@@ -78232,7 +78232,7 @@ let data = [|
     latex: "^{237}\\mathrm{Pu}",
   },
   {
-    pdg: (-1000942370),
+    pdg: -1000942370,
     name: "Pu237~",
     mass: Some(220809.1883665),
     width: None,
@@ -78258,7 +78258,7 @@ let data = [|
     latex: "^{238}\\mathrm{Pu}",
   },
   {
-    pdg: (-1000942380),
+    pdg: -1000942380,
     name: "Pu238~",
     mass: Some(221741.7533071),
     width: None,
@@ -78284,7 +78284,7 @@ let data = [|
     latex: "^{239}\\mathrm{Pu}",
   },
   {
-    pdg: (-1000942390),
+    pdg: -1000942390,
     name: "Pu239~",
     mass: Some(222675.6721744),
     width: None,
@@ -78310,7 +78310,7 @@ let data = [|
     latex: "^{240}\\mathrm{Pu}",
   },
   {
-    pdg: (-1000942400),
+    pdg: -1000942400,
     name: "Pu240~",
     mass: Some(223608.7041662),
     width: None,
@@ -78336,7 +78336,7 @@ let data = [|
     latex: "^{241}\\mathrm{Pu}",
   },
   {
-    pdg: (-1000942410),
+    pdg: -1000942410,
     name: "Pu241~",
     mass: Some(224543.0279539),
     width: None,
@@ -78362,7 +78362,7 @@ let data = [|
     latex: "^{242}\\mathrm{Pu}",
   },
   {
-    pdg: (-1000942420),
+    pdg: -1000942420,
     name: "Pu242~",
     mass: Some(225476.28397),
     width: None,
@@ -78388,7 +78388,7 @@ let data = [|
     latex: "^{243}\\mathrm{Pu}",
   },
   {
-    pdg: (-1000942430),
+    pdg: -1000942430,
     name: "Pu243~",
     mass: Some(226410.814922),
     width: None,
@@ -78414,7 +78414,7 @@ let data = [|
     latex: "^{244}\\mathrm{Pu}",
   },
   {
-    pdg: (-1000942440),
+    pdg: -1000942440,
     name: "Pu244~",
     mass: Some(227344.3592355),
     width: None,
@@ -78440,7 +78440,7 @@ let data = [|
     latex: "^{245}\\mathrm{Pu}",
   },
   {
-    pdg: (-1000942450),
+    pdg: -1000942450,
     name: "Pu245~",
     mass: Some(228279.1517511),
     width: None,
@@ -78466,7 +78466,7 @@ let data = [|
     latex: "^{246}\\mathrm{Pu}",
   },
   {
-    pdg: (-1000942460),
+    pdg: -1000942460,
     name: "Pu246~",
     mass: Some(229212.9363901),
     width: None,
@@ -78492,7 +78492,7 @@ let data = [|
     latex: "^{247}\\mathrm{Pu}",
   },
   {
-    pdg: (-1000942470),
+    pdg: -1000942470,
     name: "Pu247~",
     mass: Some(230148.0372302),
     width: None,
@@ -78518,7 +78518,7 @@ let data = [|
     latex: "^{231}\\mathrm{Am}",
   },
   {
-    pdg: (-1000952310),
+    pdg: -1000952310,
     name: "Am231~",
     mass: Some(215217.5748137),
     width: None,
@@ -78544,7 +78544,7 @@ let data = [|
     latex: "^{232}\\mathrm{Am}",
   },
   {
-    pdg: (-1000952320),
+    pdg: -1000952320,
     name: "Am232~",
     mass: Some(216150.0283476),
     width: None,
@@ -78570,7 +78570,7 @@ let data = [|
     latex: "^{233}\\mathrm{Am}",
   },
   {
-    pdg: (-1000952330),
+    pdg: -1000952330,
     name: "Am233~",
     mass: Some(217081.4106633),
     width: None,
@@ -78596,7 +78596,7 @@ let data = [|
     latex: "^{234}\\mathrm{Am}",
   },
   {
-    pdg: (-1000952340),
+    pdg: -1000952340,
     name: "Am234~",
     mass: Some(218014.1343305),
     width: None,
@@ -78622,7 +78622,7 @@ let data = [|
     latex: "^{235}\\mathrm{Am}",
   },
   {
-    pdg: (-1000952350),
+    pdg: -1000952350,
     name: "Am235~",
     mass: Some(218945.8519841),
     width: None,
@@ -78648,7 +78648,7 @@ let data = [|
     latex: "^{236}\\mathrm{Am}",
   },
   {
-    pdg: (-1000952360),
+    pdg: -1000952360,
     name: "Am236~",
     mass: Some(219878.78058),
     width: None,
@@ -78674,7 +78674,7 @@ let data = [|
     latex: "^{237}\\mathrm{Am}",
   },
   {
-    pdg: (-1000952370),
+    pdg: -1000952370,
     name: "Am237~",
     mass: Some(220810.6472726),
     width: None,
@@ -78700,7 +78700,7 @@ let data = [|
     latex: "^{238}\\mathrm{Am}",
   },
   {
-    pdg: (-1000952380),
+    pdg: -1000952380,
     name: "Am238~",
     mass: Some(221744.0136707),
     width: None,
@@ -78726,7 +78726,7 @@ let data = [|
     latex: "^{239}\\mathrm{Am}",
   },
   {
-    pdg: (-1000952390),
+    pdg: -1000952390,
     name: "Am239~",
     mass: Some(222676.4746566),
     width: None,
@@ -78752,7 +78752,7 @@ let data = [|
     latex: "^{240}\\mathrm{Am}",
   },
   {
-    pdg: (-1000952400),
+    pdg: -1000952400,
     name: "Am240~",
     mass: Some(223610.0832432),
     width: None,
@@ -78778,7 +78778,7 @@ let data = [|
     latex: "^{241}\\mathrm{Am}",
   },
   {
-    pdg: (-1000952410),
+    pdg: -1000952410,
     name: "Am241~",
     mass: Some(224543.0070884),
     width: None,
@@ -78804,7 +78804,7 @@ let data = [|
     latex: "^{242}\\mathrm{Am}",
   },
   {
-    pdg: (-1000952420),
+    pdg: -1000952420,
     name: "Am242~",
     mass: Some(225477.0349405),
     width: None,
@@ -78830,7 +78830,7 @@ let data = [|
     latex: "^{243}\\mathrm{Am}",
   },
   {
-    pdg: (-1000952430),
+    pdg: -1000952430,
     name: "Am243~",
     mass: Some(226410.2333902),
     width: None,
@@ -78856,7 +78856,7 @@ let data = [|
     latex: "^{244}\\mathrm{Am}",
   },
   {
-    pdg: (-1000952440),
+    pdg: -1000952440,
     name: "Am244~",
     mass: Some(227344.4350591),
     width: None,
@@ -78882,7 +78882,7 @@ let data = [|
     latex: "^{245}\\mathrm{Am}",
   },
   {
-    pdg: (-1000952450),
+    pdg: -1000952450,
     name: "Am245~",
     mass: Some(228277.9463977),
     width: None,
@@ -78908,7 +78908,7 @@ let data = [|
     latex: "^{246}\\mathrm{Am}",
   },
   {
-    pdg: (-1000952460),
+    pdg: -1000952460,
     name: "Am246~",
     mass: Some(229212.5358476),
     width: None,
@@ -78934,7 +78934,7 @@ let data = [|
     latex: "^{247}\\mathrm{Am}",
   },
   {
-    pdg: (-1000952470),
+    pdg: -1000952470,
     name: "Am247~",
     mass: Some(230146.1928719),
     width: None,
@@ -78960,7 +78960,7 @@ let data = [|
     latex: "^{248}\\mathrm{Am}",
   },
   {
-    pdg: (-1000952480),
+    pdg: -1000952480,
     name: "Am248~",
     mass: Some(231081.0962353),
     width: None,
@@ -78986,7 +78986,7 @@ let data = [|
     latex: "^{249}\\mathrm{Am}",
   },
   {
-    pdg: (-1000952490),
+    pdg: -1000952490,
     name: "Am249~",
     mass: Some(232015.1333091),
     width: None,
@@ -79012,7 +79012,7 @@ let data = [|
     latex: "^{233}\\mathrm{Cm}",
   },
   {
-    pdg: (-1000962330),
+    pdg: -1000962330,
     name: "Cm233~",
     mass: Some(217085.4440327),
     width: None,
@@ -79038,7 +79038,7 @@ let data = [|
     latex: "^{234}\\mathrm{Cm}",
   },
   {
-    pdg: (-1000962340),
+    pdg: -1000962340,
     name: "Cm234~",
     mass: Some(218016.416491),
     width: None,
@@ -79064,7 +79064,7 @@ let data = [|
     latex: "^{235}\\mathrm{Cm}",
   },
   {
-    pdg: (-1000962350),
+    pdg: -1000962350,
     name: "Cm235~",
     mass: Some(218949.168103),
     width: None,
@@ -79090,7 +79090,7 @@ let data = [|
     latex: "^{236}\\mathrm{Cm}",
   },
   {
-    pdg: (-1000962360),
+    pdg: -1000962360,
     name: "Cm236~",
     mass: Some(219880.4945291),
     width: None,
@@ -79116,7 +79116,7 @@ let data = [|
     latex: "^{237}\\mathrm{Cm}",
   },
   {
-    pdg: (-1000962370),
+    pdg: -1000962370,
     name: "Cm237~",
     mass: Some(220813.3672353),
     width: None,
@@ -79142,7 +79142,7 @@ let data = [|
     latex: "^{238}\\mathrm{Cm}",
   },
   {
-    pdg: (-1000962380),
+    pdg: -1000962380,
     name: "Cm238~",
     mass: Some(221744.9824246),
     width: None,
@@ -79168,7 +79168,7 @@ let data = [|
     latex: "^{239}\\mathrm{Cm}",
   },
   {
-    pdg: (-1000962390),
+    pdg: -1000962390,
     name: "Cm239~",
     mass: Some(222678.2743032),
     width: None,
@@ -79194,7 +79194,7 @@ let data = [|
     latex: "^{240}\\mathrm{Cm}",
   },
   {
-    pdg: (-1000962400),
+    pdg: -1000962400,
     name: "Cm240~",
     mass: Some(223610.2984183),
     width: None,
@@ -79220,7 +79220,7 @@ let data = [|
     latex: "^{241}\\mathrm{Cm}",
   },
   {
-    pdg: (-1000962410),
+    pdg: -1000962410,
     name: "Cm241~",
     mass: Some(224543.7744533),
     width: None,
@@ -79246,7 +79246,7 @@ let data = [|
     latex: "^{242}\\mathrm{Cm}",
   },
   {
-    pdg: (-1000962420),
+    pdg: -1000962420,
     name: "Cm242~",
     mass: Some(225476.3701332),
     width: None,
@@ -79272,7 +79272,7 @@ let data = [|
     latex: "^{243}\\mathrm{Cm}",
   },
   {
-    pdg: (-1000962430),
+    pdg: -1000962430,
     name: "Cm243~",
     mass: Some(226410.2422394),
     width: None,
@@ -79298,7 +79298,7 @@ let data = [|
     latex: "^{244}\\mathrm{Cm}",
   },
   {
-    pdg: (-1000962440),
+    pdg: -1000962440,
     name: "Cm244~",
     mass: Some(227343.0069855),
     width: None,
@@ -79324,7 +79324,7 @@ let data = [|
     latex: "^{245}\\mathrm{Cm}",
   },
   {
-    pdg: (-1000962450),
+    pdg: -1000962450,
     name: "Cm245~",
     mass: Some(228277.0527223),
     width: None,
@@ -79350,7 +79350,7 @@ let data = [|
     latex: "^{246}\\mathrm{Cm}",
   },
   {
-    pdg: (-1000962460),
+    pdg: -1000962460,
     name: "Cm246~",
     mass: Some(229210.1601651),
     width: None,
@@ -79376,7 +79376,7 @@ let data = [|
     latex: "^{247}\\mathrm{Cm}",
   },
   {
-    pdg: (-1000962470),
+    pdg: -1000962470,
     name: "Cm247~",
     mass: Some(230144.5692777),
     width: None,
@@ -79402,7 +79402,7 @@ let data = [|
     latex: "^{248}\\mathrm{Cm}",
   },
   {
-    pdg: (-1000962480),
+    pdg: -1000962480,
     name: "Cm248~",
     mass: Some(231077.9217034),
     width: None,
@@ -79428,7 +79428,7 @@ let data = [|
     latex: "^{249}\\mathrm{Cm}",
   },
   {
-    pdg: (-1000962490),
+    pdg: -1000962490,
     name: "Cm249~",
     mass: Some(232012.7738346),
     width: None,
@@ -79454,7 +79454,7 @@ let data = [|
     latex: "^{250}\\mathrm{Cm}",
   },
   {
-    pdg: (-1000962500),
+    pdg: -1000962500,
     name: "Cm250~",
     mass: Some(232946.5072414),
     width: None,
@@ -79480,7 +79480,7 @@ let data = [|
     latex: "^{251}\\mathrm{Cm}",
   },
   {
-    pdg: (-1000962510),
+    pdg: -1000962510,
     name: "Cm251~",
     mass: Some(233881.6593137),
     width: None,
@@ -79506,7 +79506,7 @@ let data = [|
     latex: "^{252}\\mathrm{Cm}",
   },
   {
-    pdg: (-1000962520),
+    pdg: -1000962520,
     name: "Cm252~",
     mass: Some(234815.5678414),
     width: None,
@@ -79532,7 +79532,7 @@ let data = [|
     latex: "^{235}\\mathrm{Bk}",
   },
   {
-    pdg: (-1000972350),
+    pdg: -1000972350,
     name: "Bk235~",
     mass: Some(218953.8162586),
     width: None,
@@ -79558,7 +79558,7 @@ let data = [|
     latex: "^{236}\\mathrm{Bk}",
   },
   {
-    pdg: (-1000972360),
+    pdg: -1000972360,
     name: "Bk236~",
     mass: Some(219886.0089741),
     width: None,
@@ -79584,7 +79584,7 @@ let data = [|
     latex: "^{237}\\mathrm{Bk}",
   },
   {
-    pdg: (-1000972370),
+    pdg: -1000972370,
     name: "Bk237~",
     mass: Some(220817.3167703),
     width: None,
@@ -79610,7 +79610,7 @@ let data = [|
     latex: "^{238}\\mathrm{Bk}",
   },
   {
-    pdg: (-1000972380),
+    pdg: -1000972380,
     name: "Bk238~",
     mass: Some(221749.8727686),
     width: None,
@@ -79636,7 +79636,7 @@ let data = [|
     latex: "^{239}\\mathrm{Bk}",
   },
   {
-    pdg: (-1000972390),
+    pdg: -1000972390,
     name: "Bk239~",
     mass: Some(222681.450698),
     width: None,
@@ -79662,7 +79662,7 @@ let data = [|
     latex: "^{240}\\mathrm{Bk}",
   },
   {
-    pdg: (-1000972400),
+    pdg: -1000972400,
     name: "Bk240~",
     mass: Some(223614.2395698),
     width: None,
@@ -79688,7 +79688,7 @@ let data = [|
     latex: "^{241}\\mathrm{Bk}",
   },
   {
-    pdg: (-1000972410),
+    pdg: -1000972410,
     name: "Bk241~",
     mass: Some(224546.171467),
     width: None,
@@ -79714,7 +79714,7 @@ let data = [|
     latex: "^{242}\\mathrm{Bk}",
   },
   {
-    pdg: (-1000972420),
+    pdg: -1000972420,
     name: "Bk242~",
     mass: Some(225479.3701962),
     width: None,
@@ -79740,7 +79740,7 @@ let data = [|
     latex: "^{243}\\mathrm{Bk}",
   },
   {
-    pdg: (-1000972430),
+    pdg: -1000972430,
     name: "Bk243~",
     mass: Some(226411.7510736),
     width: None,
@@ -79766,7 +79766,7 @@ let data = [|
     latex: "^{244}\\mathrm{Bk}",
   },
   {
-    pdg: (-1000972440),
+    pdg: -1000972440,
     name: "Bk244~",
     mass: Some(227345.2627848),
     width: None,
@@ -79792,7 +79792,7 @@ let data = [|
     latex: "^{245}\\mathrm{Bk}",
   },
   {
-    pdg: (-1000972450),
+    pdg: -1000972450,
     name: "Bk245~",
     mass: Some(228277.8629359),
     width: None,
@@ -79818,7 +79818,7 @@ let data = [|
     latex: "^{246}\\mathrm{Bk}",
   },
   {
-    pdg: (-1000972460),
+    pdg: -1000972460,
     name: "Bk246~",
     mass: Some(229211.5130671),
     width: None,
@@ -79844,7 +79844,7 @@ let data = [|
     latex: "^{247}\\mathrm{Bk}",
   },
   {
-    pdg: (-1000972470),
+    pdg: -1000972470,
     name: "Bk247~",
     mass: Some(230144.5245659),
     width: None,
@@ -79870,7 +79870,7 @@ let data = [|
     latex: "^{248}\\mathrm{Bk}",
   },
   {
-    pdg: (-1000972480),
+    pdg: -1000972480,
     name: "Bk248~",
     mass: Some(231078.609146),
     width: None,
@@ -79896,7 +79896,7 @@ let data = [|
     latex: "^{249}\\mathrm{Bk}",
   },
   {
-    pdg: (-1000972490),
+    pdg: -1000972490,
     name: "Bk249~",
     mass: Some(232011.8730798),
     width: None,
@@ -79922,7 +79922,7 @@ let data = [|
     latex: "^{250}\\mathrm{Bk}",
   },
   {
-    pdg: (-1000972500),
+    pdg: -1000972500,
     name: "Bk250~",
     mass: Some(232946.4699816),
     width: None,
@@ -79948,7 +79948,7 @@ let data = [|
     latex: "^{251}\\mathrm{Bk}",
   },
   {
-    pdg: (-1000972510),
+    pdg: -1000972510,
     name: "Bk251~",
     mass: Some(233880.2387852),
     width: None,
@@ -79974,7 +79974,7 @@ let data = [|
     latex: "^{252}\\mathrm{Bk}",
   },
   {
-    pdg: (-1000972520),
+    pdg: -1000972520,
     name: "Bk252~",
     mass: Some(234815.0368897),
     width: None,
@@ -80000,7 +80000,7 @@ let data = [|
     latex: "^{253}\\mathrm{Bk}",
   },
   {
-    pdg: (-1000972530),
+    pdg: -1000972530,
     name: "Bk253~",
     mass: Some(235748.9342395),
     width: None,
@@ -80026,7 +80026,7 @@ let data = [|
     latex: "^{254}\\mathrm{Bk}",
   },
   {
-    pdg: (-1000972540),
+    pdg: -1000972540,
     name: "Bk254~",
     mass: Some(236683.8934925),
     width: None,
@@ -80052,7 +80052,7 @@ let data = [|
     latex: "^{237}\\mathrm{Cf}",
   },
   {
-    pdg: (-1000982370),
+    pdg: -1000982370,
     name: "Cf237~",
     mass: Some(220821.9183511),
     width: None,
@@ -80078,7 +80078,7 @@ let data = [|
     latex: "^{238}\\mathrm{Cf}",
   },
   {
-    pdg: (-1000982380),
+    pdg: -1000982380,
     name: "Cf238~",
     mass: Some(221752.79766),
     width: None,
@@ -80104,7 +80104,7 @@ let data = [|
     latex: "^{239}\\mathrm{Cf}",
   },
   {
-    pdg: (-1000982390),
+    pdg: -1000982390,
     name: "Cf239~",
     mass: Some(222685.3816031),
     width: None,
@@ -80130,7 +80130,7 @@ let data = [|
     latex: "^{240}\\mathrm{Cf}",
   },
   {
-    pdg: (-1000982400),
+    pdg: -1000982400,
     name: "Cf240~",
     mass: Some(223616.6148798),
     width: None,
@@ -80156,7 +80156,7 @@ let data = [|
     latex: "^{241}\\mathrm{Cf}",
   },
   {
-    pdg: (-1000982410),
+    pdg: -1000982410,
     name: "Cf241~",
     mass: Some(224549.4316964),
     width: None,
@@ -80182,7 +80182,7 @@ let data = [|
     latex: "^{242}\\mathrm{Cf}",
   },
   {
-    pdg: (-1000982420),
+    pdg: -1000982420,
     name: "Cf242~",
     mass: Some(225480.8978465),
     width: None,
@@ -80208,7 +80208,7 @@ let data = [|
     latex: "^{243}\\mathrm{Cf}",
   },
   {
-    pdg: (-1000982430),
+    pdg: -1000982430,
     name: "Cf243~",
     mass: Some(226414.0034263),
     width: None,
@@ -80234,7 +80234,7 @@ let data = [|
     latex: "^{244}\\mathrm{Cf}",
   },
   {
-    pdg: (-1000982440),
+    pdg: -1000982440,
     name: "Cf244~",
     mass: Some(227346.0284729),
     width: None,
@@ -80260,7 +80260,7 @@ let data = [|
     latex: "^{245}\\mathrm{Cf}",
   },
   {
-    pdg: (-1000982450),
+    pdg: -1000982450,
     name: "Cf245~",
     mass: Some(228279.4321308),
     width: None,
@@ -80286,7 +80286,7 @@ let data = [|
     latex: "^{246}\\mathrm{Cf}",
   },
   {
-    pdg: (-1000982460),
+    pdg: -1000982460,
     name: "Cf246~",
     mass: Some(229211.6330435),
     width: None,
@@ -80312,7 +80312,7 @@ let data = [|
     latex: "^{247}\\mathrm{Cf}",
   },
   {
-    pdg: (-1000982470),
+    pdg: -1000982470,
     name: "Cf247~",
     mass: Some(230145.1700914),
     width: None,
@@ -80338,7 +80338,7 @@ let data = [|
     latex: "^{248}\\mathrm{Cf}",
   },
   {
-    pdg: (-1000982480),
+    pdg: -1000982480,
     name: "Cf248~",
     mass: Some(231077.7689383),
     width: None,
@@ -80364,7 +80364,7 @@ let data = [|
     latex: "^{249}\\mathrm{Cf}",
   },
   {
-    pdg: (-1000982490),
+    pdg: -1000982490,
     name: "Cf249~",
     mass: Some(232011.7491911),
     width: None,
@@ -80390,7 +80390,7 @@ let data = [|
     latex: "^{250}\\mathrm{Cf}",
   },
   {
-    pdg: (-1000982500),
+    pdg: -1000982500,
     name: "Cf250~",
     mass: Some(232944.6898964),
     width: None,
@@ -80416,7 +80416,7 @@ let data = [|
     latex: "^{251}\\mathrm{Cf}",
   },
   {
-    pdg: (-1000982510),
+    pdg: -1000982510,
     name: "Cf251~",
     mass: Some(233879.1461426),
     width: None,
@@ -80442,7 +80442,7 @@ let data = [|
     latex: "^{252}\\mathrm{Cf}",
   },
   {
-    pdg: (-1000982520),
+    pdg: -1000982520,
     name: "Cf252~",
     mass: Some(234812.5404855),
     width: None,
@@ -80468,7 +80468,7 @@ let data = [|
     latex: "^{253}\\mathrm{Cf}",
   },
   {
-    pdg: (-1000982530),
+    pdg: -1000982530,
     name: "Cf253~",
     mass: Some(235747.3013303),
     width: None,
@@ -80494,7 +80494,7 @@ let data = [|
     latex: "^{254}\\mathrm{Cf}",
   },
   {
-    pdg: (-1000982540),
+    pdg: -1000982540,
     name: "Cf254~",
     mass: Some(236680.8344659),
     width: None,
@@ -80520,7 +80520,7 @@ let data = [|
     latex: "^{255}\\mathrm{Cf}",
   },
   {
-    pdg: (-1000982550),
+    pdg: -1000982550,
     name: "Cf255~",
     mass: Some(237615.7974449),
     width: None,
@@ -80546,7 +80546,7 @@ let data = [|
     latex: "^{256}\\mathrm{Cf}",
   },
   {
-    pdg: (-1000982560),
+    pdg: -1000982560,
     name: "Cf256~",
     mass: Some(238549.5271257),
     width: None,
@@ -80572,7 +80572,7 @@ let data = [|
     latex: "^{240}\\mathrm{Es}",
   },
   {
-    pdg: (-1000992400),
+    pdg: -1000992400,
     name: "Es240~",
     mass: Some(223622.7813707),
     width: None,
@@ -80598,7 +80598,7 @@ let data = [|
     latex: "^{241}\\mathrm{Es}",
   },
   {
-    pdg: (-1000992410),
+    pdg: -1000992410,
     name: "Es241~",
     mass: Some(224554.0332772),
     width: None,
@@ -80624,7 +80624,7 @@ let data = [|
     latex: "^{242}\\mathrm{Es}",
   },
   {
-    pdg: (-1000992420),
+    pdg: -1000992420,
     name: "Es242~",
     mass: Some(225486.496126),
     width: None,
@@ -80650,7 +80650,7 @@ let data = [|
     latex: "^{243}\\mathrm{Es}",
   },
   {
-    pdg: (-1000992430),
+    pdg: -1000992430,
     name: "Es243~",
     mass: Some(226417.9250164),
     width: None,
@@ -80676,7 +80676,7 @@ let data = [|
     latex: "^{244}\\mathrm{Es}",
   },
   {
-    pdg: (-1000992440),
+    pdg: -1000992440,
     name: "Es244~",
     mass: Some(227350.6673135),
     width: None,
@@ -80702,7 +80702,7 @@ let data = [|
     latex: "^{245}\\mathrm{Es}",
   },
   {
-    pdg: (-1000992450),
+    pdg: -1000992450,
     name: "Es245~",
     mass: Some(228282.4874314),
     width: None,
@@ -80728,7 +80728,7 @@ let data = [|
     latex: "^{246}\\mathrm{Es}",
   },
   {
-    pdg: (-1000992460),
+    pdg: -1000992460,
     name: "Es246~",
     mass: Some(229215.5184917),
     width: None,
@@ -80754,7 +80754,7 @@ let data = [|
     latex: "^{247}\\mathrm{Es}",
   },
   {
-    pdg: (-1000992470),
+    pdg: -1000992470,
     name: "Es247~",
     mass: Some(230147.6460027),
     width: None,
@@ -80780,7 +80780,7 @@ let data = [|
     latex: "^{248}\\mathrm{Es}",
   },
   {
-    pdg: (-1000992480),
+    pdg: -1000992480,
     name: "Es248~",
     mass: Some(231080.826102),
     width: None,
@@ -80806,7 +80806,7 @@ let data = [|
     latex: "^{249}\\mathrm{Es}",
   },
   {
-    pdg: (-1000992490),
+    pdg: -1000992490,
     name: "Es249~",
     mass: Some(232013.2051163),
     width: None,
@@ -80832,7 +80832,7 @@ let data = [|
     latex: "^{250}\\mathrm{Es}",
   },
   {
-    pdg: (-1000992500),
+    pdg: -1000992500,
     name: "Es250~",
     mass: Some(232946.7857581),
     width: None,
@@ -80858,7 +80858,7 @@ let data = [|
     latex: "^{251}\\mathrm{Es}",
   },
   {
-    pdg: (-1000992510),
+    pdg: -1000992510,
     name: "Es251~",
     mass: Some(233879.5224662),
     width: None,
@@ -80884,7 +80884,7 @@ let data = [|
     latex: "^{252}\\mathrm{Es}",
   },
   {
-    pdg: (-1000992520),
+    pdg: -1000992520,
     name: "Es252~",
     mass: Some(234813.7980026),
     width: None,
@@ -80910,7 +80910,7 @@ let data = [|
     latex: "^{253}\\mathrm{Es}",
   },
   {
-    pdg: (-1000992530),
+    pdg: -1000992530,
     name: "Es253~",
     mass: Some(235747.0134987),
     width: None,
@@ -80936,7 +80936,7 @@ let data = [|
     latex: "^{254}\\mathrm{Es}",
   },
   {
-    pdg: (-1000992540),
+    pdg: -1000992540,
     name: "Es254~",
     mass: Some(236681.4865118),
     width: None,
@@ -80962,7 +80962,7 @@ let data = [|
     latex: "^{255}\\mathrm{Es}",
   },
   {
-    pdg: (-1000992550),
+    pdg: -1000992550,
     name: "Es255~",
     mass: Some(237615.0764685),
     width: None,
@@ -80988,7 +80988,7 @@ let data = [|
     latex: "^{256}\\mathrm{Es}",
   },
   {
-    pdg: (-1000992560),
+    pdg: -1000992560,
     name: "Es256~",
     mass: Some(238549.6668498),
     width: None,
@@ -81014,7 +81014,7 @@ let data = [|
     latex: "^{257}\\mathrm{Es}",
   },
   {
-    pdg: (-1000992570),
+    pdg: -1000992570,
     name: "Es257~",
     mass: Some(239483.3872157),
     width: None,
@@ -81040,7 +81040,7 @@ let data = [|
     latex: "^{242}\\mathrm{Fm}",
   },
   {
-    pdg: (-1001002420),
+    pdg: -1001002420,
     name: "Fm242~",
     mass: Some(225489.970599),
     width: None,
@@ -81066,7 +81066,7 @@ let data = [|
     latex: "^{243}\\mathrm{Fm}",
   },
   {
-    pdg: (-1001002430),
+    pdg: -1001002430,
     name: "Fm243~",
     mass: Some(226422.4707076),
     width: None,
@@ -81092,7 +81092,7 @@ let data = [|
     latex: "^{244}\\mathrm{Fm}",
   },
   {
-    pdg: (-1001002440),
+    pdg: -1001002440,
     name: "Fm244~",
     mass: Some(227353.5642602),
     width: None,
@@ -81118,7 +81118,7 @@ let data = [|
     latex: "^{245}\\mathrm{Fm}",
   },
   {
-    pdg: (-1001002450),
+    pdg: -1001002450,
     name: "Fm245~",
     mass: Some(228286.2692975),
     width: None,
@@ -81144,7 +81144,7 @@ let data = [|
     latex: "^{246}\\mathrm{Fm}",
   },
   {
-    pdg: (-1001002460),
+    pdg: -1001002460,
     name: "Fm246~",
     mass: Some(229217.670243),
     width: None,
@@ -81170,7 +81170,7 @@ let data = [|
     latex: "^{247}\\mathrm{Fm}",
   },
   {
-    pdg: (-1001002470),
+    pdg: -1001002470,
     name: "Fm247~",
     mass: Some(230150.5988389),
     width: None,
@@ -81196,7 +81196,7 @@ let data = [|
     latex: "^{248}\\mathrm{Fm}",
   },
   {
-    pdg: (-1001002480),
+    pdg: -1001002480,
     name: "Fm248~",
     mass: Some(231082.4319978),
     width: None,
@@ -81222,7 +81222,7 @@ let data = [|
     latex: "^{249}\\mathrm{Fm}",
   },
   {
-    pdg: (-1001002490),
+    pdg: -1001002490,
     name: "Fm249~",
     mass: Some(232015.6363159),
     width: None,
@@ -81248,7 +81248,7 @@ let data = [|
     latex: "^{250}\\mathrm{Fm}",
   },
   {
-    pdg: (-1001002500),
+    pdg: -1001002500,
     name: "Fm250~",
     mass: Some(232947.5915005),
     width: None,
@@ -81274,7 +81274,7 @@ let data = [|
     latex: "^{251}\\mathrm{Fm}",
   },
   {
-    pdg: (-1001002510),
+    pdg: -1001002510,
     name: "Fm251~",
     mass: Some(233880.9960899),
     width: None,
@@ -81300,7 +81300,7 @@ let data = [|
     latex: "^{252}\\mathrm{Fm}",
   },
   {
-    pdg: (-1001002520),
+    pdg: -1001002520,
     name: "Fm252~",
     mass: Some(234813.3229406),
     width: None,
@@ -81326,7 +81326,7 @@ let data = [|
     latex: "^{253}\\mathrm{Fm}",
   },
   {
-    pdg: (-1001002530),
+    pdg: -1001002530,
     name: "Fm253~",
     mass: Some(235747.3469735),
     width: None,
@@ -81352,7 +81352,7 @@ let data = [|
     latex: "^{254}\\mathrm{Fm}",
   },
   {
-    pdg: (-1001002540),
+    pdg: -1001002540,
     name: "Fm254~",
     mass: Some(236680.3985267),
     width: None,
@@ -81378,7 +81378,7 @@ let data = [|
     latex: "^{255}\\mathrm{Fm}",
   },
   {
-    pdg: (-1001002550),
+    pdg: -1001002550,
     name: "Fm255~",
     mass: Some(237614.7867738),
     width: None,
@@ -81404,7 +81404,7 @@ let data = [|
     latex: "^{256}\\mathrm{Fm}",
   },
   {
-    pdg: (-1001002560),
+    pdg: -1001002560,
     name: "Fm256~",
     mass: Some(238547.9687361),
     width: None,
@@ -81430,7 +81430,7 @@ let data = [|
     latex: "^{257}\\mathrm{Fm}",
   },
   {
-    pdg: (-1001002570),
+    pdg: -1001002570,
     name: "Fm257~",
     mass: Some(239482.5665694),
     width: None,
@@ -81456,7 +81456,7 @@ let data = [|
     latex: "^{258}\\mathrm{Fm}",
   },
   {
-    pdg: (-1001002580),
+    pdg: -1001002580,
     name: "Fm258~",
     mass: Some(240415.8966393),
     width: None,
@@ -81482,7 +81482,7 @@ let data = [|
     latex: "^{259}\\mathrm{Fm}",
   },
   {
-    pdg: (-1001002590),
+    pdg: -1001002590,
     name: "Fm259~",
     mass: Some(241350.6695935),
     width: None,
@@ -81508,7 +81508,7 @@ let data = [|
     latex: "^{245}\\mathrm{Md}",
   },
   {
-    pdg: (-1001012450),
+    pdg: -1001012450,
     name: "Md245~",
     mass: Some(228291.5229242),
     width: None,
@@ -81534,7 +81534,7 @@ let data = [|
     latex: "^{246}\\mathrm{Md}",
   },
   {
-    pdg: (-1001012460),
+    pdg: -1001012460,
     name: "Md246~",
     mass: Some(229223.8646788),
     width: None,
@@ -81560,7 +81560,7 @@ let data = [|
     latex: "^{247}\\mathrm{Md}",
   },
   {
-    pdg: (-1001012470),
+    pdg: -1001012470,
     name: "Md247~",
     mass: Some(230155.2376795),
     width: None,
@@ -81586,7 +81586,7 @@ let data = [|
     latex: "^{248}\\mathrm{Md}",
   },
   {
-    pdg: (-1001012480),
+    pdg: -1001012480,
     name: "Md248~",
     mass: Some(231087.765733),
     width: None,
@@ -81612,7 +81612,7 @@ let data = [|
     latex: "^{249}\\mathrm{Md}",
   },
   {
-    pdg: (-1001012490),
+    pdg: -1001012490,
     name: "Md249~",
     mass: Some(232019.3436624),
     width: None,
@@ -81638,7 +81638,7 @@ let data = [|
     latex: "^{250}\\mathrm{Md}",
   },
   {
-    pdg: (-1001012500),
+    pdg: -1001012500,
     name: "Md250~",
     mass: Some(232952.2256836),
     width: None,
@@ -81664,7 +81664,7 @@ let data = [|
     latex: "^{251}\\mathrm{Md}",
   },
   {
-    pdg: (-1001012510),
+    pdg: -1001012510,
     name: "Md251~",
     mass: Some(233884.1203211),
     width: None,
@@ -81690,7 +81690,7 @@ let data = [|
     latex: "^{252}\\mathrm{Md}",
   },
   {
-    pdg: (-1001012520),
+    pdg: -1001012520,
     name: "Md252~",
     mass: Some(234817.207271),
     width: None,
@@ -81716,7 +81716,7 @@ let data = [|
     latex: "^{253}\\mathrm{Md}",
   },
   {
-    pdg: (-1001012530),
+    pdg: -1001012530,
     name: "Md253~",
     mass: Some(235749.3068371),
     width: None,
@@ -81742,7 +81742,7 @@ let data = [|
     latex: "^{254}\\mathrm{Md}",
   },
   {
-    pdg: (-1001012540),
+    pdg: -1001012540,
     name: "Md254~",
     mass: Some(236683.0830926),
     width: None,
@@ -81768,7 +81768,7 @@ let data = [|
     latex: "^{255}\\mathrm{Md}",
   },
   {
-    pdg: (-1001012550),
+    pdg: -1001012550,
     name: "Md255~",
     mass: Some(237615.8300472),
     width: None,
@@ -81794,7 +81794,7 @@ let data = [|
     latex: "^{256}\\mathrm{Md}",
   },
   {
-    pdg: (-1001012560),
+    pdg: -1001012560,
     name: "Md256~",
     mass: Some(238550.0953371),
     width: None,
@@ -81820,7 +81820,7 @@ let data = [|
     latex: "^{257}\\mathrm{Md}",
   },
   {
-    pdg: (-1001012570),
+    pdg: -1001012570,
     name: "Md257~",
     mass: Some(239482.9727008),
     width: None,
@@ -81846,7 +81846,7 @@ let data = [|
     latex: "^{258}\\mathrm{Md}",
   },
   {
-    pdg: (-1001012580),
+    pdg: -1001012580,
     name: "Md258~",
     mass: Some(240417.1588138),
     width: None,
@@ -81872,7 +81872,7 @@ let data = [|
     latex: "^{259}\\mathrm{Md}",
   },
   {
-    pdg: (-1001012590),
+    pdg: -1001012590,
     name: "Md259~",
     mass: Some(241350.585759),
     width: None,
@@ -81898,7 +81898,7 @@ let data = [|
     latex: "^{260}\\mathrm{Md}",
   },
   {
-    pdg: (-1001012600),
+    pdg: -1001012600,
     name: "Md260~",
     mass: Some(242285.0140604),
     width: None,
@@ -81924,7 +81924,7 @@ let data = [|
     latex: "^{249}\\mathrm{No}",
   },
   {
-    pdg: (-1001022490),
+    pdg: -1001022490,
     name: "No249~",
     mass: Some(232023.833464),
     width: None,
@@ -81950,7 +81950,7 @@ let data = [|
     latex: "^{250}\\mathrm{No}",
   },
   {
-    pdg: (-1001022500),
+    pdg: -1001022500,
     name: "No250~",
     mass: Some(232955.0201659),
     width: None,
@@ -81976,7 +81976,7 @@ let data = [|
     latex: "^{251}\\mathrm{No}",
   },
   {
-    pdg: (-1001022510),
+    pdg: -1001022510,
     name: "No251~",
     mass: Some(233887.8835572),
     width: None,
@@ -82002,7 +82002,7 @@ let data = [|
     latex: "^{252}\\mathrm{No}",
   },
   {
-    pdg: (-1001022520),
+    pdg: -1001022520,
     name: "No252~",
     mass: Some(234819.3832412),
     width: None,
@@ -82028,7 +82028,7 @@ let data = [|
     latex: "^{253}\\mathrm{No}",
   },
   {
-    pdg: (-1001022530),
+    pdg: -1001022530,
     name: "No253~",
     mass: Some(235752.4459722),
     width: None,
@@ -82054,7 +82054,7 @@ let data = [|
     latex: "^{254}\\mathrm{No}",
   },
   {
-    pdg: (-1001022540),
+    pdg: -1001022540,
     name: "No254~",
     mass: Some(236684.2185839),
     width: None,
@@ -82080,7 +82080,7 @@ let data = [|
     latex: "^{255}\\mathrm{No}",
   },
   {
-    pdg: (-1001022550),
+    pdg: -1001022550,
     name: "No255~",
     mass: Some(237617.83928),
     width: None,
@@ -82106,7 +82106,7 @@ let data = [|
     latex: "^{256}\\mathrm{No}",
   },
   {
-    pdg: (-1001022560),
+    pdg: -1001022560,
     name: "No256~",
     mass: Some(238550.3058548),
     width: None,
@@ -82132,7 +82132,7 @@ let data = [|
     latex: "^{257}\\mathrm{No}",
   },
   {
-    pdg: (-1001022570),
+    pdg: -1001022570,
     name: "No257~",
     mass: Some(239484.1976156),
     width: None,
@@ -82158,7 +82158,7 @@ let data = [|
     latex: "^{258}\\mathrm{No}",
   },
   {
-    pdg: (-1001022580),
+    pdg: -1001022580,
     name: "No258~",
     mass: Some(240416.9492276),
     width: None,
@@ -82184,7 +82184,7 @@ let data = [|
     latex: "^{259}\\mathrm{No}",
   },
   {
-    pdg: (-1001022590),
+    pdg: -1001022590,
     name: "No259~",
     mass: Some(241351.0701359),
     width: None,
@@ -82210,7 +82210,7 @@ let data = [|
     latex: "^{260}\\mathrm{No}",
   },
   {
-    pdg: (-1001022600),
+    pdg: -1001022600,
     name: "No260~",
     mass: Some(242284.0732513),
     width: None,
@@ -82236,7 +82236,7 @@ let data = [|
     latex: "^{261}\\mathrm{No}",
   },
   {
-    pdg: (-1001022610),
+    pdg: -1001022610,
     name: "No261~",
     mass: Some(243218.454978),
     width: None,
@@ -82262,7 +82262,7 @@ let data = [|
     latex: "^{262}\\mathrm{No}",
   },
   {
-    pdg: (-1001022620),
+    pdg: -1001022620,
     name: "No262~",
     mass: Some(244151.6071325),
     width: None,
@@ -82288,7 +82288,7 @@ let data = [|
     latex: "^{251}\\mathrm{Lr}",
   },
   {
-    pdg: (-1001032510),
+    pdg: -1001032510,
     name: "Lr251~",
     mass: Some(233892.9136253),
     width: None,
@@ -82314,7 +82314,7 @@ let data = [|
     latex: "^{252}\\mathrm{Lr}",
   },
   {
-    pdg: (-1001032520),
+    pdg: -1001032520,
     name: "Lr252~",
     mass: Some(234825.3112696),
     width: None,
@@ -82340,7 +82340,7 @@ let data = [|
     latex: "^{253}\\mathrm{Lr}",
   },
   {
-    pdg: (-1001032530),
+    pdg: -1001032530,
     name: "Lr253~",
     mass: Some(235756.74016),
     width: None,
@@ -82366,7 +82366,7 @@ let data = [|
     latex: "^{254}\\mathrm{Lr}",
   },
   {
-    pdg: (-1001032540),
+    pdg: -1001032540,
     name: "Lr254~",
     mass: Some(236689.4731421),
     width: None,
@@ -82392,7 +82392,7 @@ let data = [|
     latex: "^{255}\\mathrm{Lr}",
   },
   {
-    pdg: (-1001032550),
+    pdg: -1001032550,
     name: "Lr255~",
     mass: Some(237621.1349061),
     width: None,
@@ -82418,7 +82418,7 @@ let data = [|
     latex: "^{256}\\mathrm{Lr}",
   },
   {
-    pdg: (-1001032560),
+    pdg: -1001032560,
     name: "Lr256~",
     mass: Some(238554.4826743),
     width: None,
@@ -82444,7 +82444,7 @@ let data = [|
     latex: "^{257}\\mathrm{Lr}",
   },
   {
-    pdg: (-1001032570),
+    pdg: -1001032570,
     name: "Lr257~",
     mass: Some(239486.7685393),
     width: None,
@@ -82470,7 +82470,7 @@ let data = [|
     latex: "^{258}\\mathrm{Lr}",
   },
   {
-    pdg: (-1001032580),
+    pdg: -1001032580,
     name: "Lr258~",
     mass: Some(240420.3771259),
     width: None,
@@ -82496,7 +82496,7 @@ let data = [|
     latex: "^{259}\\mathrm{Lr}",
   },
   {
-    pdg: (-1001032590),
+    pdg: -1001032590,
     name: "Lr259~",
     mass: Some(241352.9051793),
     width: None,
@@ -82522,7 +82522,7 @@ let data = [|
     latex: "^{260}\\mathrm{Lr}",
   },
   {
-    pdg: (-1001032600),
+    pdg: -1001032600,
     name: "Lr260~",
     mass: Some(242286.802529),
     width: None,
@@ -82548,7 +82548,7 @@ let data = [|
     latex: "^{261}\\mathrm{Lr}",
   },
   {
-    pdg: (-1001032610),
+    pdg: -1001032610,
     name: "Lr261~",
     mass: Some(243219.5727709),
     width: None,
@@ -82574,7 +82574,7 @@ let data = [|
     latex: "^{262}\\mathrm{Lr}",
   },
   {
-    pdg: (-1001032620),
+    pdg: -1001032620,
     name: "Lr262~",
     mass: Some(244153.6284747),
     width: None,
@@ -82600,7 +82600,7 @@ let data = [|
     latex: "^{263}\\mathrm{Lr}",
   },
   {
-    pdg: (-1001032630),
+    pdg: -1001032630,
     name: "Lr263~",
     mass: Some(245086.7061096),
     width: None,
@@ -82626,7 +82626,7 @@ let data = [|
     latex: "^{253}\\mathrm{Rf}",
   },
   {
-    pdg: (-1001042530),
+    pdg: -1001042530,
     name: "Rf253~",
     mass: Some(235761.788858),
     width: None,
@@ -82652,7 +82652,7 @@ let data = [|
     latex: "^{254}\\mathrm{Rf}",
   },
   {
-    pdg: (-1001042540),
+    pdg: -1001042540,
     name: "Rf254~",
     mass: Some(236692.807891),
     width: None,
@@ -82678,7 +82678,7 @@ let data = [|
     latex: "^{255}\\mathrm{Rf}",
   },
   {
-    pdg: (-1001042550),
+    pdg: -1001042550,
     name: "Rf255~",
     mass: Some(237625.5315582),
     width: None,
@@ -82704,7 +82704,7 @@ let data = [|
     latex: "^{256}\\mathrm{Rf}",
   },
   {
-    pdg: (-1001042560),
+    pdg: -1001042560,
     name: "Rf256~",
     mass: Some(238556.73689),
     width: None,
@@ -82730,7 +82730,7 @@ let data = [|
     latex: "^{257}\\mathrm{Rf}",
   },
   {
-    pdg: (-1001042570),
+    pdg: -1001042570,
     name: "Rf257~",
     mass: Some(239489.9915088),
     width: None,
@@ -82756,7 +82756,7 @@ let data = [|
     latex: "^{258}\\mathrm{Rf}",
   },
   {
-    pdg: (-1001042580),
+    pdg: -1001042580,
     name: "Rf258~",
     mass: Some(240421.9513509),
     width: None,
@@ -82782,7 +82782,7 @@ let data = [|
     latex: "^{259}\\mathrm{Rf}",
   },
   {
-    pdg: (-1001042590),
+    pdg: -1001042590,
     name: "Rf259~",
     mass: Some(241355.3643237),
     width: None,
@@ -82808,7 +82808,7 @@ let data = [|
     latex: "^{260}\\mathrm{Rf}",
   },
   {
-    pdg: (-1001042600),
+    pdg: -1001042600,
     name: "Rf260~",
     mass: Some(242287.603614),
     width: None,
@@ -82834,7 +82834,7 @@ let data = [|
     latex: "^{261}\\mathrm{Rf}",
   },
   {
-    pdg: (-1001042610),
+    pdg: -1001042610,
     name: "Rf261~",
     mass: Some(243221.2587753),
     width: None,
@@ -82860,7 +82860,7 @@ let data = [|
     latex: "^{262}\\mathrm{Rf}",
   },
   {
-    pdg: (-1001042620),
+    pdg: -1001042620,
     name: "Rf262~",
     mass: Some(244153.8427183),
     width: None,
@@ -82886,7 +82886,7 @@ let data = [|
     latex: "^{263}\\mathrm{Rf}",
   },
   {
-    pdg: (-1001042630),
+    pdg: -1001042630,
     name: "Rf263~",
     mass: Some(245087.7773279),
     width: None,
@@ -82912,7 +82912,7 @@ let data = [|
     latex: "^{264}\\mathrm{Rf}",
   },
   {
-    pdg: (-1001042640),
+    pdg: -1001042640,
     name: "Rf264~",
     mass: Some(246020.6127743),
     width: None,
@@ -82938,7 +82938,7 @@ let data = [|
     latex: "^{255}\\mathrm{Db}",
   },
   {
-    pdg: (-1001052550),
+    pdg: -1001052550,
     name: "Db255~",
     mass: Some(237631.0366883),
     width: None,
@@ -82964,7 +82964,7 @@ let data = [|
     latex: "^{256}\\mathrm{Db}",
   },
   {
-    pdg: (-1001052560),
+    pdg: -1001052560,
     name: "Db256~",
     mass: Some(238563.1921441),
     width: None,
@@ -82990,7 +82990,7 @@ let data = [|
     latex: "^{257}\\mathrm{Db}",
   },
   {
-    pdg: (-1001052570),
+    pdg: -1001052570,
     name: "Db257~",
     mass: Some(239494.4533656),
     width: None,
@@ -83016,7 +83016,7 @@ let data = [|
     latex: "^{258}\\mathrm{Db}",
   },
   {
-    pdg: (-1001052580),
+    pdg: -1001052580,
     name: "Db258~",
     mass: Some(240427.4192212),
     width: None,
@@ -83042,7 +83042,7 @@ let data = [|
     latex: "^{259}\\mathrm{Db}",
   },
   {
-    pdg: (-1001052590),
+    pdg: -1001052590,
     name: "Db259~",
     mass: Some(241359.1741345),
     width: None,
@@ -83068,7 +83068,7 @@ let data = [|
     latex: "^{260}\\mathrm{Db}",
   },
   {
-    pdg: (-1001052600),
+    pdg: -1001052600,
     name: "Db260~",
     mass: Some(242292.2610844),
     width: None,
@@ -83094,7 +83094,7 @@ let data = [|
     latex: "^{261}\\mathrm{Db}",
   },
   {
-    pdg: (-1001052610),
+    pdg: -1001052610,
     name: "Db261~",
     mass: Some(243224.3885954),
     width: None,
@@ -83120,7 +83120,7 @@ let data = [|
     latex: "^{262}\\mathrm{Db}",
   },
   {
-    pdg: (-1001052620),
+    pdg: -1001052620,
     name: "Db262~",
     mass: Some(244157.7829384),
     width: None,
@@ -83146,7 +83146,7 @@ let data = [|
     latex: "^{263}\\mathrm{Db}",
   },
   {
-    pdg: (-1001052630),
+    pdg: -1001052630,
     name: "Db263~",
     mass: Some(245090.1433229),
     width: None,
@@ -83172,7 +83172,7 @@ let data = [|
     latex: "^{264}\\mathrm{Db}",
   },
   {
-    pdg: (-1001052640),
+    pdg: -1001052640,
     name: "Db264~",
     mass: Some(246023.8636887),
     width: None,
@@ -83198,7 +83198,7 @@ let data = [|
     latex: "^{265}\\mathrm{Db}",
   },
   {
-    pdg: (-1001052650),
+    pdg: -1001052650,
     name: "Db265~",
     mass: Some(246956.4662617),
     width: None,
@@ -83224,7 +83224,7 @@ let data = [|
     latex: "^{258}\\mathrm{Sg}",
   },
   {
-    pdg: (-1001062580),
+    pdg: -1001062580,
     name: "Sg258~",
     mass: Some(240430.8750643),
     width: None,
@@ -83250,7 +83250,7 @@ let data = [|
     latex: "^{259}\\mathrm{Sg}",
   },
   {
-    pdg: (-1001062590),
+    pdg: -1001062590,
     name: "Sg259~",
     mass: Some(241363.7664004),
     width: None,
@@ -83276,7 +83276,7 @@ let data = [|
     latex: "^{260}\\mathrm{Sg}",
   },
   {
-    pdg: (-1001062600),
+    pdg: -1001062600,
     name: "Sg260~",
     mass: Some(242295.0648817),
     width: None,
@@ -83302,7 +83302,7 @@ let data = [|
     latex: "^{261}\\mathrm{Sg}",
   },
   {
-    pdg: (-1001062610),
+    pdg: -1001062610,
     name: "Sg261~",
     mass: Some(243228.1984063),
     width: None,
@@ -83328,7 +83328,7 @@ let data = [|
     latex: "^{262}\\mathrm{Sg}",
   },
   {
-    pdg: (-1001062620),
+    pdg: -1001062620,
     name: "Sg262~",
     mass: Some(244159.9533196),
     width: None,
@@ -83354,7 +83354,7 @@ let data = [|
     latex: "^{263}\\mathrm{Sg}",
   },
   {
-    pdg: (-1001062630),
+    pdg: -1001062630,
     name: "Sg263~",
     mass: Some(245093.1520488),
     width: None,
@@ -83380,7 +83380,7 @@ let data = [|
     latex: "^{264}\\mathrm{Sg}",
   },
   {
-    pdg: (-1001062640),
+    pdg: -1001062640,
     name: "Sg264~",
     mass: Some(246025.2143552),
     width: None,
@@ -83406,7 +83406,7 @@ let data = [|
     latex: "^{265}\\mathrm{Sg}",
   },
   {
-    pdg: (-1001062650),
+    pdg: -1001062650,
     name: "Sg265~",
     mass: Some(246958.7111625),
     width: None,
@@ -83432,7 +83432,7 @@ let data = [|
     latex: "^{266}\\mathrm{Sg}",
   },
   {
-    pdg: (-1001062660),
+    pdg: -1001062660,
     name: "Sg266~",
     mass: Some(247891.0063424),
     width: None,
@@ -83458,7 +83458,7 @@ let data = [|
     latex: "^{260}\\mathrm{Bh}",
   },
   {
-    pdg: (-1001072600),
+    pdg: -1001072600,
     name: "Bh260~",
     mass: Some(242301.9206782),
     width: None,
@@ -83484,7 +83484,7 @@ let data = [|
     latex: "^{261}\\mathrm{Bh}",
   },
   {
-    pdg: (-1001072610),
+    pdg: -1001072610,
     name: "Bh261~",
     mass: Some(243233.4147732),
     width: None,
@@ -83510,7 +83510,7 @@ let data = [|
     latex: "^{262}\\mathrm{Bh}",
   },
   {
-    pdg: (-1001072620),
+    pdg: -1001072620,
     name: "Bh262~",
     mass: Some(244166.035976),
     width: None,
@@ -83536,7 +83536,7 @@ let data = [|
     latex: "^{263}\\mathrm{Bh}",
   },
   {
-    pdg: (-1001072630),
+    pdg: -1001072630,
     name: "Bh263~",
     mass: Some(245097.6604802),
     width: None,
@@ -83562,7 +83562,7 @@ let data = [|
     latex: "^{264}\\mathrm{Bh}",
   },
   {
-    pdg: (-1001072640),
+    pdg: -1001072640,
     name: "Bh264~",
     mass: Some(246030.6263359),
     width: None,
@@ -83588,7 +83588,7 @@ let data = [|
     latex: "^{265}\\mathrm{Bh}",
   },
   {
-    pdg: (-1001072650),
+    pdg: -1001072650,
     name: "Bh265~",
     mass: Some(246962.5582331),
     width: None,
@@ -83614,7 +83614,7 @@ let data = [|
     latex: "^{266}\\mathrm{Bh}",
   },
   {
-    pdg: (-1001072660),
+    pdg: -1001072660,
     name: "Bh266~",
     mass: Some(247895.7383324),
     width: None,
@@ -83640,7 +83640,7 @@ let data = [|
     latex: "^{267}\\mathrm{Bh}",
   },
   {
-    pdg: (-1001072670),
+    pdg: -1001072670,
     name: "Bh267~",
     mass: Some(248827.9124181),
     width: None,
@@ -83666,7 +83666,7 @@ let data = [|
     latex: "^{263}\\mathrm{Hs}",
   },
   {
-    pdg: (-1001082630),
+    pdg: -1001082630,
     name: "Hs263~",
     mass: Some(245102.8395874),
     width: None,
@@ -83692,7 +83692,7 @@ let data = [|
     latex: "^{264}\\mathrm{Hs}",
   },
   {
-    pdg: (-1001082640),
+    pdg: -1001082640,
     name: "Hs264~",
     mass: Some(246034.0542341),
     width: None,
@@ -83718,7 +83718,7 @@ let data = [|
     latex: "^{265}\\mathrm{Hs}",
   },
   {
-    pdg: (-1001082650),
+    pdg: -1001082650,
     name: "Hs265~",
     mass: Some(246967.0294047),
     width: None,
@@ -83744,7 +83744,7 @@ let data = [|
     latex: "^{266}\\mathrm{Hs}",
   },
   {
-    pdg: (-1001082660),
+    pdg: -1001082660,
     name: "Hs266~",
     mass: Some(247898.5607595),
     width: None,
@@ -83770,7 +83770,7 @@ let data = [|
     latex: "^{267}\\mathrm{Hs}",
   },
   {
-    pdg: (-1001082670),
+    pdg: -1001082670,
     name: "Hs267~",
     mass: Some(248831.6663393),
     width: None,
@@ -83796,7 +83796,7 @@ let data = [|
     latex: "^{268}\\mathrm{Hs}",
   },
   {
-    pdg: (-1001082680),
+    pdg: -1001082680,
     name: "Hs268~",
     mass: Some(249763.523717),
     width: None,
@@ -83822,7 +83822,7 @@ let data = [|
     latex: "^{269}\\mathrm{Hs}",
   },
   {
-    pdg: (-1001082690),
+    pdg: -1001082690,
     name: "Hs269~",
     mass: Some(250696.8342254),
     width: None,
@@ -83848,7 +83848,7 @@ let data = [|
     latex: "^{277}\\mathrm{Hs}",
   },
   {
-    pdg: (-1001082770),
+    pdg: -1001082770,
     name: "Hs277~",
     mass: Some(0.0),
     width: None,
@@ -83874,7 +83874,7 @@ let data = [|
     latex: "^{265}\\mathrm{Mt}",
   },
   {
-    pdg: (-1001092650),
+    pdg: -1001092650,
     name: "Mt265~",
     mass: Some(246973.1493209),
     width: None,
@@ -83900,7 +83900,7 @@ let data = [|
     latex: "^{266}\\mathrm{Mt}",
   },
   {
-    pdg: (-1001092660),
+    pdg: -1001092660,
     name: "Mt266~",
     mass: Some(247905.9195628),
     width: None,
@@ -83926,7 +83926,7 @@ let data = [|
     latex: "^{267}\\mathrm{Mt}",
   },
   {
-    pdg: (-1001092670),
+    pdg: -1001092670,
     name: "Mt267~",
     mass: Some(248837.0317453),
     width: None,
@@ -83952,7 +83952,7 @@ let data = [|
     latex: "^{268}\\mathrm{Mt}",
   },
   {
-    pdg: (-1001092680),
+    pdg: -1001092680,
     name: "Mt268~",
     mass: Some(249769.7274676),
     width: None,
@@ -83978,7 +83978,7 @@ let data = [|
     latex: "^{269}\\mathrm{Mt}",
   },
   {
-    pdg: (-1001092690),
+    pdg: -1001092690,
     name: "Mt269~",
     mass: Some(250701.4916959),
     width: None,
@@ -84004,7 +84004,7 @@ let data = [|
     latex: "^{270}\\mathrm{Mt}",
   },
   {
-    pdg: (-1001092700),
+    pdg: -1001092700,
     name: "Mt270~",
     mass: Some(251634.4854964),
     width: None,
@@ -84030,7 +84030,7 @@ let data = [|
     latex: "^{271}\\mathrm{Mt}",
   },
   {
-    pdg: (-1001092710),
+    pdg: -1001092710,
     name: "Mt271~",
     mass: Some(252566.4546534),
     width: None,
@@ -84056,7 +84056,7 @@ let data = [|
     latex: "^{267}\\mathrm{Ds}",
   },
   {
-    pdg: (-1001102670),
+    pdg: -1001102670,
     name: "Ds267~",
     mass: Some(248843.0212523),
     width: None,
@@ -84082,7 +84082,7 @@ let data = [|
     latex: "^{268}\\mathrm{Ds}",
   },
   {
-    pdg: (-1001102680),
+    pdg: -1001102680,
     name: "Ds268~",
     mass: Some(249774.1148048),
     width: None,
@@ -84108,7 +84108,7 @@ let data = [|
     latex: "^{269}\\mathrm{Ds}",
   },
   {
-    pdg: (-1001102690),
+    pdg: -1001102690,
     name: "Ds269~",
     mass: Some(250707.1086053),
     width: None,
@@ -84134,7 +84134,7 @@ let data = [|
     latex: "^{270}\\mathrm{Ds}",
   },
   {
-    pdg: (-1001102700),
+    pdg: -1001102700,
     name: "Ds270~",
     mass: Some(251638.1276383),
     width: None,
@@ -84160,7 +84160,7 @@ let data = [|
     latex: "^{271}\\mathrm{Ds}",
   },
   {
-    pdg: (-1001102710),
+    pdg: -1001102710,
     name: "Ds271~",
     mass: Some(252570.9723997),
     width: None,
@@ -84186,7 +84186,7 @@ let data = [|
     latex: "^{272}\\mathrm{Ds}",
   },
   {
-    pdg: (-1001102720),
+    pdg: -1001102720,
     name: "Ds272~",
     mass: Some(253502.6807384),
     width: None,
@@ -84212,7 +84212,7 @@ let data = [|
     latex: "^{273}\\mathrm{Ds}",
   },
   {
-    pdg: (-1001102730),
+    pdg: -1001102730,
     name: "Ds273~",
     mass: Some(254436.913426),
     width: None,
@@ -84238,7 +84238,7 @@ let data = [|
     latex: "^{281}\\mathrm{Ds}",
   },
   {
-    pdg: (-1001102810),
+    pdg: -1001102810,
     name: "Ds281~",
     mass: Some(0.0),
     width: None,
@@ -84264,7 +84264,7 @@ let data = [|
     latex: "^{272}\\mathrm{Rg}",
   },
   {
-    pdg: (-1001112720),
+    pdg: -1001112720,
     name: "Rg272~",
     mass: Some(253509.359551),
     width: None,
@@ -84290,7 +84290,7 @@ let data = [|
     latex: "^{285}\\mathrm{Cn}",
   },
   {
-    pdg: (-1001122850),
+    pdg: -1001122850,
     name: "Cn285~",
     mass: Some(0.0),
     width: None,
@@ -84316,7 +84316,7 @@ let data = [|
     latex: "^{286}\\mathrm{Nh}",
   },
   {
-    pdg: (-1001132860),
+    pdg: -1001132860,
     name: "Nh286~",
     mass: Some(0.0),
     width: None,
@@ -84342,7 +84342,7 @@ let data = [|
     latex: "^{289}\\mathrm{Fl}",
   },
   {
-    pdg: (-1001142890),
+    pdg: -1001142890,
     name: "Fl289~",
     mass: Some(0.0),
     width: None,
@@ -84368,7 +84368,7 @@ let data = [|
     latex: "^{289}\\mathrm{Mc}",
   },
   {
-    pdg: (-1001152890),
+    pdg: -1001152890,
     name: "Mc289~",
     mass: Some(0.0),
     width: None,
@@ -84394,7 +84394,7 @@ let data = [|
     latex: "^{293}\\mathrm{Lv}",
   },
   {
-    pdg: (-1001162930),
+    pdg: -1001162930,
     name: "Lv293~",
     mass: Some(0.0),
     width: None,
@@ -84420,7 +84420,7 @@ let data = [|
     latex: "^{294}\\mathrm{Ts}",
   },
   {
-    pdg: (-1001172940),
+    pdg: -1001172940,
     name: "Ts294~",
     mass: Some(0.0),
     width: None,
@@ -84446,7 +84446,7 @@ let data = [|
     latex: "^{294}\\mathrm{Og}",
   },
   {
-    pdg: (-1001182940),
+    pdg: -1001182940,
     name: "Og294~",
     mass: Some(0.0),
     width: None,
@@ -84458,4 +84458,4 @@ let data = [|
     anti: true,
     latex: "^{294}\\mathrm{\\overline{Og}}",
   },
-|];
+]
