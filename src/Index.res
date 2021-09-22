@@ -1,3 +1,6 @@
 %raw(`require('./styles.css')`)
 
-ReactDOMRe.renderToElementWithId(<App />, "root")
+switch ReactDOM.querySelector("root") {
+| Some(e) => ReactDOM.render(<App />, e)
+| None => ()
+}

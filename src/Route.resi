@@ -1,6 +1,6 @@
 type t = Particle
 
-let fromUrl: ReasonReactRouter.url => option<t>
+let fromUrl: RescriptReactRouter.url => option<t>
 
 type t'
 

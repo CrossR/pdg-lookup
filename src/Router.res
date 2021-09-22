@@ -1,6 +1,6 @@
-let useRouter = () => ReasonReactRouter.useUrl()->Route.fromUrl
+let useRouter = () => RescriptReactRouter.useUrl()->Route.fromUrl
 
-let push = route => route->Route.toString->ReasonReactRouter.push
+let push = route => route->Route.toString->RescriptReactRouter.push
 
 module Link = {
   @react.component
@@ -18,7 +18,7 @@ module Link = {
           (!(event->ReactEvent.Mouse.metaKey) && !(event->ReactEvent.Mouse.shiftKey)))))
         ) {
           event->ReactEvent.Mouse.preventDefault
-          location->ReasonReactRouter.push
+          location->RescriptReactRouter.push
         }}>
       children
     </a>
