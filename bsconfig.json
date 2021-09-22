@@ -20,8 +20,8 @@
   "bs-dependencies": [
     "bs-css",
     "bs-css-emotion",
-    "reason-react",
-    "@jsiebern/bs-material-ui"
+    "@rescript/react",
+    "rescript-material-ui"
   ],
   "bs-dev-dependencies": ["bs-webapi"],
   "ppx-flags": [],
