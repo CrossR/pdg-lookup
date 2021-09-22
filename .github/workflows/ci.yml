@@ -3,7 +3,7 @@ name: CI
 on: [push, pull_request]
 
 jobs:
-  test:
+  format:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
@@ -39,9 +39,6 @@ jobs:
             echo 'Please run `yarn format` locally to fix the issues.'
             exit 1
           fi
-
-      - name: Run tests
-        run: yarn test
 
   build:
     runs-on: ubuntu-latest
