@@ -4,7 +4,7 @@
  *
  * Do not hand edit! This is pre-generated!
  *
- * Generated using particle v0.16.1.
+ * Generated using particle v0.20.1.
  */
 
 open ParticleInfo

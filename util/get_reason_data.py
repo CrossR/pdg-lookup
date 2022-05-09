@@ -1,6 +1,6 @@
 import particle
 
-OUTPUT_FILE_NAME = "../src/data/ParticleData.re"
+OUTPUT_FILE_NAME = "../src/data/ParticleData.res"
 
 
 def escape_latex(txt):
@@ -20,12 +20,6 @@ def option(val, quote=False):
     return "None"
 
 
-def wrap_minus(num):
-    if num < 0:
-        return f"({num})"
-    return num
-
-
 def write_particle(particle_file, p: particle.Particle):
 
     anti = "true" if p.anti_flag else "false"
@@ -34,15 +28,15 @@ def write_particle(particle_file, p: particle.Particle):
         "\n".join(
             [
                 f"  {{",
-                f"    pdg: {wrap_minus(int(p.pdgid))},",
+                f"    pdg: {int(p.pdgid)},",
                 f"    name: {quoted(p.name)},",
                 f"    mass: {option(p.mass)},",
                 f"    width: {option(p.width)},",
                 f"    charge: {option(p.charge)},",
                 f"    iValue: {option(p.I)},",
-                f"    gValue: {wrap_minus(int(p.G))},",
-                f"    cValue: {wrap_minus(int(p.C))},",
-                f"    pValue: {wrap_minus(int(p.P))},",
+                f"    gValue: {int(p.G)},",
+                f"    cValue: {int(p.C)},",
+                f"    pValue: {int(p.P)},",
                 f"    anti: {anti},",
                 f"    latex: {quoted(escape_latex(p.latex_name))},",
                 f"  }},",
@@ -67,18 +61,18 @@ def main():
                     f" * Generated using particle v{particle.__version__}.",
                     " */",
                     "",
-                    "open ParticleInfo;",
+                    "open ParticleInfo",
                     "",
-                    "let data = [|",
+                    "let data = [",
                     "",
                 ]
             )
         )
 
-        for i, p in enumerate(particle.Particle.all()):
+        for _, p in enumerate(particle.Particle.all()):
             write_particle(particle_file, p)
 
-        particle_file.write("\n".join(["|];", "",]))
+        particle_file.write("\n".join(["]", "",]))
 
 
 if __name__ == "__main__":
