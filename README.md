@@ -14,7 +14,7 @@ Was created out of a need for the occasional search of some obscure PDG appearin
 in MC results, and not wanting to poke around the PDG website or random old websites
 that Google seems to promote for some reason.
 
-Uses the 2020 PDG Code Data, from https://pdg.lbl.gov/. Further detail of how
+Uses the 2023 PDG Code Data, from https://pdg.lbl.gov/. Further detail of how
 the data is built up is below.
 
 ## Licensing / Acknowledgements
@@ -30,12 +30,23 @@ can be found in `util/`.
 
 If you are confused as to why this was approach was used, rather than a
 database/active lookup, this meant the project could be more easily hosted as
-a static site (which is free with GitHub Pages). Its also very quick once the
+a static site (which is free with GitHub Pages). It is also very quick once the
 data is cached!
 
 The GitHub Corner SVG is from https://github.com/tholman/github-corners,
 licensed under the MIT license.
 
-## Contributing
+## Building
 
-Take a look at our [Contributing Guide](CONTRIBUTING.md).
+```bash
+
+# Clone the repository first...
+# Then install the dependencies
+yarn install
+
+# Run the development server
+yarn start
+
+# Build the production version
+yarn build
+```

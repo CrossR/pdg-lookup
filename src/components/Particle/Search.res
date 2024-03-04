@@ -1,3 +1,5 @@
+open Mui
+
 module Styles = {
   open Css
 
@@ -17,7 +19,7 @@ module Styles = {
 
 @react.component
 let make = (~dispatch, ~invalidSearch) =>
-  <MaterialUi_ThemeProvider theme={MaterialUi_Theme.create(MaterialUi_ThemeOptions.make())}>
+  <ThemeProvider theme={Theme(Theme.create({}))}>
     <input
       className={invalidSearch ? Styles.invalidSeachField : Styles.searchField}
       type_="search"
@@ -25,4 +27,4 @@ let make = (~dispatch, ~invalidSearch) =>
       placeholder="Input PDG"
       onChange={e => dispatch((e->ReactEvent.Form.target)["value"])}
     />
-  </MaterialUi_ThemeProvider>
+  </ThemeProvider>

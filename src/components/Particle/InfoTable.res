@@ -1,3 +1,5 @@
+open Mui
+
 module Styles = {
   open Css
 
@@ -8,18 +10,17 @@ module Styles = {
 }
 
 let getTableRow = ((p1, p2)) => {
-  let getName = (p: ParticleInfo.propertyValue) => p.property
+  let getName = (p: ParticleInfo.propertyValue) => p.property->React.string
   let getValue = (p: ParticleInfo.propertyValue) =>
     switch p.units {
-    | Some(u) => p.value ++ (" " ++ u)
-    | None => p.value
+    | Some(u) => React.string(p.value ++ (" " ++ u))
+    | None => p.value->React.string
     }
 
-  open MaterialUi
   <TableRow>
-    <TableCell style=Styles.cell variant=#Head> {getName(p1)} </TableCell>
+    <TableCell style=Styles.cell variant=TableCell.Head> {getName(p1)} </TableCell>
     <TableCell style=Styles.cell> {getValue(p1)} </TableCell>
-    <TableCell style=Styles.cell variant=#Head> {getName(p2)} </TableCell>
+    <TableCell style=Styles.cell variant=TableCell.Head> {getName(p2)} </TableCell>
     <TableCell style=Styles.cell> {getValue(p2)} </TableCell>
   </TableRow>
 }
@@ -35,11 +36,10 @@ let getTable = particle => {
 
 @react.component
 let make = (~particle) =>
-  <MaterialUi_ThemeProvider theme={MaterialUi_Theme.create(MaterialUi_ThemeOptions.make())}>
+  <ThemeProvider theme={Theme(Theme.create({}))}>
     {
-      open MaterialUi
       <div className=Styles.infoBlock>
-        <Table size=#Small> <TableBody> {getTable(particle)->React.array} </TableBody> </Table>
+        <Table size=Table.Small> <TableBody> {getTable(particle)->React.array} </TableBody> </Table>
       </div>
     }
-  </MaterialUi_ThemeProvider>
+  </ThemeProvider>

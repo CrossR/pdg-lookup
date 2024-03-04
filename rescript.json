@@ -21,13 +21,15 @@
     "bs-css",
     "bs-css-emotion",
     "@rescript/react",
-    "rescript-material-ui"
+    "@rescript-mui/material"
   ],
-  "bs-dev-dependencies": ["bs-webapi"],
-  "ppx-flags": [],
+  "bs-dev-dependencies": ["rescript-webapi"],
+  "bsc-flags": ["-open Belt"],
   "warnings": {
-    "number": "+A-48-42",
-    "error": "+A-3-44-102"
+    "number": "-103"
   },
-  "bsc-flags": ["-bs-super-errors", "-bs-no-version-header", "-open Belt"]
+  "jsx": {
+    "mode": "automatic",
+    "version": 4
+  }
 }
