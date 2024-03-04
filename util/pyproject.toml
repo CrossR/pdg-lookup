@@ -2,7 +2,7 @@
 name = "pdg_lookup"
 version = "0.1.0"
 description = ""
-authors = ["CrossR <r.cross@lancaster.ac.uk>"]
+authors = ["CrossR <ryan.cross@warwick.ac.uk>"]
 
 [tool.poetry.dependencies]
 python = "^3.8"

@@ -42,21 +42,29 @@ testing = ["pytest (>=4.6)", "pytest-checkdocs (>=2.4)", "pytest-flake8", "pytes
 
 [[package]]
 name = "particle"
-version = "0.20.1"
+version = "0.23.1"
 description = "Extended PDG particle data and MC identification codes"
 category = "main"
 optional = false
-python-versions = ">=3.6"
+python-versions = ">=3.7"
 
 [package.dependencies]
 attrs = ">=19.2"
 hepunits = ">=2.0.0"
 importlib-resources = {version = ">=2.0", markers = "python_version < \"3.9\""}
+typing-extensions = {version = ">=4.5", markers = "python_version < \"3.13\""}
 
 [package.extras]
-all = ["check-manifest (>=0.42)", "pandas", "pytest (>=6)", "pytest-benchmark", "tabulate"]
-dev = ["check-manifest (>=0.42)", "pandas", "pytest (>=6)", "pytest-benchmark", "tabulate"]
-test = ["pandas", "pytest (>=6)", "pytest-benchmark", "pytest-cov", "tabulate"]
+dev = ["pandas", "pytest-benchmark", "pytest (>=6)", "tabulate"]
+test = ["pandas", "pytest-benchmark", "pytest-cov", "pytest (>=6)", "tabulate"]
+
+[[package]]
+name = "typing-extensions"
+version = "4.10.0"
+description = "Backported and Experimental Type Hints for Python 3.8+"
+category = "main"
+optional = false
+python-versions = ">=3.8"
 
 [[package]]
 name = "zipp"
@@ -88,10 +96,8 @@ importlib-resources = [
     {file = "importlib_resources-5.2.2-py3-none-any.whl", hash = "sha256:2480d8e07d1890056cb53c96e3de44fead9c62f2ba949b0f2e4c4345f4afa977"},
     {file = "importlib_resources-5.2.2.tar.gz", hash = "sha256:a65882a4d0fe5fbf702273456ba2ce74fe44892c25e42e057aca526b702a6d4b"},
 ]
-particle = [
-    {file = "particle-0.20.1-py3-none-any.whl", hash = "sha256:06454cf92c87f973864b0b4bebe4a74cf0f3531d10abeb9e94a0d1b5ea88d9d4"},
-    {file = "particle-0.20.1.tar.gz", hash = "sha256:1e8596c2818cae446a958ceb1766a91acc6c6401f01db1d23b94c24827a5c547"},
-]
+particle = []
+typing-extensions = []
 zipp = [
     {file = "zipp-3.5.0-py3-none-any.whl", hash = "sha256:957cfda87797e389580cb8b9e3870841ca991e2125350677b2ca83a0e99390a3"},
     {file = "zipp-3.5.0.tar.gz", hash = "sha256:f5812b1e007e48cff63449a5e9f4e7ebea716b4111f9c4f9a645f91d579bf0c4"},
