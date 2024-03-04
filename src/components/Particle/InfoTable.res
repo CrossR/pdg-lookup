@@ -37,9 +37,9 @@ let getTable = particle => {
 @react.component
 let make = (~particle) =>
   <ThemeProvider theme={Theme(Theme.create({}))}>
-    {
-      <div className=Styles.infoBlock>
-        <Table size=Table.Small> <TableBody> {getTable(particle)->React.array} </TableBody> </Table>
-      </div>
-    }
+    {<div className=Styles.infoBlock>
+      <Table size=Table.Small>
+        <TableBody> {getTable(particle)->React.array} </TableBody>
+      </Table>
+    </div>}
   </ThemeProvider>

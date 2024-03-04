@@ -42,16 +42,16 @@ type propertyValue = {
   units: option<string>,
 }
 
-let makeProperty = ((property, value, units)) => {property: property, value: value, units: units}
+let makeProperty = ((property, value, units)) => {property, value, units}
 
 let getProperties = p =>
   [
-    ("PDG", getPdg(p) |> Belt.Int.toString, None),
+    ("PDG", Belt.Int.toString(getPdg(p)), None),
     ("Mass", getUnknownQuantity(getMass(p)), Some("MeV")),
     ("Charge", getUnknownQuantity(getCharge(p)), None),
     ("Width", getUnknownQuantity(getWidth(p)), None),
     ("I", getUnknownQuantity(getI(p)), None),
-    ("G", getG(p) |> Belt.Int.toString, None),
-    ("C", getC(p) |> Belt.Int.toString, None),
-    ("P", getP(p) |> Belt.Int.toString, None),
+    ("G", Belt.Int.toString(getG(p)), None),
+    ("C", Belt.Int.toString(getC(p)), None),
+    ("P", Belt.Int.toString(getP(p)), None),
   ]->Array.map(x => makeProperty(x))

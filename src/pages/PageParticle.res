@@ -33,8 +33,8 @@ type state = {
 
 let lookupParticle = (_, search) =>
   switch Belt.Int.fromString(search) {
-  | Some(pdg) => {search: search, result: ParticleDataInterface.getWithPDG(pdg)}
-  | None => {search: search, result: ParticleDataInterface.getWithName(search)}
+  | Some(pdg) => {search, result: ParticleDataInterface.getWithPDG(pdg)}
+  | None => {search, result: ParticleDataInterface.getWithName(search)}
   }
 
 @react.component
@@ -49,12 +49,18 @@ let make = () => {
   <>
     <Header />
     <div className=Styles.topLevelBlock>
-      <div> <Search dispatch invalidSearch /> </div>
+      <div>
+        <Search dispatch invalidSearch />
+      </div>
       {switch state.result {
       | Some(particle) =>
         <div className=Styles.resultBlock>
-          <div className=Styles.nameBlock> <LatexName particle /> </div>
-          <div> <InfoTable particle /> </div>
+          <div className=Styles.nameBlock>
+            <LatexName particle />
+          </div>
+          <div>
+            <InfoTable particle />
+          </div>
         </div>
       | None => React.null
       }}
