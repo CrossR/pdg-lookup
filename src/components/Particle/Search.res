@@ -24,7 +24,7 @@ let make = (~dispatch, ~invalidSearch) =>
       className={invalidSearch ? Styles.invalidSeachField : Styles.searchField}
       type_="search"
       autoFocus=true
-      placeholder="Input PDG"
+      placeholder="Search with PDG Number or Name"
       onChange={e => dispatch((e->ReactEvent.Form.target)["value"])}
     />
   </ThemeProvider>
