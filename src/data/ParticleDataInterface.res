@@ -20,10 +20,6 @@ let getWithName = name => {
 
   switch Belt.Map.String.get(particleNameMap, lowerName) {
   | Some(p) => Some(p)
-  | None =>
-    switch Belt.Map.String.get(ParticleNames.namePDGMap, lowerName) {
-    | Some(pdg) => getWithPDG(pdg)
-    | None => None
-    }
+  | None => None
   }
 }
