@@ -1,6 +1,6 @@
 # PDG Code Lookup - [Link](https://crossr.github.io/pdg-lookup/)
 
-[![Actions Status](https://img.shields.io/github/workflow/status/CrossR/pdg-lookup/CI)](https://github.com/CrossR/pdg-lookup/actions)
+[![Actions Status](https://github.com/CrossR/pdg-lookup/actions/workflows/ci.yml/badge.svg)](https://github.com/CrossR/pdg-lookup/actions)
 [![Website Status](https://img.shields.io/website?url=https%3A%2F%2Fcrossr.github.io%2Fpdg-lookup%2F)](https://crossr.github.io/pdg-lookup/)
 [![MIT license](https://img.shields.io/badge/License-MIT-blue.svg)](https://lbesson.mit-license.org/)
 
